@@ -7,3 +7,7 @@ buildpase*.mak	eol=lf
 *.unx		eol=lf
 *.sol		eol=lf
 *.awk		eol=lf
+*	text=auto
+*.png	binary
+*.jpg	binary
+*.so	binary
