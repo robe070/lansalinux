@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<!-- Project   : Web e-Business Framework Wizard Help                         -->
+<!-- Copyright : 2002 LANSA                                                   -->
+<!-- Using     : Virtual Media, http://www.vmtech.com/                        -->
+
+<head>
+<title>Tips &amp; Techniques </title>
+</head>
+
+<body>
+<!-- VMT T -->
+<table width="100%" border="1">
+<tr>
+<td bgcolor="#808080" style="padding-left:0pt; padding-right:0pt;">
+<a href="index.htm"><img src="b8d6b169.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="Contents List"></a>
+<a href="JavaScript:self.history.go(-1)"><img src="8016546c.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="Back"></a>
+<a href="ww5_045.htm"><img src="80000211.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="&lt;&lt;"></a>
+<a href="ww5_055.htm"><img src="80000269.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="&gt;&gt;"></a>
+
+</td>
+</tr>
+</table>
+<br clear="ALL"><!-- VMT /T -->
+<font face="Arial" size="4"><b>Tips &amp; Techniques </b></font><br clear="ALL"><hr size="4">
+<ul><li><font face="Arial" size="2">Menus created with earlier versions (before V10.0) of the e-Business Framework Wizard will be automatically converted for the current e-Business Framework Wizard. Be aware that once these menus have been converted, the menu definitions will no longer be available if you revert to running an earlier version of the e-Business Framework Wizard. The associated menu component will not be modified until you select to re-build the menu using the new e-Business Framework Wizard.</font></li><li><font face="Arial" size="2">It is recommended that you configure your Menu Features before defining or building any standard menus. This is especially useful if you intend to use dynamic buttons on your menus.</font></li><li><font face="Arial" size="2">The menu definitions (Standard and DHTML) are stored on the files DC@W31 and DC@W32. To use the Wizard in a different partition and access these menu definitions, the data from these files must be exported to the partition where the Wizard will be executed.</font></li><li><font face="Arial" size="2">When defining a Horizontal Standard Menu including dynamic buttons, you have the option to select a Tab or Button style. Tab buttons will sit on the edge of the horizontal menu area. The conventional button style is designed to sit above the edge of the horizontal menu area. The combined use of Tab and Button styles will provide undesirable results when the menu is built.</font></li><li><font face="Arial" size="2">When defining a Horizontal Standard Menu including dynamic buttons, be careful about including other Menu Types in the Menu. Variations in the menu width will provide undesirable results when the menu is built.</font></li><li><font face="Arial" size="2">If you are defining a Left or Right Standard Menu including dynamic buttons, you will only have the option to a conventional Button style. Tabs are not supported in this orientation.</font></li><li><font face="Arial" size="2">The code within components or web pages used by the menu is the responsibility of the developer.</font></li><li><font face="Arial" size="2">Any optional JavaScript is the responsibility of the developer.</font></li><li><font face="Arial" size="2">If you previously chose to <i>Include Menu Separator between Menu Items</i>, the box will be checked when you review the menu definition. Any subsequent changes to Menu items will cause the box to become unchecked.</font></li><li><font face="Arial" size="2">If you are using dynamic buttons on your menu, consider including the field STDTABFLR in your functions to automatically support on and off images to indicate which button is currently selected. The STDTABFLR field should be included as a *HIDDEN field in your REQUEST or DISPLAY statements, or in your GROUP_BY statements used with your screens. You can also add the STDTABFLR field to your DEFAULT_HIDDEN or &lt;process&gt;_HIDDEN page. For more details, refer to <A HREF="wiz04_begin.HTM">WIZ04 – Defining a Standard Menu Component</A>.</font></li><li><font face="Arial" size="2">When creating menus in multiple languages, configure a single language and test the menus before defining the menus in any other language. Only the Description, Static Image name, MouseOver Image Name and any Optional JavaScript will vary with language.</font></li><li><font face="Arial" size="2">When creating menus in multiple languages, one of which is English, configure the English menus first. The English version will then be used as the basis for menus in other languages.</font></li></ul><br><div align="CENTER"><table width="84%"><tr><td align="LEFT" valign="TOP" width="18%"><img src="00000004.gif" align="BOTTOM" hspace="0" border="0" width="56" height="44"></td><td align="LEFT" valign="TOP" width="81%"><br><A HREF="wiz04_begin.HTM">WIZ04 - Defining a Standard Menu Component</A><br></td></tr></table></div><br>
+</body>
+</html>

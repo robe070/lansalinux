@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<!-- Project   : Web e-Business Framework Wizard Help                         -->
+<!-- Copyright : 2002 LANSA                                                   -->
+<!-- Using     : Virtual Media, http://www.vmtech.com/                        -->
+
+<head>
+<title>Banner does not appear in the presentation layout</title>
+</head>
+
+<body>
+<!-- VMT T -->
+<table width="100%" border="1">
+<tr>
+<td bgcolor="#808080" style="padding-left:0pt; padding-right:0pt;">
+<a href="index.htm"><img src="b8d6b169.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="Contents List"></a>
+<a href="JavaScript:self.history.go(-1)"><img src="8016546c.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="Back"></a>
+<a href="troubleshooting_gen_2.htm"><img src="80000211.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="&lt;&lt;"></a>
+<a href="troubleshooting_gen_7.htm"><img src="80000269.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="&gt;&gt;"></a>
+
+</td>
+</tr>
+</table>
+<br clear="ALL"><!-- VMT /T -->
+<font face="Arial" size="4"><b>Banner does not appear in the presentation layout</b></font><br clear="ALL"><hr size="4">
+<font face="Arial" size="2">You have elected to include a Banner using the <i>Layout Features</i> then built your layout, but your function does not show a banner when it executes.</font><br><br><font face="Arial" size="3"><i><b>Solution</b></i></font><br><br><font face="Arial" size="2">You must create a banner Web component named STDBANNER. Use the LANSA for the Web Editor to create the component. You can also create a process specific banner named &lt;process name&gt;_STDBANNER.</font><br><br><font face="Arial" size="2">Use the Editor and check the correct LAYOUT page exists, &lt;process name&gt;_LAYOUT or DEFAULT_LAYOUT. Review the HTML and look for the tag &lt;RDML SETTMPFLD="13" VALUE="1"&gt; near the top of the page. If this tag does not appear or the value is not set to "1", then you have not included the component. Use the Wizard to include the missing Layout Feature then rebuild your layout.</font><br><br><font face="Arial" size="2">For more details, refer to <A HREF="ed0940.htm">Banner</A> in the LANSA for the Web Guide.</font><br>
+</body>
+</html>

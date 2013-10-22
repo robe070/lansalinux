@@ -1,0 +1,101 @@
+﻿/*!
+ (c) 2011 LANSA
+ Standard LANSA extensions for jQuery UI theme
+ $Workfile:: std_style.css                        $
+ $UTCDate:: 2012-09-24 03:03:12Z                  $
+ $Revision:: 11                                   $
+ */
+
+.lpage_content_area { font-family: Segoe UI, Arial, sans-serif; font-size: 1.1em; }
+.lpage_content_area .ui-widget { font-size: 1em; }
+
+body {
+	background: #000;
+	color: #fff;
+}
+legend {
+	color: #ffffff;
+}
+td.caption, div.caption, label.caption {
+    font-weight: normal;
+}
+.std_tab_pages_content_wrapper {
+	border: 1px solid #666666;
+}
+
+ul.std_tab_pages_tabs li {
+	border: 1px solid #666666;
+	background: #555555 url(../../../jquery/css/ui-darkness/images/ui-bg_glass_20_555555_1x400.png) 50% 50% repeat-x;
+	color: #eeeeee;
+	font-weight: bold;
+}
+
+ul.std_tab_pages_tabs li.std_tab_active {
+	background-color: #000;
+	background-image: none;
+	color: #eeeeee;
+}
+
+.lpage_default_layout #lpage_header {
+	background: #5c5c5c;
+	color: #fff;
+}
+
+.lpage_default_layout #lpage_footer {
+	background: #5c5c5c;
+	color: #fff;
+}
+
+/*
+ * Styles for std_grid_v2 and default list.
+ */
+
+.std_grid tr.list-o>td, .std_grid tr.odd_row>td, .std_largelist tr.list-o>td  {
+	background: #000000;
+}
+.std_grid tr.list-e>td, .std_grid tr.even_row>td, .std_largelist tr.list-e>td  {
+	background: #303030;
+}
+.std_grid .hoverEffect tr.list-o:hover>td, .std_grid .hoverEffect tr.odd_row:hover>td,
+.std_grid .hoverEffect tr.list-e:hover>td, .std_grid .hoverEffect tr.even_row:hover>td {
+	color: #ffffff;
+	background-color: #0078a3;
+}
+.std_grid .selectableRows tr.selected>td,
+.std_grid .selectableRows tr.selected:hover>td {
+	color: #ffffff;
+	background-color: #f58400;
+}
+.std_grid_sort_indicator_up {
+	background-image: url(images/std_list_sortup.gif);
+}
+.std_grid_sort_indicator_down {
+	background-image: url(images/std_list_sortdown.gif);
+}
+.std_grid input.focus {
+	background-color: white;
+	color: black;
+}
+
+button.std_button_v2 span.std_text {
+	font-size: 1em;
+}
+
+/*
+ * Theme extended color palette
+ */
+.lpc-color-palette-main { color: #ffffff; background-color: #ffffff; border-color: #666666; }
+
+.lpc-color-palette-1-1 { background-color: #0078a3; }
+.lpc-color-palette-1-2 { background-color: #6c6c6c; }
+.lpc-color-palette-1-3 { background-color: #5a0258; }
+.lpc-color-palette-1-4 { background-color: #a83300; }
+.lpc-color-palette-1-5 { background-color: #753f00; }
+
+.lpc-color-palette-2-1 { background-color: #b56200; }
+.lpc-color-palette-2-2 { background-color: #f58400; }
+.lpc-color-palette-2-3 { background-color: #ffc73d; }
+.lpc-color-palette-2-4 { background-color: #59b4b4; }
+.lpc-color-palette-2-5 { background-color: #cccccc; }
+
+.lpc-color-palette-theme-darker { background-color: #003863; }

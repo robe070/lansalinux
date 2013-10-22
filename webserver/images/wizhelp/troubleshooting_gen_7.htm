@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<!-- Project   : Web e-Business Framework Wizard Help                         -->
+<!-- Copyright : 2002 LANSA                                                   -->
+<!-- Using     : Virtual Media, http://www.vmtech.com/                        -->
+
+<head>
+<title>Click Tracking does not log events</title>
+</head>
+
+<body>
+<!-- VMT T -->
+<table width="100%" border="1">
+<tr>
+<td bgcolor="#808080" style="padding-left:0pt; padding-right:0pt;">
+<a href="index.htm"><img src="b8d6b169.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="Contents List"></a>
+<a href="JavaScript:self.history.go(-1)"><img src="8016546c.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="Back"></a>
+<a href="troubleshooting_gen_4.htm"><img src="80000211.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="&lt;&lt;"></a>
+<a href="troubleshooting_gen_5.htm"><img src="80000269.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="&gt;&gt;"></a>
+
+</td>
+</tr>
+</table>
+<br clear="ALL"><!-- VMT /T -->
+<font face="Arial" size="4"><b>Click Tracking does not log events</b></font><br clear="ALL"><hr size="4">
+<font face="Arial" size="2">You have elected to include a Click Tracking using the <i>Layout Features</i> then built your layout, but there are no details in your trace files (DC@W26 and DC@W27) after running your Web application.</font><br><br><font face="Arial" size="3"><i><b>Solution</b></i></font><br><br><font face="Arial" size="2">Create a component &lt;process name&gt;_TRACE or DEFAULT_TRACE with the appropriate TRACE_DETAIL or TRACE_SUMMARY statement embedded in the page.</font><br><br><font face="Arial" size="2">Use the Editor and check the correct LAYOUT page exists, &lt;process name&gt;_LAYOUT or DEFAULT_LAYOUT. Review the HTML and look for the tag &lt;RDML TRACE&gt; near the top of the page. If this tag does not appear, then you have not included the component. Use the Wizard to include the missing Layout Feature then rebuild your layout.</font><br><br><font face="Arial" size="2">For more details, refer to <A HREF="gs0i120.htm">Enabling Event Logging</A> in the <i>LANSA for the Web Guide</i>.</font><br>
+</body>
+</html>

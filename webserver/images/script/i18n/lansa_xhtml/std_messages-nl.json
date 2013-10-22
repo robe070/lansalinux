@@ -1,0 +1,33 @@
+﻿{
+	"strings": {
+		"BadNum": "Ongeldig getal. Dit getal mag alleen cijfers bevatten (niet meer dan %1% voor de comma en niet meer %2% na de comma).",
+		"BadInt": "Ongeldig geheel getal.",
+		"BadIntWithRange": "Ongeldig geheel getal. Mag niet kleiner zijn dan %1%, of groter dan %2%.",
+		"BadFloat": "Ongeldig decimaal getal!",
+		"BadDate": "Ongeldige datum!",
+		"BadDate1": " is een ongeldige datum!",
+		"BlankDate": "Lege datum is ongeldig. Wordt geinterpreteerd als 'vandaag'!.",
+		"BlankDate2": "Lege datum is ongeldig.",
+		"BadTime": "Ongeldige tijd!",
+		"BadTime1": " is een ongeldige tijd !",
+		"BlankTime": "Lege tijd is ongeldig! Wordt geinterpreteerd als 'nu'!",
+		"BlankTime2": "Lege tijd is ongeldig!",
+		"BadDateTime": "Ongeldige datum en tijd!",
+		"BadBool": "Ongeldige waarde.\nMoet \"true\" of \"false\" zijn",
+		"BadDBCS_TooLong": "Aantal letters na conversie is %1, dat is meer dan de maximum toegestane waarde van %2.",
+		"BadDBCS_SBCSNotAllowed": "Alleen DBCS letters zijn toegestaan in dit veld. Het bevat %1 SBCS letters.",
+		"BadDBCS_DBCSNotAllowed": "Alleen SBCS letters zijn toegestaan in dit veld. Het bevat %1 DBCS letters.",
+		"BadDBCS_BothNotAllowed": "Een combinatie van DBCS en SBCS letters is niet toegestaan in dit veld. Het bevat %1 SBCS en %2 DBCS letters.",
+		"BadLength1": "Maximum aantal letters bereikt.",
+		"NoXMLHttpRequest": "XMLHttpRequest wordt niet ondersteund door deze browser.",
+		"Processing1": "Bezig met verwerken",
+		"Done1": "Klaar",
+		"Messages": "Berichten:"
+	},
+	"arrays": {
+		"DaysOfWeek": ["Ma", "Di", "Wo", "Do", "Vr", "Za", "Zo"],
+		"DaysOfWeekLong": ["Maandag", "Dinsdag", "Woensdag", "Donderdag", "Vrijdag", "Zaterdag", "Zondag"],
+		"Months": ["Januari", "Februari", "Maart", "April", "Mei", "Juni", "Juli", "Augustus", "September", "Oktober", "November", "December"],
+		"MonthsShort": ["Jan", "Feb", "Maa", "Apr", "Mei", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dec"]
+	}
+}

@@ -1,0 +1,10 @@
+* LANSA Communication Routing Table File
+* Comma Delimited, positional parameters.
+* Empty parameters must have at least one space.
+* Record Types (first character)
+*   R   routing information
+*   T   module trace information
+*R,LUName,FullyQualName,IPCMethod,IPCModule,Trace,ConnectId,PacketSize,IPCOptions
+*T,module identity,Trace
+*
+R,*LOCAL,127.0.0.1,Socket, ,0,4546,0,1

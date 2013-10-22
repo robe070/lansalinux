@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<!-- Project   : Web e-Business Framework Wizard Help                         -->
+<!-- Copyright : 2002 LANSA                                                   -->
+<!-- Using     : Virtual Media, http://www.vmtech.com/                        -->
+
+<head>
+<title>Partition Wide Versus System Wide</title>
+</head>
+
+<body>
+<!-- VMT T -->
+<table width="100%" border="1">
+<tr>
+<td bgcolor="#808080" style="padding-left:0pt; padding-right:0pt;">
+<a href="index.htm"><img src="b8d6b169.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="Contents List"></a>
+<a href="JavaScript:self.history.go(-1)"><img src="8016546c.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="Back"></a>
+<a href="ww2_055.htm"><img src="80000211.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="&lt;&lt;"></a>
+<a href="ww2_065.htm"><img src="80000269.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="&gt;&gt;"></a>
+
+</td>
+</tr>
+</table>
+<br clear="ALL"><!-- VMT /T -->
+<font face="Arial" size="4"><b>Partition Wide Versus System Wide</b></font><br clear="ALL"><hr size="4">
+<font face="Arial" size="2">It is important to understand how the changes made by the Wizard will impact your LANSA for the Web application. Some changes impact the complete LANSA system (i.e. all partitions) while other changes will only impact a single partition.</font><br><br><font face="Arial" size="3"><i><b>Graphic Variables are System Wide</b></i></font><br><br><font face="Arial" size="2">Any change to a graphic variable will impact the entire LANSA system.</font><br><br><font face="Arial" size="2">Changes to browse list variables will impact all references to browse lists with the specific name in all processes and partitions. For example, many of the LANSA templates use browse lists named LIST. If you make presentation changes to the specific browse list named LIST, then every function in every partition in your system that uses LIST will be impacted by the change.</font><br><br><font face="Arial" size="2">If you are working with a subset of processes, only browse lists referenced by these processes will be listed. However, be aware that these browse list names may be used in other processes beyond the scope of your Web application.</font><br><br><font face="Arial" size="2">Specific process variables are automatically created to store your layout and menu selections. These values will be used by all processes with the same name in your LANSA system. For example, if you create a process named TEST01 in the DEM partition and you have a process named TEST01 in the PRD partition, both processes are impacted by your changes to the layout color scheme and features.</font><br><br><font face="Arial" size="2">A pre-determined set of System Variables are used as the default value for all processes in your LANSA system which do not have specific process variables associated with them.</font><br><br><font face="Arial" size="2">The impact of changes is a very important consideration if you are exporting processes between partitions in the same or different LANSA systems. For more details, refer to <A HREF="wwa_001.HTM">Application Import/Export</A>.</font><br><br><font face="Arial" size="3"><i><b>Layouts and Menu Components are Partition Wide</b></i></font><br><br><font face="Arial" size="2">All presentation layouts and menu components (left, right or horizontal) are partition specific.</font><br><br><font face="Arial" size="2">The layout and menus associated with process DEFAULT is used as the default layout for processes in your current partition. It is not used for the complete LANSA system. </font><br><br><font face="Arial" size="2">LANSA process names must be unique in a partition. Consequently, any specific process layout changes will only affect the selected process in the partition where you are working.</font><br><br><font face="Arial" size="2">If you wish to use your layouts or menu components in another partition, they must be exported and imported into the target partition. Process specific layouts and components are automatically exported with the process definition. For more details, refer to Application Import/Export.</font><br>
+</body>
+</html>

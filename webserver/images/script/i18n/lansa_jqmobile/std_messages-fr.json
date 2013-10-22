@@ -1,0 +1,35 @@
+﻿
+{
+	"strings": {
+		"BadNum": "Nombre incorrect. Le nombre doit ne contenie que des chiffres (pas plus de %1% avant le séparateur décimal et pas plus de %2% après).",
+		"BadInt": "Nombre entier incorrect!",
+		"BadIntWithRange": "Nombre entier incorrect! Ne peut pas être inférieur à %1%, ou supérieur à %2%.",
+		"BadFloat": "Nombre à décimale flottante incorrect!",
+		"BadDate": "Date incorrecte !",
+		"BadTime": "Heure incorrecte!",
+		"BadDateTime": "Date-heure incorrecte!",
+		"BadDBCS_TooLong": "La longueur totale des caractères saisis convertis %1 dépasse la longueur maximum autorisée %2.",
+		"BadDBCS_SBCSNotAllowed": "Seuls sont admis dans cette zone des caractères DBCS. %1 caractères SBCS ont été saisis.",
+		"BadDBCS_DBCSNotAllowed": "Seuls sont admis dans cette zone des caractères SBCS. %1 caractères DBCS ont été saisis.",
+		"BadDBCS_BothNotAllowed": "Vous pouvez saisir soit des caractères DBCS soit des caractères SBCS dans cette zone. %1 caractères SBCS ont été saisis. %2 caractères DBCS ont été saisis.",
+		"mobiscroll-cancelText": "Anuller",
+		"mobiscroll-setText": "Définir",
+		"mobiscroll-dayText": "Jour",
+		"mobiscroll-monthText": "Mois",
+		"mobiscroll-yearText": "Année",
+		"mobiscroll-hourText": "Heures",
+		"mobiscroll-minuteText": "Minutes",
+		"mobiscroll-secText": "Secondes",
+		"mobiscroll-dateFormat": "dd/mm/yy",
+		"mobiscroll-timeFormat": "hh:ii A",
+		"mobiscroll-dateOrder": "dMMy",
+      "mobiscroll-timeWheels": "hhiiA"
+	},
+	
+	"arrays": {
+		"DaysOfWeekSundayStartShort": ["Dim", "Lun", "Mar", "Mer", "Jeu", "Ven", "Sam"],
+		"DaysOfWeekSundayStartLong": ["Dimanche", "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi"],
+		"MonthsShort": ["Janv", "Févr", "Mars", "Avril", "Mai", "Juin", "Juil", "Août", "Sept", "Oct", "Nov", "Déc"],
+		"MonthsLong": ["Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"]
+	}
+}

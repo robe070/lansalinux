@@ -1,0 +1,34 @@
+﻿
+{
+	"strings": {
+		"BadNum": "Ongeldig getal. Dit getal mag alleen cijfers bevatten (niet meer dan %1% voor de comma en niet meer %2% na de comma).",
+		"BadInt": "Ongeldig geheel getal.",
+		"BadIntWithRange": "Ongeldig geheel getal. Mag niet kleiner zijn dan %1%, of groter dan %2%.",
+		"BadFloat": "Ongeldig decimaal getal!",
+		"BadDate": "Ongeldige datum!",
+		"BadTime": "Ongeldige tijd!",
+		"BadDateTime": "Ongeldige datum en tijd!",
+		"BadDBCS_TooLong": "Aantal letters na conversie is %1, dat is meer dan de maximum toegestane waarde van %2.",
+		"BadDBCS_SBCSNotAllowed": "Alleen DBCS letters zijn toegestaan in dit veld. Het bevat %1 SBCS letters.",
+		"BadDBCS_DBCSNotAllowed": "Alleen SBCS letters zijn toegestaan in dit veld. Het bevat %1 DBCS letters.",
+		"BadDBCS_BothNotAllowed": "Een combinatie van DBCS en SBCS letters is niet toegestaan in dit veld. Het bevat %1 SBCS en %2 DBCS letters.",
+		"mobiscroll-cancelText": "Annuleer",
+		"mobiscroll-setText": "Kies",
+		"mobiscroll-dayText": "Dag",
+		"mobiscroll-monthText": "Maand",
+		"mobiscroll-yearText": "Jaar",
+		"mobiscroll-hourText": "Uren",
+		"mobiscroll-minuteText": "Minuten",
+		"mobiscroll-secText": "Seconden",
+		"mobiscroll-dateFormat": "dd-mm-yy",
+		"mobiscroll-timeFormat": "hh:ii A",
+		"mobiscroll-dateOrder": "MMdyy",
+      "mobiscroll-timeWheels": "hhiiA"
+	},
+	"arrays": {
+		"DaysOfWeekSundayStartShort": ["Zo", "Ma", "Di", "Wo", "Do", "Vr", "Za"],
+		"DaysOfWeekSundayStartLong": ["Zondag", "Maandag", "Dinsdag", "Woensdag", "Donderdag", "Vrijdag", "Zaterdag"],
+		"MonthsShort": ["Jan", "Feb", "Maa", "Apr", "Mei", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dec"],
+		"MonthsLong": ["Januari", "Februari", "Maart", "April", "Mei", "Juni", "Juli", "Augustus", "September", "Oktober", "November", "December"]
+	}
+}

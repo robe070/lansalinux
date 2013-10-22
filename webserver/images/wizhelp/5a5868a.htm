@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<!-- Project   : Web e-Business Framework Wizard Help                         -->
+<!-- Copyright : 2002 LANSA                                                   -->
+<!-- Using     : Virtual Media, http://www.vmtech.com/                        -->
+
+<head>
+<title>Converting a Web Application from Wizard V9.1 to V10.0</title>
+</head>
+
+<body>
+<!-- VMT T -->
+<table width="100%" border="1">
+<tr>
+<td bgcolor="#808080" style="padding-left:0pt; padding-right:0pt;">
+<a href="index.htm"><img src="b8d6b169.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="Contents List"></a>
+<a href="JavaScript:self.history.go(-1)"><img src="8016546c.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="Back"></a>
+<a href="ww2_092.htm"><img src="80000211.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="&lt;&lt;"></a>
+<a href="wiz02.htm"><img src="80000269.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="&gt;&gt;"></a>
+
+</td>
+</tr>
+</table>
+<br clear="ALL"><!-- VMT /T -->
+<font face="Arial" size="4"><b>Converting a Web Application from Wizard V9.1 to V10.0</b></font><br clear="ALL"><hr size="4">
+<font face="Arial" size="2">If you have used an earlier version of the e-Business Framework Wizard to customize a LANSA for the Web Application you can:</font><br><ul><li><font face="Arial" size="2">Continue to use and maintain your Web Application with it's current interface<br>This is the recommended approach if do not want to change the "look and feel" of your Web Application. In this case, continue to use the Wizard V9.1 to modify menus.</font></li><li><font face="Arial" size="2">Modify your existing interface using the e-Business Framework Wizard V10.0<br>To rejuvenate your Web Application by adding a new "look and feel" consider using the Wizard V10.0 to upgrade the interface. How to do this is described in the simple steps following.</font></li></ul><hr noshade><font face="Arial" size="2"><b>Warning: </b>You cannot mix and match Wizard V10.0 features with features from an earlier release of the Wizard. For example, you cannot elect to use a Wizard V10.0 layout with Wizard V9.1 menu styles.</font><br><hr noshade><font face="Arial" size="2">To convert an interface created using a previous version of the e-Business Framework Wizard to Wizard V10.0:</font><br><ol><li><font face="Arial" size="2">Use the Define Process Group to nominate the set of processes to be modified (if your Web Application uses generic naming for processes).</font></li><li><font face="Arial" size="2">Select the primary process used in the Web Application and build a new layout using the Wizard V10.0 (including Color Scheme and Layout Features). Ensure your menu selection matches your new design requirements. Any pre-existing menu definitions will be converted as Standard Menus.</font></li><li><font face="Arial" size="2">Select <i>Menus</i> from the <i>Characteristics to Modify</i> drop down list, and review the menu definition which has been automatically converted from the Wizard 9.1 definitions. If you intend to use the <i>Dynamic Buttons</i> option to display menu items, review the <i>Menu Features</i> and select a default dynamic button style and color to be used for your process.</font><br><br><font face="Arial" size="2"><b>Technical Note:</b> In previous versions of the LANSA e-Business Framework Wizard, the menu definition were included as a comment at the beginning of the associated menu HTML page. In Version 10.0, these definitions are removed from the HTML page and are stored in files DC@W31 and DC@W32. Once the menu is re-built using the V10.0 of the Wizard, the menu definitions will no longer be available for modification.</font><br><br></li><li><font face="Arial" size="2">DHTML menus were not supported prior to the Wizard V10.0 so there is no earlier information available to be converted. </font></li><li><font face="Arial" size="2">If you manually created a process level style sheet, the definition will be automatically interpreted by the Wizard V10.0. You can continue to manually maintain your style sheet or use the Wizard V10.0 to maintain the style sheet definition.</font></li><li><font face="Arial" size="2">Browse List information is handled the same way in the Wizard V10.0 as in earlier versions of the Wizard. No conversion is required to use the Wizard V10.0.</font></li><li><font face="Arial" size="2">Adopted processes do not need to be modified UNLESS you want to remove the process level variables associated with an adopting process (This feature was not available in earlier versions of the Wizard).</font></li></ol><hr noshade><font face="Arial" size="2"><b>Warning:</b> Once you have converted any pre-existing menus to use the LANSA e-Business Framework Wizard V10.0, you will no longer have access to the menu definitions from earlier versions of the Wizard. This will only take effect after you have re-built the menus using the Wizard V10.0.</font><br><hr noshade><br><br><br>
+</body>
+</html>

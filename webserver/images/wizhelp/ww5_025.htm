@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<!-- Project   : Web e-Business Framework Wizard Help                         -->
+<!-- Copyright : 2002 LANSA                                                   -->
+<!-- Using     : Virtual Media, http://www.vmtech.com/                        -->
+
+<head>
+<title>Menu Type </title>
+</head>
+
+<body>
+<!-- VMT T -->
+<table width="100%" border="1">
+<tr>
+<td bgcolor="#808080" style="padding-left:0pt; padding-right:0pt;">
+<a href="index.htm"><img src="b8d6b169.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="Contents List"></a>
+<a href="JavaScript:self.history.go(-1)"><img src="8016546c.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="Back"></a>
+<a href="ww5_020.htm"><img src="80000211.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="&lt;&lt;"></a>
+<a href="ww5_030.htm"><img src="80000269.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="&gt;&gt;"></a>
+
+</td>
+</tr>
+</table>
+<br clear="ALL"><!-- VMT /T -->
+<font face="Arial" size="4"><b>Menu Type </b></font><br clear="ALL"><hr size="4">
+<font face="Arial" size="2">The <i>Menu Type</i> is used by the e-Business Framework Wizard to determine the HTML to generate for the menu item. A menu item can be:</font><br><ul><li><font face="Arial" size="2"><b>A LANSA Web component</b><br>Select the <i>Use Component</i> option to embed an existing Web component into your Menu component. The name of the component is specified in the <i>Description</i> field. Enter the component name in upper case. The <i>Dynamic Button Style</i>, <i>Static Image</i> and <i>MouseOver Image</i> fields are ignored in this case.<br><br>The first item of the Right Menu component of the sample application is an example of a Web component used as a menu item. In this case, the Web component is a Banner component that cycles through a series of other Web components – set to cycle on every visit to the site. Using the menu item in this way allows for a number of promotional materials to be defined (as Web components) and LANSA for the Web then takes care of the cycling of these components via the use of the Web Banner component. <br><br>The code within the component is the responsibility of the developer.</font></li><li><font face="Arial" size="2"><b>A LANSA for the Web page</b><br>Select the <i>Merge Page</i> option to embed another HTML page into your Menu component. The name of the page is specified in the <i>Description</i> field. Enter the page name in upper case. The <i>Dynamic Button Style</i>, <i>Static Image</i> and <i>MouseOver Image</i> fields are ignored in this case.<br><br>The first item of the Left Menu component of the sample application is an example of a merged page. In this case, it is a page that displays a search capability. <br><br>The code within the web page is the responsibility of the developer.</font></li><li><font face="Arial" size="2"><b>Static descriptive text</b><br>Select the <i>Description</i> option to specify text as the menu item. The text you specify in the <i>Description</i> field will be displayed as the menu item. The <i>Dynamic Button Style</i>, <i>Static Image</i> and <i>MouseOver Image</i> fields are ignored in this case.</font></li><li><font face="Arial" size="2"><b>A Dynamic Button</b><br>Select the <i>Dynamic Button</i> option to generate a button image. You must select both a style and color for the buttons. The text you specify in the <i>Description</i> field will be displayed as the button text. The <i>Static Image</i> and <i>MouseOver Image</i> fields are ignored in this case.<br><br>This is the default menu type. The default value used for the button style and color can be set up using the <a href="wizm04.htm">Menu Features</a><br><br>The e-Business Framework Wizard is shipped with four button styles (only two are available for left and right menus) and 19 color options.</font></li><li><font face="Arial" size="2"><b>A Static Image</b> <br>Select the <i>Single Image</i> option if you do not want to have the MouseOver image effect. In this case, a single image is used for the menu item, i.e. the image does not change if the user moves his mouse over the menu item.<br><br>You can associate a user hint with the menu item in the <i>Description</i> field. This tip is shown when the user positions their mouse over the menu item.<br><br>Specify the name of the image in the <i>Static Image</i> field. Use the <i>Image</i> button to check if you have entered the name correctly or if the image exists in your image location.<br><br>To locate an image use the <A HREF="wizfil.HTM">File Search</A> facility on the Left Menu of the Wizard.</font></li><li><font face="Arial" size="2"><b>A Rollover Image</b><br>Select the <i>Rollover Images</i> option to specify a different image to display when the user positions his mouse over the menu item. <br>You can associate a user hint with the menu item in the <i>Description</i> field. This tip is shown when the user positions their mouse over the menu item.<br><br>You specify the name of the image used, when the mouse is not positioned over the item, in the <i>Static Image</i> field. The image for the mouse over effect is specified in the <i>MouseOver Image</i> field.<br>Use the <i>Image</i> button to check if you have entered the name correctly or if the image exists in your image location.<br><br>To locate an image use the <A HREF="wizfil.HTM">File Search</A> facility on the Left Menu of the Wizard.</font></li></ul>
+</body>
+</html>

@@ -1,0 +1,10 @@
+XTSEID     1A  100    1   10
+XTSAPP     2A  100   11   20
+XTSDOC     3A  500   21   70
+XTSSET     4N   50   71   75
+XTSSEQ     5N   50   76   80
+XTSSSQ     6N   50   81   85
+XTSLEN     0N  100   86   95
+XTSDTA     0A 5000   96  595
+XTSSP1     0A  200  596  615
+.@@@@@@@@@@@@@@@@@@@@@@@@@@@@@

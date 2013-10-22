@@ -1,0 +1,7 @@
+* LANSA Communication Listener record File
+* Comma Delimited, positional parameters.
+* Empty parameters must have at least one space.
+* Record Types (first character)
+*   L   listener information
+*L,Threads,IPCMethod,IPCModule,Trace,ConnectId,Compression,Algorithm,Mode,IPCOptions,Features,Timeout
+L,1,Socket, ,0,4546,1,Non,0,1,0,10

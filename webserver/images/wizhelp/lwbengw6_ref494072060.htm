@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<!-- Project   : Web e-Business Framework Wizard Help                         -->
+<!-- Copyright : 2002 LANSA                                                   -->
+<!-- Using     : Virtual Media, http://www.vmtech.com/                        -->
+
+<head>
+<title>Link Type</title>
+</head>
+
+<body>
+<!-- VMT T -->
+<table width="100%" border="1">
+<tr>
+<td bgcolor="#808080" style="padding-left:0pt; padding-right:0pt;">
+<a href="index.htm"><img src="b8d6b169.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="Contents List"></a>
+<a href="JavaScript:self.history.go(-1)"><img src="8016546c.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="Back"></a>
+<a href="lwbengw6_ref494072054.htm"><img src="80000211.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="&lt;&lt;"></a>
+<a href="wize04.htm"><img src="80000269.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="&gt;&gt;"></a>
+
+</td>
+</tr>
+</table>
+<br clear="ALL"><!-- VMT /T -->
+<font face="Arial" size="4"><b>Link Type</b></font><br clear="ALL"><hr size="4">
+<font face="Arial" size="2">The <i>Link Type</i> defines what will happen when a menu item is selected. The Link Type options are identical to those available in Standard menus. A menu item can be used to:</font><br><font face="Arial" size="2">Act as a menu heading or separator.<br>Select the <i>No link</i> option. This means that the menu item is not a hyperlink. This option is typically used to identify a sub-menu which will expand under this heading.</font><br><font face="Arial" size="2">Use a component.<br>Select the <i>Component</i> option. This option allows a LANSA component to be when the link is selected. The code within the component is the responsibility of the developer.<br>Components used in DHTML menus must be defined as <b>script</b> type components in the Web Editor.</font><br><font face="Arial" size="2">Link to a static page or another Web site.<br>Select the <i>Static page</i> option. The URL to access the page or the Web site is specified in the field. For example, you might enter http://www.lansa.com to access the LANSA Web site.<br>You can choose to launch the link in a new window by selecting the <i>Start in New Window</i><b> </b>option.</font><br><font face="Arial" size="2">Link to another LANSA function.<br>Select the <i>LANSA function</i><b> </b>option. The name of the LANSA process and function are specified in the <i>Process</i> and <i>Function</i> fields respectively. The current partition is assumed when invoking the function.</font><br><br><font face="Arial" size="2"><b>The Reuse Job and Start in New Window options</b></font><br><br><font face="Arial" size="2">You can choose to use the HandleEvent JavaScript function to reuse the same LANSA job at the Application Server by selecting the <i>Reuse Job</i> option. If this option is not selected, the menu item uses an anchor block to link to the LANSA function. In other words, it always runs the LANSA function as a new LANSA job at the Application Server.</font><br><br><font face="Arial" size="2">You can choose to launch the link in a new window by selecting the <i>Start in New Window</i><b> </b>option. </font><br><br><font face="Arial" size="2">The <i>Reuse Job</i> and <i>Start in New Window</i> options are mutually exclusive.</font><br><br><font face="Arial" size="2">The Optional JavaScript option allows extra parameters to be passed before a LANSA function is called. If it is left blank, it is assumed that no parameters are passed. An example of optional JavaScript is:</font><br><font face="Courier New" size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;document.LANSA.ANEXTACTION.value='ADD'</font><br><br><br><font face="Arial" size="2">This will generate the following syntax for the JavaScript:</font><br><font face="Courier New" size="2">"JavaScript:document.LANSA.ANEXTACTION.value='ADD' ;HandleEvent('PROCESSNAME', 'FUNCTIONNAME');"</font><br><br><br><font face="Arial" size="2">When adding optional JavaScript, it is your responsibility to make sure that the syntax is correct. The syntax is not validated.</font><br><hr noshade><font face="Arial" size="2">If you choose to link to a non-*WEBEVENT function (i.e. procedural function) from a *WEBEVENT function, you should not select the <i>Reuse Job</i> option. You should launch the link in a new window by selecting the <i>Start in New Window</i> option. </font><br><hr noshade><br>
+</body>
+</html>

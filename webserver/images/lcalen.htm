@@ -1,0 +1,220 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>LANSA Calendar</title>
+<style type="text/css">
+   body            { background-color: #4682b4; text-align: center; }
+   th.weekday      { background: yellow; color: black; font-size: medium; width: 35px; }
+   th.weekend      { background: red; color: black; font-size: medium; width: 35px; }
+   td.dayofmonth   { background: silver; color: black; font-size: medium; width: 35px; }       
+</style>
+
+<script type="text/javascript" language="javascript">
+//<![CDATA[
+function ReturnDate(Rvalue)
+{
+   if (Rvalue == "      ") return;
+
+   var day = parseInt(Rvalue);
+   var month = document.Calendar.month.selectedIndex + 1;
+   var year = document.Calendar.year.selectedIndex + 1980;
+
+   window.opener.SetDate(day, month, year);
+   window.close();
+}
+
+function Redraw(init)
+{
+   var i;
+   var now = new Date();
+   var Yearrt = now.getYear();
+   var nowMonth = now.getMonth();
+   var nowDay = now.getDate();
+
+   window.focus();
+   nowYear = (Yearrt >= 2000) ? Yearrt - 1980 : Yearrt - 80;
+
+   if (init == 1)
+   {
+      document.Calendar.month.selectedIndex = nowMonth;
+      document.Calendar.year.selectedIndex = nowYear;
+   }
+
+   var month = document.Calendar.month.selectedIndex;
+   var year = document.Calendar.year.selectedIndex + 1980;
+   var days = getDaysInMonth(month + 1, year);
+
+   var firstOfMonth = new Date(year, month, 1);
+   var startingPos = firstOfMonth.getDay() + 2;
+   days += startingPos;
+
+   for (i = 2; i < startingPos; i++)
+         document.Calendar.elements[i].value = "      ";
+
+   for (i = startingPos; i < days; i++)
+   {
+      n = i - startingPos + 1;
+      nn = (n < 10) ? "  " + n + "  " : " " + n + " ";
+      document.Calendar.elements[i].value = nn;
+   }
+
+   for (i = days; i < 44; i++) 
+         document.Calendar.elements[i].value = "      ";
+
+   document.Calendar.elements[nowDay + startingPos - 1].focus();
+}
+
+function leapYear(Year)
+{
+   return (((Year%4) == 0) && ((Year % 100) !=0 ) || ((Year % 400) == 0)) ? 1 : 0;
+}
+
+function getDaysInMonth(month,year)
+{
+   var days;
+   if (month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12)
+      days = 31;
+   else if (month == 4 || month == 6 || month == 9 || month == 11)
+      days = 30;
+   else if (month == 2)
+   {
+      days = (leapYear(year) == 1) ? 29 : 28;
+   }
+   return (days);
+}
+//]]>
+</script>
+</head>
+<body onload="Redraw('1')">
+<form name="Calendar" action="">
+<select name="month" onchange="Redraw('2')">
+<option>January</option>
+<option>February</option>
+<option>March</option>
+<option>April</option>
+<option>May</option>
+<option>June</option>
+<option>July</option>
+<option>August</option>
+<option>September</option>
+<option>October</option>
+<option>November</option>
+<option>December</option>
+</select>
+
+<select name="year" onchange="Redraw('2')">
+<option>1980</option>
+<option>1981</option>
+<option>1982</option>
+<option>1983</option>
+<option>1984</option>
+<option>1985</option>
+<option>1986</option>
+<option>1987</option>
+<option>1988</option>
+<option>1989</option>
+<option>1990</option>
+<option>1991</option>
+<option>1992</option>
+<option>1993</option>
+<option>1994</option>
+<option>1995</option>
+<option>1996</option>
+<option>1997</option>
+<option>1998</option>
+<option>1999</option>
+<option>2000</option>
+<option>2001</option>
+<option>2002</option>
+<option>2003</option>
+<option>2004</option>
+<option>2005</option>
+<option>2006</option>
+<option>2007</option>
+<option>2008</option>
+<option>2009</option>
+<option>2010</option>
+<option>2011</option>
+<option>2012</option>
+<option>2013</option>
+<option>2014</option>
+<option>2015</option>
+</select>
+<br />
+<br />
+<hr size="5" width="290" />
+<br />
+<table cellspacing="0" cellpadding="0" border="1">
+<thead>
+<tr>
+<th class="weekend">S</th>
+<th class="weekday">M</th>
+<th class="weekday">T</th>
+<th class="weekday">W</th>
+<th class="weekday">T</th>
+<th class="weekday">F</th>
+<th class="weekend">S</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="dayofmonth"><input type="button" value="       " onclick="ReturnDate(this.value)" /></td>
+<td class="dayofmonth"><input type="button" value="       " onclick="ReturnDate(this.value)" /></td>
+<td class="dayofmonth"><input type="button" value="       " onclick="ReturnDate(this.value)" /></td>
+<td class="dayofmonth"><input type="button" value="       " onclick="ReturnDate(this.value)" /></td>
+<td class="dayofmonth"><input type="button" value="       " onclick="ReturnDate(this.value)" /></td>
+<td class="dayofmonth"><input type="button" value="       " onclick="ReturnDate(this.value)" /></td>
+<td class="dayofmonth"><input type="button" value="       " onclick="ReturnDate(this.value)" /></td>
+</tr>
+<tr>
+<td class="dayofmonth"><input type="button" value="       " onclick="ReturnDate(this.value)" /></td>
+<td class="dayofmonth"><input type="button" value="       " onclick="ReturnDate(this.value)" /></td>
+<td class="dayofmonth"><input type="button" value="       " onclick="ReturnDate(this.value)" /></td>
+<td class="dayofmonth"><input type="button" value="       " onclick="ReturnDate(this.value)" /></td>
+<td class="dayofmonth"><input type="button" value="       " onclick="ReturnDate(this.value)" /></td>
+<td class="dayofmonth"><input type="button" value="       " onclick="ReturnDate(this.value)" /></td>
+<td class="dayofmonth"><input type="button" value="       " onclick="ReturnDate(this.value)" /></td>
+</tr>
+<tr>
+<td class="dayofmonth"><input type="button" value="       " onclick="ReturnDate(this.value)" /></td>
+<td class="dayofmonth"><input type="button" value="       " onclick="ReturnDate(this.value)" /></td>
+<td class="dayofmonth"><input type="button" value="       " onclick="ReturnDate(this.value)" /></td>
+<td class="dayofmonth"><input type="button" value="       " onclick="ReturnDate(this.value)" /></td>
+<td class="dayofmonth"><input type="button" value="       " onclick="ReturnDate(this.value)" /></td>
+<td class="dayofmonth"><input type="button" value="       " onclick="ReturnDate(this.value)" /></td>
+<td class="dayofmonth"><input type="button" value="       " onclick="ReturnDate(this.value)" /></td>
+</tr>
+<tr>
+<td class="dayofmonth"><input type="button" value="       " onclick="ReturnDate(this.value)" /></td>
+<td class="dayofmonth"><input type="button" value="       " onclick="ReturnDate(this.value)" /></td>
+<td class="dayofmonth"><input type="button" value="       " onclick="ReturnDate(this.value)" /></td>
+<td class="dayofmonth"><input type="button" value="       " onclick="ReturnDate(this.value)" /></td>
+<td class="dayofmonth"><input type="button" value="       " onclick="ReturnDate(this.value)" /></td>
+<td class="dayofmonth"><input type="button" value="       " onclick="ReturnDate(this.value)" /></td>
+<td class="dayofmonth"><input type="button" value="       " onclick="ReturnDate(this.value)" /></td>
+</tr>
+<tr>
+<td class="dayofmonth"><input type="button" value="       " onclick="ReturnDate(this.value)" /></td>
+<td class="dayofmonth"><input type="button" value="       " onclick="ReturnDate(this.value)" /></td>
+<td class="dayofmonth"><input type="button" value="       " onclick="ReturnDate(this.value)" /></td>
+<td class="dayofmonth"><input type="button" value="       " onclick="ReturnDate(this.value)" /></td>
+<td class="dayofmonth"><input type="button" value="       " onclick="ReturnDate(this.value)" /></td>
+<td class="dayofmonth"><input type="button" value="       " onclick="ReturnDate(this.value)" /></td>
+<td class="dayofmonth"><input type="button" value="       " onclick="ReturnDate(this.value)" /></td>
+</tr>
+<tr>
+<td class="dayofmonth"><input type="button" value="       " onclick="ReturnDate(this.value)" /></td>
+<td class="dayofmonth"><input type="button" value="       " onclick="ReturnDate(this.value)" /></td>
+<td class="dayofmonth"><input type="button" value="       " onclick="ReturnDate(this.value)" /></td>
+<td class="dayofmonth"><input type="button" value="       " onclick="ReturnDate(this.value)" /></td>
+<td class="dayofmonth"><input type="button" value="       " onclick="ReturnDate(this.value)" /></td>
+<td class="dayofmonth"><input type="button" value="       " onclick="ReturnDate(this.value)" /></td>
+<td class="dayofmonth"><input type="button" value="       " onclick="ReturnDate(this.value)" /></td>
+</tr>
+</tbody>
+</table>
+<br />
+<hr size="5" width="290" />
+</form>
+</body>
+</html>

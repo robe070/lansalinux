@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<!-- Project   : Web e-Business Framework Wizard Help                         -->
+<!-- Copyright : 2002 LANSA                                                   -->
+<!-- Using     : Virtual Media, http://www.vmtech.com/                        -->
+
+<head>
+<title>Wizard does not change the presentation layout of a function</title>
+</head>
+
+<body>
+<!-- VMT T -->
+<table width="100%" border="1">
+<tr>
+<td bgcolor="#808080" style="padding-left:0pt; padding-right:0pt;">
+<a href="index.htm"><img src="b8d6b169.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="Contents List"></a>
+<a href="JavaScript:self.history.go(-1)"><img src="8016546c.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="Back"></a>
+<a href="troubleshooting_gen_1.htm"><img src="80000211.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="&lt;&lt;"></a>
+<a href="troubleshooting_gen_2.htm"><img src="80000269.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="&gt;&gt;"></a>
+
+</td>
+</tr>
+</table>
+<br clear="ALL"><!-- VMT /T -->
+<font face="Arial" size="4"><b>Wizard does not change the presentation layout of a function</b></font><br clear="ALL"><hr size="4">
+<font face="Arial" size="2">You have created a process layout or modified the default layout, but the functions are not using the new layout or components.</font><br><br><font face="Arial" size="3"><i><b>Solution</b></i></font><br><br><font face="Arial" size="2">If you have older functions (created before installing LANSA Release 8.0 EPC538), these functions do not include the commands to include the Wizard layouts. Review the HTML page for your function and search for a &lt;RDML LAYOUT&gt; tag. If this tag is not present, recompile your function so that the HTML page is regenerated. The proper tags will be included. </font><br><br><font face="Arial" size="2">If you have created your own skeletons in file DC@W22 and you wish to use the e-Business Framework Wizard for these functions, you may need to modify your skeletons according to the default shipped skeleton (WEBSKEL in file DC@F28 in the LANSA data library).</font><br><br><font face="Arial" size="2">If you are experiencing this problem with a newly created function, use the Editor and check that the correct LAYOUT pages exist for the process in question. If you do not see the &lt;process name&gt;_LAYOUT or DEFAULT_LAYOUT page, execute the Wizard again.</font><br>
+</body>
+</html>

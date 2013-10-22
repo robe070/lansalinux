@@ -1,0 +1,33 @@
+﻿{
+	"strings": {
+		"BadNum": "Numero non valido. Il numero deve contenere solo cifre (non più di %1%prima della virgola e non più di %2% dopo).",
+		"BadInt": "Numero intero non valido.",
+		"BadIntWithRange": "Numero intero non valido. Non può essere inferiore di %1%, o maggiore di %2%.",
+		"BadFloat": "Numero a virgola mobile non valido!",
+		"BadDate": "Data non valida!",
+		"BadDate1": " è una data non valida!",
+		"BlankDate": "Zeros è una data non valida. Default data del giorno.",
+		"BlankDate2": "Zeros è una data non valida.",
+		"BadTime": "Ora non valida!",
+		"BadTime1": " è un'ora non valida!",
+		"BlankTime": "Zeros è un'ora non valida! Default ora corrente!",
+		"BlankTime2": "Zeros è un'ora non valida!",
+		"BadDateTime": "datetime non valida!",
+		"BadBool": "Valore non valido.\nValue deve essere \"vero\" o \"falso\"",
+		"BadDBCS_TooLong": "La lunghezza convertita di caratteri immessi è %1 che supera la lunghezza permessa massima di %2.",
+		"BadDBCS_SBCSNotAllowed": "Solo caratteri DBCS sono ammessi in questo campo. %1 caratteri SBCS sono stati immessi.",
+		"BadDBCS_DBCSNotAllowed": "Solo caratteri SBCS sono ammessi in questo campo. %1 caratteri DBCS sono stati immessi.",
+		"BadDBCS_BothNotAllowed": "O tutti i caratteri DBCS o tutti i caratteri SBCS sono permessi in questo campo. Sono stati immessi i caratteri %1 SBCS. Sono stati immessi i caratteri %2 DBCS.",
+		"BadLength1": "Raggiunto il numero massimo di caratteri.",
+		"NoXMLHttpRequest": "XMLHttpRequest non è supportato in questo browser.",
+		"Processing1": "Elaborazione..",
+		"Done1": "Fatto..",
+		"Messages": "Messaggi:"
+	},
+	"arrays": {
+		"DaysOfWeek": ["Lun", "Mar", "Mer", "Gio", "Ven", "Sab", "Dom"],
+		"DaysOfWeekLong": ["Lunedì", "Martedì", "Mercoledì", "Giovedì", "Venerdì", "Sabato", "Domenica"],
+		"Months": ["Gennaio", "Febbraio", "Marzo", "Aprile", "Maggio", "Giugno", "Luglio", "Agosto", "Settembre", "Ottobre", "Novembre", "Dicembre"],
+		"MonthsShort": ["Gen", "Feb", "Mar", "Apr", "Mag", "Giu", "Lug", "Ago", "Set", "Ott", "Nov", "Dic"]
+	}
+}

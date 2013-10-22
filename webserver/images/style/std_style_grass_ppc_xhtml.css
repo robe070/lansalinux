@@ -1,0 +1,16 @@
+﻿/*!
+ (c) 2002, 2011 LANSA
+ PPC XHTML Styles: Grass
+ $Workfile:: std_style_grass_ppc_xhtml.css    $
+ $UTCDate:: 2011-10-21 05:42:39Z              $
+ $Revision:: 8                                $
+ Deprecated. Replaced by theme_grass_ppc_xhtml.css
+*/
+
+/*
+	There should no longer be any references to this file but, just
+	in case, the following will ensure backwards compatibility.
+*/
+
+@import url("std_style_lansa_ppc_xhtml.css");
+@import url("theme_grass_ppc_xhtml.css");

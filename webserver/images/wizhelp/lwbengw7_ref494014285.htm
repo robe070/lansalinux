@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<!-- Project   : Web e-Business Framework Wizard Help                         -->
+<!-- Copyright : 2002 LANSA                                                   -->
+<!-- Using     : Virtual Media, http://www.vmtech.com/                        -->
+
+<head>
+<title>CSS Tips &amp; Techniques</title>
+</head>
+
+<body>
+<!-- VMT T -->
+<table width="100%" border="1">
+<tr>
+<td bgcolor="#808080" style="padding-left:0pt; padding-right:0pt;">
+<a href="index.htm"><img src="b8d6b169.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="Contents List"></a>
+<a href="JavaScript:self.history.go(-1)"><img src="8016546c.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="Back"></a>
+<a href="ww7_015.htm"><img src="80000211.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="&lt;&lt;"></a>
+<a href="lwbengw7_toc483968700.htm"><img src="80000269.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="&gt;&gt;"></a>
+
+</td>
+</tr>
+</table>
+<br clear="ALL"><!-- VMT /T -->
+<font face="Arial" size="4"><b>CSS Tips &amp; Techniques</b></font><br clear="ALL"><hr size="4">
+<ul><li><font face="Arial" size="2">The general format of a CSS rule is:</font></li></ul><table width="100%"><tr valign="TOP"><td width="5%"><font face="Courier New" size="2">&nbsp;&nbsp;&nbsp;&nbsp;selector</font></td><td><font face="Courier New" size="2">{property&nbsp;:&nbsp;value}</font></td></tr></table><br><font face="Arial" size="2">The Wizard will automatically insert the { } around the declarations (i.e. properties and values) when you build the style sheet. </font><br><br><ul><li><font face="Arial" size="2">Each property must be separated by a semi-colon. For example:</font></li></ul><table width="100%"><tr valign="TOP"><td width="5%"><font face="Courier New" size="2">&nbsp;&nbsp;&nbsp;&nbsp;H1</font></td><td><font face="Courier New" size="2">{&nbsp;color:"#C00000";&nbsp;font-family:&nbsp;arial,&nbsp;garamond;}</font></td></tr></table><br><ul><li><font face="Arial" size="2">The Tag Assistant will not modify properties and values which are already defined as declarations. To modify a property or value using the Tag Assistant, remove the original reference from the free-format text area then use the Tag Assistant to generate the declaration again.</font></li><li><font face="Arial" size="2">An RDML component can be embedded within a style sheet to simplify maintenance even further. For example, you may have a web component FONTPREF1 defined as a text component containing the default font family for your Web Application. The style sheet may then contain the following tags using the default font component:</font></li></ul><font face="Courier New" size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;<font color="#FFFFFF">style</font><font face="Courier New" size="2">&nbsp;type="text/css"&gt;</font><br><font face="Courier New" size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;body&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;font-family:&nbsp;&lt;RDML&nbsp;COMPONENT="FONTPREF1"&gt;;}</font><br><font face="Courier New" size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;table&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;font-family:&nbsp;&lt;RDML&nbsp;COMPONENT="FONTPREF2"&gt;;}</font><br><font face="Courier New" size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/<font color="#FFFFFF">style</font><font face="Courier New" size="2">&gt;</font><br><br><ul><li><font face="Arial" size="2">To reduce the size of a style sheet (and hence the download overhead), selectors can be grouped in a comma-separated group. For example:</font></li></ul><table width="100%"><tr valign="TOP"><td width="5%"><font face="Courier New" size="2">&nbsp;&nbsp;&nbsp;&nbsp;H1,&nbsp;H2,&nbsp;H3</font></td><td><font face="Courier New" size="2">{&nbsp;font-family&nbsp;:&nbsp;helvetica&nbsp;}</font></td></tr></table><br><ul><li><font face="Arial" size="2">Style properties are generally inherited from the parent element to the child element. If no color has been assigned to the 'strong' element, the strong "LANSA" will inherit the color of the parent element. There are some obvious exceptions to this rule. For example, the 'background' property does not inherit, but the parent element's background will shine through by default. For example:</font></li></ul><font face="Courier New" size="2">&nbsp;&nbsp;&nbsp;&nbsp;&lt;H1&gt;&lt;strong&gt;LANSA&lt;/strong&gt;&nbsp;e-Business&nbsp;Framework&nbsp;Wizard&lt;/H1&gt;</font><br><br><ul><li><font face="Arial" size="2">Comments can be added to your style sheet using /* to open the comment and */ to close the comment. For example:</font></li></ul><table width="100%"><tr valign="TOP"><td width="5%"><font face="Courier New" size="2">&nbsp;&nbsp;&nbsp;&nbsp;H1</font></td><td><font face="Courier New" size="2">{&nbsp;color:"#0000FF"&nbsp;}&nbsp;/*&nbsp;blue&nbsp;*/</font></td></tr></table><br><ul><li><font face="Arial" size="2">For more information on defining CSS, refer to a good reference book on Dynamic HTML (DHTML) or the World Wide Web Consortium at <a href="http://www.w3c.org">http://www.w3c.org</a></font></li></ul><div align="CENTER"><table width="84%"><tr><td align="LEFT" valign="TOP" width="16%"><img src="00000004.gif" align="BOTTOM" hspace="0" border="0" width="56" height="44"></td><td align="LEFT" valign="TOP" width="83%"><br><A HREF="wiz06_begin.HTM">WIZ06 - Defining a Style Sheet</A><br></td></tr></table></div><br>
+</body>
+</html>

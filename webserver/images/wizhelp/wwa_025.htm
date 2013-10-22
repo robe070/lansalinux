@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<!-- Project   : Web e-Business Framework Wizard Help                         -->
+<!-- Copyright : 2002 LANSA                                                   -->
+<!-- Using     : Virtual Media, http://www.vmtech.com/                        -->
+
+<head>
+<title>Exporting Process Changes</title>
+</head>
+
+<body>
+<!-- VMT T -->
+<table width="100%" border="1">
+<tr>
+<td bgcolor="#808080" style="padding-left:0pt; padding-right:0pt;">
+<a href="index.htm"><img src="b8d6b169.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="Contents List"></a>
+<a href="JavaScript:self.history.go(-1)"><img src="8016546c.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="Back"></a>
+<a href="wwa_020.htm"><img src="80000211.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="&lt;&lt;"></a>
+<a href="wwa_030.htm"><img src="80000269.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="&gt;&gt;"></a>
+
+</td>
+</tr>
+</table>
+<br clear="ALL"><!-- VMT /T -->
+<font face="Arial" size="4"><b>Exporting Process Changes</b></font><br clear="ALL"><hr size="4">
+<font face="Arial" size="2">If you are exporting a LANSA for the Web application which has been configured with the e-Business Framework Wizard, your process specific Web components will be automatically exported with the process definition. These components might include:</font><br><p align="LEFT"><font face="Arial" size="2">&lt;process name&gt;_LAYOUT </font></p><font face="Arial" size="2">&lt;process name&gt;_LMENU for the <i>left</i> menu component</font><br><br><font face="Arial" size="2">&lt;process name&gt;_LMENU1 for the <i>standard</i> menu component</font><br><br><font face="Arial" size="2">&lt;process name&gt;_LMENU2 for the <i>DHTML left</i> menu component</font><br><br><font face="Arial" size="2">&lt;process name&gt;_RMENU for the <i>right</i> menu component</font><br><br><font face="Arial" size="2"> &lt;process name&gt;_HMENU for the <i>horizontal</i> menu component</font><br><br><font face="Arial" size="2">&lt;process name&gt;_HMENU1 for the <i>standard horizontal</i> menu component</font><br><br><font face="Arial" size="2">&lt;process name&gt;_HMENU2 for the <i>DHTML horizontal</i> menu component</font><br><br><font face="Arial" size="2">&lt;process name&gt;_STYLE for s<i>tyle sheets</i> used in a layout</font><br><br><font face="Arial" size="2">&lt;process name&gt;_STDBANNER for <i>banner</i> components used in layouts</font><br><br><font face="Arial" size="2">where:</font><br><br><font face="Arial" size="2">&lt;process name&gt; is the name of your LANSA process used with the Wizard.</font><br><br><font face="Arial" size="2">When you export a process, all process related system variables with the prefix *LW3P will be added to the export list. Remember, you do not have to export any process specific graphic variables unless you are planning to import into a partition in a different LANSA system. Modify the objects to be exported as required. If you are moving to a different system, you may need to export some or all of these variables:</font><br><div align="CENTER"><table width="90%"><tr><td align="LEFT" valign="TOP" width="42%"><font face="Arial" size="2">*LW3PMSP_&lt;process name&gt;</font></td><td align="LEFT" valign="TOP" width="57%"><font face="Arial" size="2">Image for menu separator.</font></td></tr><tr><td align="LEFT" valign="TOP" width="42%"><font face="Arial" size="2">*LW3RMBG_&lt;process name&gt;</font></td><td align="LEFT" valign="TOP" width="57%"><font face="Arial" size="2">Color setting for Right Menu Component</font></td></tr><tr><td align="LEFT" valign="TOP" width="42%"><font face="Arial" size="2">*LW3PBGC_&lt;process name&gt;</font></td><td align="LEFT" valign="TOP" width="57%"><font face="Arial" size="2">Default background color for the Client area.</font></td></tr><tr><td align="LEFT" valign="TOP" width="42%"><font face="Arial" size="2">*LW3PBGI_&lt;process name&gt;</font></td><td align="LEFT" valign="TOP" width="57%"><font face="Arial" size="2">Background image for the Client (body) area</font></td></tr><tr><td align="LEFT" valign="TOP" width="42%"><font face="Arial" size="2">*LW3PCLR1_&lt;process name&gt;</font></td><td align="LEFT" valign="TOP" width="57%"><font face="Arial" size="2">Default Layout Left/Horizontal Menu Color</font></td></tr></table></div><br><br><font face="Arial" size="2">Where the <i>&lt;process name&gt;</i> is the name you specified for a specific process.</font><br><br><font face="Arial" size="2">Refer to <a href="wwa_040.htm">Exporting Customized Wizard Settings</a> for other process graphic variables you may choose to exclude from your export.</font><br><hr noshade><font face="Arial" size="2"><b>Note:</b> *LW3PCLR1<i>_&lt;process name&gt; </i>is specific to the e-Business Framework Wizard and is not supported in standard LANSA for the Web Applications.</font><br><hr noshade><font face="Arial" size="2">If your Web application includes a DHTML menu, you must export the component WIZMNUSCR. Refer to <a href="wwa_035.htm">Exporting Wizard Runtime Objects</a>. </font><br>
+</body>
+</html>

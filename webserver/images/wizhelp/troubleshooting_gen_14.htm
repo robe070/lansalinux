@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<!-- Project   : Web e-Business Framework Wizard Help                         -->
+<!-- Copyright : 2002 LANSA                                                   -->
+<!-- Using     : Virtual Media, http://www.vmtech.com/                        -->
+
+<head>
+<title>Curve image in corner of presentation layout is not displayed </title>
+</head>
+
+<body>
+<!-- VMT T -->
+<table width="100%" border="1">
+<tr>
+<td bgcolor="#808080" style="padding-left:0pt; padding-right:0pt;">
+<a href="index.htm"><img src="b8d6b169.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="Contents List"></a>
+<a href="JavaScript:self.history.go(-1)"><img src="8016546c.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="Back"></a>
+<a href="troubleshooting_gen_13.htm"><img src="80000211.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="&lt;&lt;"></a>
+<a href="troubleshooting_gen_15.htm"><img src="80000269.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="&gt;&gt;"></a>
+
+</td>
+</tr>
+</table>
+<br clear="ALL"><!-- VMT /T -->
+<font face="Arial" size="4"><b>Curve image in corner of presentation layout is not displayed </b></font><br clear="ALL"><hr size="4">
+<font face="Arial" size="2">While executing your Web application, the Layout Presentation does not display the curved corner image.</font><br><br><font face="Arial" size="3"><i><b>Solution</b></i></font><br><br><font face="Arial" size="2">Curved corner images are included in your Layout component if you select Layout Schema 1, 3 or 5 in combination with a Wizard Support color for the Left/Horizontal Menu.</font><br><br><font face="Arial" size="2">If you originally build your layout using a Wizard Supported Color and Layout Schema 1, 3 or 5, the curved corner images are embedded in your &lt;process name&gt;_LAYOUT component. If you later change your color schema, and do not select a Wizard Supported Color, an appropriate image does not exist in the image location configured for LANSA for the Web server. Either rebuild your layout to exclude the references to the curved corners images, or change your color scheme and select a Wizard Supported Color.</font><br><br><font face="Arial" size="2">If you originally build your layout not using a Wizard Supported Color and Layout Schema 1, 3 or 5, the curved corner images are not embedded in your &lt;process name&gt;_LAYOUT component. If you later change your color schema and do select a Wizard Supported Color, the &lt;process name&gt;_LAYOUT component is not automatically modified to include the references to images for the corners. Rebuild your layout to include the references to the curved corners images.</font><br>
+</body>
+</html>

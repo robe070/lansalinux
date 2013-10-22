@@ -1,0 +1,28 @@
+<!--
+   SSI variables available for LANSA for the Web error page:
+      LANSA_WPI_CAPTION: Caption of the Web Plug-in
+      USER_HOME_PAGE: URL of user's home page
+      LANSA_MSG_ID: Message ID
+      LANSA_MSG_DETAILS: Message details
+-->
+<html>
+<head>
+<title><!--#echo var="LANSA_WPI_CAPTION"--> Error</title>
+<script type="text/javascript" language="javascript">
+//<![CDATA[
+function HomePage(){ parent.location="<!--#echo var="USER_HOME_PAGE"-->"; }
+//]]>
+</script>
+</head>
+<body>
+<hr />
+<br />
+<h1><!--#echo var="LANSA_MSG_DETAILS"--></h1>
+<br />
+<hr />
+<br />
+<br />
+<br />
+<a href="JavaScript:HomePage()">Return to Home Page</a>
+</body>
+</html>

@@ -1,0 +1,33 @@
+﻿{
+	"strings": {
+		"BadNum": "Número Inválido. O numero deverá conter somente digitos (nunca mais do que %1% antes do separador decimal e nunca mais do que %2% após o separador decimal).",
+		"BadInt": "Número do tipo Inteiro (Integer) Inválido.",
+		"BadIntWithRange": "Número do tipo Inteiro (Integer) Inválido. Não pode ser inferior a %1%, ou superior a %2%.",
+		"BadFloat": "Número do tipo Vírgula Flutuante (Floating point) Inválido!",
+		"BadDate": "Data Inválida!",
+		"BadDate1": " é uma data inválida!",
+		"BlankDate": "A data não pode estar em branco pois é inválida. Será assumida a data de hoje.",
+		"BlankDate2": "A data não pode estar em branco pois é inválida.",
+		"BadTime": "Hora Inválida!",
+		"BadTime1": " é uma hora inválida!",
+		"BlankTime": "A hora não pode estar em branco pois é inválida. Será assumida a hora actual!",
+		"BlankTime2": "A hora não pode estar em branco pois é inválida.!",
+		"BadDateTime": "Data/Hora Inválida!",
+		"BadBool": "Valor inválido.\nO valor deverá ser \"true\" ou \"false\"",
+		"BadDBCS_TooLong": "O tamanho dos caracteres convertidos que foi introduzido é %1 que excede o tamanho máximo permitido de %2.",
+		"BadDBCS_SBCSNotAllowed": "Neste campo só são permitidos caracteres DBCS (Double Byte). Foram introduzidos %1 caracteres SBCS (Single Byte).",
+		"BadDBCS_DBCSNotAllowed": "Neste campo só são permitidos caracteres SBCS (Single Byte). Foram introduzidos %1 caracteres DBCS (Double Byte).",
+		"BadDBCS_BothNotAllowed": "Neste campo só são permitidos ou caracteres DBCS (Double Byte) ou SBCS (Single Byte). A combinação de ambos não é permitida. Foram introduzidos %1 caracteres SBCS e %2 caracteres DBCS.",
+		"BadLength1": "Foi atingido o número máximo de caracteres.",
+		"NoXMLHttpRequest": "A directiva XMLHttpRequest não é suportada por este browser.",
+		"Processing1": "a processar",
+		"Done1": "Concluido",
+		"Messages": "Mensagens:"
+	},
+	"arrays": {
+		"DaysOfWeek": ["Seg", "Ter", "Qua", "Qui", "Sex", "Sab", "Dom"],
+		"DaysOfWeekLong": ["Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado", "Domingo"],
+		"Months": ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"],
+		"MonthsShort": ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez"]
+	}
+}

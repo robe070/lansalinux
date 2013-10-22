@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<!-- Project   : Web e-Business Framework Wizard Help                         -->
+<!-- Copyright : 2002 LANSA                                                   -->
+<!-- Using     : Virtual Media, http://www.vmtech.com/                        -->
+
+<head>
+<title>Import/Export Considerations</title>
+</head>
+
+<body>
+<!-- VMT T -->
+<table width="100%" border="1">
+<tr>
+<td bgcolor="#808080" style="padding-left:0pt; padding-right:0pt;">
+<a href="index.htm"><img src="b8d6b169.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="Contents List"></a>
+<a href="JavaScript:self.history.go(-1)"><img src="8016546c.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="Back"></a>
+<a href="wwa_040.htm"><img src="80000211.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="&lt;&lt;"></a>
+<a href="wwb_001.htm"><img src="80000269.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="&gt;&gt;"></a>
+
+</td>
+</tr>
+</table>
+<br clear="ALL"><!-- VMT /T -->
+<font face="Arial" size="4"><b>Import/Export Considerations</b></font><br clear="ALL"><hr size="4">
+<font face="Arial" size="2">Following are some important considerations when importing and exporting your LANSA applications, which have been customized using the e-Business Framework Wizard.</font><br><ul><li><font face="Arial" size="2">A LANSA system must be at Release 8.0 and EPC538 (or greater) in order to use an application created with the e-Business Framework Wizard. In general, you must always import into a system which is at the same level or higher than the exporting system. In particular, you must be very careful with changes to the Web skeleton when applications are moved to another system and then recompiled.</font></li><li><font face="Arial" size="2">The e-Business Framework Wizard import (LWEBWIZ2) does not have to be installed in a partition which is used only for executing an application.</font></li><li><font face="Arial" size="2">If you are planning to import LWEBWIZ2 into a partition being used for development, be sure to execute this import before you execute your application import, otherwise LWEBWIZ2 may overwrite your application import.</font></li><li><font face="Arial" size="2">Remember that graphic variables are system wide. When you import into a system, the graphic variables will impact more than one partition.</font></li><li><font face="Arial" size="2">You are responsible for moving any custom image files used by your applications. </font></li><li><font face="Arial" size="2">If your Web application is intended to run in a non-multilingual partition you should execute the Wizard over your application in a non-multilingual partition. If your Web application is intended to run in a multilingual partition you should execute the Wizard over your application in a multilingual partition.</font></li><li><font face="Arial" size="2">If you are importing applications which were created on a LANSA system which does not use the Wizard, refer to <A HREF="ww2_090.HTM">Impact on Existing Applications</A>.</font></li></ul><font face="Arial" size="2" color="#FF0000"><i><b>Tip:</b></i></font><br><br><font size="2"><font face="Arial" size="2">You can create an export of your system variables as a method of backing up your system configuration. If you are using Version 9.x of the e-Business Framework Wizard, and you are importing into a Version 10.0 or greater system, please refer to <A HREF="ww2_092.HTM">Existing LANSA for the Web Application</A>.</font><br><br><br><br><br><br><br>
+</body>
+</html>

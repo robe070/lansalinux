@@ -1,0 +1,1150 @@
+﻿/*!
+ (c) 2009, 2011 LANSA
+ $Workfile:: std_style_crud_silver.css            $
+ $UTCDate:: 2011-10-21 05:42:39Z                  $
+ $Revision:: 7                                    $
+*/
+
+body
+{
+  margin-top: 5px;
+  background-color: #A8A6BE;
+  scrollbar-face-color: #B3B1C9;
+  scrollbar-highlight-color: darkgray;
+  scrollbar-shadow-color: darkgray;
+  scrollbar-3DLIGHT-color: darkgray;
+  scrollbar-arrow-color: #4D4A68;
+  scrollbar-track-color: #E3E2EC;
+  scrollbar-darkshadow-color: darkgray;
+}
+.crud_wam_header_left
+{
+   background: url(/images/crud/themes/silver/crud_wam_header_left.jpg) top left no-repeat;
+   width: 687px;
+   height: 62px;
+}
+.crud_header_spacer
+{
+   background: url(/images/crud/themes/silver/crud_header_spacer.gif) top left repeat-x;
+   width: 46px;
+   height: 13px;
+}
+.crud_footer_spacer
+{
+   background: url(/images/crud/themes/silver/crud_footer_spacer.gif) top left repeat-x;
+   width: 46px;
+   height: 62px;
+}
+.crud_menu_left
+{
+   background: url(/images/crud/themes/silver/crud_menu_left.gif) top left repeat-y;
+   width: 4px;
+   height: 1px;
+}
+.crud_menu_right
+{
+   background: url(/images/crud/themes/silver/crud_menu_right.gif) top left repeat-y;
+   width: 4px;
+   height: 1px;
+}
+.crud_footer_left
+{
+   background: url(/images/crud/themes/silver/crud_footer_left.jpg) top left no-repeat;
+   width: 647px;
+   height: 13px;
+}
+.crud_footer_right
+{
+   background: url(/images/crud/themes/silver/crud_footer_right.jpg) top right no-repeat;
+   width: 329px;
+   height: 13px;
+}
+.crud_footer_menu_left
+{
+   background: url(/images/crud/themes/silver/crud_footer_menu_left.jpg) top left no-repeat;
+   width: 21px;
+   height: 46px;
+}
+.crud_footer_menu_right
+{
+   background: url(/images/crud/themes/silver/crud_footer_menu_right.jpg) top left no-repeat;
+   width: 275px;
+   height: 46px;
+}
+.crud_footer_bgcolor
+{
+   background-color: #E0DEE9;
+}
+.crud_footer_div
+{
+   padding: 6px 0 3px 0;
+   border: 1px solid #E0DEE9;
+}
+.crud_linesep
+{
+   background-color: #78739C;
+}
+.crud_menu_linesep
+{
+    background-color: #B3B1C9;
+}
+#crud_search_container
+{
+   font-family: Verdana, Arial;
+   color: #000000;
+   margin-left: 5px;
+   margin-right: 5px;
+}
+#crud_list
+{
+   margin-left: 5px;
+   margin-right: 5px;
+}
+#crud_buttons
+{
+   margin-left: 5px;
+   margin-right: 5px;
+}
+.crud_header_right
+{
+   background: url(/images/crud/themes/silver/crud_header_right.jpg) top right no-repeat;
+   width: 331px;
+   height: 62px;
+   text-align: center;
+   color: #ffffff;
+   font-family: Verdana, Arial;
+   font-weight: bold;
+   font-size: 14pt;
+}
+.crud_menu_bg
+{
+   background: url(/images/crud/themes/silver/crud_menu_bg.gif) top left repeat-x;
+   width: 1016px;
+   height: 26px;
+}
+.crud_content_left_bg
+{
+   background: url(/images/crud/themes/silver/crud_menu_left.gif) top left repeat-y;
+}
+.crud_content_bg
+{
+   background: url(/images/crud/themes/silver/crud_menu_content_bg.gif) top left repeat-x;
+   background-color: #ffffff;
+}
+.crud_content_right_bg
+{
+   background: url(/images/crud/themes/silver/crud_menu_right.gif) top left repeat-y;
+}
+.crud_footer_left_bg
+{
+   background: url(/images/crud/themes/silver/crud_menu_left.gif) top left repeat-y;
+}
+.crud_footer_content_bg
+{
+   background: url(/images/crud/themes/silver/crud_footer_content_bg.gif) top left repeat-x;
+   height: 46px;
+}
+.crud_footer_right_bg
+{
+   background: url(/images/crud/themes/silver/crud_menu_right.gif) top left repeat-y;
+}
+.crud_footer_menu_text
+{
+   color: #8985A8;
+   font-family: Verdana, Arial;
+   font-size: 10pt;
+   font-weight: bold;
+   padding-left:5px;
+   padding-right:5px;
+   text-align: center;
+}
+.crud_footer_menu_text a
+{
+   color:#8985A8;
+   text-decoration:none;
+}
+.crud_footer_menu_text a:hover
+{
+   color:#F41914;
+   text-decoration: underline;
+}
+.crud_footer_menu_text a:visited
+{
+   color: #C21108;
+   text-decoration: none;
+}
+#crud_footer
+{
+   font-family: Verdana, Arial;
+   font-size: 10pt;
+   font-weight:bold;
+}
+.crud_related{color:#E82520;font-weight:bold; font-size:11pt;text-align:right; padding:0px 10px;}
+.crud_links{color:#E82520;font-size:10pt;font-weight:bold;font-family:Verdana,Arial;line-height:1.6em;padding:0px 10px;}
+.crud_links a{color:#77739D;text-decoration:none;}
+.crud_links a:hover{color:#E82520;text-decoration:underline;}
+.crud_links a:visited{color:#C20C08;text-decoration:none;}
+.crud_leftnavlist{list-style:none;margin:0;padding:0 0  0 .7em; text-indent:-.7em;}
+.crud_leftnavlist li{padding:0px;}
+
+#crud_menu_container {background-image:url(/images/crud/themes/silver/crud_bg_container.gif);background-repeat:repeat-x;background-position:bottom;background-color:#E3E2EC;zoom:100%;}
+
+#crud_menu_header{float:left; color:#8985A8;font-family:Arial,Helvetica,sans-serif; font-size:10pt;line-height:1.2em;font-weight:bold; padding:0px 34px 0px 14px;}
+
+#crud_menu_header ul{margin:0;padding:0;zoom:100%;list-style:none;}
+#crud_menu_header li{float:left; margin:0;padding:0;}
+
+#crud_menu_header a{float:left;background-image:url(/images/crud/themes/silver/crud_left_both.gif); background-repeat:no-repeat;background-position:left top; margin:0;padding:0 0  0 8px; text-decoration:none;}
+#crud_menu_header a span{display:block;background-image:url(/images/crud/themes/silver/crud_right_both.gif); background-repeat:no-repeat;background-position:right top; padding:4px 12px  6px 4px; font-weight:bold; color:#8985A8;}
+
+#crud_menu_header #crud_menu_current a{background-repeat:no-repeat;background-image:url(/images/crud/themes/silver/crud_left_both_on.gif); background-position:0 -150px; border-width:0;border-bottom:0px solid #DFDEE8;}
+#crud_menu_header #crud_menu_current a span{background-repeat:no-repeat;background-image:url(/images/crud/themes/silver/crud_right_both_on.gif); background-position:100% -150px; padding:3px 12px  6px 4px; color:#E82520;}
+
+#crud_menu_header a span{float:none;}
+#crud_menu_header a:hover{background-position:0 -150px;}
+#crud_menu_header a:hover span{background-position:100% -150px; color:#E82520;}
+
+#crud_header .crud_heading
+{
+   font-family:'trebuchet ms',helvetica,sans-serif;
+   font-size:14pt;
+   font-weight:bold;
+   color: #F41914;
+   background-color: #ffffff;
+}
+
+#crud_detail td
+{
+
+}
+#crud_print_icon_container
+{
+   padding: 5px 10px 0px 0px;
+}
+#crud_print_icon_container table
+{
+   padding: 0px 0px 0px 5px;
+ /*  padding: 0px 5px 0px 5px;
+   background-color: #E3E2EC;
+   border: 1px solid #4D4A68; */
+}
+.crud_print_icon a
+{
+   color:#C21108;
+   font-weight: bold;
+   text-decoration: none;
+}
+.crud_print_icon a:hover
+{
+   color:#F41914;
+   text-decoration:underline;   
+}
+
+/*------------------------------- START Search Container Styles ----------------------------------*/
+/* CRUD Wizard - Search Container styles for ShowSearchList Webroutine                            */
+/* Used by ShowSearchList Webroutines                                                             */ 
+/* Revision: 1.0                                                                                  */
+/* Default images for Search Container are located in /images/crud/themes/default/                */
+/* All Theme images are located in /images/crud/themes/<theme name> where                         */
+/* <theme name> can be silver, graphite, olive, pumpkin, rose, eggplant, raindyday, spruce, lilac */
+/*------------------------------------------------------------------------------------------------*/
+
+#crud_search_container span
+{
+   font-family: Verdana, Arial;
+   font-size: 10pt;
+}
+#crud_search_container input, select
+{
+   font-family: Verdana, Arial;
+   font-size: 10pt;
+   font-weight:normal;
+   border: solid 1px #B1ADD0;
+   background-color: #ffffff;
+   background: url(/images/crud/themes/silver/crud_input_bg.png) top left repeat-x;
+}
+#crud_search_container textarea
+{
+   font-family: Verdana, Arial;
+   font-size: 10pt;
+   font-weight:normal;
+   border:solid 1px #B1ADD0;
+   background-color: #ffffff;
+   background: url(/images/crud/themes/silver/crud_input_bg.png) top left repeat-x;
+}
+#crud_search td
+{
+   font-size: 10pt;
+   font-weight: bold;
+   color: #C21108;
+}
+.crud_search_border_topleft
+{
+     background: url(/images/crud/themes/silver/crud_searches_tl.gif) top left repeat-x;
+     width: 20px;
+     height:20px;
+}
+.crud_search_border_topright
+{
+     background: url(/images/crud/themes/silver/crud_searches_tr.gif) top left repeat-x;
+     width: 20px;
+     height:20px;
+}
+.crud_search_border_bottomleft
+{
+     background: url(/images/crud/themes/silver/crud_searches_bl.gif) top left repeat-x;
+     width: 20px;
+     height:20px;
+}
+.crud_search_border_bottomright
+{
+     background: url(/images/crud/themes/silver/crud_searches_br.gif) top left repeat-x;
+     width: 20px;
+     height:20px;
+}
+.crud_search_border_top
+{
+     background: url(/images/crud/themes/silver/crud_searches_tm.gif) top left repeat-x;
+     width: 407px;
+     height:10px;
+     background-color:#ffffff;
+}
+.crud_search_border_bottom
+{
+     background: url(/images/crud/themes/silver/crud_searches_bm.gif) bottom left repeat-x;
+     width: 407px;
+     height:10px;
+     background-color:#ffffff;
+}
+.crud_search_border_left
+{
+     background: url(/images/crud/themes/silver/crud_searches_left.gif) top left repeat-y;
+     width: 10px;
+     height:2px;
+     background-color:#ffffff;
+}
+.crud_search_border_right
+{
+     background: url(/images/crud/themes/silver/crud_searches_right.gif) top right repeat-y;
+     width: 10px;
+     height:2px;
+     background-color:#ffffff;
+}
+/*------------------------------------- End SEARCH Container styles ------------------------------*/
+
+/*--------------------------------------- START TABsheet Styles ----------------------------------*/
+/* CRUD Wizard - Search Tab styles for ShowSearchList Webroutine                                  */
+/* Used by std_crud_tabs weblet                                                                   */ 
+/* Revision: 1.0                                                                                  */
+/* Default images for Tabsheet weblet are located in /images/crud/themes/default/                 */
+/* All Theme images are located in /images/crud/themes/<theme name> where                         */
+/* <theme name> can be silver, graphite, olive, pumpkin, rose, eggplant, raindyday, spruce, lilac */
+/*------------------------------------------------------------------------------------------------*/
+
+/* Entire Tabsheet Area - Style by Object ID */
+#crud_tab_container
+{
+    background: url(/images/crud/themes/silver/crud_bg_container.gif) top left;
+    background-color: #E3E2EC;
+    zoom: 100%;
+}
+/* Entire Tabsheet Area Background image style */
+.crud_tab_container_bg
+{
+   background: url(/images/crud/themes/silver/crud_bg_container.gif) top left;
+}
+/* Tab Header Area - All Tabs */
+#crud_tab_header
+{
+    float: left;
+    color: #8985A8;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 10pt;
+    line-height: 1.2em;
+    font-weight: bold;
+    padding: 0px 34px 0px 14px;
+}
+/* Individual Tab Header Area */
+#crud_tab_header ul
+{
+    margin: 0;
+    padding: 0;
+    zoom: 100%;
+    list-style: none;
+}
+/* Individual Tab Item Area */
+#crud_tab_header li
+{
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+/* Individual Tab Item Hyperlink */
+#crud_tab_header a
+{
+    float: left;
+    background-image: url(/images/crud/themes/silver/crud_search_left_both.gif);
+    background-repeat: no-repeat;
+    background-position: left top;
+    margin: 0;
+    padding: 0 0 0 8px;
+    text-decoration: none;
+}
+/* Individual Tab Item Text */
+#crud_tab_header a span
+{
+    display: block;
+    background-image: url(/images/crud/themes/silver/crud_search_right_both.gif);
+    background-repeat: no-repeat;
+    background-position: right top;
+    padding: 4px 12px 6px 4px;
+    font-weight: bold;
+    color: #8985A8;
+    white-space: nowrap;
+}
+/* Selected Tab Item Hyperlink */
+#crud_tab_header #crud_currenttab a
+{
+    background-repeat: no-repeat;
+    background-image: url(/images/crud/themes/silver/crud_search_left_both_on.gif);
+    background-position: 0 -150px;
+    border-width: 0;
+    border-bottom: 0px solid #E3E2EC;
+}
+/* Selected Tab Item Text */
+#crud_tab_header #crud_currenttab a span
+{
+    background-repeat: no-repeat;
+    background-image: url(/images/crud/themes/silver/crud_search_right_both_on.gif);
+    background-position: 100% -150px;
+    padding: 4px 12px 6px 4px;
+    color: #E82020;
+    white-space: nowrap;
+}
+/* Individual Tab Item Mouse-over background */
+#crud_tab_header a:hover
+{
+    background-position: 0 -150px;
+}
+/* Individual Tab Item Mouse-over Text */
+#crud_tab_header a:hover span
+{
+    background-position: 100% -150px;
+    color: #E82020;
+}
+/*---------------------------------------- End TABsheet Styles ----------------------------------*/
+
+/*------------------------------------ START CRUD Button Styles ----------------------------------*/
+/* CRUD Wizard - CRUD Button styles                                                               */
+/* Used by std_crud_button weblet                                                                 */ 
+/* Revision: 1.0                                                                                  */
+/* Default images for CRUD Buttonweblet are located in /images/crud/themes/default/               */
+/* All Theme images are located in /images/crud/themes/<theme name> where                         */
+/* <theme name> can be silver, graphite, olive, pumpkin, rose, eggplant, raindyday, spruce, lilac */
+/*------------------------------------------------------------------------------------------------*/
+
+/* === CRUD Button Style START ===============================================================*/
+
+/* --- Default Button Style START ----------------------------------------------------------------*/
+/*=======================*/
+/* DEFAULT SQUARE BUTTON */
+/*=======================*/
+a.crud_squarebutton_default
+{
+   background: transparent url('/images/crud/themes/default/crud_button_square_left.gif') no-repeat top left;
+   display: block;
+   float: left;
+   font: normal 12px Arial; /* Change 12px as desired */
+   line-height: 15px; /* This value + 4px + 4px (top and bottom padding of SPAN) must equal height of button background (default is 23px) */
+   height: 23px; /* Height of button background height */
+   padding-left: 9px; /* Width of left menu image */
+   text-decoration: none;
+}
+
+a.crud_squarebutton_default span
+{
+   background: transparent url('/images/crud/themes/default/crud_button_square.gif') no-repeat top right;
+   display: block;
+   padding: 4px 9px 4px 0; /* Set 9px below to match value of 'padding-left' value above */
+   color:#12A01C;      
+}
+
+/* Button Hover CSS */
+a.crud_squarebutton_default:hover span
+{ 
+   background-position: bottom right;
+   color: #F38316;
+}
+/* Hover state CSS */
+a.crud_squarebutton_smalldefault
+{
+   background: transparent url('/images/crud/themes/default/crud_button_squaresmall_left.gif') no-repeat top left;
+   display: block;
+   float: left;
+   font: normal 10px Tahoma; /* Change 10px as desired */
+   line-height: 15px; /* This value + 2px + 2px (top and bottom padding of SPAN) must equal height of button background (default is 17px) */
+   height: 17px; /* Height of button background height */
+   padding-left: 7px; /* Width of left menu image */
+   text-decoration: none;
+}
+
+/* Hover state CSS */
+a.crud_squarebutton_smalldefault span
+{
+   background: transparent url('/images/crud/themes/default/crud_button_squaresmall.gif') no-repeat top right;
+   display: block;
+   padding: 0px 8px 2px 0; /* Set 8px below to match value of 'padding-left' value above */
+   font-weight:bold;
+   color:#12A01C;
+}
+
+a.crud_squarebutton_smalldefault:hover span
+{ 
+   background-position: bottom right;
+   color: #F38316;
+}
+
+/* Hover state CSS */
+a.crud_squarebutton_largedefault
+{
+   background: transparent url('/images/crud/themes/default/crud_button_squarelarge_left.gif') no-repeat top left;
+   display: block;
+   float: left;
+   font: normal 16px Tahoma; /* Change 10px as desired */
+   line-height: 16px; /* This value + 2px + 2px (top and bottom padding of SPAN) must equal height of button background (default is 17px) */
+   height: 30px; /* Height of button background height */
+   padding-left: 12px; /* Width of left menu image */
+   text-decoration: none;
+}
+
+/* Hover state CSS */
+a.crud_squarebutton_largedefault span
+{
+   background: transparent url('/images/crud/themes/default/crud_button_squarelarge.gif') no-repeat top right;
+   display: block;
+   padding: 7px 11px 7px 0; /* Set 8px below to match value of 'padding-left' value above */
+   font-weight:bold;
+   color:#12A01C;
+}
+a.crud_squarebutton_largedefault:hover span
+{ 
+   background-position: bottom right;
+   color: #F38316;
+}
+
+/*=====================*/
+/* DEFAULT OVAL BUTTON */
+/*=====================*/
+/* Hover state CSS */
+a.crud_ovalbutton_default
+{
+   background: transparent url('/images/crud/themes/default/crud_button_oval_left.gif') no-repeat top left;
+   display: block;
+   float: left;
+   font: normal 13px Tahoma; /* Change 13px as desired */
+   line-height: 16px; /* This value + 4px + 4px (top and bottom padding of SPAN) must equal height of button background (default is 24px) */
+   height: 24px; /* Height of button background height */
+   padding-left: 11px; /* Width of left menu image */
+   text-decoration: none;
+}
+
+/* Button Text CSS */
+a.crud_ovalbutton_default span
+{
+   background: transparent url('/images/crud/themes/default/crud_button_oval.gif') no-repeat top right;
+   display: block;
+   padding: 4px 11px 4px 0; /* Set 11px below to match value of 'padding-left' value above */
+   font-weight:bold;
+   color:#12A01C;
+}
+
+/* Button Hover CSS */
+a.crud_ovalbutton_default:hover span
+{ 
+   background-position: bottom right;
+   color: #F38316;
+}
+
+/* Hover state CSS */
+a.crud_ovalbutton_smalldefault
+{
+   background: transparent url('/images/crud/themes/default/crud_button_ovalsmall_left.gif') no-repeat top left;
+   display: block;
+   float: left;
+   font: normal 10px Tahoma; /* Change 10px as desired */
+   line-height: 15px; /* This value + 2px + 2px (top and bottom padding of SPAN) must equal height of button background (default is 17px) */
+   height: 17px; /* Height of button background height */
+   padding-left: 8px; /* Width of left menu image */
+   text-decoration: none;
+}
+
+/* Hover state CSS */
+a.crud_ovalbutton_smalldefault span
+{
+   background: transparent url('/images/crud/themes/default/crud_button_ovalsmall.gif') no-repeat top right;
+   display: block;
+   padding: 0px 8px 2px 0; /* Set 8px below to match value of 'padding-left' value above */
+   font-weight:bold;
+   color:#12A01C;
+}
+
+a.crud_ovalbutton_smalldefault:hover span
+{ 
+   background-position: bottom right;
+   color: #F38316;
+}
+
+/* Hover state CSS */
+a.crud_ovalbutton_largedefault
+{
+   background: transparent url('/images/crud/themes/default/crud_button_ovallarge_left.gif') no-repeat top left;
+   display: block;
+   float: left;
+   font: normal 16px Tahoma; /* Change 10px as desired */
+   line-height: 16px; /* This value + 2px + 2px (top and bottom padding of SPAN) must equal height of button background (default is 17px) */
+   height: 30px; /* Height of button background height */
+   padding-left: 14px; /* Width of left menu image */
+   text-decoration: none;
+}
+
+/* Hover state CSS */
+a.crud_ovalbutton_largedefault span
+{
+   background: transparent url('/images/crud/themes/default/crud_button_ovallarge.gif') no-repeat top right;
+   display: block;
+   padding: 7px 11px 7px 0; /* Set 8px below to match value of 'padding-left' value above */
+   font-weight:bold;
+   color:#12A01C;
+}
+a.crud_ovalbutton_largedefault:hover span
+{ 
+   background-position: bottom right;
+   color: #F38316;
+}
+
+/* --- Default Button Style END ----------------------------------------------------------------*/
+
+/* --- Silver Button Style START ----------------------------------------------------------------*/
+/*======================*/
+/* SILVER SQUARE BUTTON */
+/*======================*/
+a.crud_squarebutton_silver
+{
+   background: transparent url('/images/crud/themes/silver/crud_button_square_left.gif') no-repeat top left;
+   display: block;
+   float: left;
+   font: normal 12px Arial; /* Change 12px as desired */
+   line-height: 15px; /* This value + 4px + 4px (top and bottom padding of SPAN) must equal height of button background (default is 23px) */
+   height: 23px; /* Height of button background height */
+   padding-left: 9px; /* Width of left menu image */
+   text-decoration: none;
+}
+ 
+a.crud_squarebutton_silver span
+{
+   background: transparent url('/images/crud/themes/silver/crud_button_square.gif') no-repeat top right;
+   display: block;
+   padding: 4px 9px 4px 0; /*Set 9px below to match value of 'padding-left' value above*/
+   color: #033467;
+}
+
+/* Button Hover CSS */
+a.crud_squarebutton_silver:hover span
+{ 
+   background-position: bottom right;
+   color: #E82020;
+}
+
+/* Hover state CSS */
+a.crud_squarebutton_smallsilver
+{
+   background: transparent url('/images/crud/themes/silver/crud_button_squaresmall_left.gif') no-repeat top left;
+   display: block;
+   float: left;
+   font: normal 10px Tahoma; /* Change 10px as desired */
+   line-height: 15px; /* This value + 2px + 2px (top and bottom padding of SPAN) must equal height of button background (default is 17px) */
+   height: 17px; /* Height of button background height */
+   padding-left: 7px; /* Width of left menu image */
+   text-decoration: none;
+}
+
+/* Hover state CSS */
+a.crud_squarebutton_smallsilver span
+{
+   background: transparent url('/images/crud/themes/silver/crud_button_squaresmall.gif') no-repeat top right;
+   display: block;
+   padding: 0px 8px 2px 0px; /* Set 8px below to match value of 'padding-left' value above */
+   font-weight:bold;
+   color:#033467;
+}
+
+a.crud_squarebutton_smallsilver:hover span
+{ 
+   background-position: bottom right;
+   color: #E82020;
+}
+
+/* Hover state CSS */
+a.crud_squarebutton_largesilver
+{
+   background: transparent url('/images/crud/themes/silver/crud_button_squarelarge_left.gif') no-repeat top left;
+   display: block;
+   float: left;
+   font: normal 16px Tahoma; /* Change 10px as desired */
+   line-height: 16px; /* This value + 2px + 2px (top and bottom padding of SPAN) must equal height of button background (default is 17px) */
+   height: 30px; /* Height of button background height */
+   padding-left: 12px; /* Width of left menu image */
+   text-decoration: none;
+}
+
+/* Hover state CSS */
+a.crud_squarebutton_largesilver span
+{
+   background: transparent url('/images/crud/themes/silver/crud_button_squarelarge.gif') no-repeat top right;
+   display: block;
+   padding: 7px 11px 7px 0; /* Set 8px below to match value of 'padding-left' value above */
+   font-weight:bold;
+   color:#033467;
+}
+a.crud_squarebutton_largesilver:hover span
+{ 
+   background-position: bottom right;
+   color: #033467;
+}
+ 
+/*====================*/
+/* SILVER OVAL BUTTON */
+/*====================*/
+a.crud_ovalbutton_silver
+{
+   background: transparent url('/images/crud/themes/silver/crud_button_oval_left.gif') no-repeat top left;
+   display: block;
+   float: left;
+   font: normal 13px Tahoma; /* Change 13px as desired */
+   line-height: 16px; /* This value + 4px + 4px (top and bottom padding of SPAN) must equal height of button background (default is 24px) */
+   height: 24px; /* Height of button background height */
+   padding-left: 11px; /* Width of left menu image */
+   text-decoration: none;
+}
+ 
+/* Button Text CSS */
+a.crud_ovalbutton_silver span
+{
+   background: transparent url('/images/crud/themes/silver/crud_button_oval.gif') no-repeat top right;
+   display: block;
+   padding: 4px 11px 4px 0; /*Set 11px below to match value of 'padding-left' value above*/
+   color: #033467;
+}
+
+/* Button Hover CSS */
+a.crud_ovalbutton_silver:hover span
+{ 
+   background-position: bottom right;
+   color: #E82020;
+}
+
+/* Hover state CSS */
+a.crud_ovalbutton_smallsilver
+{
+   background: transparent url('/images/crud/themes/silver/crud_button_ovalsmall_left.gif') no-repeat top left;
+   display: block;
+   float: left;
+   font: normal 10px Tahoma; /* Change 10px as desired */
+   line-height: 15px; /* This value + 2px + 2px (top and bottom padding of SPAN) must equal height of button background (default is 17px) */
+   height: 17px; /* Height of button background height */
+   padding-left: 8px; /* Width of left menu image */
+   text-decoration: none;
+}
+
+/* Hover state CSS */
+a.crud_ovalbutton_smallsilver span
+{
+   background: transparent url('/images/crud/themes/silver/crud_button_ovalsmall.gif') no-repeat top right;
+   display: block;
+   padding: 1px 8px 1px 0; /* Set 8px below to match value of 'padding-left' value above */
+   font-weight:bold;
+   color:#033467;
+}
+
+a.crud_ovalbutton_smallsilver:hover span
+{ 
+   background-position: bottom right;
+   color: #E82020;
+}
+
+/* Hover state CSS */
+a.crud_ovalbutton_largesilver
+{
+   background: transparent url('/images/crud/themes/silver/crud_button_ovallarge_left.gif') no-repeat top left;
+   display: block;
+   float: left;
+   font: normal 16px Tahoma; /* Change 10px as desired */
+   line-height: 16px; /* This value + 2px + 2px (top and bottom padding of SPAN) must equal height of button background (default is 17px) */
+   height: 30px; /* Height of button background height */
+   padding-left: 14px; /* Width of left menu image */
+   text-decoration: none;
+}
+
+/* Hover state CSS */
+a.crud_ovalbutton_largesilver span
+{
+   background: transparent url('/images/crud/themes/silver/crud_button_ovallarge.gif') no-repeat top right;
+   display: block;
+   padding: 7px 11px 7px 0; /* Set 8px below to match value of 'padding-left' value above */
+   font-weight:bold;
+   color:#033467;
+}
+a.crud_ovalbutton_largesilver:hover span
+{ 
+   background-position: bottom right;
+   color: #E82020;
+}
+
+/* --- Silver Button Style END ----------------------------------------------------------------*/
+ 
+/* --- Blue Button Style START ----------------------------------------------------------------*/
+/*=======================*/
+/* BLUE SQUARE BUTTON    */
+/*=======================*/
+a.crud_squarebutton_blue
+{
+   background: transparent url('/images/crud/themes/blue/crud_button_square_left.gif') no-repeat top left;
+   display: block;
+   float: left;
+   font: normal 12px Arial; /* Change 12px as desired */
+   line-height: 15px; /* This value + 4px + 4px (top and bottom padding of SPAN) must equal height of button background (default is 23px) */
+   height: 23px; /* Height of button background height */
+   padding-left: 9px; /* Width of left menu image */
+   text-decoration: none;
+}
+ 
+a.crud_squarebutton_blue span
+{
+   background: transparent url('/images/crud/themes/blue/crud_button_square.gif') no-repeat top right;
+   display: block;
+   padding: 4px 9px 4px 0; /*Set 9px below to match value of 'padding-left' value above*/
+   color: #033467;
+}
+
+/* Button Hover CSS */
+a.crud_squarebutton_blue:hover span
+{ 
+   background-position: bottom right;
+   color: #033467;
+}
+
+/* Hover state CSS */
+a.crud_squarebutton_smallblue
+{
+   background: transparent url('/images/crud/themes/blue/crud_button_squaresmall_left.gif') no-repeat top left;
+   display: block;
+   float: left;
+   font: normal 10px Tahoma; /* Change 10px as desired */
+   line-height: 15px; /* This value + 2px + 2px (top and bottom padding of SPAN) must equal height of button background (default is 17px) */
+   height: 17px; /* Height of button background height */
+   padding-left: 7px; /* Width of left menu image */
+   text-decoration: none;
+}
+
+/* Hover state CSS */
+a.crud_squarebutton_smallblue span
+{
+   background: transparent url('/images/crud/themes/blue/crud_button_squaresmall.gif') no-repeat top right;
+   display: block;
+   padding: 0px 8px 2px 0; /* Set 8px below to match value of 'padding-left' value above */
+   font-weight:bold;
+   color:#033467;
+}
+
+a.crud_squarebutton_smallblue:hover span
+{ 
+   background-position: bottom right;
+   color: #000000;
+}
+
+/* Hover state CSS */
+a.crud_squarebutton_largeblue
+{
+   background: transparent url('/images/crud/themes/blue/crud_button_squarelarge_left.gif') no-repeat top left;
+   display: block;
+   float: left;
+   font: normal 16px Tahoma; /* Change 10px as desired */
+   line-height: 16px; /* This value + 2px + 2px (top and bottom padding of SPAN) must equal height of button background (default is 17px) */
+   height: 30px; /* Height of button background height */
+   padding-left: 12px; /* Width of left menu image */
+   text-decoration: none;
+}
+
+/* Hover state CSS */
+a.crud_squarebutton_largeblue span
+{
+   background: transparent url('/images/crud/themes/blue/crud_button_squarelarge.gif') no-repeat top right;
+   display: block;
+   padding: 7px 11px 7px 0; /* Set 8px below to match value of 'padding-left' value above */
+   font-weight:bold;
+   color:#033467;
+}
+a.crud_squarebutton_largeblue:hover span
+{ 
+   background-position: bottom right;
+   color: #000000;
+} 
+ 
+/*=====================*/
+/* BLUE OVAL BUTTON */
+/*=====================*/
+/* Hover state CSS */
+a.crud_ovalbutton_blue
+{
+   background: transparent url('/images/crud/themes/blue/crud_button_oval_left.gif') no-repeat top left;
+   display: block;
+   float: left;
+   font: normal 13px Tahoma; /* Change 13px as desired */
+   line-height: 16px; /* This value + 4px + 4px (top and bottom padding of SPAN) must equal height of button background (default is 24px) */
+   height: 24px; /* Height of button background height */
+   padding-left: 11px; /* Width of left menu image */
+   text-decoration: none;
+}
+ 
+/* Hover state CSS */
+a.crud_ovalbutton_blue span
+{
+   background: transparent url('/images/crud/themes/blue/crud_button_oval.gif') no-repeat top right;
+   display: block;
+   padding: 4px 11px 4px 0; /*Set 11px below to match value of 'padding-left' value above*/
+   font-weight:bold;
+   color:#033467;
+}
+/* Button Hover CSS */
+a.crud_ovalbutton_blue:hover span
+{ 
+   background-position: bottom right;
+   color: #033467;
+}
+ 
+/* Hover state CSS */
+a.crud_ovalbutton_smallblue
+{
+   background: transparent url('/images/crud/themes/blue/crud_button_ovalsmall_left.gif') no-repeat top left;
+   display: block;
+   float: left;
+   font: normal 10px Tahoma; /* Change 10px as desired */
+   line-height: 15px; /* This value + 2px + 2px (top and bottom padding of SPAN) must equal height of button background (default is 17px) */
+   height: 17px; /* Height of button background height */
+   padding-left: 8px; /* Width of left menu image */
+   text-decoration: none;
+}
+
+/* Hover state CSS */
+a.crud_ovalbutton_smallblue span
+{
+   background: transparent url('/images/crud/themes/blue/crud_button_ovalsmall.gif') no-repeat top right;
+   display: block;
+   padding: 0px 8px 2px 0; /* Set 8px below to match value of 'padding-left' value above */
+   font-weight:bold;
+   color:#033467;
+}
+
+a.crud_ovalbutton_smallblue:hover span
+{ 
+   background-position: bottom right;
+   color: #000000;
+}
+
+/* Hover state CSS */
+a.crud_ovalbutton_largeblue
+{
+   background: transparent url('/images/crud/themes/blue/crud_button_ovallarge_left.gif') no-repeat top left;
+   display: block;
+   float: left;
+   font: normal 16px Tahoma; /* Change 10px as desired */
+   line-height: 16px; /* This value + 2px + 2px (top and bottom padding of SPAN) must equal height of button background (default is 17px) */
+   height: 30px; /* Height of button background height */
+   padding-left: 14px; /* Width of left menu image */
+   text-decoration: none;
+}
+
+/* Hover state CSS */
+a.crud_ovalbutton_largeblue span
+{
+   background: transparent url('/images/crud/themes/blue/crud_button_ovallarge.gif') no-repeat top right;
+   display: block;
+   padding: 7px 11px 7px 0; /* Set 8px below to match value of 'padding-left' value above */
+   font-weight:bold;
+   color:#033467;
+}
+a.crud_ovalbutton_largeblue:hover span
+{ 
+   background-position: bottom right;
+   color: #000000;
+} 
+ 
+/* --- Blue Button Style END ----------------------------------------------------------------*/
+
+/*---------------------------------------- Start CRUD Button Styles ----------------------------------*/
+/* Image Icon - Left/Right CSS */
+a.crud_button span img
+{
+   padding: 0px; 
+   margin: 0px;
+   border: none;
+   display:inline;
+}
+/* CRUD Button Text color */
+a:link.crud_button, a:visited.crud_button, a:active.crud_button
+{
+   font-weight:bold;
+}
+
+/* Hover state CSS */
+a.crud_button:hover 
+{ 
+   background-position: bottom left;
+   text-decoration: none;
+}
+/*---------------------------------------- End CRUD Button Styles ----------------------------------*/
+
+.std_grid tbody tr.crud_highlight { background-color: #B1ADD0; color: #ffffff;}
+.std_grid tbody tr.crud_selected { background-color: #646289; color: #ffffff;}
+
+.std_grid {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #78739C;
+	border-spacing: 0px;
+	border-collapse: collapse;
+
+}
+
+.std_grid tbody tr.odd_row {
+    background-color: #E3E2EC;
+    color: black;
+}
+.std_grid tbody tr.even_row {
+    background-color: #F6FEF6;
+    color: black;
+}
+.std_grid th {
+	border: 1px solid #78739C;
+	font-weight: bold;
+	background-color: #B3B1C9;
+	color: black;
+	white-space: nowrap;
+	cursor: inherit;
+}
+.std_grid thead th
+{
+   background: url(/images/crud/themes/silver/crud_table_header_bg.png) top left repeat-x;
+   background-position: top left;
+   background-repeat: repeat-x;
+}
+.std_grid tbody td
+{
+    border: 1px solid #78739C;
+    white-space: nowrap;
+    padding: 0px;
+    overflow: hidden;
+}
+.std_grid input.focus
+{
+    background-color: #fffffe;
+    border-width: 2px;
+    margin: 0px;
+}
+tr.list-h    
+{
+	color: black;
+}
+tr.list-o
+{
+	background: #E3E2EC;
+	color: black;
+}
+tr.list-e
+{
+	background: #F6FEF6;
+	color: black;
+}
+
+input.number, input.text, input.ltext, input.utext, inputfocus
+{
+	background-color: #ffffff;
+	background: url(/images/crud/themes/silver/crud_input_bg.png) top left repeat-x;
+	border: solid 1px #B1ADD0;
+	
+}
+td.caption, div.caption, label.caption
+{
+  font-size:10pt;
+  vertical-align: middle;
+  color: #C21108;
+  font-weight:bold;
+}
+
+div.messages
+{
+	overflow:auto;
+	text-align: left;
+	margin: 5px auto;
+	width: 60%;
+	padding: 5px;
+	border-top: 2px solid #7E79A1;
+	border-bottom: 2px solid #7E79A1;
+	border-left: 1px solid #ffffff;
+	border-right: 1px solid #ffffff;
+	background-color: #ffffff;
+	color: #7E79A1;
+}
+.messages_label
+{
+  font-weight:bold;
+  font-size:11pt;
+}
+
+/* Std_tab_pages styles */
+.std_tab_pages_content_wrapper
+{
+    border: 1px solid #ED4D4D;
+    padding: 2px;
+    overflow: auto;
+}
+.std_tab_pages_content_wrapper td
+{ 
+  font-size:10pt;
+  vertical-align: middle;
+  color: #7E79A1;
+  font-weight:bold;
+}
+
+ul.std_tab_pages_tabs li
+{
+	border: 1px solid #ED4D4D;
+	display: block;
+	padding: 0px;
+	background-color: #E7E6EF;
+	color: darkgray;
+	white-space: nowrap;
+	font-size:10pt;
+}
+ul.std_tab_pages_tabs li.std_tab_active
+{
+	background-color: #ffffff;
+	color: #ED4D4D;
+	font-size:10pt;
+}
+ul.std_tab_pages_tabs li.std_tab_disabled a
+{
+	color: #C0C0C0;
+	font-size:10pt;
+}
+
+td.text, div.text, td.ltext, div.ltext, td.utext, div.utext
+{
+	text-align: left;
+	padding-top: 2px;
+}
+td.number, div.number
+{
+	text-align: right;
+	padding-top: 2px;
+}

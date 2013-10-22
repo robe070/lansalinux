@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<!-- Project   : Web e-Business Framework Wizard Help                         -->
+<!-- Copyright : 2002 LANSA                                                   -->
+<!-- Using     : Virtual Media, http://www.vmtech.com/                        -->
+
+<head>
+<title>Menu Components</title>
+</head>
+
+<body>
+<!-- VMT T -->
+<table width="100%" border="1">
+<tr>
+<td bgcolor="#808080" style="padding-left:0pt; padding-right:0pt;">
+<a href="index.htm"><img src="b8d6b169.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="Contents List"></a>
+<a href="JavaScript:self.history.go(-1)"><img src="8016546c.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="Back"></a>
+<a href="ww4_085.htm"><img src="80000211.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="&lt;&lt;"></a>
+<a href="ww4_095.htm"><img src="80000269.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="&gt;&gt;"></a>
+
+</td>
+</tr>
+</table>
+<br clear="ALL"><!-- VMT /T -->
+<font face="Arial" size="4"><b>Menu Components</b></font><br clear="ALL"><hr size="4">
+<font face="Arial" size="2">If you look at the generated layout page, you will notice that the first five to seven executable lines are &lt;RDML&gt; tags. For more details, refer to <A HREF="ed0700.HTM">RDML Tags</A> in the <i>LANSA for the Web Guide</i>.</font><br><font face="Courier New" size="2">&lt;RDML&nbsp;SETTMPFLD="10"&nbsp;VALUE="1"&gt;</font><br><font face="Courier New" size="2">&lt;RDML&nbsp;SETTMPFLD="11"&nbsp;VALUE="1"&gt;</font><br><font face="Courier New" size="2">&lt;RDML&nbsp;SETTMPFLD="12"&nbsp;VALUE="1"&gt;</font><br><font face="Courier New" size="2">&lt;RDML&nbsp;SETTMPFLD="13"&nbsp;VALUE="1"&gt;</font><br><font face="Courier New" size="2">&lt;RDML&nbsp;SETTMPFLD="14"&nbsp;VALUE="1"&gt;</font><br><font face="Courier New" size="2">&lt;RDML&nbsp;SETTMPFLD="09"&nbsp;VALUE="1"&gt;</font><br><font face="Courier New" size="2">&lt;RDML&nbsp;TRACE&gt;</font><br><br><br><font face="Arial" size="2">The &lt;RDML SETTMPFLD&gt; tags are used to set user-updateable fields in LANSA for the Web. These fields are used to determine whether or not a particular Layout Feature is shown. The values associated with these tags are a result of your choice of the Layout Features to include in your presentation layout.</font><br><ul><li><font face="Arial" size="2">RDML SETTMPFLD="9" indicates a Wizard Supported Color has been selected</font></li><li><font face="Arial" size="2">RDML SETTMPFLD="10" is used for the Left Menu component</font></li><li><font face="Arial" size="2">RDML SETTMPFLD="11" is used for the Horizontal Menu component</font></li><li><font face="Arial" size="2">RDML SETTMPFLD="12" is used for the Right Menu component. </font></li><li><font face="Arial" size="2">RDML SETTMPFLD="13" is used for Banner Inclusion</font></li><li><font face="Arial" size="2">RDML SETTMPFLD="14" is used for Company Logo inclusion.</font></li></ul><font face="Arial" size="2">A value of "1" indicates the associated feature should be included when displaying the presentation layout.</font><br><br><font face="Arial" size="2">If "Click Tracking" has been included in the Layout Feature, the command &lt;RDML TRACE&gt; is automatically embedded in the layout. For more details on configuring your Web server to use &lt;RDML TRACE&gt;, refer to <A HREF="gs0i120.HTM">Enabling Event Logging</A> in <i>LANSA for the Web Guide</i>.</font><br><br><font face="Arial" size="2">The example shown has included all possible layout features. </font><br><br><font face="Arial" size="2">If you have included a left or horizontal menu in your layout component, the HTML code is generated to include a DHTML Menu or Standard Menu as indicated in your Layout Features selection.</font><br><br><font face="Arial" size="2">If your current process included a standard Left Menu and you review the &lt;process name&gt;_LMENU page, you will see a single line: </font><br><font face="Courier New" size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;process name&gt;_LMENU1</font><br><br><br><font face="Arial" size="2">The &lt;process name&gt;_LMENU component will be embedded in the &lt;process name&gt;_LAYOUT of the &lt;RDML MERGE=&amp;LMENU&gt; command.</font><br><br><font face="Arial" size="2">If your current process included a DHTML Left Menu and you review the &lt;process name&gt;_LMENU page, you will see the following: </font><br><font face="Courier New" size="2">&lt;table&gt;</font><br><font face="Courier New" size="2">&nbsp;&lt;tr&gt;&lt;td&gt;</font><br><font face="Courier New" size="2">&nbsp;&nbsp;&lt;div&nbsp;id='MenuPos'&nbsp;style='position:relative;&nbsp;width:138;&nbsp;height:138;'&gt;</font><br><font face="Courier New" size="2">&lt;img&nbsp;src='&lt;RDML&nbsp;MERGE="&amp;IMAGE"&gt;/clearpixel.gif'&nbsp;width='138'&nbsp;height='138'&gt;&lt;/div&gt;</font><br><font face="Courier New" size="2">&nbsp;&lt;/td&gt;&lt;/tr&gt;</font><br><font face="Courier New" size="2">&lt;/table&gt;</font><br><br><br><font face="Arial" size="2">As for a standard menu, the &lt;process name&gt;_LMENU component will be embedded in the &lt;process name&gt;_LAYOUT at the &lt;RDML MERGE=&amp;LMENU&gt; command. In addition, the &lt;process_name&gt;_LAYOUT will include a reference to the component &lt;process_name&gt;_LMENU2 (which contains your DHTML menu definition) and the component WIZMNUSCR (which contains the javascript to support the DHTML menu).</font><br><hr noshade><font face="Arial" size="2">Only a single DHTML menu can be used by a presentation layout.</font><br><hr noshade>
+</body>
+</html>

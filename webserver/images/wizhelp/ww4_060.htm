@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<!-- Project   : Web e-Business Framework Wizard Help                         -->
+<!-- Copyright : 2002 LANSA                                                   -->
+<!-- Using     : Virtual Media, http://www.vmtech.com/                        -->
+
+<head>
+<title>Tips &amp; Techniques</title>
+</head>
+
+<body>
+<!-- VMT T -->
+<table width="100%" border="1">
+<tr>
+<td bgcolor="#808080" style="padding-left:0pt; padding-right:0pt;">
+<a href="index.htm"><img src="b8d6b169.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="Contents List"></a>
+<a href="JavaScript:self.history.go(-1)"><img src="8016546c.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="Back"></a>
+<a href="ww4_055.htm"><img src="80000211.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="&lt;&lt;"></a>
+<a href="ww4_065.htm"><img src="80000269.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="&gt;&gt;"></a>
+
+</td>
+</tr>
+</table>
+<br clear="ALL"><!-- VMT /T -->
+<font face="Arial" size="4"><b>Tips &amp; Techniques</b></font><br clear="ALL"><hr size="4">
+<ul><li><font face="Arial" size="2">It is recommended to set up your process Layout Features before building your Layout to ensure all variables are included or excluded as expected.</font></li><li><font face="Arial" size="2">Customize one process (including menus and style sheet) then use adopt to apply this same look and feel to the other processes in your Web application.</font></li><li><font face="Arial" size="2">You can create process specific banner components using &lt;process name&gt;_STDBANNER. Remember that any changes to a specific process layout may impact other processes which have adopted this layout. Think carefully before creating default layout and default menu components. Be sure to review the section on Impact on Existing Applications.</font></li><li><font face="Arial" size="2">If you want to adopt the layout from another process but have a different standard menu to the adopted process, first <br>a) create your standard menu and a "dummy" layout for the adopting process (you must create the layout to generate the &lt;processname_LMENU&gt; component) THEN <br>b) modify the layout to adopt from the desired process.<br>This will guarantee that the required &lt;processname_LMENU&gt; and &lt;processname_LMENU1&gt; components both exist.<br><br>Conversely if you have a different standard menu on your adopting process and want to revert back to the menu of the adopted process, <br>a) use the wizard to delete the standard menu component and then <br>b) MANUALLY remove the associated &lt;processname_LMENU&gt; component using the Web Editor.<br>The menu will then be automatically inherited from the adopted process.</font></li></ul>
+</body>
+</html>

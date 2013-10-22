@@ -1,0 +1,33 @@
+﻿{
+	"strings": {
+		"BadNum": "Número no es válido. El número sólo debe contener dígitos (no más de %1% antes del punto decimal y no más de %2% después del punto decimal).",
+		"BadInt": "Número entero no es válido.",
+		"BadIntWithRange": "Número entero no es válido. Debe ser mayor o igual a %1% y menor que %2%.",
+		"BadFloat": "¡Número de punto flotante no es válido!",
+		"BadDate": "¡Fecha no es válida!",
+		"BadDate1": ": ¡Fecha no es válida!",
+		"BlankDate": "No se permite fecha en blanco. Se asume la fecha de hoy.",
+		"BlankDate2": "No se permite fecha en blanco.",
+		"BadTime": "¡La hora no es válida!",
+		"BadTime1": ": ¡La hora no es válida!",
+		"BlankTime": "No se permite la hora en blanco. Se asume la hora actual.",
+		"BlankTime2": "¡No se permite la hora en blanco!",
+		"BadDateTime": "¡Fecha/hora no es válida!",
+		"BadBool": "Valor no válido.\nValor debe ser \"verdadero\" o \"falso\"",
+		"BadDBCS_TooLong": "La longitud de los caracteres convertidos es %1. Sólo se permiten %2 caracteres.",
+		"BadDBCS_SBCSNotAllowed": "Este campo sólo permite caracteres DBCS. Se ingresaron %1 caracteres SBCS.",
+		"BadDBCS_DBCSNotAllowed": "Este campo sólo permite caracteres SBCS. Se ingresaron %1 caracteres DBCS.",
+		"BadDBCS_BothNotAllowed": "Este campo sólo permite exclusivamente caracteres DBCS o caracteres SBCS pero no una combinación de ambos. Se ingresaron %1 caracteres SBCS y %2 caracteres DBCS.",
+		"BadLength1": "Llegó al número máximo de caracteres.",
+		"NoXMLHttpRequest": "Su navegador no implementa la función XMLHttpRequest.",
+		"Processing1": "Procesando",
+		"Done1": "Carga completa",
+		"Messages": "Mensajes:"
+	},
+	"arrays": {
+		"DaysOfWeek": ["lun", "mar", "mié", "jue", "vie", "sáb", "dom"],
+		"DaysOfWeekLong": ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"],
+		"Months": ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"],
+		"MonthsShort": ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"]
+	}
+}

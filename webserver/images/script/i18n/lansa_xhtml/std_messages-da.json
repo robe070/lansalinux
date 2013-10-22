@@ -1,0 +1,33 @@
+﻿{
+	"strings": {
+		"BadNum": "Ugyldigt nummer. Antallet må kun indeholde cifre (ikke mere end %1% før kommaet og ikke mere end %2% efter).",
+		"BadInt": "Ugyldigt heltal.",
+		"BadIntWithRange": "Ugyldigt heltal. Kan ikke være mindre end% 1%, eller mere end% 2%.",
+		"BadFloat": "Ugyldigt decimaltal!",
+		"BadDate": "Ugyldig dato!",
+		"BadDate1": " er en ugyldig dato!",
+		"BlankDate": "Blank er et ugyldigt tidspunkt. Sættes til dags dato.",
+		"BlankDate2": "Blank er en ugyldig dato.",
+		"BadTime": "Ugyldig tid!",
+		"BadTime1": " er en ugyldig tid!",
+		"BlankTime": "Blank er en ugyldig tid! Sættes til aktuel tid!",
+		"BlankTime2": "Blank er en ugyldig tid!",
+		"BadDateTime": "Ugyldig dato og tid!",
+		"BadBool": "Ugyldig værdi. \nVærdien skal være \"sandt\" eller \"falsk\"",
+		"BadDBCS_TooLong": "Længde af indtastede tegn er %1, det overskrider den maksimale tilladte længde på %2.",
+		"BadDBCS_SBCSNotAllowed": "Kun DBCS-tegn er tilladt i dette felt. %1 SBCS-tegn er blevet indtastet.",
+		"BadDBCS_DBCSNotAllowed": "Kun SBCS-tegn er tilladt i dette felt. %1 DBCS-tegn er blevet indtastet.",
+		"BadDBCS_BothNotAllowed": "Det er ikke tilladt med både SBCS- og DBCS-tegn i feltet. %1 SBCS-tegn er indtastet. %2 DBCS-tegn er blevet indtastet.",
+		"BadLength1": "Maksimum antal tegn nået.",
+		"NoXMLHttpRequest": "XMLHttpRequest er ikke understøttet af denne browser.",
+		"Processing1": "Behandler",
+		"Done1": "Færdig",
+		"Messages": "Meddelelser:"
+	},
+	"arrays": {
+		"DaysOfWeek": ["Man", "Tir", "Ons", "Tor", "Fre", "Lør", "Søn"],
+		"DaysOfWeekLong": ["Mandag", "Tirsdag", "Onsdag", "Torsdag", "Fredag", "Lørdag", "Søndag"],
+		"Months": ["Januar", "Februar", "Marts", "April", "Maj", "Juni", "Juli", "August", "September", "Oktober", "November", "December"],
+		"MonthsShort": ["Jan", "Feb", "Mar", "Apr", "Maj", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dec"]
+	}
+}

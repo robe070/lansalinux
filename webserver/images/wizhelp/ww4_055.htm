@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<!-- Project   : Web e-Business Framework Wizard Help                         -->
+<!-- Copyright : 2002 LANSA                                                   -->
+<!-- Using     : Virtual Media, http://www.vmtech.com/                        -->
+
+<head>
+<title>Technically Speaking</title>
+</head>
+
+<body>
+<!-- VMT T -->
+<table width="100%" border="1">
+<tr>
+<td bgcolor="#808080" style="padding-left:0pt; padding-right:0pt;">
+<a href="index.htm"><img src="b8d6b169.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="Contents List"></a>
+<a href="JavaScript:self.history.go(-1)"><img src="8016546c.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="Back"></a>
+<a href="ww4_050.htm"><img src="80000211.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="&lt;&lt;"></a>
+<a href="ww4_060.htm"><img src="80000269.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="&gt;&gt;"></a>
+
+</td>
+</tr>
+</table>
+<br clear="ALL"><!-- VMT /T -->
+<font face="Arial" size="4"><b>Technically Speaking</b></font><br clear="ALL"><hr size="4">
+<font face="Arial" size="2">When you adopt a layout, the Wizard creates a link between the process specific layout page and the adopted from page. It does not create a copy of the adopted layout page.</font><br><br><font face="Arial" size="2">If you review the &lt;process name&gt;_LAYOUT page, you will see a single line: </font><br><font face="Courier New" size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;RDML PARENT="procname"&gt;</font><br><font face="Arial" size="2">where </font><font face="Courier New" size="2">procname</font><font face="Arial" size="2"> is adopted from the process. </font><br><br><font face="Arial" size="2">If you review the adopted from procname_LAYOUT page, you will see the layout which will be adopted by your process. </font><br><br><font face="Arial" size="2">When a change is made to the adopted from layout, it is automatically used in the adopting process because they share the same page as specified by &lt;RDML PARENT="procname"&gt;.</font><br><br><font face="Arial" size="2">Once you define process specific variables or components for the adopting process, these variables and components will be used. The adopted from process variables and components can no longer be used.</font><br><br><font face="Arial" size="2">The process specific pages are defined at the partition level.</font><br><br><font face="Arial" size="2">Left/Horizontal Menu background color will always be the same as the adopted from menu.</font><br><br><font face="Arial" size="2">A graphic variable *LW3PCLR1<i>_&lt;process name&gt; </i>has been defined to store the Left/Horizontal Menu Background Color. The default system value is stored in the graphic variable *LW3COLOR1.</font><br><br><font face="Arial" size="2">These new variables are used exclusively by the e-Business Framework Wizard. LANSA for the Web does not include a hierarchical interpretation of the variables. References to these variables in the layout page use conditional logic to determine if the system variable or process variable should be used. As a consequence of this architecture, the Left/Horizontal Menu Background Color will always be the same as the adopted process. Any process specific values in the adopting process will be ignored in this instance.</font><br>
+</body>
+</html>

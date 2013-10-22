@@ -1,0 +1,33 @@
+﻿{
+	"strings": {
+		"BadNum": "Ungültige Zahl. Die Zahl darf nur Ziffern enthalten (nicht mehr als %1% vor und nicht mehr als %2% nach dem Komma).",
+		"BadInt": "Ungültige Integerzahl.",
+		"BadIntWithRange": "Ungültige Integerzahl. Die Zahl darf nicht kleiner als %1% oder größer als %2% sein.",
+		"BadFloat": "Ungültige Gleitkommazahl!",
+		"BadDate": "Ungültiges Datum!",
+		"BadDate1": " ist ein ungültiges Datum!",
+		"BlankDate": "Leerzeichen ist ein ungültiges Datum. Aktuelles Datum wird verwendet.",
+		"BlankDate2": "Leerzeichen ist ein ungültiges Datum.",
+		"BadTime": "Ungültige Zeit!",
+		"BadTime1": " ist eine ungültige Zeit!",
+		"BlankTime": "Leerzeichen ist eine ungültige Zeit. Aktuelle Zeit wird verwendet!",
+		"BlankTime2": "Leerzeichen ist eine ungültige Zeit!",
+		"BadDateTime": "Datum/Zeit ungültig!",
+		"BadBool": "Ungültiger Wert.\nWert muss \"true\" oder \"false\" sein",
+		"BadDBCS_TooLong": "Die umgerechnete Länge der eingegebenen Zeichen ist %1, das übersteigt die maximal zulässige Länge von %2.",
+		"BadDBCS_SBCSNotAllowed": "In diesem Feld sind nur DBCS-Zeichen erlaubt. %1 SBCS-Zeichen wurden eingegeben.",
+		"BadDBCS_DBCSNotAllowed": "In diesem Feld sind nur SBCS-Zeichen erlaubt. %1 BBCS-Zeichen wurden eingegeben.",
+		"BadDBCS_BothNotAllowed": "Erlaubt sind in diesem Feld entweder nur DBCS-Zeichen oder nur SBCS-Zeichen. Es wurden %1 SBCS-Zeichen eingegeben. Es wurden %2 DBCS-Zeichen eingegeben.",
+		"BadLength1": "Maximale Anzahl Zeichen erreicht.",
+		"NoXMLHttpRequest": "XMLHttpRequest wird von diesem Browser nicht unterstützt.",
+		"Processing1": "Verarbeitung",
+		"Done1": "Erledigt",
+		"Messages": "Meldungen:"
+	},
+	"arrays": {
+		"DaysOfWeek": ["Mon", "Die", "Mit", "Don", "Fre", "Sam", "Son"],
+		"DaysOfWeekLong": ["Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag", "Sonntag"],
+		"Months": ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"],
+		"MonthsShort": ["Jan", "Feb", "Mär", "Apr", "Mai", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dez"]
+	}
+}

@@ -1,0 +1,33 @@
+*** Special notes for SELinux ***
+
+== Red Hat Enterprise Linux ES release 4 ==
+
+There are two ways to enable LANSA for the Web Apache Module to
+run under the protection of SELinux.
+
+1. Manually set file contexts for LANSA for the Web Apache Module.
+
+Run the following command as root:
+    setfiles -W /opt/lansa.rg132/webserver/apache/selinux/lansaweb.fc /opt/lansa.rg132
+
+2. Integrate the requirement for LANSA for the Web Apache Module
+into the system policy.
+
+Assuming the system policy source is located in:
+    /etc/selinux/targeted/src/policy (default for Red Hat Linux ES4)
+
+Add the sample configuration files to the system policy source
+with the commands:
+    cp /opt/lansa.rg132/webserver/apache/selinux/lansaweb.fc /etc/selinux/targeted/src/policy/file_contexts/program/
+    cp /opt/lansa.rg132/webserver/apache/selinux/lansaweb.te /etc/selinux/targeted/src/policy/domains/program/
+
+Then rebuild and reinstall the policy according to the documentation
+of SELinux for the system.
+
+== Red Hat Enterprise Linux release 5 or later or other Linux distros ==
+
+The LANSA for the Web Apache Module installer cannot offer any help
+to set up SELinux system policy at the moment.
+
+The instructions above for RHEL ES4 may give you some hints though
+if you want to set up SELinux system policy manually.

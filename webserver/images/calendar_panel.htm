@@ -1,0 +1,127 @@
+<!-- $Workfile:: calendar_panel.htm          $ -->
+<!-- $UTCDate:: 2011-08-15 00:37:53Z         $ -->
+<!-- $Revision:: 9                           $ -->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="VF_HT003_Head">
+<title>Calendar</title>
+<script type="text/javascript" src="script/fp_js001.min.js" charset="iso-8859-1"></script>
+<style type="text/css">
+body {margin: 0px; padding: 0px; overflow: hidden; border: 0px;}
+.datePicker {border:1px solid WindowText; background:Window; width:170px; padding:0px; cursor:default; -moz-user-focus:normal;}
+.datePicker td {font:smallcaption; font:small-caption; text-align:center; color:WindowText; cursor:default; font-weight:normal !important; -moz-user-select:none; padding:0;}
+.datePicker td.red {color:red;}
+.datePicker .header {padding:3px; border-bottom:1px solid WindowText;}
+.datePicker .headerTable {width:100%;}
+.datePicker .footer {padding:3px;}
+.datePicker .footerTable {width:100%;}
+.datePicker .grid {padding:3px;}
+.datePicker .gridTable {width:100%;}
+.datePicker .gridTable td {width:14.3%;}
+.datePicker .gridTable .daysRow td {font-size:6pt; font-weight:bold !important; border-bottom:1px solid ThreeDDarkShadow;}
+.datePicker .grid .gridTable .upperLine {width:100%; height:2px; overflow:hidden; background:transparent;}
+.datePicker td.today {font-weight:bold !important;}
+.datePicker td.selected {background:Highlight; color:HighlightText !important;}
+.datePicker td.labelContainer {width:100%;}
+/* this controls the header with the month */
+.datePicker td .topLabel {color:ActiveCaption; display:block; font-weight:bold !important; width:100%; text-decoration:none;}
+.datePicker td.filler {width:100%;}
+.datePicker button {border:1px solid; font:Caption; font-weight:normal !important;}
+.datePicker .previousButton {font-weight:bold; font-size:6pt; cursor: hand;}
+.datePicker .nextButton {font-weight:bold; font-size:6pt; cursor: hand;}
+.datePicker .previousButton, .datePicker .nextButton {width:14px; height:14px;}
+</style>
+<script type="text/javascript">
+var objCalendar = null;
+var objDate = null;
+var gfuncGetValueCallback = null;
+var gfuncSetValueCallback = null;
+var gfuncLostFocusCallback = null;
+var gfuncSetSizeCallback = null;
+
+function Init(funcGetValueCallback, funcSetValueCallback, funcSetSizeCallback, funcLostFocusCallback)
+{
+	gfuncGetValueCallback = funcGetValueCallback;
+	gfuncSetValueCallback = funcSetValueCallback;
+	gfuncSetSizeCallback = funcSetSizeCallback;
+	gfuncLostFocusCallback = funcLostFocusCallback;
+}
+function pageLoaded()
+{
+	if (window.parent.stdDateTimeIFrameLoaded)
+	{
+		window.parent.stdDateTimeIFrameLoaded(this);
+	}
+	SetDialogHTML();
+	window.focus();
+}
+function SetDialogHTML()
+{
+	if( gfuncGetValueCallback != null )
+	{
+		objDate = gfuncGetValueCallback();
+		if (objDate.sqlNull == null) { objDate.sqlNull = false; }
+	}
+	else
+	{
+		objDate = new Date();
+		objDate.sqlNull = false;
+		objDate.arrayMstringDays = function() { return new Array("Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"); }
+		objDate.arrayMstringMonths = function() { return new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"); }
+	}
+	
+	FP_JS001_Object.months = objDate.arrayMstringMonths();
+	FP_JS001_Object.days   = objDate.arrayMstringDays();
+
+	if (objCalendar == null)
+	{
+		objCalendar = new FP_JS001_Object(objDate);
+		objCalendar.ondateselected = dateSelectedInCalendar;   
+		var objDateHTMLElement = objCalendar.create();
+		document.body.appendChild(objDateHTMLElement);
+		document.body.objDate = objCalendar;
+		if (gfuncSetSizeCallback)
+		{
+			gfuncSetSizeCallback(objDateHTMLElement.offsetWidth, objDateHTMLElement.offsetHeight);
+		}
+	}
+	else
+	{
+		objCalendar.setDate(objDate);
+	}
+}
+function dateSelectedInCalendar()
+{
+	objDate.changedDate = objCalendar.getDate();
+	if( gfuncSetValueCallback != null )
+	{
+		gfuncSetValueCallback(objDate.changedDate);
+	}
+}
+function bodyOnBlurHandler(e) {
+	if(!e) { if( window.event ) { e = window.event; } else { return; } }
+	e.cancelBubble = true;
+	if( gfuncLostFocusCallback != null )
+	{
+		gfuncLostFocusCallback();
+	}
+}
+function bodyOnDeactivateHandler(e) {
+	if(!e) { if( window.event ) { e = window.event; } else { return; } }
+/*
+	IE generates onblur events for the body when an element inside the document is clicked
+	This would cause the pop-up to be closed so we need to suppress any focus change that is
+	to an object in the frame.  toElement is null if the focus is moving to something outside
+	this document.
+*/
+	if (e.toElement != null)
+	{
+		e.returnValue = false;
+		return false;
+	}
+}
+</script>
+</head>
+<body class="VF_HT003_BODY" onload="pageLoaded();" onblur="bodyOnBlurHandler(event)" onbeforedeactivate="bodyOnDeactivateHandler(event);">
+</body>
+</html>

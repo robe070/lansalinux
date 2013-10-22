@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<!-- Project   : Web e-Business Framework Wizard Help                         -->
+<!-- Copyright : 2002 LANSA                                                   -->
+<!-- Using     : Virtual Media, http://www.vmtech.com/                        -->
+
+<head>
+<title>Adopt Layout</title>
+</head>
+
+<body>
+<!-- VMT T -->
+<table width="100%" border="1">
+<tr>
+<td bgcolor="#808080" style="padding-left:0pt; padding-right:0pt;">
+<a href="index.htm"><img src="b8d6b169.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="Contents List"></a>
+<a href="JavaScript:self.history.go(-1)"><img src="8016546c.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="Back"></a>
+<a href="ww4_040.htm"><img src="80000211.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="&lt;&lt;"></a>
+<a href="ww4_050.htm"><img src="80000269.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="&gt;&gt;"></a>
+
+</td>
+</tr>
+</table>
+<br clear="ALL"><!-- VMT /T -->
+<font face="Arial" size="4"><b>Adopt Layout</b></font><br clear="ALL"><hr size="4">
+<font face="Arial" size="2">You can share the presentation layout defined for another process by adopting the process layout. This feature is extremely useful if your Web application has multiple LANSA processes. It allows you to customize the presentation layout for a single process and let the other processes adopt the presentation from this process to provide a consistent presentation for your complete application. Most changes performed against the original process layout will be automatically available in other processes that have adopted this layout.</font><br><p align="CENTER"><img src="0000001d.gif" align="BOTTOM" hspace="0" border="0" width="980" height="482"></p><font face="Arial" size="2">To adopt a layout, use the dropdown list to select the name of the process to adopt from.</font><br><br><font face="Arial" size="2">In addition, there are three checkboxes displayed on the page to assist in the customization of your Web application. Use these checkboxes to delete the associated graphic variables from the current process. This feature ensures the values used for Background Image, Background Color and Right Menu Background Color are consistent with the values used in the adopted process (if desired). The Left/Horizontal Menu Color is handled as an exception. (For more details, refer to <a href="ww4_055.htm">Technically Speaking</a>.)</font><br><br><font face="Arial" size="2">After you have specified the process in the <i>Select process to Adopt</i> <i>from</i> box and you have selected any appropriate checkboxes, press the <i>Adopt Process</i> button to continue. </font><br><br><font face="Arial" size="2">Following is the hierarchy of what is adopted:</font><br><ul><li><font face="Arial" size="2"><b>Layout Schema</b><br>The layout schema is always the same as the adopted process. If the adopted process does not have a specific layout defined, then DEFAULT_LAYOUT page will be used by both processes.</font></li><li><font face="Arial" size="2"><b>Color Scheme</b><br>Your process will adopt the color scheme associated with the parent process. You can override these values by defining process specific variables. The Left/Horizontal Menu Color is handled as an exception. (For more details, refer to <a href="ww4_055.htm">Technically Speaking</a>.)</font></li><li><font face="Arial" size="2"><b>Layout Features</b><br>As the layout features are embedded in the &lt;process name&gt;_LAYOUT page, they are always inherited from the adopted process. For more details, refer to <a href="ww4_030.htm">Layout Features</a>.</font></li><li><font face="Arial" size="2"><b>Standard Menus</b><br>Standard Menus will be inherited from the adopted process. You can override these menus by defining a corresponding menu for the current process. For more details, refer to <A HREF="wizf02.HTM">Customizing a Standard Menu</A>.</font></li><li><font face="Arial" size="2"><b>DHTML Menus</b><br>If your adopted process includes a DHTML menu, this DHTML menu will always be used by the adopting menu. If you define a process specific DHTML menu for the adopting process this will be ignored. </font></li><li><font face="Arial" size="2"><b>Style Sheet</b><br>Your process will adopt the style sheet associated with the parent process. You can override this style sheet by defining a process specific style sheet.</font></li></ul><font face="Arial" size="2">Before using the adopted layout, be sure to review the <a href="ww4_050.htm">Tips &amp; Techniques</a>.</font><br><br><font face="Arial" size="2">For additional information, refer to <a href="ww4_055.htm">Technically Speaking</a>.</font><br><table width="94%"><tr><td align="LEFT" valign="TOP" width="16%"><img src="00000004.gif" align="BOTTOM" hspace="0" border="0" width="56" height="44"></td><td align="LEFT" valign="TOP" width="83%"><br><A HREF="wiz06_begin.HTM">WIZ06 - Defining a Style Sheet</A><br></td></tr></table><br><!-- VMT C -->
+<br clear="ALL"><hr noshade><center><b>Contents List</b></center><br>
+<ul><li><a href="ww4_050.htm">Tips &amp; Techniques</a></li><li><a href="ww4_055.htm">Technically Speaking</a></li></ul><!-- VMT /C -->
+
+</body>
+</html>

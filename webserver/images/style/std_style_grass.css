@@ -1,0 +1,16 @@
+﻿/*!
+ (c) 2002 LANSA
+ XHTML Style: Grass
+ $Workfile:: std_style_grass.css                  $
+ $UTCDate:: 2011-10-21 05:42:39Z                  $
+ $Revision:: 9                                    $
+ Deprecated. Replaced by theme_grass.css
+*/
+
+/*
+	There should no longer be any references to this file but, just
+	in case, the following will ensure backwards compatibility.
+*/
+
+@import url("std_style.css");
+@import url("theme_grass.css");

@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<!-- Project   : Web e-Business Framework Wizard Help                         -->
+<!-- Copyright : 2002 LANSA                                                   -->
+<!-- Using     : Virtual Media, http://www.vmtech.com/                        -->
+
+<head>
+<title>Menu Components</title>
+</head>
+
+<body>
+<!-- VMT T -->
+<table width="100%" border="1">
+<tr>
+<td bgcolor="#808080" style="padding-left:0pt; padding-right:0pt;">
+<a href="index.htm"><img src="b8d6b169.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="Contents List"></a>
+<a href="JavaScript:self.history.go(-1)"><img src="8016546c.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="Back"></a>
+<a href="ww5_055.htm"><img src="80000211.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="&lt;&lt;"></a>
+<a href="5a59a06.htm"><img src="80000269.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="&gt;&gt;"></a>
+
+</td>
+</tr>
+</table>
+<br clear="ALL"><!-- VMT /T -->
+<font face="Arial" size="4"><b>Menu Components</b></font><br clear="ALL"><hr size="4">
+<font face="Arial" size="2">When you press the <i>Build Menu </i>button, the e-Business Framework Wizard generates an HTML page for the component. If you do not press the <i>Build Menu </i>button, your menu definition will be saved but any existing menu component will not correspond with the defined menu entries.</font><br><br><font face="Arial" size="2">If you are defining a Left Menu component, the e-Business Framework Wizard generates an HTML page named as:</font><br><font face="Courier New" size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;process name&gt;_LMENU1 </font><br><font face="Arial" size="2">where <br></font><font face="Courier New" size="2">&lt;process name&gt;</font><font face="Arial" size="2"> is the name of the LANSA process. </font><br><br><font face="Arial" size="2">If it is the Horizontal Menu component, then the page is named &lt;process name&gt;_HMENU1. If you are defining a Right Menu component, the page generated is &lt;process name&gt;_RMENU.</font><br><br><font face="Arial" size="2">The left and horizontal menu components have a different naming convention to support DHTML menu and standard menus. You can define both a DHTML menu and a Standard menu for the same menu component. This will allow you to prototype and experiment with DHTML and Standard menus by varying your <A HREF="ww4_030.HTM">Layout Features</A>.</font><br><br><font face="Arial" size="2">When you select to include a standard menu, the &lt;process name&gt;_LMENU1 components will be referenced by the &lt;process name&gt;_LMENU component. For more details, refer to <A HREF="ww4_065.HTM">Customizing a Presentation Layout – Technically Speaking</A>.</font><br><br><font face="Arial" size="2">The following HTML code example shows the HTML of the Left Menu component used in the Wizard. The Menu component consists of a single menu item.</font><br><br><font face="Courier New" size="2">&lt;!-- LEFT Menu --&gt;</font><br><font face="Courier New" size="2">&lt;div align="center"&gt;</font><br><font face="Courier New" size="2">&lt;table cellspacing="0" cellpadding="0" border="0"&gt;</font><br><font face="Courier New" size="2">&lt;tr&gt;&lt;td&gt;</font><br><font face="Courier New" size="2">&lt;RDML COMPONENT="WIZVALUES"&gt;</font><br><font face="Courier New" size="2">&lt;/td&gt;&lt;/tr&gt;</font><br><font face="Courier New" size="2">&lt;/table&gt;</font><br><font face="Courier New" size="2">&lt;/div&gt;</font><br><br>
+</body>
+</html>

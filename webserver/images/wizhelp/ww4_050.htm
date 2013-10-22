@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<!-- Project   : Web e-Business Framework Wizard Help                         -->
+<!-- Copyright : 2002 LANSA                                                   -->
+<!-- Using     : Virtual Media, http://www.vmtech.com/                        -->
+
+<head>
+<title>Tips &amp; Techniques</title>
+</head>
+
+<body>
+<!-- VMT T -->
+<table width="100%" border="1">
+<tr>
+<td bgcolor="#808080" style="padding-left:0pt; padding-right:0pt;">
+<a href="index.htm"><img src="b8d6b169.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="Contents List"></a>
+<a href="JavaScript:self.history.go(-1)"><img src="8016546c.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="Back"></a>
+<a href="wizl03.htm"><img src="80000211.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="&lt;&lt;"></a>
+<a href="ww4_055.htm"><img src="80000269.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="&gt;&gt;"></a>
+
+</td>
+</tr>
+</table>
+<br clear="ALL"><!-- VMT /T -->
+<font face="Arial" size="4"><b>Tips &amp; Techniques</b></font><br clear="ALL"><hr size="4">
+<ul><li><font face="Arial" size="2">In adopting the presentation layout of another LANSA process, LANSA for the Web allows you to override any of the components embedded in the presentation. You can create process specific left, right and horizontal menu components for the process even though you have chosen to adopt the presentation from another LANSA process.</font></li><li><font face="Arial" size="2">If you change a standard menu definition in the parent process, the changes will be automatically used in the adopting process provided process specific components do not already exist.</font></li><li><font face="Arial" size="2">The Menu Separator Images variable (*LW3MENUSEP for the default or *LW3PMSP_&lt;process name&gt; for a specific process) is embedded in the associated menu component. This value will always be evaluated based on the current process. If a value does not exist for the current process, the default system value will be used (i.e. the adopted from process value is not referenced in this case).</font></li><li><font face="Arial" size="2">If you no longer want to use the adopted layout, you can create a process specific layout.</font></li><li><font face="Arial" size="2">To reset to the DEFAULT layout, use the <i>Select Layout</i> option to delete the layout. For more details, refer to <a href="ww4_005.htm">Select Layout</a>.</font></li><li><font face="Arial" size="2">The adopt layout feature is extremely useful if your Web application has many LANSA processes. It allows you to customize the presentation layout for  a single process and let the other processes adopt the presentation for this process to provide a consistent presentation for your complete application. For an example, refer to <A HREF="wiz04_begin.HTM">WIZ04 - Defining a Standard Menu Component</A> and <A HREF="wiz06_begin.HTM">WIZ06 - Defining a Style Sheet</A>. </font></li><li><font face="Arial" size="2">If your Web application consists of more than one process, and you want all processes to have the same presentation layout, it is recommended to customize one layout first. When you are satisfied with the first process layout, use the Adopt Layout to inherit this "look-and-feel" for the other processes in your Web application.</font></li></ul>
+</body>
+</html>

@@ -1,0 +1,34 @@
+﻿
+{
+	"strings": {
+		"BadNum": "Ungültige Zahl. Die Zahl darf nur Ziffern enthalten (nicht mehr als %1% vor und nicht mehr als %2% nach dem Komma).",
+		"BadInt": "Ungültige Integerzahl.",
+		"BadIntWithRange": "Ungültige Integerzahl. Die Zahl kann nicht kleiner als %1% oder größer als %2% sein.",
+		"BadFloat": "Ungültige Gleitkommazahl!",
+		"BadDate": "Ungültiges Datum!",
+		"BadTime": "Ungültige Zeit!",
+		"BadDateTime": "Datum/Zeit ungültig!",
+		"BadDBCS_TooLong": "Die umgerechnete Länge der eingegebenen Zeichen ist %1, das übersteigt die maximal zulässige Länge von %2.",
+		"BadDBCS_SBCSNotAllowed": "In diesem Feld sind nur DBCS-Zeichen erlaubt. Es wurden %1 SBCS-Zeichen eingegeben.",
+		"BadDBCS_DBCSNotAllowed": "In diesem Feld sind nur SBCS-Zeichen erlaubt. Es wurden %1 BBCS-Zeichen eingegeben.",
+		"BadDBCS_BothNotAllowed": "Erlaubt sind in diesem Feld entweder nur DBCS-Zeichen oder nur SBCS-Zeichen. Es wurden %1 SBCS-Zeichen eingegeben. Es wurden %2 DBCS-Zeichen eingegeben.",
+		"mobiscroll-cancelText": "Abbrechen",
+		"mobiscroll-setText": "Festlegen",
+		"mobiscroll-dayText": "Tag",
+		"mobiscroll-monthText": "Monat",
+		"mobiscroll-yearText": "Jahr",
+		"mobiscroll-hourText": "Stunden",
+		"mobiscroll-minuteText": "Minuten",
+		"mobiscroll-secText": "Sekunden",
+		"mobiscroll-dateFormat": "dd.mm.yy",
+		"mobiscroll-timeFormat": "HH:ii",
+		"mobiscroll-dateOrder": "MMdyy",
+      "mobiscroll-timeWheels": "HHii"
+	},
+	"arrays": {
+		"DaysOfWeekSundayStartShort": ["Son", "Mon", "Die", "Mit", "Don", "Fre", "Sam"],
+		"DaysOfWeekSundayStartLong": ["Sonntag", "Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag"],
+		"MonthsShort": ["Jan", "Feb", "Mär", "Apr", "Mai", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dez"],
+		"MonthsLong": ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"]
+	}
+}

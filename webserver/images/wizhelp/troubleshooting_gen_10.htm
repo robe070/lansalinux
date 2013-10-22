@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<!-- Project   : Web e-Business Framework Wizard Help                         -->
+<!-- Copyright : 2002 LANSA                                                   -->
+<!-- Using     : Virtual Media, http://www.vmtech.com/                        -->
+
+<head>
+<title>Not authorized to change a graphic variable when using the LANSA for the Web Editor</title>
+</head>
+
+<body>
+<!-- VMT T -->
+<table width="100%" border="1">
+<tr>
+<td bgcolor="#808080" style="padding-left:0pt; padding-right:0pt;">
+<a href="index.htm"><img src="b8d6b169.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="Contents List"></a>
+<a href="JavaScript:self.history.go(-1)"><img src="8016546c.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="Back"></a>
+<a href="troubleshooting_gen_9.htm"><img src="80000211.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="&lt;&lt;"></a>
+<a href="troubleshooting_gen_11.htm"><img src="80000269.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="&gt;&gt;"></a>
+
+</td>
+</tr>
+</table>
+<br clear="ALL"><!-- VMT /T -->
+<font face="Arial" size="4"><b>Not authorized to change a graphic variable when using the LANSA for the Web Editor</b></font><br clear="ALL"><hr size="4">
+<font face="Arial" size="2">When attempting to use the LANSA for the Web Editor to manually change or delete a graphic variable, which was created using the e-Business Framework Wizard, you received the following message:</font><br><br><font face="Arial" size="2">"You are not authorized to change system variable ..."</font><br><br><font face="Arial" size="3"><i><b>Solution</b></i></font><br><br><font face="Arial" size="2">When you execute the Wizard, you create LANSA graphic variables, which use LANSA system variables. The owner of these system variables is based on the user profile used when executing the Wizard. </font><br><br><font face="Arial" size="2">If you wish to edit these graphic variables using the LANSA for the Web Editor, you must have authority to the system variables. The owner may grant authority to change/delete these variables, or you may logon with the LANSA for the Web Editor using the owner's profile.</font><br><br><font face="Arial" size="2">To determine the owner of the system variables, you may use the LANSA Housekeeping options and review the access to the LANSA objects.</font><br><br><font face="Arial" size="2">To determine the user profile being used when you execute the Wizard, refer to <A HREF="gs0h080.htm">Wizard Security Configuration</A> in the <i>Installing LANSA on Windows Guide</i>.</font><br><br><font face="Arial" size="2">If Web Server authentication has been set up, then you will enter a Web Server profile and password, and you should be able to determine the application/date server user profile being used when you execute the Wizard. If no authentication has been configured, then anonymous user access is being used. You must determine the profile associated with the DFTUSR. </font><br>
+</body>
+</html>

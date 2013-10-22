@@ -1,0 +1,779 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<!-- Sitemap 1.0 -->
+</head>
+<body>
+<object type="text/site properties">
+  <param name="FrameName" value="SCR">
+  <param name="Window Styles" value="0x800025">
+</object>
+<ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Web e-Business Framework Wizard Help">
+    <param name="Local" value="index.htm">
+    </object>
+  </li>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Introduction">
+      <param name="Local" value="ww2_001.htm">
+      </object>
+    </li>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="What can it do?">
+        <param name="Local" value="ww2_005.htm">
+        </object>
+      </li>
+      <li><object type="text/sitemap">
+        <param name="Name" value="How does it work?">
+        <param name="Local" value="ww2_010.htm">
+        </object>
+      </li>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Running the e-Business Framework Wizard">
+        <param name="Local" value="ww2_015.htm">
+        </object>
+      </li>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Wizard Home Page">
+          <param name="Local" value="ww2_020.htm">
+          </object>
+        </li>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Task Tracking">
+          <param name="Local" value="ww2_025.htm">
+          </object>
+        </li>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Security">
+          <param name="Local" value="ww2_030.htm">
+          </object>
+        </li>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Browser configuration">
+          <param name="Local" value="ww2_035.htm">
+          </object>
+        </li>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Help Configuration">
+          <param name="Local" value="ww2_040.htm">
+          </object>
+        </li>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Wizard navigation">
+          <param name="Local" value="ww2_045.htm">
+          </object>
+        </li>
+      </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Wizard Terminology">
+        <param name="Local" value="ww2_050.htm">
+        </object>
+      </li>
+      <li><object type="text/sitemap">
+        <param name="Name" value="WEBEVENT versus Procedural Functions">
+        <param name="Local" value="ww2_055.htm">
+        </object>
+      </li>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Partition Wide Versus System Wide">
+        <param name="Local" value="ww2_060.htm">
+        </object>
+      </li>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Multilingual Versus Non-multilingual Objects">
+        <param name="Local" value="ww2_065.htm">
+        </object>
+      </li>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Graphic Variables are non-multilingual">
+          <param name="Local" value="ww2_070.htm">
+          </object>
+        </li>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Layouts, Menu and Style Sheet Components are language specific">
+          <param name="Local" value="ww2_075.htm">
+          </object>
+        </li>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Language Recommendations">
+          <param name="Local" value="ww2_080.htm">
+          </object>
+        </li>
+      </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Considerations for Using the Wizard">
+        <param name="Local" value="ww2_085.htm">
+        </object>
+      </li>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Impact on Existing Applications">
+        <param name="Local" value="ww2_090.htm">
+        </object>
+      </li>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="New LANSA for Web Installation ">
+          <param name="Local" value="ww2_091.htm">
+          </object>
+        </li>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Existing LANSA for Web Installation">
+          <param name="Local" value="ww2_092.htm">
+          </object>
+        </li>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Converting a Web Application from Wizard V9.1 to V10.0">
+          <param name="Local" value="5a5868a.htm">
+          </object>
+        </li>
+      </ul>
+    </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Wizard Home Page">
+      <param name="Local" value="wiz02.htm">
+      </object>
+    </li>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Home">
+        <param name="Local" value="wiz_001.htm">
+        </object>
+      </li>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Define Process Group">
+        <param name="Local" value="wizpr2.htm">
+        </object>
+      </li>
+      <li><object type="text/sitemap">
+        <param name="Name" value="File Search">
+        <param name="Local" value="wizfil.htm">
+        </object>
+      </li>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Language">
+        <param name="Local" value="ww3_020.htm">
+        </object>
+      </li>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Characteristics to Modify">
+        <param name="Local" value="ww3_025.htm">
+        </object>
+      </li>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Process Selection">
+        <param name="Local" value="ww3_030.htm">
+        </object>
+      </li>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Go">
+        <param name="Local" value="ww3_035.htm">
+        </object>
+      </li>
+    </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Customizing a Presentation Layout ">
+      <param name="Local" value="wizl02.htm">
+      </object>
+    </li>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Select Layout">
+        <param name="Local" value="ww4_005.htm">
+        </object>
+      </li>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Tips &amp; Techniques">
+          <param name="Local" value="ww4_010.htm">
+          </object>
+        </li>
+      </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Color Scheme">
+        <param name="Local" value="ww4_015.htm">
+        </object>
+      </li>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Tips &amp; Techniques">
+          <param name="Local" value="ww4_020.htm">
+          </object>
+        </li>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Technically Speaking ">
+          <param name="Local" value="ww4_025.htm">
+          </object>
+        </li>
+      </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Layout Features">
+        <param name="Local" value="ww4_030.htm">
+        </object>
+      </li>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Tips &amp; Techniques">
+          <param name="Local" value="ww4_035.htm">
+          </object>
+        </li>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Technically Speaking ">
+          <param name="Local" value="ww4_040.htm">
+          </object>
+        </li>
+      </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Adopt Layout">
+        <param name="Local" value="wizl03.htm">
+        </object>
+      </li>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Tips &amp; Techniques">
+          <param name="Local" value="ww4_050.htm">
+          </object>
+        </li>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Technically Speaking">
+          <param name="Local" value="ww4_055.htm">
+          </object>
+        </li>
+      </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Tips &amp; Techniques">
+        <param name="Local" value="ww4_060.htm">
+        </object>
+      </li>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Technically Speaking">
+        <param name="Local" value="ww4_065.htm">
+        </object>
+      </li>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Layout Schemas ">
+          <param name="Local" value="ww4_070.htm">
+          </object>
+        </li>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Layout Pages ">
+          <param name="Local" value="ww4_075.htm">
+          </object>
+        </li>
+        <li><object type="text/sitemap">
+          <param name="Name" value="System Variables ">
+          <param name="Local" value="ww4_080.htm">
+          </object>
+        </li>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Banner Components">
+          <param name="Local" value="ww4_085.htm">
+          </object>
+        </li>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Menu Components">
+          <param name="Local" value="ww4_090.htm">
+          </object>
+        </li>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Style Sheets">
+          <param name="Local" value="ww4_095.htm">
+          </object>
+        </li>
+      </ul>
+    </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Customizing a Standard Menu ">
+      <param name="Local" value="wizf02.htm">
+      </object>
+    </li>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Select Menu Component">
+        <param name="Local" value="ww5_005.htm">
+        </object>
+      </li>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Modifying a Menu Component ">
+        <param name="Local" value="ww5_010.htm">
+        </object>
+      </li>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Menu Item Details ">
+        <param name="Local" value="ww5_015.htm">
+        </object>
+      </li>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Menu Sequence Number">
+          <param name="Local" value="ww5_020.htm">
+          </object>
+        </li>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Menu Type ">
+          <param name="Local" value="ww5_025.htm">
+          </object>
+        </li>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Menu State">
+          <param name="Local" value="ww5_030.htm">
+          </object>
+        </li>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Link Type ">
+          <param name="Local" value="ww5_035.htm">
+          </object>
+        </li>
+      </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Menu Features ">
+        <param name="Local" value="wizm04.htm">
+        </object>
+      </li>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Multilingual Considerations">
+        <param name="Local" value="ww5_045.htm">
+        </object>
+      </li>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Tips &amp; Techniques ">
+        <param name="Local" value="ww5_050.htm">
+        </object>
+      </li>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Technically Speaking ">
+        <param name="Local" value="ww5_055.htm">
+        </object>
+      </li>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Menu Components">
+          <param name="Local" value="ww5_060.htm">
+          </object>
+        </li>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Style Sheets">
+          <param name="Local" value="5a59a06.htm">
+          </object>
+        </li>
+      </ul>
+    </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Customizing a DHTML Menu">
+      <param name="Local" value="wize02.htm">
+      </object>
+    </li>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Select Menu Component">
+        <param name="Local" value="lwbengw6_toc494700811.htm">
+        </object>
+      </li>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Modifying a Menu Component">
+        <param name="Local" value="lwbengw6_ref494014110.htm">
+        </object>
+      </li>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Menu Item Details">
+        <param name="Local" value="lwbengw6_toc494700813.htm">
+        </object>
+      </li>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Menu Sequence and Description">
+          <param name="Local" value="lwbengw6_ref494072054.htm">
+          </object>
+        </li>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Link Type">
+          <param name="Local" value="lwbengw6_ref494072060.htm">
+          </object>
+        </li>
+      </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Menu Features ">
+        <param name="Local" value="wize04.htm">
+        </object>
+      </li>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Multilingual Considerations">
+        <param name="Local" value="ww6_035.htm">
+        </object>
+      </li>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Tips &amp; Techniques">
+        <param name="Local" value="ww6_040.htm">
+        </object>
+      </li>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Technically Speaking">
+        <param name="Local" value="lwbengw6_toc483968700.htm">
+        </object>
+      </li>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Menu Components">
+          <param name="Local" value="ww6_050.htm">
+          </object>
+        </li>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Menu Features">
+          <param name="Local" value="ww6_055.htm">
+          </object>
+        </li>
+      </ul>
+    </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Style Sheets">
+      <param name="Local" value="wizt02.htm">
+      </object>
+    </li>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Define Style Sheet  Main Page">
+        <param name="Local" value="lwbengw7_toc494700811.htm">
+        </object>
+      </li>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Define Style Sheet  Detail Page">
+        <param name="Local" value="ww7_010.htm">
+        </object>
+      </li>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Multilingual Considerations">
+        <param name="Local" value="ww7_015.htm">
+        </object>
+      </li>
+      <li><object type="text/sitemap">
+        <param name="Name" value="CSS Tips &amp; Techniques">
+        <param name="Local" value="lwbengw7_ref494014285.htm">
+        </object>
+      </li>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Technically Speaking">
+        <param name="Local" value="lwbengw7_toc483968700.htm">
+        </object>
+      </li>
+    </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="System Wide Graphic Variables">
+      <param name="Local" value="wizs02.htm">
+      </object>
+    </li>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Maintain System Variables">
+        <param name="Local" value="ww8_005.htm">
+        </object>
+      </li>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Background Settings">
+          <param name="Local" value="ww8_010.htm">
+          </object>
+        </li>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Menu Settings">
+          <param name="Local" value="ww8_015.htm">
+          </object>
+        </li>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Images">
+          <param name="Local" value="ww8_020.htm">
+          </object>
+        </li>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Help Files Location">
+          <param name="Local" value="ww8_025.htm">
+          </object>
+        </li>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Tips &amp; Techniques ">
+          <param name="Local" value="ww8_050.htm">
+          </object>
+        </li>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Technically Speaking">
+          <param name="Local" value="ww8_055.htm">
+          </object>
+        </li>
+      </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Color &amp; Color Picker">
+        <param name="Local" value="ww8_060.htm">
+        </object>
+      </li>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Tips &amp; Techniques">
+          <param name="Local" value="ww8_030.htm">
+          </object>
+        </li>
+      </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Image">
+        <param name="Local" value="ww8_035.htm">
+        </object>
+      </li>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Tips &amp; Techniques">
+          <param name="Local" value="ww8_045.htm">
+          </object>
+        </li>
+      </ul>
+    </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Customizing Browse Lists">
+      <param name="Local" value="wizb02.htm">
+      </object>
+    </li>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Select Browse List">
+        <param name="Local" value="ww9_005.htm">
+        </object>
+      </li>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Maintain Browse List ">
+        <param name="Local" value="ww9_010.htm">
+        </object>
+      </li>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Browse List Colors and Column Headings">
+          <param name="Local" value="ww9_015.htm">
+          </object>
+        </li>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Images for Browse List Selection">
+          <param name="Local" value="ww9_020.htm">
+          </object>
+        </li>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Miscellaneous Attributes">
+          <param name="Local" value="ww9_025.htm">
+          </object>
+        </li>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Presentation Attributes">
+          <param name="Local" value="ww9_030.htm">
+          </object>
+        </li>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Tips &amp; Techniques">
+          <param name="Local" value="ww9_035.htm">
+          </object>
+        </li>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Technically Speaking ">
+          <param name="Local" value="ww9_040.htm">
+          </object>
+        </li>
+      </ul>
+    </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Application Import/Export">
+      <param name="Local" value="wwa_001.htm">
+      </object>
+    </li>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="What Do I Need to Export?">
+        <param name="Local" value="wwa_005.htm">
+        </object>
+      </li>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Export/Import Between Systems">
+          <param name="Local" value="wwa_010.htm">
+          </object>
+        </li>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Export/Import Between Partitions in the Same System">
+          <param name="Local" value="wwa_015.htm">
+          </object>
+        </li>
+      </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Exporting Browse List Changes">
+        <param name="Local" value="wwa_020.htm">
+        </object>
+      </li>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Exporting Process Changes">
+        <param name="Local" value="wwa_025.htm">
+        </object>
+      </li>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Exporting System Wide Changes ">
+        <param name="Local" value="wwa_030.htm">
+        </object>
+      </li>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Exporting Wizard Runtime Objects">
+          <param name="Local" value="wwa_035.htm">
+          </object>
+        </li>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Exporting Customized Wizard Settings">
+          <param name="Local" value="wwa_040.htm">
+          </object>
+        </li>
+      </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Import/Export Considerations">
+        <param name="Local" value="wwa_045.htm">
+        </object>
+      </li>
+    </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Troubleshooting ">
+      <param name="Local" value="wwb_001.htm">
+      </object>
+    </li>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Wizard does not show the most current layout definition">
+        <param name="Local" value="troubleshooting_gen_1.htm">
+        </object>
+      </li>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Wizard does not change the presentation layout of a function">
+        <param name="Local" value="troubleshooting_gen_3.htm">
+        </object>
+      </li>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Company Logo does not appear in the presentation layout">
+        <param name="Local" value="troubleshooting_gen_2.htm">
+        </object>
+      </li>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Banner does not appear in the presentation layout">
+        <param name="Local" value="troubleshooting_gen_4.htm">
+        </object>
+      </li>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Click Tracking does not log events">
+        <param name="Local" value="troubleshooting_gen_7.htm">
+        </object>
+      </li>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Menu Component does not appear in a function">
+        <param name="Local" value="troubleshooting_gen_5.htm">
+        </object>
+      </li>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Image file is not found when executing your application">
+        <param name="Local" value="troubleshooting_gen_6.htm">
+        </object>
+      </li>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Presentation controlled by graphic variables has been changed but you did not alter the variables">
+        <param name="Local" value="troubleshooting_gen_8.htm">
+        </object>
+      </li>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Application function or linked page does not Start in a New Window">
+        <param name="Local" value="troubleshooting_gen_9.htm">
+        </object>
+      </li>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Not authorized to change a graphic variable when using the LANSA for the Web Editor">
+        <param name="Local" value="troubleshooting_gen_10.htm">
+        </object>
+      </li>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Changes to a graphic variable are not committed when using the Wizard">
+        <param name="Local" value="troubleshooting_gen_11.htm">
+        </object>
+      </li>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Standard Menu Items do not align correctly">
+        <param name="Local" value="troubleshooting_gen_12.htm">
+        </object>
+      </li>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Online Help is not accessible from the Wizard ">
+        <param name="Local" value="troubleshooting_gen_13.htm">
+        </object>
+      </li>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Curve image in corner of presentation layout is not displayed ">
+        <param name="Local" value="troubleshooting_gen_14.htm">
+        </object>
+      </li>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Web Application does not include Wizard Interface in all supported Languages">
+        <param name="Local" value="troubleshooting_gen_15.htm">
+        </object>
+      </li>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Web Application does not include Wizard Interface when exported to a non-Multilingual partition">
+        <param name="Local" value="troubleshooting_gen_16.htm">
+        </object>
+      </li>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Other Resources">
+        <param name="Local" value="5a6490c.htm">
+        </object>
+      </li>
+    </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Wizard Tutorials ">
+      <param name="Local" value="tutorial_begin.htm">
+      </object>
+    </li>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Tutorial Installation">
+        <param name="Local" value="gs0p000.htm">
+        </object>
+      </li>
+      <li><object type="text/sitemap">
+        <param name="Name" value="WIZ01 - Executing the Wizard">
+        <param name="Local" value="wiz01_begin.htm">
+        </object>
+      </li>
+      <li><object type="text/sitemap">
+        <param name="Name" value="WIZ02 - Customizing Browse List Variables">
+        <param name="Local" value="wiz02_begin.htm">
+        </object>
+      </li>
+      <li><object type="text/sitemap">
+        <param name="Name" value="WIZ03 - Customizing a Presentation Layout">
+        <param name="Local" value="wiz03_begin.htm">
+        </object>
+      </li>
+      <li><object type="text/sitemap">
+        <param name="Name" value="WIZ04 - Defining a Standard Menu Component">
+        <param name="Local" value="wiz04_begin.htm">
+        </object>
+      </li>
+      <li><object type="text/sitemap">
+        <param name="Name" value="WIZ05 - Defining a DHTML Menu Component">
+        <param name="Local" value="wiz05_begin.htm">
+        </object>
+      </li>
+      <li><object type="text/sitemap">
+        <param name="Name" value="WIZ06 - Defining a Style Sheet">
+        <param name="Local" value="wiz06_begin.htm">
+        </object>
+      </li>
+      <li><object type="text/sitemap">
+        <param name="Name" value="WIZ07 - Adopting a Presentation Layout">
+        <param name="Local" value="wiz07_begin.htm">
+        </object>
+      </li>
+    </ul>
+  </ul>
+</ul>
+</body>
+</html>

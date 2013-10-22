@@ -1,0 +1,9 @@
+# Declare files that will always have LF line endings on checkout.
+*.sh		eol=lf
+*.py		eol=lf
+buildpase*.mak	eol=lf
+*.pase.mak 	eol=lf
+*ux.mak		eol=lf
+*.unx		eol=lf
+*.sol		eol=lf
+*.awk		eol=lf

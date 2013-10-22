@@ -1,0 +1,615 @@
+﻿/*!
+ (c) 2002, 2011 LANSA
+ XHTML Style: Royal
+ $Workfile:: theme_royal.css                      $
+ $UTCDate:: 2011-10-21 05:42:39Z                  $
+ $Revision:: 14                                   $
+*/
+
+body, table, strong, input, select, textarea, button
+{
+	font-family: Verdana, Tahoma, Arial, Helvetica, serif;
+	font-size: 8pt;
+}
+body
+{
+	cursor: default;
+	background-color: #ffffff;
+}
+.bold
+{
+	font-weight: bold;
+}
+div.messages
+{
+	border: 1px solid #C4D1F7;
+	background-color: #EAEDF5;
+	color: black;
+}
+tr.list-h
+{
+	background: #C4D1F7;
+	color: #000000;
+}
+tr.list-o
+{
+	background: #EAEDF5;
+	color: black;
+}
+tr.list-e
+{
+	background: #FFEEBC;
+	color: black;
+}
+input.number
+{
+	background-color: #EAEDF5;
+	text-align: left;
+}
+input.text
+{
+	background-color: #EAEDF5;
+	text-align: left;
+}
+input.ltext
+{
+	background-color: #EAEDF5;
+	text-align: left;
+	text-transform: lowercase
+}
+input.utext
+{
+	background-color: #EAEDF5;
+	text-align: left;
+	text-transform: uppercase;
+}
+.inputfocus
+{
+	background: #FFEEBC;
+}
+input.button
+{
+	background-color: #C4D1F7;
+	color: #000000;
+	font-size: 8pt;
+	font-weight: bold;
+}
+input.button_mouseover
+{
+	background-color: #FFEEBC;
+	color: #000000;
+	font-weight: bold;
+	border-style: inset;
+}
+th.text
+{
+	text-align: left;
+}
+th.number
+{
+	text-align: right;
+}
+td.text, div.text
+{
+	text-align: left;
+}
+td.number, div.number 
+{
+	text-align: right;
+}
+img.weblink
+{
+	margin-left: 0px;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom:0px;
+	border-style: none;
+}
+h1
+{
+	font-size: 14pt;
+	color: #000000;
+}
+h1.title
+{
+	text-align: center;
+	line-height: 16pt;
+	font-weight: normal;
+	padding-top: 2px;
+}
+h2
+{
+	font-size: 12pt;
+	color: #000000;
+}
+h3
+{
+	font-size: 10pt;
+	font-weight: bold;
+	color: #000000;
+}
+img.lweb_disabled
+{
+	filter:alpha(opacity=40);
+}
+strong
+{
+	font-style: italic;
+	color: #000000;
+}
+a
+{
+	text-decoration: underline;
+}
+a:link
+{
+	color: #0000ff;
+}
+a:hover
+{
+	color: #ff0000;
+}
+.maximized
+{
+	width: 100%;
+	height: 100%;
+}
+.whitebg
+{
+	background-color: #ffffff;
+}
+.hidden__
+{
+	position: absolute;
+	visibility: hidden;
+	overflow: hidden;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 0px;
+	display: none;
+	z-index: -1;
+}
+/******************************************************
+	XHTML Standard Weblet Styles
+*******************************************************/
+.std_headerl
+{
+	background-color: #879FE3;
+	background-image: url("../std_logo_royal.gif");
+	border-top: 3px solid #FFC71E;
+	border-bottom: 1px solid #FFC71E;
+	background-repeat: no-repeat;
+	background-position: left center;
+	border-color: #01478c;
+	vertical-align: middle;
+	text-align: left;
+	width: 50%;
+	height: 80px;
+}
+.std_headerr
+{
+	background-color: #879FE3;
+	background-image: url("../std_headimg_royal.gif");
+	border-top: 3px solid #FFC71E;
+	border-bottom: 1px solid #FFC71E;
+	background-repeat: no-repeat;
+	background-position: right center;
+	border-color: #01478c;
+	vertical-align: bottom;
+	text-align: right;
+	width: 50%;
+	height: 80px;
+} 
+.std_menutop_bg
+{
+	background-color: #7281AF;
+	border-bottom: 2px solid #ffffff;
+}
+a.std_menu, a.std_menu:hover, a.std_menu_selected
+{
+	color: #404E78;
+	border-style: solid;
+	border-width: 0px 1px 1px 5px;
+}
+a.std_menu, a.std_menu_selected
+{
+	background-color: #97AFF1;
+	border-color: #7281AF #EAEDF5 #7281AF #404E78;
+}
+a.std_menu:hover
+{
+	color: #ffffff;
+	background-color: #FFD556;
+	border-color: #7281AF EAEDF5 #7281AF #B78B00;
+}
+.std_footer
+{
+	background-color: #C4D1F7;
+	color: #000000;
+	font-size: 8pt;
+	text-align: center;
+	line-height: 20px;
+	border-top: 1px solid #7281AF;
+	border-bottom: 1px solid #7281AF;
+} 
+.std_layout_outline
+{
+	background-color: #CCD7F6;
+}
+.std_layout_content
+{
+	vertical-align: top;
+	text-align: center;
+	width: 95%;
+}
+.std_layout3_content
+{
+	width: 90%;
+}
+.std_layout5_content
+{
+	vertical-align: top;
+	text-align: left;
+	width: 80%;
+}
+.std_anchor
+{
+}
+.std_anchor_mouseover
+{
+}
+.std_anchor_text
+{
+}
+.std_attachment_panel_top
+{
+}
+.std_attachment_panel_left
+{
+}
+.std_attachment_panel_center
+{
+}
+.std_attachment_panel_right
+{
+}
+.std_attachment_panel_bottom
+{
+	border: 1px solid #7281AF;
+}
+.std_button
+{
+	padding-left: 2px;
+	padding-right: 2px;
+	font-size: 11px;
+	color: #000000;
+	border: 2px outset #e2effa;
+	background-color: #ffffff;
+}
+.std_button_mouseover
+{
+	padding-left: 2px;
+	padding-right: 2px;
+	font-size: 11px;
+	color: #000000;
+	border: 2px inset #e2effa;
+	background-color: #FFEEBC;
+}
+.std_checkbox
+{
+}
+.std_checkbox_mouseover 
+{
+}
+.std_checkbox_text
+{
+}
+.std_click_image
+{
+}
+.std_click_image_disabled
+{
+	filter:alpha(opacity=40);
+}
+.std_dropdown
+{
+	background-color: #EAEDF5;
+	text-align: left;
+}
+.std_dropdown_mouseover
+{
+}
+/* for the V1 grid */
+.std_grid_head
+{
+	border-right: thin outset;
+	border-top: thin outset;
+	font-weight: normal;
+	border-left: thin outset;
+	border-bottom: thin outset;
+	background-color: #97AFF1;
+	cursor: default;
+}
+.std_grid_even_row
+{
+	background-color: #f7f7f7;
+	border: 1px ridge;
+}
+.std_grid_odd_row
+{
+	background-color: #EAEDF5;
+	border: 1px ridge;
+}
+.std_grid_cell 
+{
+	border: 1px ridge;
+}
+.std_grid_edit_cell
+{
+	background-color: #ffffff;
+}
+.std_grid_sort_box
+{
+	font-family: webdings, verdana, serif;
+	color: #808080;
+}
+.std_grid_outline 
+{
+	border-style: solid;
+	border-width: thin;
+	border-color: #eeeeee;
+}
+.std_grid_col_resize
+{
+	border-right: 1px dotted gray;
+}
+.std_image_button
+{
+	border-style: outset;
+	padding-top: 2px;
+	color: #000000;
+	background-color: #C4D1F7;
+}
+.std_image_button_mouseover
+{
+	border-style: inset;
+	padding-top: 2px;
+	color: #000000;
+	background-color: #FFEEBC; 
+}
+.std_image_button_text
+{
+	font-weight: bold;
+	vertical-align: middle;
+}
+.std_textarea
+{
+	border: 1px solid #C4D1F7;
+	scrollbar-DarkShadow-Color: #6F94FF;
+	scrollbar-3dLight-Color: #EAEDF5;
+	scrollbar-arrow-color: #404E78;
+	scrollbar-Base-Color: #CCDAFF;
+	scrollbar-Face-Color: #CCDAFF;
+	scrollbar-Highlight-Color: #ffffff;
+	scrollbar-Shadow-Color: #879FE3;
+	scrollbar-Track-Color: #d1d1d1;
+	overflow: auto;
+}
+.std_listbox
+{
+	border: 1px solid #c7dff4;
+}
+.std_listbox_mouseover 
+{
+}
+ul.std_plain
+{
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+}
+ul.std_plain li
+{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	white-space: nowrap;
+}
+.std_menu_item 
+{
+	font-weight: bold;
+}
+.std_nav_panel
+{
+	border: 1px solid #C4D1F7;
+}
+.std_panel
+{
+	overflow: auto;
+}
+.std_prompter_button
+{
+	color: #000000;
+	background-color: #C4D1F7;
+	padding: 0px; 
+}
+.std_prompter_button_mouseover
+{
+	padding-top: 2px;
+	color: #000000;
+	background-color: #FFEEBC; 
+}
+.std_prompter_content
+{
+	font-size: 8pt;
+}
+/* Std_tab_pages styles */
+
+.std_tab_pages_content_wrapper
+{
+    border-style: solid;
+    border-color: #7281af;
+    padding: 2px;
+}
+ul.std_tab_pages_tabs li
+{
+	border-style: solid;
+    border-color: #7281af;
+	padding: 0px;
+	background-color: #ccd7f6;
+	color: black;
+}
+ul.std_tab_pages_tabs li.std_tab_active
+{
+	background-color: white;
+	color: black;
+}
+ul.std_tab_pages_tabs li a
+{
+	padding: 3px;
+	font-weight: bold;
+}
+li.std_tab_disabled a:hover {
+    color: black;
+}
+/* Std_tab_pages deprecated styles. */
+
+.std_tab_pages_bottom_active
+{
+	border: 2px inset #e2effa;
+	background-color: #FFD966;
+	font-weight: bold;
+	padding-bottom: 2pt;
+}
+.std_tab_pages_bottom_inactive
+{
+	border: 1px inset #e2effa;
+	background-color: #879FE3;
+	font-weight: bold;
+	filter:alpha(opacity=50);
+}
+.std_tab_pages_left_tab_row
+{
+	text-align: right;
+}
+.std_tab_pages_left_active
+{
+	border: 2px inset #e2effa;
+	background-color: #FFD966;
+	font-weight: bold;
+	white-space: nowrap;
+	padding-right: 2pt;
+}
+.std_tab_pages_left_inactive
+{
+	border: 1px inset #e2effa;
+	background-color: #879FE3;
+	font-weight: bold;
+	filter:alpha(opacity=50);
+}
+.std_tab_pages_right_active
+{
+	border: 2px outset #e2effa;
+	background-color: #FFD966;
+	font-weight: bold;
+	padding-right: 2pt;
+}
+.std_tab_pages_right_inactive
+{
+	border: 1px inset #e2effa;
+	background-color: #879FE3;
+	font-weight: bold;
+	filter:alpha(opacity=50);
+}
+.std_tab_pages_top_active
+{
+	border: 1px outset #e2effa;
+	background-color: #FFD966;
+	font-weight: bold;
+	padding-top: 2pt;
+}
+.std_tab_pages_top_inactive
+{
+	border: 1px inset #e2effa;
+	background-color: #879FE3;
+	font-weight: bold;
+	filter:alpha(opacity=50);
+}
+.std_tab_pages_page_content  
+{
+	border-top: 1px solid #e2effa;
+	background-color: #ffffff;
+}
+
+
+.std_treeview
+{
+	background-color: #ffffff;
+}
+.std_treeview_target
+{
+}
+table.std_largelist th, table.std_largelist td
+{
+	white-space: nowrap;
+}
+.std_grid tbody tr.odd_row
+{
+	background-color: #EAEDF5;
+	border: 1px ridge;
+}
+.std_grid tbody tr.even_row
+{
+	background-color: #f7f7f7;
+	border: 1px ridge;
+}
+.std_grid th
+{
+	border: thin outset #aaaaaa;
+	background-color: #97AFF1;
+	font-weight: normal;
+}
+.std_grid tbody td
+{
+	border: 1px ridge;
+}
+
+/* -------------------------------------
+  jQuery UI Nested Menu and Menu Bar
+  - some basics so it doesn't look 
+   too bad without jQuery UI CSS
+--------------------------------------*/
+
+.ui-menu {
+	list-style: none;
+	padding: 0px;
+	border: 1px solid gray;
+	background-color: #fff;
+}
+.ui-menubar-item a {
+	text-decoration: none;
+	border: 1px solid gray;
+	background-color: #fff;
+}
+.ui-menu-item a {
+	border: none;
+}
+
+/* ----------------------------------------
+ Some basic compatability with new layouts
+-------------------------------------------*/
+#lpage_navbar li a.std_menu {
+	width: auto;
+	background: transparent;
+	border: none;
+	border-right: 1px solid #fff;
+	font-weight: bold;
+}
+#lpage_navbar li a.std_menu_selected {
+	width: auto;
+	background: #151;
+	border: none;
+	border-right: 1px solid #fff;
+	font-weight: bold;
+}

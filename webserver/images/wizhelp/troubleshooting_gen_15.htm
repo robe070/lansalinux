@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<!-- Project   : Web e-Business Framework Wizard Help                         -->
+<!-- Copyright : 2002 LANSA                                                   -->
+<!-- Using     : Virtual Media, http://www.vmtech.com/                        -->
+
+<head>
+<title>Web Application does not include Wizard Interface in all supported Languages</title>
+</head>
+
+<body>
+<!-- VMT T -->
+<table width="100%" border="1">
+<tr>
+<td bgcolor="#808080" style="padding-left:0pt; padding-right:0pt;">
+<a href="index.htm"><img src="b8d6b169.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="Contents List"></a>
+<a href="JavaScript:self.history.go(-1)"><img src="8016546c.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="Back"></a>
+<a href="troubleshooting_gen_14.htm"><img src="80000211.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="&lt;&lt;"></a>
+<a href="troubleshooting_gen_16.htm"><img src="80000269.gif" align="TEXTTOP" hspace="0" border="0" width="91" height="21" alt="&gt;&gt;"></a>
+
+</td>
+</tr>
+</table>
+<br clear="ALL"><!-- VMT /T -->
+<font face="Arial" size="4"><b>Web Application does not include Wizard Interface in all supported Languages</b></font><br clear="ALL"><hr size="4">
+<font face="Arial" size="2">When executing your Web application in different languages, the Wizard generated components do not execute consistently.</font><br><br><font face="Arial" size="3"><i><b>Solution</b></i></font><br><br><font face="Arial" size="2">To run your Web application in multiple languages, you must generate the appropriate components in the required languages. Generally, if you start by generating an interface in the default language, a component will always be found (it may not be in the correct language though). After you have created your default language interface, you only need to create separate menu components for each language as these are the only components which usually include text requiring translation (e.g. menu item descriptions).</font><br><br><font face="Arial" size="2">Check that the default partition language where you are executing the Web application is the same as the default partition language in the partition where the Wizard was executed. If they are different, use the Wizard to generate all the components in the default language of your target system.</font><br>
+</body>
+</html>
