@@ -1,0 +1,9 @@
+********************************************************
+**********     WebAdmin Captions             ***********
+********************************************************
+
+WebAdministrator.Form.Caption=Administrateur Web
+WebAdministrator.Main.Caption=Définir les options de l'administrateur Web
+WebAdministrator.Save.Caption=Enregistrer
+WebAdministrator.Reset.Caption=Réinitialiser
+WebAdministrator.Close.Caption=Quitter

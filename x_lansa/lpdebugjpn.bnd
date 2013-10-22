@@ -1,0 +1,251 @@
+********************************************************
+**********     Debug Toolbar Captions		 ***********
+********************************************************
+
+Debug.Btn.Go.Caption=続けて実行
+Debug.Btn.Go.Title=続けて実行
+Debug.Btn.Go.Hint=ﾗﾝﾀｲﾑの実行を再開します (F5)
+Debug.Btn.Stop.Caption=停止
+Debug.Btn.Stop.Title=停止
+Debug.Btn.Stop.Hint=停止
+Debug.Btn.StepInto.Caption=ｽﾃｯﾌﾟ
+Debug.Btn.StepInto.Title=ｽﾃｯﾌﾟ
+Debug.Btn.StepInto.Hint=ｽﾃｯﾌﾟ (F8)
+Debug.Btn.StepOver.Caption=ｽﾃｯﾌﾟ ｵｰﾊﾞｰ
+Debug.Btn.StepOver.Title=ｽﾃｯﾌﾟ ｵｰﾊﾞｰ
+Debug.Btn.StepOver.Hint=ｽﾃｯﾌﾟ ｵｰﾊﾞｰ (Shift+F8)
+Debug.Btn.StepOut.Caption=ｽﾃｯﾌﾟ ｱｳﾄ
+Debug.Btn.StepOut.Title=ｽﾃｯﾌﾟ ｱｳﾄ
+Debug.Btn.StepOut.Hint=ｽﾃｯﾌﾟ ｱｳﾄ
+Debug.Btn.RunToCursor.Caption=ｶｰｿﾙに沿って実行
+Debug.Btn.RunToCursor.Title=ｶｰｿﾙに沿って実行
+Debug.Btn.RunToCursor.Hint=ｶｰｿﾙに沿って実行
+
+Debug.ToolBar.Caption=ﾃﾞﾊﾞｯｸﾞ
+Debug.Btn.Animate.Hint=ｱﾆﾒｰﾄ
+Debug.Btn.AnimateAll.Hint=ｱﾆﾒｰﾄ(全て)
+Debug.Btn.Halt.Hint=実行休止
+
+********************************************************
+**********     Debug Repository Captions	 ***********
+********************************************************
+
+Debug.Repository.Column.Debug.Caption=ﾃﾞﾊﾞｯｸﾞ使用可能
+
+********************************************************
+**********      Debug Menu Captions				********
+********************************************************
+
+Debug.Menu.Caption=ﾃﾞﾊﾞｯｸﾞ(&D)
+Debug.Menu.Windows.Caption=ｳｨﾝﾄﾞｳ(&W)
+Debug.Menu.Breakpoints.Caption=ﾌﾞﾚｰｸﾎﾟｲﾝﾄ
+Debug.Menu.Execute.Caption=実行を続ける(&C)
+Debug.Menu.EndDebug.Caption=ﾃﾞﾊﾞｯｸﾞの終了(&E)
+Debug.Menu.StepInto.Caption=ｽﾃｯﾌﾟ(&I)
+Debug.Menu.StepOver.Caption=ｽﾃｯﾌﾟ ｵｰﾊﾞｰ(&O)
+Debug.Menu.NewBreakpoint.Caption=新しいﾌﾞﾚｰｸﾎﾟｲﾝﾄ(&B)...
+Debug.Menu.ClearAllBreakpoints.Caption=全てのﾌﾞﾚｰｸﾎﾟｲﾝﾄのｸﾘｱ(&C)
+Debug.Menu.EnableAllBreakpoints.Caption=全てのﾌﾞﾚｰｸﾎﾟｲﾝﾄを使用可能
+Debug.Menu.DisableAllBreakpoints.Caption=全てのﾌﾞﾚｰｸﾎﾟｲﾝﾄを使用不可
+Debug.Menu.ToggleBreakpoint.Caption=ﾌﾞﾚｰｸﾎﾟｲﾝﾄの挿入/削除
+Debug.Menu.InsertBreakpoint.Caption=ﾌﾞﾚｰｸﾎﾟｲﾝﾄのｾｯﾄ
+Debug.Menu.RemoveBreakpoint.Caption=ﾌﾞﾚｰｸﾎﾟｲﾝﾄの削除
+Debug.Menu.EnableBreakpoint.Caption=ﾌﾞﾚｰｸﾎﾟｲﾝﾄを使用可能
+Debug.Menu.DisableBreakpoint.Caption=ﾌﾞﾚｰｸﾎﾟｲﾝﾄを使用不可
+Debug.Menu.BreakpointProperties.Caption=ﾌﾞﾚｰｸﾎﾟｲﾝﾄ ﾌﾟﾛﾊﾟﾃｨ...
+Debug.Menu.ShowVariable.Caption=変数の表示: &1
+Debug.Menu.GoToSource.Caption=ｿｰｽｺｰﾄﾞへ移動
+Debug.Menu.DeleteBreakpoint.Caption=削除
+Debug.Menu.Animate.Caption=ｱﾆﾒｰﾄ(&A)
+Debug.Menu.AnimateAll.Caption=ｱﾆﾒｰﾄ(全て)(&A)
+Debug.Menu.Halt.Caption=実行休止(&H)
+Debug.Menu.Delay.Caption=ｱﾆﾒｰﾄ表示遅延
+Debug.Menu.Delay.None.Caption=None
+Debug.Menu.Delay.50MilliSeconds.Caption=50 ﾐﾘ秒
+Debug.Menu.Delay.500MilliSeconds.Caption=500 ﾐﾘ秒
+Debug.Menu.Delay.1Second.Caption=1 秒
+Debug.Menu.Delay.2Seconds.Caption=2 秒
+Debug.Menu.Delay.SetSeconds.Caption=秒のｾｯﾄ...
+Debug.Menu.Output.Caption=出力
+Debug.Menu.Variables.Caption=値
+Debug.Menu.CallStack.Caption=呼出しｽﾀｯｸ
+Debug.Menu.Sessions.Caption=ｾｯｼｮﾝ
+Debug.Menu.StartDebug.Caption=開始
+Debug.Menu.DisableDebug.Caption=ﾃﾞﾊﾞｯｸﾞ使用不可
+Debug.Menu.EnableDebug.Caption=ﾃﾞﾊﾞｯｸﾞ使用可能
+Debug.Menu.EnableAllDebug.Caption=ﾃﾞﾊﾞｯｸﾞ全て使用可能
+Debug.Menu.DisableAllDebug.Caption=ﾃﾞﾊﾞｯｸﾞ全て使用不可
+
+********************************************************
+**********      Debug Menu Hint Captions		********
+********************************************************
+
+Debug.Menu.Breakpoints.Caption.Tip=ﾌﾞﾚｰｸﾎﾟｲﾝﾄ ﾋﾞｭｰの表示
+Debug.Menu.Execute.Caption.Tip=実行
+Debug.Menu.EndDebug.Caption.Tip=ﾃﾞﾊﾞｯｸﾞの終了
+Debug.Menu.StepInto.Caption.Tip=ｽﾃｯﾌﾟ
+Debug.Menu.StepOver.Caption.Tip=ｽﾃｯﾌﾟ ｵｰﾊﾞｰ
+Debug.Menu.NewBreakpoint.Caption.Tip=新しいﾌﾞﾚｰｸﾎﾟｲﾝﾄ...
+Debug.Menu.ClearAllBreakpoints.Caption.Tip=全てのﾌﾞﾚｰｸﾎﾟｲﾝﾄのｸﾘｱ
+Debug.Menu.EnableAllBreakpoints.Caption.Tip=全てのﾌﾞﾚｰｸﾎﾟｲﾝﾄを使用可能
+Debug.Menu.DisableAllBreakpoints.Caption.Tip=全てのﾌﾞﾚｰｸﾎﾟｲﾝﾄを使用不可
+Debug.Menu.ToggleBreakpoint.Caption.Tip=ﾌﾞﾚｰｸﾎﾟｲﾝﾄの挿入/削除
+Debug.Menu.InsertBreakpoint.Caption.Tip=ﾌﾞﾚｰｸﾎﾟｲﾝﾄの挿入
+Debug.Menu.RemoveBreakpoint.Caption.Tip=ﾌﾞﾚｰｸﾎﾟｲﾝﾄの削除
+Debug.Menu.EnableBreakpoint.Caption.Tip=ﾌﾞﾚｰｸﾎﾟｲﾝﾄを使用可能
+Debug.Menu.DisableBreakpoint.Caption.Tip=ﾌﾞﾚｰｸﾎﾟｲﾝﾄを使用不可
+Debug.Menu.BreakpointProperties.Caption.Tip=ﾌﾞﾚｰｸﾎﾟｲﾝﾄ ﾌﾟﾛﾊﾟﾃｨ
+Debug.Menu.ShowVariable.Caption.Tip=ﾃﾞﾊﾞｯｸﾞ値ﾀﾌﾞの変数を表示
+Debug.Menu.GoToSource.Caption.Tip=ｿｰｽｺｰﾄﾞへ移動
+Debug.Menu.DeleteBreakpoint.Caption.Tip=削除
+Debug.Menu.Animate.Caption.Tip=ｱﾆﾒｰﾄ
+Debug.Menu.AnimateAll.Caption.Tip=ｱﾆﾒｰﾄ(全て)
+Debug.Menu.Halt.Caption.Tip=実行休止
+Debug.Menu.Delay.Caption.Tip=ｱﾆﾒｰﾄ表示遅延
+Debug.Menu.Delay.None.Caption.Tip=None
+Debug.Menu.Delay.50MilliSeconds.Caption.Tip=50 ﾐﾘ秒
+Debug.Menu.Delay.500MilliSeconds.Caption.Tip=500 ﾐﾘ秒
+Debug.Menu.Delay.1Second.Caption.Tip=1 秒
+Debug.Menu.Delay.2Seconds.Caption.Tip=2 秒
+Debug.Menu.Delay.SetSeconds.Caption.Tip=秒のｾｯﾄ...
+Debug.Menu.Output.Caption.Tip=出力
+Debug.Menu.Variables.Caption.Tip=ﾃﾞﾊﾞｯｸﾞ値 ﾋﾞｭｰの表示
+Debug.Menu.CallStack.Caption.Tip=呼出しｽﾀｯｸ ﾋﾞｭｰの表示
+
+********************************************************
+**********      Debug Types Captions			********
+********************************************************
+
+Debug.Type.Alpha=英数字(&1)
+Debug.Type.Packed=ﾊﾟｯｸ(&1,&2)
+Debug.Type.Signed=ｿﾞｰﾝ(&1,&2)
+Debug.Type.Long=ﾛﾝｸﾞ(&1,&2)
+Debug.Type.Double=ﾀﾞﾌﾞﾙ(&1,&2)
+Debug.Type.Undefined=未定義(&1,&2)
+Debug.Type.Binary=ﾊﾞｲﾅﾘ
+Debug.Type.Component=ｺﾝﾎﾟｰﾈﾝﾄ
+Debug.Type.Char=文字(&1)
+Debug.Type.NChar=NChar(&1)
+Debug.Type.Integer=整数型
+Debug.Type.DateTime=日時
+Debug.Type.Date=日付
+Debug.Type.Time=時間
+Debug.Type.Boolean=ﾌﾞｰﾙ値
+Debug.Type.Float=ﾌﾛｰﾄ(&1,&2)
+Debug.Type.VarChar=VarChar(&1)
+Debug.Type.VarBinary=VarBinary
+Debug.Type.CLOB=CLOB
+Debug.Type.BLOB=BLOB
+Debug.Type.Decimal=小数点桁数(&1,&2)
+
+Debug.Condition.ValueChange=値が変更された場合
+Debug.Condition.ValueEqualTo=値が&1と等しい場合
+Debug.Condition.ValueNotEqualTo=値が&1と等しくない場合
+Debug.Condition.ValueLessThan=値が&1より小さい場合
+Debug.Condition.ValueGreaterThan=値が&1より大きい場合
+
+Debug.Value.NotAvailable=利用できない値
+Debug.Type.List.EntryLength=入力可能な長さ
+Debug.Type.List.MaxEntries=入力可能な最大の長さ
+Debug.Type.List.CurrentEntries=現行の入力
+
+Debug.Output.Build=生成
+Debug.Output.Debug=ﾃﾞﾊﾞｯｸﾞ
+
+Debug.View.TabCaption=ﾃﾞﾊﾞｯｸﾞ
+
+********************************************************
+**********      Debug Breakpoints Captions		********
+********************************************************
+
+Debug.Breakpoints.Caption=ﾌﾞﾚｰｸﾎﾟｲﾝﾄ
+Debug.Breakpoints.Tree.BreakpointsColumnCaption=ﾌﾞﾚｰｸﾎﾟｲﾝﾄ
+Debug.Breakpoints.Tree.PassCountColumnCaption=ﾊﾟｽ ｶｳﾝﾄ
+Debug.Breakpoints.Tree.ActiveBreakpointColumnCaption=ｱｸﾃｨﾌﾞ
+Debug.Breakpoints.Tree.HitCountColumnCaption=ﾋｯﾄ ｶｳﾝﾄ
+Debug.Breakpoints.Tree.Item.Source.Caption=ｿｰｽ
+Debug.Breakpoints.Tree.Item.Line.Caption=行番号
+Debug.Breakpoints.Tree.Item.Text.Caption=ﾃｷｽﾄ
+Debug.Breakpoints.Tree.Item.Values.Caption=値
+Debug.Breakpoints.Tree.Item.Values.Value.Caption=条件
+
+Debug.Breakpoints.Dialog.Properties.Caption=ﾌﾞﾚｰｸﾎﾟｲﾝﾄ ﾌﾟﾛﾊﾟﾃｨ
+Debug.Breakpoints.Dialog.Properties.PassCount.Caption=ﾊﾟｽ ｶｳﾝﾄ:
+Debug.Breakpoints.Dialog.Properties.Page.General.Caption=一般
+Debug.Breakpoints.Dialog.Properties.Page.Values.Caption=値
+Debug.Breakpoints.Dialog.Properties.Page.Values.BreakGroupBox.Caption=ﾌﾞﾚｰｸ
+Debug.Breakpoints.Dialog.Properties.Page.Values.BreakGroupBox.ValueChanges.Caption=値が変更された時(&W)
+Debug.Breakpoints.Dialog.Properties.Page.Values.BreakGroupBox.Value.Caption=値が(&V)
+Debug.Breakpoints.Dialog.Properties.Page.Values.BreakGroupBox.ValueEqualTo.Caption=同じ時(&E)
+Debug.Breakpoints.Dialog.Properties.Page.Values.BreakGroupBox.ValueNotEqualTo.Caption=異なる時(&N)
+Debug.Breakpoints.Dialog.Properties.Page.Values.BreakGroupBox.ValueLessThan.Caption=より小さい時(&L)
+Debug.Breakpoints.Dialog.Properties.Page.Values.BreakGroupBox.ValueGreaterThan.Caption=より大きい時(&G)
+Debug.Breakpoints.Dialog.Properties.Page.Values.InstanceMatch.Caption=現行のｲﾝｽﾀﾝｽでのみﾌﾞﾚｰｸ(&B)
+Debug.Breakpoints.DisabledAll.Caption=ﾃﾞﾊﾞｯｸﾞ全て使用不可が有効
+Debug.Breakpoints.DisabledComponents.Caption=ﾃﾞﾊﾞｯｸﾞ使用不可 ｺﾝﾎﾟｰﾈﾝﾄ
+Debug.Breakpoints.EnabledComponents.Caption=ﾃﾞﾊﾞｯｸﾞ使用可能 ｺﾝﾎﾟｰﾈﾝﾄ
+Debug.Menu.DebugEnableAll.Toggle.Caption.Tip=ﾃﾞﾊﾞｯｸﾞ使用可能 ｺﾝﾎﾟｰﾈﾝﾄ
+Debug.Menu.Dialog.DebugEnable.Caption=ﾃﾞﾊﾞｯｸﾞ使用可能 ｺﾝﾎﾟｰﾈﾝﾄ
+Debug.Menu.Dialog.DebugEnable.EnableBtn.Caption=ﾃﾞﾊﾞｯｸﾞ使用可能 全てのｺﾝﾎﾟｰﾈﾝﾄ
+Debug.Menu.Dialog.DebugEnable.DisableBtn.Caption=ﾃﾞﾊﾞｯｸﾞ使用不可 全てのｺﾝﾎﾟｰﾈﾝﾄ
+Debug.Menu.Dialog.DebugEnable.DisableLabel.Caption=ﾁｪｯｸしたｺﾝﾎﾟｰﾈﾝﾄはﾃﾞﾊﾞｯｸﾞ使用不可になります
+Debug.Menu.Dialog.DebugEnable.EnableLabel.Caption=ﾁｪｯｸしたｺﾝﾎﾟｰﾈﾝﾄはﾃﾞﾊﾞｯｸﾞ使用可能になります
+
+********************************************************
+**********      Debug Output Captions			********
+********************************************************
+
+Debug.Output.Caption=出力
+
+********************************************************
+**********      Debug Variables Captions     ***********
+********************************************************
+
+Debug.Variables.Caption=ﾃﾞﾊﾞｯｸﾞ値
+
+Debug.Variables.TabCaption=ﾃﾞﾊﾞｯｸﾞ値
+Debug.Variables.Tree.NameColumnCaption=名称
+Debug.Variables.Tree.ValueColumnCaption=値
+Debug.Variables.Tree.DescriptionColumnCaption=記述
+Debug.Variables.Tree.TypeColumnCaption=ﾀｲﾌﾟ
+Debug.Variables.Tree.NullColumnCaption.Hint=*NULL値
+Debug.Variables.Tree.SQLNullColumnCaption.Hint=*SQLNULL値
+
+Debug.Variables.Include=包含/除外...
+Debug.Variables.IncludeAll=全て包含
+Debug.Variables.Exclude=除外
+Debug.Variables.ExcludeAll=全て除外
+Debug.Variables.Hexadecimal=16進で表示
+Debug.Variables.ShowAncestorFeatures=Ancestor機能
+Debug.Variables.SetValue=値をｾｯﾄ...
+Debug.Variables.BreakOnChange=値が変更された時ﾌﾞﾚｰｸ
+Debug.Variables.ViewBreakpoint=ﾌﾞﾚｰｸﾎﾟｲﾝﾄ ﾋﾞｭｰ
+Debug.Variables.AutoRefreshVariables=ﾃﾞﾊﾞｯｸﾞ値の自動ﾘﾌﾚｯｼｭ
+
+Debug.Variables.Include.Hint=ﾌｨｰﾙﾄﾞとｺﾝﾎﾟｰﾈﾝﾄを包含
+Debug.Variables.Exclude.Hint=ﾌｨｰﾙﾄﾞとｺﾝﾎﾟｰﾈﾝﾄを除外
+Debug.Variables.IncludeAll.Hint=全てのﾌｨｰﾙﾄﾞとｺﾝﾎﾟｰﾈﾝﾄを包含
+Debug.Variables.ExcludeAll.Hint=全てのﾌｨｰﾙﾄﾞとｺﾝﾎﾟｰﾈﾝﾄを除外
+Debug.Variables.Hexadecimal.Hint=値を16進で表示
+Debug.Variables.ShowAncestorFeatures.Hint=ｺﾝﾎﾟｰﾈﾝﾄのAncestor機能を表示
+Debug.Variables.SetValue.Hint=ﾃﾞﾊﾞｯｸﾞ値の値をｾｯﾄ
+Debug.Variables.BreakOnChange.Hint=値が変更された時ﾌﾞﾚｰｸ
+Debug.Variables.ViewBreakpoint.Hint=ﾌﾞﾚｰｸﾎﾟｲﾝﾄ ﾌﾟﾛﾊﾟﾃｨ ﾋﾞｭｰ
+Debug.Variables.AutoRefreshVariables.Hint=ﾌﾞﾚｰｸﾎﾟｲﾝﾄで指定された値を自動的にﾘﾌﾚｯｼｭします
+
+Debug.Variables.Field=ﾌｨｰﾙﾄﾞ
+Debug.Variables.Component=ｺﾝﾎﾟｰﾈﾝﾄ
+Debug.Variables.Watch=ﾃﾞﾊﾞｯｸﾞ値を見る
+
+Debug.Variables.Dialog.SetValues.Caption=値のｾｯﾄ
+
+Debug.Variables.Dialog.Include.Caption=ﾌｨｰﾙﾄﾞの包含/除外
+
+********************************************************
+**********      Debug Call Stack Captions       ********
+********************************************************
+
+Debug.CallStack.Caption=呼出しｽﾀｯｸ
+
+Debug.Close.Caption=ﾃﾞﾊﾞｯｸﾞを停止しますか?
+Debug.CloseSource.Caption=ｿｰｽはﾃﾞﾊﾞｯｸﾞされています。よろしいですか?

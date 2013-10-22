@@ -1,0 +1,4 @@
+XEDP_I    01A   3     1    3
+XEDOBJ    02A  10     4   13
+XEDSEQ    03N  10    14   23
+XEDDTA    00A2000    24 2023

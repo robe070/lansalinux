@@ -1,0 +1,154 @@
+PictureFileExtension=.bmp,.tif,.ico,.cur
+Free1=1
+Free2=2
+Free3=3
+StrFindErr=Cannot find the string
+MaxLineLengthErr=Operation would exceed the maximum line length:
+MaxLineCountErr=Operation would exceed the maximum lines allowed:
+OperationAborted=Operation aborted
+DriverMissing=Cannot find the following driver(s) in the system path:
+Label=<text>
+
+********************************************************************
+*** Image List Specific Strings ************************************
+********************************************************************
+MaxImagesErr=Operation would exceed maximum number of &1 images.
+
+********************************************************************
+*** LpVoGraph Specific Strings *************************************
+********************************************************************
+GraphTitle=Title
+GraphTitleX=Title X
+GraphTitleY=Title Y
+Directories=Directories
+InvalidGraphType=Invalid Graph Type( eg Pie Chart ) encountered.
+Graph.Unsupported=No graph support
+
+Status.Memo.ReplaceAll=&1 occurence(s) of &2 replaced
+
+
+**
+MenuAction.CutValue=Cut
+MenuAction.CopyValue=Copy
+MenuAction.PasteValue=Paste
+MenuAction.PrintValue=Print
+MenuAction.ShowHelp=ShowHelp
+MenuAction.PasteDefault=PasteDefault
+MenuAction.ShowProperties=ShowProperties
+MenuAction.PasteCurrentDate=PasteCurrentDate
+MenuAction.PasteCurrentTime=PasteCurrentTime
+MenuAction.PasteCurrentUser=PasteCurrentUser
+
+Goto.OK=OK
+Goto.Cancel=Cancel
+Goto.Text=Go to line number :
+Goto.Title=Goto Line
+
+Explorer.DeskTop=Desktop
+Explorer.Network=Network Neighborhood
+Explorer.GlobalNetwork=Global Network
+Explorer.MyComputer=My Computer
+Explorer.OnString=on
+Explorer.PathFailure=Cannot find path
+
+Memo.CollapsedItems=Collapsed items. Count &1.
+Prop.NotAvailableCaption=Not Available
+
+HelpContext.NoHelpFile=The component does not have an associated help file.
+
+ComControlContainer.ErrorSavingPersistProps=An exception has occurred while attempting to save the ActiveX controls persistent state.\nState will not be saved.
+
+*
+FloatDockTabMenu.TabLocation=Tab Location
+FloatDockTabMenu.TabLocationTop=Top
+FloatDockTabMenu.TabLocationBottom=Bottom
+FloatDockTabMenu.TabLocationLeft=Left
+FloatDockTabMenu.TabLocationRight=Right
+*
+FloatDockTabMenu.TabLocation.Tip=Switch tab location
+
+********************************************************************
+*** LpVocalendar Specific Strings **********************************
+********************************************************************
+
+Calendar.TodayCaption=Today
+Calendar.PrevMonth.Hint=Prev Month
+Calendar.PrevYear.Hint=Prev Year
+Calendar.NextMonth.Hint=Next Month
+Calendar.NextYear.Hint=Next Year
+
+********************************************************************
+*** LpVoException Specific Messages ********************************
+********************************************************************
+
+Exception.TreeSetParentInvalidParent=The tree item passed to SetParentItem does not belong to the same tree as the target of the SetParentItem.
+Exception.TreeSetParentInvalidParent.Id=1
+Exception.TreeSetParentNotUnlevelled=SetParentItem invalid for Levelled Tree ViewStyle
+Exception.TreeSetParentNotUnlevelled.Id=2
+Exception.TreeSetParentSelfInvalid=The tree item passed to SetParentItem cannot be the same as the target of SetParentItem.
+Exception.TreeSetParentSelfInvalid.Id=3
+Exception.TreeAssignRowColValueInvalid=Assign cannot be used for Levelled Tree ViewStyle
+Exception.TreeAssignRowColValueInvalid.Id=4
+Exception.TreeDesignInterfaceNotSupported=Tree design does not support the PRIM_TREE.ITreeDesign interface
+Exception.TreeDesignInterfaceNotSupported.Id=9
+Exception.TileDesignInterfaceNotSupported=Tile design does not support the PRIM_TILE.ITileDesign interface
+Exception.TileDesignInterfaceNotSupported.Id=17
+Exception.CarouselDesignInterfaceNotSupported=Carousel design does not support the PRIM_CARO.ICarouselDesign interface
+Exception.CarouselDesignInterfaceNotSupported.Id=16
+Exception.BookDesignInterfaceNotSupported=Book design does not support the PRIM_BOOK.IBookDesign interface
+Exception.BookDesignInterfaceNotSupported.Id=5
+Exception.DashboardDesignInterfaceNotSupported=Dashboard design does not support the PRIM_DASH.IDashboardDesign interface
+Exception.DashboardDesignInterfaceNotSupported.Id=18
+Exception.AnimationBeginInvalidParent=An invalid parent animation for the animation item
+Exception.AnimationBeginInvalidParent.Id=10
+Exception.AnimationBeginInvalidComponent=An invalid component for the animation item
+Exception.AnimationBeginInvalidComponent.Id=11
+Exception.AnimationBeginInvalidSibling=Source and target components for transition animtion item do not belong to the same parent component.
+Exception.AnimationBeginInvalidSibling.Id=12
+Exception.AnimationBeginInvalidOperation=Begin animation operation failed. This animation may be conflicting with an already running animation.
+Exception.AnimationBeginInvalidOperation.Id=13
+Exception.TileITableItemNotSupported=TileItem doe not support the PRIM_TILE.ITileItem interface
+Exception.TileITableItemNotSupported.Id=14
+Exception.TileNameNotFound=Component &1 was not found.
+Exception.TileNameNotFound.Id=15
+
+********************************************************************
+*** Tab Specific Strings		  **********************************
+********************************************************************
+
+Tab.IncreaseDockGroup.Caption=Increase Group
+Tab.DecreaseDockGroup.Caption=Decrease Group
+Tab.LayoutPriority.Caption=Max Layout
+Tab.AutoHide.Caption=Autohide
+Tab.Hide.Caption=Close
+Tab.ConfigureButtons.Hint=Configure Pages
+Tab.ShowMoreButtons.Caption=Show More Buttons
+Tab.ShowFewerButtons.Caption=Show Fewer Buttons
+Tab.AddOrRemoveButtons.Caption=Add or Remove Pages
+Tab.PageCloseButton.Hint=Close Page
+
+********************************************************************
+*** Message Box Specific Strings ***********************************
+********************************************************************
+
+MessageBox.Yes=&Yes
+MessageBox.No=&No
+MessageBox.YesToAll=Yes To &All
+MessageBox.NoToAll=No To A&ll
+MessageBox.Cancel=&Cancel
+
+Win32.ControlNotAvailable=Primitive &1 is not available for Win32
+
+Udc.Carousel.DesignRequired=PRIM_CARO requires a Reusable Part implementing PRIM_CARO.ICarouselDesign for its content
+Udc.Tree.DesignRequired=PRIM_TREE requires a Reusable Part implementing PRIM_TREE.ITreeDesign for its content
+Udc.Book.DesignRequired=PRIM_BOOK requires a Reusable Part implementing PRIM_TREE.IBookDesign for its content
+Udc.Tile.DesignRequired=PRIM_TILE requires a Reusable Part implementing PRIM_TILE.ITileDesign for its content
+Udc.Dashboard.DesignRequired=PRIM_DASH requires a Reusable Part implementing PRIM_DASH.IDashboardDesign for its content
+
+********************************************************************
+*** Ribbon Strings               ***********************************
+********************************************************************
+
+Ribbon.Minimize=Minimize the Ribbon
+Ribbon.ShowBelow=Show Quick Access Toolbar below the Ribbon
+Ribbon.ShowAbove=Show Quick Access Toolbar above the Ribbon

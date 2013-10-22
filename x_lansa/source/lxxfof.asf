@@ -1,0 +1,12 @@
+XOFP_I    01A   3     1    3
+XOFPFL    02A  10     4   13
+XOFPLB    03A  10    14   23
+XOFDSN    00A  32    24   55
+XOFQAL    00A 128    56  183
+XOFOWN    00A 128   184  311
+XOFNAM    00A 128   312  439
+XOFTYP    00A  32   440  471
+XOFCON    00A2000   472 2471
+XOFCRP    00A   1  2472 2472
+XOFSP1    00A 255  2473 2727
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@

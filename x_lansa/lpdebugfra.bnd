@@ -1,0 +1,251 @@
+********************************************************
+**********     Debug Toolbar Captions		 ***********
+********************************************************
+
+Debug.Btn.Go.Caption=Continuer l'exécution
+Debug.Btn.Go.Title=Continuer l'exécution
+Debug.Btn.Go.Hint=Reprendre l'exécution (F5)
+Debug.Btn.Stop.Caption=Arrêter le débogage
+Debug.Btn.Stop.Title=Arrêter le débogage
+Debug.Btn.Stop.Hint=Arrêter le débogage
+Debug.Btn.StepInto.Caption=Pas à pas détaillé
+Debug.Btn.StepInto.Title=Pas à pas détaillé
+Debug.Btn.StepInto.Hint=Pas à pas détaillé (F8)
+Debug.Btn.StepOver.Caption=Pas à pas principal
+Debug.Btn.StepOver.Title=Pas à pas principal
+Debug.Btn.StepOver.Hint=Pas à pas principal (Shift+F8)
+Debug.Btn.StepOut.Caption=Pas à pas sortant
+Debug.Btn.StepOut.Title=Pas à pas sortant
+Debug.Btn.StepOut.Hint=Pas à pas sortant
+Debug.Btn.RunToCursor.Caption=Exécuter jusqu'au curseur
+Debug.Btn.RunToCursor.Title=Exécuter jusqu'au curseur
+Debug.Btn.RunToCursor.Hint=Exécuter jusqu'au curseur
+
+Debug.ToolBar.Caption=Déboguer
+Debug.Btn.Animate.Hint=Animer
+Debug.Btn.AnimateAll.Hint=Tout animer
+Debug.Btn.Halt.Hint=Arrêter l'exécution
+
+********************************************************
+**********     Debug Repository Captions	 ***********
+********************************************************
+
+Debug.Repository.Column.Debug.Caption=Débogage possible
+
+********************************************************
+**********      Debug Menu Captions				********
+********************************************************
+
+Debug.Menu.Caption=&Déboguer
+Debug.Menu.Windows.Caption=Fe&nêtre
+Debug.Menu.Breakpoints.Caption=Points d'arrêt
+Debug.Menu.Execute.Caption=&Continuer l'exécution
+Debug.Menu.EndDebug.Caption=&Fin du débogage
+Debug.Menu.StepInto.Caption=Pas à pas &détaillé
+Debug.Menu.StepOver.Caption=Pas à pas &principal
+Debug.Menu.NewBreakpoint.Caption=Nouveau &point d'arrêt...
+Debug.Menu.ClearAllBreakpoints.Caption=&Vider tous les points d'arrêt
+Debug.Menu.EnableAllBreakpoints.Caption=Act&iver tous les points d'arrêt
+Debug.Menu.DisableAllBreakpoints.Caption=Dé&sactiver tous les points d'arrêt
+Debug.Menu.ToggleBreakpoint.Caption=Insérer/Enlever un point d'arrêt
+Debug.Menu.InsertBreakpoint.Caption=Définir comme point d'arrêt
+Debug.Menu.RemoveBreakpoint.Caption=Enlever le point d'arrêt
+Debug.Menu.EnableBreakpoint.Caption=Activer le point d'arrêt
+Debug.Menu.DisableBreakpoint.Caption=Désactiver le point d'arrêt
+Debug.Menu.BreakpointProperties.Caption=Propriétés du point d'arrêt...
+Debug.Menu.ShowVariable.Caption=Afficher la Variable: &1
+Debug.Menu.GoToSource.Caption=Aller au code source
+Debug.Menu.DeleteBreakpoint.Caption=Supprimer
+Debug.Menu.Animate.Caption=&Animer
+Debug.Menu.AnimateAll.Caption=&Tout animer
+Debug.Menu.Halt.Caption=Arrêter l'e&xécution
+Debug.Menu.Delay.Caption=&Retard
+Debug.Menu.Delay.None.Caption=Aucun
+Debug.Menu.Delay.50MilliSeconds.Caption=50 Millisecondes
+Debug.Menu.Delay.500MilliSeconds.Caption=500 Millisecondes
+Debug.Menu.Delay.1Second.Caption=1 Seconde
+Debug.Menu.Delay.2Seconds.Caption=2 Secondes
+Debug.Menu.Delay.SetSeconds.Caption=Nombre de secondes...
+Debug.Menu.Output.Caption=Sortie
+Debug.Menu.Variables.Caption=Variables
+Debug.Menu.CallStack.Caption=Pile d'invocation
+Debug.Menu.Sessions.Caption=Sessions
+Debug.Menu.StartDebug.Caption=Démarrer
+Debug.Menu.DisableDebug.Caption=Désactiver le débogage
+Debug.Menu.EnableDebug.Caption=Activer le débogage
+Debug.Menu.EnableAllDebug.Caption=Activer le débogage pour tous
+Debug.Menu.DisableAllDebug.Caption=Désactiver le débogage pour tous
+
+********************************************************
+**********      Debug Menu Hint Captions		********
+********************************************************
+
+Debug.Menu.Breakpoints.Caption.Tip=Afficher la vue des points d'arrêt de débogage
+Debug.Menu.Execute.Caption.Tip=Exécuter
+Debug.Menu.EndDebug.Caption.Tip=Fin du débogage
+Debug.Menu.StepInto.Caption.Tip=Pas à pas détaillé
+Debug.Menu.StepOver.Caption.Tip=Pas à pas principal
+Debug.Menu.NewBreakpoint.Caption.Tip=Nouveau point d'arrêt...
+Debug.Menu.ClearAllBreakpoints.Caption.Tip=Vider tous les points d'arrêt
+Debug.Menu.EnableAllBreakpoints.Caption.Tip=Activer tous les points d'arrêt
+Debug.Menu.DisableAllBreakpoints.Caption.Tip=Désactiver tous les points d'arrêt
+Debug.Menu.ToggleBreakpoint.Caption.Tip=Insérer/Supprimer un point d'arrêt
+Debug.Menu.InsertBreakpoint.Caption.Tip=Insérer un point d'arrêt
+Debug.Menu.RemoveBreakpoint.Caption.Tip=Supprimer un point d'arrêt
+Debug.Menu.EnableBreakpoint.Caption.Tip=Activer un point d'arrêt
+Debug.Menu.DisableBreakpoint.Caption.Tip=Désactiver un point d'arrêt
+Debug.Menu.BreakpointProperties.Caption.Tip=Propriétés du point d'arrêt
+Debug.Menu.ShowVariable.Caption.Tip=Afficher la variable dans la vue des variables de débogage
+Debug.Menu.GoToSource.Caption.Tip=Aller au code source
+Debug.Menu.DeleteBreakpoint.Caption.Tip=Supprimer
+Debug.Menu.Animate.Caption.Tip=Animer
+Debug.Menu.AnimateAll.Caption.Tip=Tout animer
+Debug.Menu.Halt.Caption.Tip=Arrêter l'exécution
+Debug.Menu.Delay.Caption.Tip=Retard
+Debug.Menu.Delay.None.Caption.Tip=Aucun
+Debug.Menu.Delay.50MilliSeconds.Caption.Tip=50 Millisecondes
+Debug.Menu.Delay.500MilliSeconds.Caption.Tip=500 Millisecondes
+Debug.Menu.Delay.1Second.Caption.Tip=1 Seconds
+Debug.Menu.Delay.2Seconds.Caption.Tip=2 Secondes
+Debug.Menu.Delay.SetSeconds.Caption.Tip=Nombre de secondes...
+Debug.Menu.Output.Caption.Tip=Sortie
+Debug.Menu.Variables.Caption.Tip=Montrer les variables de débogage
+Debug.Menu.CallStack.Caption.Tip=Montrer la pile d'invocation
+
+********************************************************
+**********      Debug Types Captions			********
+********************************************************
+
+Debug.Type.Alpha=Alpha(&1)
+Debug.Type.Packed=Packed(&1,&2)
+Debug.Type.Signed=Signed(&1,&2)
+Debug.Type.Long=Long(&1,&2)
+Debug.Type.Double=Double(&1,&2)
+Debug.Type.Undefined=Indéfini(&1,&2)
+Debug.Type.Binary=Binary
+Debug.Type.Component=Composant
+Debug.Type.Char=Char(&1)
+Debug.Type.NChar=NChar(&1)
+Debug.Type.Integer=Integer(&1)
+Debug.Type.DateTime=DateTime
+Debug.Type.Date=Date
+Debug.Type.Time=Time
+Debug.Type.Boolean=Boolean
+Debug.Type.Float=Float(&1,&2)
+Debug.Type.VarChar=VarChar(&1)
+Debug.Type.VarBinary=VarBinary
+Debug.Type.CLOB=CLOB
+Debug.Type.BLOB=BLOB
+Debug.Type.Decimal=Decimal(&1,&2)
+
+Debug.Condition.ValueChange=Quand la valeur change
+Debug.Condition.ValueEqualTo=Quand la valeur est égale à &1
+Debug.Condition.ValueNotEqualTo=Quand la valeur n'est pas égale à &1
+Debug.Condition.ValueLessThan=Quand la valeur est inférieure à &1
+Debug.Condition.ValueGreaterThan=Quand la valeur est supérieure à &1
+
+Debug.Value.NotAvailable=Valeur non disponible
+Debug.Type.List.EntryLength=Longueur de l'entrée
+Debug.Type.List.MaxEntries=Nbre max d'entrées
+Debug.Type.List.CurrentEntries=Entrées actuelles
+
+Debug.Output.Build=Générer
+Debug.Output.Debug=Déboguer
+
+Debug.View.TabCaption=Déboguer
+
+********************************************************
+**********      Debug Breakpoints Captions		********
+********************************************************
+
+Debug.Breakpoints.Caption=Points d'arrêt
+Debug.Breakpoints.Tree.BreakpointsColumnCaption=Points d'arrêt
+Debug.Breakpoints.Tree.PassCountColumnCaption=Nombre de passes
+Debug.Breakpoints.Tree.ActiveBreakpointColumnCaption=Actif
+Debug.Breakpoints.Tree.HitCountColumnCaption=Nombre d'accès
+Debug.Breakpoints.Tree.Item.Source.Caption=Source
+Debug.Breakpoints.Tree.Item.Line.Caption=Numéro de ligne
+Debug.Breakpoints.Tree.Item.Text.Caption=Texte instruction
+Debug.Breakpoints.Tree.Item.Values.Caption=Valeurs
+Debug.Breakpoints.Tree.Item.Values.Value.Caption=Condition
+
+Debug.Breakpoints.Dialog.Properties.Caption=Propriétés du point d'arrêt
+Debug.Breakpoints.Dialog.Properties.PassCount.Caption=Nombre de passes :
+Debug.Breakpoints.Dialog.Properties.Page.General.Caption=Général
+Debug.Breakpoints.Dialog.Properties.Page.Values.Caption=Valeur
+Debug.Breakpoints.Dialog.Properties.Page.Values.BreakGroupBox.Caption=Arrêt
+Debug.Breakpoints.Dialog.Properties.Page.Values.BreakGroupBox.ValueChanges.Caption=Si la valeur &change
+Debug.Breakpoints.Dialog.Properties.Page.Values.BreakGroupBox.Value.Caption=Quand la &valeur
+Debug.Breakpoints.Dialog.Properties.Page.Values.BreakGroupBox.ValueEqualTo.Caption=&Est égale à
+Debug.Breakpoints.Dialog.Properties.Page.Values.BreakGroupBox.ValueNotEqualTo.Caption=&N'est pas égale à
+Debug.Breakpoints.Dialog.Properties.Page.Values.BreakGroupBox.ValueLessThan.Caption=Est &inférieure à
+Debug.Breakpoints.Dialog.Properties.Page.Values.BreakGroupBox.ValueGreaterThan.Caption=Est &supérieure à
+Debug.Breakpoints.Dialog.Properties.Page.Values.InstanceMatch.Caption=&Arrêt de l'instance actuelle seulement
+Debug.Breakpoints.DisabledAll.Caption=Désactiver tout est activé
+Debug.Breakpoints.DisabledComponents.Caption=Déboguer les composants désactivés
+Debug.Breakpoints.EnabledComponents.Caption=Déboguer les composants activés
+Debug.Menu.DebugEnableAll.Toggle.Caption.Tip=Activer les composants pour débogage
+Debug.Menu.Dialog.DebugEnable.Caption=Activer les composants pour débogage
+Debug.Menu.Dialog.DebugEnable.EnableBtn.Caption=Activer tous les composants pour débogage
+Debug.Menu.Dialog.DebugEnable.DisableBtn.Caption=Désactiver tous les composants pour débogage
+Debug.Menu.Dialog.DebugEnable.DisableLabel.Caption=Les composants sélectionnés seront désactivés pour le débogage
+Debug.Menu.Dialog.DebugEnable.EnableLabel.Caption=Les composants sélectionnés seront activés pour le débogage
+
+********************************************************
+**********      Debug Output Captions			********
+********************************************************
+
+Debug.Output.Caption=Sortie
+
+********************************************************
+**********      Debug Variables Captions     ***********
+********************************************************
+
+Debug.Variables.Caption=Variables
+
+Debug.Variables.TabCaption=Variables
+Debug.Variables.Tree.NameColumnCaption=Nom
+Debug.Variables.Tree.ValueColumnCaption=Valeur
+Debug.Variables.Tree.DescriptionColumnCaption=Description
+Debug.Variables.Tree.TypeColumnCaption=Type
+Debug.Variables.Tree.NullColumnCaption.Hint=Valeur *NULL
+Debug.Variables.Tree.SQLNullColumnCaption.Hint=Valeur *SQLNULL
+
+Debug.Variables.Include=Inclure\Exclure...
+Debug.Variables.IncludeAll=Tout inclure
+Debug.Variables.Exclude=Exclure
+Debug.Variables.ExcludeAll=Tout exclure
+Debug.Variables.Hexadecimal=Affichage hexadécimal
+Debug.Variables.ShowAncestorFeatures=Ancêtre composant
+Debug.Variables.SetValue=Définir la valeur...
+Debug.Variables.BreakOnChange=Arrêt par condition sur la valeur
+Debug.Variables.ViewBreakpoint=Voir le point d'arrêt
+Debug.Variables.AutoRefreshVariables=Actualiser les variables automatiquement
+
+Debug.Variables.Include.Hint=Inclure zones et composants
+Debug.Variables.Exclude.Hint=Exclure zones et composants
+Debug.Variables.IncludeAll.Hint=Inclure toutes les zones et tous les composants
+Debug.Variables.ExcludeAll.Hint=Exclure toutes les zones et tous les composants
+Debug.Variables.Hexadecimal.Hint=Afficher les valeurs en hexadécimal
+Debug.Variables.ShowAncestorFeatures.Hint=Afficher les caractéristiques de l'ancêtre du composant
+Debug.Variables.SetValue.Hint=Définir la valeur d'une variable
+Debug.Variables.BreakOnChange.Hint=Arrêt à chaque modification de la valeur
+Debug.Variables.ViewBreakpoint.Hint=Afficher les propriétés du point d'arrêt
+Debug.Variables.AutoRefreshVariables.Hint=Active/désactive l'option d'actualisation automatique des variables 
+
+Debug.Variables.Field=Zones
+Debug.Variables.Component=Composants
+Debug.Variables.Watch=Variables suivies
+
+Debug.Variables.Dialog.SetValues.Caption=Modifier la valeur
+
+Debug.Variables.Dialog.Include.Caption=Inclure\Exclure des zones
+
+********************************************************
+**********      Debug Call Stack Captions       ********
+********************************************************
+
+Debug.CallStack.Caption=Pile d'invocation
+
+Debug.Close.Caption=Voulez-vous arrêter le débogage?
+Debug.CloseSource.Caption=Le source est en cours de débogage, êtes-vous sûr de vouloir continuer ?

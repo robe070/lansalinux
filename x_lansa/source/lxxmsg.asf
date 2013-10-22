@@ -1,0 +1,6 @@
+MSLANG     1A   40    1    4
+MSFILE     2A  100    5   14
+MSGID      3A   70   15   21
+MSGTXT     0A 1320   22  153
+MSGSUB     0A 5000  154  653
+MSGSEC     0A30000  654 3653

@@ -1,0 +1,107 @@
+DEFINE_TABLE
+  INTERNAL=LX_W26
+  TABLE=LX_W26
+  COLLECTION=LX_DTA
+  DESC=LX_W26
+  CHAR_TO_BINARY
+DEFINE_COLUMNS
+  NAME=W26TID
+    DESC=Trace ID
+    TYPE=CHAR
+    LEN=15
+    NOT_NULL
+  NAME=W26USR
+    DESC=Web User
+    TYPE=CHAR
+    LEN=10
+    NOT_NULL
+  NAME=W26IPA
+    DESC=IP Address
+    TYPE=CHAR
+    LEN=50
+    NOT_NULL
+  NAME=W26SNM
+    DESC=System Name
+    TYPE=CHAR
+    LEN=50
+    NOT_NULL
+  NAME=W26PRT
+    DESC=Port Number
+    TYPE=DECIMAL
+    LEN=5
+    DEC=0
+    NOT_NULL
+  NAME=W26FPO
+    DESC=First Page Accessed - Proc
+    TYPE=CHAR
+    LEN=10
+    NOT_NULL
+  NAME=W26FFN
+    DESC=First Page Accessed - Func
+    TYPE=CHAR
+    LEN=7
+    NOT_NULL
+  NAME=W26FSQ
+    DESC=First Page Accessed - Seq
+    TYPE=CHAR
+    LEN=3
+    NOT_NULL
+  NAME=W26FDA
+    DESC=First Page Date
+    TYPE=CHAR
+    LEN=10
+    NOT_NULL
+  NAME=W26FSP
+    DESC=Spacer
+    TYPE=CHAR
+    LEN=1
+    NOT_NULL
+  NAME=W26FTI
+    DESC=Frist Page Time
+    TYPE=CHAR
+    LEN=8
+    NOT_NULL
+  NAME=W26LPO
+    DESC=Last Page Accessed - Proc
+    TYPE=CHAR
+    LEN=10
+    NOT_NULL
+  NAME=W26LFN
+    DESC=Last Page Accessed - Func
+    TYPE=CHAR
+    LEN=7
+    NOT_NULL
+  NAME=W26LSQ
+    DESC=Last Page Accessed - Seq
+    TYPE=CHAR
+    LEN=3
+    NOT_NULL
+  NAME=W26LDA
+    DESC=Last Page Date
+    TYPE=CHAR
+    LEN=10
+    NOT_NULL
+  NAME=W26LSP
+    DESC=Spacer
+    TYPE=CHAR
+    LEN=1
+    NOT_NULL
+  NAME=W26LTI
+    DESC=Last Page Time
+    TYPE=CHAR
+    LEN=8
+    NOT_NULL
+  NAME=W26NUM
+    DESC=Number of Pages Accessed
+    TYPE=DECIMAL
+    LEN=7
+    DEC=0
+    NOT_NULL
+  NAME=W26REF
+    DESC=HTTP Referrer
+    TYPE=VARCHAR
+    LEN=255
+    NOT_NULL
+DEFINE_PRIMARY_KEYS
+  NAME=LX_W26_PRIM
+    COLUMN=W26TID

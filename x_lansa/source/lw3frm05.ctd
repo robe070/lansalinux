@@ -1,0 +1,51 @@
+DEFINE_TABLE
+  INTERNAL=LW3FRM05
+  TABLE=LW3FRM05
+  COLLECTION=LX_DTA
+  DESC=L4Web Frameworks - Proc/Func X-Ref
+DEFINE_COLUMNS
+  NAME=LW3BASEPR 
+    DESC=Base Process Name
+    TYPE=CHAR
+    LEN=10
+    NOT_NULL
+  NAME=LW3BASEFN 
+    DESC=Base Function Name
+    TYPE=CHAR
+    LEN=7
+    NOT_NULL
+  NAME=LW3BASEDS 
+    DESC=Base Description
+    TYPE=CHAR
+    LEN=40
+    NOT_NULL
+  NAME=LW3SITEPR 
+    DESC=Site Process Name
+    TYPE=CHAR
+    LEN=10
+    NOT_NULL
+  NAME=LW3SITEFN 
+    DESC=Site Function Name
+    TYPE=CHAR
+    LEN=7
+    NOT_NULL
+  NAME=X_UPID
+    DESC=Field update / access identifier
+    TYPE=DECIMAL
+    LEN=7
+    DEC=0
+    NOT_NULL
+  NAME=X_RRNO
+    DESC=Relative record number
+    TYPE=DECIMAL
+    LEN=15
+    DEC=0
+    NOT_NULL
+DEFINE_PRIMARY_KEYS
+  NAME=LW3FRM05_P
+    COLUMN=LW3BASEFN 
+DEFINE_INDEX
+  NAME=LW3FRM05_R
+  UNIQUE
+  DEFINE_INDEX_KEYS
+    COLUMN=X_RRNO

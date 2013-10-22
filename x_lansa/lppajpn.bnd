@@ -1,0 +1,3859 @@
+
+********************************************************
+**********     Application Captions          ***********
+********************************************************
+App.MainTitle=LANSA ｴﾃﾞｨﾀｰ
+App.MainTitle.Debug=LANSA ｴﾃﾞｨﾀｰ [実行]
+App.OutlineTitle=ﾃﾞｻﾞｲﾝ ｱｳﾄﾗｲﾝ
+
+App.OutlineLabel=ｱｳﾄﾗｲﾝ
+App.CompLabel=詳細
+App.PtyLabel=ﾌﾟﾛﾊﾟﾃｨ
+App.EvtLabel=ｲﾍﾞﾝﾄ
+App.MthLabel=ﾒｿｯﾄﾞ
+App.RepLabel=ﾘﾎﾟｼﾞﾄﾘ
+App.FavLabel=お気に入り
+App.CmdLabel=ｺﾏﾝﾄﾞ
+App.RoutineViewLabel=ﾙｰﾁﾝ
+App.StatementViewLabel=ｽﾃｰﾄﾒﾝﾄ
+App.CompositionViewLabel=定義
+App.ReadOnly=読取専用
+App.LockedDesign=固定されたﾃﾞｻﾞｲﾝ
+App.MainToolBarCaption=標準
+App.ActiveLineCol=行：&1、桁：&2
+
+App.TabFolder.ShowMorePages.Caption=ﾎﾞﾀﾝをより多く表示
+App.TabFolder.ShowFewerPages.Caption=ﾎﾞﾀﾝをより少なく表示
+App.TabFolder.AddOrRemoveViews.Caption=お気に入りの追加または削除
+App.TabFolder.ChangeImage.Caption=ｲﾒｰｼﾞの変更...
+App.TabFolder.ChangeImage.Tip=選択されたﾋﾞｭｰのｲﾒｰｼﾞを変更
+
+********************************************************
+**********      Component Captions           ***********
+********************************************************
+Comp.ViewCaption=ﾃﾞｻﾞｲﾝ
+Comp.SourceCaption=ｿｰｽ
+Comp.OutputCaption=出力
+Comp.ContentsCaptionDynamic=ﾀﾞｲﾅﾐｯｸ ﾘｽﾄの条件
+Comp.ContentsCaptionStatic=ｽﾀﾃｨｯｸ ﾘｽﾄの内容
+Comp.HelpTextCaption=ﾍﾙﾌﾟ ﾃｷｽﾄ
+Comp.FunctionsCaption=ﾌｧﾝｸｼｮﾝ
+
+********************************************************
+**********      Component Editor Menus       ***********
+********************************************************
+ComponentMenu.Component=ﾌｧｲﾙ(&F)
+ComponentMenu.New=作成(&N)
+ComponentMenu.Close=閉じる(&C)
+ComponentMenu.CloseAll=全て閉じる
+ComponentMenu.Open=開く(&O)
+ComponentMenu.Save=保存(&S)
+ComponentMenu.SaveAll=全て保存(&L)
+ComponentMenu.SaveExit=保存して終了(&Q)
+ComponentMenu.Print=印刷(&P)...
+ComponentMenu.Exit=終了(&X)
+ComponentMenu.LockDesign=固定されたﾃﾞｻﾞｲﾝ
+ComponentMenu.MigrateLanguageLevel=ﾌﾙ RDMLX を使用可能に設定
+**
+EditMenu.Edit=編集(&E)
+EditMenu.NewCmd=ｺﾏﾝﾄﾞの編集(&E)...
+EditMenu.Cut=切り取り(&T)
+EditMenu.Copy=ｺﾋﾟｰ(&C)
+EditMenu.Paste=貼り付け(&P)
+EditMenu.SelectAll=全て選択(&L)
+EditMenu.Del=削除(&D)
+EditMenu.Find=検索(&F)...
+EditMenu.FindNxt=次を検索(&N)
+EditMenu.FindPrev=前を検索(&P)
+EditMenu.Rep=置換(&H)...
+EditMenu.Tag=ﾀｸﾞ
+EditMenu.TagToggle=ﾀｸﾞのﾄｸﾞﾙ
+EditMenu.TagNext=次のﾀｸﾞ
+EditMenu.TagPrev=前のﾀｸﾞ
+EditMenu.TagRemoveAll=全てのﾀｸﾞを削除
+EditMenu.BlockComment=選択行をｺﾒﾝﾄにする
+EditMenu.BlockUnComment=選択行のｺﾒﾝﾄを外す
+EditMenu.AuditFind=編集ｽﾀﾝﾌﾟの検索...
+EditMenu.ToggleAudit=監査ｽﾀﾝﾌﾟの切り替え
+EditMenu.RepFind=ﾘﾎﾟｼﾞﾄﾘの検索
+EditMenu.Align=整列(&A)...
+EditMenu.Size=ｻｲｽﾞ(&S)...
+EditMenu.Undo=元に戻す(&U)
+EditMenu.Redo=やり直し(&R)
+EditMenu.PromptCmd=ﾌﾟﾛﾝﾌﾟﾄ(&M)...
+EditMenu.EnhanceCmd=ｺﾏﾝﾄﾞｱｼｽﾀﾝﾄ
+EditMenu.UseTemp=ｳｲｻﾞｰﾄﾞ(ﾃﾝﾌﾟﾚｰﾄ)の実行(&W)...
+EditMenu.Goto=位置指定
+EditMenu.ShowPrompterCmd=ﾌﾟﾛﾝﾌﾟﾄの表示
+EditMenu.SetActiveXAttr=ActiveX 属性の設定(&X)
+EditMenu.ExpandAll=全て展開
+EditMenu.CollapseAll=全てたたむ
+**
+ViewMenu.View=表示(&V)
+ViewMenu.View.Views=ﾋﾞｭｰ
+ViewMenu.Controls=ｺﾝﾄﾛｰﾙ
+ViewMenu.Outl=ｱｳﾄﾗｲﾝ(&O)
+ViewMenu.Brow=詳細(&D)
+ViewMenu.Rep=ﾘﾎﾟｼﾞﾄﾘ(&R)
+ViewMenu.Fav=お気に入り(&F)
+ViewMenu.AutoComplete=ｵｰﾄｺﾝﾌﾟﾘｰﾄ
+ViewMenu.Msgs=ﾒｯｾｰｼﾞ(&M)
+ViewMenu.Source=ｿｰｽ(&S)
+ViewMenu.Design=ﾃﾞｻﾞｲﾝ(&E)
+ViewMenu.Xsl.Source=XSL
+ViewMenu.Xml.Source=XML
+ViewMenu.Web.Design=Webﾃﾞｻﾞｲﾝ
+ViewMenu.Help=ﾍﾙﾌﾟ
+ViewMenu.Features=ｺﾝﾎﾟｰﾈﾝﾄのﾍﾙﾌﾟ(&F)
+ViewMenu.Preview=ﾌﾟﾚﾋﾞｭｰ
+ViewMenu.VersionControl=ﾊﾞｰｼﾞｮﾝ管理(&V)
+ViewMenu.RefreshRepository=ﾘﾎﾟｼﾞﾄﾘの再表示
+ViewMenu.ShowExplorerCmd=LANSA ｴｸｽﾌﾟﾛｰﾗ
+ViewMenu.ShowLayoutHelper=ﾚｲｱｳﾄ ﾍﾙﾊﾟｰの表示
+ViewMenu.Cmd=ｺﾏﾝﾄﾞ(&M)
+ViewMenu.ShowSavedDefinitions=保管されている定義
+ViewMenu.ToolBars=ﾂｰﾙﾊﾞｰ(&T)
+ViewMenu.ShowToolBarStandard=標準
+ViewMenu.MessageFiles=ﾒｯｾｰｼﾞ ﾌｧｲﾙ...
+ViewMenu.WorkStationLocks=ﾜｰｸｽﾃｰｼｮﾝのﾛｯｸ...
+ViewMenu.LanguageOptions=言語ｵﾌﾟｼｮﾝ...
+**
+OptMenu.Option=ｵﾌﾟｼｮﾝ(&O)
+OptMenu.Indent=ｲﾝﾃﾞﾝﾄ ﾚﾍﾞﾙ(&I)
+OptMenu.Line=ﾗｲﾝ番号の表示(&N)
+OptMenu.Format=ﾌﾘｰﾌｫｰﾏｯﾄ(&R)
+OptMenu.Font=ﾌｫﾝﾄ(&F)
+OptMenu.Color=色(&C)
+OptMenu.Language=ﾃﾞｻﾞｲﾝ ﾋﾞｭｰの言語
+OptMenu.Theme=ﾃﾞｻﾞｲﾝ ﾋﾞｭｰとﾃｰﾏ
+OptMenu.DesignThemeOfEditor=ｴﾃﾞｨﾀｰのﾃｰﾏを使用
+OptMenu.DevelopmentLanguage=開発言語
+OptMenu.ObjectLocking=ｵﾌﾞｼﾞｪｸﾄ ﾛｯｸ
+OptMenu.ObjectLockingOff=ｵﾌ
+OptMenu.ObjectLockingOn=ｵﾝ
+OptMenu.ObjectLockingOnReadOnly=ｵﾝ (読み取り専用)
+OptMenu.RebuildDefinitions=定義の生成
+OptMenu.RebuildDefinitionsForBifs=組込み関数
+
+OptMenu.ShowMsg=ﾒｯｾｰｼﾞの表示(&M)
+OptMenu.SaveOpt=ｵﾌﾟｼｮﾝの保存(&O)
+OptMenu.Editor=ｴﾃﾞｨﾀｰ 形式(&E)
+OptMenu.Brief=要約(&B)
+OptMenu.MsWord=Microsoft Word(&W)
+OptMenu.Epsilon=Epsilon(&E)
+OptMenu.Kedit=編集(&K)
+OptMenu.FormattingOptions=設定(&S)...
+**
+VrfyMenu.Verify=検査(&R)
+VrfyMenu.DCheck=ﾃﾞｻﾞｲﾝの検査(&S)
+VrfyMenu.FCheck=全ての検査(&U)
+VrfyMenu.Build=生成(&B)
+VrfyMenu.Compile=ｺﾝﾊﾟｲﾙ(&C)
+VrfyMenu.Execute=実行(&X)
+VrfyMenu.Debug=ﾃﾞﾊﾞｯｸﾞ(&D)
+VrfyMenu.Interactive=ｲﾝﾀﾗｸﾃｨﾌﾞ検査
+VrfyMenu.InteractiveOn=ｵﾝ
+VrfyMenu.InteractiveOff=ｵﾌ
+VrfyMenu.InteractiveNow=今すぐ検査
+**
+ToolsMenu.Tools=ﾂｰﾙ(&T)
+ToolsMenu.Configure=構成(&C)
+**
+WndMenu.Wind=ｳｲﾝﾄﾞｳ(&W)
+WndMenu.NextFn=次のｺﾝﾎﾟｰﾈﾝﾄ(&N)
+WndMenu.PrevFn=前のｺﾝﾎﾟｰﾈﾝﾄ(&P)
+WndMenu.More=ｺﾝﾎﾟｰﾈﾝﾄの選択(&M)...
+**
+HelpMenu=ﾍﾙﾌﾟ(&H)
+HelpMenu.Contents=ﾄﾋﾟｯｸの検索(&C)
+HelpMenu.EditorOView=ｴﾃﾞｨﾀｰの使い方(&U) 
+HelpMenu.ShortCuts=ｼｮｰﾄｶｯﾄ(&S)
+HelpMenu.Lansa=LANSA ｳｪﾌﾞｻｲﾄ(&W)
+HelpMenu.ProductInfo=製品情報...
+**
+CompMenu.Copy=ｺﾋﾟｰ
+CompMenu.Cut=切り取り
+CompMenu.Delete=ｺﾝﾎﾟｰﾈﾝﾄの削除(&D)
+CompMenu.Popup=ﾎﾟｯﾌﾟｱｯﾌﾟ ﾒﾆｭｰを挿入(&P)
+CompMenu.EditPopup=ﾎﾟｯﾌﾟｱｯﾌﾟ ﾒﾆｭｰ
+CompMenu.DetachPopup=ﾎﾟｯﾌﾟｱｯﾌﾟ ﾒﾆｭｰを切り離す
+CompMenu.ViewPopup=ﾎﾟｯﾌﾟｱｯﾌﾟ ﾒﾆｭｰの挿入/表示(&V)
+CompMenu.EditViewPopup=ﾎﾟｯﾌﾟｱｯﾌﾟ ﾒﾆｭｰの編集/表示(&V)
+CompMenu.DetachViewPopup=ﾎﾟｯﾌﾟｱｯﾌﾟ ﾒﾆｭｰの解除/表示(&T)
+CompMenu.AddPage=ﾍﾟｰｼﾞの追加
+CompMenu.NextPage=次のﾍﾟｰｼﾞ
+CompMenu.PreviousPage=前のﾍﾟｰｼﾞ
+CompMenu.CutComponent=ｺﾝﾎﾟｰﾈﾝﾄの切り取り...
+CompMenu.CopyComponent=ｺﾝﾎﾟｰﾈﾝﾄのｺﾋﾟｰ...
+CompMenu.GotoDefinition=ｺﾝﾎﾟｰﾈﾝﾄの定義(&G)
+CompMenu.BlockComment=選択行をｺﾒﾝﾄにする(&C)
+CompMenu.BlockUnComment=選択行のｺﾒﾝﾄを外す(&U)
+CompMenu.SaveDefinition=定義の保存
+CompMenu.SaveAsSharedDefinition=共通の省略値として
+CompMenu.SaveAsPartitionDefinition=区画の省略値として
+CompMenu.SaveAsSessionDefinition=ｾｯｼｮﾝの省略値として
+CompMenu.SaveAncestorDefinition=定義 &1 の保存
+CompMenu.EventsSubMenu=ｲﾍﾞﾝﾄ(&E)
+CompMenu.SavedDefinitions=保管されている定義...
+
+********************************************************
+**********     Component Editor Menu Tips    ***********
+********************************************************
+ComponentMenu.New.Tip=ｺﾝﾎﾟｰﾈﾝﾄを新規に作成します
+ComponentMenu.Close.Tip=ｺﾝﾎﾟｰﾈﾝﾄを閉じます
+ComponentMenu.CloseAll.Tip=開いている全てのｵﾌﾞｼﾞｪｸﾄを閉じます 
+ComponentMenu.Open.Tip=ﾘﾎﾟｼﾞﾄﾘのｺﾝﾎﾟｰﾈﾝﾄを開きます
+ComponentMenu.Save.Tip=ｺﾝﾎﾟｰﾈﾝﾄを保存します
+ComponentMenu.SaveExit.Tip=ｺﾝﾎﾟｰﾈﾝﾄを保存して、ｴﾃﾞｨﾀを閉じます
+ComponentMenu.Print.Tip=ｿｰｽ画面のｺｰﾄﾞを印刷します
+ComponentMenu.Exit.Tip=保存の確認画面を表示して、ｺﾝﾎﾟｰﾈﾝﾄ ｴﾃﾞｨﾀを閉じます
+ComponentMenu.LockDesign.Tip=ｱｸﾃｨﾌﾞ ｺﾝﾎﾟｰﾈﾝﾄのﾃﾞｻﾞｲﾝを固定します
+ComponentMenu.MigrateLanguageLevel.Tip=ﾌﾙ RDMLX のｺﾏﾝﾄﾞ、文法、式を使用可能に設定します
+**
+EditMenu.NewCmd.Tip=選択ｺﾏﾝﾄﾞをｺﾏﾝﾄﾞ ｱｼｽﾀﾝﾄで表示します
+EditMenu.Cut.Tip=選択されている部分を切り取ってｸﾘｯﾌﾟﾎﾞｰﾄﾞにｺﾋﾟｰします
+EditMenu.Copy.Tip=選択されている部分をｸﾘｯﾌﾟﾎﾞｰﾄﾞにｺﾋﾟｰします
+EditMenu.Paste.Tip=ｸﾘｯﾌﾟﾎﾞｰﾄﾞの内容をｶｰｿﾙ位置に貼り付けます
+EditMenu.SelectAll.Tip=ｿｰｽ画面のｺｰﾄﾞを全て選択します
+EditMenu.Del.Tip=選択されている部分を削除します
+EditMenu.Find.Tip=指定されている文字列をｿｰｽから検索します
+EditMenu.FindNxt.Tip=ｿｰｽを下へ一致する文字列を検索します
+EditMenu.FindPrev.Tip=ｿｰｽを上へ一致する文字列を検索します
+EditMenu.Rep.Tip=ｿｰｽで検索された文字列を他の文字列に置き換えます
+EditMenu.Tag.Tip=ﾀｸﾞ ｺﾏﾝﾄﾞ
+EditMenu.TagToggle.Tip=ｿｰｽ ﾋﾞｭｰの現在の行のﾀｸﾞのﾄｸﾞﾙ
+EditMenu.TagNext.Tip=ｿｰｽ ﾋﾞｭｰの次のﾀｸﾞにﾌｫｰｶｽを移動
+EditMenu.TagPrev.Tip=ｿｰｽ ﾋﾞｭｰの前のﾀｸﾞにﾌｫｰｶｽを移動
+EditMenu.TagRemoveAll.Tip=ｿｰｽ ﾋﾞｭｰから全てのﾀｸﾞを削除
+EditMenu.BlockComment.Tip=ｿｰｽ ﾋﾞｭｰの選択した行をｺﾒﾝﾄ行にします
+EditMenu.BlockUnComment.Tip=ｿｰｽ ﾋﾞｭｰの選択した行のｺﾒﾝﾄを外します
+EditMenu.AuditFind.Tip=ｿｰｽの編集ｽﾀﾝﾌﾟから指定した文字列を検索...
+EditMenu.ToggleAudit.Tip=ｿｰｽ監査ｽﾀﾝﾌﾟの切り替え
+EditMenu.RepFind.Tip=ﾘﾎﾟｼﾞﾄﾘを検索します
+EditMenu.Align.Tip=ﾃﾞｻﾞｲﾝ ﾋﾞｭｰで選択されているｺﾝﾎﾟｰﾈﾝﾄを整列します
+EditMenu.Size.Tip=ﾃﾞｻﾞｲﾝ ﾋﾞｭｰで選択されているｺﾝﾎﾟｰﾈﾝﾄのｻｲｽﾞを変更します
+EditMenu.Undo.Tip=最後に行なった処理を取り消します
+EditMenu.Redo.Tip=「元に戻す」で取り消したｱｸｼｮﾝをやりなおします
+EditMenu.PromptCmd.Tip=RDML ｺﾏﾝﾄﾞのﾌﾟﾛﾝﾌﾟﾄ画面を表示します
+EditMenu.EnhanceCmd.Tip=選択ｺﾏﾝﾄﾞをｺﾏﾝﾄﾞ ｱｼｽﾀﾝﾄで表示します
+EditMenu.UseTemp.Tip=RDML ｺﾏﾝﾄﾞを挿入するためのﾃﾝﾌﾟﾚｰﾄの一覧を表示します
+EditMenu.Goto.Tip=ｿｰｽ ﾋﾞｭｰの指定位置に移行します
+EditMenu.ShowPrompterCmd.Tip=ｺﾝﾎﾟｰﾈﾝﾄ ｴﾃﾞｨﾀのﾎﾟｯﾌﾟｱｯﾌﾟ ﾌﾟﾛﾝﾌﾟﾄ画面を表示します
+EditMenu.FormHtmlAttributes.Tip=ﾌｫｰﾑ HTML属性管理ﾀﾞｲｱﾛｸﾞを開く
+EditMenu.SetActiveXAttr.Tip=ActiveX の仕様に必要な属性を設定します
+EditMenu.ExpandAll.Tip=ｿｰｽの全てのｺﾏﾝﾄﾞを展開する
+EditMenu.CollapseAll.Tip=ｿｰｽの全てのｺﾏﾝﾄﾞをたたむ
+**
+ViewMenu.Controls.Tip=ｺﾝﾄﾛｰﾙ ﾋﾞｭｰにﾌｫｰｶｽを移します
+ViewMenu.Outl.Tip=ｱｳﾄﾗｲﾝ ﾋﾞｭｰにﾌｫｰｶｽを移します
+ViewMenu.Brow.Tip=詳細ﾋﾞｭｰにﾌｫｰｶｽを移します
+ViewMenu.Rep.Tip=ﾘﾎﾟｼﾞﾄﾘ ﾋﾞｭｰにﾌｫｰｶｽを移します
+ViewMenu.AutoComplete.Tip=ﾌｫｰｶｽをｿｰｽ ﾋﾞｭｰに移動し、ｵｰﾄｺﾝﾌﾟﾘｰﾄを有効にします
+ViewMenu.Fav.Tip=ﾌｫｰｶｽをお気に入りに移します
+ViewMenu.Xsl.Source.Tip=XSLｿｰｽ ﾋﾞｭｰにﾌｫｰｶｽを移動する
+ViewMenu.Xml.Source.Tip=XMLｿｰｽ ﾋﾞｭｰにﾌｫｰｶｽを移動する
+ViewMenu.Web.Design.Tip=Webﾃﾞｻﾞｲﾝ ﾋﾞｭｰにﾌｫｰｶｽを移動する
+ViewMenu.Source.Tip=ｿｰｽ ﾋﾞｭｰにﾌｫｰｶｽを移します
+ViewMenu.Design.Tip=ﾃﾞｻﾞｲﾝ ﾋﾞｭｰにﾌｫｰｶｽを移します
+ViewMenu.Features.Tip=ｺﾝﾎﾟｰﾈﾝﾄ機能のﾍﾙﾌﾟを表示します
+ViewMenu.Preview.Tip=ﾌﾟﾚﾋﾞｭｰ ﾋﾞｭｰにﾌｫｰｶｽを移動する
+ViewMenu.VersionControl.Tip=ﾊﾞｰｼﾞｮﾝ ｺﾝﾄﾛｰﾙ ﾋﾞｭｰにﾌｫｰｶｽを移動する
+ViewMenu.RefreshRepository.Tip=ﾋﾞｭｰのﾘﾎﾟｼﾞﾄﾘ情報を再表示します
+ViewMenu.ShowExplorerCmd.Tip=LANSA ｴｸｽﾌﾟﾛｰﾗを表示します
+ViewMenu.ShowLayoutHelper.Tip=ﾚｲｱｳﾄ ﾍﾙﾊﾟｰを表示します(ﾚｲｱｳﾄに関するﾌﾟﾛﾊﾟﾃｨを設定するために使用します)
+ViewMenu.Cmd.Tip=ｺﾏﾝﾄﾞのﾀﾌﾞにﾌｫｰｶｽを移します
+ViewMenu.ShowSavedDefinitions.Tip=保存されている定義の画面を表示します(保存されている定義を管理するために使用します)
+ViewMenu.ToolBars.Tip=ﾂｰﾙﾊﾞｰ表示を切替えます
+ViewMenu.ShowToolBarStandard.Tip=標準ﾂｰﾙﾊﾞｰの表示を切り替えます
+ViewMenu.MessageFiles.Tip=ﾒｯｾｰｼﾞ ﾌｧｲﾙ画面を表示します
+ViewMenu.WorkStationLocks.Tip=ﾜｰｸｽﾃｰｼｮﾝ ﾛｯｸ画面を表示します
+ViewMenu.LanguageOptions.Tip=言語ｵﾌﾟｼｮﾝ画面を表示します
+**
+OptMenu.Font.Tip=ｿｰｽ ﾋﾞｭｰのﾌｫﾝﾄを設定するためのﾀﾞｲｱﾛｸﾞを表示します
+OptMenu.Color.Tip=ｿｰｽ ﾋﾞｭｰの色を設定するためのﾀﾞｲｱﾛｸﾞを表示します
+OptMenu.Language.Tip=ｷｬﾌﾟｼｮﾝに言語変数を使用している場合のﾃﾞｻﾞｲﾝ時に表示する言語を設定します
+OptMenu.Theme.Tip=ﾃﾞｻﾞｲﾝ ﾋﾞｭｰのﾃｰﾏを設定
+OptMenu.DevelopmentLanguage.Tip=LANSA の開発環境の言語を設定します
+OptMenu.ObjectLockingOff.Tip=ｵﾌﾞｼﾞｪｸﾄ ﾛｯｸをｵﾌに設定します
+OptMenu.ObjectLockingOn.Tip=ｵﾌﾞｼﾞｪｸﾄ ﾛｯｸをｵﾝに設定します
+OptMenu.ObjectLockingOnReadOnly.Tip=ｵﾌﾞｼﾞｪｸﾄ ﾛｯｸはｵﾝです：読み取り専用
+OptMenu.XrefGenerationForFields.Tip=ﾌｨｰﾙﾄﾞのｸﾛｽ ﾘﾌｧﾚﾝｽ情報を生成します
+OptMenu.XrefGenerationForCompiledFiles.Tip=ｺﾝﾊﾟｲﾙされているﾌｧｲﾙのｸﾛｽ ﾘﾌｧﾚﾝｽ情報を生成します
+OptMenu.XrefGenerationForCompiledFunctions.Tip=ｺﾝﾊﾟｲﾙされているﾌｧﾝｸｼｮﾝのｸﾛｽ ﾘﾌｧﾚﾝｽ情報を生成します
+OptMenu.XrefGenerationForCompiledComponents.Tip=ｺﾝﾊﾟｲﾙされているｺﾝﾎﾟｰﾈﾝﾄのｸﾛｽ ﾘﾌｧﾚﾝｽ情報を生成します
+OptMenu.XrefGenerationForSystemVariables.Tip=ｼｽﾃﾑ変数のｸﾛｽ ﾘﾌｧﾚﾝｽ情報を生成します
+OptMenu.XrefGenerationForWamWebletXSL.Tip=WAM/ｳｪﾌﾞﾚｯﾄのｸﾛｽ ﾘﾌｧﾚﾝｽ情報を生成します
+OptMenu.XrefGenerationForAll.Tip=全てのｸﾛｽ ﾘﾌｧﾚﾝｽ情報を生成します
+OptMenu.RebuildDefinitionsForBifs.Tip=組込み関数の定義を再生成します
+OptMenu.FormattingOptions.Tip=LANSA ｴﾃﾞｨﾀのｵﾌﾟｼｮﾝを設定するための画面を表示します
+**
+VrfyMenu.DCheck.Tip=画面またはﾚﾎﾟｰﾄを検査します
+VrfyMenu.FCheck.Tip=ｿｰｽ ｺｰﾄﾞを検査します
+VrfyMenu.Build.Tip=ｿｰｽ ｺｰﾄﾞを検査して、ﾀｰｹﾞｯﾄ ﾌﾟﾗｯﾄﾌｫｰﾑのｺｰﾄﾞ(C/C++ または RPG)を生成します
+VrfyMenu.Compile.Tip=ｿｰｽ ｺｰﾄﾞを検査して、ﾀｰｹﾞｯﾄ ﾌﾟﾗｯﾄﾌｫｰﾑのｺｰﾄﾞ(C/C++ または RPG)を生成して、ｺﾝﾊﾟｲﾙします
+VrfyMenu.Debug.Tip=ﾃﾞﾊﾞｯｸﾞ ﾓｰﾄﾞでｺﾝﾎﾟｰﾈﾝﾄを実行します
+VrfyMenu.Execute.Tip=ｺﾝﾎﾟｰﾈﾝﾄを実行します
+VrfyMenu.InteractiveOn.Tip=LANSA の検査をｲﾝﾀﾗｸﾃｨﾌﾞで実行します 
+VrfyMenu.InteractiveOff.Tip=ｲﾝﾀﾗｸﾃｨﾌﾞの検査を停止します
+VrfyMenu.InteractiveNow.Tip=現在の LANSA ｵﾌﾞｼﾞｪｸﾄを検査します
+**
+ToolsMenu.Tool.Tip=選択されているﾂｰﾙを実行します
+ToolsMenu.Configure.Tip=ｴﾃﾞｨﾀに使用するﾂｰﾙを構成するための画面を表示します
+ToolsMenu.WebAdministrator.Tip=Webｱﾄﾞﾐﾆｽﾄﾚｰﾀを開く
+**
+WndMenu.NextFn.Tip=ｴﾃﾞｨﾀで開いている次のｺﾝﾎﾟｰﾈﾝﾄを表示します
+WndMenu.PrevFn.Tip=前の開いているｵﾌﾞｼﾞｪｸﾄを表示
+WndMenu.More.Tip=ｴﾃﾞｨﾀで開いているｺﾝﾎﾟｰﾈﾝﾄの一覧を表示します
+**
+HelpMenu.Contents.Tip=ﾍﾙﾌﾟの目次を表示します
+HelpMenu.EditorOView.Tip=ｴﾃﾞｨﾀの概要を表示します
+HelpMenu.ShortCuts.Tip=ｴﾃﾞｨﾀのｷｰﾎﾞｰﾄﾞ ｼｮｰﾄｶｯﾄのﾍﾙﾌﾟを表示します
+HelpMenu.Lansa.Tip=http:
+HelpMenu.ProductInfo.Tip=製品情報の画面を表示します
+**
+CompMenu.Cut.Tip=ｺﾝﾎﾟｰﾈﾝﾄを切り取ります
+CompMenu.Copy.Tip=ｺﾝﾎﾟｰﾈﾝﾄをｺﾋﾟｰします
+CompMenu.Popup.Tip=ﾎﾟｯﾌﾟｱｯﾌﾟ ﾒﾆｭｰを挿入します
+CompMenu.Delete.Tip=ｺﾝﾎﾟｰﾈﾝﾄを削除します
+CompMenu.EditPopup.Tip=ﾎﾟｯﾌﾟｱｯﾌﾟの編集
+CompMenu.Event.Tip=このｲﾍﾞﾝﾄを選択します
+CompMenu.DetachPopup.Tip=ﾎﾟｯﾌﾟｱｯﾌﾟを切り離します
+CompMenu.ViewPopup.Tip=ﾎﾟｯﾌﾟｱｯﾌﾟ ﾒﾆｭｰを追加して表示します
+CompMenu.EditViewPopup.Tip=ﾎﾟｯﾌﾟｱｯﾌﾟ ﾒﾆｭｰを編集して表示します
+CompMenu.DetachViewPopup.Tip=ﾎﾟｯﾌﾟｱｯﾌﾟ ﾒﾆｭｰを切り離して表示します
+CompMenu.AddPage.Tip=ﾍﾟｰｼﾞを追加します
+CompMenu.NextPage.Tip=次のﾍﾟｰｼﾞに移動します
+CompMenu.PreviousPage.Tip=前のﾍﾟｰｼﾞに移動します
+CompMenu.CutComponent.Tip=ｺﾝﾎﾟｰﾈﾝﾄ、子とｲﾍﾞﾝﾄ ﾙｰﾁﾝの切り取り
+CompMenu.CopyComponent.Tip=ｺﾝﾎﾟｰﾈﾝﾄ、子とｲﾍﾞﾝﾄ ﾙｰﾁﾝのｺﾋﾟｰ
+CompMenu.GotoDefinition.Tip=ｺﾝﾎﾟｰﾈﾝﾄの定義に移動します
+CompMenu.BlockComment.Tip=選択ﾃｷｽﾄをｺﾒﾝﾄに設定します
+CompMenu.BlockUnComment.Tip=選択されているｺﾒﾝﾄを外します
+CompMenu.SaveDefinition.Tip=ｺﾝﾎﾟｰﾈﾝﾄを省略値として保存します
+CompMenu.SaveAsSharedDefinition.Tip=ｺﾝﾎﾟｰﾈﾝﾄを共通の省略値として保存します
+CompMenu.SaveAsPartitionDefinition.Tip=ｺﾝﾎﾟｰﾈﾝﾄを区画の省略値として保存します
+CompMenu.SaveAsSessionDefinition.Tip=ｺﾝﾎﾟｰﾈﾝﾄをｾｯｼｮﾝの省略値として保存します
+CompMenu.SavedDefinitions.Tip=保存されている定義の画面を表示します(保存されている定義を管理するために使用します)
+
+*************************************************************
+********         Status and Messages               **********
+*************************************************************
+Status.Ready=待機中
+Status.CompSaving=ｺﾝﾎﾟｰﾈﾝﾄを保存しています
+Status.CompSaved=ｺﾝﾎﾟｰﾈﾝﾄを保存しました
+Status.FunctionSaving=ﾌｧﾝｸｼｮﾝを保存しています
+Status.FunctionSaved=ﾌｧﾝｸｼｮﾝを保存しました
+Status.WebSaving=Web 保存中
+Status.WebSaved=Web 保存完了
+Status.Opening=&1 &2 を開いています
+Status.Initializing=&1 &2 の初期化中
+Status.LoadTemplate=ﾃﾝﾌﾟﾚｰﾄを選択しています
+Status.InjectingTemplate=ｺﾝﾎﾟｰﾈﾝﾄを更新しています
+Status.InjectingActiveXAttr=ｺﾝﾎﾟｰﾈﾝﾄを更新しています
+Status.LoadingFiles=ﾌｧｲﾙ ﾘｽﾄをﾛｰﾄﾞしています
+Status.LoadingFields=ﾌｨｰﾙﾄﾞ ﾘｽﾄをﾛｰﾄﾞしています
+Status.LoadingComponents=ｺﾝﾎﾟｰﾈﾝﾄ ﾘｽﾄをﾛｰﾄﾞしています
+Status.LoadingProcesses=ﾌﾟﾛｾｽ ﾘｽﾄをﾛｰﾄﾞしています
+Status.LoadingFunctions=ﾌｧﾝｸｼｮﾝ ﾘｽﾄをﾛｰﾄﾞしています
+Status.RefreshingFiles=ﾌｧｲﾙ ﾘｽﾄを更新しています
+Status.RefreshingFields=ﾌｨｰﾙﾄﾞ ﾘｽﾄを更新しています
+Status.RefreshingComp=ﾘﾎﾟｼﾞﾄﾘを更新しています、&1ｵﾌﾞｼﾞｪｸﾄ保留中
+Status.RefreshingCompHitF5=ﾘﾎﾟｼﾞﾄﾘを更新しています、&1ｵﾌﾞｼﾞｪｸﾄ保留中 (F5 ﾘﾎﾟｼﾞﾄﾘの更新)
+Status.RefreshingProcesses=ﾌﾟﾛｾｽ ﾘｽﾄを更新しています
+Status.RefreshingRepository=ｺﾝﾎﾟｰﾈﾝﾄ ﾘﾎﾟｼﾞﾄﾘを更新しています
+
+Status.CollapsingLines=行を閉じています
+Status.ExpandingLines=行を開いています
+
+Status.CompBuilding=ｺﾝﾎﾟｰﾈﾝﾄを生成しています
+Status.CompBuild.Ok=&1 の生成は正常に終了しました。
+Status.CompBuild.Fatals=&1 の生成中に次のｴﾗｰが発生しました：致命的 - &2、警告 - &3
+Status.CompBuild.Warnings=&1 の生成が正常に終了しましたが警告が発生しました：&2 警告
+
+Status.CompFullCheck=すべての検査を実行しています
+Status.CompFullCheck.Ok=&1 の検査は正常に終了しました。
+Status.CompFullCheck.Fatals=&1 の検査中に次のｴﾗｰが発生しました：致命的 - &2、警告 - &3
+Status.CompFullCheck.Warnings=&1 の検査が正常に終了しましたが警告が発生しました：&2 警告
+
+Status.FunctionBuilding=ﾌｧﾝｸｼｮﾝの生成を実行しています
+Status.FunctionBuild.Ok=&1 の生成は正常に終了しました。
+Status.FunctionBuild.Fatals=&1 の生成中に次のｴﾗｰが発生しました：致命的 - &2、警告 - &3
+Status.FunctionBuild.Warnings=&1 の生成が正常に終了しましたが警告が発生しました：&2 警告
+
+Status.FunctionDesignCheck=ﾌｧﾝｸｼｮﾝ ﾃﾞｻﾞｲﾝ検査を実行しています
+Status.FunctionDesignCheck.Ok=&1 のﾃﾞｻﾞｲﾝ検査が正常に終了しました。ｴﾗｰまたは警告はありません
+Status.FunctionDesignCheck.Fatals=&1 のﾃﾞｻﾞｲﾝ検査中に次のｴﾗｰが発生しました：致命的 - &2、警告 - &3
+Status.FunctionDesignCheck.Warnings=&1 のﾃﾞｻﾞｲﾝ検査が正常に終了しましたが警告が発生しました：&2 警告
+
+Status.FunctionFullCheck=全ての構文検査を実行しています
+Status.FunctionFullCheck.Ok=&1 の検査は正常に終了しました。
+Status.FunctionFullCheck.Fatals=&1 の検査中に次のｴﾗｰが発生しました：致命的 - &2、警告 - &3
+Status.FunctionFullCheck.Warnings=&1 の検査が正常に終了しましたが警告が発生しました：&2 警告
+
+Status.MigrationApply=開いているｺﾝﾎﾟｰﾈﾝﾄに移行されたｿｰｽを適用しています
+Status.MigrationPrepare=既存のｿｰｽを分析し形式を再設定しています
+
+Status.Debug.CannotFindSource=ﾃﾞﾊﾞｯｸﾞのｿｰｽが見つかりません ( ﾌﾟﾛｾｽ= &1、ﾌｧﾝｸｼｮﾝ = &2 )
+
+Message.Initializing=LANSAｴﾃﾞｨﾀｰを初期化しています。お待ちください....
+Message.Loading=&1 &2をﾛｰﾄﾞしています。お待ち下さい。
+Message.CollapsedItems=&1 項目縮小されています： &2
+
+*************************************************************
+********         Letters                           **********
+*************************************************************
+Letter.A=A
+Letter.B=B
+Letter.C=C
+Letter.D=D
+Letter.E=E
+Letter.F=F
+Letter.G=G
+Letter.H=H
+Letter.I=I
+Letter.J=J
+Letter.K=K
+Letter.L=L
+Letter.M=M
+Letter.N=N
+Letter.O=O
+Letter.P=P
+Letter.Q=Q
+Letter.R=R
+Letter.S=S
+Letter.T=T
+Letter.U=U
+Letter.V=V
+Letter.W=W
+Letter.X=X
+Letter.Y=Y
+Letter.Z=Z
+Letter.Other=その他
+InvalidRepComponent=ｸﾗｽ &2 のｺﾝﾎﾟｰﾈﾝﾄ &1 はｴﾃﾞｨﾀｰに対してｻﾎﾟｰﾄしてません。
+InvalidRepComponent.Severity=2
+InvalidRepComponent.Id=7
+InvalidRepAncestor=ｺﾝﾎﾟｰﾈﾝﾄ ｸﾗｽ &1 は 基本 ｸﾗｽ &2 から継承しなければなりません。
+InvalidRepAncestor.Severity=2
+InvalidRepAncestor.Id=8
+*************************************************************
+********         COMPONENT EDITOR DIALOGS          **********
+*************************************************************
+*
+Base.HorizontalCaption=水平：
+Base.VerticalCaption=垂直：
+Base.LookOnline=ｵﾝﾗｲﾝで参照...
+Base.BackToRepository=ﾘﾎﾟｼﾞﾄﾘに戻る
+Base.OK=OK(&O)
+Base.Apply=適用
+Base.Cancel=ｷｬﾝｾﾙ(&C)
+Base.Close=閉じる(&C)
+Base.Remember=保存
+Base.Reset=ﾘｾｯﾄ
+Base.ResetAll=全てﾘｾｯﾄ
+Base.ResetIDE=ｴﾃﾞｨﾀｰのﾘｾｯﾄ
+Base.Delete=削除
+*
+Goto.OK=実行(&G)
+Goto.Cancel=ｷｬﾝｾﾙ(&C)
+Goto.Close=閉じる(&C)
+Goto.Title=位置指定
+Goto.GotoButton.Caption.Hint=選択箇所に移動
+Goto.ViewButton.Caption.Hint=現在のﾋﾞｭｰを変更
+Goto.ViewMenuItem.Alphabetical=ｱﾙﾌｧﾍﾞｯﾄ順
+Goto.ViewMenuItem.SourceOrder=ｿｰｽ順
+Goto.Stmt=行のﾃｷｽﾄ
+Goto.Text=行番号：
+Goto.What=ｶﾃｺﾞﾘ
+Goto.Identifier=識別子
+Goto.LineNumber=行番号を入力して下さい:
+Goto.SelectLine=行を選択して下さい(&S):
+Goto.Category.Tag=ﾀｸﾞ
+Goto.Category.Line=行
+Goto.Category.Warning=警告
+Goto.Category.Error=ｴﾗｰ
+Goto.Category.Routines=ﾙｰﾁﾝ
+Goto.Category.Definitions=定義ｺﾏﾝﾄﾞ
+Goto.Category.IOOperations=I/O 処理 
+Goto.Category.ListCommands=ﾘｽﾄ ｺﾏﾝﾄﾞ
+Goto.Category.ListOperations=ﾘｽﾄ処理 
+Goto.Category.ReportCommands=ﾚﾎﾟｰﾄ ｺﾏﾝﾄﾞ
+Goto.Category.ReportOperations=ﾚﾎﾟｰﾄ処理 
+Goto.Category.BuiltInFunctions=組込み関数
+Goto.Category.Function.Design=ﾌｧﾝｸｼｮﾝ ﾃﾞｻﾞｲﾝ
+Goto.EmptyLine=<ﾌﾞﾗﾝｸ行>
+Goto.Category.Xsl.Warning=XSL 警告
+Goto.Category.Xsl.Error=XSL ｴﾗｰ
+Goto.Category.Xsl.Information=XSL ｲﾝﾌｫﾒｰｼｮﾝ
+*
+Jump.Title=ｼﾞｬﾝﾌﾟ
+*
+Assist.Title=ｱｼｽﾀﾝﾄ
+*
+Assistant.CA.Title=ｺﾏﾝﾄﾞ ｱｼｽﾀﾝﾄ
+Assistant.AC.Title=ｵｰﾄｺﾝﾌﾟﾘｰﾄ
+Assistant.Instrument.Commands=ｺﾏﾝﾄﾞ
+Assistant.Instrument.FieldsByFile=ﾌｧｲﾙのﾌｨｰﾙﾄﾞ
+Assistant.Instrument.FieldDefinitions=ﾌｨｰﾙﾄﾞの定義
+Assistant.Instrument.RepositoryFields=ﾘﾎﾟｼﾞﾄﾘ ﾌｨｰﾙﾄﾞ
+Assistant.Instrument.Files=ﾌｧｲﾙ
+Assistant.Instrument.CmdParameters=ｺﾏﾝﾄﾞ ﾊﾟﾗﾒｰﾀｰ
+Assistant.Instrument.ExprOperations=処理
+Assistant.Instrument.Arrays=配列
+Assistant.Instrument.Groupings=ｸﾞﾙｰﾌﾟとﾘｽﾄ
+Assistant.Instrument.Functions=ﾌｧﾝｸｼｮﾝ
+Assistant.Instrument.Processes=ﾌﾟﾛｾｽ
+Assistant.Instrument.SystemVariables=ｼｽﾃﾑ変数
+Assistant.Instrument.MultilingualVariables=言語変数
+Assistant.Instrument.Bifs=組込み関数
+Assistant.Instrument.Conditions=条件
+Assistant.Instrument.Mnemonics=特定の値
+Assistant.Instrument.FieldAttributes=ﾌｨｰﾙﾄﾞ属性
+Assistant.Instrument.Selectors=ｾﾚｸﾀ
+Assistant.Instrument.Variables=変数
+Assistant.Instrument.Expression=式
+Assistant.Instrument.Patterns=ｸﾗｽ
+Assistant.Instrument.WamServices=Wam ｻｰﾋﾞｽ
+Assistant.Instrument.Routines=ﾙｰﾁﾝ
+Assistant.Instrument.Parameters=ﾊﾟﾗﾒｰﾀ
+Assistant.Instrument.Features=機能
+Assistant.Instrument.Styles=ｽﾀｲﾙ
+Assistant.Instrument.Operators=ｵﾍﾟﾚｰﾀ
+Assistant.Instrument.SpecialValues=特別値
+Assistant.Instrument.EnumValues=Enum値
+Assistant.Instrument.Namespaces=Namespaces
+Assistant.Instrument.Classes=ｸﾗｽ
+Assistant.Instrument.FieldsInFile=ﾌｧｲﾙのﾌｨｰﾙﾄﾞ
+Assistant.Instrument.Fields=ﾌｨｰﾙﾄﾞ
+Assistant.Instrument.Forms=ﾌｫｰﾑ
+Assistant.Instrument.ReusableParts=再利用可能ﾊﾟｰﾂ
+Assistant.Instrument.BusinessObject=ﾋﾞｼﾞﾈｽ ｵﾌﾞｼﾞｪｸﾄ
+Assistant.Instrument.ActiveX=ActiveX
+Assistant.Instrument.Primitives=Primitive型
+Assistant.Instrument.Icons=ｱｲｺﾝ
+Assistant.Instrument.Bitmaps=ﾋﾞｯﾄﾏｯﾌﾟ
+Assistant.Instrument.VisualStyles=ﾋﾞｼﾞｭｱﾙｽﾀｲﾙ
+Assistant.Instrument.DotNetProxys=.NET ｺﾝﾎﾟｰﾈﾝﾄ
+Assistant.Instrument.WebServiceProxys=Web ｻｰﾋﾞｽ
+Assistant.Instrument.BusinessObjects=ﾋﾞｼﾞﾈｽ ｵﾌﾞｼﾞｪｸﾄ
+Assistant.Instrument.MessageFiles=ﾒｯｾｰｼﾞﾌｧｲﾙ
+Assistant.Instrument.LocalFields=ﾛｰｶﾙ ﾌｨｰﾙﾄﾞ
+Assistant.Instrument.Lists=ﾘｽﾄ
+Assistant.Instrument.Subroutines=ｻﾌﾞﾙｰﾁﾝ
+Assistant.Instrument.WebServices=Webｻｰﾋﾞｽ
+Assistant.Instrument.WebRoutines=Webroutine
+Assistant.Instrument.Wams=WAM(Web ｱﾌﾟﾘｹｰｼｮﾝ ﾓｼﾞｭｰﾙ)
+Assistant.Instrument.PropertyRoutines=ﾌﾟﾛﾊﾟﾃｨ ﾙｰﾁﾝ
+Assistant.Instrument.Components=ｺﾝﾎﾟｰﾈﾝﾄ
+Assistant.Instrument.AncestorFeature=Ancestor 機能
+Assistant.Label.Component=ｺﾝﾎﾟｰﾈﾝﾄ
+Assistant.Label.Selector=ｾﾚｸﾀ
+Assistant.Label.InQual=IN
+Assistant.Label.Name=名前
+Assistant.Label.GroupedFields=ｸﾞﾙｰﾌﾟ ﾌｨｰﾙﾄﾞ
+Assistant.Label.Description=記述
+Assistant.Label.NewQualification=新しい修飾子
+Assistant.Label.ResultValueFilters=結果の値のﾌｨﾙﾀ
+Assistant.Label.FieldName=ﾌｨｰﾙﾄﾞ名
+Assistant.Label.FieldType=ﾌｨｰﾙﾄﾞ ﾀｲﾌﾟ
+Assistant.Label.FieldDescription=ﾌｨｰﾙﾄﾞの記述
+Assistant.Label.RenamedField=名前が変更されたﾌｨｰﾙﾄﾞ:
+Assistant.Label.FileName=ﾌｧｲﾙ名
+Assistant.Label.LibraryName=ﾗｲﾌﾞﾗﾘｰ名
+Assistant.Label.FileDescription=ﾌｧｲﾙの記述
+Assistant.Label.ResultingExpression=結果の式
+*
+Assistant.Cancel.Tip=ｷｬﾝｾﾙ
+Assistant.Enter.Tip=入力
+Assistant.Apply.Tip=結果をｺﾏﾝﾄﾞ行に適用<実行>
+*
+Language.Title=ﾌﾟﾛﾊﾟﾃｨのﾃｷｽﾄ &1
+*
+Color.Title=色の設定  
+Color.Indent.1=ﾚﾍﾞﾙ #1 のｺﾏﾝﾄﾞ
+Color.Indent.2=ﾚﾍﾞﾙ #2 のｺﾏﾝﾄﾞ
+Color.Indent.3=ﾚﾍﾞﾙ #3 のｺﾏﾝﾄﾞ
+Color.Indent.4=ﾚﾍﾞﾙ #4 のｺﾏﾝﾄﾞ
+Color.Indent.5=ﾚﾍﾞﾙ #5 のｺﾏﾝﾄﾞ
+Color.Indent.6=ﾚﾍﾞﾙ #6 のｺﾏﾝﾄﾞ
+Color.Indent.7=ﾚﾍﾞﾙ #7 のｺﾏﾝﾄﾞ
+Color.Comment=ｺﾒﾝﾄ行 
+Color.LabelColour=ﾗﾍﾞﾙの色
+Color.LineNo=行番号の色
+Color.Error=ｴﾗｰ ﾃｷｽﾄの色
+Color.SampleTitle=ｻﾝﾌﾟﾙ ﾃｷｽﾄ
+Color.SampleText=ｻﾝﾌﾟﾙ ﾃｷｽﾄ
+Color.AppToAll=すべてへ適用
+Color.Help=ﾍﾙﾌﾟ
+Color.Warning=警告ﾃｸｽﾄの色
+Color.AuditStamp=RDML 編集ｽﾀﾝﾌﾟの色
+Color.Bookmark=ﾌﾞｯｸﾏｰｸの色
+Color.Debug.Breakpoint=ﾌﾞﾚｰｸﾎﾟｲﾝﾄ
+Color.Debug.ActiveStatement=ｱｸﾃｨﾌﾞなｽﾃｰﾄﾒﾝﾄ
+Color.Debug.CurrentStatement=現行のｽﾃｰﾄﾒﾝﾄ
+Color.Debug.IncludedStatement=ｲﾝｸﾙｰﾄﾞ ｽﾃｰﾄﾒﾝﾄ
+Color.ForeColor=前景色
+Color.BackColor=背景色
+Color.RestoreDefaults=省略値に戻す
+Color.Information=ｲﾝﾌｫﾒｰｼｮﾝ
+*
+Template.Title=ｵﾌﾞｼﾞｪｸﾄの選択
+Template.OK=実行
+Template.TemplateHelp=ﾃﾝﾌﾟﾚｰﾄ ﾍﾙﾌﾟ
+Template.Help=ﾍﾙﾌﾟ
+Template.DisplayAll=すべての表示
+Template.DisplayVL=VL の表示
+*
+Help.Caption=ｺﾝﾎﾟｰﾈﾝﾄ機能のﾍﾙﾌﾟ
+Help.Events=ｲﾍﾞﾝﾄ
+Help.Methods=ﾒｿｯﾄﾞ
+Help.Properties=ﾌﾟﾛﾊﾟﾃｨ
+Help.ParameterizedAs=ﾊﾟﾗﾒｰﾀｰ化 &1
+Help.Page.Caption=機能
+HelpViewer.Page.Caption=ﾍﾙﾌﾟ ﾃｷｽﾄ
+*
+Align.NoChange1=変更なし(&N)
+Align.NoChange2=変更なし(&O)
+Align.Left=左(&L)
+Align.Top=上(&T)   
+Align.Center1=中間(&C)
+Align.Center2=中間(&E)
+Align.Right=右(&R)
+Align.Bottom=下(&B)
+Align.SpaceEqual1=等間隔(&S)
+Align.SpaceEqual2=等間隔(&P)
+Align.SameWidth=同じ幅にする(&W)
+Align.SameHeight=同じ高さにする(&H)
+Align.LeftMargin=左余白
+Align.TopMargin=上余白 
+Align.RightMargin=右余白
+Align.BottomMargin=下余白
+*
+Size.Caption=ｺﾝﾎﾟｰﾈﾝﾄのｻｲｽﾞ
+Align.Caption=ｺﾝﾎﾟｰﾈﾝﾄの整列
+RepFind.Caption=ﾘﾎﾟｼﾞﾄﾘの検索
+RepFind.Online.Caption=ｵﾝﾗｲﾝ ﾘｿｰｽ
+Component.Caption=ｺﾝﾎﾟｰﾈﾝﾄの選択
+*
+TypeLib.Caption=ActiveX ﾀｲﾌﾟ ﾗｲﾌﾞﾗﾘ ﾌﾞﾗｳｻﾞ
+TypeLib.Error=ﾀｲﾌﾟ ﾗｲﾌﾞﾗﾘのﾛｰﾄﾞ中にｴﾗｰが発生しました
+TypeLib.Version=ﾊﾞｰｼﾞｮﾝ
+TypeLib.Locale=中立位置
+TypeLib.CreatableComp=作成可能ｺﾝﾎﾟｰﾈﾝﾄ
+TypeLib.NonCreatableComp=作成不可ｺﾝﾎﾟｰﾈﾝﾄ
+*
+ActiveX.Caption=ActiveX ｺﾝﾎﾟｰﾈﾝﾄ ﾌﾞﾗｳｻﾞ
+ActiveX.Controls=ｺﾝﾄﾛｰﾙ
+ActiveX.OtherComp=他のｺﾝﾎﾟｰﾈﾝﾄ
+*
+SelectLH.Caption=ﾚｲｱｳﾄ ﾍﾙﾊﾟｰ
+SelectLH.Children=子
+SelectLH.Left=左
+SelectLH.Right=右
+SelectLH.Top=上
+SelectLH.Bottom=下
+SelectLH.Client=ｸﾗｲｱﾝﾄ
+SelectLH.Margins=ﾏｰｼﾞﾝ
+SelectLH.AttachToLayout=ﾚｲｱｳﾄに添付
+SelectLH.CreateNewLayout=ﾚｲｱｳﾄの作成
+SelectLH.None=なし
+SelectLH.Attachment=添付
+SelectLH.AttachAll=全て添付
+SelectLH.DetachAll=全て切り離す
+SelectLH.Splitter=分割
+SelectLH.Grid=ｸﾞﾘｯﾄﾞ
+SelectLH.LayoutTab=ﾚｲｱｳﾄ
+SelectLH.PropertiesTab=ﾌﾟﾛﾊﾟﾃｨ
+SelectLH.NameEditCaption=ｺﾝﾎﾟｰﾈﾝﾄ名の編集
+SelectLH.Name=ｺﾝﾄﾛｰﾙ
+SelectLH.LayoutItemName=ﾚｲｱｳﾄ項目
+SelectLH.Delete.Layout=ｱｸﾃｨﾌﾞなﾚｲｱｳﾄと依存関係にあるｵﾌﾞｼﾞｪｸﾄを削除しますか？
+SelectLH.Delete.LayoutTitle=ﾚｲｱｳﾄの削除の確認
+SelectLH.Delete.LayoutBtnText=削除
+SelectLH.CreateLayoutBtnText=作成
+SelectLH.General.Tab=一般
+SelectLH.General.LayoutType=ﾀｲﾌﾟ
+SelectLH.General.LayoutComposite=ﾚｲｱｳﾄを管理しているｺﾝﾎﾟｰﾈﾝﾄ
+SelectLH.General.LayoutName=ﾚｲｱｳﾄ：
+SelectLH.General.Width=幅：
+SelectLH.General.Height=高さ：
+SelectLH.General.Rows=行：
+SelectLH.General.Columns=列：
+SelectLH.General.Set=設定
+SelectLH.General.Clear=ｸﾘｱ
+SelectLH.General.ClearBoth=両方ｸﾘｱ
+SelectLH.General.CaptureBoth=両方取り込む
+SelectLH.General.SetAll=全て
+
+SelectLH.SplitDividerStyle.Bar=ﾊﾞｰ
+SelectLH.SplitDividerStyle.Gap=間隔
+SelectLH.SplitDividerStyle.Line=ﾗｲﾝ
+SelectLH.SplitDividerStyle.Raised=隆起
+
+SelectLH.AttachOrder.Vertical=垂直
+SelectLH.AttachOrder.Horizontal=水平
+SelectLH.AttachOrder.DisplayPosition=表示位置
+
+SelectLH.Attach.Top=ﾄｯﾌﾟ
+SelectLH.Attach.Left=左
+SelectLH.Attach.Center=中央
+SelectLH.Attach.Bottom=ﾎﾞﾄﾑ
+SelectLH.Attach.Right=右
+SelectLH.Attach.None=無し
+
+SelectLH.Cmd.MoveUp.Tip=親のｺﾝﾎﾟｰﾈﾝﾄにﾌｫｰｶｽを移動する
+SelectLH.Cmd.CreateLayoutManager.Tip=ﾚｲｱｳﾄ ﾏﾈｰｼﾞｬｰの作成
+SelectLH.Cmd.DestroyLayoutManager.Tip=ﾚｲｱｳﾄ ﾏﾈｰｼﾞｬｰの削除
+SelectLH.Cmd.AttachToLM.Tip=子をﾚｲｱｳﾄ ﾏﾈｰｼﾞｬｰに追加
+SelectLH.Cmd.DetachFromLM.Tip=子をﾚｲｱｳﾄ ﾏﾈｰｼﾞｬｰから削除
+SelectLH.Cmd.AttachAllToLM.Tip=全ての子をﾚｲｱｳﾄ ﾏﾈｰｼﾞｬｰに追加
+SelectLH.Cmd.DetachAllFromLM.Tip=全ての子をﾚｲｱｳﾄ ﾏﾈｰｼﾞｬｰから削除
+
+SelectLH.Tab.AsChildDeatils=親側の詳細
+SelectLH.Tab.ChildDeatils=子の詳細
+SelectLH.Tab.LayoutManagerDetails=ﾚｲｱｳﾄ ﾏﾈｰｼﾞｬｰの詳細
+
+SelectLH.Create.Table=ﾃｰﾌﾞﾙ
+SelectLH.Create.Grid=ｸﾞﾘｯﾄﾞ
+SelectLH.Create.Attachment=添付
+SelectLH.Create.FlowDown=下へﾌﾛｰ
+SelectLH.Create.FlowAcross=横へﾌﾛｰ
+SelectLH.Create.SplitVertical=垂直分割
+SelectLH.Create.SplitHorizontal=水平分割
+
+SelectLH.Label.Category=ｶﾃｺﾞﾘ
+
+SelectLH.Category.Weight=重要度
+SelectLH.Category.Margins=ﾏｰｼﾞﾝ
+SelectLH.Category.Minimum=最小
+SelectLH.Category.Maximum=最大
+SelectLH.Category.Attachment=添付
+SelectLH.Category.FlowMinimum=ﾌﾛｰの最小
+SelectLH.Category.FlowMaximum=ﾌﾛｰの最大
+SelectLH.Category.FlowRules=ﾌﾛｰのﾙｰﾙ
+SelectLH.Category.FlowSpacing=ﾌﾛｰの間隔
+SelectLH.Category.FlowSizingRules=ﾌﾛｰ ｻｲｽﾞのﾙｰﾙ
+SelectLH.Category.GridRules=ｸﾞﾘｯﾄﾞのﾙｰﾙ
+SelectLH.Category.GridPosition=ｸﾞﾘｯﾄﾞの位置
+SelectLH.Category.GridItemSizingRules=ｸﾞﾘｯﾄﾞ項目のｻｲｽﾞのﾙｰﾙ
+SelectLH.Category.GridItemWeight=ｸﾞﾘｯﾄﾞ項目の重要度
+SelectLH.Category.SplitItemWeight=分割項目の重要度
+SelectLH.Category.SplitDividerStyle=分割のｽﾀｲﾙ
+SelectLH.Category.ProcessingOrder=処理命令
+
+SelectLH.Attachment.Position=位置
+
+SelectLH.Flow.Spacing=間隔
+SelectLH.Flow.Direction=方向
+SelectLH.Flow.Operation=処理
+SelectLH.Flow.Vertical=垂直
+SelectLH.Flow.Horizontal=水平
+SelectLH.Flow.ItemsPerDivision=分割内の項目数
+SelectLH.Flow.SpacingItems=ｽﾍﾟｰｽの項目
+
+SelectLH.Split.LayoutItems=分割項目
+SelectLH.Split.Style=ｽﾀｲﾙ
+SelectLH.Split.Orientation=方向
+SelectLH.Split.Detached=切り離す
+SelectLH.Split.Sizeable=ｻｲｽﾞ変更可能
+SelectLH.Split.CreateWithPanel=ﾊﾟﾈﾙと作成
+SelectLH.Split.Create=分割項目の作成
+SelectLH.Split.Delete=分割項目の削除
+SelectLH.Split.MakeActive=ｱｸﾃｨﾌﾞに設定
+SelectLH.Split.ManageParent=親の管理
+SelectLH.Split.Parent=親
+
+SelectLH.Grid.RuleAlignment=ﾙｰﾙの整列
+SelectLH.Grid.Rules.Alignment=整列
+SelectLH.Grid.Rules.Sizing=ｻｲｽﾞ
+SelectLH.Grid.Position.Row=上からの行
+SelectLH.Grid.Position.RowsSpan=高さ(行数)
+SelectLH.Grid.Position.Column=左からの列
+SelectLH.Grid.Position.ColumnsSpan=幅(桁数)
+
+DefaultSize.DialogTitle=保管されているｺﾝﾎﾟｰﾈﾝﾄの定義
+DefaultSize.CollectionLabel=保管されている定義のｺﾚｸｼｮﾝ：
+DefaultSize.TypesLabel=ｺﾝﾎﾟｰﾈﾝﾄのﾀｲﾌﾟ：
+DefaultSize.SettingsLabel=保管されているﾌﾟﾛﾊﾟﾃｨの設定：
+DefaultSize.SharedTab=共通
+DefaultSize.PartitionTab=区画
+DefaultSize.SessionTab=ｾｯｼｮﾝ
+DefaultSize.SharedCaption=共通の保管されている定義のｺﾚｸｼｮﾝ
+DefaultSize.PartitionCaption=区画の保管されている定義のｺﾚｸｼｮﾝ
+DefaultSize.SessionCaption=ｾｯｼｮﾝの保管されている定義のｺﾚｸｼｮﾝ
+DefaultSize.NameColumnCaption=ﾌﾟﾛﾊﾟﾃｨ名
+DefaultSize.ValueColumnCaption=値
+DefaultSize.SaveCollection.Tip=ｺﾚｸｼｮﾝの保存
+DefaultSize.ResetCollection.Tip=全ての定義を削除
+DefaultSize.ReloadCollection.Tip=ﾌｧｲﾙから定義を再ﾛｰﾄﾞ
+DefaultSize.DeleteTypeEntry.Tip=ﾀｲﾌﾟの項目を削除
+DefaultSize.DeletePropertyEntry.Tip=ﾌﾟﾛﾊﾟﾃｨの項目を削除
+DefaultSize.Message.NoValue=ﾌｧｲﾙ&2の行&1のﾛｰﾄﾞ中にｴﾗｰが発生しました。値が指定されていません。
+DefaultSize.Message.InvalidKey=ﾌｧｲﾙ&2の行&1のﾛｰﾄﾞ中にｴﾗｰが発生しました。指定されたｷｰは無効です。
+DefaultSize.Message.InvalidLine=ﾌｧｲﾙ&2の行&1のﾛｰﾄﾞ中にｴﾗｰが発生しました。行が無効です。
+DefaultSize.Msg.ConfirmActionCaption=確認
+DefaultSize.Msg.ResetCollectionPrompt=ｺﾚｸｼｮﾝをﾘｾｯﾄすると保管されている定義は全て削除されます。継続しますか？
+DefaultSize.Msg.ReloadCollectionPrompt=ｺﾚｸｼｮﾝを再ﾛｰﾄﾞすると更新が削除されます。継続しますか？
+*
+FieldDesign.Source=ｿｰｽ
+FieldDesign.TreeColumnCaption=ﾌｨｰﾙﾄﾞ ﾊﾟｰﾂ
+FieldDesign.VisualizationsCaption=ﾋﾞｼﾞｭｱﾗｲｾﾞｰｼｮﾝ
+FieldDesign.PromptersCaption=ﾌﾟﾛﾝﾌﾟﾀｰ
+FieldDesign.PicklistsCaption=ﾋﾟｯｸﾘｽﾄ
+FieldDesign.WebletsCaption=ｳｪﾌﾞﾚｯﾄ ﾃﾝﾌﾟﾚｰﾄ
+*
+FieldCompMenu.InsertVisualizations=追加
+FieldCompMenu.InsertEvpEntryField=入力ﾌｨｰﾙﾄﾞ
+FieldCompMenu.InsertEvpPicklistChoice=ﾋﾞｼﾞｭｱﾙ ﾋﾟｯｸﾘｽﾄ
+FieldCompMenu.InsertEvpStaticPicklist=静的
+FieldCompMenu.InsertEvpDynamicPicklist=動的
+FieldCompMenu.InsertEvpProgress=ﾌﾟﾛｸﾞﾚｽ ﾊﾞｰ
+FieldCompMenu.InsertEvpTrackBar=ﾄﾗｯｸ ﾊﾞｰ
+FieldCompMenu.InsertEvpSpinEdit=ｽﾋﾟﾝ ｴﾃﾞｨｯﾄ
+FieldCompMenu.DefaultVisualization=省略値のﾋﾞｼﾞｭｱﾗｲｾﾞｰｼｮﾝ
+FieldCompMenu.DefaultPrompter=省略値のﾌﾟﾛﾝﾌﾟﾀｰ
+FieldCompMenu.InsertPrompter=ﾌﾟﾛﾝﾌﾟﾀｰ ﾌｫｰﾑ
+FieldCompMenu.DefaultPicklist=省略値のﾋﾟｯｸﾘｽﾄ
+FieldCompMenu.InsertPicklist=ﾋﾟｯｸﾘｽﾄの追加
+FieldCompMenu.InsertPicklistItem=ﾋﾟｯｸﾘｽﾄ項目の追加
+FieldCompMenu.DefaultPicklistItem=省略値のﾋﾟｯｸﾘｽﾄ項目
+FieldCompMenu.InsertReusableChoice=再利用可能ﾀｲﾌﾟ
+FieldCompMenu.InsertReusablePart=再利用可能ﾊﾟｰﾂ
+FieldCompMenu.InsertHostedPart=ﾋﾞｼﾞｭｱﾙ ﾎｽﾄ
+FieldCompMenu.InsertWeblet=ｳｪﾌﾞﾚｯﾄ
+FieldCompMenu.InsertEvpDateTime=日付の入力ﾌｨｰﾙﾄﾞ
+FieldCompMenu.InsertEvpMonthCalender=ｶﾚﾝﾀﾞｰ
+FieldCompMenu.InsertEvpMultiLineEntryField=ﾒﾓ ﾌｨｰﾙﾄﾞ
+FieldCompMenu.MoveUpPicklist=上へ移動
+FieldCompMenu.MoveDownPicklist=下へ移動
+FieldCompMenu.InsertPrompter.Tip=ﾌﾟﾛﾝﾌﾟﾀｰ ﾌｫｰﾑの追加
+FieldCompMenu.InsertReusableChoice.Tip=再利用可能ﾀｲﾌﾟ
+FieldCompMenu.InsertReusablePart.Tip=新しいﾊﾟｰﾂ ﾋﾞｼﾞｭｱﾗｲｾﾞｰｼｮﾝ
+FieldCompMenu.InsertHostedPart.Tip=新しいﾋﾞｼﾞｭｱﾙ ﾎｽﾄ
+FieldCompMenu.InsertVisualizations.Tip=ﾋﾞｼﾞｭｱﾗｲｾﾞｰｼｮﾝの追加
+FieldCompMenu.InsertEvpEntryField.Tip=入力ﾌｨｰﾙﾄﾞ
+FieldCompMenu.InsertEvpPicklistChoice.Tip=ﾋﾟｯｸﾘｽﾄ
+FieldCompMenu.InsertEvpStaticPicklist.Tip=新しい静的ﾋﾟｯｸﾘｽﾄ
+FieldCompMenu.InsertEvpDynamicPicklist.Tip=新しい動的ﾋﾟｯｸﾘｽﾄ
+FieldCompMenu.InsertEvpProgress.Tip=ﾌﾟﾛｸﾞﾚｽ ﾊﾞｰ
+FieldCompMenu.InsertEvpTrackBar.Tip=ﾄﾗｯｸ ﾊﾞｰ
+FieldCompMenu.InsertEvpSpinEdit.Tip=ｽﾋﾟﾝ ｴﾃﾞｨｯﾄ
+FieldCompMenu.DefaultVisualization.Tip=省略値のﾋﾞｼﾞｭｱﾗｲｾﾞｰｼｮﾝ
+FieldCompMenu.DefaultPrompter.Tip=省略値のﾌﾟﾛﾝﾌﾟﾀｰ
+FieldCompMenu.DefaultPicklist.Tip=省略値のﾋﾟｯｸﾘｽﾄ
+FieldCompMenu.InsertPicklist.Tip=ﾋﾟｯｸﾘｽﾄの追加
+FieldCompMenu.InsertPicklistItem.Tip=ﾋﾟｯｸﾘｽﾄ項目の追加
+FieldCompMenu.DefaultPicklistItem.Tip=省略値のﾋﾟｯｸﾘｽﾄ項目
+FieldCompMenu.InsertWeblet.Tip=ｳｪﾌﾞﾚｯﾄ ﾃﾝﾌﾟﾚｰﾄの追加
+FieldCompMenu.InsertEvpDateTime.Tip=日付の入力ﾌｨｰﾙﾄﾞ
+FieldCompMenu.InsertEvpMonthCalender.Tip=ｶﾚﾝﾀﾞｰ
+FieldCompMenu.InsertEvpMultiLineEntryField.Tip=ﾒﾓ ﾌｨｰﾙﾄﾞ
+FieldCompMenu.RunVisualizationWizard.Tip=高度なﾋﾞｼﾞｭｱﾗｲｾﾞｰｼｮﾝ ｳｨｻﾞｰﾄﾞを実行
+FieldCompMenu.MoveUpPicklist.Tip=ﾋﾟｯｸﾘｽﾄ ｱｲﾃﾑを上に移動
+FieldCompMenu.MoveDownPicklist.Tip=ﾋﾟｯｸﾘｽﾄ ｱｲﾃﾑを下に移動
+*
+PopupMenu.WhatsThis=ﾍﾙﾌﾟ
+PopupMenu.WhatsThis.Tip=ﾍﾙﾌﾟ：選択されているｵﾌﾞｼﾞｪｸﾄの概要説明
+*
+FieldPicklistTabSheet.CaptionColumnText=ｷｬﾌﾟｼｮﾝ
+FieldPicklistTabSheet.ValueColumnText=値
+FieldPicklistTabSheet.DefaultColumnText=省略値
+FieldPicklistTabSheet.ImageColumnText=ｲﾒｰｼﾞ
+FieldPicklistTabSheet.AddItemCaption=追加
+FieldPicklistTabSheet.RemoveItemCaption=削除
+FieldPicklistTabSheet.ClearCaption=ｸﾘｱｰ
+*
+Include.Caption.Form=ｺﾝﾎﾟｰﾈﾝﾄのｺﾋﾟｰ
+Include.Caption.Children=子
+Include.Caption.Component=ｺﾝﾎﾟｰﾈﾝﾄ
+Include.Caption.IncludeComponents=ｺﾝﾎﾟｰﾈﾝﾄを含む
+Include.Caption.IncludeEvtRoutine=ｲﾍﾞﾝﾄ ﾙｰﾁﾝを含む
+
+*************************************************************
+********         COMPONENT EDITOR MESSAGE BOXES    **********
+*************************************************************
+MsgBox.ReadOnly=このｵﾌﾞｼﾞｪｸﾄを更新できません。+
++
+以下の理由が考えられます：+
+-
+    * このｵﾌﾞｼﾞｪｸﾄに対して権限がありません。+
+    -
+    * このｵﾌﾞｼﾞｪｸﾄは更新可能でﾁｪｯｸｱｳﾄされていません。+
+    -
+    * このｵﾌﾞｼﾞｪｸﾄは別の開発のﾀｽｸにﾛｯｸされています。+
+    -
+    * このｵﾌﾞｼﾞｪｸﾄは別の開発者または開発ﾌﾟﾛｾｽが現在使用しています。+
+-
+このｵﾌﾞｼﾞｪｸﾄは読み取り専用のみで開くことができます。+
+-
+継続しますか？
+
+MsgBox.ReadOnly.NotAuthorized=このｵﾌﾞｼﾞｪｸﾄを更新する権限がありません。+
+-
+読取専用ﾓｰﾄﾞで開きます。+
+-
+継続しますか?
+
+MsgBox.ReadOnly.NotCheckedOut=このｵﾌﾞｼﾞｪｸﾄは更新のためにﾘﾎﾟｼﾞﾄﾘからﾁｪｯｸｱｳﾄされていません。+
+-
+読取専用ﾓｰﾄﾞで開きます。+
+-
+継続しますか?
+
+MsgBox.ReadOnly.LockedOtherTask=このｵﾌﾞｼﾞｪｸﾄは他の開発ﾀｽｸにﾛｯｸされています。+
+-
+読取専用ﾓｰﾄﾞで開きます。+
+-
+継続しますか?
+
+MsgBox.ReadOnly.LockedOtherPc=このｵﾌﾞｼﾞｪｸﾄは別のPC名でﾛｯｸされています。+
+-
+このｵﾌﾞｼﾞｪｸﾄは読取専用ﾓｰﾄﾞのみで開きます。+
+-
+継続しますか?
+
+MsgBox.ReadOnly.UsedByOther=ｵﾌﾞｼﾞｪｸﾄは現在、他の開発者または開発ﾌﾟﾛｾｽによって使用されています。+
+-
+読取専用ﾓｰﾄﾞで開きます。+
+-
+継続しますか?
+
+MsgBox.ReadOnly.NoPermission=このﾀｲﾌﾟのｵﾌﾞｼﾞｪｸﾄを編集する権限がありません。+
+-
+読取専用ﾓｰﾄﾞで開きます。+
+-
+継続しますか?
+
+MsgBox.ReadOnly.VcsReadOnly=このｵﾌﾞｼﾞｪｸﾄはVCSﾏｽﾀｰから更新用にﾁｪｯｸｱｳﾄされていません。+
+-
+このｵﾌﾞｼﾞｪｸﾄは読取専用ﾓｰﾄﾞのみで開きます。+
+-
+継続しますか?
+
+MsgBox.ReadOnlyForSlave=ｽﾚｰﾌﾞ ｼｽﾃﾑで作業していますので、このｵﾌﾞｼﾞｪｸﾄは+
++
+読み取り専用で開かれます。+
+-
+継続しますか？
+
+MsgBox.ReadOnlyForPartition=このｵﾌﾞｼﾞｪｸﾄを更新できません。+
++
+以下の理由が考えられます：+
+-
+    * 導入されているﾗｲｾﾝｽに制限があります。+
+    -
+    * 有効なﾗｲｾﾝｽが導入されていません。+
+    -
+    * この区画にｾｷｭﾘﾃｨの情報がありません。+
+    -
+    * この区画は別のﾀｽｸにﾛｯｸされています。+
+-
+このｵﾌﾞｼﾞｪｸﾄを読み取り専用のみで開くことができます。+
+-
+継続しますか？
+
+MsgBox.ReadOnly.Caption=&1 (&2) 読み取り専用
+MsgBox.ReadOnly.CaptionForActiveRep=&1へ読み取り専用の警告
+MsgBox.SaveOnClose=&1の更新の保存 
+MsgBox.SaveOnClose.Caption=更新の保存
+MsgBox.SaveOnClose.Btn.Save=はい(&Y)
+MsgBox.SaveOnClose.Btn.NoSave=いいえ(&N)
+MsgBox.SaveOnClose.Btn.SaveAll=全てはい(&A)
+MsgBox.SaveOnClose.Btn.NoSaveAll=全ていいえ(&L)
+MsgBox.SaveOnClose.Btn.Cancel=ｷｬﾝｾﾙ(&C)
+
+MsgBox.AppError=LANSA ｺﾝﾎﾟｰﾈﾝﾄ ｴﾃﾞｨﾀｰ ｴﾗｰ
+MsgBox.AppCaption=LANSA ｴﾃﾞｨﾀｰ
+MsgBox.AppWarning=LANSA ｺﾝﾎﾟｰﾈﾝﾄ ｴﾃﾞｨﾀｰ警告
+MsgBox.PtyError=ﾌﾟﾛﾊﾟﾃｨ値ｴﾗｰ
+MsgBox.InvalidName=&1 は LANSA では有効な名前ではありません。
+MsgBox.InvalidRepKind=&1 をﾌﾟﾛﾊﾟﾃｨ &2 に使用することはできません。 
+MsgBox.NameNotFound=ｺﾝﾎﾟｰﾈﾝﾄ &1 は定義されていません。
+
+MsgBox.SelfAncestor=&1 はの &1 ｺﾝﾎﾟｰﾈﾝﾄの Ancestor にすることができません。
+MsgBox.InvalidAncestor=Ancestor は無効です
+MsgBox.RecursiveAncestor=&2 は &1 の Ancestor(直接または間接) ですので &1 はの &2 ｺﾝﾎﾟｰﾈﾝﾄの Ancestor にすることができません。
+MsgBox.ExceedMaxOpen=ｴﾃﾞｨﾀｰで最大 50 ｺﾝﾎﾟｰﾈﾝﾄを開くことができます。 他のｺﾝﾎﾟｰﾈﾝﾄを開く前にすでに開いているｺﾝﾎﾟｰﾈﾝﾄのいずれかを閉じて下さい。
+
+MsgBox.Caption.SaveAndExit=保存して終了
+MsgBox.Caption.BuildCommand=生成
+MsgBox.Caption.MigrateCommand=ﾌﾙ RDMLX を使用可能に設定
+MsgBox.Caption.FullCheckCommand=全ての検査
+
+MsgBox.SetTaskFail.Caption=ｾｯﾄされたﾀｽｸの失敗
+MsgBox.SetTaskFail.Msg=ｴﾃﾞｨﾀでｵｰﾌﾟﾝされた全てのｺﾝﾎﾟｰﾈﾝﾄを閉じてください。
+
+MsgBox.ComponentFailedValidation=ｺﾝﾎﾟｰﾈﾝﾄ &1 に無効な情報が更新されているため保存することができません。+
+   この処理を継続するためにｺﾝﾎﾟｰﾈﾝﾄ &1 の変更を取り消して、閉じる必要があります。継続しますか？
+MsgBox.ComponentInvalidForSave=ｺﾝﾎﾟｰﾈﾝﾄ &1 に無効な情報が更新されているため保存することができません。+
+   この処理を継続することができません。
+
+MsgBox.CannotMigrate=ｺﾝﾎﾟｰﾈﾝﾄ &1 はﾌﾙ RDMLX に対応していません。ﾌﾙ RDMLX を使用可能に設定することができません。
+MsgBox.MigrationNotAllowed=ｺﾝﾎﾟｰﾈﾝﾄ &1 をﾌﾙ RDMLX 使用可能に設定することができません。ｺﾝﾎﾟｰﾈﾝﾄ &1 が既にﾌﾙ RDMLX 使用可能に設定されていないこと、またこの区画がﾌﾙ RDMLX 使用可能に設定されていることを確認して下さい。　
+MsgBox.MigrationApplyQuotes=ｺﾝﾎﾟｰﾈﾝﾄ &1 は、&3 ｽﾃｰﾄﾒﾝﾄに対して出力された、合計 &2 の警告ﾒｯｾｰｼﾞがあります。警告ﾒｯｾｰｼﾞは、ﾌﾙ RDMLXを使用可能にした後に、ｴﾗｰまたは正しくない結果を引き起こす文字を含んでいる値を強調表示しています。ﾌﾙ RDMLXを使用可能にする前に、LANSAにそれらの値を引用符で囲ませますか?
+MsgBox.MigrationIgnoreErrors=ｺﾝﾎﾟｰﾈﾝﾄ &1 は、&3 ｽﾃｰﾄﾒﾝﾄに対して出力された、合計 &2 のｴﾗｰﾒｯｾｰｼﾞがあります。ｴﾗｰﾒｯｾｰｼﾞは、LANSAがﾌﾙ RDMLXを使用可能にする前の正確性を完全に評価するのを止めています。ﾌﾙ RDMLXを使用可能にしますか?
+MsgBox.MigrationIgnoreWarnings=ｺﾝﾎﾟｰﾈﾝﾄ &1 は、&3 ｽﾃｰﾄﾒﾝﾄに対して出力された、合計 &2 の警告ﾒｯｾｰｼﾞがあります。警告ﾒｯｾｰｼﾞは、ﾌﾙ RDMLXを使用可能にした後に、ｴﾗｰまたは正しくない結果を引き起こす文字を含んでいる値を強調表示しています。ﾌﾙ RDMLXを使用可能にしますか?
+
+MsgBox.FormattingChange.Function=新しい形式ｵﾌﾟｼｮﾝを使用するとﾌｧﾝｸｼｮﾝ &1 の"元に戻す"と"やり直し"の内部情報が削除されます。継続しますか？
+MsgBox.FormattingChange.Component=新しい形式ｵﾌﾟｼｮﾝを使用するとｺﾝﾎﾟｰﾈﾝﾄ &1 の"元に戻す"と"やり直し"の内部情報が削除されます。継続しますか？
+
+MsgBox.Tool.MethodNotFound=ﾌﾟﾗｸﾞｲﾝ ｺﾝﾎﾟｰﾈﾝﾄ &1 のTool ﾒｿｯﾄﾞ &2 が見つかりません。
+MsgBox.Tool.MethodExecutionError=ﾌﾟﾗｸﾞｲﾝ ｺﾝﾎﾟｰﾈﾝﾄ &1 の Tool ﾒｿｯﾄﾞ &2 の実行時にｴﾗｰが発生しました。
+MsgBox.FastCmd.MethodNotFound=ﾌﾟﾗｸﾞｲﾝ ｺﾝﾎﾟｰﾈﾝﾄ &1 のFast Command ﾒｿｯﾄﾞ &2 が見つかりません。
+MsgBox.FastCmd.MethodExecutionError=ﾌﾟﾗｸﾞｲﾝ ｺﾝﾎﾟｰﾈﾝﾄ &1 の Fast Command ﾒｿｯﾄﾞ &2 の実行時にｴﾗｰが発生しました。
+
+MsgBox.RestartRequired=Visual LANSA を再起動します。最後に保存した後の変更は更新されません。
+MsgBox.RestartRequiredTitle=Visual LANSA の再起動が必要
+MsgBox.RestartRequiredForEffect=定義の再生成要求が待ち行列に投入されました。次に LANSA を起動する時に実行されます。
+MsgBox.RestartRequiredForSysInfo=Visual LANSAを次回起動するまで変更は有効になりません。
+MsgBox.RestartRequiredForEffectTitle=再起動が必要
+MsgBox.LanguageChanged=選択した言語は次回ﾛｸﾞｵﾝする時に有効になります。
+MsgBox.LanguageChangedTitle=言語が変更されました
+
+MsgBox.RepObjectInvalidForSave=&1 ｴﾗｰが含まれているため、この状況では保管することができません。
+MsgBox.Caption.RepObjectInvalidForSave=保管 &1
+
+*************************************************************
+*** SPEED BUTTON HINTS                                  *****
+*************************************************************
+Btn.OpenRoutine.Hint=Webroutineを開く
+Btn.Close.Hint=閉じる
+Btn.Save.Hint=保存 (Ctrl+S)
+Btn.SaveAll.Hint=全て保存
+Btn.Print.Hint=印刷 (Ctrl+P)
+Btn.Cut.Hint=切り取り (Ctrl+X)
+Btn.Copy.Hint=ｺﾋﾟｰ (Ctrl+C)
+Btn.Paste.Hint=貼り付け (Ctrl+V)
+Btn.Insert.Hint=ｺﾏﾝﾄﾞの挿入 (Ins)
+Btn.ShowGeneralHelp.Hint=全般のﾍﾙﾌﾟ(F1)
+Btn.ShowFeatureHelp.Hint=ｺﾝﾎﾟｰﾈﾝﾄ ﾍﾙﾌﾟ(F2)
+Btn.Template.Hint=ｳｨｻﾞｰﾄﾞ(ﾃﾝﾌﾟﾚｰﾄ)の実行
+Btn.ShowMsg.Hint=ﾒｯｾｰｼﾞの表示 (Ctrl+M)
+Btn.FullCheck.Hint=すべての検査 (Alt+U)
+Btn.Build.Hint=生成 (Alt+B)
+Btn.Help.Hint=ﾍﾙﾌﾟ目次
+Btn.NextFn.Hint=次のｺﾝﾎﾟｰﾈﾝﾄ (Ctrl+F6)
+Btn.PrevFn.Hint=前のｺﾝﾎﾟｰﾈﾝﾄ (Ctrl+Shift+F6)
+Btn.Compile.Hint=ｺﾝﾊﾟｲﾙﾞ (Ctrl+Shift+C)
+Btn.Debug.Hint=ﾃﾞﾊﾞｯｸﾞ (Ctrl+Shift+D)
+Btn.Preview.Hint=ﾌﾟﾚﾋﾞｭｰ
+Btn.Execute.Hint=実行 (Ctrl+Shift+E)
+Btn.Left.Hint=左
+Btn.Right.Hint=右
+Btn.ActiveXHelp.Hint=ActiveX ﾍﾙﾌﾟ
+Btn.Find.Hint=検索(Ctrl+F)
+Btn.FindNext.Hint=次を検索(F3)
+Btn.FindPrev.Hint=前を検索(Shift+F3)
+Btn.Undo.Hint=元に戻す (Ctrl+Z)
+Btn.Redo.Hint=やり直し (Ctrl+Y)
+Btn.ViewState.Hint=使用可能なﾋﾞｭｰ間の切替
+Btn.AlphaSwitch.Hint=ｿｰﾄされたﾘｽﾄで表示
+Btn.CategorySwitch.Hint=分類されたﾘｽﾄで表示
+Btn.FeatureHelp.Hint=選択した項目の機能ﾍﾙﾌﾟ表示
+
+*************************************************************
+*** OTHER TOOLBAR CAPTIONS                              *****
+*************************************************************
+Tb.FindCombo.Hint=ﾃｷｽﾄの検索
+Tb.ExecuteHistory.Hint=履歴の実行
+Tb.ExecuteHistoryReset.Hint=履歴の実行のﾘｾｯﾄ
+Tb.ExecuteHistoryReset=ﾘｾｯﾄ
+
+*************************************************************
+*** ICON IMAGE CAPTIONS                                 *****
+*************************************************************
+Icon.SmallState=小さいｽﾃｰﾄのｱｲｺﾝ
+Icon.LargeState=大きいｽﾃｰﾄのｱｲｺﾝ
+Icon.Small=小さいｱｲｺﾝ
+Icon.Normal=大きいｱｲｺﾝ
+
+*************************************************************
+*** BITMAP IMAGE CAPTIONS                               *****
+*************************************************************
+Bitmap.Up=押されていない
+Bitmap.Disabled=使用不可
+Bitmap.Down=押されている
+Bitmap.Checked=ﾁｪｯｸされている
+Bitmap.ToolbarLoadFromFile.Hint=ﾌｧｲﾙからﾛｰﾄﾞ
+Bitmap.ToolbarExportToFile.Hint=ﾌｧｲﾙにｴｸｽﾎﾟｰﾄ
+Bitmap.TreeItem=ｱｲﾃﾑ
+Bitmap.TreeItemDesc=記述
+Bitmap.Image.Unknown=不明
+Bitmap.ImageDesc=記述
+Bitmap.ImageWidth=幅
+Bitmap.ImageHeight=高さ
+Bitmap.ImageBpp=1ﾋﾟｸｾﾙあたりのﾋﾞｯﾄ
+Bitmap.ImageType=ｲﾒｰｼﾞ ﾀｲﾌﾟ
+Bitmap.ImageType.Bmp=BMP
+Bitmap.ImageType.Png=PNG
+Bitmap.ImageType.Jpg=JPG
+Bitmap.ImageType.Gif=GIF
+Bitmap.ImageComprType=圧縮ﾀｲﾌﾟ
+Bitmap.ImageComprType.BmpRgb=RGB
+Bitmap.ImageComprType.BmpRle4=RLE4
+Bitmap.ImageComprType.BmpRle8=RLE8
+Bitmap.ImageComprType.BmpBF=Bitfields
+Bitmap.ImageComprType.Gif87a=GIF87a
+Bitmap.ImageComprType.Gif89a=GIF89a
+Bitmap.ImageComprType.Jpeg=JPEG
+Bitmap.ImageComprType.PngDeflate8=Deflate8
+
+*************************************************************
+*** VISUAL STYLE PANEL                                  *****
+*************************************************************
+Vs.LabelCaption=ﾗﾍﾞﾙのｻﾝﾌﾟﾙ
+Vs.CheckBoxCaption=ﾁｪｯｸﾎﾞｯｸｽのｻﾝﾌﾟﾙ
+Vs.TrackBarCaption=ﾄﾗｯｸﾊﾞｰのｻﾝﾌﾟﾙ
+Vs.PushButtonCaption=ﾌﾟｯｼｭ ﾎﾞﾀﾝのｻﾝﾌﾟﾙ
+Vs.RadioButtonCaption=ﾗｼﾞｵ ﾎﾞﾀﾝのｻﾝﾌﾟﾙ
+Vs.Column1.Caption=標準
+Vs.Column2.Caption=ｴﾗｰ
+Vs.Item1Column1.Caption=AaBbCcDdEe-012345
+Vs.Item1Column2.Caption=Error-1
+Vs.Item2Column1.Caption=AaBbCcDdEe-012345
+Vs.Item2Column2.Caption=Error-2
+Vs.Item3Column1.Caption=AaBbCcDdEe-012345
+Vs.Item3Column2.Caption=Error-3
+
+*************************************************************
+*** FEATURE BROWSER                                     *****
+*************************************************************
+ClassCombo.Label=ｸﾗｽ:
+
+*************************************************************
+*** COM PROMPTER                                        *****
+*************************************************************
+ComPrompter.NeedSelectMsg=COM ｺﾝﾎﾟｰﾈﾝﾄを選択するか、ｷｬﾝｾﾙをｸﾘｯｸして下さい
+ComPrompter.CatManCreateError=ｺﾝﾎﾟｰﾈﾝﾄ ｶﾃｺﾞﾘｰ ﾏﾈｰｼﾞｬを作成することができません
+ComPrompter.CatManEnumError=ｺﾝﾎﾟｰﾈﾝﾄ ｶﾃｺﾞﾘｰを列挙することができません
+ComPrompter.CatManNoCatsError=ｺﾝﾎﾟｰﾈﾝﾄ ｶﾃｺﾞﾘがありません
+ComPrompter.TlbSelectLCID=ﾀｲﾌﾟ ﾗｲﾌﾞﾗﾘの項目の下のﾛｰｶﾙIDを選択して下さい。
+
+*************************************************************
+*** REPOSITORY BROWSER                                  *****
+*************************************************************
+RepBrowser.Caption=ﾘﾎﾟｼﾞﾄﾘ ﾌﾞﾗｳｻﾞ
+RepBrowser.CategoryLabel=ｶﾃｺﾞﾘｰ
+RepBrowser.CandidateLabel=選択項目
+RepBrowser.Delete.Name.Column.Caption=名前
+RepBrowser.Delete.Desc.Column.Caption=記述
+
+RepBrowser.LastOpenedListName=最近開いた
+RepBrowser.CommonControlsListName=一般制御
+RepBrowser.BuildState.NotKnown=不明
+RepBrowser.BuildState.LastBuildOrCompileFailed=前回の生成またはｺﾝﾊﾟｲﾙが失敗しました
+RepBrowser.BuildState.CompileRequired=ｺﾝﾊﾟｲﾙが必要
+RepBrowser.BuildState.BuildAndCompileRequired=生成とｺﾝﾊﾟｲﾙが必要
+RepBrowser.BuildState.NeverBuilt=生成されていない
+RepBrowser.BuildState.Compiled=ｺﾝﾊﾟｲﾙ済み
+RepBrowser.BuildState.Shipped=出荷済み
+
+*************************************************************
+*** COMMAND VIEW                                        *****
+*************************************************************
+CmdView.InsertLine.Tip=ｺﾏﾝﾄﾞの挿入(Ctrl+Shift+Ins)
+CmdView.DeleteLine.Tip=行の削除(Ctrl+Shift+Del)
+CmdView.NextLine.Tip=次の行(Ctrl+Down Arrow)
+CmdView.PreviousLine.Tip=前の行(Ctrl+Up Arrow)
+
+CmdView.ExpandItem.Tip=項目を開く(Ctrl+Plus)
+CmdView.CollapseItem.Tip=項目を閉じる(Ctrl+Minus)
+CmdView.InsertItem.Tip=項目の挿入(Ctrl+Ins)
+CmdView.DeleteItem.Tip=項目の削除(Ctrl+Del)
+CmdView.PromptItem.Tip=項目のﾌﾟﾛﾝﾌﾟﾄ(F4)
+CmdView.MoveItemUp.Tip=項目を上に移動(Ctrl+Shift+Up Arrow)
+CmdView.MoveItemDown.Tip=項目を下に移動(Ctrl+Shift+Down Arrow)
+
+*************************************************************
+*** FORM MESSAGES                                       *****
+*************************************************************
+Form.Targets.WPFNotValid=ｺﾝﾎﾟｰﾈﾝﾄ&1のﾀｰｹﾞｯﾄ(*WPF)は存在しません
+Form.Targets.SilverlightNotValid=ｺﾝﾎﾟｰﾈﾝﾄ&1のﾀｰｹﾞｯﾄ(*SILVERLIGHT)は存在しません
+Form.Targets.ContainsErrors=&1にはｴﾗｰが含まれているので実行できません
+
+*************************************************************
+*** FORMATTING OPTIONS DIALOG                           *****
+*************************************************************
+FormatOptions.Caption=LANSA の設定
+FormatOptions.FunctionLabel=ﾌｧﾝｸｼｮﾝ
+FormatOptions.ComponentLabel=ｺﾝﾎﾟｰﾈﾝﾄ
+FormatOptions.CommandLabel=ｺﾏﾝﾄﾞ
+FormatOptions.KeywordLabel=ｷｰﾜｰﾄﾞ
+FormatOptions.SelectorLabel=選択機能
+FormatOptions.LowerCaseLabel=小文字
+FormatOptions.UpperCaseLabel=大文字
+FormatOptions.FirstUpperLabel=先頭文字を大文字
+FormatOptions.VariableLabel=変数
+FormatOptions.AsDefinedLabel=定義
+FormatOptions.IgnoreLabel=無視
+FormatOptions.ReformatStatements=形式の自動設定
+FormatOptions.Page.General.Caption=一般
+FormatOptions.Page.Editor.Caption=ｴﾃﾞｨﾀ
+FormatOptions.Page.Formatting.Caption=形式設定
+FormatOptions.Reset.Text=ﾘｾｯﾄを実行するとLANSA の設定が省略値に戻ります。省略値の設定に戻しますか？
+FormatOptions.Reset.Title=LANSA の設定を省略値に戻す
+FormatOptions.Page.Function.Caption=ﾌｧﾝｸｼｮﾝの形式設定
+FormatOptions.Page.Component.Caption=ｺﾝﾎﾟｰﾈﾝﾄの形式設定
+FormatOptions.Item.General.Caption=一般
+FormatOptions.Item.Source.Caption=ｿｰｽ ｴﾃﾞｨﾀ
+FormatOptions.Item.Xsl.Caption=WAM
+FormatOptions.Item.Debug.Caption=ﾃﾞﾊﾞｯｸﾞ
+FormatOptions.Item.Compile.Caption=ｺﾝﾊﾟｲﾙ
+FormatOptions.Item.Style.Caption=ｽﾀｲﾙ
+FormatOptions.Item.Theme.Caption=ﾃｰﾏ
+FormatOptions.Item.Designer.Caption=ﾃﾞｻﾞｲﾝ
+FormatOptions.Item.AssistantTab.Caption=ｱｼｽﾀﾝﾄ
+FormatOptions.Item.Definitions.Caption=定義
+FormatOptions.Item.Details.Caption=詳細
+FormatOptions.Item.Goto.Caption=Goto
+FormatOptions.Item.Outline.Caption=ｱｳﾄﾗｲﾝ
+FormatOptions.Item.ShowInternalFiles=内部ﾌｧｲﾙの表示
+FormatOptions.Item.ShowReadOnlyMsg=読み取り専用ﾒｯｾｰｼﾞの表示
+FormatOptions.Item.UseIdentifierAsDisplayName=ｼｮｰﾄﾈｰﾑの表示
+FormatOptions.Item.InteractiveVerification=対話型認証を使用
+FormatOptions.Item.ObjectLocking=オブジェクトのロック
+FormatOptions.Item.ObjectLocking.On=オン
+FormatOptions.Item.ObjectLocking.Off=オフ
+FormatOptions.Item.ObjectLocking.ReadOnly=オン(読み取り専用)
+FormatOptions.Item.AutoRefresh=自動的に最新情報を再表示
+FormatOptions.Item.AutoCloseEventLog=ｲﾍﾞﾝﾄ ﾛｸﾞを自動的に閉じる
+FormatOptions.Item.CancelChangesMsg=更新のｷｬﾝｾﾙ ﾒｯｾｰｼﾞの表示
+FormatOptions.Item.PersistMasterState=ﾏｽﾀｰ情報を保存
+FormatOptions.Item.Indent=ｲﾝﾃﾞﾝﾄ
+FormatOptions.Item.IndentLines=ｲﾝﾃﾞﾝﾄ ﾗｲﾝ
+FormatOptions.Item.Line=行番号
+FormatOptions.Item.AuditStamp=編集ｽﾀﾝﾌﾟ
+FormatOptions.Item.AuditStampAll=全て
+FormatOptions.Item.AuditStampName=名前
+FormatOptions.Item.AuditStampNone=なし
+FormatOptions.Item.AuditStampDate=日付
+FormatOptions.Item.AuditStampTaskId=ﾀｽｸ ID
+FormatOptions.Item.ShowDefineComs=ｺﾝﾎﾟｰﾈﾝﾄの定義
+FormatOptions.Item.ShowLayoutItems=ﾚｲｱｳﾄ項目
+FormatOptions.Item.ShowDesignData=ﾃﾞｻﾞｲﾝのﾃﾞｰﾀ
+FormatOptions.Item.Snap=ｸﾞﾘｯﾄﾞに合わせる
+FormatOptions.Item.ShowGrid=ｸﾞﾘｯﾄﾞの表示
+FormatOptions.Item.ShowInfo=詳細情報の表示
+FormatOptions.Item.ShowHint=ﾋﾝﾄの表示
+FormatOptions.Item.ShowKeySequence=ｷｰ順の表示
+FormatOptions.Item.AutoDisplayMessage=ﾒｯｾｰｼﾞの自動表示
+FormatOptions.Item.AutoExpandParameters=ﾊﾟﾗﾒｰﾀｰを自動的に開く
+FormatOptions.Item.AutoCompleteSource=ｵｰﾄｺﾝﾌﾟﾘｰﾄ
+FormatOptions.Item.AutoCompleteOn=ON
+FormatOptions.Item.AutoCompleteOff=OFF
+FormatOptions.Item.AutoCompleteInline=ｲﾝﾗｲﾝ
+FormatOptions.Item.AutoCompletePrompter=ﾌﾟﾛﾝﾌﾟﾀｰ
+FormatOptions.Item.AutoCompleteShortcut=ｼｮｰﾄｶｯﾄ
+FormatOptions.Item.AutoCompleteShortcut.CtrlJ=Ctrl+J
+FormatOptions.Item.AutoCompleteShortcut.CtrlSpace=Ctrl+ｽﾍﾟｰｽ
+FormatOptions.Item.FormatStatements=ﾌｫｰﾏｯﾄ文
+FormatOptions.Item.WordWrapSource=右端で折り返す
+FormatOptions.Item.WordWrap=右端で折り返す
+FormatOptions.Item.WordWrapNone=なし
+FormatOptions.Item.WordWrapSimple=ｼﾝﾌﾟﾙ
+FormatOptions.Item.WordWrapSmart=ｽﾏｰﾄ
+FormatOptions.Item.WordWrapAllParams=全て開く
+FormatOptions.Item.Feature.Show=機能
+FormatOptions.Item.Feature.ShowSpecific=特定機能の表示
+FormatOptions.Item.Feature.ShowAdvanced=拡張機能の表示
+FormatOptions.Item.Feature.ShowEssential=基本機能の表示
+FormatOptions.Item.Goto.AutoExpandErrors=移動のｴﾗｰを自動的に開く
+FormatOptions.Item.FunctionDesign.AutoAssignLayout=要求されたとき自動で行とﾎﾟｼﾞｼｮﾝに割当て
+FormatOptions.Item.Design.Components=ｺﾝﾎﾟｰﾈﾝﾄ
+FormatOptions.Item.Design.Function=ﾌｧﾝｸｼｮﾝ
+FormatOptions.Item.Themes.Caption=ﾃｰﾏ
+FormatOptions.Item.Themes.Classic.Caption=LANSA ｸﾗｼｯｸ
+FormatOptions.Item.Themes.Shell.Caption=LANSA ｼｪﾙ
+FormatOptions.Item.Themes.2007Blue.Caption=2007 - 青
+FormatOptions.Item.Themes.2007Silver.Caption=2007 - ｼﾙﾊﾞｰ
+FormatOptions.Item.Themes.2007Olive.Caption=2007 - ｵﾘｰﾌﾞ
+FormatOptions.Item.Themes.2007Graphite.Caption=2007 - ｸﾞﾗﾌｧｲﾄ
+FormatOptions.Item.Themes.2003Blue.Caption=2003 - 青
+FormatOptions.Item.Themes.2003Silver.Caption=2003 - ｼﾙﾊﾞｰ
+FormatOptions.Item.Themes.2003Olive.Caption=2003 - ｵﾘｰﾌﾞ
+FormatOptions.Item.Themes.2003Colorizer.Caption=2003 - ｶﾗﾗｲｻﾞｰ
+FormatOptions.Item.Themes.2003Color.Pumpkin.Caption=ﾊﾟﾝﾌﾟｷﾝ
+FormatOptions.Item.Themes.2003Color.Rose.Caption=ﾛｰｽﾞ
+FormatOptions.Item.Themes.2003Color.EggPlant.Caption=ﾅｽ紺
+FormatOptions.Item.Themes.2003Color.RainyDay.Caption=ﾚｲﾆｰﾃﾞｲ
+FormatOptions.Item.Themes.2003Color.Spruce.Caption=ｽﾌﾟﾙｰｽ
+FormatOptions.Item.Themes.2003Color.Lilac.Caption=ﾗｲﾗｯｸ
+FormatOptions.Item.Debug.GroupBox.Caption=ﾃﾞﾊﾞｯｶﾞｰ ﾛｹｰｼｮﾝ
+FormatOptions.Item.Debug.GroupBox.Service.Caption=ﾃﾞﾊﾞｯｸﾞ ｻｰﾋﾞｽ
+FormatOptions.Item.Debug.StartService.Caption=LANSA ｴﾃﾞｨﾀｰ起動時にﾃﾞﾊﾞｯｸﾞ ｻｰﾋﾞｽを開始する
+FormatOptions.Item.Debug.PortNumber.Caption=ﾎﾟｰﾄ
+FormatOptions.Item.Debug.Message.Started.Caption=ﾃﾞﾊﾞｯｸﾞ ｻｰﾋﾞｽは開始され、ﾎﾟｰﾄ &1 で実行中です。
+FormatOptions.Item.Debug.Message.Stopped.Caption=ﾃﾞﾊﾞｯｸﾞ ｻｰﾋﾞｽは停止中です。 
+FormatOptions.Item.Debug.Message.Error1.Caption=ﾃﾞﾊﾞｯｸﾞ ｻｰﾋﾞｽは停止されました。ﾎﾟｰﾄ &1 は他のLANSA ｴﾃﾞｨﾀｰで使用中の可能性があります。
+FormatOptions.Item.Debug.Restart.Caption=ｻｰﾋﾞｽを再開始
+FormatOptions.Item.Debug.DebugHost.Caption=ｺﾝﾋﾟｭｰﾀ名
+FormatOptions.Item.Debug.BreakAtFirst.Caption=実行可能な最初のｽﾃｰﾄﾒﾝﾄでﾌﾞﾚｰｸする
+FormatOptions.Item.Versioning.GroupBox.Caption=DLLﾊﾞｰｼﾞｮﾝ情報
+FormatOptions.Item.Versioning.Comment.Caption=ｺﾒﾝﾄ
+FormatOptions.Item.Versioning.Copyright.Caption=著作権
+FormatOptions.Item.Versioning.Trademark.Caption=商標
+FormatOptions.Item.Versioning.FileVersion.Caption=ﾌｧｲﾙ ﾊﾞｰｼﾞｮﾝ
+FormatOptions.Item.Versioning.ProductName.Caption=製品名
+FormatOptions.Item.Versioning.ProductVersion.Caption=製品ﾊﾞｰｼﾞｮﾝ
+
+FormatOptions.Xsl.General.Caption=一般
+FormatOptions.Xsl.Design.Caption=ﾃﾞｻﾞｲﾝ
+FormatOptions.Xsl.General.BaseUrl.Caption=ﾍﾞｰｽ URL
+FormatOptions.Xsl.General.ListRows.Caption=ﾘｽﾄのｻﾝﾌﾟﾙ行の数
+FormatOptions.Xsl.General.XslVersions.Caption=Webﾃﾞｻﾞｲﾝ ﾊﾞｰｼﾞｮﾝの数
+FormatOptions.Xsl.General.ReadOnlyEditing.Caption=読み取り専用時に編集可能
+FormatOptions.Xsl.General.WebletsReadOnly.Caption=必ずｳｪﾌﾞﾚｯﾄを読み取り専用で開く
+FormatOptions.Xsl.General.RuntimOutput.Caption=ﾗﾝﾀｲﾑの出力をﾌﾟﾚﾋﾞｭｰで見る
+FormatOptions.Xsl.General.ReuseBrowser.Caption=Webﾌﾞﾗｳｻﾞで実行時にﾌﾞﾗｳｻﾞを再利用
+FormatOptions.Xsl.General.Publishing.Caption=発行
+FormatOptions.Xsl.General.Publishing.Output.Caption=出力のﾌｫﾙﾀﾞ
+FormatOptions.Xsl.General.Publishing.Configuration.Caption=構成のﾌｫﾙﾀﾞ
+FormatOptions.Xsl.General.Publishing.ApplicationURL.Caption=ｱﾌﾟﾘｹｰｼｮﾝのﾍﾞｰｽ URL
+FormatOptions.Xsl.General.Publishing.WebServices.Caption=Webｻｰﾋﾞｽのﾍﾞｰｽ URL
+FormatOptions.Xsl.Design.TemporaryCache.Caption=一時ﾌｧｲﾙのﾌｫﾙﾀﾞ
+FormatOptions.Xsl.Design.StyleSheetLocation.Caption=ｴｸｽﾃﾝｼｮﾝ ｽﾀｲﾙｼｰﾄのﾊﾟｽ
+FormatOptions.Xsl.Design.TemporaryCache.Message=注意：一時ﾌｧｲﾙのﾌｫﾙﾀﾞを変更した場合、XSL ｴﾃﾞｨﾀを再起動する必要があります
+FormatOptions.Xsl.Design.ImagesDirectory.Caption=ｲﾒｰｼﾞの仮想ﾃﾞｨﾚｸﾄﾘ
+FormatOptions.Xsl.Design.MappedImagesFolder.Caption=ﾏｯﾋﾟﾝｸﾞされているｲﾒｰｼﾞ ﾌｫﾙﾀﾞ
+FormatOptions.Xsl.Design.DetailsView.Caption=詳細
+FormatOptions.Xsl.Design.AutoArrangeGridColumns.Caption=ﾌﾟﾛﾊﾟﾃｨ ｸﾞﾘｯﾄﾞの欄の自動整列
+FormatOptions.Xsl.Design.ShowAllDesignerButtons.Caption=ﾌﾟﾛﾊﾟﾃｨ ﾃﾞｻﾞｲﾅの全てのﾎﾞﾀﾝの表示
+FormatOptions.Xsl.Design.DesignerButtonTracking.Caption=ﾌﾟﾛﾊﾟﾃｨ ﾃﾞｻﾞｲﾅのﾎﾞﾀﾝ ﾄﾗｯｷﾝｸﾞを有効にする
+FormatOptions.Xsl.Design.AutoSyncPicklists.Caption=ﾌｨｰﾙﾄﾞ ﾋﾞｼﾞｭｱﾗｲｾﾞｰｼｮﾝのﾋﾟｯｸﾘｽﾄのｼﾝｸﾛﾅｲｽﾞ
+FormatOptions.Xsl.General.WebSettings.Caption=Web設定
+FormatOptions.Xsl.General.Options.Caption=ｵﾌﾟｼｮﾝ
+FormatOptions.Xsl.General.Debugging.Caption=ﾃﾞﾊﾞｯｸﾞ
+FormatOptions.Xsl.General.WebServices.Caption=Webｻｰﾋﾞｽ
+FormatOptions.Xsl.General.UrlTest.Caption=ﾃｽﾄ
+FormatOptions.Xsl.General.Publishing.Output.FolderBrowse.Caption=Webｻｰﾋﾞｽ 出力のﾌｫﾙﾀﾞを選択してください
+FormatOptions.Xsl.General.Publishing.Configuration.FolderBrowse.Caption=構成のﾌｫﾙﾀﾞを選択してください
+FormatOptions.Xsl.Design.TemporaryCache.FolderBrowse.Caption=一時ﾌｧｲﾙのﾌｫﾙﾀﾞを選択してください
+FormatOptions.Xsl.Design.StyleSheetLocation.FolderBrowse.Caption=ｴｸｽﾃﾝｼｮﾝ ｽﾀｲﾙｼｰﾄのﾊﾟｽを選択してください
+FormatOptions.Xsl.Design.MappedImagesFolder.FolderBrowse.Caption=ﾏｯﾋﾟﾝｸﾞされているｲﾒｰｼﾞ ﾌｫﾙﾀﾞを選択してください
+FormatOptions.Xsl.OpenWebViews.Caption=ﾃﾞｻﾞｲﾝの時にWebﾋﾞｭｰを開く
+FormatOptions.Xsl.ShowInlineWeblets.Caption=ｲﾝﾗｲﾝ ｳｪﾌﾞﾚｯﾄの表示
+FormatOptions.Xsl.ShowDeprecatedWeblets.Caption=旧ﾊﾞｰｼﾞｮﾝ ｳｪﾌﾞﾚｯﾄの表示
+FormatOptions.Xsl.ShowWebletXML.Caption=ｳｪﾌﾞﾚｯﾄ XMLの表示
+FormatOptions.Xsl.DeleteOrphans.Caption=Web ｱﾌﾟﾘｹｰｼｮﾝ ﾓｼﾞｭｰﾙを閉じる時にｵｰﾌｧﾝ Webroutineのﾃﾞｻﾞｲﾝを削除
+FormatOptions.Xsl.SaveWebSampleData.Caption=Webroutineのﾌｨｰﾙﾄﾞとﾘｽﾄのｻﾝﾌﾟﾙﾃﾞｰﾀの保存
+FormatOptions.Xsl.SaveWebSampleData.MsgBox=Webroutineのﾌｨｰﾙﾄﾞとﾘｽﾄのｻﾝﾌﾟﾙﾃﾞｰﾀを保存すると、Webﾍﾟｰｼﾞ ﾃﾞｻﾞｲﾝを開く時のﾊﾟﾌｫｰﾏﾝｽに影響があります。よろしいですか?
+FormatOptions.Xsl.AllowInlineXPathEntry.Caption=ﾌﾟﾛﾊﾟﾃｨｼｰﾄにｲﾝﾌﾟﾚｲｽ XPath ｴﾝﾄﾘｰを許可
+FormatOptions.Xsl.AllowInlineXPathEntry.MsgBox=ｲﾝﾌﾟﾚｲｽ XPath ｴﾝﾄﾘｰ は XPath の深い理解が必要です。そうでない場合、ｴﾗ-や予期しない動作をする可能性があります。続けますか？
+
+FormatOptions.Style.Font.Label=ﾌｫﾝﾄ:
+FormatOptions.Style.Font.Description=&1pt &2
+FormatOptions.Style.Font.Button.Caption=ﾌｫﾝﾄの変更
+
+FormatOptions.Style.Colors=色:
+FormatOptions.Style.TextColor=ﾃｷｽﾄ色
+FormatOptions.Style.BackgroundColor=背景色
+FormatOptions.Style.SampleText=ｻﾝﾌﾟﾙ ﾃｷｽﾄ
+
+*************************************************************
+*** OBJECT LIST DIALOG                                  *****
+*************************************************************
+ObjectList.Caption.RuleDetails=ﾙｰﾙの詳細
+ObjectList.Caption.SearchDetails=詳細の検索
+ObjectList.Caption.NewGrouping=新規ｸﾞﾙｰﾌﾟ
+ObjectList.Caption.ImpactRule=ｲﾝﾊﾟｸﾄ ｵﾌﾞｼﾞｪｸﾄの詳細
+ObjectList.Caption.GroupingRule=ｸﾞﾙｰﾌﾟの詳細
+ObjectList.Caption.RuledObjectList=ﾀﾞｲﾅﾐｯｸ ﾘｽﾄの詳細
+ObjectList.Caption.ImpactObjectList=ｽﾀﾃｨｯｸ ﾘｽﾄの詳細
+
+ObjectList.Caption.FileType=ﾌｧｲﾙ
+ObjectList.Caption.FieldType=ﾌｨｰﾙﾄﾞ/ｺﾝﾎﾟｰﾈﾝﾄ
+ObjectList.Caption.ProcessType=ﾌﾟﾛｾｽ
+ObjectList.Caption.FunctionType=ﾌｧﾝｸｼｮﾝ
+ObjectList.Caption.MtxtVariableType=言語変数
+ObjectList.Caption.SystemVariableType=ｼｽﾃﾑ変数
+ObjectList.Caption.Unknown=不明
+ObjectList.Caption.NotDefined=指定されていない
+ObjectList.Caption.LookFor=検索:&1
+
+ObjectList.Caption.Rule=ﾙｰﾙ
+ObjectList.Caption.NameRule=名前ﾙｰﾙ：&1
+ObjectList.Caption.LetterRule=文字ﾙｰﾙ：&1
+ObjectList.Caption.NameMaskRule=名前ﾌｨﾙﾀ ﾙｰﾙ：&1
+ObjectList.Caption.NameRangeRule=名前範囲ﾙｰﾙ：&1 ～ &2
+ObjectList.Caption.SearchRule=検索する文字列：&1
+
+ObjectList.Tip.Delete=ﾘｽﾄから削除
+ObjectList.Tip.MoveUp=上へ
+ObjectList.Tip.MoveDown=下へ
+ObjectList.Tip.NewRule=新規ﾙｰﾙ
+ObjectList.Tip.NewSearchRule=新規検索
+ObjectList.Tip.SortByName=名前順に並び替え
+ObjectList.Tip.NewGrouping=新規ｸﾞﾙｰﾌﾟ
+ObjectList.Tip.RunImpactAnalysis=ｲﾝﾊﾟｸﾄ分析の実行
+
+ObjectList.Label.Kind=ﾀｲﾌﾟ：
+ObjectList.Label.Name=名前：
+ObjectList.Label.Letter=文字：
+ObjectList.Label.ToName=最後の名前：
+ObjectList.Label.FromName=最初の名前：
+ObjectList.Label.NameMask=名前ﾌｨﾙﾀ：
+ObjectList.Label.Description=記述：
+ObjectList.Label.ObjectName=ｵﾌﾞｼﾞｪｸﾄ名：
+ObjectList.Label.ObjectType=ｵﾌﾞｼﾞｪｸﾄ ﾀｲﾌﾟ：
+ObjectList.Label.ObjectQualifier=ｵﾌﾞｼﾞｪｸﾄ修飾：
+
+ObjectList.Label.ByName=名前
+ObjectList.Label.ByLetter=文字
+ObjectList.Label.LikeName=総称名
+ObjectList.Label.NameRange=名前の範囲
+
+ObjectList.Label.BackwardCompatibility=下位互換性がｻﾎﾟｰﾄされます。修正することはできません。
+
+ObjectList.MsgBox.Caption=無効なｵﾌﾞｼﾞｪｸﾄ ﾘｽﾄ
+ObjectList.MsgBox.ObjectListDescriptionRequired=ﾘｽﾄの名前を指定してください。
+ObjectList.MsgBox.GroupingDescriptionRequired=全てのｸﾞﾙｰﾌﾟの名前を指定してください。
+
+*************************************************************
+*** LANSA EXPLORER                                      *****
+*************************************************************
+RepBrowser.FormCaption=LANSA ｴｸｽﾌﾟﾛｰﾗ
+RepBrowser.LansaCaption=LANSA
+RepBrowser.EditorCaption=ｴﾃﾞｨﾀ
+RepBrowser.RepositoryCaption=ﾘﾎﾟｼﾞﾄﾘ
+RepBrowser.FileCaption=ﾌｧｲﾙ
+RepBrowser.TourCaption=ﾂｱｰ
+RepBrowser.FormsCaption=ﾌｫｰﾑ
+RepBrowser.IconsCaption=ｱｲｺﾝ
+RepBrowser.GroupCaption=ｸﾞﾙｰﾌﾟ
+RepBrowser.FieldsCaption=ﾌｨｰﾙﾄﾞ
+RepBrowser.WizardCaption=ｳｨｻﾞｰﾄﾞ
+RepBrowser.BitmapsCaption=ﾋﾞｯﾄﾏｯﾌﾟ
+RepBrowser.CursorsCaption=ｶｰｿﾙ
+RepBrowser.ProcessCaption=ﾌﾟﾛｾｽ
+RepBrowser.CommandCaption=ｺﾏﾝﾄﾞ
+RepBrowser.ConstantsCaption=ｼｽﾃﾑ固定値/ｵﾌﾞｼﾞｪｸﾄ
+RepBrowser.FrameworkCaption=ﾌﾚｰﾑﾜｰｸ
+RepBrowser.VisualStylesCaption=ﾋﾞｼﾞｭｱﾙ ｽﾀｲﾙ
+RepBrowser.ReusablePartsCaption=再利用可能ﾊﾟｰﾂ
+RepBrowser.BusinessObjectsCaption=ﾋﾞｼﾞﾈｽ ｵﾌﾞｼﾞｪｸﾄ
+RepBrowser.SystemVariableCaption=ｼｽﾃﾑ変数
+RepBrowser.BuiltInFunctionsCaption=組込み関数
+RepBrowser.OpenComponentsCaption=開いているｺﾝﾎﾟｰﾈﾝﾄ
+RepBrowser.MultilingualVariableCaption=言語変数
+RepBrowser.ComponentNamesCaption=ｺﾝﾎﾟｰﾈﾝﾄ
+RepBrowser.FieldAttributesCaption=ﾌｨｰﾙﾄﾞ属性
+RepBrowser.ExpressionOperatorsCaption=演算子
+RepBrowser.VlTemplatesCaption=Visual LANSA ﾃﾝﾌﾟﾚｰﾄ
+RepBrowser.AllTemplatesCaption=全てのﾃﾝﾌﾟﾚｰﾄ
+RepBrowser.RuledObjectListCaption=ﾀﾞｲﾅﾐｯｸ ﾘｽﾄ
+RepBrowser.ImpactObjectListCaption=ｽﾀﾃｨｯｸ ﾘｽﾄ
+RepBrowser.DotNetProxysCaption=.NET ｺﾝﾎﾟｰﾈﾝﾄ
+RepBrowser.WebServiceProxysCaption=Web ｻｰﾋﾞｽ
+
+RepBrowser.CmdGroup.AllCommands=全てのｺﾏﾝﾄﾞ
+RepBrowser.CmdGroup.List=ﾘｽﾄ
+RepBrowser.CmdGroup.Reports=ﾚﾎﾟｰﾄ
+RepBrowser.CmdGroup.Database=ﾃﾞｰﾀﾍﾞｰｽ
+RepBrowser.CmdGroup.External=外部
+RepBrowser.CmdGroup.Assignment=設定
+RepBrowser.CmdGroup.Components=ｺﾝﾎﾟｰﾈﾝﾄ
+RepBrowser.CmdGroup.Definition=定義
+RepBrowser.CmdGroup.Validation=妥当性検査とﾒｯｾｰｼﾞ
+RepBrowser.CmdGroup.Workstation=ﾜｰｸｽﾃｰｼｮﾝ
+RepBrowser.CmdGroup.ControlFlow=制御ﾌﾛｰ
+
+RepBrowser.StmtType.Lists=ﾘｽﾄ
+RepBrowser.StmtType.Arrays=配列
+RepBrowser.StmtType.Groups=ｸﾞﾙｰﾌﾟ
+RepBrowser.StmtType.Fields=ﾌｨｰﾙﾄﾞ
+RepBrowser.StmtType.Routines=ﾙｰﾁﾝ
+RepBrowser.StmtType.Reports=ﾚﾎﾟｰﾄ
+RepBrowser.StmtType.Conditions=条件
+
+RepBrowser.MenuItem.Edit=編集
+RepBrowser.MenuItem.Open=開く
+RepBrowser.MenuItem.Apply=挿入
+RepBrowser.MenuItem.Delete=削除
+RepBrowser.MenuItem.DrillDown=ﾄﾞﾘﾙﾀﾞｳﾝ
+RepBrowser.MenuItem.NewObjectList=作成...
+RepBrowser.MenuItem.RefreshContents=最新情報に更新
+RepBrowser.MenuItem.RefreshDefinition=定義を最新情報に更新
+RepBrowser.MenuItem.RunImpactAnalysis=ｲﾝﾊﾟｸﾄ ｱﾅﾘｼｽの実行...
+RepBrowser.MenuItem.CreateRuledObjectList=ﾀﾞｲﾅﾐｯｸ ﾘｽﾄの作成...
+RepBrowser.MenuItem.CreateImpactObjectList=ｽﾀﾃｨｯｸ ﾘｽﾄの作成...
+
+RepBrowser.MenuItem.NewComp=作成
+RepBrowser.MenuItem.DelFromRep=ﾘﾎﾟｼﾞﾄﾘから削除
+RepBrowser.MenuItem.DelFromList=ﾘｽﾄから削除
+RepBrowser.MenuItem.RemoveFromStaticList=&1 から削除
+RepBrowser.MenuItem.FullCheck=全ての検査
+RepBrowser.MenuItem.Build=生成
+RepBrowser.MenuItem.Compile=ｺﾝﾊﾟｲﾙ
+RepBrowser.MenuItem.Execute=実行
+RepBrowser.MenuItem.Debug=ﾃﾞﾊﾞｯｸﾞ
+RepBrowser.MenuItem.Find=検索
+RepBrowser.MenuItem.IsFavorite=お気に入りに追加
+RepBrowser.MenuItem.AlphaGrouping=ｱﾙﾌｧﾍﾞｯﾄでｸﾞﾙｰﾌﾟ化
+RepBrowser.MenuItem.WebletGrouping=ｳｪﾌﾞﾚｯﾄ ｸﾞﾙｰﾌﾟ
+RepBrowser.MenuItem.ExternalResourceGrouping=場所でｸﾞﾙｰﾌﾟ化
+RepBrowser.MenuItem.SetCurrentTask=現行ﾀｽｸのｾｯﾄ
+RepBrowser.MenuItem.ListContentOne=&1: 1 ｵﾌﾞｼﾞｪｸﾄ
+RepBrowser.MenuItem.ListContentMany=&1: &2 ｵﾌﾞｼﾞｪｸﾄ
+RepBrowser.MenuItem.ExtractExternalResource=抽出
+RepBrowser.MenuItem.VersionControl=ﾊﾞｰｼﾞｮﾝ管理
+RepBrowser.MenuItem.VcsRefreshFolder=更新
+RepBrowser.MenuItem.VcsGetLatestVersion=最新ﾊﾞｰｼﾞｮﾝの取得
+RepBrowser.MenuItem.VcsExploreFolder=Windows ｴｸｽﾌﾟﾛﾗｰで表示
+RepBrowser.MenuItem.VcsWriteToWorkingFolder=作業ﾌｫﾙﾀﾞに保存
+RepBrowser.MenuItem.VcsPopulateWorkingFolder=作業ﾌｫﾙﾀﾞに追加
+RepBrowser.MenuItem.DeletePartition=区画の削除
+
+RepBrowser.Open.Tip=ｺﾝﾎﾟｰﾈﾝﾄを開く
+RepBrowser.View.Tip=現在のﾋﾞｭｰを変更
+RepBrowser.DrillDown.Tip=ﾄﾞﾘﾙﾀﾞｳﾝ(Enter)
+RepBrowser.ApplyIdentifier.Tip=適用/挿入(Ctrl+Enter)
+RepBrowser.RefreshContents.Tip=最新情報に更新
+RepBrowser.RefreshDefinition.Tip=定義を最新情報に更新
+RepBrowser.ClearList.Tip=現行のﾘｽﾄをｸﾘｱ
+RepBrowser.SaveResults.Tip=結果の保存
+RepBrowser.CreateNewComp.Tip=ｺﾝﾎﾟｰﾈﾝﾄを新規に作成
+RepBrowser.OpenComp.Tip=ｺﾝﾎﾟｰﾈﾝﾄを開く
+RepBrowser.DelFromRep.Tip=ﾘﾎﾟｼﾞﾄﾘから削除
+RepBrowser.DelFromList.Tip=ﾘｽﾄから削除
+RepBrowser.FindComp.Tip=検索画面を開いてﾘﾎﾟｼﾞﾄﾘを検索
+RepBrowser.ApplicationFavorite=ｱﾌﾟﾘｹｰｼｮﾝ ﾚﾍﾞﾙの表示
+RepBrowser.ApplicationFavorite.Tip=お気に入りを他のｱﾌﾟﾘｹｰｼｮﾝ ﾋﾞｭｰと同じﾚﾍﾞﾙで別のﾋﾞｭｰとして表示。
+RepBrowser.GetLatestVersion.Tip=ﾊﾞｰｼﾞｮﾝ管理の最新ﾊﾞｰｼﾞｮﾝでﾘﾎﾟｼﾞﾄﾘを更新
+
+RepBrowser.ClearBtnCaption=ｸﾘｱ
+RepBrowser.NewMenuBtnCaption=作成
+RepBrowser.GetLatestVersionBtnCaption=最新ﾊﾞｰｼﾞｮﾝの取得
+
+RepBrowser.MsgBox.UnderEdit.Msg=LANSA ｴﾃﾞｨﾀで &1 &2 を開いています。削除することができません。
+RepBrowser.MsgBox.UnderEdit.Caption=削除の要求
+RepBrowser.MsgBox.ConfirmDelete.Msg=&1 &2 を削除しますか?
+RepBrowser.MsgBox.ConfirmDelete.Caption=ｵﾌﾞｼﾞｪｸﾄ削除の確認
+RepBrowser.MsgBox.ConfirmOpenMany.Msg=ｴﾃﾞｨﾀｰで &1 ｵﾌﾞｼﾞｪｸﾄを開こうとしています。よろしいですか?
+RepBrowser.MsgBox.ConfirmOpenMany.Caption=複数ｵﾌﾞｼﾞｪｸﾄのｵｰﾌﾟﾝの確認
+RepBrowser.MsgBox.ConfirmDebugMany.Msg=ｴﾃﾞｨﾀｰで &1 ｵﾌﾞｼﾞｪｸﾄをﾃﾞﾊﾞｯｸﾞしようとしています。よろしいですか?
+RepBrowser.MsgBox.ConfirmDebugMany.Caption=複数ｵﾌﾞｼﾞｪｸﾄのﾃﾞﾊﾞｯｸﾞの確認
+RepBrowser.MsgBox.ConfirmExecuteMany.Msg=ｴﾃﾞｨﾀｰで &1 ｵﾌﾞｼﾞｪｸﾄを実行しようとしています。よろしいですか?
+RepBrowser.MsgBox.ConfirmExecuteMany.Caption=複数ｵﾌﾞｼﾞｪｸﾄの実行の確認
+RepBrowser.MsgBox.ConfirmExtract.Msg=ﾛｰｶﾙ ﾌｧｲﾙへの変更が失われますが、よろしいですか?
+RepBrowser.MsgBox.ConfirmExtract.Caption=外部ﾘｿｰｽの抽出
+RepBrowser.MsgBox.ConfirmDeletePartition.Msg=区画&1を削除しようとしています。+
++
+これにより以下が削除されます:+
+-
+   * この区画の全てのﾘﾎﾟｼﾞﾄﾘ定義+
+   -
+   * 区画のﾗﾝﾀｲﾑ環境および全てのｺﾝﾃﾝﾂ+
+-
+続行して本当に良いですか?
+RepBrowser.MsgBox.ConfirmDeletePartition.Caption=区画の削除
+
+RepBrowser.MsgBox.RefreshInlined.UnderEdit.Msg=&1 &2 がLANSAｴﾃﾞｨﾀｰで開かれています。ｲﾝﾗｲﾝ ｳｪﾌﾞﾚｯﾄは更新できません。
+
+RepBrowser.MsgBox.Error.CreateLockReadOnly=ｵﾌﾞｼﾞｪｸﾄのﾛｯｸがﾘｰﾄﾞｵﾝﾘｰﾓｰﾄﾞの場合、ｵﾌﾞｼﾞｪｸﾄを作成することができません。
+RepBrowser.MsgBox.Error.Caption.Create=ｵﾌﾞｼﾞｪｸﾄを作成することができません。
+
+RepBrowser.ColumnCaption.Name=名前
+RepBrowser.ColumnCaption.Component=ｺﾝﾎﾟｰﾈﾝﾄ
+RepBrowser.ColumnCaption.Identifier=識別子
+RepBrowser.ColumnCaption.Description=記述
+RepBrowser.ColumnCaption.StatementText=ｽﾃｰﾄﾒﾝﾄのﾃｷｽﾄ
+
+RepBrowser.ExpressionOperatorSubtractDesc=引く
+RepBrowser.ExpressionOperatorOpenBracketDesc=左括弧
+RepBrowser.ExpressionOperatorCloseBracketDesc=右括弧
+RepBrowser.ExpressionOperatorMultiplyDesc=掛ける
+RepBrowser.ExpressionOperatorANDDesc=AND
+RepBrowser.ExpressionOperatorEQDesc=等しい
+RepBrowser.ExpressionOperatorGEDesc=以上
+RepBrowser.ExpressionOperatorGTDesc=より大きい
+RepBrowser.ExpressionOperatorLEDesc=以下
+RepBrowser.ExpressionOperatorLTDesc=より小さい
+RepBrowser.ExpressionOperatorNEDesc=等しくない
+RepBrowser.ExpressionOperatorORDesc=OR
+RepBrowser.ExpressionOperatorDivDesc=割る
+RepBrowser.ExpressionOperatorAddDesc=足す
+
+RepBrowser.ComponentNameCOM_ANCESTORDesc=Ancestor の scope を利用する
+RepBrowser.ComponentNameCOM_SELFDesc=scope を実行時に解決
+RepBrowser.ComponentNameCOM_OWNERDesc=自分の scope を利用
+RepBrowser.ComponentNameCOM_TRUEDesc=true のﾌﾞｰﾙ値
+RepBrowser.ComponentNameCOM_FALSEDesc=false のﾌﾞｰﾙ値
+RepBrowser.ComponentNameSYS_APPLNDesc=現在のｱﾌﾟﾘｹｰｼｮﾝ
+RepBrowser.ComponentNameSYS_KEYBDDesc=Shift、AltとCtrl ｷｰの状態
+RepBrowser.ComponentNameSYS_MOUSEDesc=ﾏｳｽの位置
+RepBrowser.ComponentNameNULLDesc=ﾇﾙ
+
+RepBrowser.FieldAttributeABDesc=ﾌﾞﾗﾝｸ入力可能
+RepBrowser.FieldAttributeBLDesc=明滅表示
+RepBrowser.FieldAttributeBLUDesc=BLUE と同じ
+RepBrowser.FieldAttributeBLUEDesc=青色表示
+RepBrowser.FieldAttributeBOTHDesc=ﾊﾟﾗﾒｰﾀｰ値を受け取りWITH_PARMS のﾘｽﾄを戻す
+RepBrowser.FieldAttributeCOLDesc=COLHEAD と同じ
+RepBrowser.FieldAttributeCOLHDGDesc=COLHEAD と同じ
+RepBrowser.FieldAttributeCOLUMNDesc=COLHEAD と同じ
+RepBrowser.FieldAttributeCOLHEADDesc=ﾌｨｰﾙﾄﾞを欄見出しで識別
+RepBrowser.FieldAttributeCSDesc=欄の区切り線の表示
+RepBrowser.FieldAttributeDESDesc=DESC と同じ
+RepBrowser.FieldAttributeDESCDesc=ﾌｨｰﾙﾄﾞを記述で識別
+RepBrowser.FieldAttributeFEDesc=ﾌｨｰﾙﾄﾞ EXITｷｰを必要に設定
+RepBrowser.FieldAttributeGRNDesc=GREEN と同じ
+RepBrowser.FieldAttributeGREENDesc=緑色表示
+RepBrowser.FieldAttributeHIDesc=高輝度表示
+RepBrowser.FieldAttributeHIDEDesc=HIDDEN と同じ
+RepBrowser.FieldAttributeHIDDENDesc=ﾌｨｰﾙﾄﾞを画面に表示しない
+RepBrowser.FieldAttributeIOCONDDesc=INOUTCOND と同じ
+RepBrowser.FieldAttributeINOUTCONDDesc=条件により変更可/不可を設定
+RepBrowser.FieldAttributeINDesc=INPUT と同じ
+RepBrowser.FieldAttributeINPDesc=INPUT と同じ
+RepBrowser.FieldAttributeINPUTDesc=ﾌｨｰﾙﾄﾞを変更可能に設定
+RepBrowser.FieldAttributeLABDesc=LABEL と同じ
+RepBrowser.FieldAttributeLABELDesc=ﾌｨｰﾙﾄﾞをﾗﾍﾞﾙで識別
+RepBrowser.FieldAttributeLCDesc=LOWERCASE と同じ
+RepBrowser.FieldAttributeLCASEDesc=LOWERCASE と同じ
+RepBrowser.FieldAttributeLOWERDesc=LOWERCASE と同じ
+RepBrowser.FieldAttributeLOWERCASEDesc=小文字入力可能
+RepBrowser.FieldAttributeM10Desc=Modulus 10 のﾁｪｯｸ
+RepBrowser.FieldAttributeM11Desc=Modulus 11 のﾁｪｯｸ
+RepBrowser.FieldAttributeMEDesc=入力必須項目ﾁｪｯｸ
+RepBrowser.FieldAttributeMFDesc=全桁入力ﾁｪｯｸ
+RepBrowser.FieldAttributeNDDesc=非表示
+RepBrowser.FieldAttributeNEWFORMATDesc=ｨｰﾙﾄﾞを新しい画面に表示
+RepBrowser.FieldAttributeNEWPAGEDesc=ﾌｨｰﾙﾄﾞ値が変わった時に改ﾍﾟｰｼﾞ
+RepBrowser.FieldAttributeNOIDDesc=NOIDENT と同じ
+RepBrowser.FieldAttributeNOIDENTDesc=識別子無し
+RepBrowser.FieldAttributeNOPRTDesc=NOPRINT と同じ
+RepBrowser.FieldAttributeNOPRINTDesc=ﾌｨｰﾙﾄﾞを印刷しない
+RepBrowser.FieldAttributeONCHANGEDesc=ﾌｨｰﾙﾄﾞ値が変わった場合にのみ印刷
+RepBrowser.FieldAttributeNCDesc=OUTPUT と同じ
+RepBrowser.FieldAttributeNOCHANGEDesc=OUTPUT と同じ
+RepBrowser.FieldAttributeNOCHGDesc=OUTPUT と同じ
+RepBrowser.FieldAttributeOUTDesc=OUTPUT と同じ
+RepBrowser.FieldAttributeOUTONLYDesc=OUTPUT と同じ
+RepBrowser.FieldAttributeOUTPUTDesc=ﾌｨｰﾙﾄﾞを変更不可に設定
+RepBrowser.FieldAttributePNKDesc=PINK と同じ
+RepBrowser.FieldAttributePINKDesc=ﾋﾟﾝｸ色表示
+RepBrowser.FieldAttributeRADesc=ﾚｺｰﾄﾞの自動前進
+RepBrowser.FieldAttributeRBDesc=右寄せﾌﾞﾗﾝｸの埋め込み
+RepBrowser.FieldAttributeRECEIVEDDesc=ﾊﾟﾗﾒｰﾀｰ値の受け取りのみを行う
+RepBrowser.FieldAttributeREDDesc=赤色表示
+RepBrowser.FieldAttributeREPEATDesc=ﾌｨｰﾙﾄﾞを画面毎に表示
+RepBrowser.FieldAttributeRETURNEDDesc=WITH_PARMS ﾘｽﾄ値のみを戻す
+RepBrowser.FieldAttributeRLDesc=ｶｰｿﾙを右から左に移動
+RepBrowser.FieldAttributeRLTBDesc=ｶｰｿﾙを左から右、上から下にﾀﾌﾞ移動
+RepBrowser.FieldAttributeRZDesc=右寄せｾﾞﾛの埋め込み
+RepBrowser.FieldAttributeSELDesc=SELECT と同じ
+RepBrowser.FieldAttributeSELECTDesc=ﾘｽﾄ項目の選択に使うﾌｨｰﾙﾄﾞ
+RepBrowser.FieldAttributeTOTDesc=TOTAL と同じ
+RepBrowser.FieldAttributeTOTALDesc=ﾌｨｰﾙﾄﾞの小計を計算
+RepBrowser.FieldAttributeTOTLVL1Desc=TOTLEVEL1 と同じ
+RepBrowser.FieldAttributeTOTLEVEL1Desc=ﾌｨｰﾙﾄﾞ値が変わった場合、ﾌﾞﾚｲｸ行1 に小計を印刷
+RepBrowser.FieldAttributeTOTLVL2Desc=TOTLEVEL2 と同じ
+RepBrowser.FieldAttributeTOTLEVEL2Desc=ﾌｨｰﾙﾄﾞ値が変わった場合、ﾌﾞﾚｲｸ行2 に小計を印刷
+RepBrowser.FieldAttributeTOTLVL3Desc=TOTLEVEL3 と同じ
+RepBrowser.FieldAttributeTOTLEVEL3Desc=ﾌｨｰﾙﾄﾞ値が変わった場合、ﾌﾞﾚｲｸ行3 に小計を印刷
+RepBrowser.FieldAttributeTOTLVL4Desc=TOTLEVEL4 と同じ
+RepBrowser.FieldAttributeTOTLEVEL4Desc=ﾌｨｰﾙﾄﾞ値が変わった場合、ﾌﾞﾚｲｸ行4 に小計を印刷
+RepBrowser.FieldAttributeTOTLVL5Desc=TOTLEVEL5 と同じ
+RepBrowser.FieldAttributeTOTLEVEL5Desc=ﾌｨｰﾙﾄﾞ値が変わった場合、ﾌﾞﾚｲｸ行5 に小計を印刷
+RepBrowser.FieldAttributeTOTLVL6Desc=TOTLEVEL6 と同じ
+RepBrowser.FieldAttributeTOTLEVEL6Desc=ﾌｨｰﾙﾄﾞ値が変わった場合、ﾌﾞﾚｲｸ行6 に小計を印刷
+RepBrowser.FieldAttributeTOTLVL7Desc=TOTLEVEL7 と同じ
+RepBrowser.FieldAttributeTOTLEVEL7Desc=ﾌｨｰﾙﾄﾞ値が変わった場合、ﾌﾞﾚｲｸ行7 に小計を印刷
+RepBrowser.FieldAttributeTOTLVL8Desc=TOTLEVEL8 と同じ
+RepBrowser.FieldAttributeTOTLEVEL8Desc=ﾌｨｰﾙﾄﾞ値が変わった場合、ﾌﾞﾚｲｸ行8 に小計を印刷
+RepBrowser.FieldAttributeTOTLVL9Desc=TOTLEVEL9 と同じ
+RepBrowser.FieldAttributeTOTLEVEL9Desc=ﾌｨｰﾙﾄﾞ値が変わった場合、ﾌﾞﾚｲｸ行9 に小計を印刷
+RepBrowser.FieldAttributeTRQDesc=TURQ と同じ
+RepBrowser.FieldAttributeTURQDesc=青緑色表示
+RepBrowser.FieldAttributeVNDesc=名前の妥当性ﾁｪｯｸ
+RepBrowser.FieldAttributeWHTDesc=WHITE と同じ
+RepBrowser.FieldAttributeWHITEDesc=白色表示
+RepBrowser.FieldAttributeYLWDesc=YELLOW と同じ
+RepBrowser.FieldAttributeYELLOWDesc=黄色表示
+
+*************************************************************
+*** APPLY STATUS MESSAGES                               *****
+*************************************************************
+ApplyStatus.SetPty=ﾌﾟﾛﾊﾟﾃｨ &2 を &1 に適用
+ApplyStatus.RunTemplate=ﾃﾝﾌﾟﾚｰﾄ &1 を実行して行 &2 の前に挿入します
+ApplyStatus.InsertCommand=新しくｺﾏﾝﾄﾞ &1 を指定して行 &2 の前に挿入します
+ApplyStatus.CreateInstance=ｺﾝﾎﾟｰﾈﾝﾄ &1 のｲﾝｽﾀﾝｽを作成します
+ApplyStatus.CreateMultipleInstance=ｺﾝﾎﾟｰﾈﾝﾄ &1 のｲﾝｽﾀﾝｽを作成します…
+
+ApplyStatus.InsertParmItem=&1 を新しいﾊﾟﾗﾒｰﾀ項目として挿入します
+ApplyStatus.AppendParmItem=&1 をﾊﾟﾗﾒｰﾀ項目に添付します
+ApplyStatus.ReplaceParmItem=ﾊﾟﾚﾒｰﾀ項目を &1 に置き換えます
+ApplyStatus.AppendMultipleParmItem=&1 をﾊﾟﾗﾒｰﾀ項目に添付します…
+
+ApplyStatus.AppendParameter=&1 をﾊﾟﾗﾒｰﾀに添付します
+ApplyStatus.ReplaceParameter=ﾊﾟﾚﾒｰﾀを &1 に置き換えます
+ApplyStatus.AppendMultipleParameter=&1 をﾊﾟﾗﾒｰﾀに添付します…
+
+ApplyStatus.ReplaceParmTypeParmItem1=ﾊﾟﾗﾒｰﾀ1とﾊﾟﾗﾒｰﾀﾀｲﾌﾟ&1を置き換えます。
+ApplyStatus.ReplaceParmTypeParmItem2=ﾊﾟﾗﾒｰﾀ2とﾊﾟﾗﾒｰﾀﾀｲﾌﾟ&1を置き換えます。
+ApplyStatus.InsertParmTypeParmItem1=ﾊﾟﾗﾒｰﾀ1をﾊﾟﾗﾒｰﾀﾀｲﾌﾟ&1として挿入します。
+ApplyStatus.InsertParmTypeParmItem2=ﾊﾟﾗﾒｰﾀ2をﾊﾟﾗﾒｰﾀﾀｲﾌﾟ&1として挿入します。
+ApplyStatus.ReplaceClassPartOfParmType=ﾊﾟﾗﾒｰﾀﾀｲﾌﾟ&1をｸﾗｽの一部として置き換えます。
+ApplyStatus.InsertPrimitiveClass=最初のｸﾗｽ&1を挿入します。
+
+ApplyStatus.ReplaceClassName=ｸﾗｽ&1を置き換えます。
+
+*************************************************************
+*** PROMPT DIALOG(S)                                    *****
+*************************************************************
+Prompt.Caption.Create=作成ｵﾌﾟｼｮﾝ
+Prompt.Caption.CreateCopy=ﾘｽﾄのｺﾋﾟｰ
+Prompt.Caption.CreateEmpty=空のﾘｽﾄ
+Prompt.Caption.CreateLettered=省略値の文字ｸﾞﾙｰﾌﾟ
+Prompt.Caption.NewRuledObjectList=ﾀﾞｲﾅﾐｯｸ ﾘｽﾄの作成
+Prompt.Caption.NewImpactObjectList=ｽﾀﾃｨｯｸ ﾘｽﾄの作成
+
+Prompt.Label.Name=名前：
+Prompt.Label.Description=記述：
+Prompt.Label.CreateObjectList=ﾘｽﾄの選択:
+Prompt.Label.CreateObjectType=ｵﾌﾞｼﾞｪｸﾄ ﾀｲﾌﾟの選択：
+
+Prompt.MsgBox.NameExists=名前 &1 は既に存在しますので無効です。
+Prompt.MsgBox.InvalidName=最初の文字が 'A' から 'Z' の範囲内で指定する必要があります。その後の文字が 'A' から 'Z' または '1' から '9'または '_'のみの文字が有効です。
+Prompt.MsgBox.DescriptionRequired=記述は必須です。
+
+*************************************************************
+*** XREF DIALOG(S)                                      *****
+*************************************************************
+CrossReference.Caption.Close=閉じる
+CrossReference.Caption.Dialog=LANSA ｸﾛｽ ﾘﾌｧﾚﾝｽ分析機能
+CrossReference.Caption.Context=文脈ｸﾞﾙｰﾌﾟ
+CrossReference.Caption.ClearAll=全て削除
+CrossReference.Caption.NewQuery=新規ｸｴﾘｰ
+CrossReference.Caption.RunQuery=ｸｴﾘｰの実行
+CrossReference.Caption.SelectAll=全て選択
+CrossReference.Caption.DeleteQuery=ｸｴﾘｰの削除
+CrossReference.Caption.QueryDialog=ｸﾛｽ ﾘﾌｧﾚﾝｽ ｸｴﾘｰの定義
+CrossReference.Caption.SaveResults=結果の保存
+
+CrossReference.CaptionContext.File=ﾌｧｲﾙ ｺﾝﾃｷｽﾄ
+CrossReference.CaptionContext.Field=ﾌｨｰﾙﾄﾞ ｺﾝﾃｷｽﾄ
+CrossReference.CaptionContext.Function=ﾌｧﾝｸｼｮﾝ ｺﾝﾃｷｽﾄ
+CrossReference.CaptionContext.Component=ｺﾝﾎﾟｰﾈﾝﾄ ｺﾝﾃｷｽﾄ
+CrossReference.CaptionContext.MtxtVariable=言語変数ｺﾝﾃｷｽﾄ
+CrossReference.CaptionContext.SystemVariable=ｼｽﾃﾑ変数ｺﾝﾃｷｽﾄ
+
+CrossReference.Label.Context=ｸｴﾘｰ ｺﾝﾃｷｽﾄ：
+CrossReference.Label.Queries=ｸｴﾘｰ：
+CrossReference.Label.Results=結果：
+CrossReference.Label.ObjectName=ｵﾌﾞｼﾞｪｸﾄ名：
+
+CrossReference.MsgBox.NoResult.Msg=ｸｴﾘｰによって該当するﾃﾞｰﾀが検索されませんでした。終了しますか？
+CrossReference.MsgBox.NoResult.Caption=ｸﾛｽ ﾘﾌｧﾚﾝｽ ｸｴﾘｰ
+
+CrossReference.ResultCaption.File=ﾌｧｲﾙ： &1 ﾗｲﾌﾞﾗﾘ： &2
+CrossReference.ResultCaption.Field=ﾌｨｰﾙﾄﾞ/ｺﾝﾎﾟｰﾈﾝﾄ： &1
+CrossReference.ResultCaption.Process=ﾌﾟﾛｾｽ： &1
+CrossReference.ResultCaption.Function=ﾌｧﾝｸｼｮﾝ： &1 ﾌﾟﾛｾｽ： &2
+CrossReference.ResultCaption.SystemVariable=ｼｽﾃﾑ変数： &1
+CrossReference.ResultCaption.MultilingualVariable=言語変数： &1
+
+CrossReference.Usage.Pattern.FieldSource=ﾊﾟﾀｰﾝ - ﾌｨｰﾙﾄﾞ元
+CrossReference.Usage.Pattern.VisualSource=ﾊﾟﾀｰﾝ - ﾋﾞｼﾞｭｱﾙ元
+CrossReference.Usage.Pattern.PatternSource=ﾊﾟﾀｰﾝ - ﾊﾟﾀｰﾝ元
+
+CrossReference.Usage.Class.Ancestor=ｸﾗｽ - Ancestor
+CrossReference.Usage.Class.LocalMember=ｸﾗｽ - ﾛｰｶﾙ ﾒﾝﾊﾞｰ
+CrossReference.Usage.Class.SharedMember=ｸﾗｽ - 共有ﾒﾝﾊﾞｰ
+CrossReference.Usage.Class.InstanceMember=ｸﾗｽ - ｲﾝｽﾀﾝｽ ﾒﾝﾊﾞｰ
+CrossReference.Usage.Class.ApplicationMember=ｸﾗｽ - ｱﾌﾟﾘｹｰｼｮﾝのﾒﾝﾊﾞｰ
+CrossReference.Usage.Class.DynamicCreate=ｸﾗｽ - ﾀﾞｲﾅﾐｯｸの作成
+
+CrossReference.Usage.ClassParameter.Event=ｸﾗｽ ﾊﾟﾗﾒｰﾀ - ｲﾍﾞﾝﾄ
+CrossReference.Usage.ClassParameter.Method=ｸﾗｽ ﾊﾟﾗﾒｰﾀ - ﾒｿｯﾄﾞ
+CrossReference.Usage.ClassParameter.Property=ｸﾗｽ ﾊﾟﾗﾒｰﾀ - ﾌﾟﾛﾊﾟﾃｨ
+CrossReference.Usage.ClassParameter.EvtRoutine=ｸﾗｽ ﾊﾟﾗﾒｰﾀ - ｲﾍﾞﾝﾄ ﾙｰﾁﾝ
+CrossReference.Usage.ClassWebMap.WebRoutine=ｸﾗｽ Web Map - WebRoutine
+
+CrossReference.Usage.Event.Signal=ｲﾍﾞﾝﾄ - Signal ｺﾏﾝﾄﾞ
+CrossReference.Usage.Event.Routine=ｲﾍﾞﾝﾄ - ｲﾍﾞﾝﾄ ﾙｰﾁﾝ
+
+CrossReference.Usage.Method.Invoke=ﾒｿｯﾄﾞ - Invoke ｺﾏﾝﾄﾞ
+CrossReference.Usage.Method.Redefinition=ﾒｿｯﾄﾞ - 再定義
+
+CrossReference.Usage.Property.Get=ﾌﾟﾛﾊﾟﾃｨ - Get/ｱｸｾｽ
+CrossReference.Usage.Property.Set=ﾌﾟﾛﾊﾟﾃｨ - Set ｺﾏﾝﾄﾞ
+CrossReference.Usage.Property.BeginCom=ﾌﾟﾛﾊﾟﾃｨ - BEGIN_COM ｺﾏﾝﾄﾞ
+CrossReference.Usage.Property.DefineCom=ﾌﾟﾛﾊﾟﾃｨ - DEFINE_COM ｺﾏﾝﾄﾞ
+CrossReference.Usage.Property.Redefinition=ﾌﾟﾛﾊﾟﾃｨ - 再定義
+
+CrossReference.Usage.MessageFile=ﾒｯｾｰｼﾞ ﾌｧｲﾙ
+
+CrossReference.Usage.Message=ﾒｯｾｰｼﾞ
+
+CrossReference.Usage.Field.ByLogicCmd=ﾌｨｰﾙﾄﾞ - ﾛｼﾞｯｸ ｺﾏﾝﾄﾞ
+CrossReference.Usage.Field.ByDatabaseCmd=ﾌｨｰﾙﾄﾞ - ﾃﾞｰﾀﾍﾞｰｽ ｺﾏﾝﾄﾞ
+CrossReference.Usage.Field.ByWorkstationCmd=ﾌｨｰﾙﾄﾞ - 表示ｺﾏﾝﾄﾞ
+CrossReference.Usage.Field.ByPrintingCmd=ﾌｨｰﾙﾄﾞ - 印刷ｺﾏﾝﾄﾞ
+CrossReference.Usage.Field.ByListCmd=ﾌｨｰﾙﾄﾞ - ﾘｽﾄ ｺﾏﾝﾄﾞ
+CrossReference.Usage.Field.ByExternalCmd=ﾌｨｰﾙﾄﾞ - 外部ｺﾏﾝﾄﾞ
+CrossReference.Usage.Field.ByOverrideCmd=ﾌｨｰﾙﾄﾞ - OVERRIDE ｺﾏﾝﾄﾞ
+CrossReference.Usage.Field.ByGroupByCmd=ﾌｨｰﾙﾄﾞ - GROUPBY ｺﾏﾝﾄﾞ
+CrossReference.Usage.Field.ByDefineCmd=ﾌｨｰﾙﾄﾞ - DEFINE ｺﾏﾝﾄﾞ
+
+CrossReference.Usage.RepField.ValidationRule=ﾘﾎﾟｼﾞﾄﾘ ﾌｨｰﾙﾄﾞ - 妥当性検査
+CrossReference.Usage.RepField.FieldDefinition=ﾘﾎﾟｼﾞﾄﾘ ﾌｨｰﾙﾄﾞ - ﾌｨｰﾙﾄﾞ定義
+
+CrossReference.Usage.RdmlFieldRef.ByDefineCmd=RDML ﾌｨｰﾙﾄﾞ参照 - DEFINE ｺﾏﾝﾄﾞ
+
+CrossReference.Usage.SystemVar.ByLogicCmd=ｼｽﾃﾑ変数 - ﾛｼﾞｯｸ ｺﾏﾝﾄﾞ
+CrossReference.Usage.SystemVar.ByDatabaseCmd=ｼｽﾃﾑ変数 - ﾃﾞｰﾀﾍﾞｰｽ ｺﾏﾝﾄﾞ
+CrossReference.Usage.SystemVar.ByWorkstationCmd=ｼｽﾃﾑ変数 - 表示ｺﾏﾝﾄﾞ
+CrossReference.Usage.SystemVar.ByPrintingCmd=ｼｽﾃﾑ変数 - 印刷ｺﾏﾝﾄﾞ
+CrossReference.Usage.SystemVar.ByListCmd=ｼｽﾃﾑ変数 - ﾘｽﾄ ｺﾏﾝﾄﾞ
+CrossReference.Usage.SystemVar.ByExternalCmd=ｼｽﾃﾑ変数 - 外部ｺﾏﾝﾄﾞ
+
+CrossReference.Usage.MtxtVar.ByLogicCmd=言語変数 - ﾛｼﾞｯｸ ｺﾏﾝﾄﾞ
+CrossReference.Usage.MtxtVar.ByDatabaseCmd=言語変数 - ﾃﾞｰﾀﾍﾞｰｽ ｺﾏﾝﾄﾞ
+CrossReference.Usage.MtxtVar.ByWorkstationCmd=言語変数 - 表示ｺﾏﾝﾄﾞ
+CrossReference.Usage.MtxtVar.ByPrintingCmd=言語変数 - 印刷ｺﾏﾝﾄﾞ
+CrossReference.Usage.MtxtVar.ByListCmd=言語変数 - ﾘｽﾄ ｺﾏﾝﾄﾞ
+CrossReference.Usage.MtxtVar.ByExternalCmd=言語変数 - 外部ｺﾏﾝﾄﾞ
+
+CrossReference.Usage.Bif=組込み関数
+
+CrossReference.Usage.OvBif=OV 組込み関数
+
+CrossReference.Usage.File.ByDatabaseCmd=ﾌｧｲﾙ - ﾃﾞｰﾀﾍﾞｰｽ ｺﾏﾝﾄﾞ
+CrossReference.Usage.File.ByUpdateDatabaseCmd=ﾌｧｲﾙ - 更新のﾃﾞｰﾀﾍﾞｰｽ ｺﾏﾝﾄﾞ
+
+CrossReference.Usage.RdmFunction.ByCallCmd=RDML ﾌｧﾝｸｼｮﾝ - CALL ｺﾏﾝﾄﾞ
+CrossReference.Usage.RdmFunction.ByCallCheckCmd=RDML ﾌｧﾝｸｼｮﾝ - CALLCHECK ｺﾏﾝﾄﾞ
+CrossReference.Usage.RdmFunction.ByFieldValidation=RDML ﾌｧﾝｸｼｮﾝ - ﾌｨｰﾙﾄﾞ妥当性検査
+CrossReference.Usage.RdmFunction.ByIncludeCmd=RDML ﾌｧﾝｸｼｮﾝ - INCLUDE ｺﾏﾝﾄﾞ
+
+CrossReference.Usage.PromptFunction.ByCallCmd=ﾌﾟﾛﾝﾌﾟﾄ ﾌｧﾝｸｼｮﾝ - CALL ｺﾏﾝﾄﾞ
+CrossReference.Usage.PromptFunction.ByCallCheckCmd=ﾌﾟﾛﾝﾌﾟﾄ ﾌｧﾝｸｼｮﾝ - CALLCHECK ｺﾏﾝﾄﾞ
+CrossReference.Usage.PromptFunction.ByFieldDefinition=ﾌﾟﾛﾝﾌﾟﾄ ﾌｧﾝｸｼｮﾝ - ﾌｨｰﾙﾄﾞ定義
+
+CrossReference.Usage.ExternalPgm=外部ﾌﾟﾛｸﾞﾗﾑ
+
+CrossReference.Usage.FileField.KeyField=ﾌｨｰﾙﾄﾞ(ﾌｧｲﾙ参照) - ｷｰ
+CrossReference.Usage.FileField.RealField=ﾌｨｰﾙﾄﾞ(ﾌｧｲﾙ参照) - 実ﾌｨｰﾙﾄﾞ
+CrossReference.Usage.FileField.VirtualField=ﾌｨｰﾙﾄﾞ(ﾌｧｲﾙ参照) - 仮想ﾌｨｰﾙﾄﾞ
+CrossReference.Usage.FileField.PJF=ﾌｨｰﾙﾄﾞ(ﾌｧｲﾙ参照) - 結合ﾌｨｰﾙﾄﾞ
+CrossReference.Usage.FileField.AccessRoute=ﾌｨｰﾙﾄﾞ(ﾌｧｲﾙ参照) - ｱｸｾｽ経路
+CrossReference.Usage.FileField.BatchControl=ﾌｨｰﾙﾄﾞ(ﾌｧｲﾙ参照) - ﾊﾞｯﾁ制御
+CrossReference.Usage.FileField.ValidationRule=ﾌｨｰﾙﾄﾞ(ﾌｧｲﾙ参照) - 妥当性検査
+
+CrossReference.Usage.FofFile.BasedOnPhysicalFile=ﾌｧｲﾙ(ﾌｧｲﾙまたはﾌｨｰﾙﾄﾞ参照) - 物理ﾌｧｲﾙ定義
+CrossReference.Usage.FofFile.TargetOfAccessRoute=ﾌｧｲﾙ(ﾌｧｲﾙまたはﾌｨｰﾙﾄﾞ参照) - ｱｸｾｽ経路
+CrossReference.Usage.FofFile.BatchControl=ﾌｧｲﾙ(ﾌｧｲﾙまたはﾌｨｰﾙﾄﾞ参照) - ﾊﾞｯﾁ制御
+CrossReference.Usage.FofFile.TargetOfLookup=ﾌｧｲﾙ(ﾌｧｲﾙまたはﾌｨｰﾙﾄﾞ参照) - ﾃｰﾌﾞﾙ存在検査
+
+CrossReference.Usage.FofFunction.ComplexLogic=ﾌｧﾝｸｼｮﾝ(ﾌｧｲﾙまたはﾌｨｰﾙﾄﾞ参照) - ﾕｰｻﾞ ﾌﾟﾛｸﾞﾗﾑによる条件検査
+CrossReference.Usage.FofFunction.Trigger=ﾌｧﾝｸｼｮﾝ(ﾌｧｲﾙまたはﾌｨｰﾙﾄﾞ参照) - ﾄﾘｶﾞｰ
+CrossReference.Usage.FofFunction.SystemVariable=ﾌｧﾝｸｼｮﾝ(ﾌｧｲﾙまたはﾌｨｰﾙﾄﾞ参照) - ｼｽﾃﾑ変数
+
+CrossReference.Usage.Process=ﾌﾟﾛｾｽ
+
+CrossReference.Usage.ExternalResource=外部ﾘｿｰｽ
+
+*************************************************************
+*** FIND AND REPLACE DIALOGS                            *****
+*************************************************************
+LpPaFindDialog.FindCaption=検索
+LpPaFindDialog.WrapCaption=折り返す(&P)
+LpPaFindDialog.CancelCaption=ｷｬﾝｾﾙ
+LpPaFindDialog.DirectionCaption=検索する方向
+LpPaFindDialog.MarkAllCaption=全てﾏｰｸ(&T)
+LpPaFindDialog.FindNextCaption=次を検索(&F)
+LpPaFindDialog.FindPrevCaption=前を検索
+LpPaFindDialog.FindWhatCaption=検索する文字列(&N):
+LpPaFindDialog.SearchUpCaption=上(&U)
+LpPaFindDialog.SearchDownCaption=下(&D)
+LpPaFindDialog.MatchCaseCaption=大文字と小文字を区別(&C)
+LpPaFindDialog.SearchAllCaption=開かれている全てのｺﾝﾎﾟｰﾈﾝﾄを検索(&A)
+LpPaFindDialog.WholeWordCaption=単語単位で捜す(&W)
+LpPaFindDialog.FindDialogCaption=検索
+
+LpPaReplaceDialog.ReplaceDialogCaption=置換
+
+LpPaReplaceDialog.ReplaceCaption=置換(&R)
+LpPaReplaceDialog.ReplaceInCaption=範囲置換
+LpPaReplaceDialog.ReplaceAllCaption=全て置換(&A)
+LpPaReplaceDialog.ReplaceWithCaption=置換後の文字列(&P)：
+LpPaReplaceDialog.ReplaceSelectionCaption=選択
+LpPaReplaceDialog.ReplaceWholeFileCaption=全体
+
+*************************************************************
+*** REPOSITORY FIND DIALOGS                             *****
+*************************************************************
+LpPaRepFindDialog.FindCaption=検索
+LpPaRepFindDialog.AddToListBtnCaption=ﾘｽﾄに追加(&L)
+LpPaRepFindDialog.LookForLbl=検索する文字列(&L)：
+LpPaRepFindDialog.FindTabCaption=検索
+LpPaRepFindDialog.FindBtnCaption=検索(&F)
+LpPaRepFindDialog.ResultsTabCaption=検索の結果
+LpPaRepFindDialog.FoundMsg=&1 ｵﾌﾞｼﾞｪｸﾄが見つかりました。
+LpPaRepFindDialog.InNameLbl=名前(&N)
+LpPaRepFindDialog.InDescLbl=記述(&D)
+LpPaRepFindDialog.ShowAdvancedLbl=詳細を表示(&A)
+LpPaRepFindDialog.HideAdvancedLbl=詳細を非表示(&A)
+LpPaRepFindDialog.TaskIdLbl=ﾀｽｸ ID：
+LpPaRepFindDialog.UserLbl=ﾕｰｻﾞｰ：
+LpPaRepFindDialog.ReferTo=参照：
+LpPaRepFindDialog.Status=状態：
+LpPaRepFindDialog.Framework=ﾌﾚｰﾑﾜｰｸ：
+LpPaRepFindDialog.Group=ｸﾞﾙｰﾌﾟ：
+LpPaRepFindDialog.ModAfter=以降に更新：
+LpPaRepFindDialog.ModBefore=以前に更新：
+LpPaRepFindDialog.SaveDlgCaption=結果の保存
+LpPaRepFindDialog.ListOpenWarningText=ﾘｽﾄはｴﾃﾞｨﾀで開かれています、閉じて下さい。
+LpPaRepFindDialog.ListOpenWarningCaption=ﾘｽﾄはｴﾃﾞｨﾀで開かれています。
+LpPaRepFindDialog.TextGroupBoxCaption=ﾃｷｽﾄの検索
+LpPaRepFindDialog.FiltersGroupBoxCaption=ﾌｨﾙﾀ
+LpPaRepFindDialog.ResultsGroupBoxCaption=結果
+LpPaRepFindDialog.TreeItemColumnCaption=ｵﾌﾞｼﾞｪｸﾄ ﾀｲﾌﾟ
+LpPaRepFindDialog.SendToCaption=結果の表示：
+LpPaRepFindDialog.SendToNewCaption=新しいﾀﾌﾞ ｼｰﾄ
+
+*************************************************************
+*** Field Visualisation Wizard                          *****
+*************************************************************
+VisWiz.AddFieldVisualizationsCmd=ﾌｨｰﾙﾄﾞ ﾋﾞｼﾞｭｱﾗｲｾﾞｰｼｮﾝの追加
+
+VisWiz.CannotOpenWizard=ﾌｨｰﾙﾄﾞ&1は読取専用なので、ﾋﾞｼﾞｭｱﾗｲｾﾞｰｼｮﾝは追加できません
+
+
+VisWiz.DynamicPicklist=動的ﾋﾟｯｸﾘｽﾄ
+VisWiz.ReusablePart=再利用可能ﾊﾟｰﾂ
+VisWiz.VisualHost=ﾎｽﾄ ﾊﾟｰﾂ
+VisWiz.NumberAsDateHost=日付の数値
+VisWiz.NumberDateDescNoFocus=ﾗﾍﾞﾙになる日付の数値
+VisWiz.NumberAsDateLongRoHost=読取専用の長い日付の数値
+VisWiz.NumberAsTimeHost=時間の数値
+VisWiz.NumberAsDateTimeHost=日時の数値
+VisWiz.AutoCompleterGeneric=ｵｰﾄｺﾝﾌﾟﾘｰﾀ
+VisWiz.AutoCompleterDesc=記述付きのｵｰﾄｺﾝﾌﾟﾘｰﾀ
+VisWiz.AutoCompleterDescNoFocus=ﾌｫｰｶｽ消失時の記述付きのｵｰﾄｺﾝﾌﾟﾘｰﾀ
+VisWiz.AutoSuggesterGeneric=ｵｰﾄｻｼﾞｪｽﾀ
+VisWiz.AutoSuggesterLike='LIKE'値のｵｰﾄｻｼﾞｪｽﾀ
+VisWiz.AutoCompleterPrompterDesc=記述付きのｵｰﾄｺﾝﾌﾟﾘｰﾀとﾌﾟﾛﾝﾌﾟﾀ
+
+VisWiz.ReusablePartLabelQuestion=再利用可能ﾊﾟｰﾂの名前を入力
+VisWiz.FileLabelQuestion=このﾌｨｰﾙﾄﾞの値を含むﾌｧｲﾙ名を入力
+VisWiz.FieldLabelQuestion=このﾌｨｰﾙﾄﾞを記述する同じﾌｧｲﾙのﾌｨｰﾙﾄﾞ名を入力
+VisWiz.PrompterFormLabelQuestion=このﾌｨｰﾙﾄﾞを選択するためのﾌﾟﾛﾝﾌﾟﾀのﾌｫｰﾑ名を入力
+
+VisWiz.DynamicPicklistHelp=このﾌｧｲﾙの再利用可能ﾊﾟｰﾂ、ﾌｧｲﾙ、記述ﾌｨｰﾙﾄﾞを使用して、実行時にﾋﾟｯｸﾘｽﾄをﾛｰﾄﾞする 
+VisWiz.ReusablePartHelp=再利用可能ﾊﾟｰﾂを使用して、&1を表示する
+VisWiz.VisualHostHelp=再利用可能ﾊﾟｰﾂを使用して、&1の編集ｺﾝﾄﾛｰﾙを提供する
+VisWiz.NumberAsDateHostHelp=再利用可能ﾊﾟｰﾂを使用して、&1を日付として表示する
+VisWiz.NumberAsDateLongRoHostHelp=再利用可能ﾊﾟｰﾂを使用して、&1を読取専用の長い日付として表示する
+VisWiz.NumberAsTimeHostHelp=再利用可能ﾊﾟｰﾂを使用して、&1を時間として表示する
+VisWiz.NumberAsDateTimeHostHelp=再利用可能ﾊﾟｰﾂを使用して、&1を日時として表示する
+VisWiz.NumberAsDateDescNoFocusHelp=再利用可能ﾊﾟｰﾂを使用して、&1をﾌｫｰｶｽ消失時の日付記述として表示する
+VisWiz.AutoCompleterGenericHelp=再利用可能ﾊﾟｰﾂを使用して、&1へのﾃﾞｰﾀ入力時にｵｰﾄｺﾝﾌﾟﾘｰﾄを適用する
+VisWiz.AutoCompleterDescHelp=再利用可能ﾊﾟｰﾂを使用して、&1へのﾃﾞｰﾀ入力時に同じﾌｧｲﾙの記述ﾌｨｰﾙﾄﾞを使ったｵｰﾄｺﾝﾌﾟﾘｰﾄを適用する
+VisWiz.AutoCompleterDescNoFocusHelp=再利用可能ﾊﾟｰﾂを使用して、&1のﾌｫｰｶｽ消失時に同じﾌｧｲﾙの記述ﾌｨｰﾙﾄﾞを使ったｵｰﾄｺﾝﾌﾟﾘｰﾄを適用する
+VisWiz.AutoSuggesterLikeHelp=再利用可能ﾊﾟｰﾂとﾌｧｲﾙを使用して、&1に入力された"LIKE"値のｵｰﾄｻｼﾞｪｽﾄを適用する
+VisWiz.AutoSuggesterGenericHelp=再利用可能ﾊﾟｰﾂを使用して、&1へのﾃﾞｰﾀ入力時にｵｰﾄｻｼﾞｪｽﾄを適用する
+VisWiz.AutoCompleterPrompterDescHelp=再利用可能ﾊﾟｰﾂとﾌｫｰﾑを使用して、値の記述ﾌｨｰﾙﾄﾞを使ったｵｰﾄｺﾝﾌﾟﾘｰﾄを適用し、&1のﾌﾟﾛﾝﾌﾟﾄ表示を許可する
+
+VisWiz.EnterFile=このﾋﾞｼﾞｭｱﾗｲｾﾞｰｼｮﾝはこのﾌｨｰﾙﾄﾞを含むﾌｧｲﾙが必要です
+VisWiz.EnterForm=このﾋﾞｼﾞｭｱﾗｲｾﾞｰｼｮﾝはこのﾌｨｰﾙﾄﾞの値をﾌﾟﾛﾝﾌﾟﾄ表示するﾌﾟﾛﾝﾌﾟﾀ ﾌｫｰﾑが必要です
+VisWiz.EnterField=このﾋﾞｼﾞｭｱﾗｲｾﾞｰｼｮﾝはこのﾌｨｰﾙﾄﾞを説明する同じﾌｧｲﾙのﾌｨｰﾙﾄﾞが必要です（例 deptdescはdeptmentの記述です）
+VisWiz.EnterReusablePart=このﾋﾞｼﾞｭｱﾗｲｾﾞｰｼｮﾝは再利用可能ﾊﾟｰﾂが必要です
+
+VisWiz.NotAFile=&1はﾌｧｲﾙではありません
+VisWiz.NotAForm=&1はﾌｫｰﾑではありません
+VisWiz.NotAField=&1はﾌｨｰﾙﾄﾞではありません
+VisWiz.NotAReusablePart=&1は再利用可能ﾊﾟｰﾂではありません
+VisWiz.NotImplementingIMonitorSubject=再利用可能ﾊﾟｰﾂ &1 は値が変更されたことを示すのにIMonitorSubjectを導入しません
+VisWiz.NotImplementingIContextualSubject=再利用可能ﾊﾟｰﾂ &1 はどのﾌｨｰﾙﾄﾞがﾋﾞｼﾞｭｱﾗｲｽﾞされていることを示すのにIContextualSubjectを導入しません
+VisWiz.NotImplementingIDynamicPicklist=再利用可能ﾊﾟｰﾂ &1 は動的なﾋﾟｯｸﾘｽﾄ項目のﾛｰﾄﾞを許可するのにIDynamicPicklistを導入しません
+VisWiz.ReusablePartNotFound=再利用可能ﾊﾟｰﾂ &1 は存在しません
+VisWiz.VisualizationDetails=ﾋﾞｼﾞｭｱﾗｲｾﾞｰｼｮﾝ詳細
+VisWiz.SelectedVisualizations=選択されたﾋﾞｼﾞｭｱﾗｲｾﾞｰｼｮﾝ
+VisWiz.AvailableVisualizations=使用可能なﾋﾞｼﾞｭｱﾗｲｾﾞｰｼｮﾝ
+
+VisWiz.ItemWillBeCreated=&1 &2 は存在しません。ｳｨｻﾞｰﾄﾞ終了時に作成されます
+VisWiz.FileDoesNotExist=ﾌｧｲﾙ &1 は存在しません
+VisWiz.FieldDoesNotExist=ﾌｨｰﾙﾄﾞ &1 は存在しません
+
+VisWiz.OpenInEditor=ｴﾃﾞｨﾀｰで開く
+VisWiz.Previous=前へ(&P)
+VisWiz.Next=次へ(&N)
+VisWiz.Finish=終了(&F)
+VisWiz.Cancel=ｷｬﾝｾﾙ(&C)
+
+VisWiz.ReusablePartNameNotValid=再利用可能ﾊﾟｰﾂ名 &1 は無効な名前です
+VisWiz.FormNameNotValid=ﾌｫｰﾑ名 &1 は無効な名前です
+VisWiz.NoDefaultProperty=&1 &2 には省略値のﾌﾟﾛﾊﾟﾃｨがないので、ﾌｨｰﾙﾄﾞと値の通信ができません
+
+VisWiz.DescriptionEntryField=単一行編集ﾎﾞｯｸｽ
+VisWiz.DescriptionMultiEntryField=複数行の編集ﾎﾞｯｸｽ
+VisWiz.DescriptionStaticPicklist=設計時に定義された静的ﾋﾟｯｸﾘｽﾄ。ﾌｨｰﾙﾄﾞ ﾋﾞｼﾞｭｱﾗｲｾﾞｰｼｮﾝ ﾀﾌﾞでﾋﾟｯｸﾘｽﾄ ﾃﾞｰﾀを編集
+VisWiz.DescriptionProgressBar=値を示すﾌﾟﾛｸﾞﾚｽ ﾊﾞｰ
+VisWiz.DescriptionTrackBar=値を示すﾄﾗｯｸ ﾊﾞｰ
+VisWiz.DescriptionSpinEdit=値を表示するｽﾋﾟﾝ編集ｺﾝﾄﾛｰﾙ
+VisWiz.DescriptionDateTime=日時ﾌｫｰﾏｯﾄの編集ﾎﾞｯｸｽ
+VisWiz.DescriptionCalendar=値を示すｶﾚﾝﾀﾞｰ ｺﾝﾄﾛｰﾙ
+VisWiz.DescriptionPrompter=値のﾌﾟﾛﾝﾌﾟﾄ表示に使用するﾌｫｰﾑ
+
+VisWiz.ReusableCaption=再利用可能ﾊﾟｰﾂ
+VisWiz.PrompterCaption=ﾌﾟﾛﾝﾌﾟﾀ ﾌｫｰﾑ
+VisWiz.VisualizationTypeCaption=ﾋﾞｼﾞｭｱﾗｲｾﾞｰｼｮﾝ ﾀｲﾌﾟ
+VisWiz.VisualizationFileCaption=ﾌｧｲﾙ
+VisWiz.VisualizationFieldCaption=ﾌｨｰﾙﾄﾞ
+VisWiz.VisualizationReusablePartCaption=再利用可能ﾊﾟｰﾂ
+
+*************************************************************
+*** SOURCE AUDIT FIND DIALOGS                           *****
+*************************************************************
+LpPaAuditFindDialog.DialogCaption=編集ｽﾀﾝﾌﾟの検索
+LpPaAuditFindDialog.GroupBoxCaption=検索条件
+LpPaAuditFindDialog.FindNextCaption=次を検索
+LpPaAuditFindDialog.FindPrevCaption=前を検索
+LpPaAuditFindDialog.MarkAllCaption=全てﾏｰｸ
+LpPaAuditFindDialog.ResetCaption=ﾘｾｯﾄ
+LpPaAuditFindDialog.CancelCaption=ｷｬﾝｾﾙ
+LpPaAuditFindDialog.UserLbl=ﾕｰｻﾞｰ:
+LpPaAuditFindDialog.TaskIdLbl=ﾀｽｸID:
+LpPaAuditFindDialog.ModGroupBoxCaption=変更日付
+LpPaAuditFindDialog.ModRangeCaption=範囲
+LpPaAuditFindDialog.ModDateLbl=変更日:
+LpPaAuditFindDialog.ModAfterLbl=変更日 以降:
+LpPaAuditFindDialog.ModBeforeLbl=変更日 以前:
+LpPaAuditFindDialog.NotFoundMsg=指定された編集ｽﾀﾝﾌﾟは見つかりませんでした。
+
+*************************************************************
+*** LIST MANAGEMENT DIALOG                              *****
+*************************************************************
+LpPaListMngtDialog.NewListCaption=ﾘｽﾄの作成
+LpPaListMngtDialog.ReplaceListCaption=ﾘｽﾄの置き換え
+LpPaListMngtDialog.GroupingLbl=ｸﾞﾙｰﾌﾟ：
+LpPaListMngtDialog.TypeStaticLbl=ｽﾀﾃｨｯｸ
+LpPaListMngtDialog.TypeImpactLbl=Impact
+LpPaListMngtDialog.TypeDynamicLbl=ﾀﾞｲﾅﾐｯｸ
+LpPaListMngtDialog.StoredAsRepLbl=ﾘﾎﾟｼﾞﾄﾘ ﾘｽﾄ
+LpPaListMngtDialog.StoredAsUsrLbl=ﾕｰｻﾞｰ ﾘｽﾄ
+LpPaListMngtDialog.ListNameLbl=ﾘｽﾄの名前
+LpPaListMngtDialog.ListTypeLbl=ﾀｲﾌﾟ
+LpPaListMngtDialog.StoredAsLbl=保存ﾀｲﾌﾟ
+LpPaListMngtDialog.FavoriteLbl=お気に入りに追加
+LpPaListMngtDialog.OpenInEditorLbl=ｴﾃﾞｨﾀで開く
+LpPaListMngtDialog.WarningListExistsText=この名前と同じ名前のﾘｽﾄが既に存在します。
+LpPaListMngtDialog.WarningListExistsCaption=ﾘｽﾄが存在します。
+LpPaListMngtDialog.NewDBListCaption=ﾃﾞｰﾀﾍﾞｰｽ ﾀﾞｲｱｸﾞﾗﾑの作成
+
+*************************************************************
+*** WHAT'S THIS DIALOG                                  *****
+*************************************************************
+LpPaWhatsThisDialog.Caption=ﾍﾙﾌﾟ
+LpPaWhatsThisDialog.Close=閉じる
+LpPaWhatsThisDialog.Type=ﾀｲﾌﾟ
+LpPaWhatsThisDialog.Command=ｺﾏﾝﾄﾞ
+LpPaWhatsThisDialog.Component=ｺﾝﾎﾟｰﾈﾝﾄ
+LpPaWhatsThisDialog.Property=ﾌﾟﾛﾊﾟﾃｨ
+LpPaWhatsThisDialog.Parameter=ﾊﾟﾗﾒｰﾀｰ
+LpPaWhatsThisDialog.Value=値
+LpPaWhatsThisDialog.Default=省略値
+
+*************************************************************
+*** LANSA REPOSITORY TAB                                *****
+*************************************************************
+RepositoryTab.Combo.NotDefined=未定義
+RepositoryTab.Combo.Root=ﾘﾎﾟｼﾞﾄﾘ
+RepositoryTab.Combo.ActiveX=ActiveX
+RepositoryTab.Combo.Bitmaps=ﾋﾞｯﾄﾏｯﾌﾟ
+RepositoryTab.Combo.Cursors=ｶｰｿﾙ
+RepositoryTab.Combo.Fields=ﾌｨｰﾙﾄﾞ
+RepositoryTab.Combo.Files=ﾌｧｲﾙ
+RepositoryTab.Combo.Forms=ﾌｫｰﾑ
+RepositoryTab.Combo.Frameworks=ﾌﾚｰﾑﾜｰｸ
+RepositoryTab.Combo.Functions=ﾌｧﾝｸｼｮﾝ
+RepositoryTab.Combo.Groups=ｸﾞﾙｰﾌﾟ
+RepositoryTab.Combo.Icons=ｱｲｺﾝ
+RepositoryTab.Combo.Lists=ﾘｽﾄ
+RepositoryTab.Combo.MtexVars=言語変数
+RepositoryTab.Combo.Primitives=Primitive 型
+RepositoryTab.Combo.Processes=ﾌﾟﾛｾｽ
+RepositoryTab.Combo.Reusables=再利用可能ﾊﾟｰﾂ
+RepositoryTab.Combo.BusinessObjects=ﾋﾞｼﾞﾈｽ ｵﾌﾞｼﾞｪｸﾄ
+RepositoryTab.Combo.SysVars=ｼｽﾃﾑ変数
+RepositoryTab.Combo.VisualStyles=ﾋﾞｼﾞｭｱﾙｽﾀｲﾙ
+RepositoryTab.Combo.Wams=WAM (Web ｱﾌﾟﾘｹｰｼｮﾝ ﾓｼﾞｭｰﾙ)
+RepositoryTab.Combo.Tasks=ﾀｽｸ
+RepositoryTab.Combo.Partitions=区画
+RepositoryTab.Combo.Users=ﾕｰｻﾞｰ
+RepositoryTab.Combo.Templates=ﾃﾝﾌﾟﾚｰﾄ
+RepositoryTab.Combo.MsgFiles=ﾒｯｾｰｼﾞ ﾌｧｲﾙ
+RepositoryTab.Combo.TechnologyServices=ﾃｸﾉﾛｼﾞ ｻｰﾋﾞｽ
+RepositoryTab.Combo.Servers=ﾘﾓｰﾄ ｼｽﾃﾑ
+RepositoryTab.Combo.TechServiceProvider=ﾌﾟﾛﾊﾞｲﾀﾞ
+RepositoryTab.Combo.DbDiagrams=ﾃﾞｰﾀﾍﾞｰｽ ﾀﾞｲｱｸﾞﾗﾑ
+RepositoryTab.Combo.ExternalResources=外部ﾘｿｰｽ
+RepositoryTab.Combo.DotNetProxys=.NET ｺﾝﾎﾟｰﾈﾝﾄ
+RepositoryTab.Combo.WebServiceProxys=Web ｻｰﾋﾞｽ
+*** @TRANS NEW
+RepositoryTab.Combo.WebPages=Web Pages
+*** @TRANS END
+
+RepositoryTab.ObjName.NotDefined=未定義
+RepositoryTab.ObjName.File=ﾌｧｲﾙ
+RepositoryTab.ObjName.LogicalFile=論理ﾋﾞｭｰ
+RepositoryTab.ObjName.Field=ﾌｨｰﾙﾄﾞ
+RepositoryTab.ObjName.Process=ﾌﾟﾛｾｽ
+RepositoryTab.ObjName.Form=ﾌｫｰﾑ
+RepositoryTab.ObjName.Function=ﾌｧﾝｸｼｮﾝ
+RepositoryTab.ObjName.List=ﾘｽﾄ
+RepositoryTab.ObjName.Bitmap=ﾋﾞｯﾄﾏｯﾌﾟ
+RepositoryTab.ObjName.Icon=ｱｲｺﾝ
+RepositoryTab.ObjName.Cursor=ｶｰｿﾙ
+RepositoryTab.ObjName.VStyle=ﾋﾞｼﾞｭｱﾙｽﾀｲﾙ
+RepositoryTab.ObjName.Sysvar=ｼｽﾃﾑ変数
+RepositoryTab.ObjName.MTxt=言語変数
+RepositoryTab.ObjName.Web=WAM (Web ｱﾌﾟﾘｹｰｼｮﾝ ﾓｼﾞｭｰﾙ)
+RepositoryTab.ObjName.ActiveX=ActiveX
+RepositoryTab.ObjName.Reusable=再利用可能ﾊﾟｰﾂ
+RepositoryTab.ObjName.BusinessObject=ﾋﾞｼﾞﾈｽ ｵﾌﾞｼﾞｪｸﾄ
+RepositoryTab.ObjName.Primitive=Primitive 型
+RepositoryTab.ObjName.Framework=ﾌﾚｰﾑﾜｰｸ
+RepositoryTab.ObjName.Group=ｸﾞﾙｰﾌﾟ
+RepositoryTab.ObjName.Task=ﾀｽｸ
+RepositoryTab.ObjName.ExternalResource=外部ﾘｿｰｽ
+RepositoryTab.ObjName.DotNetProxy=.NET ｺﾝﾎﾟｰﾈﾝﾄ
+RepositoryTab.ObjName.WebServiceProxy=Web ｻｰﾋﾞｽ
+*** @TRANS ADD
+RepositoryTab.ObjName.WebPage=Web Page
+*** @TRANS END
+*
+RepositoryTab.ColTxt.DynamicList=動的ﾘｽﾄ
+RepositoryTab.ColTxt.StaticList=静的ﾘｽﾄ
+RepositoryTab.ColTxt.ImpactList=ｲﾝﾊﾟｸﾄ ﾘｽﾄ
+RepositoryTab.ColTxt.DatabaseDiagram=ﾃﾞｰﾀﾍﾞｰｽ ﾀﾞｲｱｸﾞﾗﾑ
+RepositoryTab.ColTxt.DatabaseDiagrams=ﾃﾞｰﾀﾍﾞｰｽ ﾀﾞｲｱｸﾞﾗﾑ
+RepositoryTab.ColTxt.Weblet=ｳｪﾌﾞﾚｯﾄ
+RepositoryTab.ColTxt.Weblets=ｳｪﾌﾞﾚｯﾄ
+RepositoryTab.ColTxt.WebletTemplates=ｳｪﾌﾞﾚｯﾄ ﾃﾝﾌﾟﾚｰﾄ
+RepositoryTab.ColTxt.WebComponent=Webｺﾝﾎﾟｰﾈﾝﾄ
+RepositoryTab.ColTxt.WebComponents=Webｺﾝﾎﾟｰﾈﾝﾄ
+RepositoryTab.ColTxt.TechnologyService=ﾃｸﾉﾛｼﾞ ｻｰﾋﾞｽ
+RepositoryTab.ColTxt.TechnologyServices=ﾃｸﾉﾛｼﾞ ｻｰﾋﾞｽ
+RepositoryTab.ColTxt.Partition=区画
+RepositoryTab.ColTxt.Partitions=区画
+RepositoryTab.ColTxt.User=ﾕｰｻﾞｰ
+RepositoryTab.ColTxt.Users=ﾕｰｻﾞｰ
+RepositoryTab.ColTxt.Server=ﾘﾓｰﾄ ｼｽﾃﾑ
+RepositoryTab.ColTxt.Servers=ﾘﾓｰﾄ ｼｽﾃﾑ
+RepositoryTab.ColTxt.Template=ﾃﾝﾌﾟﾚｰﾄ
+RepositoryTab.ColTxt.Templates=ﾃﾝﾌﾟﾚｰﾄ
+RepositoryTab.ColTxt.Message=ﾒｯｾｰｼﾞ
+RepositoryTab.ColTxt.MessageFile=ﾒｯｾｰｼﾞ ﾌｧｲﾙ
+RepositoryTab.ColTxt.MessageFiles=ﾒｯｾｰｼﾞ ﾌｧｲﾙ
+RepositoryTab.ColTxt.ExternalResource=外部ﾘｿｰｽ
+RepositoryTab.ColTxt.ExternalResources=外部ﾘｿｰｽ
+RepositoryTab.ColTxt.LansaMonitor=LANSA ﾌｨｰﾙﾄﾞ値ﾓﾆﾀｰ
+RepositoryTab.ColTxt.ActivePartition=ｱｸﾃｨﾌﾞ区画 (&1)
+RepositoryTab.ColTxt.ActiveTechnologyService=ｱｸﾃｨﾌﾞ ﾃｸﾉﾛｼﾞ ｻｰﾋﾞｽ (&1)
+RepositoryTab.ColTxt.Organizers=ｵｰｶﾞﾅｲｻﾞｰ
+RepositoryTab.ColTxt.SystemInfo=ｼｽﾃﾑ情報
+RepositoryTab.ColTxt.Resources=ﾘｿｰｽ
+RepositoryTab.ColTxt.Web=Web
+RepositoryTab.ColTxt.PlugIns=ﾌﾟﾗｸﾞｲﾝ
+RepositoryTab.ColTxt.RepSettings=ﾘﾎﾟｼﾞﾄﾘ設定
+RepositoryTab.ColTxt.Provider=ﾌﾟﾛﾊﾞｲﾀﾞ
+RepositoryTab.ColTxt.Providers=ﾌﾟﾛﾊﾞｲﾀﾞ
+RepositoryTab.ColTxt.Tools=ﾂｰﾙ
+*
+RepositoryTab.Col.Item=ｱｲﾃﾑ
+RepositoryTab.Col.Description=記述
+RepositoryTab.Col.Modified=修正
+RepositoryTab.Col.BuildStatus=生成状態
+RepositoryTab.Col.Details=明細
+RepositoryTab.Col.ColName=ｶﾗﾑ名
+RepositoryTab.Col.Type=ﾀｲﾌﾟ
+RepositoryTab.Col.Task=ﾀｽｸ
+RepositoryTab.Col.PcName=PC 名
+RepositoryTab.Col.Identifier=識別子
+RepositoryTab.Col.VcsStatus=ﾊﾞｰｼﾞｮﾝ ｺﾝﾄﾛｰﾙ ｽﾃｰﾀｽ
+*
+RepositoryTab.Msg.SelectedObjects=ｵﾌﾞｼﾞｪｸﾄ &1 の選択
+RepositoryTab.Msg.Selected=選択: &1
+RepositoryTab.Msg.Type=  ﾀｲﾌﾟ: &1
+RepositoryTab.Msg.Modified=  修正: &1
+RepositoryTab.Msg.BuildStatus=  生成状態: &1
+RepositoryTab.Msg.Description=  記述: &1
+RepositoryTab.Msg.Task=  ﾀｽｸ: &1
+*
+FavouritesMenu.TabViewStyle=ﾀﾌﾞ ﾋﾞｭｰのｽﾀｲﾙ
+FavouritesMenu.TabViewStyleStandard=標準
+FavouritesMenu.TabViewStyleStacked=重ねる
+FavouritesMenu.TabViewStyleNavigator=ﾅﾋﾞｹﾞｰﾀ
+FavouritesMenu.TabViewStyle.Tip=ﾀﾌﾞ ﾋﾞｭｰ ｽﾀｲﾙの切り替え
+FavouritesMenu.ShowInFavorites=お気に入りに表示
+FavouritesMenu.ShowInFavorites.Tip=お気に入りﾋﾞｭｰにお気に入りを表示。
+*
+
+*************************************************************
+*** DELETE QUERY DIALOG                                 *****
+*************************************************************
+DeleteQueryDlg.DeleteObject=ｵﾌﾞｼﾞｪｸﾄ削除:
+DeleteQueryDlg.Type=ﾀｲﾌﾟ:
+DeleteQueryDlg.DeleteFromHostRep=ﾎｽﾄﾘﾎﾟｼﾞﾄﾘから削除
+
+*************************************************************
+*** FUNCTION DESIGN                                     *****
+*************************************************************
+Function.Design.ISeriesKey=F&1=&2
+Function.Design.ISeriesMessages=MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+Function.Design.Designer.Caption=&1 ( &2 )
+Function.Design.Detailer.Representation.Caption=表示ﾀｲﾌﾟ
+Function.Design.Detailer.ISeries.Caption=5250 NPT
+Function.Design.Detailer.Windows.Caption=Windows
+Function.Design.Detailer.UserKeys.FunctionKeyColumn.Caption=ｷｰ
+Function.Design.Detailer.UserKeys.DescriptionColumn.Caption=記述
+Function.Design.Detailer.UserKeys.ActionColumn.Caption=ｱｸｼｮﾝ
+Function.Design.Detailer.UserKeys.ConditionColumn.Caption=条件
+Function.Design.GroupBox.CommandText.Caption=ｺﾏﾝﾄﾞ ﾃｷｽﾄ
+Function.Design.GroupBox.Enabled.Caption=使用可能
+Function.Design.GroupBox.Action.Caption=ｱｸｼｮﾝ
+Function.Design.GroupBox.SAACUA.Caption=SAA/CUA
+Function.Design.Page.General.Caption=一般
+Function.Design.Page.UserKeys.Caption=ﾕｰｻﾞｰ ｷｰ
+Function.Design.Page.Keys.Caption=ﾌｧﾝｸｼｮﾝ ｷｰ
+Function.Design.Page.Assistant.Caption=ﾌｨｰﾙﾄﾞ/ｸﾞﾙｰﾌﾟ/ﾘｽﾄ
+Function.Design.Label.Location.Caption=位置
+Function.Design.Label.Row.Caption=行
+Function.Design.Label.Column.Caption=桁
+Function.Design.Label.Width.Caption=幅
+Function.Design.Label.Height.Caption=高さ
+Function.Design.GroupBox.Attributes.Caption=属性
+Function.Design.CommandNotValid=ｺﾏﾝﾄﾞが無効です
+Function.Design.Assist.Name.Column.Caption=名前
+Function.Design.Element.Detailer.Page.Caption=ﾌｨｰﾙﾄﾞ ( &1 )
+Function.Design.Element.Detailer.Attributes.Caption=識別属性
+Function.Design.NotAvailable=現在使用できないﾌｧﾝｸｼｮﾝﾃﾞｻﾞｲﾝです。ﾌｧﾝｸｼｮﾝﾃﾞｻﾞｲﾝを使用するためにPOP_UP,DISPLAY,REQUEST,DEF_HEAD,DEF_LINE,DEF_BREAK,DEF_FOOT命令を記述してください。
+Function.Design.Parm.AtLoc=ﾛｹｰｼｮﾝ属性
+Function.Design.Parm.WithSize=ｻｲｽﾞ属性
+Function.Design.Element.Detailer.InputAttributes.Caption=入力/出力 属性
+Function.Design.Button.Delete.Hint=選択されたﾌｨｰﾙﾄﾞの削除
+Function.Design.Label.Text.Caption=ﾃｷｽﾄ
+Function.Design.Button.Options.Caption=ｵﾌﾟｼｮﾝ
+Function.Design.Button.Add.Caption=追加
+Function.Design.Button.TextIncrease.Hint=ﾃｷｽﾄ ｻｲｽﾞを大きくする
+Function.Design.Button.TextDecrease.Hint=ﾃｷｽﾄ ｻｲｽﾞを小さくする
+Function.Design.Button.Add.Hint=追加
+Function.Design.Button.AddText.Caption=ﾃｷｽﾄの追加
+Function.Design.Button.AddText.Hint=ﾃｷｽﾄをﾃﾞｻﾞｲﾝに追加
+Function.Design.NewText.Caption=ﾃｷｽﾄ
+Function.Design.Label.Condition.Caption=条件
+Function.Design.NotAvailable.Caption=N/A
+Function.Design.BrowseList.Page.Caption=ﾌﾞﾗｳｽﾞﾘｽﾄ
+Function.Design.BrowseList.Page.Fields.Caption=ﾌｨｰﾙﾄﾞ
+Function.Design.Field.Page.Caption=ﾌｨｰﾙﾄﾞ
+Function.Design.Text.Page.Caption=ﾃｷｽﾄ
+Function.Design.Message.PRC0190.Level1=ﾌｨｰﾙﾄﾞ&1はﾎﾟｯﾌﾟｱｯﾌﾟｳｨﾝﾄﾞｳに適合できません。
+Function.Design.Message.PRC0116.Level1=ﾌｨｰﾙﾄﾞ&1の行番号が指定されましたが、列番号が指定されません。
+Function.Design.Message.PRC0117.Level1=ﾌｨｰﾙﾄﾞ&1の列番号が指定されましたが、行番号が指定されません。
+Function.Design.Message.PRC0166.Level1=ﾌｨｰﾙﾄﾞ&1のｺﾏﾝﾄﾞが使用可能なｽｸﾘｰﾝ･ﾌｫｰﾏｯﾄの最大数を超えています。
+Function.Design.Message.PRC0080.Level1=行及び位置指定番号指定が使用されている場合、ﾌｨｰﾙﾄﾞ&1はｽｸﾘｰﾝに適合できません。
+Function.Design.Message.PRC0082.Level1=ﾌｨｰﾙﾄﾞ&1はｽｸﾘｰﾝ上の既に配置されているﾌｨｰﾙﾄﾞに重なっています。
+Function.Design.Message.PRC0081.Level1=ﾌｨｰﾙﾄﾞ&1は指定された行と列番号では複数行に及ぶ可能性があります。
+Function.Design.Message.PRC0101.Level1=行または列はﾃｷｽﾄｽﾄﾘﾝｸﾞ&1では有効ではありません。-ﾃｷｽﾄｽﾄﾘﾝｸﾞは無視されます。
+Function.Design.Message.PRC0130.Level1=行または位置はﾃｷｽﾄｽﾄﾘﾝｸﾞ&1では有効ではありｍせん。-ﾃｷｽﾄｽﾄﾘﾝｸﾞは無視されます。
+Function.Design.Message.PRC0132.Level1=行番号がﾌｨｰﾙﾄﾞ&1で指定されましたが、位置番号が指定されていません。
+Function.Design.Message.PRC0131.Level1=位置番号がﾌｨｰﾙﾄﾞ&1で指定されましたが、行番号が指定されていません。
+Function.Design.Message.PRC0187.Level1=1つのﾚﾎﾟｰﾄ･ﾍﾟｰｼﾞ上に全てのﾌｨｰﾙﾄﾞが配置できません。第二ﾚﾍﾞﾙ･ﾃｷｽﾄを参照してください。
+Function.Design.Message.PRC0133.Level1=行と位置を使用するために指定した場合、ﾌｨｰﾙﾄﾞ&1はﾚﾎﾟｰﾄ上に適合されません。
+Function.Design.Message.PRC0134.Level1=ﾌｨｰﾙﾄﾞ&1は既にﾚﾎﾟｰﾄ上に配置されているﾌｨｰﾙﾄﾞに重なっています。
+Function.Design.Message.PRC0135.Level1=ﾌｨｰﾙﾄﾞ&1は指定された行と列番号では複数ﾚﾎﾟｰﾄに及ぶ可能性があります。
+Function.Design.Message.PRC0241.Level1=ﾌｨｰﾙﾄﾞ&1はGUI可能ﾌｧﾝｸｼｮﾝのため、行をまたがることができません。
+Function.Design.Message.PRC0243.Level1=GUI可能ﾌｧﾝｸｼｮﾝのため、ﾃｷｽﾄｽﾄﾘﾝｸﾞ"&1"は一行に完全に収める必要があります。
+Function.Design.Message.PRC0303.Level1=フィールド&1にはGUI属性が定義されています、そのためブラウズ リストでは使用することはできません。 フィールドのGUI属性を外すか、フィールドをブラウズ リストから除いてください。
+Function.Design.Message.PRC0304.Level1=画面でプッシュ ボタン&1が2つ以上使用されています。 プッシュ ボタンは各画面に1つだけしか使用することはできません。 重複しているプッシュ ボタンのどちらかを除いてください。
+Function.Design.Message.PRC0305.Level1=ドロップダウン フィールドは別の行に折り返すことはできません。
+Function.Design.Message.PRC0088.Level1=ブラウズリストを画面形式に合わせることができません。 - フィールド&1でエラーが発生しました。 この問題を解決するためには、別のDISPLAY/REQUESTコマンドでブラウズリストを表示するか、見出しフィールドの表示位置を調整し、ブラウズリストを別画面で表示させる必要があります。
+Function.Design.Message.PRC0188.Level1=指定されたパラメータAT_LOC、WITH_SIZEの値では、ポップアップ ウィンドウを表示することができません。
+Function.Design.Message.PRC0189.Level1=ウィンドウの識別子とタイトル、またはどちらかが、ボップアップウィンドウに表示できません。
+Function.Design.Message.PRC1061.Level1=表示が複数画面にまたがります。 複数画面にまたがる表示はWebブラウザでは表示可能ですが、Visual LANSAファンクションの画面では表示することができません。 プロセスがWeb使用可能になっている場合、ファンクションはコンパイル、実行することができます。
+Function.Design.Message.PRC0199.Level1=パラメータOPTIONSに*OVERLAY、*NOREADを指定した画面は表示することができません。 パラメータOPTIONSに*OVERLAYまたは*NOREADが指定されている場合、&1行目のDISPLAY/REQUESTコマンドの全てのフィールドは1つの画面形式で表示されなければなりません。 
+Function.Design.Message.PRC0321.Level1=画面を生成するためのフィールドやテキストが定義されていません。
+Function.Design.Fragment.Commit.Button.Caption=更新コマンド
+Function.SaveTextMaps.Text=ﾌﾙﾁｪｯｸを実行するためにはTextMapは変更後保存する必要があります。今保存しますか？
+Function.SaveTextMaps.Title=ﾌｧﾝｸｼｮﾝの保管
+Function.Design.Button.AddText.Warning=ﾃﾞｨｸｼｮﾅﾘが提供するﾃｷｽﾄの代わりに使用するﾌﾘｰﾌｫｰﾏｯﾄﾃｷｽﾄは制限をうけません
+Function.Design.Button.AddText.Warning.Line1=欄見出し、ﾗﾍﾞﾙ、記述は以下について稼動することができます：
+Function.Design.Button.AddText.Warning.Line2=1) (CUA) Common User Access
+Function.Design.Button.AddText.Warning.Line3=2) ﾃﾞｨｸｼｮﾅﾘの使用
+Function.Design.Button.AddText.Warning.Line4=3) 複数言語の可能性
+Function.Design.Button.AddText.Warning.Line5=4) 保守の容易さ
+Function.Design.Text.SAA.Caption=SAA/CUA ｵﾌﾟｼｮﾝ
+Function.Design.Text.SAA.Normal.Caption=標準
+Function.Design.Text.SAA.Emphasised.Caption=強調
+Function.Design.Text.SAA.NonSAA.Caption=Non SAA/CUA
+Function.Design.Text.Attributes.Caption=属性
+Function.Design.Text.Attributes.ReverseVideo.Caption=ﾋﾞﾃﾞｵ戻し
+Function.Design.Text.Attributes.Underline.Caption=下線
+Function.Design.Text.Attributes.Blinking.Caption=点滅
+Function.Design.Text.Attributes.ColumnSeparators.Caption=ｶﾗﾑ･ｾﾊﾟﾚｰﾀ
+Function.Design.Text.Attributes.HighIntensity.Caption=高輝度
+Function.Design.Text.Color.Caption=色
+Function.Design.Text.Color.Default.Caption=省略値
+Function.Design.Text.Color.Green.Caption=緑
+Function.Design.Text.Color.Blue.Caption=青
+Function.Design.Text.Color.White.Caption=白
+Function.Design.Text.Color.Red.Caption=赤
+Function.Design.Text.Color.Turquoise.Caption=ﾀｰｺｲｽﾞ
+Function.Design.Text.Color.Yellow.Caption=黄
+Function.Design.Text.Color.Pink.Caption=ﾋﾟﾝｸ
+Function.Design.RowColumn.Hint.Caption=行 = &1, 列 = &2
+Function.Design.Report.Page.Caption=ﾘﾎﾟｰﾄ
+Function.Design.Element.BrowseList.AutoLayout.Caption=自動ﾚｲｱｳﾄ
+Function.Design.AutoLayout.Warning.Line1=現行のｺﾏﾝﾄﾞに行のなく、位置決めされたﾌｨｰﾙﾄﾞがあります。
+Function.Design.AutoLayout.Warning.Line2=このｱｸｼｮﾝはｺﾏﾝﾄﾞの全てのﾌｨｰﾙﾄﾞの行と位置決めを指定します。
+Function.Design.AutoLayout.Warning.Line3=続けますか?
+Function.Menu.GotoDesign.Caption=ﾃﾞｻﾞｲﾝを開く
+Function.Menu.GotoDesign.Caption.Tip=選択中のｺﾏﾝﾄﾞのﾃﾞｻﾞｲﾝ画面を開きます
+Function.Menu.Field.Delete.Caption=削除
+Function.Menu.Field.Delete.Caption.Tip=選択されたﾌｨｰﾙﾄﾞの削除
+Function.Menu.Field.DeleteGroup.Caption=ｸﾞﾙｰﾌﾟの削除
+Function.Menu.Field.DeleteGroup.Caption.Tip=選択されたﾌｨｰﾙﾄﾞを含むｸﾞﾙｰﾌﾟを削除
+Function.Menu.Text.Delete.Caption=削除
+Function.Menu.Text.Delete.Caption.Tip=選択されたﾃﾞｻﾞｲﾝｴﾚﾒﾝﾄの削除
+Function.Menu.Browse.Delete.Caption=削除
+Function.Menu.Browse.Delete.Caption.Tip=ﾌﾞﾗｳｽﾞﾘｽﾄの削除
+Function.Design.Field.DeleteLast.Warning.Line1=GROUP_BY及びDEF_LISTの最後のﾌｨｰﾙﾄﾞが削除されます。
+Function.Design.Field.DeleteLast.Warning.Line2=このｱｸｼｮﾝはｿｰｽから全体の命令を除去されます。
+Function.Design.Field.DeleteLast.Warning.Line3=続けますか?
+Function.Design.FreeForm.Warning.Line1=現行のｺﾏﾝﾄﾞに行のなく、位置決めされたﾌｨｰﾙﾄﾞがあります。
+Function.Design.FreeForm.Warning.Line2=このｱｸｼｮﾝはｺﾏﾝﾄﾞの全てのﾌｨｰﾙﾄﾞの行と位置決めを指定を削除します。
+Function.Design.FreeForm.Warning.Line3=続けますか?
+Function.Design.TextMap.Warning.Line1=この処理を実行するためにﾃｷｽﾄﾊﾟﾗﾒｰﾀはTextMapに変換する必要があります。
+Function.Design.TextMap.Warning.Line2=続けますか?
+Function.Design.WIMP.CheckBox=ﾁｪｯｸ ﾎﾞｯｸｽ
+Function.Design.WIMP.PushButton=ﾌﾟｯｼｭ ﾎﾞﾀﾝ
+Function.Design.WIMP.RadioButton=ﾗｼﾞｵ ﾎﾞﾀﾝ
+Function.Design.WIMP.DropDown=ﾄﾞﾛｯﾌﾟ ﾀﾞｳﾝ
+Function.Design.Drop.Question.Line1=指令されたｴﾚﾒﾝﾄの行と位置決めを行いますか。
+Function.Design.Page.DefReport.Caption=ﾘﾎﾟｰﾄ
+Function.Design.Page.DefHead.Caption=ﾍｯﾀﾞ
+Function.Design.Page.DefBreak.Caption=ﾌﾞﾚｰｸ
+Function.Design.Page.DefLine.Caption=行
+Function.Design.Page.DefFoot.Caption=ﾌｯﾀ
+Function.Design.Report.CurrentReport.Caption=現行のﾚﾎﾟｰﾄ
+Function.Design.Report.NotValid=現行ﾚﾎﾟｰﾄに利用できるﾃﾞｻﾞｲﾝではありません
+Function.Design.Element.None.Caption=None
+Function.Design.Report.CmdRepeats.Caption=繰り返し
+Function.Design.Report.CmdCycles.Caption=ｻｲｸﾙ
+Function.Design.Report.FormSize.Combo.Caption=ﾌｫｰﾑの大きさ
+Function.Design.Report.FormSize.Length.Caption=長さ
+Function.Design.Report.FormSize.Width.Caption=横幅
+Function.Design.Report.FormSize.GroupBox.Caption=ﾌｫｰﾑのｱﾄﾘﾋﾞｭｰﾄ
+Function.Design.ScreenNumber.Label.Caption=画面番号
+Function.Design.Button.AddText.InvalidFormat.Error=ﾃｷｽﾄは最初の画面にのみ追加できます。
+Function.Design.Options.ShowAttributeByte.Caption=属性ﾊﾞｲﾄ
+Function.Design.Options.ShowHorizontalScale.Caption=水平ｽｹｰﾙ
+Function.Design.Options.ShowVerticalScale.Caption=垂直ｽｹｰﾙ
+Function.Design.Options.ShowDesignValues.Caption=ﾃﾞｻﾞｲﾝ値
+Function.Design.Options.ScaleToPage.Caption=ﾍﾟｰｼﾞのｽｹｰﾙ
+Function.Design.Options.FixedFont.Caption=等幅ﾌｫﾝﾄ
+Function.Design.Zoom.Tip=拡大
+
+*************************************************************
+*** FEATURES VIEW                                       *****
+*************************************************************
+FeaturesView.AlternateBackgroundColor=代替の背景色
+FeaturesView.AncestorChain=Ancestor ﾁｪｲﾝ
+FeaturesView.Any=Any
+FeaturesView.Array=配列
+FeaturesView.ArrayField=配列ﾌｨｰﾙﾄﾞ
+FeaturesView.ArrayVariable=配列変数
+FeaturesView.Bold=太字
+FeaturesView.BorderColor=ﾎﾞｰﾀﾞｰ 色
+FeaturesView.BorderStyle=ﾎﾞｰﾀﾞｰ ｽﾀｲﾙ
+FeaturesView.Browselist=ﾌﾞﾗｳｽﾞﾘｽﾄ
+FeaturesView.Calling3glProgram=呼出し3GLﾌﾟﾛｸﾞﾗﾑ
+FeaturesView.CallingFunction=呼出しﾌｧﾝｸｼｮﾝ
+FeaturesView.Class=ｸﾗｽ
+FeaturesView.Classes=ｸﾗｽ
+FeaturesView.Captions=ｷｬﾌﾟｼｮﾝ
+FeaturesView.ColumnHeading=欄見出し
+FeaturesView.ColumnHeadings=欄見出し
+FeaturesView.ComAncestorDesc=現在のｺﾝﾎﾟｰﾈﾝﾄのAncestor
+FeaturesView.ComOwnerDesc=現在のｺﾝﾎﾟｰﾈﾝﾄ
+FeaturesView.ComSelfDesc=実行中のｺﾝﾎﾟｰﾈﾝﾄ
+FeaturesView.Component=ｺﾝﾎﾟｰﾈﾝﾄ
+FeaturesView.Condition=条件
+FeaturesView.Constructor=ｺﾝｽﾄﾗｸﾀ
+FeaturesView.ConstructorParameter=ｺﾝｽﾄﾗｸﾀ ﾊﾟﾗﾒｰﾀ
+FeaturesView.ConstructorRoutineMap=ｺﾝｽﾄﾗｸﾀ ﾙｰﾁﾝ ﾏｯﾌﾟ
+FeaturesView.Constructors=ｺﾝｽﾄﾗｸﾀ
+FeaturesView.Counter=ｶｳﾝﾀ
+FeaturesView.DataType=ﾃﾞｰﾀ ﾀｲﾌﾟ
+FeaturesView.DefaultValue=省略値
+FeaturesView.Definition=定義
+FeaturesView.Dynamic=Dynamic
+FeaturesView.EditMask=編集ﾏｽｸ
+FeaturesView.EnabledForRdmlx=RDMLX使用可能
+FeaturesView.EntryDecimals=小数点
+FeaturesView.EntryLength=桁数
+FeaturesView.EntryType=ﾀｲﾌﾟ
+FeaturesView.Event=ｲﾍﾞﾝﾄ
+FeaturesView.EventParameter=ｲﾍﾞﾝﾄﾊﾟﾗﾒｰﾀ
+FeaturesView.EventRoutineMap=ｲﾍﾞﾝﾄﾙｰﾁﾝﾏｯﾌﾟ
+FeaturesView.Events=ｲﾍﾞﾝﾄ
+FeaturesView.Extends=拡張
+FeaturesView.ErrorBackgroundColor=ｴﾗｰ背景色
+FeaturesView.FaceName=ﾌｪｰｽ名
+FeaturesView.Field=ﾌｨｰﾙﾄﾞ
+FeaturesView.Fields=ﾌｨｰﾙﾄﾞ
+FeaturesView.File=ﾌｧｲﾙ
+FeaturesView.FileLevelValidationRules=ﾌｧｲﾙﾚﾍﾞﾙ妥当性検査
+FeaturesView.FontSize=ﾌｫﾝﾄｻｲｽﾞ
+FeaturesView.Functions=ﾌｧﾝｸｼｮﾝ
+FeaturesView.GoToLine=Go to line
+FeaturesView.GroupBy=Group By
+FeaturesView.Implements=ｲﾝﾌﾟﾘﾒﾝﾄ
+FeaturesView.Index=ｲﾝﾃﾞｯｸｽ
+FeaturesView.Indices=ｲﾝﾃﾞｯｸｽ
+FeaturesView.InputArguments=入力引数
+FeaturesView.InputAttributes=入力属性
+FeaturesView.Italic=斜体
+FeaturesView.InstanceOf=&1のｲﾝｽﾀﾝｽ
+FeaturesView.KeyboardShift=ｷｰﾎﾞｰﾄﾞｼﾌﾄ
+FeaturesView.Keys=ｷｰ
+FeaturesView.Label=ﾗﾍﾞﾙ
+FeaturesView.Length=長さ
+FeaturesView.Line=行 &1
+FeaturesView.LineColor=行の色
+FeaturesView.List=ﾘｽﾄ
+FeaturesView.LocalField=ﾛｰｶﾙﾌｨｰﾙﾄﾞ
+FeaturesView.LogicalFiles=論理ﾌｧｲﾙ
+FeaturesView.MethodOfDerivation=起源のﾒｿｯﾄﾞ
+FeaturesView.Method=ﾒｿｯﾄﾞ
+FeaturesView.MethodParameter=ﾒｯｿｯﾄﾞﾊﾟﾗﾒｰﾀ
+FeaturesView.MethodRoutineMap=ﾒｯｿﾄﾞﾙｰﾁﾝﾏｯﾌﾟ
+FeaturesView.Methods=ﾒｿｯﾄﾞ
+FeaturesView.MtxtValues=Mtxt 値
+FeaturesView.Name=名前
+FeaturesView.Next=次
+FeaturesView.No=No
+FeaturesView.NormalBackgroundColor=通常の背景色
+FeaturesView.NumberOfEntries=入力数
+FeaturesView.OutputArguments=出力引数
+FeaturesView.OutputAttributes=出力属性
+FeaturesView.Overlaying=ｵｰﾊﾞｰﾚｲ
+FeaturesView.OverrideField=ｵｰﾊﾞｰﾗｲﾄﾞ ﾌｨｰﾙﾄﾞ
+FeaturesView.Overrides=ｵｰﾊﾞｰﾗｲﾄﾞ
+FeaturesView.Parameters=ﾊﾟﾗﾒｰﾀ
+FeaturesView.ParmForEvent=&2 ｲﾍﾞﾝﾄの&1ﾊﾟﾗﾒｰﾀがﾏｯﾌﾟされる
+FeaturesView.Previous=前
+FeaturesView.Private=ﾌﾟﾗｲﾍﾞｰﾄ
+FeaturesView.Process=ﾌﾟﾛｾｽ
+FeaturesView.PromptFunction=ﾌﾟﾛﾝﾌﾟﾄ ﾌｧﾝｸｼｮﾝ
+FeaturesView.Property=ﾌﾟﾛﾊﾟﾃｨ
+FeaturesView.PropertyRoutine=ﾌﾟﾛﾊﾟﾃｨ ﾙｰﾁﾝ
+FeaturesView.PropertyRoutineMap=ﾌﾟﾛﾊﾟﾃｨﾙｰﾁﾝﾏｯﾌﾟ
+FeaturesView.Properties=ﾌﾟﾛﾊﾟﾃｨ
+FeaturesView.Protected=ﾌﾟﾛﾃｸﾄ
+FeaturesView.Public=一般
+FeaturesView.ReferenceField=参照ﾌｨｰﾙﾄﾞ
+FeaturesView.References=参照
+FeaturesView.RenamedField=ﾘﾈｰﾑされたﾌｨｰﾙﾄﾞ
+FeaturesView.ReportBreak=ﾚﾎﾟｰﾄ ﾌﾞﾚｰｸ
+FeaturesView.ReportFooter=ﾚﾎﾟｰﾄ ﾌｯﾀｰ
+FeaturesView.ReportHeader=ﾚﾎﾟｰﾄ ﾍｯﾀﾞｰ
+FeaturesView.ReportLine=ﾚﾎﾟｰﾄ 行
+FeaturesView.Required=要求
+FeaturesView.Routine=ﾙｰﾁﾝ
+FeaturesView.Script=ｽｸﾘﾌﾟﾄ
+FeaturesView.SqlNullBackgroundColor=SqlNull 背景色
+FeaturesView.StartPosition=開始位置
+FeaturesView.Static=Static
+FeaturesView.Strikeout=失敗
+FeaturesView.Subroutine=ｻﾌﾞﾙｰﾁﾝ
+FeaturesView.TextColor=ﾃｷｽﾄの色
+FeaturesView.Titles=ﾀｲﾄﾙ
+FeaturesView.Triggers=ﾄﾘｶﾞｰ
+FeaturesView.Type=ﾀｲﾌﾟ
+FeaturesView.Underline=下線
+FeaturesView.Usage=使用
+FeaturesView.UsageIn=&1での使用
+FeaturesView.ValidationRules=妥当性検査
+FeaturesView.Values=値
+FeaturesView.WorkingList=ﾜｰｸﾘｽﾄ
+FeaturesView.Yes=Yes
+FeaturesView.Visualization=ﾋﾞｼﾞｭｱﾗｲｾﾞｰｼｮﾝ
+FeaturesView.GroupViewMenuItem=ｸﾞﾙｰﾌﾟ ﾋﾞｭｰ
+FeaturesView.SortedViewMenuItem=ｿｰﾄ ﾋﾞｭｰ
+FeaturesView.CategoryViewMenuItem=ｶﾃｺﾞﾘｰ ﾋﾞｭｰ
+
+*************************************************************
+*** WEB Design                                          *****
+*************************************************************
+Web.Design.NotValid=ﾃﾞｻﾞｲﾝが使用できません - ｱｸﾃｨﾌﾞ ﾃｸﾉﾛｼﾞ ｻｰﾋﾞｽが見つかりません
+Web.Design.NotAvailable=ﾃｸﾉﾛｼﾞ ｻｰﾋﾞｽ &1 &2 のXSLは生成されませんでした
+Web.DesignPlugIn.NotValid.Line1=ﾃﾞｻﾞｲﾝが使用できません。考えられる原因。
+Web.DesignPlugIn.NotValid.Line2=1. WAM* ﾌｧｲﾙが正しく登録されていない。
+Web.DesignPlugIn.NotValid.Line3=2. WAM 作業ﾌｫﾙﾀﾞのｱｸｾｽ権限がない(LANSAの設定を参照してください)。
+Web.DesignPlugIn.NotValid.Line4=LANSAへこの問題を報告してください
+Weblet.Design.NotAvailable=ｳｪﾌﾞﾚｯﾄはﾃｸﾉﾛｼﾞ ｻｰﾋﾞｽ &1 &2 のXSLがありません
+Web.Design.Designer.Caption=&1 ( &2 )
+Web.Menu.GotoDesign.Caption=ﾃﾞｻﾞｲﾝを開く
+Web.Menu.GotoDesign.Caption.Tip=Webroutine &1 のXSLﾃﾞｻﾞｲﾝを開く
+Web.Menu.GenerateXsl.Caption=XSLの生成
+Web.Menu.GenerateXslAll.Caption=全て
+Web.Menu.GenerateXsl.Caption.Tip=Webroutine &1 のためのXSLを生成します
+Web.Menu.Refresh.Caption=更新
+Web.Menu.Refresh.Caption.Tip=ｱｸﾃｨﾌﾞなﾃﾞｻﾞｲﾝの更新
+Web.Menu.Refresh.Caption.Title=更新
+Web.Menu.Refresh.WebPage.Caption=Web ﾍﾟｰｼﾞ
+Web.Menu.Refresh.InlinedWeblets.Caption=ｲﾝﾗｲﾝ ｳｪﾌﾞﾚｯﾄ
+Web.Menu.RefreshInline.Caption=ｲﾝﾗｲﾝ ｳｪﾌﾞﾚｯﾄの更新...
+Web.Menu.RefreshInline.Caption.Tip=ｱｸﾃｨﾌﾞなﾃﾞｻﾞｲﾝのｲﾝﾗｲﾝ ｳｪﾌﾞﾚｯﾄの更新
+Web.Menu.ExternalResources.Caption=外部ﾘｿｰｽの管理...
+Web.Menu.ExternalResources.Caption.Tip=ｱｸﾃｨﾌﾞなﾃﾞｻﾞｲﾝの外部ﾘｿｰｽの管理
+Web.Menu.PublishWebService.Caption=Webｻｰﾋﾞｽの発行...
+Web.Menu.PublishWebService.Caption.Tip=WebｻｰﾋﾞｽとしてｱｸﾃｨﾌﾞなWAMを発行
+Web.Menu.OpenWebService.Caption=Webｻｰﾋﾞｽを開く
+Web.Menu.OpenWebService.Caption.Tip=ﾌﾞﾗｳｻﾞでｱｸﾃｨﾌﾞなWAMのWebｻｰﾋﾞｽを開く
+Web.Menu.Diagnostics.Caption=ﾃﾞｻﾞｲﾝ 診断
+Web.Menu.Diagnostics.Caption.Tip=ｱｸﾃｨﾌﾞなﾃﾞｻﾞｲﾝの診断を表示
+Web.Menu.Diagnostics2.Caption=ﾃﾞｻﾞｲﾝ 診断 2
+Web.Menu.Diagnostics2.Caption.Tip=ｱｸﾃｨﾌﾞなﾃﾞｻﾞｲﾝの診断を表示
+Web.Menu.GenerateRoutine.Caption=Webroutineの生成
+Web.Menu.GenerateRoutine.Caption.Tip=既存XSLのWebroutineの生成
+Web.Design.WebMaps.TabSheet.Caption=Webroutine 出力
+Web.Design.WebMaps.TabSheet.WebRoutine.Caption=Webroutine 出力 - &1
+Web.Design.WebMaps.New.Caption=新しいWeb Map
+Web.Design.WebMaps.Global.Caption=ｸﾞﾛｰﾊﾞﾙ Web Map
+Web.Design.WebMaps.Local.Caption=Webroutine Web Map
+Web.Design.WebMaps.WebMap.Caption=Web Map
+Web.Design.WebMaps.NewBtn.Hint=新しいWeb Mapの作成
+Web.Design.WebMaps.DeleteBtn.Hint=削除
+Web.Menu.Caption=Web
+Web.Menu.Hint=Webｵﾌﾟｼｮﾝの表示
+Web.Menu.Import.Caption=ｳｪﾌﾞﾚｯﾄのｲﾝﾎﾟｰﾄ...
+Web.Menu.Import.Hint=ｴｸｽﾎﾟｰﾄしたｳｪﾌﾞﾚｯﾄをｲﾝﾎﾟｰﾄします
+Web.Menu.AddToGroup=ｸﾞﾙｰﾌﾟに追加...
+Web.Menu.RemoveFromGroup=ｸﾞﾙｰﾌﾟから削除...
+Web.Menu.RemoveFromThisGroup=このｸﾞﾙｰﾌﾟから削除します
+Web.Menu.PublishAll.Caption=全てのｳｪﾌﾞﾚｯﾄの発行...
+Web.Menu.PublishAll.Hint=ﾘﾎﾟｼﾞﾄﾘの全てのｳｪﾌﾞﾚｯﾄを発行します
+Web.Menu.DebugRemotely.Caption=ﾘﾓｰﾄ ﾃﾞﾊﾞｯｸﾞ
+Web.Menu.DebugRemotely.Hint=ﾘﾓｰﾄ ﾃﾞﾊﾞｯｸﾞのためにWebroutineをﾌﾞﾗｳｻﾞで開きます
+Web.Menu.TechService.Caption=ﾃｸﾉﾛｼﾞ ｻｰﾋﾞｽ
+Web.Menu.TechService.Hint=ｱｸﾃｨﾌﾞなﾃｸﾉﾛｼﾞ ｻｰﾋﾞｽを切り換えます
+Web.Menu.Browser.Caption=ﾌﾞﾗｳｻﾞ
+Web.Menu.Browser.Hint=ﾌﾞﾗｳｻﾞを切り替えてLANSAｴﾃﾞｨﾀｰ内からWAMを起動するために使用する
+Web.Menu.Browser.Chrome.Caption=Chrome
+Web.Menu.Browser.Chrome.Hint=Chromeを使用してLANSAｴﾃﾞｨﾀｰ内からWAMを起動する
+Web.Menu.Browser.Firefox.Caption=Firefox
+Web.Menu.Browser.Firefox.Hint=Firefoxを使用してLANSAｴﾃﾞｨﾀｰ内からWAMを起動する
+Web.Menu.Browser.InternetExplorer.Caption=Internet Explorer
+Web.Menu.Browser.InternetExplorer.Hint=Internet Explorerを使用してLANSAｴﾃﾞｨﾀｰ内からWAMを起動する
+Web.Menu.Browser.Opera.Caption=Opera
+Web.Menu.Browser.Opera.Hint=Operaを使用してLANSAｴﾃﾞｨﾀｰ内からWAMを起動する
+Web.Menu.Browser.Safari.Caption=Safari
+Web.Menu.Browser.Safari.Hint=Safariを使用してLANSAｴﾃﾞｨﾀｰ内からWAMを起動する
+Web.Menu.Browser.WindowsDefault.Caption=Windows ﾃﾞﾌｫﾙﾄ
+Web.Menu.Browser.WindowsDefault.Hint=Windowsのﾃﾞﾌｫﾙﾄ ﾌﾞﾗｳｻﾞを使用してLANSAｴﾃﾞｨﾀｰ内からWAMを起動する
+Web.Menu.ViewPort.Caption=ﾋﾞｭｰﾎﾟｰﾄ
+Web.Menu.ViewPort.Hint=設計用のﾋﾞｭｰﾎﾟｰﾄを選択
+Web.Menu.ViewPort.Phone.Portrait.Caption=ｽﾏｰﾄﾌｫﾝ縦
+Web.Menu.ViewPort.Phone.Portrait.Hint=ｽﾏｰﾄﾌｫﾝが縦ﾓｰﾄﾞの時のﾃﾞｻﾞｲﾝ
+Web.Menu.ViewPort.Phone.Landscape.Caption=ｽﾏｰﾄﾌｫﾝ横
+Web.Menu.ViewPort.Phone.Landscape.Hint=ｽﾏｰﾄﾌｫﾝが横ﾓｰﾄﾞの時のﾃﾞｻﾞｲﾝ
+Web.Menu.ViewPort.Tablet.Portrait.Caption=ﾀﾌﾞﾚｯﾄ縦
+Web.Menu.ViewPort.Tablet.Portrait.Hint=ﾀﾌﾞﾚｯﾄが縦ﾓｰﾄﾞの時のﾃﾞｻﾞｲﾝ
+Web.Menu.ViewPort.Tablet.Landscape.Caption=ﾀﾌﾞﾚｯﾄ横
+Web.Menu.ViewPort.Tablet.Landscape.Hint=ﾀﾌﾞﾚｯﾄが横ﾓｰﾄﾞの時のﾃﾞｻﾞｲﾝ
+Web.Menu.ViewPort.FullView.Caption=ﾌﾙ ﾋﾞｭｰ
+Web.Menu.ViewPort.FullView.Hint=ﾋﾞｭｰの制限なしに設計
+Web.Menu.ViewPort.AsPerTSP.Caption=テクノロジ サービスに基づく
+Web.Menu.ViewPort.AsPerTSP.Hint=現在選択されている技術ｻｰﾋﾞｽの設定を使用
+Web.Menu.ShowBorders.Caption=ﾃﾞｻﾞｲﾝ ﾎﾞｰﾀﾞｰ
+Web.Menu.ShowBorders.Hint=XSL ﾃﾞｻﾞｲﾝ ﾎﾞｰﾀﾞｰの表示、非表示を切り換えます
+Web.Menu.ShowTags.Caption=ﾃﾞｻﾞｲﾝ ﾀｸﾞ
+Web.Menu.ShowTags.Hint=HTMLﾀｸﾞのﾏｰｶｰを表示します
+Web.Menu.RestoreXsl.Caption=XSLの復元...
+Web.Menu.RestoreXsl.Hint=復元ｵﾌﾟｼｮﾝを表示します
+Web.Design.Status.Message.Caption=&1
+Web.Design.XslNotLoaded=&1 - XSLはﾛｰﾄﾞされませんでした
+Web.Design.WebRoutineNotFound=&1 - Webroutineが見つかりませんでした
+Web.Design.ReplaceXsl.Warning.Line1=&1 &2 ﾃｸﾉﾛｼﾞ ｻｰﾋﾞｽのﾃﾞｻﾞｲﾝは&3 ｳｪﾌﾞﾙｰﾁﾝで既に存在しています。続行するとこのｳｪﾌﾞﾙｰﾁﾝの既存のﾃﾞｻﾞｲﾝが上書きされます。
+Web.Design.ReplaceXsl.Warning.Line2=このオペレーションは元に戻すことができません。
+Web.Design.ReplaceXsl.Warning.Line3=続行しますか? 
+Web.Design.NewTSPXsl.Warning.Line1=&1 &2 ﾃｸﾉﾛｼﾞ ｻｰﾋﾞｽのﾃﾞｻﾞｲﾝは &3 ｳｪﾌﾞﾙｰﾁﾝで存在しません。続行するとこのｳｪﾌﾞﾙｰﾁﾝの新規ﾃﾞｻﾞｲﾝが作成されます。
+Web.Design.NewTSPXsl.Warning.Line2=続行しますか?
+Web.Design.Dialog.OpenRoutines.Caption=WebroutineのXSLを開く
+Web.Design.Dialog.OpenRoutines.Tree.Column1.Caption=Webroutine名
+Web.Design.NoSave.Warning.Line1=XSLが変更された後、保存されていません。
+Web.Design.NoSave.Warning.Line2=処理を続けますか?
+Web.Design.Dialog.DeleteRoutines.Caption=XSLﾃﾞｻﾞｲﾝの削除
+Web.Design.Dialog.DeleteRoutines.Delete.Caption=&OK
+Web.Design.Fields.Name.Coumn.Caption=名前
+Web.Design.Fields.Desc.Coumn.Caption=記述
+Web.Design.Dialog.DeleteRoutines.Message.Caption=XSLﾃﾞｻﾞｲﾝは存在しますが、対応するWebroutineが見つかりません。OKをｸﾘｯｸして、選択した項目のXSLﾃﾞｻﾞｲﾝを削除してください。
+Web.Weblets.Group.NoGroup=割り当てられていない
+Web.Weblets.Group.AllGroup=全てのｸﾞﾙｰﾌﾟ
+Web.Weblets.Group.Caption=ｳｪﾌﾞﾚｯﾄ ﾃﾝﾌﾟﾚｰﾄ
+Web.Weblets.Group.Caption.Tip=ｳｪﾌﾞﾚｯﾄ ﾃﾝﾌﾟﾚｰﾄ ﾋﾞｭｰにﾌｫｰｶｽを移動します
+Web.Design.WebMaps.TabSheet.Caption.Tip=Webrouine 出力 ﾋﾞｭｰにﾌｫｰｶｽを移動します
+Web.Weblets.Group.Item.Caption=ﾃﾝﾌﾟﾚｰﾄ名
+Web.Weblets.Group.Template.Caption=ﾃﾝﾌﾟﾚｰﾄ
+Web.Weblets.Group.Weblet.Caption=ｳｪﾌﾞﾚｯﾄ
+Web.Weblets.Group.Description.Caption=記述
+Web.Diagnostics.View.Caption=ﾃﾞｻﾞｲﾝ 診断
+Web.Diagnostics.View2.Caption=ﾃﾞｻﾞｲﾝ 診断 2
+Web.Diagnostics.Design.Caption=ﾃﾞｻﾞｲﾝ
+Web.Diagnostics.Source.Caption=ｿｰｽ
+Web.Diagnostics.Xml.Caption=XML
+Web.Ancestors.Caption=Web Ancestor ｴﾚﾒﾝﾄ
+Web.Ancestors.Caption.Tip=Web Ancestor ｴﾚﾒﾝﾄ ﾋﾞｭｰを表示します
+Web.Error.CannotLoadWeblet.Text=ｳｪﾌﾞﾚｯﾄ &1 をﾛｰﾄﾞできない
+Web.Error.CannotLoadWebletVersion.Text=ｳｪﾌﾞﾚｯﾄ &1 、ﾊﾞｰｼﾞｮﾝ &2 をﾛｰﾄﾞできない
+Web.Design.DragDrop.Table.Caption=ﾘｽﾄの作成
+Web.Design.DragDrop.Table.Inline.Caption=ｲﾝﾗｲﾝ ﾘｽﾄの作成
+Web.Design.DragDrop.Cancel.Caption=ｷｬﾝｾﾙ
+Web.QueryOpenWam.Caption=この操作を完了するにはｴﾃﾞｨﾀｰで &1 を開く必要があります。ｴﾃﾞｨﾀｰで &2 を開きますか?
+Web.Design.Open.NotAvailable=WebRoutineはﾃｸﾉﾛｼﾞ ｻｰﾋﾞｽ &1 &2 のXSLを生成していません
+Web.Menu.NewRoutine.Caption=新しいWebroutine...
+Web.Menu.NewRoutine.Caption.Tip=新しいWebroutineのﾀﾞｲｱﾛｸﾞを表示します
+
+Web.Design.NewRoutine.Caption=新しいWebroutine
+Web.Design.NewRoutine.Tip=Webroutineの名前を入力し、作成のﾎﾞﾀﾝを押して、Webﾍﾟｰｼﾞのﾃﾞｻﾞｲﾝを開始してください
+Web.Design.NewRoutine.Tip.InvalidName='&1'は有効なWebroutine名ではありません。
+Web.Design.NewRoutine.Tip.InvalidServiceName='&1' は無効なｻｰﾋﾞｽ名です。
+Web.Design.NewRoutine.Tip.NameExists=Webroutine名'&1'は既に存在します。
+Web.Design.NewRoutine.ShowDialog.Caption=Webroutine の無い WAM を開いた時にこのﾀﾞｲｱﾛｸﾞを表示する
+Web.Design.NewRoutine.Close.Caption=閉じる
+Web.Design.NewRoutine.Name.Caption=名前
+Web.Design.NewRoutine.ServiceName.Caption=ｻｰﾋﾞｽ名
+Web.Design.NewRoutine.Description.Caption=記述
+Web.Design.NewRoutine.Details.Caption=Webroutine 詳細
+Web.Design.NewRoutine.WebDetails.Caption=Web ﾍﾟｰｼﾞ ﾃﾞｻﾞｲﾝ 詳細
+Web.Design.Dialog.NewRoutine.Tree.Column1.Caption=ﾃｸﾉﾛｼﾞ ｻｰﾋﾞｽ
+Web.Design.Dialog.NewRoutine.Tree.Column2.Caption=ﾌﾟﾛﾊﾞｲﾀﾞ
+Web.Design.Dialog.NewRoutine.Tree.Column3.Caption=XSLの生成
+Web.Design.Dialog.NewRoutine.Tree.Column4.Caption=ﾃﾞｻﾞｲﾝを開く
+Web.Design.Dialog.NewRoutine.Create.Caption=作成
+Web.Design.Webroutine.Name.Caption=Webroutine
+
+Web.Properties.ShowProperties.Caption=ﾌﾟﾛﾊﾟﾃｨ属性
+Web.Properties.ShowEvents.Caption=ｲﾍﾞﾝﾄ属性
+Web.Properties.ShowAriaAttributes.Caption="aria-"属性
+Web.Properties.ShowDataAttributes.Caption="data-"属性
+Web.Properties.ShowAttributesIfEmpty.Caption=空の場合表示
+Web.Properties.ShowXPath.Caption=XPath 項目 ｴﾃﾞｨﾀ
+Web.Properties.ShowTips.Caption=ﾍﾙﾌﾟ ﾋﾝﾄ
+Web.Properties.Prompt.Variable.Caption=Variable ﾌﾟﾛﾝﾌﾟﾀｰ
+Web.Properties.Prompt.CSSLengthUnit.Caption=Length ﾌﾟﾛﾝﾌﾟﾀｰ
+Web.Properties.Prompt.Custom.Caption=Custom ﾌﾟﾛﾝﾌﾟﾀｰ
+Web.Properties.Prompt.Color.Caption=Color ﾌﾟﾛﾝﾌﾟﾀｰ
+Web.Properties.DefaultValue.Caption=<blank>
+Web.Properties.AutoQuotes.Caption=値を引用符で囲む
+
+Web.Properties.ShowProperties.Tip=ﾌﾟﾛﾊﾟﾃｨ属性を表示
+Web.Properties.ShowEvents.Tip=ｲﾍﾞﾝﾄ属性を表示
+Web.Properties.ShowAriaAttributes.Tip="aria-"属性を表示
+Web.Properties.ShowDataAttributes.Tip="data-"属性を表示
+Web.Properties.ShowAttributesIfEmpty.Tip=空の場合属性を表示
+Web.Properties.ShowXPath.Tip=XPath 項目 ｴﾃﾞｨﾀを表示
+Web.Properties.ShowTips.Tip=ﾍﾙﾌﾟ ﾋﾝﾄを表示
+Web.Properties.AutoQuotes.Tip=ﾌﾟﾛﾊﾟﾃｨｼｰﾄの値を引用符で囲む
+Web.Properties.XPath.Filter.Caption=入力ﾌｨﾙﾀの適用
+Web.Properties.XPath.Filter.Hint=表示の前にﾌﾟﾛﾊﾟﾃｨ値にﾌｨﾙﾀをかけます
+Web.Properties.XPath.UnFilter.Caption=出力ﾌｨﾙﾀの適用
+Web.Properties.XPath.UnFilter.Hint=ﾌﾟﾛﾊﾟﾃｨ値の更新前にXPath式にﾌｨﾙﾀをかけます
+
+Web.Properties.XPath.Caption=XPath 項目
+Web.Properties.XPath.Label.Caption=現在選択中のﾌﾟﾛﾊﾟﾃｨのXPath式を入力してください
+Web.Properties.XPath.Apply.Hint=現在選択中のﾌﾟﾛﾊﾟﾃｨにXPath式を適用します
+
+Web.Weblet.Save.Lock=&1を更新できません。+
++
+以下の理由が考えられます :+
+-
+   ｷ このｵﾌﾞｼﾞｪｸﾄを更新する権限がありません。+
+   -
+   ｷ このｵﾌﾞｼﾞｪｸﾄは更新可能でﾁｪｯｸｱｳﾄされていません。+
+   -
+   ｷ このｵﾌﾞｼﾞｪｸﾄは他の開発のﾀｽｸにﾛｯｸされています。+
+   -
+   ｷ このｵﾌﾞｼﾞｪｸﾄは別の開発者または開発ﾌﾟﾛｾｽが現在使用しています。
+
+Weblets.ShowDeprecated.Caption=旧ﾊﾞｰｼﾞｮﾝ ｳｪﾌﾞﾚｯﾄの表示
+Weblets.ShowDeprecated.Tip=ｴﾃﾞｨﾀｰの旧ﾊﾞｰｼﾞｮﾝのｳｪﾌﾞﾚｯﾄの表示/非表示を切り替えます
+Weblets.CopyInline.Caption=ｲﾝﾗｲﾝのｺﾋﾟｰ
+Weblets.CopyInline.Tip=ｸﾘｯﾌﾟﾎﾞｰﾄﾞにｲﾝﾗｲﾝ ﾃﾝﾌﾟﾚｰﾄをｺﾋﾟｰします
+Weblets.PreviewInline.Caption=ｲﾝﾗｲﾝのﾌﾟﾚﾋﾞｭｰ
+Weblets.PreviewInline.Tip=ｲﾝﾗｲﾝ ﾃﾝﾌﾟﾚｰﾄをﾌﾟﾚﾋﾞｭｰします
+Weblets.ShowInline.Caption=ｲﾝﾗｲﾝの表示
+Weblets.ShowInline.Tip=ｴﾃﾞｨﾀｰのｲﾝﾗｲﾝ ｳｪﾌﾞﾚｯﾄの表示/非表示を切り替えます
+
+WebOutput.Copy.Caption=ｺﾋﾟｰ
+WebOutput.Rename.Caption=ﾘﾈｰﾑ
+WebOutput.ReapplyList.Caption=ﾘｽﾄをXSLに再適用
+WebOutput.CreateList.Caption=ﾘｽﾄの作成
+WebOutput.CreateList.Inline.Caption=ｲﾝﾗｲﾝ ﾘｽﾄの作成
+WebOutput.ReapplyList.Caption.Tip=ﾘｽﾄのXSLを新しいﾊﾞｰｼﾞｮﾝに取り替える
+
+Web.Errors.DescriptionNotProvided=記述は提供されませんでした
+Web.Errors.UnspecifiedError=詳細不明のｴﾗｰ
+Web.Errors.UnknownError=不明なｴﾗｰが発生しました
+
+Web.Invalid.Number.Rows=行の数が無効です
+Web.Invalid.Number.Cols=列の数が無効です
+
+*************************************************************
+*** Text Editor Context Menu                            *****
+*************************************************************
+Web.TextEditor.Undo.Caption=元に戻す(&U)
+Web.TextEditor.Redo.Caption=やり直す(&R)
+Web.TextEditor.Cut.Caption=切り取り(&T)
+Web.TextEditor.Copy.Caption=ｺﾋﾟｰ(&C)
+Web.TextEditor.Paste.Caption=貼り付け(&P)
+Web.TextEditor.Delete.Caption=削除
+Web.TextEditor.SelectAll.Caption=全て選択
+Web.TextEditor.Find.Caption=検索
+Web.TextEditor.FindAgain.Caption=次を検索
+Web.TextEditor.FindPrevious.Caption=前を検索
+Web.TextEditor.Replace.Caption=置換
+Web.TextEditor.GoTo.Caption=位置指定
+Web.TextEditor.OpenImport.Caption=編集を開・
+Web.TextEditor.InsertLT.Caption=挿入 ｽｸﾘﾌﾟﾄ < ｵﾍﾟﾚｰﾀ
+Web.TextEditor.Insert_GT.Caption=挿入 ｽｸﾘﾌﾟﾄ > ｵﾍﾟﾚｰﾀ
+Web.TextEditor.Insert_AMP.Caption=挿入 ｽｸﾘﾌﾟﾄ &&&& ｵﾍﾟﾚｰﾀ
+
+*************************************************************
+*** HTML Editor Context Menu                            *****
+*************************************************************
+Web.HTML.Undo.Caption=元に戻す(&U)
+Web.HTML.Redo.Caption=やり直す(&R)
+Web.HTML.Cut.Caption=切り取り(&T)
+Web.HTML.Copy.Caption=ｺﾋﾟｰ(&C)
+Web.HTML.Paste.Caption=貼り付け(&P)
+Web.HTML.DeleteList.Caption=全てのﾘｽﾄ削除 "%s"
+Web.HTML.Delete.Caption=削除
+Web.HTML.DeleteShallow.Caption=尞・(内容を除外)
+Web.HTML.PositionAbsolutely.Caption=ﾎﾟｼﾞｼｮﾝの固定
+Web.HTML.SizeToContent.Caption=ｻｲｽﾞ
+Web.HTML.SizeWidth.Caption=・
+Web.HTML.SizeHeight.Caption=ｂｳ
+Web.HTML.SizeBoth.Caption=両方
+Web.HTML.BringToTop.Caption=前に移動
+Web.HTML.SendToBack.Caption=後ろに戻す
+Web.HTML.RotateDesign.Caption=ﾃﾞｻﾞｲﾝの回転
+Web.HTML.SelectAll.Caption=全て選択
+Web.HTML.ViewSource.Caption=ｿｰｽの表示
+Web.HTML.InsertHTML.Caption=HTMLの挿入
+Web.HTML.InsertHTML.Table.Caption=Table...
+Web.HTML.InsertHTML.Anchor.Caption=Hyperlink
+Web.HTML.InsertHTML.Input.Caption=Input
+Web.HTML.InsertHTML.Input.InputText.Caption=Input Text
+Web.HTML.InsertHTML.Input.Text.Caption=Text
+Web.HTML.InsertHTML.Input.Button.Caption=Button
+Web.HTML.InsertHTML.Input.Checkbox.Caption=Checkbox
+Web.HTML.InsertHTML.Input.File.Caption=File
+Web.HTML.InsertHTML.Input.Hidden.Caption=Hidden
+Web.HTML.InsertHTML.Input.Image.Caption=Image
+Web.HTML.InsertHTML.Input.Password.Caption=Password
+Web.HTML.InsertHTML.Input.Radio.Caption=Radio
+Web.HTML.InsertHTML.Input.Reset.Caption=Reset
+Web.HTML.InsertHTML.Input.Submit.Caption=Submit
+Web.HTML.InsertHTML.Textarea.Caption=Textarea
+Web.HTML.InsertHTML.Image.Caption=Image
+Web.HTML.InsertHTML.Dropdown.Caption=Dropdown
+Web.HTML.InsertHTML.Listbox.Caption=Listbox
+Web.HTML.InsertHTML.Fieldset.Caption=Fieldset
+Web.HTML.InsertHTML.Label.Caption=Label %s%s
+Web.HTML.InsertHTML.Span.Caption=Span
+Web.HTML.InsertHTML.Div.Caption=Div
+Web.HTML.InsertHTML.OL.Caption=Ordered list
+Web.HTML.InsertHTML.UL.Caption=Unordered list
+Web.HTML.InsertHTML.ListItem.Caption=List Item
+Web.HTML.InsertHTML.Form.Caption=LANSA Form
+Web.HTML.InsertHTML5.Caption=HTML 5の挿入
+Web.HTML.InsertHTML5.Input.Caption=Input
+Web.HTML.InsertHTML5.Input.TextReq.Caption=Input Text (Required)
+Web.HTML.InsertHTML5.Input.TextReq2.Caption=Text (Required)
+Web.HTML.InsertHTML5.Input.EMail.Caption=EMail
+Web.HTML.InsertHTML5.Input.Date.Caption=Date
+Web.HTML.InsertHTML5.Input.Range.Caption=Range
+Web.HTML.InsertHTML5.Input.Search.Caption=Search
+Web.HTML.InsertHTML5.Input.Tel.Caption=Tel
+Web.HTML.InsertHTML5.Input.Color.Caption=Color
+Web.HTML.InsertHTML5.Input.Number.Caption=Number
+Web.HTML.InsertHTML5.Header.Caption=Header
+Web.HTML.InsertHTML5.HGroup.Caption=HGroup
+Web.HTML.InsertHTML5.Nav.Caption=Nav
+Web.HTML.InsertHTML5.Section.Caption=Section
+Web.HTML.InsertHTML5.Article.Caption=Article
+Web.HTML.InsertHTML5.Footer.Caption=Footer
+Web.HTML.InsertHTML5.Figure.Caption=Figure
+Web.HTML.InsertHTML5.FigCaption.Caption=Figcaption
+Web.HTML.InsertHTML5.Audio.Caption=Audio
+Web.HTML.InsertHTML5.Video.Caption=Video
+Web.HTML.InsertHTML5.Canvas.Caption=Canvas
+Web.HTML.InsertHTML5.Aside.Caption=Aside
+Web.HTML.InsertHTML5.Time.Caption=Time
+Web.HTML.InsertCustomHTML.Caption=ｶｽﾀﾑ HTMLの挿入...
+Web.HTML.Weblet.Edit.Caption=開く
+Web.HTML.Weblet.AjaxCreateWr.Caption=AJAX webroutine の作成
+
+Web.HTML.Weblet.ReplaceWithInputField.Caption=入力ﾌｨｰﾙﾄﾞと置換
+Web.HTML.Weblet.ReplaceWithOutputField.Caption=出力ﾌｨｰﾙﾄﾞと置換
+Web.HTML.Weblet.ReplaceWithHiddenField.Caption=非表示ﾌｨｰﾙﾄﾞと置換
+Web.HTML.Weblet.ReplaceWithDefault.Caption=省略値と置換
+
+Web.HTML.ContentArea.Caption="%s"のｺﾝﾃﾝﾂ ｴﾘｱ
+Web.HTML.ContentArea.Replace.Caption=ｺﾝﾃﾝﾂを置換
+Web.HTML.ContentArea.Expand.Caption=ｺﾝﾃﾝﾂを追加
+Web.HTML.ContentArea.Reset.Caption=ｺﾝﾃﾝﾂをﾘｾｯﾄ
+Web.HTML.FieldCaption.ChangeToLabel.Caption=ﾗﾍﾞﾙ変更
+Web.HTML.FieldCaption.ChangeToDescription.Caption=記述変更
+Web.HTML.FieldCaption.ChangeToHeading.Caption=欄見出し変更
+Web.HTML.FieldCaption.ChangeToHeading1.Caption=1
+Web.HTML.FieldCaption.ChangeToHeading2.Caption=2
+Web.HTML.FieldCaption.ChangeToHeading3.Caption=3
+
+Web.HTML.Field.ChangeToInputField.Caption=入力ﾌｨｰﾙﾄﾞに変更
+Web.HTML.Field.ChangeToOutputField.Caption=出力ﾌｨｰﾙﾄﾞに変更
+Web.HTML.Field.ChangeToHiddenField.Caption=非表示ﾌｨｰﾙﾄﾞに変更
+Web.HTML.Field.ChangeToDefault.Caption=省略値に変更
+
+Web.HTML.InlineWeblet.Refresh.Caption=インライン ウェブレットの更新
+Web.HTML.InlineWeblet.Properties.Caption=Properties
+Web.HTML.InlineWeblet.Properties.Element.Caption=Element...
+Web.HTML.InlineWeblet.Properties.TagTree.Caption=Tag Tree...
+Web.HTML.InlineWeblet.Properties.TagList.Caption=Tag List...
+Web.HTML.InlineWeblet.Properties.Ancestors.Caption=Ancestors...
+Web.HTML.Table.Caption=ﾃｰﾌﾞﾙ
+Web.HTML.Table.CreateHeader.Caption=ﾍｯﾀﾞの作成
+Web.HTML.Table.CreateFooter.Caption=ﾌｯﾀｰの作成
+Web.HTML.Table.CreateCaption.Caption=ｷｬﾌﾟｼｮﾝの作成
+Web.HTML.Table.DeleteHeader.Caption=ﾍｯﾀﾞの削除
+Web.HTML.Table.DeleteFooter.Caption=ﾌｯﾀｰの削除
+Web.HTML.Table.DeleteCaption.Caption=ｷｬﾌﾟｼｮﾝの削除
+Web.HTML.Table.SelectHeader.Caption=ﾍｯﾀﾞ選択
+Web.HTML.Table.SelectBody.Caption=ﾎﾞﾃﾞｨ選択
+Web.HTML.Table.SelectFooter.Caption=ﾌｯﾀ選択
+Web.HTML.Table.SelectCaption.Caption=ｷｬﾌﾟｼｮﾝ選択
+Web.HTML.Table.SelectAll.Caption=全て選択
+Web.HTML.Table.Row.Caption=ﾃｰﾌﾞﾙ ｱｲﾃﾑ
+Web.HTML.Table.InsertRow.Caption=sの挿入...
+Web.HTML.Table.AddRow.Caption=行の追加...
+Web.HTML.Table.DeleteRow.Caption=sの削除...
+Web.HTML.Table.InsertColumn.Caption=列の挿入...
+Web.HTML.Table.AddColumn.Caption=列の追加...
+Web.HTML.Table.DeleteColumn.Caption=列の削除...
+Web.HTML.Table.InsertCell.Caption=ｾﾙの挿入...
+Web.HTML.Table.AddCell.Caption=ｾﾙの追加...
+Web.HTML.Table.DeleteCell.Caption=ｾﾙの削除...
+Web.HTML.Table.SelectRow.Caption=sの選択
+Web.HTML.Text.Caption=ﾃｷｽﾄ
+Web.HTML.Text.Bold.Caption=太字
+Web.HTML.Text.Italic.Caption=斜体
+Web.HTML.Text.Underline.Caption=下線
+Web.HTML.Text.Subscript.Caption=下付き文字
+Web.HTML.Text.Superscript.Caption=纒tき文字
+Web.HTML.Text.Strong.Caption=強い強調
+Web.HTML.Text.Emphasis.Caption=強調
+
+*************************************************************
+*** Command Actions                                     *****
+*************************************************************
+Web.Action.XslXmlChanges=XSL/XML 変更
+Web.Action.Custom2=ｶｽﾀﾑ ﾃﾞｻﾞｲﾅｰ
+Web.Action.Custom=ｶｽﾀﾑ ﾃﾞｻﾞｲﾅｰ
+Web.Action.PropertyValue=ﾌﾟﾛﾊﾟﾃｨ値の変更
+Web.Action.UpdateDependencies=依存関係の更新
+Web.Action.CommitDependencies=依存関係の確定
+Web.Action.DropWeblet=ｳｪﾌﾞﾚｯﾄのﾄﾞﾛｯﾌﾟ:
+Web.Action.Drop2=ﾄﾞﾛｯﾌﾟ
+Web.Action.Drop3=ﾄﾞﾛｯﾌﾟ
+Web.Action.DropDesignContent=ﾃﾞｻﾞｲﾝのｺﾝﾃﾝﾂをﾄﾞﾛｯﾌﾟ
+Web.Action.Delete=削除
+Web.Action.Resize=ｻｲｽﾞ変更
+Web.Action.Move=移動
+Web.Action.Paste=貼り付け
+Web.Action.TableCellResize.Width=ﾃｰﾌﾞﾙ ｾﾙ幅のｻｲｽﾞ変更
+Web.Action.TableCellResize.Height=ﾃｰﾌﾞﾙ ｾﾙ高のｻｲｽﾞ変更
+Web.Action.SetPropertyValue=ﾌﾟﾛﾊﾟﾃｨ値設定
+Web.Action.SetPropertyValue.Ajax=Ajax経由のﾌﾟﾛﾊﾟﾃｨ値設定
+Web.Action.SetStyleValue=ｽﾀｲﾙ値設定
+Web.Action.RefreshInlineWeblets=期限切れのｲﾝﾗｲﾝ ｳｪﾌﾞﾚｯﾄのﾘﾌﾚｯｼｭ
+Web.Action.Insert.BR=挿入 <br>
+Web.Action.Typing=入力
+Web.Action.UpdateWebletPropertyValue=ｳｪﾌﾞﾚｯﾄのﾌﾟﾛﾊﾟﾃｨ値更新
+Web.Action.SetFieldValue=ﾌｨｰﾙﾄﾞ値設定
+Web.Action.SizeToContent=ｺﾝﾃﾝﾂへのｻｲｽﾞ合わせ
+Web.Action.Insert.Input=入力の挿入
+Web.Action.Insert.Input.Table=ﾃｰﾌﾞﾙの挿入
+Web.Action.Insert.Input.Anchor=ﾊｲﾊﾟｰﾘﾝｸの挿入
+Web.Action.Insert.Input.Textarea=ﾃｷｽﾄｴﾘｱの挿入
+Web.Action.Insert.Input.Image=ｲﾒｰｼﾞの挿入
+Web.Action.Insert.Input.Dropdown=ﾄﾞﾛｯﾌﾟﾀﾞｳﾝの挿入
+Web.Action.Insert.Input.Listbox=ﾘｽﾄﾎﾞｯｸｽの挿入
+Web.Action.Insert.Input.Fieldset=ﾌｨｰﾙﾄﾞｾｯﾄの挿入
+Web.Action.Insert.Input.Label=ﾗﾍﾞﾙの挿入
+Web.Action.Insert.Input.Span=Spanの挿入
+Web.Action.Insert.Input.Div=Divの導入
+Web.Action.Insert.Input.Ol=順序指定ﾘｽﾄの挿入
+Web.Action.Insert.Input.Ul=順序指定なしﾘｽﾄの挿入
+Web.Action.Insert.Input.Li=ﾘｽﾄ ｱｲﾃﾑの挿入
+Web.Action.Insert.Input.LansaForm=LANSA ﾌｫｰﾑ挿入
+Web.Action.Insert.Input.Header=ﾍｯﾀﾞｰの挿入
+Web.Action.Insert.Input.HGroup=HGroupの挿入
+Web.Action.Insert.Input.Nav=Navの挿入
+Web.Action.Insert.Input.Section=ｾｸｼｮﾝの挿入
+Web.Action.Insert.Input.Article=ｱｰﾃｨｸﾙの挿入
+Web.Action.Insert.Input.Footer=ﾌｯﾀｰの挿入
+Web.Action.Insert.Input.Figure=図の挿入
+Web.Action.Insert.Input.FigCaption=図ｷｬﾌﾟｼｮﾝの挿入
+Web.Action.Insert.Input.Audio=音声の挿入
+Web.Action.Insert.Input.Video=動画の挿入
+Web.Action.Insert.Input.Canvas=ｷｬﾝﾊﾞｽの挿入
+Web.Action.Insert.Input.Aside=Asideの挿入
+Web.Action.Insert.Input.Time=時間の挿入
+Web.Action.ContentArea.Replace=ｺﾝﾃﾝﾂ ｴﾘｱの置換
+Web.Action.ContentArea.Expand=ｺﾝﾃﾝﾂ ｴﾘｱの拡大
+Web.Action.ContentArea.Reset=ｺﾝﾃﾝﾂ ｴﾘｱの再設定
+Web.Action.ChangeToHeading1=ﾍｯﾀﾞｰ 1 に変更
+Web.Action.ChangeToHeading2=ﾍｯﾀﾞｰ 2 に変更
+Web.Action.ChangeToHeading3=ﾍｯﾀﾞｰ 3 に変更
+
+*************************************************************
+*** Preview View                                        *****
+*************************************************************
+Preview.Caption=ﾌﾟﾚﾋﾞｭｰ
+Preview.Delete.Tip=ﾌﾟﾚﾋﾞｭｰ ﾋﾞｭｰをﾘｾｯﾄする
+
+*************************************************************
+*** Version Control View                                *****
+*************************************************************
+VersionControl.Caption=ﾊﾞｰｼﾞｮﾝ管理
+
+*************************************************************
+*** Refresh Inlined Weblets Dialog                      *****
+*************************************************************
+
+WebRefreshInlined.Title=古いｲﾝﾗｲﾝ ｳｪﾌﾞﾚｯﾄの更新
+WebRefreshInlined.Refresh.Caption=更新
+WebRefreshInlined.Message=以下のｲﾝﾗｲﾝ ｳｪﾌﾞﾚｯﾄがこのWeb ﾃﾞｻﾞｲﾝに配置された後、更新されています。 更新したいｳｪﾌﾞﾚｯﾄを選択してください。
+WebRefreshInlined.Message.Wait=ｺﾝﾎﾟｰﾈﾝﾄのｲﾝﾗｲﾝ ｳｪﾌﾞﾚｯﾄを検索している間、お待ちください
+WebRefreshInlined.Message.Uptodate=下に表示されるｲﾝﾗｲﾝ ｳｪﾌﾞﾚｯﾄを更新してください。
+WebRefreshInlined.Message.Cancelled= ( ｲﾝﾗｲﾝ ｳｪﾌﾞﾚｯﾄの検索はｷｬﾝｾﾙされました )
+WebRefreshInlined.Col1.Caption=名前
+WebRefreshInlined.Col2.Caption=記述
+WebRefreshInlined.Col3.Pending=処理中
+WebRefreshInlined.Col3.Cancelled=ｷｬﾝｾﾙされた
+WebRefreshInlined.Col3.None=ｲﾝﾗｲﾝ ｳｪﾌﾞﾚｯﾄは見つかりませんでした
+WebRefreshInlined.Col3.Complete=ｲﾝﾗｲﾝ ｳｪﾌﾞﾚｯﾄが更新されました
+WebRefreshInlined.Col3.MasterOnly=ﾏｽﾀｰにのみ存在するｵﾌﾞｼﾞｪｸﾄは更新できません
+WebRefreshInlined.Col3.SourceErrors=ｺﾝﾎﾟｰﾈﾝﾄにｴﾗｰがあり、更新できません
+WebRefreshInlined.Col3.DesignErrors=ﾃﾞｻﾞｲﾝ &1 にｴﾗｰがあるため、ｺﾝﾎﾟｰﾈﾝﾄは更新できません。
+WebRefreshInlined.Col3.NoEdit=ｺﾝﾎﾟｰﾈﾝﾄの編集はｻﾎﾟｰﾄされていません
+WebRefreshInlined.Col3.NotLocked=ｺﾝﾎﾟｰﾈﾝﾄがﾛｯｸできません
+WebRefreshInlined.Message.Design.Wait=Webroutine ﾃﾞｻﾞｲﾝのｲﾝﾗｲﾝ ｳｪﾌﾞﾚｯﾄを検索している間、お待ちください
+WebRefreshInlined.Message.WAM.Wait=WAMのｲﾝﾗｲﾝ ｳｪﾌﾞﾚｯﾄを検索している間、お待ちください
+
+*************************************************************
+*** Manage External Resources Dialog                    *****
+*************************************************************
+
+WebManageExternalResources.Title=外部ﾘｿｰｽの管理
+WebManageExternalResources.Styles=ｽﾀｲﾙ
+WebManageExternalResources.Scripts=ｽｸﾘﾌﾟﾄ
+WebManageExternalResources.Add=追加...
+WebManageExternalResources.Delete=削除
+WebManageExternalResources.MoveUp=上へ移動
+WebManageExternalResources.MoveDown=下へ移動
+WebManageExternalResources.Name=名前
+WebManageExternalResources.FileName=ﾌｧｲﾙ名
+WebManageExternalResources.Description=記述
+WebManageExternalResources.Location=参照場所
+*** @TRANS NEW
+WebManageExternalResources.Header=Header
+WebManageExternalResources.Body.Top=Body Top
+WebManageExternalResources.Body.Bottom=Body Bottom
+WebManageExternalResources.Async=Async
+*** @TRANS END
+
+*************************************************************
+*** CSS Units Dialog                                    *****
+*************************************************************
+
+WebCSSUnits.Title=CSS単位
+WebRefreshInlined.Absolute.Message=絶対単位の長さは、出力媒体に大きく依存するため、相対単位よりも便利ではありません。
+WebRefreshInlined.Relative.Message=相対単位と絶対単位の両方の長さの単位をｻﾎﾟｰﾄしています。相対単位は、別の長さのﾌﾟﾛﾊﾟﾃｨに対して相対的な長さを与え、異なる媒体でも調整されるため、好まれて使用されます。
+WebRefreshInlined.Percentage.Message=ﾊﾟｰｾﾝﾃｰｼﾞ(割合)の値は、他の値に対して相対的です。(殆どの場合、ﾊﾟｰｾﾝﾃｰｼﾞの値は要素のｺﾝﾃﾅに対して相対的です)
+WebRefreshInlined.UnitType=単位ﾀｲﾌﾟ
+WebCSSUnits.Absolute=絶対単位
+WebCSSUnits.Relative=相対単位
+WebRefreshInlined.Percentage=ﾊﾟｰｾﾝﾃｰｼﾞ(割合)
+WebRefreshInlined.UnitName=単位名
+WebRefreshInlined.Units=単位
+WebRefreshInlined.UnitType.em=em (ems, 適用要素のfont-size（ﾌｫﾝﾄｻｲｽﾞ）を「1」としたその倍率)
+WebRefreshInlined.UnitType.ex=ex (x-height, 適用要素の英小文字「x」1文字の高さを「1」とする)
+WebRefreshInlined.UnitType.px=px (ﾋﾟｸｾﾙ, ﾕｰｻﾞｰの画面の解像度に依存します)
+WebRefreshInlined.UnitType.in=in (ｲﾝﾁ; 1in=2.54cm)
+WebRefreshInlined.UnitType.cm=cm (ｾﾝﾁﾒｰﾄﾙ; 1cm=10mm)
+WebRefreshInlined.UnitType.mm=mm (ﾐﾘﾒｰﾄﾙ)
+WebRefreshInlined.UnitType.pt=pt (ﾎﾟｲﾝﾄ; 1pt=1/72in)
+WebRefreshInlined.UnitType.pc=pc (ﾊﾟｲｶ; 1pc=12pt)
+
+*************************************************************
+*** Version Control Dialog                              *****
+*************************************************************
+
+VersionControlDialog.Title=ﾊﾞｰｼﾞｮﾝ管理 - &1
+VersionControlDialog.Column.Name=名前
+VersionControlDialog.Column.Status=状態
+VersionControlDialog.Column.Result=結果
+VersionControlDialog.Column.Results=結果
+VersionControlDialog.Result.Saved=保存済み
+VersionControlDialog.Result.Failed=失敗
+VersionControlDialog.Result.Ignored=無視
+VersionControlDialog.Result.Updated=更新
+VersionControlDialog.Result.Cancelled=ｷｬﾝｾﾙ
+VersionControlDialog.Checkbox.Caption=同一のものを含む
+VersionControlDialog.Failed.Header=&1 個のｵﾌﾞｼﾞｪｸﾄが失敗しました
+VersionControlDialog.Updated.Header=&1 個のｵﾌﾞｼﾞｪｸﾄが正しく更新されました
+VersionControlDialog.Saved.Header=&1 個のｵﾌﾞｼﾞｪｸﾄが正しく保存されました
+VersionControlDialog.Ignored.Header=&1 個のｵﾌﾞｼﾞｪｸﾄが無視されました
+VersionControlDialog.Cancelled.Header=&1 個のｵﾌﾞｼﾞｪｸﾄがｷｬﾝｾﾙされました
+VersionControlDialog.Status.Unknown=不明
+VersionControlDialog.Status.Identical=同じﾊﾞｰｼﾞｮﾝ
+VersionControlDialog.Status.Different=異なるﾊﾞｰｼﾞｮﾝ
+VersionControlDialog.Status.LocalOnly=ﾘﾎﾟｼﾞﾄﾘのみ
+VersionControlDialog.Status.MasterOnly=ﾊﾞｰｼﾞｮﾝ管理のみ
+VersionControlDialog.Status.InvalidType=無効なｵﾌﾞｼﾞｪｸﾄ ﾀｲﾌﾟ
+VersionControlDialog.Error.NotFound=&1 はﾘﾎﾟｼﾞﾄﾘに存在しません
+VersionControlDialog.Error.OpenInEditor=&1 は現在ｴﾃﾞｨﾀｰで開かれています
+VersionControlDialog.Error.ProcessOpenInEditor=ﾌﾟﾛｾｽ &1 (ﾌｧﾝｸｼｮﾝ &2)は現在ｴﾃﾞｨﾀｰで開かれています。
+VersionControlDialog.Msg.RepUpToDate=ﾘﾎﾟｼﾞﾄﾘ定義は最新です 
+VersionControlDialog.Msg.VcsUpToDate=作業ﾌｫﾙﾀﾞ定義は最新です 
+
+*************************************************************
+*** Webroutines View                                    *****
+*************************************************************
+
+Web.Webroutines.Caption=Webroutine
+Web.Webroutines.Name.Column.Caption=名前
+Web.Webroutines.Description.Column.Caption=記述
+
+
+*************************************************************
+*** Find Dot Net Assemblies Dialog                      *****
+*************************************************************
+
+FindNetAssembliesDialog.WaitMessage=Searching for assemblies in registered .NET assembly folders. Please Wait...
+FindNetAssembliesDialog.Caption=.NET ｱｾﾝﾌﾞﾘの検索
+FindNetAssembliesDialog.NameColumn=ｺﾝﾎﾟｰﾈﾝﾄ名
+FindNetAssembliesDialog.VersionColumn=ﾊﾞｰｼﾞｮﾝ
+FindNetAssembliesDialog.RuntimeVersionColumn=ﾗﾝﾀｲﾑ ﾊﾞｰｼﾞｮﾝ
+FindNetAssembliesDialog.PathColumn=ﾊﾟｽ
+FindNetAssembliesDialog.RegistryColumn=ﾚｼﾞｽﾄﾘ ｷｰ
+FindNetAssembliesDialog.FindFile=ﾌｧｲﾙの検索
+
+*************************************************************
+*** Html Attributes Dialog                              *****
+*************************************************************
+
+HtmlAttributes.Form.Caption=HTML属性
+HtmlAttributes.Main.Caption=ﾌｫｰﾑ HTML ﾍﾟｰｼﾞ属性を設定
+
+*************************************************************
+*** Editor Home Page                                    *****
+*************************************************************
+
+Editor.Home.Views.Caption=ﾋﾞｭｰ
+Editor.Home.Options.Caption=ｵﾌﾟｼｮﾝ
+Editor.Home.News.Caption=ﾆｭｰｽ
+Editor.Home.News.Contents.Caption=Visual LANSA開発者ｾﾝﾀｰ
+Editor.Home.Support.Caption=ｻﾎﾟｰﾄ
+Editor.Home.Support.Contents.Caption=Visual LANSAｻﾎﾟｰﾄ ｾﾝﾀｰ
+Editor.Home.Demos.Caption=ﾃﾞﾓ
+Editor.Home.Demos.Contents.Caption=Visual LANSAﾃﾞﾓ
+
+**************************************************************************
+*** Editor Ribbon Key Tips - Grouped by scope to help avoid conflict *****
+**************************************************************************
+
+**************************************************************************
+*** Ribbon Main Editor Scope                                         *****
+**************************************************************************
+Editor.Ribbon.Debug.Debug.KeyTip=DB
+Editor.Design.KeyTip=DS
+Editor.Layout.KeyTip=DL
+Editor.Ribbon.AppMenu.KeyTip=F
+Editor.Ribbon.HomeSheet.KeyTip=H
+Editor.Ribbon.ToolsSheet.KeyTip=T
+
+**************************************************************************
+*** Ribbon Application Menu Scope                                    *****
+**************************************************************************
+Editor.Ribbon.KeyTip.Close=C
+Editor.Ribbon.KeyTip.Options=E
+Editor.Ribbon.Menu.New.KeyTip=N
+Editor.Ribbon.KeyTip.Open=O
+Editor.Ribbon.KeyTip.Print=P
+Editor.Ribbon.KeyTip.Save=S
+Editor.Ribbon.KeyTip.Exit=X
+
+**************************************************************************
+*** Ribbon Application Home Sheet Scope                              *****
+**************************************************************************
+
+Editor.Ribbon.KeyTip.Copy=C
+Editor.Ribbon.KeyTip.Execute=E
+Editor.Ribbon.KeyTip.Debug=D
+Editor.Ribbon.KeyTip.ErrorLogs=G
+Editor.Ribbon.KeyTip.ExecuteHistory=H
+Editor.Ribbon.Menu.LastOpened.KeyTip=L
+Editor.Ribbon.BuildGroup.Dialog.KeyTip=RB
+Editor.Ribbon.Debug.Execute.Dialog.KeyTip=RE
+Editor.Ribbon.KeyTip.RepositoryFind=RF
+Editor.Ribbon.KeyTip.OpenComp=RO
+Editor.Ribbon.RepositoryGroup.Dialog.KeyTip=RR
+Editor.Ribbon.Views.KeyTip=RS
+Editor.Ribbon.KeyTip.Views=RV
+Editor.Ribbon.RDMLX.KeyTip=RX
+Editor.Ribbon.KeyTip.Paste=V
+Editor.Ribbon.KeyTip.Cut=X
+Editor.Ribbon.ClipboardGroup.KeyTip=ZC
+Editor.Ribbon.DesignerGroup.KeyTip=ZD
+Editor.Ribbon.EditingGroup.KeyTip=ZF
+Editor.Ribbon.BuildGroup.KeyTip=ZM
+Editor.Ribbon.RepositoryGroup.KeyTip=ZR
+Editor.Ribbon.RemoteSystems.KeyTip=ZS
+Editor.Ribbon.Runtime.KeyTip=ZX
+
+**************************************************************************
+*** Ribbon Application Design Sheet Scope                            *****
+**************************************************************************
+
+Editor.Form.Design.KeyTip=ZD
+Editor.Layouts.Manager.KeyTip=ZL
+Editor.Styles.Attach.KeyTip=ZS
+
+**************************************************************************
+*** Ribbon Application Debug Sheet Scope                             *****
+**************************************************************************
+
+Editor.Ribbon.KeyTip.DebugGo=
+Editor.Ribbon.KeyTip.DebugStepInto=I
+Editor.Ribbon.KeyTip.DebugStepOver=O
+Editor.Ribbon.DebuggerGroup.KeyTip=ZD
+
+**************************************************************************
+*** Ribbon Application Tools Sheet Scope                             *****
+**************************************************************************
+
+Editor.Ribbon.KeyTip.Vlf=F
+Editor.Ribbon.KeyTip.MessageFiles=M
+Editor.Ribbon.Utilities.KeyTip=ZU
+Editor.Ribbon.InternalUseGroup.KeyTip=ZI
+Editor.Ribbon.Applications.KeyTip=ZA
+
+**************************************************************************
+*** Ribbon Application Design Sheet Scope                            *****
+**************************************************************************
+
+Editor.Web.Design.KeyTip=ZW
+Editor.Layouts.Attach.Item.KeyTip=ZA
+Editor.Layouts.Table.Item.KeyTip=ZT
+Editor.Layouts.Margins.KeyTip=ZM
+
+Editor.Ribbon.AppMenu.Caption=ﾌｧｲﾙ
+Editor.Ribbon.HomeSheet.Caption=ﾎｰﾑ
+Editor.Ribbon.ToolsSheet.Caption=ﾂｰﾙ
+Editor.Ribbon.ClipboardGroup.Caption=ｸﾘｯﾌﾟﾎﾞｰﾄﾞ
+Editor.Ribbon.FontsColorsGroup.Caption=ﾌｫﾝﾄ
+Editor.Ribbon.Font.Title=ﾌｫﾝﾄ
+Editor.Ribbon.Font.Hint=ｿｰｽ ﾋﾞｭｰのﾌｫﾝﾄを設定するﾌｫﾝﾄ ﾀﾞｲｱﾛｸﾞを表示
+Editor.Ribbon.Colors.Title=色
+Editor.Ribbon.Colors.Hint=ｿｰｽ ﾋﾞｭｰの色を設定する色ﾀﾞｲｱﾛｸﾞを表示
+Editor.Ribbon.Audit.On=監査オン
+Editor.Ribbon.Audit.Off=監査オフ
+Editor.Ribbon.BuildGroup.Caption=ｺﾝﾊﾟｲﾙ
+Editor.Ribbon.BuildGroup.Options.Caption=ｵﾌﾟｼｮﾝ
+Editor.Ribbon.BuildGroup.CompileOptions.Caption=ｺﾝﾊﾟｲﾙ ﾀﾞｲｱﾛｸﾞ
+Editor.Ribbon.BuildGroup.ExecuteOptions.Caption=実行ﾀﾞｲｱﾛｸﾞ
+Editor.Ribbon.InternalUseGroup.Caption=内部使用
+Editor.Ribbon.EditingGroup.Caption=検索
+Editor.Ribbon.File.Caption=ﾌｧｲﾙ
+Editor.Ribbon.Applications.Caption=Visual LANSA ｱﾌﾟﾘｹｰｼｮﾝ
+Editor.Ribbon.Wizards.Caption=
+Editor.Ribbon.Vlf.Caption=VL ﾌﾚｰﾑﾜｰｸ
+Editor.Ribbon.Logs.Caption=ｴﾗｰ ﾛｸﾞ
+Editor.Ribbon.RemoteSystems.Caption=ﾘﾓｰﾄ ｼｽﾃﾑ
+Editor.Ribbon.Utilities.Caption=ﾕｰﾃｨﾘﾃｨ
+
+Editor.Layouts.Helper.Caption=ﾚｲｱｳﾄ ﾍﾙﾊﾟｰ
+Editor.Layouts.Helper.Hint=ﾚｲｱｳﾄ ﾍﾙﾊﾟｰ ﾋﾞｭｰ
+Editor.Layouts.ApplyView.Caption=ﾚｲｱｳﾄの適用
+Editor.Layouts.ApplyView.Hint=ﾚｲｱｳﾄをｺﾝﾎﾟｰﾈﾝﾄに適用
+Editor.Layouts.EditView.Caption=ﾚｲｱｳﾄの編集
+Editor.Layouts.EditView.Hint=ﾚｲｱｳﾄを編集
+Editor.Layouts.Table.Caption=新規ﾃｰﾌﾞﾙ 
+Editor.Layouts.NewTable.Caption=&1*&2 ﾃｰﾌﾞﾙ
+Editor.Layouts.Manager.Caption=ﾚｲｱｳﾄ ﾏﾈ-ｼﾞｬｰ
+Editor.Layouts.Manager.Hint=適用されたﾚｲｱｳﾄ ﾏﾈ-ｼﾞｬ-の詳細
+Editor.Layouts.Item.Caption=ﾚｲｱｳﾄ項目
+Editor.Layouts.Item.Hint=ﾚｲｱｳﾄ項目の詳細
+Editor.Layouts.Preview.Caption=ﾌﾟﾚﾋﾞｭｰ
+Editor.Layouts.Preview.Hint=ﾚｲｱｳﾄ ﾌﾟﾚﾋﾞｭｰ
+Editor.Layouts.Margin.Caption=余白
+Editor.Layouts.Margin.Hint=余白
+Editor.Layouts.Min.Caption=最小
+Editor.Layouts.Min.Hint=最小
+Editor.Layouts.Max.Caption=最大
+Editor.Layouts.Max.Hint=最大
+
+Editor.Styles.BordersGroup.Caption=枠線とｺｰﾅｰ
+Editor.Styles.Background.Caption=背景
+Editor.Styles.Border.Top.Caption=上枠線
+Editor.Styles.Border.Bottom.Caption=下枠線
+Editor.Styles.Border.Left.Caption=左枠線
+Editor.Styles.Border.Right.Caption=右枠線
+Editor.Styles.Corner.TopLeft.Caption=左上ｺｰﾅｰ
+Editor.Styles.Corner.TopRight.Caption=右上ｺｰﾅｰ
+Editor.Styles.Corner.BottomLeft.Caption=左下ｺｰﾅｰ
+Editor.Styles.Corner.BottomRight.Caption=右下ｺｰﾅｰ
+Editor.Styles.Style.ForegroundBrush.Title=前景
+Editor.Styles.Style.ForegroundBrush.Hint=前景ﾌﾞﾗｼをｽﾀｲﾙに適用する。
+Editor.Styles.Style.BackgroundBrush.Title=背景
+Editor.Styles.Style.BackgroundBrush.Hint=背景ﾌﾞﾗｼをｽﾀｲﾙに適用する。
+Editor.Styles.Style.BorderBrush.Title=枠線
+Editor.Styles.Style.BorderBrush.Hint=枠線ﾌﾞﾗｼをｽﾀｲﾙに適用する。
+Editor.Styles.Style.Caption=ｽﾀｲﾙ
+Editor.Styles.Brush.Caption=ﾌﾞﾗｼ
+Editor.Styles.Ribbon.Caption=ﾘﾎﾞﾝ
+Editor.Styles.Delete.Title=削除
+Editor.Styles.Delete.Hint=現在のｺﾝﾄﾛｰﾙからｽﾀｲﾙを解除
+Editor.Styles.New.Caption=新規ｽﾀｲﾙ
+Editor.Styles.New.Hint=ｽﾀｲﾙを作成して、現在のｺﾝﾄﾛｰﾙに添付します。
+Editor.Styles.ActiveVisualStyle.Caption=ﾃﾞｻﾞｲﾝ ｽﾀｲﾙの設定
+Editor.Styles.ActiveVisualStyle.Title=ｱｸﾃｨﾌﾞなﾃﾞｻﾞｲﾝ ｽﾀｲﾙ
+Editor.Styles.ActiveVisualStyle.Hint=ﾋﾞｼﾞｭｱﾙ ｽﾀｲﾙをｱｸﾃｨﾌﾞ化してﾃﾞｻﾞｲﾅｰで使用できるようにします。
+Editor.Styles.ActiveVisualStyleEmpty.Caption=(ﾋﾞｼﾞｭｱﾙ ｽﾀｲﾙにｽﾀｲﾙを含まない)
+Editor.Styles.Attach.Caption=ｽﾀｲﾙ
+Editor.Styles.Attach.Hint=現在のｺﾝﾄﾛｰﾙのｽﾀｲﾙ設定
+Editor.Styles.AttachPrivate.Caption=ﾌﾟﾗｲﾍﾞｰﾄ
+Editor.Styles.AttachPrivate.Hint=現在のｺﾝﾄﾛｰﾙのﾌﾟﾗｲﾍﾞｰﾄ ｽﾀｲﾙ設定
+Editor.Styles.AttachMouseOver.Caption=ﾏｳｽｵｰﾊﾞｰ
+Editor.Styles.AttachMouseOver.Hint=現在のｺﾝﾄﾛｰﾙのﾏｳｽｵｰﾊﾞｰ ｽﾀｲﾙ設定
+Editor.Styles.Remove.Caption=ﾌﾟﾛﾊﾟﾃｨ削除
+Editor.Styles.Remove.Hint=ｽﾀｲﾙのﾌﾟﾛﾊﾟﾃｨを省略値を継承した状態に再設定します。
+
+
+Editor.Layout.Manager.Caption=マネージャ
+Editor.Layout.Manager.Hint=現在のコントロール用のレイアウト マネージャ設定
+Editor.Layout.Item.Caption=アイテム
+Editor.Layout.Item.Hint=現在のコントロール用のレイアウト アイテム設定
+Editor.Layout.New.Caption=新規レイアウト
+Editor.Layout.New.Hint=レイアウトを作成し、現在のコントロールに添付します。
+
+
+Editor.Layouts.Attach.Item.Caption=添付項目
+Editor.Layouts.Attach.Delete.Title=削除
+Editor.Layouts.Attach.Delete.Hint=現在のｺﾝﾄﾛｰﾙからﾚｲｱｳﾄ ﾏﾈ-ｼﾞｬ-を外す。
+Editor.Layouts.Item.Delete.Title=デタッチ
+Editor.Layouts.Item.Delete.Hint=親ﾚｲｱｳﾄからｺﾝﾄﾛｰﾙを外す。
+Editor.Layouts.Attach.Top.Title=上
+Editor.Layouts.Attach.Top.Hint=ｺﾝﾄﾛｰﾙを親の上に添付する。
+Editor.Layouts.Attach.Bottom.Title=下
+Editor.Layouts.Attach.Bottom.Hint=ｺﾝﾄﾛｰﾙを親の下に添付する。
+Editor.Layouts.Attach.Left.Title=左
+Editor.Layouts.Attach.Left.Hint=ｺﾝﾄﾛｰﾙを親の左側に添付する。
+Editor.Layouts.Attach.Right.Title=右
+Editor.Layouts.Attach.Right.Hint=ｺﾝﾄﾛｰﾙを親の右側に添付する。
+Editor.Layouts.Attach.Client.Title=中央
+Editor.Layouts.Attach.Client.Hint=ｺﾝﾄﾛｰﾙを親の中央に添付する。
+Editor.Layouts.Attach.Title=添付
+Editor.Layouts.Attach.Hint=現在のｺﾝﾄﾛｰﾙの添付ﾚｲｱｳﾄ ﾏﾈｰｼﾞｬｰを作成する。
+Editor.Layouts.Table.Hint=現在のｺﾝﾄﾛｰﾙのﾃｰﾌﾞﾙ ﾚｲｱｳﾄ ﾏﾈｰｼﾞｬｰを作成する。
+Editor.Layouts.Table.Title=ﾃｰﾌﾞﾙ
+Editor.Layouts.Table.Item.Caption=テーブル アイテム
+Editor.Layouts.Margins.Caption=余白
+Editor.Layouts.FlowDown.Title=ﾌﾛｰ縦
+Editor.Layouts.FlowDown.Hint=現在のｺﾝﾄﾛｰﾙに縦のﾌﾛｰ ﾚｲｱｳﾄ ﾏﾈｰｼﾞｬｰを作成する。
+Editor.Layouts.FlowAcross.Title=ﾌﾛｰ横
+Editor.Layouts.FlowAcross.Hint=現在のｺﾝﾄﾛｰﾙに横のﾌﾛｰ ﾚｲｱｳﾄ ﾏﾈｰｼﾞｬｰを作成する。
+Editor.Layouts.Grid.Title=ｸﾞﾘｯﾄﾞ
+Editor.Layouts.Grid.Hint=現在のｺﾝﾄﾛｰﾙのｸﾞﾘｯﾄﾞ ﾚｲｱｳﾄ ﾏﾈｰｼﾞｬｰを作成する。
+Editor.Layouts.SplitH.Title=ｽﾌﾟﾘｯﾄ     (横方向)
+Editor.Layouts.SplitH.Hint=現在のｺﾝﾄﾛｰﾙに横方向のｽﾌﾟﾘｯﾄ ﾚｲｱｳﾄ ﾏﾈｰｼﾞｬｰを作成する。
+Editor.Layouts.SplitV.Title=ｽﾌﾟﾘｯﾄ     (縦方向)
+Editor.Layouts.SplitV.Hint=現在のｺﾝﾄﾛｰﾙに縦方向のｽﾌﾟﾘｯﾄ ﾚｲｱｳﾄ ﾏﾈｰｼﾞｬｰを作成する。
+
+Editor.Layouts.Table.Row.Caption=行
+Editor.Layouts.Table.Col.Caption=列
+Editor.Layouts.Table.Sizing.None.Name=なし
+Editor.Layouts.Table.Sizing.None.Desc=設計通りにサイズ調整します。
+Editor.Layouts.Table.Sizing.Caption=サイズ
+Editor.Layouts.Table.Sizing.FitBoth.Name=両方に合わせる
+Editor.Layouts.Table.Sizing.FitBoth.Desc=全ての使用可能なスペースを埋めるようにサイズ調整します。
+Editor.Layouts.Table.Sizing.FitWidth.Name=幅に合わせる
+Editor.Layouts.Table.Sizing.FitWidth.Desc=横方向のスペースを埋めるようにサイズ調整します。
+Editor.Layouts.Table.Sizing.FitHeight.Name=高さに合わせる
+Editor.Layouts.Table.Sizing.FitHeight.Desc=縦方向のスペースを埋めるようにサイズ調整します。
+Editor.Layouts.Table.Align.Caption=配置
+Editor.Layouts.Table.Flow.Caption=フロー
+Editor.Layouts.Table.Align.Center.Name=中央
+Editor.Layouts.Table.Align.Center.Desc=縦横の両方向に中央揃え
+Editor.Layouts.Table.Align.TopLeft.Name=左上
+Editor.Layouts.Table.Align.TopLeft.Desc=左上の角に添付
+Editor.Layouts.Table.Align.TopCenter.Name=中央上
+Editor.Layouts.Table.Align.TopCenter.Desc=中央に揃えて上に添付
+Editor.Layouts.Table.Align.TopRight.Name=右上
+Editor.Layouts.Table.Align.TopRight.Desc=右上の角に添付
+Editor.Layouts.Table.Align.CenterLeft.Name=中央左
+Editor.Layouts.Table.Align.CenterLeft.Desc=縦方向の中央に揃えて左に添付
+Editor.Layouts.Table.Align.CenterRight.Name=中央右
+Editor.Layouts.Table.Align.CenterRight.Desc=縦方向の中央に揃えて右に添付
+Editor.Layouts.Table.Align.BottomLeft.Name=左下
+Editor.Layouts.Table.Align.BottomLeft.Desc=左下の角に添付
+Editor.Layouts.Table.Align.BottomCenter.Name=中央下
+Editor.Layouts.Table.Align.BottomCenter.Desc=中央に揃えて下に添付
+Editor.Layouts.Table.Align.BottomRight.Name=右下
+Editor.Layouts.Table.Align.BottomRight.Desc=右下の角に添付
+Editor.Layouts.Table.FlowLeft.Name=左
+Editor.Layouts.Table.FlowLeft.Desc=前のコントロールの左
+Editor.Layouts.Table.FlowNone.Name=なし
+Editor.Layouts.Table.FlowNone.Desc=配置通りに位置付け
+Editor.Layouts.Table.FlowUp.Name=上
+Editor.Layouts.Table.FlowUp.Desc=前のコントロールの上
+Editor.Layouts.Table.FlowDown.Name=下
+Editor.Layouts.Table.FlowDown.Desc=前のコントロールの下
+Editor.Layouts.Table.FlowRight.Name=右
+Editor.Layouts.Table.FlowRight.Desc=前のコントロールの右
+Editor.Layouts.Attach.Desc=添付レイアウト マネージャ
+Editor.Layouts.Table.Desc=テーブル レイアウト マネージャ
+Editor.Layouts.FlowDown.Desc=下フロー レイアウト マネージャ
+Editor.Layouts.FlowAcross.Desc=横フロー レイアウト マネージャ
+Editor.Layouts.SplitH.Desc=横分割レイアウト マネージャ
+Editor.Layouts.SplitV.Desc=縦分割レイアウト マネージャ
+Editor.Layouts.Table.Rows.Caption=行
+Editor.Layouts.Table.Cols.Caption=列
+Editor.Layouts.Table.Delete.Hint=レイアウトおよびこれと依存関係にあるもの全てを削除します。
+Editor.Layouts.Table.Add.Hint=追加
+Editor.Layouts.Table.Col.Span.Caption=行範囲
+*** @TRANS NEW
+Editor.Layouts.Table.Span.Caption=Span
+*** @TRANS END
+Editor.Layouts.Table.Row.Span.Caption=列範囲
+Editor.Layouts.Table.Row.Margin.Caption=余白 (上/下/左/右)
+Editor.Layouts.Table.Col.Margin.Caption=余白 (上/下/左/右)
+Editor.Layouts.Table.Row.Position.Caption=位置
+Editor.Layouts.Table.Col.Position.Caption=位置
+Editor.Layouts.Table.AddRow.Caption=行追加
+Editor.Layouts.Table.AddRowDivider.Caption=行分割線の追加
+Editor.Layouts.Table.AddCol.Caption=列追加
+Editor.Layouts.Table.AddColDivider.Caption=列分割線の追加
+Editor.Layouts.Table.Row.Height.Caption=高さ
+Editor.Layouts.Table.Row.HeightFixed.Caption=固定の高さ
+Editor.Layouts.Table.Col.Width.Caption=幅
+Editor.Layouts.Table.Col.WidthFixed.Caption=固定の幅
+Editor.Layouts.Table.Row.Fixed.Hint=行を固定の高さ(ピクセル)に設定します。
+Editor.Layouts.Table.Col.Fixed.Hint=行を固定の幅(ピクセル)に設定します。
+Editor.Layout.AddTo.Caption=追加
+Editor.Layout.AddTo.Hint=テーブル レイアウト用の行と列を作成します。
+Editor.Layout.DeleteFrom.Caption=削除
+Editor.Layout.DeleteFrom.Hint=テーブル レイアウトから行と列を削除します。
+Editor.Layouts.Table.MoveColLeft.Hint=列を左に移動
+Editor.Layouts.Table.MoveColRight.Hint=列を右に移動
+Editor.Layouts.Table.MoveRowUp.Hint=行を上に移動
+Editor.Layouts.Table.MoveRowDown.Hint=行を下に移動
+
+Editor.Styles.Borders.Caption=枠線
+Editor.Styles.BordersLeft.Caption=左
+Editor.Styles.BordersTop.Caption=上
+Editor.Styles.BordersRight.Caption=右
+Editor.Styles.BordersBottom.Caption=下
+Editor.Styles.Corners.Caption=ｺｰﾅｰ
+Editor.Styles.CornersTopLeft.Caption=左上
+Editor.Styles.CornersTopRight.Caption=右上
+Editor.Styles.CornersBottomLeft.Caption=左下
+Editor.Styles.CornersBottomRight.Caption=右下
+Editor.Styles.Foreground.Caption=前景
+Editor.Styles.FontSize.Caption=ｻｲｽﾞ
+Editor.Styles.FontBoldFull.Caption=太字
+Editor.Styles.FontItalicFull.Caption=斜体
+Editor.Styles.FontUnderlineFull.Caption=下線
+Editor.Styles.FontBold.Caption=B
+Editor.Styles.FontBold.Title=太字
+Editor.Styles.FontBold.Hint=ｽﾀｲﾙ ﾃｷｽﾄを太字にする。
+Editor.Styles.FontItalic.Caption=I
+Editor.Styles.FontItalic.Title=斜体
+Editor.Styles.FontItalic.Hint=ｽﾀｲﾙ ﾃｷｽﾄを斜体にする。
+Editor.Styles.FontUnderline.Caption=U
+Editor.Styles.FontUnderline.Title=下線
+Editor.Styles.FontUnderline.Hint=ｽﾀｲﾙ ﾃｷｽﾄに下線を引く。
+Editor.Styles.FontForeground.Title=前景
+Editor.Styles.FontForeground.Hint=ｽﾀｲﾙの前景色を変更する。
+Editor.Styles.Background.Title=背景
+Editor.Styles.Background.Hint=ｽﾀｲﾙの背景色を変更する。
+Editor.Styles.Border.Title=枠線
+Editor.Styles.Border.Hint=ｽﾀｲﾙの枠線の色を変更する。
+Editor.Styles.Preview.Caption=ﾌﾟﾚﾋﾞｭｰ
+Editor.Styles.Preview.Insert.Caption=ﾌﾟﾚﾋﾞｭｰ (ｸﾘｯｸでｽﾀｲﾙ挿入)
+Editor.Styles.PreviewLabel.Caption=AaBbCcDd
+Editor.Styles.PreviewLabelShort.Caption=AaBb
+
+Editor.Brushes.Caption=ﾌﾞﾗｼ
+Editor.Brushes.Helper.Caption=ﾌﾞﾗｼ ﾍﾙﾊﾟｰ
+Editor.Brushes.Helper.Hint=ﾌﾞﾗｼ ﾍﾙﾊﾟｰ ﾋﾞｭｰ
+Editor.Brushes.Gradient.Caption=ｸﾞﾗﾃﾞｰｼｮﾝ
+Editor.Brushes.Gradient.Preview.Caption=ﾌﾟﾚﾋﾞｭｰ
+Editor.Brushes.Gradient.Type.Caption=ｸﾞﾗﾃﾞｰｼｮﾝ ﾀｲﾌﾟ
+Editor.Brushes.Gradient.Type.Hint=ｸﾞﾗﾃﾞｰｼｮﾝ ﾌﾞﾗｼ ﾀｲﾌﾟ
+Editor.Brushes.Gradient.Misc.Caption=その他
+Editor.Brushes.Gradient.Misc.Hint=その他のｸﾞﾗﾃﾞｰｼｮﾝ ﾌﾞﾗｼ ﾀｲﾌﾟ
+Editor.Brushes.Gradient.Web.Caption=Web ｽﾀｲﾙ
+Editor.Brushes.Gradient.Web.Hint=Web ﾍﾟｰｼﾞ ｽﾀｲﾙ ｸﾞﾗﾃﾞｰｼｮﾝ
+Editor.Brushes.Gradient.Spectrum.Caption=ｽﾍﾟｸﾄﾙ
+Editor.Brushes.Gradient.Spectrum.Hint=ｽﾍﾟｸﾄﾙ ｽﾀｲﾙ ｸﾞﾗﾃﾞｰｼｮﾝ
+Editor.Brushes.Gradient.Rainbow.Caption=ﾚｲﾝﾎﾞｳ
+Editor.Brushes.Gradient.Rainbow.Hint=ﾚｲﾝﾎﾞｳ ｽﾀｲﾙ ｸﾞﾗﾃﾞｰｼｮﾝ
+Editor.Brushes.Gradient.Image.Caption=ｲﾒｰｼﾞ
+Editor.Brushes.Gradient.Image.Hint=ｲﾒｰｼﾞ塗りつぶし
+Editor.Brushes.Gradient.Dir.Caption=ｸﾞﾗﾃﾞｰｼｮﾝ方向
+Editor.Brushes.Gradient.Dir.Hint=事前定義のｸﾞﾗﾃﾞｰｼｮﾝ方向
+Editor.Brushes.Gradient.BR.Caption=右下
+Editor.Brushes.Gradient.BR.Hint=右下から左上の斜めｸﾞﾗﾃﾞｰｼｮﾝ軸
+Editor.Brushes.Gradient.BL.Caption=左下
+Editor.Brushes.Gradient.BL.Hint=左下から右上の斜めｸﾞﾗﾃﾞｰｼｮﾝ軸
+Editor.Brushes.Gradient.TR.Caption=右上
+Editor.Brushes.Gradient.TR.Hint=右上から左下の斜めｸﾞﾗﾃﾞｰｼｮﾝ軸
+Editor.Brushes.Gradient.TL.Caption=左上
+Editor.Brushes.Gradient.TL.Hint=左上から右下の斜めｸﾞﾗﾃﾞｰｼｮﾝ軸
+Editor.Brushes.Gradient.B.Caption=下
+Editor.Brushes.Gradient.B.Hint=下から上のｸﾞﾗﾃﾞｰｼｮﾝ軸
+Editor.Brushes.Gradient.T.Caption=上
+Editor.Brushes.Gradient.T.Hint=上から下のｸﾞﾗﾃﾞｰｼｮﾝ軸
+Editor.Brushes.Gradient.R.Caption=右
+Editor.Brushes.Gradient.R.Hint=右から左のｸﾞﾗﾃﾞｰｼｮﾝ軸
+Editor.Brushes.Gradient.L.Caption=左
+Editor.Brushes.Gradient.L.Hint=左から右のｸﾞﾗﾃﾞｰｼｮﾝ軸
+Editor.Brushes.Gradient.C.Caption=中央
+Editor.Brushes.Gradient.C.Hint=中央にｸﾞﾗﾃﾞｰｼｮﾝ基点
+Editor.Brushes.Gradient.Colors.Caption=色
+Editor.Brushes.Gradient.Colors.Hint=ｸﾞﾗﾃﾞｰｼｮﾝの色
+Editor.Brushes.Gradient.Color.Caption=色
+Editor.Brushes.Gradient.Color.Hint=ｸﾞﾗﾃﾞｰｼｮﾝ ﾌﾞﾗｼの色
+Editor.Brushes.Gradient.Add.Caption=追加
+Editor.Brushes.Gradient.Add.Hint=ｸﾞﾗﾃﾞｰｼｮﾝ ﾌﾞﾗｼの色を追加
+Editor.Brushes.Gradient.Rem.Caption=削除
+Editor.Brushes.Gradient.Rem.Hint=ｸﾞﾗﾃﾞｰｼｮﾝ ﾌﾞﾗｼの色を削除
+Editor.Brushes.Gradient.Red.Caption=赤
+Editor.Brushes.Gradient.Red.Hint=色の赤ｺﾝﾎﾟｰﾈﾝﾄ
+Editor.Brushes.Gradient.Green.Caption=緑
+Editor.Brushes.Gradient.Green.Hint=色の緑ｺﾝﾎﾟｰﾈﾝﾄ
+Editor.Brushes.Gradient.Blue.Caption=青
+Editor.Brushes.Gradient.Blue.Hint=色の青ｺﾝﾎﾟｰﾈﾝﾄ
+Editor.Brushes.Gradient.Color1.Caption=色1
+Editor.Brushes.Gradient.Color1.Hint=最初のｸﾞﾗﾃﾞｰｼｮﾝ ｽﾄｯﾌﾟに使用する色
+Editor.Brushes.Gradient.Color2.Caption=色2
+Editor.Brushes.Gradient.Color2.Hint=最後のｸﾞﾗﾃﾞｰｼｮﾝ ｽﾄｯﾌﾟに使用する色
+Editor.Brushes.Gradient.ColorReset.Caption=ﾘｾｯﾄ
+Editor.Brushes.Gradient.ColorReset.Hint=ｸﾞﾗﾃﾞｰｼｮﾝの色を省略値にﾘｾｯﾄ
+Editor.Brushes.Gradient.At.Caption=位置
+Editor.Brushes.Gradient.At.Hint=ｸﾞﾗﾃﾞｰｼｮﾝ軸上の色の位置 ( 0 - 100 )
+
+Editor.Brushes.Linear.Caption=線状
+Editor.Brushes.Linear.Hint=線状ｸﾞﾗﾃﾞｰｼｮﾝ
+Editor.Brushes.Linear.StartLeft.Caption=開始左
+Editor.Brushes.Linear.StartLeft.Hint=ｸﾞﾗﾃﾞｰｼｮﾝ軸開始の左座標
+Editor.Brushes.Linear.StartTop.Caption=開始上
+Editor.Brushes.Linear.StartTop.Hint=ｸﾞﾗﾃﾞｰｼｮﾝ軸開始の上座標
+Editor.Brushes.Linear.EndLeft.Caption=終了左
+Editor.Brushes.Linear.EndLeft.Hint=ｸﾞﾗﾃﾞｰｼｮﾝ軸終了の左座標
+Editor.Brushes.Linear.EndTop.Caption=終了上
+Editor.Brushes.Linear.EndTop.Hint=ｸﾞﾗﾃﾞｰｼｮﾝ軸終了の上座標
+Editor.Brushes.Radial.Caption=放射状
+Editor.Brushes.Radial.Hint=放射状ｸﾞﾗﾃﾞｰｼｮﾝ
+Editor.Brushes.Radial.OriginLeft.Caption=基点左
+Editor.Brushes.Radial.OriginLeft.Hint=ｸﾞﾗﾃﾞｰｼｮﾝ基点の左座標
+Editor.Brushes.Radial.OriginTop.Caption=基点上
+Editor.Brushes.Radial.OriginTop.Hint=ｸﾞﾗﾃﾞｰｼｮﾝ基点の上座標
+Editor.Brushes.Radial.RadiusLeft.Caption=範囲左
+Editor.Brushes.Radial.RadiusLeft.Hint=ｸﾞﾗﾃﾞｰｼｮﾝの水平範囲
+Editor.Brushes.Radial.RadiusTop.Caption=範囲上
+Editor.Brushes.Radial.RadiusTop.Hint=ｸﾞﾗﾃﾞｰｼｮﾝの垂直範囲
+
+Editor.Design.Caption=ﾃﾞｻﾞｲﾝ
+Editor.Form.Design.Caption=ﾃﾞｻﾞｲﾝ
+*** @TRANS NEW
+Editor.Layout.Caption=Layout
+*** @TRANS END
+
+Editor.Web.Design.Caption=Web
+Editor.Web.Tools.Caption=ﾂｰﾙ
+Editor.Web.PublishAll.Caption=発行
+Editor.Web.PublishAll.Title=発行
+Editor.Web.PublishAll.Hint=すべてのｳｪﾌﾞﾚｯﾄの発行
+Editor.Web.ImportWeblets.Caption=ｲﾝﾎﾟｰﾄ
+Editor.Web.ImportWeblets.Title=ｲﾝﾎﾟｰﾄ
+Editor.Web.ImportWeblets.Hint=ｳｪﾌﾞﾚｯﾄのｲﾝﾎﾟｰﾄ
+Editor.Web.RestoreXsl.Caption=XSL復元
+Editor.Web.RestoreXsl.Hint=XSLの復元
+Editor.Web.RestoreXsl.Title=以前のXSLﾊﾞｰｼﾞｮﾝを復元
+Editor.Web.Open.Caption=ｳｪﾌﾞﾙｰﾁﾝ   を開く
+Editor.Web.Open.Hint=ｳｪﾌﾞﾙｰﾁﾝのﾘｽﾄを表示
+Editor.Web.Open.Title=ｳｪﾌﾞﾙｰﾁﾝを開く
+Editor.Web.Designer.Caption=ﾃﾞｻﾞｲﾅｰ
+Editor.Web.Designer.Hint=ﾃﾞｻﾞｲﾅｰ
+Editor.Web.Designer.Title=Webﾃﾞｻﾞｲﾅｰ ｵﾌﾟｼｮﾝの表示
+Editor.Web.Settings.Caption=Web
+Editor.Web.Settings.Hint=Web設定の表示
+Editor.Web.Settings.Title=Web設定
+Editor.Web.RefreshInline.Caption=更新
+Editor.Web.RefreshInline.Hint=ｲﾝﾗｲﾝ ｳｪﾌﾞﾚｯﾄの更新
+Editor.Web.RefreshInline.Title=更新
+Editor.Web.ExternalResources.Caption=外部ﾘｿｰｽ
+Editor.Web.ExternalResources.Hint=外部ﾘｿｰｽの管理
+Editor.Web.ExternalResources.Title=外部ﾘｿｰｽ
+Editor.Web.TechService.Caption=ﾃｸﾉﾛｼﾞ ｻｰﾋﾞｽ
+Editor.Web.TechService.Hint=ｱｸﾃｨﾌﾞなﾃｸﾉﾛｼﾞ ｻｰﾋﾞｽの切り替え
+Editor.Web.TechService.Title=ﾃｸﾉﾛｼﾞ ｻｰﾋﾞｽ
+
+Editor.Form.DesignerActiveX.Caption=ActiveX
+Editor.Form.DesignerActiveX.Hint=このｺﾝﾎﾟｰﾈﾝﾄをActiveX ｺﾝﾄﾛｰﾙとして公開するために必要な属性を設定
+Editor.Form.DesignerActiveX.Title=ActiveX属性
+Editor.Form.DesignerAlign.Caption=整列
+Editor.Form.DesignerAlign.Hint=選択のｺﾝﾎﾟｰﾈﾝﾄ ｸﾞﾙｰﾌﾟをﾃﾞｻﾞｲﾝ ﾋﾞｭｰに整列 (Ctrl+L)
+Editor.Form.DesignerAlign.Title=整列
+Editor.Form.DesignerSize.Caption=ｻｲｽﾞ調整
+Editor.Form.DesignerSize.Hint=選択のｺﾝﾎﾟｰﾈﾝﾄ ｸﾞﾙｰﾌﾟをﾃﾞｻﾞｲﾝ ﾋﾞｭｰでｻｲｽﾞ調整 (Ctrl+K)
+Editor.Form.DesignerSize.Title=ｻｲｽﾞ調整
+Editor.Form.DesignerLock.Caption=ﾃﾞｻﾞｲﾝの固定
+Editor.Form.DesignerLock.Hint=ｱｸﾃｨﾌﾞなｺﾝﾎﾟｰﾈﾝﾄのﾃﾞｻﾞｲﾝ ﾋﾞｭｰをﾛｯｸ
+Editor.Form.DesignerLock.Title=ﾃﾞｻﾞｲﾝの固定
+Editor.Form.DesignerUnlock.Caption=ﾃﾞｻﾞｲﾝの固定 解除
+Editor.Form.DesignerUnlock.Hint=ｱｸﾃｨﾌﾞなｺﾝﾎﾟｰﾈﾝﾄのﾃﾞｻﾞｲﾝ ﾋﾞｭｰのﾛｯｸを解除
+Editor.Form.DesignerUnlock.Title=ﾃﾞｻﾞｲﾝの固定解除
+Editor.Form.Designer.Caption=ﾃﾞｻﾞｲﾅｰ
+Editor.Form.Designer.Hint=ﾌｫｰﾑ ﾃﾞｻﾞｲﾅｰ ﾀｲﾌﾟのｵﾌﾟｼｮﾝ表示
+Editor.Form.Designer.Title=ﾃﾞｻﾞｲﾅｰ ﾀｲﾌﾟ
+Editor.Form.DesignLanguage.Caption=ﾃﾞｻﾞｲﾝ  言語
+Editor.Form.DesignLanguage.Hint=ﾃﾞｻﾞｲﾝで使用可能なﾃﾞｻﾞｲﾝ言語
+Editor.Form.DesignLanguage.Title=ﾃﾞｻﾞｲﾝ言語
+Editor.Form.DesignTheme.Caption=デザイン テーマ
+Editor.Form.DesignTheme.Hint=デザイン ビューのテーマを設定します。
+Editor.Form.DesignTheme.Title=デザイン テーマ
+*** @TRANS NEW
+Editor.Form.DesignStyle.Caption=Design Style
+Editor.Form.DesignStyle.Hint=Sets the style of the Design View
+Editor.Form.DesignStyle.Title=Design Style
+Editor.Form.DesignStyle.Skin.Caption=Designer Skin
+Editor.Form.DesignStyle.SkinNone.Caption=None
+Editor.Form.DesignStyle.SkinIE.Caption=Internet Explorer
+Editor.Form.DesignStyle.Size.Caption=Designer Size
+Editor.Form.DesignStyle.Size1.Caption=iPhone 5 - 1136 x 640
+Editor.Form.DesignStyle.Size2.Caption=iPhone 4s - 960 x 640
+Editor.Form.DesignStyle.Size3.Caption=iPod Touch - 640 x 480
+Editor.Form.DesignStyle.Size4.Caption=iPad 3 - 2048 x 1536
+Editor.Form.DesignStyle.Size5.Caption=iPad 1 & 2 - 1024 x 768
+Editor.Form.DesignStyle.Size6.Caption=Samsung Galaxy SIII - 1280 ﾗ 720
+Editor.Form.DesignStyle.Size7.Caption=Samsung Galaxy Tab - 1280 x 800
+Editor.Form.DesignStyle.Size8.Caption=Nokia 920 - 1280 x 768
+Editor.Form.DesignStyle.Size9.Caption=Nokia 920 - 800 x 480
+Editor.Form.DesignStyle.Size10.Caption=Microsoft Surface - 1366 x 768
+Editor.Form.DesignStyle.Size11.Caption=Kindle Fire - 1920x 1200
+*** @TRANS END
+
+Editor.TargetRuntime.Title=ターゲット ランタイムの設定
+
+Editor.Ribbon.StylesGroup.Caption=ｴﾃﾞｨﾀｰ ｽﾀｲﾙ
+Editor.Ribbon.RDMLX.Caption=RDMLX
+Editor.Ribbon.RepositoryGroup.Caption=ﾘﾎﾟｼﾞﾄﾘ
+Editor.Ribbon.Views.Caption=ﾋﾞｭｰ
+Editor.Ribbon.Views.Title=ﾋﾞｭｰ
+Editor.Ribbon.Views.Hint=ｴﾃﾞｨﾀｰ ﾋﾞｭｰのﾘｽﾄを表示
+Editor.Ribbon.Controls.Caption=ｺﾝﾄﾛｰﾙ
+Editor.Ribbon.Controls.Hint=ｺﾝﾄﾛｰﾙ ﾋﾞｭｰを表示
+Editor.Ribbon.Repository.Caption=ﾘﾎﾟｼﾞﾄﾘ
+Editor.Ribbon.Repository.Hint=ﾘﾎﾟｼﾞﾄﾘ ﾋﾞｭｰを表示
+Editor.Ribbon.Favorites.Caption=お気に入り
+Editor.Ribbon.Favorites.Hint=お気に入りﾋﾞｭｰを表示
+Editor.Ribbon.Details.Caption=詳細
+Editor.Ribbon.Details.Hint=詳細ﾋﾞｭｰを表示
+Editor.Ribbon.Outline.Caption=ｱｳﾄﾗｲﾝ
+Editor.Ribbon.Outline.Hint=ｱｳﾄﾗｲﾝ ﾋﾞｭｰを表示
+Editor.Ribbon.Feature.Caption=機能
+Editor.Ribbon.Feature.Hint=機能ﾋﾞｭｰを表示
+Editor.Ribbon.Clipboard.Cut.Caption=切り取り
+Editor.Ribbon.Clipboard.Cut.Title=切り取り(Ctrl+X)
+Editor.Ribbon.Clipboard.Cut.Hint=選択を切り取り、ｸﾘｯﾌﾟﾎﾞｰﾄﾞに置きます
+Editor.Ribbon.Clipboard.Copy.Caption=ｺﾋﾟｰ
+Editor.Ribbon.Clipboard.Copy.Title=ｺﾋﾟｰ(Ctrl+C)
+Editor.Ribbon.Clipboard.Copy.Hint=選択をｺﾋﾟｰし、ｸﾘｯﾌﾟﾎﾞｰﾄﾞに置きます
+Editor.Ribbon.Clipboard.Paste.Caption=貼り付け
+Editor.Ribbon.Clipboard.Paste.Title=貼り付け(Ctrl+V)
+Editor.Ribbon.Clipboard.Paste.Hint=ｸﾘｯﾌﾟﾎﾞｰﾄﾞの中身を貼り付けます
+Editor.Ribbon.Clipboard.Undo.Caption=元に戻す
+Editor.Ribbon.Clipboard.Undo.Title=元に戻す (Ctrl+Z)
+Editor.Ribbon.Clipboard.Undo.Hint=最後のｱｸｼｮﾝを元に戻す
+Editor.Ribbon.Clipboard.Redo.Caption=やり直し
+Editor.Ribbon.Clipboard.Redo.Title=やり直し (Ctrl+Y)
+Editor.Ribbon.Clipboard.Redo.Hint=最後のｱｸｼｮﾝをやり直す
+Editor.Ribbon.Build.UseTemplate.Caption=ﾃﾝﾌﾟﾚｰﾄ
+Editor.Ribbon.Build.UseTemplate.Title=ﾃﾝﾌﾟﾚｰﾄの使用
+Editor.Ribbon.Build.UseTemplate.Hint=ﾃﾝﾌﾟﾚｰﾄ ｳｨｻﾞｰﾄﾞの使用
+Editor.Ribbon.Build.DesignCheck.Caption=ﾃﾞｻﾞｲﾝ ﾁｪｯｸ
+Editor.Ribbon.Build.DesignCheck.Title=ﾃﾞｻﾞｲﾝ ﾁｪｯｸ
+Editor.Ribbon.Build.DesignCheck.Hint=ﾃﾞｻﾞｲﾝのﾁｪｯｸ
+Editor.Ribbon.Build.FullCheck.Caption=全ての検査
+Editor.Ribbon.Build.FullCheck.Title=全ての検
+Editor.Ribbon.Build.FullCheck.Hint=全ての検査(Alt+U)
+Editor.Ribbon.Build.Build.Caption=生成
+Editor.Ribbon.Build.Build.Title=生成 (Alt+B)
+Editor.Ribbon.Build.Build.Hint=生成 (Alt+B)
+Editor.Ribbon.Build.Compile.Caption=ｺﾝﾊﾟｲﾙ
+Editor.Ribbon.Build.Compile.Title=ｺﾝﾊﾟｲﾙ (Ctrl+Shift+C)
+Editor.Ribbon.Build.Compile.Hint=ｺﾝﾊﾟｲﾙ (Ctrl+Shift+C)
+Editor.Ribbon.QuickAccess.Save.Hint=保存
+Editor.Ribbon.QuickAccess.CheckIn.Hint=ﾁｪｯｸ ｲﾝ
+Editor.Ribbon.QuickAccess.Compile.Hint=ｺﾝﾊﾟｲﾙ (Ctrl+Shift+C)
+Editor.Ribbon.Footer.Options.Caption=オプション
+Editor.Ribbon.Footer.Exit.Caption=終了
+Editor.Ribbon.Menu.LastOpened.Caption=最近開いた
+Editor.Ribbon.Menu.New.Caption=作成
+Editor.Ribbon.Menu.Open.Caption=開く
+Editor.Ribbon.Menu.Save.Caption=保存
+Editor.Ribbon.Menu.SaveAll.Caption=全て保存
+Editor.Ribbon.Menu.Close.Caption=閉じる
+Editor.Ribbon.Menu.CloseAll.Caption=全て閉じる
+Editor.Ribbon.Menu.Print.Caption=印刷
+Editor.Ribbon.Menu.EnableRdmlx.Caption=有効
+Editor.Ribbon.Menu.LockDesign.Caption=ﾃﾞｻﾞｲﾝ ﾛｯｸ
+Editor.Ribbon.DebugGroup.Caption=ﾃﾞﾊﾞｯｸﾞ
+Editor.Ribbon.DebuggerGroup.Caption=ﾃﾞﾊﾞｯｶﾞｰ
+Editor.Ribbon.DesignerGroup.Caption=ﾃﾞｻﾞｲﾅ
+Editor.Ribbon.DesignGroup.Caption=ﾃﾞｻﾞｲﾝ
+Editor.Ribbon.WindowsGroup.Caption=ｳｨﾝﾄﾞｳ
+Editor.Ribbon.HelpGroup.Caption=ﾍﾙﾌﾟ
+Editor.Ribbon.RebuildDefinitions.Title=定義の再生成
+Editor.Ribbon.RebuildDefinitions.Hint=定義の再生成
+Editor.Ribbon.RebuildDefinitions.Caption=再生成
+
+Editor.Ribbon.Gallery.Styles.Local.Caption=ﾛｰｶﾙ ｽﾀｲﾙ
+
+Editor.Ribbon.Gallery.Styles.New.Caption=新規ｽﾀｲﾙ
+Editor.Ribbon.Gallery.Styles.Brushes.Caption=ﾌﾞﾗｼ
+Editor.Ribbon.Gallery.Styles.Background.Caption=背景
+Editor.Ribbon.Gallery.Styles.Foreground.Caption=前景
+Editor.Ribbon.Gallery.Styles.Border.Caption=枠線
+Editor.Ribbon.Gallery.Styles.Font.Caption=ﾌｫﾝﾄ
+Editor.Ribbon.Gallery.Styles.All.Caption=全て
+Editor.Ribbon.Gallery.Styles.Color1.Caption=色 1
+Editor.Ribbon.Gallery.Styles.Color2.Caption=色 2
+Editor.Ribbon.Gallery.Styles.NormBackColor.Caption=背景色
+Editor.Ribbon.Gallery.Styles.BorderColor.Caption=枠線色
+Editor.Ribbon.Gallery.Styles.TextColor.Caption=ﾃｷｽﾄ色
+
+Editor.Ribbon.Command.New=新規作成
+Editor.Ribbon.Command.Open=開く
+Editor.Ribbon.Command.Save=保存
+Editor.Ribbon.Command.Compile=ｺﾝﾊﾟｲﾙ
+Editor.Ribbon.Command.NextComponent=次のｺﾝﾎﾟｰﾈﾝﾄ
+Editor.Ribbon.Command.PrevComponent=前のｺﾝﾎﾟｰﾈﾝﾄ
+Editor.Ribbon.Command.V12MenuBar=ﾊﾞｰｼﾞｮﾝ 12 ﾒﾆｭｰ ﾊﾞｰ
+Editor.Ribbon.Command.Debug=ﾃﾞﾊﾞｯｸﾞ
+Editor.Ribbon.Command.Execute=実行
+Editor.Ribbon.Command.ExecuteHistory=実行履歴
+Editor.Ribbon.Command.RepositoryFind=ﾘﾎﾟｼﾞﾄﾘ検索
+Editor.Ribbon.Command.CheckIn=ﾁｪｯｸｲﾝ
+Editor.Ribbon.Command.OpenComponents=開いているオブジェクト
+Editor.Ribbon.Command.Close=閉じる
+Editor.Ribbon.Command.Build=ﾋﾞﾙﾄﾞ
+Editor.Ribbon.Command.HostMonitor=ﾎｽﾄ ﾓﾆﾀｰ
+Editor.Ribbon.Command.DeploymentTool=配布ﾂｰﾙ
+Editor.Ribbon.Command.Import=ｲﾝﾎﾟｰﾄ
+Editor.Ribbon.Command.TextSearch=ﾃｷｽﾄ検索
+Editor.Ribbon.Command.QuickExport=ｸｲｯｸ ｴｸｽﾎﾟｰﾄ
+Editor.Ribbon.Command.ErrorLog=ｴﾗｰ ﾛｸﾞ
+Editor.Ribbon.Command.WebErrorLog=Web ｴﾗｰ ﾛｸﾞ
+Editor.Ribbon.Command.SystemInformation=ｼｽﾃﾑ情報
+Editor.Ribbon.Command.MasterErrorLog=ﾏｽﾀｰ ｴﾗｰ ﾛｸﾞ
+Editor.Ribbon.Command.MasterRefresh=ﾏｽﾀｰのﾘﾌﾚｯｼｭ
+Editor.Ribbon.Command.ConnectionHistory=接続履歴
+Editor.Ribbon.Command.StatusText=ｽﾃｰﾀｽ ﾒｯｾｰｼﾞ
+Editor.Ribbon.Command.StatusLocation=ｿｰｽの位置
+Editor.Ribbon.Command.StatusCurrentConfig=現在の構成
+Editor.Ribbon.Command.Partition=ｱｸﾃｨﾌﾞな区画
+Editor.Ribbon.Command.StatusUser=ﾕｰｻﾞｰ
+Editor.Ribbon.Command.StatusTask=省略値のﾀｽｸ
+Editor.Ribbon.Command.StatusLanguage=現在の言語
+Editor.Ribbon.Command.StatusAudit=監査ｽﾀﾝﾌﾟ
+Editor.Ribbon.Command.StatusFont=ｿｰｽのﾌｫﾝﾄ選択
+Editor.Ribbon.Command.StatusWeb=Web設定
+Editor.Ribbon.Command.TargetRuntime=ターゲット ランタイム
+
+Editor.Ribbon.Help.Help.Caption=ﾍﾙﾌﾟ
+Editor.Ribbon.Help.Help.Title=Visual LANSA ﾍﾙﾌﾟ(F1)
+Editor.Ribbon.Help.Help.Hint=Visual LANSAを使ってﾍﾙﾌﾟを取得
+Editor.Ribbon.Help.HelpOnline.Caption=ﾍﾙﾌﾟ ｵﾝﾗｲﾝ
+Editor.Ribbon.Help.HelpOnline.Title=Visual LANSA ｵﾝﾗｲﾝ ﾍﾙﾌﾟ
+Editor.Ribbon.Help.HelpOnline.Hint=Visual LANSAを使ってｵﾝﾗｲﾝ ﾍﾙﾌﾟを取得
+Editor.Ribbon.Help.Contents=ｺﾝﾃﾝﾂ
+Editor.Ribbon.Help.EditorOView=ｴﾃﾞｨﾀｰ使用 
+Editor.Ribbon.Help.About=製品情報
+Editor.Ribbon.Help.ShortCuts=ｼｮｰﾄｶｯﾄ
+Editor.Ribbon.Window.Next.Title=次のｵﾌﾞｼﾞｪｸﾄ
+Editor.Ribbon.Window.Next.Hint=次の開いているｵﾌﾞｼﾞｪｸﾄを表示
+Editor.Ribbon.Window.Prev.Title=前のｵﾌﾞｼﾞｪｸﾄ
+Editor.Ribbon.Window.Prev.Hint=前の開いているｵﾌﾞｼﾞｪｸﾄを表示
+Editor.Ribbon.Window.CloseAllButCurrent.Title=ｱｸﾃｨﾌﾞ以外全て閉じる
+Editor.Ribbon.Window.CloseAllButCurrent.Hint=ｱｸﾃｨﾌﾞなｵﾌﾞｼﾞｪｸﾄ以外は全て閉じる。
+Editor.Ribbon.Window.OpenComp.Caption=開いているｵﾌﾞｼﾞｪｸﾄ
+Editor.Ribbon.Window.OpenComp.Title=開いているオブジェクト
+Editor.Ribbon.Window.OpenComp.Hint=開かれているオブジェクトのリストを表示する。
+Editor.Ribbon.MessageFiles.Caption=メッセージ ファイル
+Editor.Ribbon.MessageFiles.Title=メッセージ ファイル
+Editor.Ribbon.MessageFiles.Hint=メッセージ ファイル エディターの表示
+Editor.Ribbon.Close.Title=閉じる
+Editor.Ribbon.Close.Hint=ｺﾝﾎﾟｰﾈﾝﾄを閉じます 
+Editor.Ribbon.V12Menu.Title=ﾒﾆｭｰ ﾊﾞｰ
+Editor.Ribbon.V12Menu.Hint=ﾊﾞｰｼﾞｮﾝ 12 ﾒﾆｭｰ ﾊﾞｰ
+Editor.Ribbon.Debug.Debug.Caption=ﾃﾞﾊﾞｯｸﾞ
+Editor.Ribbon.Debug.Debug.Title=ﾃﾞﾊﾞｯｸﾞ
+Editor.Ribbon.Debug.Debug.Hint=ﾃﾞﾊﾞｯｸﾞ ﾓｰﾄﾞでｵﾌﾞｼﾞｪｸﾄを実行
+Editor.Ribbon.Debug.Execute.Caption=実行
+Editor.Ribbon.Runtime.Caption=ﾗﾝﾀｲﾑ
+Editor.Ribbon.Debug.Execute.Title=実行
+Editor.Ribbon.Debug.Execute.Hint=ｵﾌﾞｼﾞｪｸﾄの実行
+Editor.Ribbon.Debug.ExecuteHistory.Views.Caption=実行履歴
+Editor.Ribbon.Debug.ExecuteHistory.Caption=履歴
+Editor.Ribbon.Debug.ExecuteHistory.Title=実行履歴
+Editor.Ribbon.Debug.ExecuteHistory.Hint=以前実行されたｵﾌﾞｼﾞｪｸﾄを実行
+Editor.Ribbon.Debug.Continue.Title=ﾃﾞﾊﾞｯｸﾞ継続
+Editor.Ribbon.Debug.Continue.Hint=ﾃﾞﾊﾞｯｶﾞｰの実行を継続
+Editor.Ribbon.Debug.End.Title=ﾃﾞﾊﾞｯｸﾞ終了
+Editor.Ribbon.Debug.End.Hint=ﾃﾞﾊﾞｯｸﾞ ｾｯｼｮﾝ終了
+Editor.Ribbon.Debug.StepInto.Title=ｽﾃｯﾌﾟｲﾝ
+Editor.Ribbon.Debug.StepInto.Hint=現在のﾃﾞﾊﾞｯｸﾞ状態でｽﾃｯﾌﾟｲﾝを行います
+Editor.Ribbon.Debug.StepOver.Title=ｽﾃｯﾌﾟ ｵｰﾊﾞｰ
+Editor.Ribbon.Debug.StepOver.Hint=現在のﾃﾞﾊﾞｯｸﾞ状態でｽｯﾃﾌﾟｵｰﾊﾞｰを行います
+Editor.Ribbon.Debug.Options.Caption=ｵﾌﾟｼｮﾝ
+Editor.Ribbon.Debug.Options.Title=ﾃﾞﾊﾞｯｸﾞ ｵﾌﾟｼｮﾝ
+Editor.Ribbon.Debug.Options.Hint=ﾃﾞﾊﾞｯｸﾞ ｵﾌﾟｼｮﾝのﾒﾆｭｰを表示
+Editor.Ribbon.Debug.Animate.Title=ｱﾆﾒｰﾄ
+Editor.Ribbon.Debug.Animate.Hint=現在のﾃﾞﾊﾞｯｸﾞ ｾｯｼｮﾝ用の自動実行です。
+Editor.Ribbon.Debug.Toggle.Title=ﾌﾞﾚｰｸﾎﾟｲﾝﾄ  切替
+Editor.Ribbon.Debug.Toggle.Hint=現在のｽﾃｰﾄﾒﾝﾄのﾌﾞﾚｰｸﾎﾟｲﾝﾄを挿入・削除します。
+Editor.Ribbon.Debug.ClearAll.Title=全てｸﾘｱ
+Editor.Ribbon.Debug.ClearAll.Hint=全てのﾌﾞﾚｰｸﾎﾟｲﾝﾄをｸﾘｱします
+Editor.Ribbon.Debug.DisableAll.Title=全て無効
+Editor.Ribbon.Debug.DisableAll.Hint=全てのﾌﾞﾚｰｸﾎﾟｲﾝﾄを無効にします
+Editor.Ribbon.Find.Find.Caption=検索
+Editor.Ribbon.Find.Find.Title=検索 (Ctrl+F)
+Editor.Ribbon.Find.Find.Hint=ｺﾝﾎﾟｰﾈﾝﾄ内のﾃｷｽﾄを検索
+Editor.Ribbon.Find.Find.Menu.Text=テキスト
+Editor.Ribbon.Find.Find.Menu.AuditStamps=監査スタンプ
+Editor.Ribbon.Find.Text.Caption=ﾃｷｽﾄ検索
+Editor.Ribbon.Find.Text.Title=ﾃｷｽﾄ検索
+Editor.Ribbon.Find.Text.Hint=複数のｺﾝﾎﾟｰﾈﾝﾄ内のﾃｷｽﾄを検索
+Editor.Ribbon.Find.Repository.Caption=ﾘﾎﾟｼﾞﾄﾘ検索
+Editor.Ribbon.Find.Repository.Title=ﾘﾎﾟｼﾞﾄﾘ検索
+Editor.Ribbon.Find.Repository.Hint=ﾘﾎﾟｼﾞﾄﾘのｵﾌﾞｼﾞｪｸﾄを検索
+Editor.Ribbon.Find.Replace.Caption=置換
+Editor.Ribbon.Find.Replace.Title=置換 (Ctrl+H)
+Editor.Ribbon.Find.Replace.Hint=ｺﾝﾎﾟｰﾈﾝﾄ内のﾃｷｽﾄを置換
+Editor.Ribbon.InternalUse.Compile.Caption=ｺﾝﾊﾟｲﾙ
+Editor.Ribbon.InternalUse.CompileDialog.Caption=ｵﾌﾟｼｮﾝ...
+Editor.Ribbon.InternalUse.Build.Caption=生成
+Editor.Ribbon.Logs.Errors.Caption=ｴﾗｰ
+Editor.Ribbon.Views.Popup.View.Caption=ﾋﾞｭｰ
+Editor.Ribbon.Views.Popup.Repository.Caption=ﾘﾎﾟｼﾞﾄﾘ
+Editor.Ribbon.Views.Popup.Debug.Caption=ﾃﾞﾊﾞｯｸﾞ
+Editor.Ribbon.Views.Popup.Help.Caption=ﾍﾙﾌﾟ
+Editor.Ribbon.Views.Popup.Design.Caption=ﾃﾞｻﾞｲﾝ
+Editor.Ribbon.New.Caption=作成
+Editor.Ribbon.New.Title=作成
+Editor.Ribbon.New.Hint=新規ｵﾌﾞｼﾞｪｸﾄを作成 
+Editor.Ribbon.Customize.Popup.View.Caption=ｸｲｯｸ ｱｸｾｽ ﾂｰﾙﾊﾞｰのｶｽﾀﾏｲｽﾞ
+Editor.Ribbon.Customize.Popup.Reset.Hint=ｸｲｯｸ ｱｸｾｽ ﾂｰﾙﾊﾞｰのﾘｾｯﾄ
+Editor.Ribbon.Customize.Popup.MoveLeft.Hint=左に移動
+Editor.Ribbon.Customize.Popup.MoveRight.Hint=右に移動
+Editor.Ribbon.Customize.StatusPopup.Caption=ｽﾃｰﾀｽﾊﾞｰのｶｽﾀﾏｲｽﾞ
+Editor.Ribbon.Customize.StatusPopup.Reset.Hint=ｽﾃｰﾀｽﾊﾞｰのﾘｾｯﾄ
+
+Editor.StylesHelperView.Caption=ｽﾀｲﾙ ﾍﾙﾊﾟｰ
+Editor.StylesHelperView.StyledControl.Caption=ｽﾀｲﾙ付きのｺﾝﾄﾛｰﾙ
+Editor.StylesHelperView.Style.Caption=ｽﾀｲﾙ
+Editor.StylesHelperView.Create.Caption=ｽﾀｲﾙ作成
+Editor.StylesHelperView.Destroy.Caption=ｽﾀｲﾙ破棄
+Editor.StylesHelperView.Foreground.Caption=前景
+Editor.StylesHelperView.Background.Caption=背景
+Editor.StylesHelperView.SolidOpacity.Caption=不透明度
+Editor.StylesHelperView.SolidColor.Caption=色
+Editor.StylesHelperView.BrushDefinition.Caption=ﾌﾞﾗｼ定義
+Editor.StylesHelperView.BrushColors.Caption=色
+Editor.StylesHelperView.BrushColorsAt.Caption=At
+Editor.StylesHelperView.LinearStart.Caption=開始 % (左,上)
+Editor.StylesHelperView.LinearEnd.Caption=終了 % (左,上)
+Editor.StylesHelperView.LinearOpacity.Caption=不透明度
+Editor.StylesHelperView.LinearSpread.Caption=展開
+Editor.StylesHelperView.RadialOrigin.Caption=基点 % (左,上)
+Editor.StylesHelperView.RadialRadius.Caption=半径 % (左,上)
+Editor.StylesHelperView.RadialCenter.Caption=中心 % (左,上)
+Editor.StylesHelperView.RadialOpacity.Caption=不透明度
+Editor.StylesHelperView.RadialSpread.Caption=展開
+Editor.StylesHelperView.ForegroundBrush.Caption=前景ﾌﾞﾗｼ
+Editor.StylesHelperView.BackgroundBrush.Caption=背景ﾌﾞﾗｼ
+Editor.StylesHelperView.Brushes.Caption=ﾌﾞﾗｼ
+Editor.StylesHelperView.BorderBrush.Caption=枠線ﾌﾞﾗｼ
+Editor.StylesHelperView.MaskBrush.Caption=ﾏｽｸ ﾌﾞﾗｼ
+Editor.StylesHelperView.Effect.Caption=効果
+Editor.StylesHelperView.NewBrush.Caption=新規ﾌﾞﾗｼ
+Editor.StylesHelperView.DeleteBrush.Caption=ﾌﾞﾗｼ削除
+Editor.StylesHelperView.LinearBrush.Caption=線状
+Editor.StylesHelperView.LinearBrush.Hint=ｱｸﾃｨﾌﾞなｽﾀｲﾙに線状ﾌﾞﾗｼを添付します。
+Editor.StylesHelperView.RadialBrush.Caption=放射状
+Editor.StylesHelperView.RadialBrush.Hint=ｱｸﾃｨﾌﾞなｽﾀｲﾙに放射状ﾌﾞﾗｼを添付します。
+Editor.StylesHelperView.SolidBrush.Caption=単色
+Editor.StylesHelperView.SolidBrush.Hint=ｱｸﾃｨﾌﾞなｽﾀｲﾙに単色ﾌﾞﾗｼを添付します。
+Editor.StylesHelperView.ImageBrush.Caption=ｲﾒｰｼﾞ
+Editor.StylesHelperView.ImageBrush.Hint=ｱｸﾃｨﾌﾞなｽﾀｲﾙにｲﾒｰｼﾞ ﾌﾞﾗｼを添付します。
+Editor.StylesHelperView.VisualBrush.Caption=ﾋﾞｼﾞｭｱﾙ
+Editor.StylesHelperView.VisualBrush.Hint=ｱｸﾃｨﾌﾞなｽﾀｲﾙにﾋﾞｼﾞｭｱﾙ ﾌﾞﾗｼを添付します。
+Editor.StylesHelperView.Details.Caption=詳細
+
+Editor.RibbonHelperView.AppMenu.Caption=ｱﾌﾟﾘｹｰｼｮﾝ ﾒﾆｭｰ
+Editor.RibbonHelperView.AppMenuContent.Caption=ｱﾌﾟﾘｹｰｼｮﾝ ﾒﾆｭｰのｺﾝﾃﾝﾂ
+Editor.RibbonHelperView.AppMenuFooter.Caption=ｱﾌﾟﾘｹｰｼｮﾝ ﾒﾆｭｰ ﾌｯﾀｰ
+Editor.RibbonHelperView.QuickAccessToolbar.Caption=ｸｲｯｸ ｱｸｾｽ ﾂｰﾙﾊﾞｰ
+Editor.RibbonHelperView.HelpToolbar.Caption=ﾍﾙﾌﾟ ﾂｰﾙﾊﾞｰ
+Editor.RibbonHelperView.Sheets.Caption=ｼｰﾄ
+Editor.RibbonHelperView.Sheet.Caption=ｼｰﾄ &1
+Editor.RibbonHelperView.Sheet.KeyTip=S&1
+Editor.RibbonHelperView.Group.Caption=ｸﾞﾙｰﾌﾟ &1
+
+Editor.LayoutHelperView.Caption=ﾚｲｱｳﾄ ﾍﾙﾊﾟｰ
+
+Editor.DesignerView.Caption=ﾃﾞｻﾞｲﾅｰ
+
+Editor.ControlsView.Caption=ｺﾝﾄﾛｰﾙ
+Editor.ControlsView.Controls.Caption=ｺﾝﾄﾛｰﾙ
+Editor.ControlsView.Common.Caption=共通
+Editor.ControlsView.UserDesigned.Caption=ﾕｰｻﾞｰ ﾃﾞｻﾞｲﾝ
+Editor.ControlsView.All.Caption=全てのｺﾝﾄﾛｰﾙ
+Editor.ControlsView.UserDesigned.CarouselDesign=ｶﾙｰｾﾙ ﾃﾞｻﾞｲﾝ
+Editor.ControlsView.UserDesigned.BookDesign=ﾌﾞｯｸ ﾃﾞｻﾞｲﾝ
+Editor.ControlsView.UserDesigned.TreeDesign=ﾂﾘｰ ﾃﾞｻﾞｲﾝ
+Editor.ControlsView.UserDesigned.TileDesign=ﾀｲﾙ ﾃﾞｻﾞｲﾝ
+Editor.ControlsView.UserDesigned.DashboardDesign=ﾀﾞｼｭﾎﾞｰﾄﾞ ﾃﾞｻﾞｲﾝ
+Editor.ControlsView.UserDesigned.Expand=拡大して使用可能なﾃﾞｻﾞｲﾝを表示
+Editor.ControlsView.UserDesigned.Empty=使用可能なﾃﾞｻﾞｲﾝはありません
+Editor.ControlsView.RibbonSheet.Caption=ﾘﾎﾞﾝ ｼｰﾄ
+Editor.ControlsView.RibbonGroup.Caption=ﾘﾎﾞﾝ ｸﾞﾙｰﾌﾟ
+Editor.ControlsView.DockingTab.Caption=ﾀﾌﾞ ﾄﾞｯｷﾝｸﾞ ﾌﾚｰﾑﾜｰｸ
+Editor.ControlsView.DockingTab.Desc=LANSAｴﾃﾞｨﾀｰで使用されているﾄﾞｯｷﾝｸﾞ ﾌﾚｰﾑﾜｰｸによく似ています。
+
+Editor.Find.AvailableDesigns.Caption=使用可能ﾃﾞｻﾞｲﾝ
+
+Editor.New.Common.Caption=共通
+Editor.New.Resource.Caption=リソース
+Editor.New.System.Caption=システム

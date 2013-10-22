@@ -1,0 +1,156 @@
+PictureFileExtension=.bmp,.tif,.ico,.cur
+Free1=1
+Free2=2
+Free3=3
+StrFindErr=文字列が見つかりません
+MaxLineLengthErr='貼り付け' の処理によって行の最大桁数を超えます:
+MaxLineCountErr='貼り付け' の処理によって最大行数を超えます:
+OperationAborted=ｵﾍﾟﾚｰｼｮﾝは異常終了しました。
+DriverMissing=ｼｽﾃﾑ ﾊﾟｽに以下のﾄﾞﾗｲﾊﾞが見つかりません:
+Label=<ﾃｷｽﾄ>
+
+********************************************************************
+*** Image List Specific Strings ************************************
+********************************************************************
+MaxImagesErr=処理によって最大ｲﾒｰｼﾞ数 &1 を超えます。
+
+********************************************************************
+*** LpVoGraph Specific Strings *************************************
+********************************************************************
+GraphTitle=ﾀｲﾄﾙ
+GraphTitleX=X ﾀｲﾄﾙ
+GraphTitleY=Y ﾀｲﾄﾙ
+Directories=ﾃﾞｨﾚｸﾄﾘ
+InvalidGraphType=無効なｸﾞﾗﾌ ﾀｲﾌﾟ (例:円ｸﾞﾗﾌ)
+*** @TRANS ADD
+Graph.Unsupported=No graph support
+*** @TRANS END
+
+Status.Memo.ReplaceAll=&1 個の &2 を置換しました。
+
+
+**
+MenuAction.CutValue=切り取り
+MenuAction.CopyValue=ｺﾋﾟｰ
+MenuAction.PasteValue=貼り付け
+MenuAction.PrintValue=印刷
+MenuAction.ShowHelp=ﾍﾙﾌﾟの表示
+MenuAction.PasteDefault=省略値の貼り付け
+MenuAction.ShowProperties=ﾌﾟﾛﾊﾟﾃｨの表示
+MenuAction.PasteCurrentDate=日付の貼り付け
+MenuAction.PasteCurrentTime=時間の貼り付け
+MenuAction.PasteCurrentUser=現行ﾕｰｻﾞｰの貼り付け
+
+Goto.OK=OK
+Goto.Cancel=ｷｬﾝｾﾙ
+Goto.Text=行指定:
+Goto.Title=行指定
+
+Explorer.DeskTop=ﾃﾞｽｸﾄｯﾌﾟ
+Explorer.Network=ﾈｯﾄﾜｰｸ ｺﾝﾋﾟｭｰﾀ
+Explorer.GlobalNetwork=ｸﾞﾛｰﾊﾞﾙ ﾈｯﾄﾜｰｸ
+Explorer.MyComputer=ﾏｲ ｺﾝﾋﾟｭｰﾀ
+Explorer.OnString=ｵﾝ
+Explorer.PathFailure=ﾊﾟｽが見つかりません
+
+Memo.CollapsedItems=&1 項目縮小されています。
+Prop.NotAvailableCaption=なし
+
+HelpContext.NoHelpFile=このｺﾝﾎﾟｰﾈﾝﾄに関連しているﾍﾙﾌﾟ ﾌｧｲﾙがありません
+
+ComControlContainer.ErrorSavingPersistProps=ActiveX ｺﾝﾄﾛｰﾙの状況の保存中にｴﾗｰが発生しました。\n 状況が保存されません。
+
+*
+FloatDockTabMenu.TabLocation=ﾀﾌﾞの位置
+FloatDockTabMenu.TabLocationTop=上
+FloatDockTabMenu.TabLocationBottom=下
+FloatDockTabMenu.TabLocationLeft=左
+FloatDockTabMenu.TabLocationRight=右
+*
+FloatDockTabMenu.TabLocation.Tip=ﾀﾌﾞ位置の切り替え
+
+********************************************************************
+*** LpVocalendar Specific Strings **********************************
+********************************************************************
+
+Calendar.TodayCaption=今日
+Calendar.PrevMonth.Hint=前月
+Calendar.PrevYear.Hint=前年
+Calendar.NextMonth.Hint=次月
+Calendar.NextYear.Hint=次年
+
+********************************************************************
+*** LpVoException Specific Messages ********************************
+********************************************************************
+
+Exception.TreeSetParentInvalidParent=SetParentItem に渡されたﾂﾘｰ ｱｲﾃﾑは SetParentItem のﾀｰｹﾞｯﾄと同じﾂﾘｰに属しません。
+Exception.TreeSetParentInvalidParent.Id=1
+Exception.TreeSetParentNotUnlevelled=SetParentItem はﾂﾘｰ ViewStyle Levelled には無効です
+Exception.TreeSetParentNotUnlevelled.Id=2
+Exception.TreeSetParentSelfInvalid=SetParentItem に渡されたﾂﾘｰ ｱｲﾃﾑは SetParentItem のﾀｰｹﾞｯﾄと同じにはできません。
+Exception.TreeSetParentSelfInvalid.Id=3
+Exception.TreeAssignRowColValueInvalid=Assign はﾂﾘｰ ViewStyle Levelled には使用することはできません。
+Exception.TreeAssignRowColValueInvalid.Id=4
+Exception.TreeDesignInterfaceNotSupported=ﾂﾘｰ ﾃﾞｻﾞｲﾝは PRIM_TREE.ITreeDesign ｲﾝﾀｰﾌｪｲｽをｻﾎﾟｰﾄしません。
+Exception.TreeDesignInterfaceNotSupported.Id=9
+Exception.TileDesignInterfaceNotSupported=ﾀｲﾙ ﾃﾞｻﾞｲﾝは PRIM_TILE.ITileDesign ｲﾝﾀｰﾌｪｲｽをｻﾎﾟｰﾄしません。
+Exception.TileDesignInterfaceNotSupported.Id=17
+Exception.CarouselDesignInterfaceNotSupported=ｶﾙｰｾﾙ ﾃﾞｻﾞｲﾝは PRIM_CARO.ICarouselDesign ｲﾝﾀｰﾌｪｲｽをｻﾎﾟｰﾄしません。
+Exception.CarouselDesignInterfaceNotSupported.Id=16
+Exception.BookDesignInterfaceNotSupported=ﾌﾞｯｸ ﾃﾞｻﾞｲﾝは PRIM_BOOK.IBookDesign ｲﾝﾀｰﾌｪｲｽをｻﾎﾟｰﾄしません。
+Exception.BookDesignInterfaceNotSupported.Id=5
+Exception.DashboardDesignInterfaceNotSupported=ﾀﾞｯｼｭﾎﾞｰﾄﾞﾃﾞｻﾞｲﾝは PRIM_DASH.IDashboardDesign ｲﾝﾀｰﾌｪｲｽをｻﾎﾟｰﾄしません。
+Exception.DashboardDesignInterfaceNotSupported.Id=18
+Exception.AnimationBeginInvalidParent=ｱﾆﾒｰｼｮﾝ項目の無効な親ｱﾆﾒｰｼｮﾝ
+Exception.AnimationBeginInvalidParent.Id=10
+Exception.AnimationBeginInvalidComponent=ｱﾆﾒｰｼｮﾝ項目の無効なｺﾝﾎﾟｰﾈﾝﾄ
+Exception.AnimationBeginInvalidComponent.Id=11
+Exception.AnimationBeginInvalidSibling=切り替えｱﾆﾒｰｼｮﾝ項目のｿｰｽとﾀｰｹﾞｯﾄ ｺﾝﾎﾟｰﾈﾝﾄは同じ親ｺﾝﾎﾟｰﾈﾝﾄに属しません。
+Exception.AnimationBeginInvalidSibling.Id=12
+Exception.AnimationBeginInvalidOperation=ｱﾆﾒｰｼｮﾝ操作の開始に失敗しました。このｱﾆﾒｰｼｮﾝは既に実行されているｱﾆﾒｰｼｮﾝと競合している可能性があります。
+Exception.AnimationBeginInvalidOperation.Id=13
+Exception.TileITableItemNotSupported=ﾀｲﾙ項目は PRIM_TILE.ITileItem ｲﾝﾀｰﾌｪｲｽをｻﾎﾟｰﾄしません。
+Exception.TileITableItemNotSupported.Id=14
+Exception.TileNameNotFound=ｺﾝﾎﾟｰﾈﾝﾄ &1 が見つかりません。
+Exception.TileNameNotFound.Id=15
+
+********************************************************************
+*** Tab Specific Strings		  **********************************
+********************************************************************
+
+Tab.IncreaseDockGroup.Caption=ｸﾞﾙｰﾌﾟを増やす
+Tab.DecreaseDockGroup.Caption=ｸﾞﾙｰﾌﾟを減らす
+Tab.LayoutPriority.Caption=最大ﾚｲｱｳﾄ
+Tab.AutoHide.Caption=自動的に隠す
+Tab.Hide.Caption=閉じる
+Tab.ConfigureButtons.Hint=ﾍﾟｰｼﾞ設定
+Tab.ShowMoreButtons.Caption=ﾎﾞﾀﾝをより多く表示
+Tab.ShowFewerButtons.Caption=ﾎﾞﾀﾝをより少なく表示
+Tab.AddOrRemoveButtons.Caption=ﾍﾟｰｼﾞを追加または削除
+Tab.PageCloseButton.Hint=ﾍﾟｰｼﾞを閉じる
+
+********************************************************************
+*** Message Box Specific Strings ***********************************
+********************************************************************
+
+MessageBox.Yes=はい(&Y)
+MessageBox.No=いいえ(&N)
+MessageBox.YesToAll=全てはい(&A)
+MessageBox.NoToAll=全ていいえ(&L)
+MessageBox.Cancel=ｷｬﾝｾﾙ(&C)
+
+Win32.ControlNotAvailable=ﾌﾟﾘﾐﾃｨﾌﾞ &1 はWin32では使用できません
+
+Udc.Carousel.DesignRequired=PRIM_CAROは、ｺﾝﾃﾝﾂにPRIM_CARO.ICarouselDesignを導入する再利用可能ﾊﾟｰﾂが必要です。
+Udc.Tree.DesignRequired=PRIM_TREEは、ｺﾝﾃﾝﾂにPRIM_TREE.ITreeDesignを導入する再利用可能ﾊﾟｰﾂが必要です。
+Udc.Book.DesignRequired=PRIM_BOOKは、ｺﾝﾃﾝﾂにPRIM_BOOK.IBookDesignを導入する再利用可能ﾊﾟｰﾂが必要です。
+Udc.Tile.DesignRequired=PRIM_TILEは、ｺﾝﾃﾝﾂにPRIM_TILE.ITileDesignを導入する再利用可能ﾊﾟｰﾂが必要です。
+Udc.Dashboard.DesignRequired=PRIM_DASHは、ｺﾝﾃﾝﾂにPRIM_DASH.IDashboardDesignを導入する再利用可能ﾊﾟｰﾂが必要です。
+
+********************************************************************
+*** Ribbon Strings               ***********************************
+********************************************************************
+
+Ribbon.Minimize=ﾘﾎﾞﾝの最小化
+Ribbon.ShowBelow=ｸｲｯｸ ｱｸｾｽ ﾂｰﾙﾊﾞｰをﾘﾎﾞﾝの下に表示
+Ribbon.ShowAbove=ｸｲｯｸ ｱｸｾｽ ﾂｰﾙﾊﾞｰをﾘﾎﾞﾝの上に表示

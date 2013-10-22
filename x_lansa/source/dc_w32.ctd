@@ -1,0 +1,104 @@
+DEFINE_TABLE
+  INTERNAL=DC@W32
+  TABLE=DC_W32
+  COLLECTION=LX_DTA
+  DESC=Wizard Menu Defintion - Multilingual
+DEFINE_COLUMNS
+  NAME=W32P_I    
+    DESC=Partition Identifier
+    TYPE=CHAR
+    LEN=3
+    NOT_NULL
+  NAME=W32PEN    
+    DESC=Primary Extension Name
+    TYPE=CHAR
+    LEN=3
+    NOT_NULL
+  NAME=W32SEN    
+    DESC=Secondary Extension Name
+    TYPE=CHAR
+    LEN=5
+    NOT_NULL
+  NAME=W32PLN    
+    DESC=Partition language code
+    TYPE=CHAR
+    LEN=4
+    NOT_NULL
+  NAME=W32PAG    
+    DESC=Page Identifier
+    TYPE=CHAR
+    LEN=20
+    NOT_NULL
+  NAME=W32PMN    
+    DESC=Parent Menu
+    TYPE=CHAR
+    LEN=15
+    NOT_NULL
+  NAME=W32SEQ    
+    DESC=Menu Sequence
+    TYPE=DECIMAL
+    LEN=3
+    DEC=0
+    NOT_NULL
+  NAME=W32IDS    
+    DESC=Menu Item Description
+    TYPE=VARCHAR
+    LEN=100
+    NOT_NULL
+  NAME=W32IM1    
+    DESC=Menu Item Image1
+    TYPE=VARCHAR
+    LEN=255
+    NOT_NULL
+  NAME=W32IM2    
+    DESC=Menu Item Image2
+    TYPE=VARCHAR
+    LEN=255
+    NOT_NULL
+  NAME=W32JSC    
+    DESC=Optional Javascript
+    TYPE=VARCHAR
+    LEN=255
+    NOT_NULL
+  NAME=W32SPR    
+    DESC=Spare Field
+    TYPE=VARCHAR
+    LEN=255
+    NOT_NULL
+  NAME=X_UPID
+    DESC=Update
+    TYPE=DECIMAL
+    LEN=7
+    DEC=0
+    NOT_NULL
+  NAME=X_RRNO
+    DESC=Relative record #
+    TYPE=DECIMAL
+    LEN=15
+    DEC=0
+    NOT_NULL
+DEFINE_INDEX
+  NAME=DC_W32_R
+  UNIQUE
+  DEFINE_INDEX_KEYS
+    COLUMN=X_RRNO
+DEFINE_INDEX
+  NAME=DC_W32V1_I
+  DEFINE_INDEX_KEYS
+    COLUMN=W32P_I    
+    COLUMN=W32PEN    
+    COLUMN=W32SEN    
+    COLUMN=W32PLN    
+    COLUMN=W32PAG    
+    COLUMN=W32PMN    
+    COLUMN=W32SEQ    
+DEFINE_INDEX
+  NAME=DC_W32V3_I
+  DEFINE_INDEX_KEYS
+    COLUMN=W32P_I    
+    COLUMN=W32PEN    
+    COLUMN=W32SEN    
+    COLUMN=W32PAG    
+    COLUMN=W32PMN    
+    COLUMN=W32SEQ    
+    COLUMN=W32PLN    

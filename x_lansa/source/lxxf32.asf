@@ -1,0 +1,7 @@
+X32P_I     1A   3     1    3
+X32MOD     2A  10     4   13
+X32PNO     3A   2    14   15
+X32TYP     0A   1    16   16
+X32LEN     0N   5    17   21
+X32DEC     0N   5    22   26
+X32DES     0A  15    27   41

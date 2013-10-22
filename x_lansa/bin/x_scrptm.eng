@@ -1,0 +1,248 @@
+##############################################################
+# Messages for multilingual scripts usd by LANSA.
+# Copyright (C), 2002 LANSA
+##############################################################
+#
+# This file must reside in a directory that is included in
+# the PATH environment variable. The preferred location is
+# $LANSAXROOT/x_lansa/bin.
+#
+# --------------------------------------------------------
+
+#
+# -------------------------------------------------
+# Messages without Substitution Variables
+# -------------------------------------------------
+#
+# All new messages of this type MUST have the text enclosed in double quotes.
+#
+#
+N0001="Error"
+N0002="Warning"
+N0003="The Partition is"
+N0004="The Database is"
+N0005="The Import Directory is"
+N0006="The Data Library is"
+N0007="The Database Type is"
+N0008="The Collection Name is"
+N0009="The Language code is"
+N0010="Import options:"
+N0011="LIMPORT and/or *.xq* files?"
+N0012="(Re)Build Application Files?"
+N0013="   Drop tables/views/indexes?"
+N0014="   Save/reload data?"
+N0015="Compile OAMs?"
+N0016="Import Shipped Data?"
+N0017="Compile Processes/Functions?"
+N0018="Enter partition"
+N0019="Enter Database Name"
+N0020="Enter import directory path"
+N0021="Enter Data Library"
+N0022="Enter Collection name"
+N0023="Enter Module Library"
+N0024="Enter Language code"
+N0025="Import options (all Y or N):"
+N0026="See impunx.log"
+N0027="See above."
+N0028="Unable to select from a table."
+N0029="Unable to create a table."
+N0030="Unable to execute x_dbt. Proceeding anyway."
+N0031="LANSA Import Utility"
+N0032="LANSA Import Utility started"
+N0033="Ctrl-C pressed to cancel script"
+# N0034 replaced by S0068, so message N0034 can be reused
+N0035="Please make sure ownervar.sh has been executed."
+# N0036 replaced by S0068, so message N0036 can be reused
+N0037="Unsupported database type!"
+N0038="Converting partition to lowercase"
+N0039="Is this correct (Y or N)?"
+N0040="Create directories"
+N0041="Importing LX_nnn data"
+N0042="LIMPORT failed! See impunx.log, import.log, x_err.log."
+N0043="LIMPORT failed! See above and check import.log, x_err.log."
+N0044="No lxxdir.del file found, so LIMPORT skipped"
+N0045="No *.xq* files found to import"
+N0046="Install all Process, Function and Component source files"
+N0047="Build Processes, Functions and Components"
+N0048="Create user tables, indexes and views"
+N0049="No *.ctd files found to import"
+N0050="Table not found. Data not backed up"
+N0051="Unable to create tables. Skipping (Re)build."
+N0052="   SQLPLUS grant views/table script:"
+N0053="The OAM must be built successfully to reload the saved data."
+N0054="         Once resolved, set Import Shipped Data to Y to reload the data."
+N0055="Compile OAMS"
+N0056="No *.ctd files found to build OAMs"
+N0057="       Set (Re)Build Application Files? and CompileOAMs to Y to rebuild table."
+N0058="Import shipped data"
+N0059="No *.dat files found to import"
+N0060="LANSA Import Utility ended"
+N0061="Done!"
+N0062="      Please check impunx.log for errors and warnings."
+N0063="      Please check that LIMPORT succeeded (in impunx.log or import.log)"
+N0064="Target Path"
+N0065="This install script makes the following assumptions:"
+N0066="The LANSAXROOT environment variable has been defined."
+N0067="The PATH environment variable includes '/usr/bin'"
+N0068="You have created an Oracle OFA database"
+N0069="The ORACLE_HOME and ORACLE_SID environment variables have been defined."
+N0070="LANSA Install started"
+N0071="Abort"
+N0072="Enter the DBA username to create users and roles"
+N0073="Enter the DBA password"
+N0074="See install.log"
+N0075="Enter Collection name to create"
+N0076="*************************** README ***************************************"
+N0077="Collection"
+N0078="First install on this database?"
+N0079="Ignore messages in install.log about objects that already exist."
+N0080="Enter the password for table owner LX_DTA"
+N0081="Adding LANSA table owners to the database"
+N0082="*** start crlansa.sql ***"
+N0083="*** end crlansa.sql ***"
+N0084="Unable to connect to the database as lx_dta."
+N0085="Unable to create tables."
+N0086="Creating or Updating tables"
+N0087="Granting access to files"
+N0088="*** start grants.sql ***"
+N0089="*** end grants.sql ***"
+N0090="ownervar.sh has not been executed (correctly)."
+N0091="This will cause impunx.sh to fail. Check the install instructions."
+N0092="Please refer to the Communications Setup Guide for full configuration details."
+N0093="Reset EPC Log details"
+N0094="Installation program has finished. Check install.log."
+N0095="Visual LANSA Install ended"
+N0096="NOTE: Values shown in brackets beside prompts are the defaults."
+N0097="Enter the Visual LANSA Program Library Name"
+N0098="Enter the Visual LANSA Data Library Name "
+N0099="Enter the Database name."
+N0100="Enter the profile for the LANSA Owner."
+N0101="Creating Data Areas"
+N0102="LANSA EPC Install started"
+N0103="Active LANSA processes found."
+N0104="To install EPCs all LANSA processes for the target LANSA system must be stopped."
+N0105="Do you wish to Continue? (Y or N)"
+N0106="EPC installation Aborted!"
+N0107="Removing temporary install directory"
+N0108="Creating temporary install directory"
+N0109="Extract EPC Information"
+N0110="EPC configuration file could not be found."
+N0111="You have attempted to install this EPC on the wrong platform."
+N0112="Force Reinstall of EPC being processed"
+N0113="Restore of EPC objects Started."
+N0114="Restoration of EPC objects failed. Check instepc.log for details"
+N0115="Restore of EPC objects Completed."
+N0116="Updating epc.log."
+N0117="Updating epcobj.log."
+N0118="ORACLE environment variables not set up"
+N0119="The Oracle Version is not correct"
+N0120="Usage"
+N0121="path to tar file"
+N0122="e.g."
+N0123="LANSA for the Web Install started"
+N0124="Enter the LANSA Root Directory path"
+N0125="Multiple copies of lansaweb*.tar found"
+N0126="None of the following"
+N0127="Select number of tar file to use"
+N0128="Invalid Selection"
+N0129="not found"
+N0130="I am about to install using the following values:"
+N0131="LANSAXROOT             :"
+N0132="lansaweb tar file      :"
+N0133="lansa connect tar file :"
+N0134="I am about to create/update the configuration file:"
+N0135="Configuration file     :"
+N0136="Location of tomcat configuration files :"
+N0137="Invalid configuration directory"
+N0138="You may need to copy apps-lansaweb.xml to the tomcat configuration directory"
+N0139="You will then need to check that LANSAXROOT is defined correctly in this file"
+N0140="Do not forget to update your startup script to include the set_env script"
+N0141="Installation halted....."
+N0142="Installation complete"
+N0143="Do you want to use this system with LANSA for the Web?"
+N0144="Please refer to the Deploying Client and Server Applications Guide for configuration details.\n"
+
+
+#
+# -------------------------------------------------
+# Messages with Substitution Variables
+# -------------------------------------------------
+#
+#
+# All new messages of this type MUST have the text enclosed in single quotes.
+# Substitution Variable is the name of the varible used in the script.
+#
+
+S0001='Unable to connect to the database as $User.'
+S0002='Import directory $SrcPath does not exist!'
+S0003='Import directory must not have sub-directories that contain files: *.$PSuffix, *.ctd, *.dat, or *.xq*!'
+S0004='Connecting to database as $User'
+S0005='cp $SrcPath/x_def$Part.h $TgtPath failed!'
+S0006='cp $File $TgtPath failed!'
+S0007='cp $SrcPath/$Base.* $TgtPath failed!'
+S0008='cd $LANSAXROOT/x_lansa/x_$Part/source failed!'
+S0009='Processing file $File'
+S0010='Skipping build of $Base as at least one of the OAM source files is missing!'
+S0011='Skipping build of $Base as it is a PC Other File'
+S0012='Unloading data for $Base'
+S0013='Skipping unload and build of $Base as $File is not in a valid format!'
+S0014='Unload of existing data for $Base failed - x_run!'
+S0015='Unload of existing data for $Base failed - BIF!'
+S0016='Dropping $Base'
+S0017='$TgtLibrary.$Base dropped'
+S0018='$TgtLibrary.$Base not dropped!'
+S0019='Creating $Base'
+S0020='$Collection.$Base created successfully'
+S0021='Granting access to $Base'
+S0022='Compiling OAM for $Base'
+S0023='Make of $Base.$PSuffix failed!'
+S0024='         Backup $PartSourcePath/$Base.dat and resolve the issue.'
+S0025='$Collection.$Base not created!'
+S0026='Reloading data for $Base'
+S0027='Reload of saved data for $Base failed - x_run!'
+S0028='Reload of saved data for $Base failed - BIF!'
+S0029='Skipping build of $Base as $File and $TgtPath/$Base.ctd are different.'
+S0030='cd $SrcPath failed!'
+S0031='Importing data for $Base'
+S0032='Skipping load of $Base as $File is not in a valid format!'
+S0033='Load of shipped data for $Base failed - BIF!'
+S0034='$Base.dat skipped. Not shipped with .ctd or OAM not found'
+S0035='$SrcPath does not exist'
+S0036='Make of $File failed!'
+S0037='Skipping build of $Base as at least one of the OAM source files is missing!'
+S0038='. $LANSAXROOT/x_lansa/bin/ownervar.sh has been executed'
+S0039='Press Enter to continue or $SubstVar to abort.'
+S0040='Installing User is $LogName'
+S0041='Environment variable $SubstVar is not defined.'
+S0042='sqlplus not executable from $ORACLE_HOME/bin'
+S0043='Upgrade. LX_DTA password is $Password'
+S0044='A sample configuration file - $LANSAXROOT/lansa.ini, has been created by this installation.'
+S0046='See $PWD/lansa.ini for an example.'
+S0047='The file $SubstVar has been copied to $LANSAXROOT'
+S0048='A sample route table - $LANSAXROOT/lroute.dat, has been created by this installation.'
+S0049='If you only have one LANSA system, removing $SubstVar is recommended.'
+S0050='Visual LANSA Program Library is $LANSAX_PGM'
+S0051='Visual LANSA Data Library is $LANSAX_DTA'
+S0052='Database name is $Dbid'
+S0053='LANSA Owner is $LANSAOwner'
+S0054='The file $EPCImage does not exist.'
+S0055='The Target platform should be $Platform, and this is `uname`'
+S0056='$EPCId is for version $TargetVersion'
+S0057='The current system is $InstalledVersion.'
+S0058='Install of $EPCId Aborted!'
+S0059='$EPCId has already been installed.'
+S0060='Required EPC $EPCReq has not been installed.'
+S0061='Install of EPC $EPCId completed.'
+S0062='You are attempting to install on an invalid platform - $Platform'
+S0063='Multiple copies of lcu\*$PlatExt.tar found'
+S0064='$LANSAXROOT already exists.'
+S0065='Unable to write to $LANSAXROOT.'
+S0066='TOMCAT_HOME/conf \($TOMCAT_HOME_CONF\) does not exist'
+S0067='A sample profile file - $LANSAXROOT/x_lansa/x_lansa.pro, has been created by this installation.'
+S0068='Environment variable $EnvVarName is not defined!'
+S0069='Dropping indexes and views for $Base'
+S0070='Indexes and views for $TgtLibrary.$Base dropped'
+S0071='Indexes and views for $TgtLibrary.$Base not dropped!'
+S0072='Creating indexes and views for $Base'
+S0073='Indexes and views for $Collection.$Base created successfully'
+S0074='Indexes and views for $Collection.$Base not created!'

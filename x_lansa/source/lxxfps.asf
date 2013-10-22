@@ -1,0 +1,11 @@
+XPSP_I    01A   3     1    3
+XPSCID    02A  10     4   13
+XPSCTX    03N   70   14   20
+XPSOCU    04A  20    21   40
+XPSPTU    05A  20    41   60
+XPSSEQ    06N   70   61   67
+XPSVAL    00A  20    68   87
+XPSEXP    00N   90   88   96
+XPSFE1    00N   70   97  103
+XPSFE2    00A  10   104  113
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@

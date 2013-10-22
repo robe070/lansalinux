@@ -1,0 +1,157 @@
+DEFINE_TABLE
+  INTERNAL=LX_W27
+  TABLE=LX_W27
+  COLLECTION=LX_DTA
+  DESC=LX_W27
+  CHAR_TO_BINARY
+DEFINE_COLUMNS
+  NAME=W27TID
+    DESC=Trace ID
+    TYPE=CHAR
+    LEN=15
+    NOT_NULL
+  NAME=W27SEQ
+    DESC=Sequence Number
+    TYPE=DECIMAL
+    LEN=7
+    DEC=0
+    NOT_NULL
+  NAME=W27PRO
+    DESC=Page Name - Process
+    TYPE=CHAR
+    LEN=10
+    NOT_NULL
+  NAME=W27FUN
+    DESC=Page Name - Function
+    TYPE=CHAR
+    LEN=7
+    NOT_NULL
+  NAME=W27PSQ
+    DESC=Page Name - Sequence
+    TYPE=CHAR
+    LEN=3
+    NOT_NULL
+  NAME=W27DAT
+    DESC=Page Date
+    TYPE=CHAR
+    LEN=10
+    NOT_NULL
+  NAME=W27SP1
+    DESC=Spacer
+    TYPE=CHAR
+    LEN=1
+    NOT_NULL
+  NAME=W27TIM
+    DESC=Page Time
+    TYPE=CHAR
+    LEN=8
+    NOT_NULL
+  NAME=W27FN0
+    DESC=Field Name 00
+    TYPE=CHAR
+    LEN=10
+    NOT_NULL
+  NAME=W27FV0
+    DESC=Field Value 00
+    TYPE=CHAR
+    LEN=50
+    NOT_NULL
+  NAME=W27FN1
+    DESC=Field Name 01
+    TYPE=CHAR
+    LEN=10
+    NOT_NULL
+  NAME=W27FV1
+    DESC=Field Value 01
+    TYPE=CHAR
+    LEN=50
+    NOT_NULL
+  NAME=W27FN2
+    DESC=Field Name 02
+    TYPE=CHAR
+    LEN=10
+    NOT_NULL
+  NAME=W27FV2
+    DESC=Field Value 02
+    TYPE=CHAR
+    LEN=50
+    NOT_NULL
+  NAME=W27FN3
+    DESC=Field Name 03
+    TYPE=CHAR
+    LEN=10
+    NOT_NULL
+  NAME=W27FV3
+    DESC=Field Value 03
+    TYPE=CHAR
+    LEN=50
+    NOT_NULL
+  NAME=W27FN4
+    DESC=Field Name 04
+    TYPE=CHAR
+    LEN=10
+    NOT_NULL
+  NAME=W27FV4
+    DESC=Field Value 04
+    TYPE=CHAR
+    LEN=50
+    NOT_NULL
+  NAME=W27FN5
+    DESC=Field Name 05
+    TYPE=CHAR
+    LEN=10
+    NOT_NULL
+  NAME=W27FV5
+    DESC=Field Value 05
+    TYPE=CHAR
+    LEN=50
+    NOT_NULL
+  NAME=W27FN6
+    DESC=Field Name 06
+    TYPE=CHAR
+    LEN=10
+    NOT_NULL
+  NAME=W27FV6
+    DESC=Field Value 06
+    TYPE=CHAR
+    LEN=50
+    NOT_NULL
+  NAME=W27FN7
+    DESC=Field Name 07
+    TYPE=CHAR
+    LEN=10
+    NOT_NULL
+  NAME=W27FV7
+    DESC=Field Value 07
+    TYPE=CHAR
+    LEN=50
+    NOT_NULL
+  NAME=W27FN8
+    DESC=Field Name 08
+    TYPE=CHAR
+    LEN=10
+    NOT_NULL
+  NAME=W27FV8
+    DESC=Field Value 08
+    TYPE=CHAR
+    LEN=50
+    NOT_NULL
+  NAME=W27FN9
+    DESC=Field Name 09
+    TYPE=CHAR
+    LEN=10
+    NOT_NULL
+  NAME=W27FV9
+    DESC=Field Value 09
+    TYPE=CHAR
+    LEN=50
+    NOT_NULL
+DEFINE_PRIMARY_KEYS
+  NAME=LX_W27_PRIM
+    COLUMN=W27TID
+    COLUMN=W27SEQ
+DEFINE_INDEX
+  NAME=LX_W27_V3
+  DEFINE_INDEX_KEYS
+    COLUMN=W27DAT
+    COLUMN=W27TIM

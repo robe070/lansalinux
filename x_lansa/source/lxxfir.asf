@@ -1,0 +1,6 @@
+XIRP_I    00A   30    1    3
+XIRLNM    00A  100    4   13
+XIRPTR    00N  100   14   23
+XIRMID    00A   70   24   30
+XIRMTP    00A   20   31   32
+XIRPMS    00A  700   33  102 

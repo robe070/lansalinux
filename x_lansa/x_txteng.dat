@@ -1,0 +1,1271 @@
+*
+* THIS FILE IS USED FOR TEXT MESSAGES USED DURING THE EXECUTION OF THE
+* LANSA PRODUCT. ALL LINES MUST BE OF THE FORM NNNN,<TEXT> UNLESS
+* THEY HAVE AN "*" IN COLUMN 1 (THIS INDICATES A COMMENT LINE). THE COMPLETE
+* TRANSLATION SHOULD FIT ON ONE LINE AND NOT EXCEED 256 BYTES IN LENGTH.
+*
+* DO NOT DUPLICATE OR CHANGE THE NNNN, (IE: NUMBER) PORTION OF ANY LINE.
+* THE NUMBERS ASSIGNED DO NOT HAVE TO BE IN ORDER. NUMBERS ARE ASSIGNED
+* ONLY BY LANSA. NEW NUMBERS MAY BE ADDED FROM RELEASE TO RELEASE. COMMENT
+* LINES SHOULD NOT BE TRANSLATED.
+*
+* THE VALUES >S<, >D<, >C< AND >L< INDICATE SUBSTITUTION AREAS IN THE MESSAGE.
+* THESE MAY BE MOVED, BUT THEIR RELATIVE ORDER MUST NOT BE CHANGED WHEN THERE
+* ARE MULTIPLE SUBSTITUTIONS IN THE SAME LINE.
+*
+* GENERALLY VALUES SURROUNDED BY DOUBLE QUOTES (EG "time()") REFER TO OPERATING
+* SYSTEM FUNCTIONS THAT CANNOT BE TRANSLATED BECAUSE THEY ARE THE SAME IN ALL LANGUAGES.
+*
+* __________________________ 
+* Next message number : 1173 (check by scanning after assignment and update this line)
+* __________________________
+*
+* *******************************************************************************
+* TEXT USED FOR BUTTONS, ETC. KEEP SHORT AND PRECISE - TRANSLATION IS RECOMMENDED
+* *******************************************************************************
+0348,OK
+0352,Hold Emulated Job Queue
+0356,Release Emulated Job Queue
+0361,End an Emulated Job Queue
+0364,Emulated Job Queue (>S<)
+0545,Process Event/Status Log
+0718,Batch Job >S< (>S<.>S<.>S< >S< >S<)
+* ************************************************************
+* MESSAGES USED BY START UP LOGIC - TRANSLATION IS RECOMMENDED
+* ************************************************************
+0001,The partition name must be specified in the X_RUN command. It cannot be specified in the profile file.
+0002,The Language code (LANG=), Process Name (PROC=) or Form Name (FORM=), Data Base / Source Identifier (DBID=) and User Profile (USER=) must be specified.
+0991,The Process Name (PROC=) or Component Name (FORM=) must be specified.
+0003,The LDA file name is not correctly formatted.
+0004,The process parameter file name is not correctly formatted.
+0005,Error encountered when reading profile file >S<.
+0006,Error encountered when closing profile file >S<.
+0007,Parameter '>S<' too short.
+0008,>S< is not a valid system date format.
+0009,>S< is an invalid parameter.
+1132,>S< is a parameter reserved for use on the MSI command line
+1135,>S< is an invalid value for parameter >S<
+0278,Use of parameters DBID=>S< and DBII=>S< is conflicting. You can only connect to one data base / source at a time.
+0279,Error when attempting to automatically connect to server with LU Name >S<. Please review all following messages and all PSxx= parameter values.
+0337,X_RUN parameter HSKC=Y was used, but file >S< could not be found / opened.
+0341,*SYSEXPORT requested table name >S< is invalid or unknown.
+0342,System process request ">S<" is invalid or unknown.
+0350,Either, required X_RUN parameter QNAM= was not specified, OR, queue name >S< is not validly defined in file >S<, OR, file >S< could not be found/opened in the correct directory.
+0351,Error during >S< to/of signal file >S<. Probable cause is invalid name specified in the QNAM= parameter or invalid path name specified in the x_jobq.dat file.
+0353,Request issued to hold emulated job queue >S<.
+0354,A request is already pending to hold emulated job queue >S<.
+0355,A pending release request for emulated job queue >S< was deleted.
+0357,Request issued to release emulated job queue >S<.
+0358,A request is already pending to release emulated job queue >S<.
+0359,A pending hold request for emulated job queue >S< was deleted.
+0360,A pending end request for emulated job queue >S< was deleted.
+0362,Request issued to end processing via emulated job queue >S<.
+0363,A request is already pending to end processing via emulated job queue >S<.
+0365,Unable to open and lock job queue file >S<. Either QPTH= and/or QNAM= parameter values are wrongly specified or another process is currently servicing the job queue.
+0366,Emulated job queue processing from queue >S< ended normally.
+0367,Emulated job queue processing from queue >S< ended abnormally.
+0368,Emulated subsystem processing from job queue >S< (using directory >S<) successfully started.
+0369,Job queue has been released
+0370,Job queue not released because it was not previously held
+0371,Job queue is already held
+0372,Job queue has been held
+0373,Job >S< submitted by >S</>S</>S< on >S< at >S< started on >S< at >S<.
+0374,Job >S< submitted by >S</>S</>S< on >S< at >S< ended on >S< at >S<.
+0375,Job >S< submitted by >S</>S</>S< on >S< at >S< ended (with errors detected) on >S< at >S<.
+0395,Unexpected error encountered when attempting to load DBMS capabilities from >S<.
+0396,Data base / source type >S< is not defined in DBMS capability file >S< and thus it cannot be used.
+0399,Process >S< is not executable under release >S< of LANSA. You must regenerate and recompile this process before it can be executed.
+0599,>S< is Build >L< and >S< is Build >L<.  There is an inconsistency within your LANSA execution environment. You probably need to re-install LANSA.
+0600,>S< was built with Build >L< but >S< is an earlier Build (>L<). You need to install a more recent version of LANSA to support this Object.
+0651,Error when attempting to automatically connect to server with LU Name >S<. Please review all following messages and all ASxx= parameter values.
+0793,Function >S< in process >S< must be regenerated and recompiled before it can be executed for the Web.
+0986,File >S< was built prior to version 10.7 and must be regenerated before being used by RDMLX objects that use RDMLX Fields or language enhancements.
+0828,Unable to select a valid setting for ODBA= as DBUT=>S< and DBIT=>S< are not compatible.
+* This message is used to handle exceptions. e.g. access violations. The exception is put on the front of the message and the X_ERR.LOG file location is put on the end.
+0885,>S< should be reported to your product vendor as soon as possible by supplying the files >S< and >S< in directory >S<.
+1046,Server with LU Name ">S<" does not have all required EPCs installed. The following EPCs need to be installed on the server:
+1047,Unable to check EPC level of server with LU Name ">S<". Ensure the version of the server is the same or greater than the version on the client.
+1077,The system is currently being initialized. Please try again later.
+1080,Unable to check build number of server with LU Name ">S<". Ensure the version of LANSA on the server is the same or greater than the version on the client.
+1081,Connection to server with LU Name ">S<" is not allowed because the server's version of LANSA (build >L<) is older than the clients (build >L<). Upgrade the version of LANSA on your server or connect to a different server.
+1087,Automatic re-direction of all files to server with LU Name ">S<" is not allowed because another connection ">S<" already has re-directed files.
+1105,Savepoints are enabled (DBSP=Y). You must use a single connection (x_dbmenv.dat USE_SINGLE_CONNECTION=YES) and server cursors (DBCT or DBCC not equal to the ODBC default).
+1106,Savepoints are disabled (DBSP=N). You must not use both a default result set (DBCC and DBCT equal to the ODBC defaults) and a single connection (x_dbmenv.dat USE_SINGLE_CONNECTION=YES).
+1116,Fatal error had occurred, web page generation aborted.
+1140,Unable to retrieve the directory from the server with LU Name ">S<".
+* *******************************************************************************
+* MESSAGES USED BY X_PDF (PLATFORM DEPENDENT FUNCTIONS) - TRANSLATION IS OPTIONAL
+* *******************************************************************************
+0010,Incompatible vector (field) types encountered during a vector level operation in this routine.
+0011,Attempt to divide by zero encountered.
+0012,Invalid or unknown mathematical operation encountered.
+0014,"DosGetInfoBlocks" (OS/2) or "GetCurrentTask" (Windows) failed to return job number.
+0015,"getpid" failed to return process identifier (Linux error).
+0016,RRNO size has exceeded X_MAXIMUM_DIGITS value.
+0633,Unexpected error (identifier >L<) was encountered when attempting >S< operation involving object >S<.   
+0017,C "time()" function failed.
+0018,Return code from the C "time()" function.
+0019,Function "DosOpen" failed. >S<
+0020,Return code from the "DosOpen()" function.
+0021,Linux function "Open" failed. >S<
+0022,Return code from the Linux "Open()" function.
+0023,Internal error. Memory segment requested length is >L<. C File >S<, Line >L<.
+0024,Operating System failed to allocate requested memory.
+0025,Operating System failed to reallocate requested memory.
+0026,Tracking space overflow. More than >D< files open.
+0027,Name type '>C<' invalid. Process name has been assumed.
+0028,Error detected when attempting to create a temporary file.
+0029,Error >L< detected when closing temporary file.
+0030,Error when freeing DLL/Shared Object >S<.
+0031,Error freeing OAM (Object Access Module).
+0032,Error detected when writing to temporary file.
+0033,Error detected when reading from temporary file.
+0034,Error detected when deleting temporary file.
+1089,Error detected when attempting to create the temporary file >S<.
+1090,Error detected when writing to temporary file >S<.
+1091,Error detected when reading from temporary file >S<.
+1092,Error detected when deleting temporary file >S<.
+1093,Error >L< detected when closing temporary file >S<.
+1121,Temporary Directory >S< is not accessible. Specify a usable directory using TPTH.
+0035,Unable to open file >S<.
+0036,Error detected when writing to error logging file.
+0037,Error detected when closing error logging file.
+0038,Error when querying procedure address >S<.
+0039,Unable to load/locate >S< >S<. Is your DRIV= parameter correct? Should it be DRIV=D?
+0040,Path to object not found.
+0041,Unable to load >S< >S<. Error number = >D<.
+0042,Unable to load/locate >S< >S<.
+0043,File not found.
+0044,Linux "fork" operation failed to start the process.
+0045,Operating System failed to start the session.
+0046,String length of less than zero encountered.
+0047,The requested function/operation is not available under Linux/Linux.
+0048,Data record to be sent is longer than communications buffer.
+0049,Data record received is longer than communications buffer.
+0275,O/S error detected when attempting to load DBMS DLL / shared object >S<.
+0280,When trying to load user defined BIF number >L< operating system error >L< was trapped. The object/entry point involved was named >S<.
+0281,When trying to unload user defined BIF number >L< operating system error >L< was trapped.
+0420,O/S error number >L< detected when attempting to load a DLL named >S< or resolve the address of an entry point named >S<.
+0594,The requested function/operation is only available under Windows 2000/XP and Linux.
+1020,>S<() function failed.
+* ********************************************************************
+* RUN TIME MESSAGES ISSUED BY X_PDF LAYER - TRANSLATION IS RECOMMENDED
+* ********************************************************************
+0424,FATAL : Function Routing Table >S< could not be opened.
+0425,INFO  : >L< valid Function Routing Table entries processed.
+0426,INFO  : >L< invalid Function Routing Table entries processed.
+0427,INFO  : >L< Function Routing Table comments processed.
+0428,INFO  : Function Routing Table Verification Process Started on >S< at >S<.
+0429,INFO  : Function Routing Table Verification Process Ended on >S< at >S<.
+0430,FATAL : Function Routing Table Entry ">L<" is invalidly formatted.
+0431,WARN  : From function >S< does not exist in this partition.
+0432,WARN  : To function >S< does not exist in this partition.
+0433,WARN  : Function named >S< contains lowercase and/or invalid characters.
+0434,FATAL : Function Routing Table Entry ">L<" is beyond the 4500 entries limit.
+0435,FATAL : Function named >S< is a reserved name and should not be used.
+0436,WARN  : From function name >S< has multiple "from" routing entries.
+0437,WARN  : From function name >S< is already specified as a "to" function.
+0438,WARN  : To function name >S< is already specified as a "from" function.
+0439,WARN  : To function name >S< has multiple "to" routing entries.
+0440,Function Routing Table Verification
+0441,Object Export Facility
+0442,Object Import Facility
+0443,Object Export Facility Started >S<
+0444,Object Import Facility Started >S<
+0445,Object Export Facility Ended >S<. >S< fatal errors were detected. >S< warnings were issued.
+0446,Object Import Facility Ended >S<. >S< fatal errors were detected. >S< warnings were issued.
+0447,Error detected when attempting to use file >S< specified in the >S< parameter of the X_RUN command. The file operation that failed was >S<.
+0449,Information was exported >s<. (Date and time are in exporting systems format)
+0450,Exporting system was of type >S<.
+0451,Information was exported from partition >S<.
+0452,Language used on exporting system was >S<.
+0453,Exporting user was >S<.
+0454,Exporting system version was >S<.
+0455,File >S< could not be opened. This file is required to perform an *LIMPORT (from an IBM i) type of import. Check the directory and path shown, correct errors and then attempt this operation again.
+0456,Loading list of files to be imported from directory/shared folder >S<.
+0457,Loading format information from file >S<.
+0458,Intermediate import file name is >S<.
+0459,Converting data from file >S< for import to the LANSA environment.
+0460,>L< records converted from file >S<.
+0461,Data for table >S< is being imported.
+0462,Unable to open the .CTD file associated with table >S<. Install / create the .CTD (Common Table Definition) file associated with this table and attempt this operation again.
+0463,Unknown Application failure :variable >S< encountered containing unexpected / unknown value ">S<".
+0464,DBMS error code >L< received when doing an >S< operation to table >S<
+0465,>L< rows inserted into table >S<
+0466,Deleting existing data set from table >S< where >S<
+0467,Deleting all existing data from table >S<
+0625,Deleting existing data set .... please wait.
+0468,Import file >S< has been deleted.
+0469,Import file >S< could NOT be deleted. Automatic deletion request ignored.
+0470,This procedure is being logged into file >S<
+0471,Confirm Start of Import Procedure
+0472,Start this import procedure updating your system and/or database?
+0473,Import procedure cancelled at user request.
+0474,Error was detected when using table >S< and source file row number >L<.
+0475,Column >S< value was ">S<" (only first 100 bytes shown)
+0476,Select a directory to Import from
+0477,Select File Containing Objects to be Imported
+0478,Import File Selection Error
+0479,The selected file cannot be opened or is not a valid file exported from an IBM i system or another LANSA system. Choose another file.
+0480,Fatal error when attempting to create directory >S<.
+0481,Fatal error detected when using/attempting to use file >S<. Operation that failed was >S<.
+0813,Unexpected error detected when accessing an open file. Operation that failed was >S<.
+0482,Attempt to upload folder >S< from an IBM i failed or cancelled by user request.
+0483,Automatic connection to server >S< to retrieve contents of folder >S< is in progress. Please wait.
+0484,>L< bytes written to transferred file >S<
+0485,Transfer of file >S< to directory >S< in progress .... please wait.
+0486,No files found in transferred data that are eligible for any further *LIMPORT processing. Import ended.
+0487,Confirm *REFRESH Options
+0488,Confirm that your "Global System Definitions" are to be refreshed from a LANSA for iSeries system residing on >S<.
+0489,Confirm that the "Current Partition Definition" is to be refreshed from a LANSA for iSeries system residing on >S<.
+0490,Confirm that the "RDML Command Definitions" are to be refreshed from a LANSA for iSeries system residing on >S<.
+0491,Confirm that the base / standard set of "Application Templates" are to be refreshed from a LANSA for iSeries system residing on >S<. Please note that this is a long running process!
+0492,Confirm that the "Built In Functions Definitions" are to be refreshed from a LANSA for iSeries system residing on >S<.
+0493,Confirm that the list of "Enrolled PC Names" is to be refreshed from a LANSA for iSeries system residing on >S<.
+0494,Confirm that the list of "Enrolled PC Users" is to be refreshed from a LANSA for iSeries system residing on >S<.
+0495,Confirm that the "Current Tasks List" is to be refreshed from a LANSA for iSeries system residing on >S<.
+0496,Confirm that the base / standard "System Message File" is to be refreshed from a LANSA for iSeries system residing on >S<.Please note that this is a long running process!
+0497,Executing system command ">S<"
+0498,>S< copied to >S<
+0499,Launching function >S< in process >S<
+0624,Launching form >S<  
+0500,Error detected during copy of >S< to >S<
+0501,Starting >S<
+0502,Operating system error >L< occurred when attempting to perform >S< operation.
+0503,Operations against >S< ignored because application is not connected to a database.
+0506,It is suggested that you might like to import >S< as well (from >S<). Do you want to do this import now?
+0587,Your Licenses are as follows ...
+0642,** NOTE ** : The following information is only valid if you are executing this request 
+0643,                on the server system CPU. Executing this request on a client system CPU
+0644,                will yield invalid details that do not reflect your true license status.
+0645,Details of >L< licenses were found in this system     
+0982,Details of 1 license was found in this system     
+0588,Not Available
+0589,Invalid
+0590,Expired
+0591,Valid from >S<
+0592,Valid till >S<
+0593,Permanent
+0595,License tracking not available. Stop and restart the listener.
+0596,License tracking corrupted. C ">S<" function failed with return code >L<.
+0598,OAM >S< is not compatible with executing a Component.  Please rebuild the OAM.
+0602,** WARNING ** Multiple licenses are installed for types marked with *.
+0603,** WARNING ** Only the first license (which is shown above) will be used.
+0615,Source language >S< details will be converted to target language >S< details.
+0616,WARNING: Source language >S< details will be discarded as they do not map into this partition's language set. 
+0886,Import has switched to use the source partition details. Source language >S< will now be used as well as those listed previously.
+0617,Source language >S< details were encountered in data to be imported.
+0618,Valid target language >S< exists (or will be created) for this partition.
+0619,Confirm Existing Details/Definitions are to be Replaced
+0620,The material being imported contains basic SYSTEM DEFINITION details. Do you want to REPLACE your existing details with the details being imported? (Normally you would only reply YES when you are setting up a brand new system)        
+0621,The material being imported contains PARTITION DEFINITION details (including languages). Do you want to REPLACE your existing details with the details being imported? (Normally you would only reply YES when you are setting up a brand new partition)      
+0622,Confirm Import Partition and Language are Correct
+0623,You are about to attempt to import into partition >S< using language code >S<. Are you ABSOLUTELY SURE that the partition and language code you have specified are correct? 
+0628,Only >L<MB free space on drive >S<. Minimum value allowed is >L<MB. Processing has been terminated. Free some space on this drive or use another drive and attempt this operation again.          
+0631,WARNING: >L< duplicate key errors were ignored during this import. The reason for the existence of the duplicates may require further investigation.  
+0632,WARNING: Duplicate key error in table >S< ignored. Information was not created or updated. The reason for the existence of this duplication may require further investigation.  
+0634,Fatal error detected during package installation. Check the installation log.
+0637,Unable to create lock file >S< in >S< directory
+0638,Install in progress. Please try again later.
+0639,Package Installation Facility
+0640,Unable to install. DLL >S< in use.
+0641,Unable to remove lock file >S< from >S< directory
+0646,Some DLLs are in use by other LANSA sessions. Force install anyway? (No will skip install. Cancel will exit.)
+0647,IPKG is specified, but applpkg.dat contains more than one package.
+0648,IPKG is specified, but applpkg.dat contains no packages.
+0650,DLL Upgrade Facility
+0652,Cannot find an Application Server or Primary Server to connect to for upgrade.
+0653,Server with LU name >S< does not support the required >S< functionality.
+0654,Unable to connect to a Server for Upgrade. Continue execution without performing upgrade? (Cancel will exit.)
+0655,>S< was built with Build >L< but the client is an earlier Build (>L<). You need to install a more recent version of LANSA to support this Object.
+0660,Unexpected error when attempting to download files from Server. Continue execution without performing upgrade? (Cancel will exit.)
+0701,Unexpected error when connecting to a Server for Upgrade.
+0702,Unexpected error when attempting to download files from Server.
+0703,Starting DLL Upgrade Processing. Please wait...
+0704,Starting Package Installation Processing. Please wait...
+0705,Downloading DLLs from the Server. Please wait...
+0706,Copying DLLs from temporary directory to partition. Please wait...
+0707,Successfully connected to Application Server.
+0709,Definition of field >S< successfully exported.
+0710,Definition of file >S< in library >S< successfully exported.
+0711,Definition of file >S< in library >S< not found or incomplete. File was not exported.
+0712,Definition of function >S< in process >S< successfully exported.
+0713,Definition of process >S< successfully exported.
+0714,Definition of process >S< not found or incomplete. Process not exported.
+0715,Definition of field >S< not found or incomplete. Field not exported.
+0716,Definition of function >S< in process >S< not found or incomplete. Function not exported.
+0719,Definition of system variable >S< successfully exported.
+0720,Definition of system variable >S< not found or incomplete. System variable not exported.
+0721,Definition of multilingual variable >S< successfully exported.
+0722,Definition of multilingual variable >S< not found or incomplete. Multilingual variable not exported.
+0723,Definition of template >S< successfully exported.
+0724,Definition of template >S< not found or incomplete. Template not exported.
+0725,Definition of Built-In Function >S< successfully exported.
+0726,Definition of Built-In Function >S< not found or incomplete. Built-In Function not exported.
+0727,Message >S< in message file >S< for language >S< successfully exported.
+0728,Message >S< in message File >S< for language >S< not found. Message not exported.
+0729,Message file >S< for language >S< successfully exported.
+0730,Message file >S< for language >S< not found. Message file not exported.
+0731,Definition of field/component >S< successfully exported.
+0732,Definition of component >S< not found or incomplete. Component not exported.
+0744,Package Upgrade Facility
+0745,Starting Package Upgrade Processing. Please wait...
+0746,Upgrade of application already in progress. Continue execution without performing upgrade(s)? (Cancel will exit.)
+0747,Upgrade of application >S< in progress. Please try again later.
+0748,Unexpected error when checking whether upgrade required. Continue execution without performing upgrade? (Cancel will exit.)
+0749,Unexpected error when checking whether upgrade required for application >S<.
+0750,Application >S< not found or no packages in applpkg.dat.
+1168,MSI file not found in >S< matching client locale >S< and client version >S<, using language mappings in >S<.
+1169,No MSI files found in >S< matching client locale >S<, using language mappings in >S<.
+0755,Unable to use/create application root directory. Continue execution without performing upgrade(s)? (Cancel will exit.)
+0756,Unable to use/create application root directory >S<.
+0757,User >S< not authorized to mandatory package >S<.
+0758,At least one package is marked as mandatory. Download all mandatory packages?
+0759,The package >S< is marked as optional. Do you wish to download it? (Cancel will skip the download of this package now and avoid prompting for it in the future.)
+0767,Unable to find a valid license code in x_lickey.dat for license type >S<.
+0768,Package directory >S< missing essential files or subdirectories.
+0769,Starting download for application >S< from the Server. Please wait...
+0770,Unable to remove directory >S<.
+0771,Unable to find key >S< in file >S<.
+0772,The package >S< is marked as optional. Do you wish to download it?
+0773,Downloading files for package >S< from the Server. Please wait...
+0794,Package >S< is missing. This package is mandatory or required by a mandatory package.
+0798,Package >S< requires build >L< which is not available on client or server.
+0799,Build directory >S< missing essential files or subdirectories.
+0800,Downloading files for build >L< from the Server. Please wait...
+0802,Install of build >L< already in progress or failed. (Lock file >S< found in directory >S<.)
+0803,Install of build >L< already in progress or failed. Continue execution without performing (further) upgrade(s)? (Cancel will exit.)
+0822,Unless calling functions/components are regenerated and recompiled, File >S< may only be accessed via CONNECT_FILE to SSN *LOCALDB.
+0823,File >S< is not connected to a valid computer or database SSN.
+0831,Definition of '>S<' component >S< successfully exported.
+0832,Definition of '>S<' component >S< not found or incomplete. Component not exported.
+0840,Definition of field >S< changed as it refers to field >S<.
+0841,Definition of template '>S<' cannot be exported.  It can only be exported when the flag 'Export to Development System' is set to Y.
+0843,Warning - Object '>S<' does not have >S< data.
+0887,File library override data was provided in import file LXXLEF, but library details import file LXXLDF is missing.
+0921,Partition >S< has been updated to full RDMLX repository to accept full RDMLX objects being imported.
+0926,Loading ASCII data on IBM i is not supported.
+0927,Loading EBCDIC data on non-IBM i is not supported.
+0928,Failed to create exchange list. 
+0931,Definition of '>S<' >S< successfully exported.
+0932,Definition of '>S<' >S< not found or incomplete. Component not exported.
+0933,>S< was built with an unsupported pre-release version (>L<).  It needs to be rebuilt with a supported version of LANSA.
+0971,BLOB and CLOB files cannot be saved to disk as the >S< directory >S< is too long (by >L< characters).
+0978,Unable to clear directory >S<.
+0983,Cannot determine the location of BLOB/CLOB files, as ">S<" does not contain a directory.
+1001,Unable to find data area >S< for process >S< in partition module library >S<.
+1002,Process >S< not compiled according to data area >S< in partition module library >S<. 
+1003,Either this machine is not licensed, there are no free slots or the license has expired for license type >S<.
+1052,Server with LU Name ">S<" does not have a valid license.
+1021,Unable to retrieve the job codepage.
+1022,Windows codepage >S< is not numeric.
+1023,Windows codepage >S< is not a valid CCSID. Error code %d.
+1048,OAM >S< must be rebuilt before LOCK(*YES) or collection (library) or member can be used.
+1049,LOCK(*YES) cannot be used because OAM >S< is using SQL to implement I/O. 
+1063,Recursive invocation of OAM for file >S< detected.
+1067,Performing final updates. Please wait...
+1079,Unable to retrieve Language CCSID Mappings from server with LU Name >S<. Ensure the listener job is started on the server, check communications settings and job logs.
+1085,Object definitions locked under the Task Identifier, >S<, have been unlocked, because the Task status had been set to FIN.
+1107,Completed final updates.
+1110,WARNING: Skipping import of file >S< as it is only required for Development systems.
+1117,Package installation is in progress. Please wait...
+1118,** WARNING ** ODBC Tracing is active. *LIMPORT will take longer time than usual. Would you like to proceed?
+1139,Server path with LU Name ">S<" is >D< byte long, and the full export path is longer than the maximum allowed 256 bytes. Server path ignored.
+1143,Use File's Library override if included.
+1144,Override File's Library to Partition Data Library.
+1145,Ignore File's Library override.
+1124,ERROR: Importing name ">S<" of >S< identifier ">S<", which is already being used by >S< identifier ">S<".
+1126,ERROR: <Allow Name Changes> is not set, existing name ">S<" associated with >S< identifier ">S<" cannot be removed.
+1127,ERROR: Importing >S< name ">S<", which is already being used by >S< identifier ">S<".
+1128,ERROR: Importing >S< identifier ">S<", which is already being used by >S< identifier ">S<".
+1146,WARNING: Existing >S< identifier ">S<" will be assigned a name ">S<".
+1147,WARNING: Existing name ">S<" associated with >S< identifier ">S<" is going to be removed.
+1148,ERROR: <Allow Name Changes> is not set, existing name ">S<" of >S< identifier ">S<" cannot be changed to ">S<".
+1149,WARNING: Existing name ">S<" of >S< identifier ">S<" is going to be changed to ">S<".
+1161,ERROR: importing >S< identifier ">S<", which is already being used as a name ">S<" by >S< identifier ">S<".
+1162,Object Import Verify Facility Started >S<
+1163,Object Long Name data are ignored in RDML Partition.
+1164,Failed to retrieve the server's IFS path name. Please report to your product vendor as soon as possible.
+1165,ERROR: <Allow Type Changes> is not set, existing >S< identifier ">S<" cannot be deleted and import of >S< identifier ">S<".
+1166,WARNING: Existing >S< identifier ">S<" will be deleted and import of >S< identifier ">S<" will proceed.
+1167,Object Import Verify Facility Ended >S<. >S< fatal errors were detected. >S< warnings were issued.
+* ******************************************************************
+* PROCESS AND FUNCTION COMPILE MESSAGES - TRANSLATION IS RECOMMENDED
+* ******************************************************************
+0050,________________________________________________________________
+0051,Generation of Process >S< in progress
+0052,No reason to (re)compile process >S< found.
+0053,Request to (re)compile process >S< has been ignored.
+0054,Generating C Source Code into >S<
+0055,Generating Make File into >S<
+0282,Generating Resource File into >S<
+0283,Default Bitmap or Icon file >S< (specified in >S<) was not found. File will NOT be used as a potential default during this compile.
+0285,Derivation of Icon for function >S< (Process >S<) in progress.
+0286,Derivation of Icon and Bitmap for owner process >S< in progress.
+0287,** NOTE ** Icon and Bitmap intelligent default file >S< not found. Intelligent defaulting will NOT be used.
+0290,Text not defined in a specific language context is assumed to be >S<.
+0291,Translating text for possible use in a/an >S< environment.
+0056,Generating Linkage Definition into >S<
+0057,Generation of Process >S< has ended
+0058,No reason to (re)compile function >S< found.
+0059,Request to (re)compile function >S< has been ignored.
+0558,Request to (re)compile component >S< has been ignored.
+0060,Generation of link/build objects for >S< started.
+0061,NOTE: This function uses embedded SQL commands and
+0062,----  should have and associated "bind" (.BND) file.
+0063,Generation of link/build objects for >S< ended.
+0064,        LANSA Process and Function Generator
+0556,        LANSA Component Generator
+0065,Version : >S< Date : >S<
+0066,Note    : Generator is >S<
+0067,          >S<. All rights are reserved.
+0068,          Generated code (C) Copyright is subject to the
+0069,          discretion of the licensed user of this product.
+0070,Compile Options used were :
+0071,          Debug Enabled                       : >S<
+0072,          System Message File                 : >S<
+0073,          Hash/Pound Sign used                : >S<
+0074,          At Sign used                        : >S<
+0075,          Keep Source                         : >S<
+0076,          Compile Process only if necessary   : >C<
+0605,          Compile Functions                   : >C<
+0077,          Compile Function only if necessary  : >C<
+0557,          Compile Component only if necessary : >C<
+0078,Compilation and Linkage of Process >S< started.
+0079,Compilation and Linkage of Function >S< started.
+0559,Compilation and Linkage of Component >S< started.
+*
+0080,The C/C++ code for this function was not found.
+0081,It has not been generated yet, or, it has
+0082,been deleted by a previous compile. Go to the
+0083,editor and use the BUILD option to generate
+0084,the required C/C++ code, then attempt this compile
+0085,operation again.
+*
+0560,The C/C++ code for this component was not found.
+0561,It has not been generated yet, or, it has
+0562,been deleted by a previous compile. Go to the
+0563,component editor and use the BUILD option to generate
+0564,the required C/C++ code, then attempt this compile
+0565,operation again.
+0566,Definition of component named >S< not accessible in repository table LX_F03.
+*
+0086,Compilation and Linkage of Process >S< ended.
+0087,Compilation and Linkage of Function >S< ended.
+0567,Compilation and Linkage of Component >S< ended.
+0325,Compile job terminated by user request.
+0326,LANSA Generation/Compilation Event Log
+0327,Your close request will be processed when the current transaction completes.
+0329,Generating : >S<
+0330,Compiling/Linking : >S<
+*
+0088,_________________ COMPLETION STATUS SUMMARY ____________________
+0089,      >L< Process(s) compiled with NO ERRORS detected.
+0090,      >L< Function(s) compiled with NO ERRORS detected.
+0091,      >L< Process(s) FAILED to compile normally.
+0092,      >L< Function(s) FAILED to compile normally.
+0093,      >L< Process compile requests were IGNORED.
+0094,      >L< Function compile requests were IGNORED.
+0568,      >L< Components(s) compiled with NO ERRORS detected.
+0569,      >L< Components(s) FAILED to compile normally.
+0570,      >L< Components compile requests were IGNORED.
+0095,Use Close in the System Menu to close this Compile Window
+0096,Erasing/deleting source file named >S<
+0328,Completion Status Summary
+0331,Environment definition file >S< not found. Check installation of this LANSA system.
+0332,Build/Make environment >S< is currently disabled.
+0333,Performing Build/Make activities for environment >S<.
+0334,Executing (for >S<) : >S<
+0398,** IGNORED BECAUSE OF PREVIOUS ERROR => Execution of (for >S<) : >S<
+0335,Constructing (for >S<) : >S<
+0397,** IGNORED BECAUSE OF PREVIOUS ERROR => Construction of (for >S<) : >S<
+0336,Fatal error detected when opening >S< for >S<.
+0504,** ERROR ** The free space on disk drive >S< is less than >L< bytes.
+0505,** WARNING ** The free space on disk drive >S< is less than >L< bytes.
+0810,FATAL : Process named >S< is a reserved name and should not be used.
+1075,>S<.DLL is in use. Stop using the DLL and submit the compile again.
+1088,Fatal error converting file >S< to >S<. Cause may be due to binary data in RDML.
+* *********************************************************************
+* OAM COMPILE AND SQL TABLE BUILD MESSAGES - TRANSLATION IS RECOMMENDED
+* *********************************************************************
+0100,LANSA SQL Table and OAM (Object Access Module) Generator
+0101,          Drop Existing Tables/Indexes        : >S<
+0102,          Force Rebuild Tables                : >S<
+0103,          Force Rebuild Indexes/Views         : >S<
+0104,          Force Rebuild OAMs                  : >S<
+0300,          Save Table Data                     : >S<
+0630,          Reload Table Data                   : >S<
+0801,          Keep Saved Data                     : >S<
+0105,Generation of Table >S< in progress
+0106,Compilation,Linkage and Execution of Index >S< started.
+0107,Compilation,Linkage and Execution of View >S< started.
+0108,Compilation and Linkage of OAM >S< started.
+0109,Compilation,Linkage and Execution of Table >S< ended.
+0110,Compilation,Linkage and Execution of Index >S< ended.
+0111,Compilation,Linkage and Execution of View >S< ended.
+0112,Compilation and Linkage of OAM >S< ended.
+0114,      >L< File(s) compiled/executed with NO ERRORS detected.
+0115,      >L< File(s) FAILED to compile/execute normally.
+0116,      >L< File(s) generation/compile requests were IGNORED.
+0117,Table >S< request ignored - Build is not required.
+0118,Generation of Table >S< creation source started.
+0119,Generation of Table >S< creation source ended.
+0120,Generation of Table >S< primary key index started.
+0121,Generation of Table >S< primary key index ended.
+0122,Generation of Table >S< relative record index started.
+0123,Generation of Table >S< relative record index ended.
+0124,Generation of Index >S< creation source started.
+0125,Generation of Index >S< creation source ended.
+0126,Generation of View >S< creation source started.
+0127,Generation of View >S< creation source ended.
+0128,Generation of OAM for Table >S< started.
+0129,Generation of OAM for Table >S< ended.
+0387,WARNING - CTD identifier/string ">S<" used out of context or invalidly. String has been ignored.
+0388,WARNING - CTD identifier/string ">S<" is unknown or invalid. String has been ignored.
+0389,FATAL - Table >S< definition specifies a PRIMARY KEY, but the current DBMS is indicated as not supporting primary keys.
+0390,FATAL - Table >S< uses type >S< in its definition, but the current DBMS is indicated as not supporting this type.
+0391,WARNING - Table >S< uses NOT NULL in its definition, but the current DBMS is indicated as not supporting this. NOT NULL option ignored.
+0392,WARNING - Table >S< (column >S<) is specified as type >S<, which is not supported by the current DBMS. Type has been changed to >S<.
+0393,WARNING - In table >S< the definition of column >S< exceeds the precision limits of the current DBMS. The effects of this loss of precision should be investigated.
+0394,INFORMATION - Current DBMS does not support primary keys, so primary key of table >S< will be implemented as a unique index named >S<.
+0547,WARNING - Table >S< has an index >S< with a descending key, but the current DBMS is indicated as not supporting descending keys. Descending has been ignored.
+0629,WARNING - The current OAM is missing or was built prior to version 7.7 and does not support the new save table, so the old format has been used.
+0656,>S< is an External File, Table cannot be dropped.
+0657,WARNING - Unsupported database product so AUTO RRNO handling cannot be applied. Please apply AUTO RRNO handling to table >S< manually
+1026,WARNING - Only OAM rebuilt. File build status is compiled but OAM does not exist, table exists and it has data in it. File definition presumed to match the table.
+1050,Unloading data from table >S<.
+1051,Loading data to table >S<. 
+0658,******* not used **********
+0659,The file, >S<, can only be built if there is a primary key or the @@RRNO column can be added to the table.
+0811,FATAL : File named >S< is a reserved name and should not be used.
+0812,Memory Error: Insufficient memory to handle the number of Rules/Triggers defined for the Table >S<.
+0816,>S< is an External File, but the LX_FOF row is missing.
+0884,FATAL: Empty table, >S<, cannot be created.
+0897,FATAL - The table, >S<, cannot be reloaded as the CTD file is missing.  Please locate the correct CTD file and re-compile.  If the CTD file cannot be located, the LANSA File must be compiled without saving and reloading table data.
+0900,Unload data from table >S< failed.
+0909,WARNING - In table >S< the definition of column >S< exceeds the precision limits of type >S<. Type has been changed to >S<.
+0910,FATAL - LANSA does not support this operation in databases of type >S<.
+0936,936 FATAL - RDMLX Field >S< found in RDML File
+0937,937 FATAL - a value of >S< field type cannot be saved in DBF file.
+0938,938 FATAL - Invalid field >S< size.
+0939,939 FATAL - Cannot create >S< directory for BLOB and/or CLOB files.
+0940,940 FATAL - Cannot create >S< file.
+0945,945 FATAL - Probably cause of error is a duplicate logical called >S< in this file >S< in library >S< and the file named in the previous message.
+0946,946 FATAL - Field >S< is not defined in file >S< in library >S<. Check that file and library are correct.
+0947,947 FATAL - The primary working list is a RDMLX list. Appendage working list is not allowed.
+0948,948 FATAL - RDML trigger Function >S< cannot be called for an RDMLX File
+1034,1034 FATAL - RDML trigger function >S< cannot be called for RDMLX Field >S<
+0949,949 WARNING - trigger Function >S< does not currently exist
+0979,979 FATAL - Fields >S< and >S< resolve to the same SQL column name >S<
+0980,980 FATAL - RDMLX Field type of >S< not valid. Possible misuse of RDMLX field attribute on RDML Field, e.g. ASQN on Alpha field
+0981,981 FATAL - RDML Field type of >S< not valid. Possible misuse of RDMLX field attribute on RDML Field, e.g. ASQN on Alpha field
+1074,1074 FATAL - RDMLX Field >S< has the SUNI attribute but no supporting information. Reload the IBM i OTHER file and recompile.
+1082,1082 FATAL - a value of >S< field type cannot be saved in output file format >S<.
+1109,Load data to table >S< failed.
+1122,1122 FATAL - RDMLX Field >S< is missing supporting field information. Reload the IBM i OTHER file and recompile.
+* **********************************************************************************
+* RUN TIME ERRORS ISSUED BY COMPILED FUNCTIONS AND OAMS - TRANSLATION IS RECOMMENDED
+* **********************************************************************************
+0130,Function cannot be run in debug mode because it has not been compiled to support debug.
+0131,Invalid or unknown data base / source operation request made to OAM.
+0132,Wrong parameters/environment for "*XXXXX_FIELD_VALIDATE" function.
+0133,Wrong parameters/environment for "*XXX_SYSTEM_VARIABLE" function.
+0134,Required data structure not passed into function, or passed in wrong order.
+0135,Data structure length mismatch between caller and receiver functions.
+0136,The >S< command is not executable under this version of LANSA.
+1035,The >S< command can only be used with RDML fields. Use the SYSTEM_COMMAND Built-In Function.
+0597,The >S< entry point is not supported by this OAM.  Please rebuild the OAM.
+0649,The request requires to have WITH_KEY or WHERE clause specified in the RDML command.
+0826,This OAM was connected to a type >S< database. It cannot be re-connected to type >S<.
+0834,PC Other files do not support loading or unloading data.
+0835,Data right truncated on fetch from file >S<. This data will be lost if an update is performed.
+0842,This file requires a primary key or RRNO to support this operation.
+0925,Unloading data failed.  The record size is greater than 32767 bytes.
+1038,Could not find or create a required directory for saving LOB data to disk file.
+1039,Cannot open LOB disk file for writing.
+1040,Database error while reading LOB data.
+1076,Unable to coerce *SQLNULL during assignment to >S<.
+* *******************************************************************
+* RUN TIME ERRORS ISSUED BY THE X_DBM LAYER - TRANSLATION IS OPTIONAL
+* *******************************************************************
+0137,Application failed to connect to the data base / source correctly.
+0138,Application failed to disconnect from the data base / source correctly.
+0139,Unable to allocate memory required for SQLDA.
+0140,Unable to (re)allocate memory required for SQLDA.
+0141,Unable to allocate memory for null indicator variable.
+0142,Unable to allocate memory for element in SQLDA.
+0143,Cursor Identifier out of range.
+0144,X_DBM_NUMBER_CURSORS (maximum cursors) exceeded.
+0145,Maximum connected data bases / sources exceeded.
+0273,SQL statement exceeds maximum allowable length.
+0274,X_DBM I/O operation requested is unknown.
+0276,SQL operations are not permitted in this environment. You indicated that no data base / source was available in the DBID= parameter, so you cannot now try to access one.
+0277,No data base / source operation is permitted in this environment. You indicated that no data base / source was available in the DBID= parameter, so you cannot now try to perform a data base access.
+0284,SQL operations are not permitted in this environment. You indicated that no data base / source was available in the DBII= parameter, so you cannot now try to access one.
+0903,The database structures are not valid for this version of LANSA.
+0904,The native database interface is not setup correctly. 
+0905,The SQL database interface is not setup correctly. One cause of this is using SELECT_SQL without a local database connection as it does not work across a SuperServer connection.
+0288,X_DBI requested I/O operation is unknown.
+0289,X_DBI_NUMBER_CURSORS (maximum internal data base / source cursors) exceeded.
+0293,X_XQL_NUMBER_BLOCKS (maximum request blocks) exceeded.
+0339,Unable to open export file >S< for output.
+0340,Fatal error detected when writing to or closing export file >S<.
+0343,Requested I/O operation against table >S< is not supported when using the data base identifier = *NONE, *AS400 or *OTHER option. Only limited operations are supported in this mode.
+0344,System Export Facility
+0345,Export of table >S< (to >S<) in progress. Please wait
+0346,Export of table >S< (to >S<) completed normally
+0347,Export of table >S< (to >S<) failed. See other messages for details.
+0415,Export of table >S< (to >S<) was NOT performed. Environment is disabled.
+0416,Translation table >S< found and will be used for >S< language text under >S<.
+0349,Export file version level mismatch. Your system is >S< and export file was created on a >S< system.
+0379,Unable to allocate memory for X_DBM_ODBC structure.
+0380,Unable to allocate memory for element in X_DBM_ODBC structure.
+0381,Unable to allocate ODBC statement handle.
+0382,Unable to allocate ODBC environment handle.
+0383,Unable to allocate ODBC connection handle.
+0384,Unable to free ODBC connection handle.
+0385,Unable to free ODBC environment handle.
+0386,Unable to free ODBC statement handle.
+0606,Unable to open file >S<. File may not exist OR too many files are already open within this process (see the FXQM parameter in documentation for details).  
+0708,System Export Facility ended with >D< table/s exported.
+0807,The transaction isolation level specified (ODBI=>S<) is not supported by DBMS >S<.
+0808,Transaction isolation level READ_UNCOMMITTED is not supported by DBMS >S<.
+0814,Requested I/O operation against repository table >S< is not supported via server OAMs.
+0815,Attempt to select next record or close cursor on repository table >S< without prior SELECT operation.
+0817,Route Repository to Primary Server
+0827,ODBC reports no columns to be returned for a SELECT. The table requested probably does not exist or is not visible to you.
+0902,Oracle reports no columns to be returned for a SELECT. Ensure you are using recommended patch levels for Oracle.
+0977,Incorrect use of SQLDA: cannot set the number of columns to >L< when only >L< columns are defined in the SQLDA.
+1037,SELECT_SQL does not support the use of a Binary field as a variable comparison value in the WHERE parameter.
+* **********************************************************************
+* RUN TIME ERRORS ISSUED BY THE X_PIM LAYER - TRANSLATION IS RECOMMENDED
+* **********************************************************************
+0146,Attempt to allocate temporary file name for report failed.
+0147,Attempt to open temporary file name for report failed.
+0148,Printer port name >S< specified in PRTR= parameter of the X_RUN command is not a valid name for this operating system. Please check this parameter and attempt operation again.
+0149,Error detected when attempting to copy temporary print file to printer port. Printer port specified/defaulted in PRTR= parameter may not be valid or is not usable at this time.
+0150,Attempt to write to temporary file name for report failed.
+0418,Maximum permanent file names for reports in this function exceeded.
+0419,Attempt to open permanent file name for report failed.
+0581,Production of report cancelled at user request.
+0582,Definition of font named >S< not found on this system.  
+0837,Font >S< not found, replaced by >S<.    
+* *******************************************************************
+* RUN TIME ERRORS ISSUED BY THE X_FUN LAYER - TRANSLATION IS OPTIONAL
+* *******************************************************************
+0151,Conversion overflow - value is too large for a long.
+0152,Conversion overflow - value is too large for a short.
+0153,Conversion overflow - more than X_MAXIMUM_DIGITS digits encountered.
+0154,Vector field is not array but an index request has been made.
+0155,Vector/Field type is unknown, corrupted, or not a valid type for the requested operation.
+0156,Invalid system variable name for program F@SYSVAR to evaluate.
+0157,Invalid system variable name encountered.
+1036,*AUTONUM is >S< digits. It cannot be larger than 15 digits.
+0158,3GL system variable evaluation programs are not currently supported.
+0159,Invalid system variable name for program M@SYSVAR to evaluate.
+1114,Field length must be at least 32 to generate a GUID
+1115,*GUID error >D< calling >S<
+0160,Scale requested does not match decimal point positions.
+0161,Edit word is not correctly formatted and/or quoted.
+0162,Incompatible vector/field types for operation requested.
+0163,Invalid substring start position or length encountered.
+0164,Non numeric characters encountered in a numeric result substring operation.
+0165,Attempt to restore Vector values from a null save area. No values have been previously saved in the save area.
+0166,Process/Function invocation tracking area has been corrupted.
+0167,Attempt to exceed maximum allowable invocation depth for all object types.
+0168,Recursive invocation of RDML level function detected.
+0169,Attempt to exceed maximum allowable invocation depth for process objects.
+0170,Function to be removed from invocation stack not found.
+0171,Process to be removed from invocation stack not found.
+0172,Length of substitution variables exceeds maximum allowable length.
+0173,Invalid attempt to use MESSAGE TYPE(*WINDOW) in a batch job or in an RDMLX component. 
+0174,Invalid message data length (sMsgDtaLen) value encountered.
+0175,Invalid message text length (sMsgTxtLen) specified.
+0176,Invalid second level text length (sSecTxtLen) specified.
+0177,Message text selection failed.
+0178,Failed to retrieve authority from LX_F02. Fatal SQL error encountered.
+0179,Field label, description or multilingual extension selection failed. Fatal SQL error encountered.
+0180,Unable to get system definition from SQL table LX_F96. Probable installation/setup/config error. System may not be bound to data base / source correctly.
+0181,Unable to get partition definition from SQL table LX_F46. Probable installation/setup/config error.
+0182,Unable to get language definition from SQL table LX_F60. Possible installation/setup/config error, or, wrong value specified in LANG= parameter.
+0183,Fatal and unexpected SQL error when attempting to use the named SQL table.
+0184,Data Area is locked by another job.
+0185,Data Area does not exist. It must be enrolled in SQL table LX_DTA first. Refer to hardcopy documentation before proceeding further.
+0186,Invalid locking level encountered.
+0187,String passed is too short to return quoted string.
+0188,Call to 3GL data validation program not currently supported.
+0189,Unknown Function Mode encountered in pX_Fun->chMode.
+0190,Attempt to update list entry without prior GET or SELECT operation.
+0191,Attempt to insert list entry less than 1 or greater than max allowed entries.
+0192,Attempt to retrieve list entry from an unallocated page space.
+0193,Too many fields put on the exchange list - Exchange list has overflowed.
+0194,Required working list parameter not correctly passed into function. List may have been passed in wrong order or not passed at all.
+0195,Entry length mismatch between passed and received working list. List may have been passed in wrong order, not passed at all, or a change means that the caller/receiver needs a regenerate/recompile.
+0196,List passed into function has smaller (ie: less) available entry space than definition in this function. List access may violate storage/address space of the caller.
+1041,Lists passed must both be *MAX entrys or both not *MAX entrys. Cannot specify one as *MAX and one as, say, 100,000 entrys.
+1042,List passed into function is a Component List. Its memory structure is not compatible with a normal working list.
+0197,Required trigger details not correctly passed into this trigger. Trigger functions should only be invoked AS triggers.
+0198,Entry length mismatch between passed and received trigger info. Data base / source file layout may have been altered and this trigger has not been regenerated and recompiled after this change was implemented.
+0199,Entry length mismatch between passed and received data structure. Probable change of associated table definition has not be regenerated into all associated data structure passers/receivers.
+0200,Attempt made to store too many data structures using the *EXCHANGE storage option. At most 20 data structures can be stored in this exchange area. Reduce the number being stored.
+0201,Attempt made to store a data structure more than 9999 bytes in length. Maximum structure size is 9999 bytes.
+0202,Unknown X_ProcFunc[i].chType value encountered.
+0203,Language requested is unknown to the current process. It cannot support it.
+0204,Invalid/unexpected vchCurrFunc=>S< value encountered.
+0205,Invalid/unexpected action bar option encountered.
+0206,pX_UIM->sMenuOpt returned out of range by UIM_Manager.
+0207,Operating system error detected when executing command string.
+0208,DISPLAY, REQUEST or POP_UP command encountered in "batch" environment.
+0930,DISPLAY, REQUEST or POP_UP command encountered in RDMLX Function that is not executing as a Web job
+0209,Number of data base / source file keys specified is outside allowable range of 0 to >D<.
+0248,Array index value >D< is outside the maximum allowable range for array >S< (1 to >D<).
+0292,This function should only be invoked in a Windows 3.1 environment. See your product vendor.
+0376,List named >S< contains too many entries to be sorted under this operating system. Refer to technical documentation for details.
+0423,Invalid deletion attempt from list >S<. List entry number >S< does not exist and thus it cannot be deleted.
+0576,Invalid or unexpected reference made to component class >S<.   
+0579,Fatal error detected in INIT= initialization function >S<. See previous messages for more information as to exact cause.
+0580,Fatal error detected in TERM= termination function >S<. See previous messages for more information as to exact cause.
+0584,Component operation attempted on non-component (ie: field) vector 
+0585,Vector operation attempted on non-field (ie: component) vector.
+0586,Component Manager request of type >L< (decimal value) failed with return code >L< (decimal value).  
+0601,Invalid attempt to reference component list >S< from an RDML function. 
+0626,Required argument or return value (with symbolic name = >S<) was not supplied by caller. The RDML level built in function that failed was named >S<. The caller that failed to pass the value was named >S<.   
+0627,Type,length or decimals mapping error detected for argument or return value with symbolic name >S<. Data Passed: >C<(>D<,>D<) BIF Defn: Min >C<(>D<,>D<), Max >C<(>D<,>D<). The RDML level built in function that failed was named >S<. The caller that passed the invalid value was named >S<.   
+1043,Argument or return value with symbolic name >S< should be a list of equal entry length. The RDML level built in function that failed was named >S<. The caller that passed the invalid value was named >S<.   
+1044,Argument or return value with symbolic name >S< has an invalid default vector number. The RDML level built in function that failed was named >S<. The caller that passed the invalid value was named >S<.   
+0792,Web-Job specified but 'pX_Ids->pWebInfo' is invalid.
+0824,PC Other file >S< cannot be connected to SSN >S< as the database types >S< and >S< are not compatible.
+0825,PC Other file >S< cannot be connected to SSN >S< as the merged connection string would be more than >S< characters long.
+0833,String '>S<' is not in ISO date/time format (YYYY-MM-DD or YYYY-MM-DD HH:MM:SS[.f...] or HH:MM:SS).
+0934,List page size of 2 gigabytes exceeded
+0951,SUBSTRING source field >S< must not be Sql Null
+0952,Using non-supported key type
+0976,Internal error. Evaluation variable state accessed without first resolving it. Please contact your application vendor.
+1108,The table >S< is not setup correctly. Please start the Development Environment before executing anything else.
+* *********************************************************************
+* RUNTIME MESSAGES USED BY THE X_COM ROUTINES - TRANSLATION IS OPTIONAL
+* *********************************************************************
+0210,Invalid/Unknown data conversion type encountered.
+0211,DBCS string converts to a value too long for processing by the server.
+0212,Incomplete or corrupted DBCS string encountered.
+0214,Server DBCS string converts to a value too long for processing by the client.
+0215,Server DBCS string contains invalid or corrupted data. SHIFT-IN is in invalid position.
+0216,Server DBCS string contains invalid or corrupted data. Final SHIFT-IN missing from server data.
+0217,Error encountered when attempting to open DBCS conversion table in file >S< for language >S<.
+0218,Data in DBCS conversion table >S< out of valid range for DBCS data at line number >S<.
+0219,Unknown expression component type encountered.
+0220,Function >S< in process >S< must be regenerated and recompiled before it can be used.
+0221,Invalid/unknown data base / source operation requested.
+0222,Selection record limit of >L< exceeded.
+0249,Fatal O/S error >D< when attempting to load Comms Manager DLL/Routine >S<. Does the LIBPATH= parameter in your configuration file include <drive>:\CMLIB\DLL?
+0377,Fatal O/S error >D< when attempting to load Comms Manager DLL/Routine >S<. Please check the PATH= parameter in your AUTOEXEC.BAT to ensure that the DLL can be located, or use a fully qualified CDLL= value.
+0378,Client Access/400 (or other OEM router) is not currently loaded. The router must be loaded before any communications session can be allocated or attempted.
+0929,Insufficient memory has been allocated to save the current array index vector information.
+0950,Unexpected data received.
+0985,Unable to retrieve a single-byte CCSID to use when creating a text file. Job CCSID is >S<.
+1017,Server must be running LANSA 11.0 or later when using DEFINE_ANY_SERVER or DBID=*ANY.
+1019,Use X_RUN parameters CMTH=C CDLL=LCOMGR32.DLL when using DEFINE_ANY_SERVER or DBID=*ANY.
+1024,Client Codepage >S< is unknown.
+1025,Translate of >S< to >S< failed: >S<
+1066,Unable to convert file paths. The client has been detected as Korean but this system is not Korean. The Won character cannot be represented on this system and thus cannot be converted. If the client is a Korean system, the server must also be a Korean system.
+1072,Global values not initialized on server. May be caused by multiple instances of the service programs X_DLL or X_SSV. These should not exist in a library which precedes the LANSA Program Library in the user's library list.
+1073,A communications error has occurred to server with LU Name >S<. Ensure the listener job is started on the server, check communications settings and job logs.
+1119,Insufficient memory has been allocated to send/receive the current vector.
+1129,Error transferring file >S<
+1130,Error transferring file >S<\>S<
+1133,A Client requesting Just-In-Time MSI Upgrade has asked for a Package Status
+1134,A Client requesting Just-In-Time Package Upgrade has asked for an MSI Status
+* ************************************************************************
+* RUNTIME MESSAGES USED BY THE X_BIF FUNCTION - TRANSLATION IS RECOMMENDED
+* ************************************************************************
+0223,Invalid data area length specified.
+0224,Start + Length exceeds total LDA data area size.
+0225,This Builtin Function is not supported in the current release.
+0226,The specified entry length for list, >L<, is not the same as the compiler calculated entry length, >L<. This check is NOT performed by LANSA for IBM i systems.
+0227,Invalid use of "ALL" in an object name.
+0228,Maximum number of allowable input or output files allowed has been exceeded.
+0229,Output file format specified is not A,T,C,D or O.
+0230,The method specified for handling invalid characters is not I, B or R.
+0231,The carriage control option is not Y, N or T.
+0232,The close File option is not specified as Y or N.
+0233,The decimal point removal option R can only be used validly with file formats B, C and D.
+0234,Fatal error detected when writing to file >S<.
+0235,Invalid "Appendage Option" in working list >S< (entry number >S<).
+0236,Input file format specified is not one of A,T,O,C,CL,D or DL.
+0237,Record selection option >S< is not a valid value.
+0238,Record selection option is used and argument 9 (position) and/or argument 10 (value) have not been specified.
+0239,Working list >S< does not have the same maximum allowable entries as the primary working list in argument 1.
+0240,Working list >S< is used more than once as an appendage working list or has been specified as the primary list and as an appendage list.
+0241,Computed buffer length exceeds maximum allowable length.
+0242,Fatal error detected when reading from file >S<.
+0243,Compare position is not valid for input record number >S<.
+0244,Numeric field conversion error. Too many digits/decimals for result field, or, invalid data encountered.
+0245,List load error detected during read from >S< into list >S<.
+0246,Record read from file >S< is too short to be valid. Length of record read and calculated minimum record length were >S< respectively.
+0247,Command execution option specified is not S or W.
+0259,Working list >S< is not correctly formatted for use with this builtin. Please refer to Technical documentation for exact layout details.
+0260,Working list >S< has more than 9999 maximum allowable entries. 
+0323,Error in SET_SESSION_VALUE. Session value ">S<" is invalid or unknown. Please refer to Technical documentation.
+0324,Error in SET_SESSION_VALUE. Session value ">S<" does not allow/support setting its value to ">S<". Please refer to Technical documentation.
+0407,File attribute RECURLVL is not currently supported.
+0604,BIF Error. Please see second level for details.
+0607,The Task Identifier ">S<" does not exist. It may cause by spelling error or the value is not right justified.
+0608,">S<" - Invalid Path Specified.
+0609,Available Disk space exceeded when creating flat file.
+0610,">S<" - Invalid Path Specified or File not Found.
+0611,File ">S<" rebuild failed.
+0612,>S<.
+0613,">S<" - Specified Key not found.
+0614,This BIF is only supported on Microsoft Windows.
+1170,This BIF is only supported on 32-bit Windows.
+0635,Version information not available.
+0636,Object ">S<" does not exist.
+1112,Unable to delete key '>S<\>S<'.
+1113,Unable to delete key value '>S<\>S<'.
+0760,The returned value type is not supported.
+0774,The file >S< is either not in a valid zipfile format, is corrupt or has been truncated.
+0775,The directory >S< could not be found or created.
+1131,Error writing to file >S<.
+0776,The overwrite option specified is not N,U, or Y.
+0777,The directory >S< could not be found.
+0778,The include subdirectories option specified is not N or Y.
+0779,The delete zipped files option specified is not N or Y.
+0780,The compression level specified is not in the range 0 - 9.
+0781,Copy of file >S< to file >S< failed.
+0782,Unable to update offsets in self-extracting archive >S<.
+0783,Zip error >L<: >S<
+0804,Error executing external program.
+0805,Wrong number of arguments supplied for Built In Function (BIF).
+0806,This command may only be executed from a Web job.
+0809,">S<" - Invalid input value.
+0818,The SSN ">S<" has already been defined and connected to the database ">S<".
+0819,The SSN ">S<" is redefined to connect to the database ">S<".
+0820,The SSN ">S<" has already been defined to connect to the database ">S<". It cannot be redefined to connect to a server.
+0821,The SSN ">S<" has already been defined to connect to server ">S<". It cannot be redefined to connect to a database.
+0829,The database type '>S<' is invalid.
+0836,Fail to add field ">S<" as a key as it will cause the Logical Views index to exceed the limit.
+0984,Invalid Task ID supplied.
+* Start JSM BIF
+0846,JSM Client is not licensed.
+0847,Cannot get job attributes.
+0848,Cannot create socket.                     
+0849,Cannot find server.
+0850,Cannot connect to server.
+0851,Service closed.
+0852,Service not opened.
+0853,Cannot send command, connection closed.
+0854,Cannot send command, connection closed.
+0855,Cannot send byte array, connection closed.
+0856,Cannot read protocol properties.
+0857,Cannot send keyword list, connection closed.
+0858,Bytearray size exceeds stdout storage limit.
+0859,Cannot send working list, connection closed.
+0860,Cannot send client information, connection closed.
+0861,Cannot send field list, connection closed.
+0862,Cannot send field data, connection closed.
+0863,Cannot allocate storage for field array.
+0864,Cannot allocate storage for field data.
+0865,Received status value is too long.
+0866,Received message value is too long.
+0867,Cannot read status value.
+0868,Cannot read message value.
+0869,Cannot allocate storage for byte array.
+0870,Cannot read byte array.
+0871,Cannot allocate storage for working list.
+0872,Cannot read working list.
+0873,Cannot allocate storage for field list.
+0874,Cannot read field list.
+0875,Cannot allocate storage for running checks.
+0876,Inbound field list check failure.
+0877,Cannot update working list.
+0878,Cannot update field data.
+0879,Cannot create conversion descriptions.
+0880,Cannot read stdin.
+0881,JSM Client successfully initialized
+0882,JSM Client successfully terminated
+0883,JSM Client already initialized
+0892,Data is produced by version 10.0 or later but the OAM is prior 10.0.
+0893,Cannot delete the file ">S<".
+0894,Cannot locate the file ">S<".
+0895,The data file ">S<" does not match the format of the CTX file.
+0896,Data cannot be converted to version 10.0 format.
+0898,Version of ">S<" cannot be determined.
+0911,Working list used to restore the list is not the same as the working list used to save the list
+0912,Working list used to receive the list is not the same as the working list used to send the list
+0913,Invalid Data Queue Name
+0914,Invalid or missing working list argument
+0915,Invalid queue entry length specified. Value specified was >L< but actual entry length is >L<.
+0916,Data may have been sent from a list with RDMLX fields. Receiving list contains only RDML fields.
+0917,Data was sent from a list with RDML fields only and is being received into a list with RDMLX fields.
+0918,Data was saved from a list with RDMLX fields and is being restored into a list with RDML fields only.
+0919,Data was saved from a list with RDML fields only and is being restored into a list with RDMLX fields.
+0920,List named >S< contains RDMLX fields. This function works with list(s) with RDML fields only.
+0922,>S< could not be loaded.
+0923,Unable to call >S<, entry point mismatch.
+0935,RDMLX fields cannot be used in a request to an IBM i server.
+0992,Invalid JSMX handle.
+0993,Cannot allocate memory required for message.
+0994,Cannot allocate memory required for connection.
+0995,Cannot allocate memory required for command.
+0996,Cannot find specified field ">S<".
+0997,Cannot allocate memory required for field definitions.
+0998,Cannot allocate memory required for field data.
+0999,Cannot allocate memory required for working list definitions.
+1000,Cannot allocate memory required for working list data.
+1004,Cannot allocate memory for working list data.
+1005,Cannot receive working list data.
+1006,Cannot allocate memory for field data.
+1007,Cannot receive field data.
+1008,Cannot send field definitions.
+1009,Cannot send field data.
+1010,Cannot send working list definitions.
+1012,Cannot send working list data.
+1029,Cannot allocate memory for field definition.
+1030,Cannot receive field definition.
+1031,Cannot allocate memory for working list definition.
+1032,Cannot receive working list definition.
+1061,The data file ">S<" is empty.
+1083,Cannot allocate memory required for field definitions from function.
+1084,Invalid CONTENT_LENGTH value
+1136,Cannot change stdin to binary mode 
+1137,Cannot change stdout to binary mode 
+1138,Pre-calculated length differs from cumulative length while reading file ">S<"
+* End JSM BIF
+0963,Start + Length exceeds total data area size.
+0964,Cannot create space cell using RDMLX field as prototype.
+0965,Invalid cell type encountered.
+0966,The key value must not exceed >D< bytes.
+1014,Invalid Object Type specified - allowable values are PD, PF, FD or DF
+1058,The database type was not specified in DEFINE_DB_SERVER.
+1059,Connection to this server failed previously. The server must be redefined before executing CONNECT_SERVER.
+1060,The database identifier cannot be blank.
+1062,File >S< cannot be accessed as it is connected to an invalid DB server connection (DSN >S<).
+* ********************************************************************************
+* RUNTIME MESSAGES USED BY THE X_UIM MANAGER - TRANSLATION IS STRONGLY RECOMMENDED
+* ********************************************************************************
+0272,~Font...
+0301,Unable to locate a fixed font
+0302,Invalid data input into a numeric only field
+0303,Invalid data in an alphanumeric field
+0304,Invalid number of decimal positions specified
+0305,Too many digits specified for a numeric field
+0306,Too many characters specified for an alphanumeric field
+0307,Undefined Error Code >D< encountered.
+0308,Embedded blanks not allowed in this field.
+0309,Non-numeric character specified in a numeric only field
+0310,Field is not Modulus 10
+0311,Field is not Modulus 11
+0312,Field cannot be blank
+0314,First character specified is invalid
+0906,Invalid data in a date, time or datetime field 
+0421,Only DBCS information can be entered in this field
+0422,You can specify DBCS or SBCS data, but not both, in this field
+0553,Only SBCS information can be entered in this field
+0315,Text on Push Buttons is too large to allow scrolling
+0316,Debug is not supported in this operating system
+0317,Too many DBCS characters entered into this entry field.
+0318,Sample Message >L< >S<.
+0319,Unable to start session in >S<. ReturnCode = >L<.
+0320,Warning message >L< does not exist in the warning message definition table.
+0321,Invalid character in Name field
+0338,The current Process needs to be regenerated and recompiled under the latest release before being used in this context.
+0551,>S< is a FORM and cannot be invoked via the invocation method that you have used.
+0552,>S< is a FUNCTION and cannot be invoked via the invocation method that you have used.
+0583,>S< is a PROCESS and cannot be invoked via the invocation method that you have used.   
+0764,LANSA Debugger
+* The following text is used in 1st level message so it is limited to 128 characters.
+0838,The error details have been recorded into x_err.log - see 2nd level text. Send it to support when reporting the problem.
+* The following message text is kept to a minimum so it does not get truncated when long filenames are used.
+0839,>S<. Note that the file name can be copied and pasted.
+0907,Field >S< is an RDMLX field which is only valid for DISPLAY, REQUEST or POP_UP commands in a Web application.
+0944,Field must be filled.
+1013,If *JOB is specified for the Client-to-Server or Server-to-Client table, it must also be specified for the other table.
+1068,Unexpected DISPLAY/REQUEST/POP_UP command in process >S< function >S<.
+* *********************************************************************
+* RUNTIME MESSAGES USED BY LIMPORT - TRANSLATION IS RECOMMENDED
+* *********************************************************************
+0844,Partition Identifier '>S<' must be 3 characters long.
+0899,Blob to character translation failed for column '>S<'. Please send the import folder to support. The first three characters of the column name identify the file containing the problem data.
+0941,The name of the default language was not included in LXXBDF by the exporting system. No special processing will be done for the default language.
+0942,The default language of the target partition cannot be determined. No special processing will be done for the default language.
+0943,Export default language '>S<' will be mapped to target default language '>S<' 
+0953,Publishing WAM '>S<' WebRoutine '>S<' (Set >D<) Technology Service '>S<:>S<' and language '>S<'.
+0954,Publishing referenced variables for WAM '>S<' WebRoutine '>S<' (Set >D<) Technology Service '>S<:>S<' and language '>S<'.
+0955,Publishing Weblet '>S<' (Set >D<) Technology Service '>S<:>S<' and language '>S<'.
+0956,Publishing referenced variables for Weblet '>S<' (Set >D<) Technology Service '>S<:>S<' and language '>S<'.
+0957,Removing published WAM '>S<' WebRoutine '>S<' Technology Service '>S<:>S<'.
+0958,Removing published referenced variables for WAM '>S<' WebRoutine '>S<' Technology Service '>S<:>S<'.
+0959,Removing published Weblet '>S<' Technology Service '>S<:>S<'.
+0960,Removing published referenced variables for Weblet '>S<' Technology Service '>S<:>S<'.
+0961,WARNING: Error publishing document: '>S<'.
+0962,WARNING: Error removing published document: '>S<'.
+0967,Publishing Technology Service '>S<:>S<' document '>S<'.
+0968,Removing Technology Service '>S<:>S<' document '>S<'.
+0969,Saving Technology Service '>S<:>S<' document '>S<'.
+0970,Error saving document: '>S<'.
+0972,Clearing WAM documents cache ...
+0973,Clearing WAM documents cache completed.
+0974,WARNING: Error clearing cached document: '>S<'.
+0975,WARNING: Document '>S<' not removed from WAM documents cache.
+1027,WARNING: XML Parser/XSLT Processor not installed.
+1028,WARNING: Import cannot publish XML documents. Required XML Parser and XSLT processor not available.
+1064,Set up XSL data for Weblet '>S<' (Set >D<) Technology Service '>S<:>S<' and language '>S<'.
+1065,Set up XSL data for WebRoutine '>S<' (Set >D<) of WAM '>S<' Technology Service '>S<:>S<' and language '>S<'.
+1086,WARNING: Document >S< not published properly. May not work as expected.
+* These messages MUST be these numbers as they are generated by 
+* X_Check_VN()
+1011,Embedded blanks not allowed in Partition Identifier '>S<'
+1015,Partition Identifier '>S<' cannot be blank
+1016,First character specified in Partition Identifier '>S<' is invalid
+1018,Invalid character in Partition Identifier '>S<'
+1069,Export Version >S< found.
+1070,Export version is not supported. You need to install a more recent version of LANSA to use this export.
+1071,Export contains UTF-8 column data but the export version does not support it. The exporting system may be invalid.
+1078,Partition '>S<' does not exist and export does not contain partition definition.
+1111,.
+* *********************************************************************
+* OAM COMPILE AND SQL TABLE BUILD MESSAGES - TRANSLATION IS RECOMMENDED
+* *********************************************************************
+0250,Creation/alteration of Table for >S< started.
+0251,Creation of Index for >S< started.
+0252,Creation of View for >S< started.
+0253,Creation/alteration of Table for >S< ended.
+0254,Creation of Index for >S< ended.
+0255,Creation of View for >S< ended.
+0256,Unable to Drop >S< for >S<. SQL error = >L<.
+0257,>S< created/altered for >S< in collection >S<.
+0258,Unable to create/alter >S< for >S< in collection >S<. SQL error = >L<.
+0322,Unable to Save Data for >S<. SQL error = >L<.
+0830,Error >L< when connecting to database >S< of type >S<.
+0845,>S< ignored for >S< in collection >S<.
+1120,The file >S< in library >S< cannot be built because the >S< name >S< already exists in the database. Resolve the name and submit the compile again.
+1123,>S<, >S<, already existed in collection >S<.
+1141,Unable to "Rebuild indexes and views" on the file >S< as the referring table name, >S<, has been changed to >S<. A "Rebuild table" is required.
+* *********************************************************************
+* ERROR HANDLING MESSAGES - TRANSLATION IS RECOMMENDED
+* *********************************************************************
+1033,Process
+0261,Function
+0717,Component
+0262,Statement
+0263,Routine
+0264,Message
+0265,Not known/applicable
+0266,Warning
+0267,Fatal Error
+0268,SQL Table
+0269,SQL Error Code
+0270,OS Error Message
+0271,OS Error Message Number
+0408,Field
+0409,File
+0410,Library
+0554,Event: >S<
+0555,Debug: >S<
+0908,Import contains RDMLX repository objects but the target partition, >S<, is not RDMLX enabled. Nothing has been imported.
+0924,Partition definition cannot be imported as it is not enabled for full RDMLX, but the target partition is. 
+1125,Logical View
+1142,Field / Component
+1150,ActiveX
+1151,Bitmap
+1152,Cursor
+1153,External Resource
+1154,Icon
+1155,Visual Style
+1156,Web Service
+1157,.NET Component
+1158,Reusable Part
+1159,Business Object
+1160,Web Application Module
+* *********************************************************************
+* HELP DIALOG LABELS - TRANSLATION IS RECOMMENDED
+* *********************************************************************
+0733,Contents
+0734,Index
+0735,Processes
+0736,Functions
+0737,Fields
+0738,Hide
+0739,Back
+0740,Forward
+0741,Form
+0742,Forms
+0743,Components
+* *********************************************************************
+* HELP TEXT ERROR MESSAGES - TRANSLATION IS RECOMMENDED
+* *********************************************************************
+0751, - Object description not found.
+0752,The LANSA development environment is not installed so the default help file cannot be located.  Use the HLPF command line parameter to specify the help file name and path
+0753,Help files >S< and >S< do not exist.  Configuration or setup error.
+0754,Help file >S< does not exist.  Configuration or setup error.
+0761,Help file error
+0762,Windows Help has reported that the keywords \">S<\" and \">S<\" do not exist in \">S<\".  This may be true, or it may be because there is another help file open, in which case, close all help files and try again.  Otherwise, please contact your application vendor.
+0763,Windows Help has reported that the keyword \">S<\" does not exist in \">S<\".  This may be true, or it may be because there is another help file open, in which case, close all help files and try again.  Otherwise, please contact your application vendor.
+0901,Help file does not exist.  Use the HLPF command line parameter to specify the help file name and path
+* *****************************************************************
+* MESSAGES USED BY THE ACONFIG ROUTINE - TRANSLATION IS RECOMMENDED
+* *****************************************************************
+0294,File >S< could not be located. Please check all drive and path parameters specified and try again.
+0295,Error during save of current >S<. Alteration was not performed. File remains unchanged.
+0296,Current configuration file saved with name >S<. Use this file to restore to previous settings.
+0297,Fatal error during alteration of current >S<. Alteration was not performed. File remains unchanged.
+0298,Fatal error during final replacement of current >S<. Replace with previously saved version of current version before proceeding.
+0299,Alteration of the system configuration completed normally. Keep saved file until this configuration has been used successfully.
+0412,Configuration Utility (ACONFIG)
+0413,Configuration Utility Messages
+0414,The configuration utility has ended. Review all the messages shown below and then use the OK button to terminate execution.
+0417,Error >L< occurred in attempting to update your configuration.
+* *****************************************************************
+* MESSAGES USED BY EXTENDED BIFS - TRANSLATION IS RECOMMENDED
+* *****************************************************************
+0400,Unable to connect to LANSA development environment, dll(shared object) >S< could not be loaded.
+0401,Unable to connect to LANSA development environment, dll(shared object) entry point mismatch.
+0402,Error starting LANSA development environment interface.
+0403,Error in LANSA development environment StartInterface.
+0404,Unable to verify LANSA Hardware Key.
+0405,Fatal error in LANSA development environment.
+0406,List entry counts do not match.
+0577,Unable to connect to MAIL, dll(shared object) >S< could not be loaded.
+0578,Unable to connect to MAIL, dll(shared object) entry point mismatch.
+0765,The LANSA development environment is not installed correctly.
+0766,>S< is Build >L< and >S< is Build >L<. Your LANSA Development & Execution environments are not compatible.  You probably need to re-configure or re-install LANSA. Program will now terminate.
+* **************************************************************************
+* MESSAGES USED BY *PLUGIN COMMUNICATIONS LOGIC - TRANSLATION IS RECOMMENDED
+* **************************************************************************
+0507,PRR0067: Communications error decoded as ">S<".
+0508,PRR0068: Communications error code >S< received.
+0509,PRR0069: LU name of server being referenced when error was detected is ">S<".
+0510,PRR0070: Connecting to server >S< ..... please wait.
+0511,PRR0071: Server with SSN (Server Symbolic Name) ">S<" is already Defined AND Connected.
+0512,PRR0072: Fatal error when attempting to complete a connection to server with SSN >S<.
+0513,Buffer is not large enough to hold current record.
+0514,PRR0074: Communications operation attempted without a valid connection to SSN >S<.
+0515,PRR0075: Communications error detected when doing an X_PDF_Comms_Flush call with server >S<
+0516,PRR0076: Communications error - attempt made to send with an invalid record length.
+0517,PRR0077: Communications error on receive from server with symbolic name >S<.
+0518,PRR0079: Communications error detected when attempting to disconnect from server ">S<".
+0519,PRR0078: Requested operation failed because server named ">S<" not defined.
+0520,PRR0081: Server Symbolic Name (SSN) specified is invalid.
+0521,PRR0082: Working list >S< is too large to be sent to a server.
+0522,PRR0083: Fatal error when attempting to convert >S< from client to server or server to client format.
+0523,PRR0084: Automatic disconnection has been issued to server >S<.
+0524,PRR0085: File specified is already connected to a server with SSN >S<.
+0525,PRR0087: Error detected when performing commit or rollback to SSN >S<.
+0526,PRR0086: File cannot be disconnected as connected to a server with SSN >S<
+0527,PRR0070: Connecting to server >S< ..... please wait.
+0528,PRR0071: Server with SSN (Server Symbolic Name) ">S<" is already Defined AND Connected.
+0529,PRR0072: Fatal error when attempting to complete a connection to server with SSN >S<.
+0530,PRR0073: Fatal communications error when buffer flushing to SSN >S<.
+0531,PRR0074: Communications operation attempted without a valid connection to SSN >S<.
+0532,PRR0075: Communications error detected when doing an X_PDF_Comms_Flush call with server >S<
+0533,PRR0076: Communications error - attempt made to send with an invalid record length.
+0534,PRR0077: Communications error on receive from server with symbolic name >S<.
+0535,PRR0079: Communications error detected when attempting to disconnect from server ">S<".
+0536,PRR0078: Requested operation failed because server named ">S<" not defined.
+0537,PRR0080: Connection to server >S<.>S< now fully established
+0538,PRR0081: Server Symbolic Name (SSN) specified is invalid.
+0539,PRR0082: Working list >S< is too large to be sent to a server .... see second level text.
+0540,PRR0083: Fatal error when attempting to convert >S< from client to server or server to client format.
+0541,PRR0084: Automatic disconnection has been issued to server >S<.
+0542,PRR0085: File specified is already connected to a server with SSN >S<.
+0543,PRR0087: Error detected when performing commit or rollback to SSN >S<.
+0544,PRR0086: File cannot be disconnected as connected to a server with SSN >S<
+0546,Your LANSA Computer Name is >S<.
+0548,You have updated partition information. If the partition is NEW then you should do a *LIMPORT (Local Directory) from directory NEWPART on your "LANSA" CD-ROM so that the new partition is correctly initialized.
+0549,Verify Partition Identifier Difference
+0550,The material that you are importing was exported from partition >S<. You are importing to partition >S<. Are you ABSOLUTELY SURE that you want to proceed with this import operation?
+1053,PRR0088: A maximum of 100 fields and 20 key fields can be used in an IO operation if the server you connected to was defined with the DEFINE_OS_400_SERVER BIF. To avoid this restriction the DEFINE_ANY_SERVER BIF may be used as an alternative.
+* ************************************************************************
+* MESSAGES USED BY THE DEPLOYMENT TOOL - TRANSLATION IS RECOMMENDED
+* Fatal errors must be added to apvchX_TFatalErrorNumbers in x_fun5.c
+* so that they are flagged as fatal in the VL IDE when Package Install
+* is run as part of compiling an object on non-Windows platforms.
+* ************************************************************************
+0661,Creation of directory &1 was successful
+0662,A1320
+0663,Creation of directory &1 failed
+0664,A1320
+0665,Copy of file &1 was successful
+0666,A0500
+0667,Copy of file &1 failed
+0668,A0500
+0669,          &1 Completion messages
+0670,N0070
+0671,          &1 Warning messages
+0672,N0070
+0673,          &1 Fatal messages
+0674,N0070
+0675,Installation of Package - &1 - started 
+0676,A0080
+0677,Installation of Package - &1 - ended successfully
+0678,A0080
+0679,Installation of Package - &1 - ended in error
+0680,A0080
+0681,Definition of File &1 has changed, rebuild required
+0682,A0100
+0683,Unload of data for File &1 successful
+0684,A0100
+0685,Unload of data for File &1 failed
+0686,A0100
+0687,Rebuild of File &1 successful
+0688,A0100
+0689,Rebuild of File &1 failed
+0690,A0100
+0691,Import of LANSA internal data started 
+0692, 
+0693,Import of LANSA internal data completed successfully 
+0694,
+0695,Import of LANSA internal data failed 
+0696,
+0697,Load of data for File &1 completed successfully 
+0698,A0100
+0699,Load of data for File &1 failed 
+0700,A0100
+1171,Unload of data did not occur for &1 because the table does not exist
+1172,Unload of data did not occur for &1 because the OAM does not exist
+0888,- &1 deleted 
+0889,A1000
+0890,- &1 not deleted 
+0891,A1000
+0987,Compile of object &1 succeeded
+0988,A1000
+0989,Compile of object &1 failed
+0990,A1000
+1054,Cannot locate Deployed Object List (.dol) file. Package Install cannot be done.
+1055,
+1056,&1
+1057,A1320
+* ************************************************************************
+* RUN TIME ERRORS ISSUED BY *LSERVER SERVICES - TRANSLATION IS RECOMMENDED
+* ************************************************************************
+0571,Failed to setup client computer details. Return code = >D<.
+0572,Error detected when receiving a request from the client.
+0573,Error detected when sending a request response to the client.
+0574,Error detected in OAM ">S<" when executing request >D<. Returned status is ">S<".
+0575,Commitment definition not found.
+0784,Failed to load DLL or shared library >S<. Return code = >S<.
+0785,Failed to resolve entry point >S< in DLL or shared library >S<.
+0786,A matching apostrophe not found.
+0787,Errors occurred in command.
+0788,>S< execution started.
+0789,Keyword >S< for command >S< not found.
+0790,Keyword >S< value ">S<" not valid.
+0791,Character ">S<" not valid following string >S<.
+0795,A matching parenthesis not found.
+0796,OS Command string length is >D<. Maximum allowable length is >D<.
+0797,Executable file >S< not found.
+1045,Join query not supported as some files are in different databases.
+* ************************************************************************
+* RUN TIME ERRORS ISSUED BY OPEN SSL SERVICES - TRANSLATION IS RECOMMENDED
+* ************************************************************************
+1094,OpenSSL: Warning, not sufficient random data. Security maybe compromised.
+1095,OpenSSL: Generating RSA private key, >D< bit modulus.
+1096,OpenSSL: Error initializing RSA key pair.
+1097,OpenSSL: Error opening public key certificate file >S<.
+1098,OpenSSL: Asymmetric cipher >S<.
+1099,OpenSSL: Symmetric cipher >S<.
+1100,OpenSSL: Symmetric cipher modulus >D< bits.
+1101,OpenSSL: More than 1 public file (*.>S<) in >S<.
+1102,OpenSSL: Failed to initialize.
+1103,OpenSSL: Error reading public key >S<.
+1104,OpenSSL: Jobs already exist on encrypted job queue. They are unrecoverable so they are being deleted.

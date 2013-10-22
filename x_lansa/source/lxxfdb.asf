@@ -1,0 +1,8 @@
+XDBP_I     1A   30    1    3
+XDBPFL     2A  100    4   13
+XDBPLB     3A  100   14   23
+XDBDBT     4A  320   24   55
+XDBTYP     5A   20   56   57
+XDBOBJ     6A  100   58   67
+XDBSEQ     7N  100   68   77
+XDBDTA     0A 2560   78  333

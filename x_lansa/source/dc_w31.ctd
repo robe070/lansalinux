@@ -1,0 +1,147 @@
+DEFINE_TABLE
+  INTERNAL=DC@W31
+  TABLE=DC_W31
+  COLLECTION=LX_DTA
+  DESC=Wizard Menu Definitions
+DEFINE_COLUMNS
+  NAME=W31P_I    
+    DESC=Partition Identifier
+    TYPE=CHAR
+    LEN=3
+    NOT_NULL
+  NAME=W31PEN    
+    DESC=Primary Extension Name
+    TYPE=CHAR
+    LEN=3
+    NOT_NULL
+  NAME=W31SEN    
+    DESC=Secondary Extension Name
+    TYPE=CHAR
+    LEN=5
+    NOT_NULL
+  NAME=W31PAG    
+    DESC=Page Identifier
+    TYPE=CHAR
+    LEN=20
+    NOT_NULL
+  NAME=W31PMN    
+    DESC=Parent Menu
+    TYPE=CHAR
+    LEN=15
+    NOT_NULL
+  NAME=W31SEQ    
+    DESC=Sequence in Menu
+    TYPE=DECIMAL
+    LEN=3
+    DEC=0
+    NOT_NULL
+  NAME=W31TYP    
+    DESC=Menu Type
+    TYPE=CHAR
+    LEN=1
+    NOT_NULL
+  NAME=W31STY    
+    DESC=Button Style
+    TYPE=CHAR
+    LEN=15
+    NOT_NULL
+  NAME=W31CLR    
+    DESC=Button Colour
+    TYPE=CHAR
+    LEN=15
+    NOT_NULL
+  NAME=W31STE    
+    DESC=Menu State
+    TYPE=CHAR
+    LEN=1
+    NOT_NULL
+  NAME=W31FLD    
+    DESC=Field to Condition
+    TYPE=CHAR
+    LEN=10
+    NOT_NULL
+  NAME=W31VAL    
+    DESC=Value for field condition
+    TYPE=CHAR
+    LEN=50
+    NOT_NULL
+  NAME=W31LNK    
+    DESC=Link Type
+    TYPE=CHAR
+    LEN=1
+    NOT_NULL
+  NAME=W31CMP    
+    DESC=Menu Component
+    TYPE=CHAR
+    LEN=20
+    NOT_NULL
+  NAME=W31PGE    
+    DESC=Static Link Page
+    TYPE=VARCHAR
+    LEN=255
+    NOT_NULL
+  NAME=W31PRO    
+    DESC=Link Process
+    TYPE=CHAR
+    LEN=10
+    NOT_NULL
+  NAME=W31FUN    
+    DESC=Link Function
+    TYPE=CHAR
+    LEN=7
+    NOT_NULL
+  NAME=W31RJB    
+    DESC=Reuse Job
+    TYPE=CHAR
+    LEN=1
+    NOT_NULL
+  NAME=W31WND    
+    DESC=Start in New Window
+    TYPE=CHAR
+    LEN=1
+    NOT_NULL
+  NAME=W31SUB    
+    DESC=Sub-Menu Entry Count
+    TYPE=DECIMAL
+    LEN=3
+    DEC=0
+    NOT_NULL
+  NAME=W31SPR    
+    DESC=Spare Field
+    TYPE=VARCHAR
+    LEN=255
+    NOT_NULL
+  NAME=X_UPID
+    DESC=Update
+    TYPE=DECIMAL
+    LEN=7
+    DEC=0
+    NOT_NULL
+  NAME=X_RRNO
+    DESC=Relative record #
+    TYPE=DECIMAL
+    LEN=15
+    DEC=0
+    NOT_NULL
+DEFINE_INDEX
+  NAME=DC_W31_R
+  UNIQUE
+  DEFINE_INDEX_KEYS
+    COLUMN=X_RRNO
+DEFINE_INDEX
+  NAME=DC_W31V1_I
+  DEFINE_INDEX_KEYS
+    COLUMN=W31P_I    
+    COLUMN=W31PEN    
+    COLUMN=W31SEN    
+    COLUMN=W31PAG    
+    COLUMN=W31SEQ    
+DEFINE_INDEX
+  NAME=DC_W31V3_I
+  DEFINE_INDEX_KEYS
+    COLUMN=W31P_I    
+    COLUMN=W31PEN    
+    COLUMN=W31SEN    
+    COLUMN=W31PAG    
+    COLUMN=W31PMN    
+    COLUMN=W31SEQ    

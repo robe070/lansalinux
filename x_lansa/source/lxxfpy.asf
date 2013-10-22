@@ -1,0 +1,8 @@
+XPYIDN     1N  100    1   10
+XPYLBL     0A  200   11   30
+XPYDES     0A  400   31   70
+XPYOPT     0A   10   71   71
+XPYENM     0A   10   72   72
+XPYLEN     0N  100   73   82
+XPYSP1     0A  200   83  102 
+.@@@@@@@@@@@@@@@@@@@@@@@@@@@@@

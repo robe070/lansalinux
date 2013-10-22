@@ -1,0 +1,16 @@
+XRTP_I    01A   3     1    3
+XRTCID    02A  10     4   13
+XRTCTX    03N   70   14   20
+XRTRTU    04A  20    21   40
+XRTRTV    00A  20    41   60
+XRTUST    00N   70   61   67
+XRTACC    00A   1    68   68
+XRTRED    00A   1    69   69
+XRTREE    00A   1    70   70
+XRTREM    00A   1    71   71
+XRTDES    00A  40    72  111
+XRTHLP    00A 250   112  361
+XRTFE1    00N   70  362  368
+XRTFE2    00N   70  369  375
+XRTFE3    00A  10   376  385
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@

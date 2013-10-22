@@ -1,0 +1,3844 @@
+
+********************************************************
+**********     Application Captions          ***********
+********************************************************
+App.MainTitle=LANSA Editor
+App.MainTitle.Debug=LANSA Editor [run]
+App.OutlineTitle=Designer Outline
+
+App.OutlineLabel=Outline
+App.CompLabel=Details
+App.PtyLabel=Properties
+App.EvtLabel=Events
+App.MthLabel=Methods
+App.RepLabel=Repository
+App.FavLabel=Favorites
+App.CmdLabel=Command
+App.RoutineViewLabel=Routines
+App.StatementViewLabel=Statements
+App.CompositionViewLabel=Definitions
+App.ReadOnly=Read-Only
+App.LockedDesign=Locked Design
+App.MainToolBarCaption=Standard
+App.ActiveLineCol=Ln &1, Col &2
+
+App.TabFolder.ShowMorePages.Caption=Show More Buttons
+App.TabFolder.ShowFewerPages.Caption=Show Fewer Buttons
+App.TabFolder.AddOrRemoveViews.Caption=Add or Remove Favorite
+App.TabFolder.ChangeImage.Caption=Change Image...
+App.TabFolder.ChangeImage.Tip=Change the Image for the selected view
+
+********************************************************
+**********      Component Captions           ***********
+********************************************************
+Comp.ViewCaption=Design
+Comp.SourceCaption=Source
+Comp.OutputCaption=Output
+Comp.ContentsCaptionDynamic=Dynamic List Inclusion Criteria
+Comp.ContentsCaptionStatic=Static List Contents
+Comp.HelpTextCaption=Help Text
+Comp.FunctionsCaption=Functions
+
+********************************************************
+**********      Component Editor Menus       ***********
+********************************************************
+ComponentMenu.Component=&File
+ComponentMenu.New=&New
+ComponentMenu.Close=&Close
+ComponentMenu.CloseAll=Close All
+ComponentMenu.Open=&Open
+ComponentMenu.Save=&Save
+ComponentMenu.SaveAll=Save A&ll
+ComponentMenu.SaveExit=Save and Exit
+ComponentMenu.Print=&Print...
+ComponentMenu.Exit=E&xit
+ComponentMenu.LockDesign=&Lock Design
+ComponentMenu.MigrateLanguageLevel=&Enable for Full RDMLX
+**
+EditMenu.Edit=&Edit
+EditMenu.NewCmd=&Edit Command Line...
+EditMenu.Cut=Cu&t
+EditMenu.Copy=&Copy
+EditMenu.Paste=&Paste
+EditMenu.SelectAll=&Select All
+EditMenu.Del=&Delete
+EditMenu.Find=&Find...
+EditMenu.FindNxt=Find &Next
+EditMenu.FindPrev=Find &Previous
+EditMenu.Rep=Replace...
+EditMenu.Tag=Tags
+EditMenu.TagToggle=Toggle Tag
+EditMenu.TagNext=Next Tag
+EditMenu.TagPrev=Previous Tag
+EditMenu.TagRemoveAll=Remove All Tags
+EditMenu.BlockComment=Comment Selection
+EditMenu.BlockUnComment=Uncomment Selection
+EditMenu.AuditFind=Source Audit Find...
+EditMenu.ToggleAudit=Toggle Audit Stamps
+EditMenu.RepFind=Repository Find...
+EditMenu.Align=&Align...
+EditMenu.Size=&Size...
+EditMenu.Undo=&Undo
+EditMenu.Redo=&Redo
+EditMenu.PromptCmd=Prompt Co&mmand...
+EditMenu.EnhanceCmd=Co&mmand Assistant
+EditMenu.UseTemp=Use Template &Wizard...
+EditMenu.Goto=&Go To
+EditMenu.ShowPrompterCmd=Show Prompter
+EditMenu.SetActiveXAttr=Set Active&X Attributes
+EditMenu.ExpandAll=Expand All
+EditMenu.CollapseAll=Collapse All
+**
+ViewMenu.View=&View
+ViewMenu.View.Views=Views
+ViewMenu.Controls=Controls
+ViewMenu.Outl=&Outline
+ViewMenu.Brow=&Details
+ViewMenu.Rep=&Repository
+ViewMenu.Fav=&Favorites
+ViewMenu.AutoComplete=&Auto Complete
+ViewMenu.Msgs=&Messages
+ViewMenu.Source=&Source
+ViewMenu.Design=D&esign
+ViewMenu.Xsl.Source=XSL
+ViewMenu.Xml.Source=XML
+ViewMenu.Web.Design=Web Design
+ViewMenu.Help=Help
+ViewMenu.Features=Features
+ViewMenu.Preview=&Preview
+ViewMenu.VersionControl=&Version Control
+ViewMenu.RefreshRepository=Refresh Repository
+ViewMenu.ShowExplorerCmd=LANSA Explorer
+ViewMenu.ShowLayoutHelper=Layout Helper
+ViewMenu.Cmd=Co&mmand
+ViewMenu.ShowSavedDefinitions=Saved Definitions
+ViewMenu.ToolBars=&Toolbars
+ViewMenu.ShowToolBarStandard=Standard
+ViewMenu.MessageFiles=Message Files...
+ViewMenu.WorkStationLocks=Workstation Locks...
+ViewMenu.LanguageOptions=Language Options...
+**
+OptMenu.Option=&Options
+OptMenu.Indent=&Indent Level
+OptMenu.Line=Line &Numbers
+OptMenu.Format=F&ree Format editing
+OptMenu.Font=&Font...
+OptMenu.Color=&Color...
+OptMenu.Language=Design View &Language
+OptMenu.Theme=Design View &Theme
+OptMenu.DesignThemeOfEditor=Use Editor Theme
+OptMenu.DevelopmentLanguage=Development Language
+OptMenu.ObjectLocking=Object Locking
+OptMenu.ObjectLockingOff=Off
+OptMenu.ObjectLockingOn=On
+OptMenu.ObjectLockingOnReadOnly=On (ReadOnly)
+OptMenu.RebuildDefinitions=Rebuild Definitions
+OptMenu.RebuildDefinitionsForBifs=Built In Functions
+
+OptMenu.ShowMsg=Show &Messages
+OptMenu.SaveOpt=Save &Options
+OptMenu.Editor=&Editor Compatibility...
+OptMenu.Brief=&Brief
+OptMenu.MsWord=Microsoft &Word
+OptMenu.Epsilon=&Epsilon
+OptMenu.Kedit=&KEdit
+OptMenu.FormattingOptions=&Settings...
+**
+VrfyMenu.Verify=Ve&rify
+VrfyMenu.DCheck=De&sign Check
+VrfyMenu.FCheck=F&ull Check
+VrfyMenu.Build=&Build
+VrfyMenu.Compile=&Compile
+VrfyMenu.Execute=E&xecute
+VrfyMenu.Debug=&Debug
+VrfyMenu.Interactive=Interactive Verification
+VrfyMenu.InteractiveOn=On
+VrfyMenu.InteractiveOff=Off
+VrfyMenu.InteractiveNow=Verify Now
+**
+ToolsMenu.Tools=&Tools
+ToolsMenu.Configure=&Configure
+**
+WndMenu.Wind=&Window
+WndMenu.NextFn=&Next Object
+WndMenu.PrevFn=&Previous Object
+WndMenu.More=&More Objects...
+**
+HelpMenu=&Help
+HelpMenu.Contents=&Contents
+HelpMenu.EditorOView=&Using the Editor 
+HelpMenu.ShortCuts=&ShortCuts
+HelpMenu.Lansa=LANSA on the &Web
+HelpMenu.ProductInfo=Product Information...
+**
+CompMenu.Copy=&Copy
+CompMenu.Cut=Cu&t
+CompMenu.Delete=&Delete Component
+CompMenu.Popup=Add &Popup Menu
+CompMenu.EditPopup=Edit Popup Menu
+CompMenu.DetachPopup=Detach Popup Menu
+CompMenu.ViewPopup=Add &View Popup Menu
+CompMenu.EditViewPopup=Edit &View Popup Menu
+CompMenu.DetachViewPopup=De&tach View Popup Menu
+CompMenu.AddPage=Add Page
+CompMenu.NextPage=Next Page
+CompMenu.PreviousPage=Previous Page
+CompMenu.CutComponent=Cut Component
+CompMenu.CopyComponent=Copy Component...
+CompMenu.GotoDefinition=&Goto Definition
+CompMenu.BlockComment=&Comment Selection
+CompMenu.BlockUnComment=&Uncomment Selection
+CompMenu.SaveDefinition=Save Definition
+CompMenu.SaveAsSharedDefinition=As Shared Default
+CompMenu.SaveAsPartitionDefinition=As Partition Default
+CompMenu.SaveAsSessionDefinition=As Session Default
+CompMenu.SaveAncestorDefinition=Save &1 Definition
+CompMenu.EventsSubMenu=&Events
+CompMenu.SavedDefinitions=Saved Definitions...
+
+********************************************************
+**********     Component Editor Menu Tips    ***********
+********************************************************
+ComponentMenu.New.Tip=Creates a new object 
+ComponentMenu.Close.Tip=Closes the current object 
+ComponentMenu.CloseAll.Tip=Closes all open objects 
+ComponentMenu.Open.Tip=Opens a object from the repository
+ComponentMenu.Save.Tip=Saves the object
+ComponentMenu.SaveExit.Tip=Saves changes to the object and closes the editor
+ComponentMenu.Print.Tip=Prints the code in the Source view
+ComponentMenu.Exit.Tip=Closes the editor and prompts to save changes
+ComponentMenu.LockDesign.Tip=Toggles the lock of the active component's design view
+ComponentMenu.MigrateLanguageLevel.Tip=Enables the use of full RDMLX commands and expressions
+**
+EditMenu.NewCmd.Tip=Shows the current command in Command Assistant
+EditMenu.Cut.Tip=Cuts the selection and puts it on the Clipboard
+EditMenu.Copy.Tip=Copies the selection to the Clipboard
+EditMenu.Paste.Tip=Inserts the Clipboard contents at the insertion point
+EditMenu.SelectAll.Tip=Selects all the code in the Source view
+EditMenu.Del.Tip=Deletes the selection
+EditMenu.Find.Tip=Finds the specified text in the Source view
+EditMenu.FindNxt.Tip=Finds the next occurrence of the specified text in the Source view
+EditMenu.FindPrev.Tip=Finds the previous occurrence of the specified text in the Source view
+EditMenu.Rep.Tip=Replaces the specified text with different text in the Source view
+EditMenu.Tag.Tip=Tag commands
+EditMenu.TagToggle.Tip=Toggles the Tag on the current line in the Source view
+EditMenu.TagNext.Tip=Moves focus to the next occurrence of the Tag in the Source view
+EditMenu.TagPrev.Tip=Moves focus to the previous occurrence of the Tag in the Source view
+EditMenu.TagRemoveAll.Tip=Removes all Tags from the Source view
+EditMenu.BlockComment.Tip=Comments the selected lines of Code in the Source view
+EditMenu.BlockUnComment.Tip=Uncomments the selected lines of Code in the Source view
+EditMenu.AuditFind.Tip=Finds occurrence of the specified text in the Source Audit Stamps
+EditMenu.ToggleAudit.Tip=Toggles the Source Audit Stamps
+EditMenu.RepFind.Tip=Finds objects in the repository
+EditMenu.Align.Tip=Aligns a group of selected components in the Design view
+EditMenu.Size.Tip=Sizes a group of selected components in the Design view
+EditMenu.Undo.Tip=Cancels the last action
+EditMenu.Redo.Tip=Repeats an action that has been cancelled using Undo
+EditMenu.PromptCmd.Tip=Shows the prompt dialog for an RDML command
+EditMenu.EnhanceCmd.Tip=Shows the current command in Command Assistant
+EditMenu.UseTemp.Tip=Shows a list of templates you can use to insert RDML commands
+EditMenu.Goto.Tip=Moves to a specified location in the Source view
+EditMenu.ShowPrompterCmd.Tip=Shows the Component Editor prompter popup window
+EditMenu.FormHtmlAttributes.Tip=Opens Form Html Attributes management dialog
+EditMenu.SetActiveXAttr.Tip=Sets the Attributes required to expose this component as an ActiveX control
+EditMenu.ExpandAll.Tip=Expands all commands in the source
+EditMenu.CollapseAll.Tip=Collapses all commands in the source
+**
+ViewMenu.Controls.Tip=Moves focus to the Controls view
+ViewMenu.Outl.Tip=Moves focus to the Outline view
+ViewMenu.Brow.Tip=Moves focus to the Details view
+ViewMenu.Rep.Tip=Moves focus to the Repository view
+ViewMenu.AutoComplete.Tip=Moves focus to the Source view and activates Auto Complete
+ViewMenu.Fav.Tip=Moves focus to the Favorites view
+ViewMenu.Xsl.Source.Tip=Moves focus to the XSL Source view
+ViewMenu.Xml.Source.Tip=Moves focus to the XML Source view
+ViewMenu.Web.Design.Tip=Moves focus to the Web Design view
+ViewMenu.Source.Tip=Moves focus to the Source view
+ViewMenu.Design.Tip=Moves focus to the Design view
+ViewMenu.Features.Tip=Brings up the Features View for the component
+ViewMenu.Preview.Tip=Moves focus to the Preview view
+ViewMenu.VersionControl.Tip=Moves focus to the Version Control view
+ViewMenu.RefreshRepository.Tip=Updates the view to the repository
+ViewMenu.ShowExplorerCmd.Tip=Shows the LANSA Explorer window
+ViewMenu.ShowLayoutHelper.Tip=Shows the Layout Helper dialog (used for setting layout properties)
+ViewMenu.Cmd.Tip=Moves focus to the Command tab
+ViewMenu.ShowSavedDefinitions.Tip=Shows Saved Definitions dialog (used to maintain saved definitions of repository objects)
+ViewMenu.ToolBars.Tip=Show\Hide available toolbars
+ViewMenu.ShowToolBarStandard.Tip=Show the standard toolbar
+ViewMenu.MessageFiles.Tip=Show Message Files Dialog
+ViewMenu.WorkStationLocks.Tip=Show Workstation Locks Dialog
+ViewMenu.LanguageOptions.Tip=Show Language Options Dialog
+**
+OptMenu.Font.Tip=Brings up a dialog box in which you can set fonts for the Source view
+OptMenu.Color.Tip=Brings up a dialog box in which you can set colors for the Source view
+OptMenu.Language.Tip=Sets the language of captions in Design View
+OptMenu.Theme.Tip=Sets the Theme of the Design View
+OptMenu.DevelopmentLanguage.Tip=Sets the language of the LANSA development environment
+OptMenu.ObjectLockingOff.Tip=Object Locking turned off
+OptMenu.ObjectLockingOn.Tip=Object Locking turned on
+OptMenu.ObjectLockingOnReadOnly.Tip=Object Locking turned on - Read Only
+OptMenu.XrefGenerationForFields.Tip=Generate Cross References for Fields
+OptMenu.XrefGenerationForCompiledFiles.Tip=Generate Cross References for Compiled Files
+OptMenu.XrefGenerationForCompiledFunctions.Tip=Generate Cross References for Compiled Functions
+OptMenu.XrefGenerationForCompiledComponents.Tip=Generate Cross References for Compiled Components
+OptMenu.XrefGenerationForSystemVariables.Tip=Generate Cross References for System Variables
+OptMenu.XrefGenerationForWamWebletXSL.Tip=Generate Cross References for WAM/Weblet XSL
+OptMenu.XrefGenerationForAll.Tip=Generate Cross References for All
+OptMenu.RebuildDefinitionsForBifs.Tip=Rebuild Definitions for Built In Functions
+OptMenu.FormattingOptions.Tip=Brings up a dialog for modifying the LANSA Editor options
+**
+VrfyMenu.DCheck.Tip=Checks the design of the screen or the report
+VrfyMenu.FCheck.Tip=Checks the code
+VrfyMenu.Build.Tip=Checks the code and generates code for the specifiedtarget platform 
+VrfyMenu.Compile.Tip=Checks the code, generates code for the specifiedtarget platform and compiles the object
+VrfyMenu.Debug.Tip=Executes the object in debug mode
+VrfyMenu.Execute.Tip=Executes the object
+VrfyMenu.InteractiveOn.Tip=Interactively runs the verification of the current LANSA object 
+VrfyMenu.InteractiveOff.Tip=Stops interactively running the verification of the current LANSA object 
+VrfyMenu.InteractiveNow.Tip=Immediately runs the verification of the current LANSA object 
+**
+ToolsMenu.Tool.Tip=Runs selected tool
+ToolsMenu.Configure.Tip=Brings up a dialog in which you can configure the tools you want to use with the editor
+ToolsMenu.WebAdministrator.Tip=Opens the Web Administrator
+**
+WndMenu.NextFn.Tip=Shows the next open object
+WndMenu.PrevFn.Tip=Shows the previous open object
+WndMenu.More.Tip=Shows a list of open objects
+**
+HelpMenu.Contents.Tip=Displays help table of contents
+HelpMenu.EditorOView.Tip=Shows an overview of the editor
+HelpMenu.ShortCuts.Tip=Shows keyboard shortcuts in the editor
+HelpMenu.Lansa.Tip=http:
+HelpMenu.ProductInfo.Tip=Shows the Product Information dialog
+**
+CompMenu.Cut.Tip=Cut this component
+CompMenu.Copy.Tip=Copy this component
+CompMenu.Popup.Tip=Add Popup Menu
+CompMenu.Delete.Tip=Delete this component
+CompMenu.EditPopup.Tip=Edit Popup Menu
+CompMenu.Event.Tip=Select this event
+CompMenu.DetachPopup.Tip=Detach Popup Menu
+CompMenu.ViewPopup.Tip=Add View Popup Menu
+CompMenu.EditViewPopup.Tip=Edit View Popup Menu
+CompMenu.DetachViewPopup.Tip=Detach View Popup Menu
+CompMenu.AddPage.Tip=Add page
+CompMenu.NextPage.Tip=Next page
+CompMenu.PreviousPage.Tip=Previous page
+CompMenu.CutComponent.Tip=Cut component, children and event routines
+CompMenu.CopyComponent.Tip=Copy component, children and event routines
+CompMenu.GotoDefinition.Tip=Goto the component definition
+CompMenu.BlockComment.Tip=Comment selected text
+CompMenu.BlockUnComment.Tip=Uncomment selected text
+CompMenu.SaveDefinition.Tip=Save the component definition as default
+CompMenu.SaveAsSharedDefinition.Tip=Save the component definition as a shared default
+CompMenu.SaveAsPartitionDefinition.Tip=Save the component definition as a partition default
+CompMenu.SaveAsSessionDefinition.Tip=Save the component definition as a session default
+CompMenu.SavedDefinitions.Tip=Shows Saved Definitions dialog (used to maintain saved definitions of repository objects)
+
+*************************************************************
+********         Status and Messages               **********
+*************************************************************
+Status.Ready=Ready
+Status.CompSaving=Saving Component
+Status.CompSaved=Component Saved
+Status.FunctionSaving=Saving Function
+Status.FunctionSaved=Function Saved
+Status.WebSaving=Saving Web
+Status.WebSaved=Web Saved
+Status.Opening=Opening &1 &2
+Status.Initializing=Initializing &1 &2
+Status.LoadTemplate=Selecting a Template
+Status.InjectingTemplate=Updating Component
+Status.InjectingActiveXAttr=Updating Component
+Status.LoadingFiles=Loading file list
+Status.LoadingFields=Loading field list
+Status.LoadingComponents=Loading component list
+Status.LoadingProcesses=Loading process list
+Status.LoadingFunctions=Loading function list
+Status.RefreshingFiles=Refreshing file list(s)
+Status.RefreshingFields=Refreshing field list(s)
+Status.RefreshingComp=Refreshing repository, &1 objects pending
+Status.RefreshingCompHitF5=Refreshing repository, &1 objects pending ( F5 to refresh repository )
+Status.RefreshingProcesses=Refreshing process list(s)
+Status.RefreshingRepository=Refreshing component repository
+
+Status.CollapsingLines=Collapsing Lines
+Status.ExpandingLines=Expanding Lines
+
+Status.CompBuilding=Running component build
+Status.CompBuild.Ok=Build of &1 successful. No errors or warnings reported
+Status.CompBuild.Fatals=Build of &1 reported &2 fatal errors and &3 warnings
+Status.CompBuild.Warnings=Build of &1 successful but &2 warnings reported
+
+Status.CompFullCheck=Running full component check
+Status.CompFullCheck.Ok=Full check of &1 successful. No errors or warnings reported
+Status.CompFullCheck.Fatals=Full check of &1 reported &2 fatal errors and &3 warnings
+Status.CompFullCheck.Warnings=Build of &1 successful but &2 warnings reported
+
+Status.FunctionBuilding=Running function build
+Status.FunctionBuild.Ok=Build of &1 successful. No errors or warnings reported
+Status.FunctionBuild.Fatals=Build of &1 reported &2 fatal errors and &3 warnings
+Status.FunctionBuild.Warnings=Build of &1 successful but &2 warnings reported
+
+Status.FunctionDesignCheck=Running design function check
+Status.FunctionDesignCheck.Ok=Design check of &1 successful. No errors or warnings reported
+Status.FunctionDesignCheck.Fatals=Design check of &1 reported &2 fatal errors and &3 warnings
+Status.FunctionDesignCheck.Warnings=Design check of &1 successful but &2 warnings reported
+
+Status.FunctionFullCheck=Running full function check
+Status.FunctionFullCheck.Ok=Full check of &1 successful. No errors or warnings reported
+Status.FunctionFullCheck.Fatals=Full check of &1 reported &2 fatal errors and &3 warnings
+Status.FunctionFullCheck.Warnings=Build of &1 successful but &2 warnings reported
+
+Status.MigrationApply=Apply migrated source code to open component
+Status.MigrationPrepare=Analyzing and reformatting existing lines of source code
+
+Status.Debug.CannotFindSource=Cannot find debug source ( Process = &1, Function = &2 )
+
+Message.Initializing=Initializing LANSA Editor. Please wait....
+Message.Loading=Loading &1 &2. Please wait....
+Message.CollapsedItems=&1 collapsed items - &2
+
+*************************************************************
+********         Letters                           **********
+*************************************************************
+Letter.A=A
+Letter.B=B
+Letter.C=C
+Letter.D=D
+Letter.E=E
+Letter.F=F
+Letter.G=G
+Letter.H=H
+Letter.I=I
+Letter.J=J
+Letter.K=K
+Letter.L=L
+Letter.M=M
+Letter.N=N
+Letter.O=O
+Letter.P=P
+Letter.Q=Q
+Letter.R=R
+Letter.S=S
+Letter.T=T
+Letter.U=U
+Letter.V=V
+Letter.W=W
+Letter.X=X
+Letter.Y=Y
+Letter.Z=Z
+Letter.Other=Other
+InvalidRepComponent=Component &1 of class &2 is not supported by component editor.
+InvalidRepComponent.Severity=2
+InvalidRepComponent.Id=7
+InvalidRepAncestor=Component class &1 must inherit from primitive class &2.
+InvalidRepAncestor.Severity=2
+InvalidRepAncestor.Id=8
+*************************************************************
+********         COMPONENT EDITOR DIALOGS          **********
+*************************************************************
+*
+Base.HorizontalCaption=Horizontal:
+Base.VerticalCaption=Vertical:
+Base.LookOnline=Look online...
+Base.BackToRepository=Back to Repository
+Base.OK=&OK
+Base.Apply=Apply
+Base.Cancel=&Cancel
+Base.Close=&Close
+Base.Remember=Remember
+Base.Reset=Reset
+Base.ResetAll=Reset All
+Base.ResetIDE=Reset Editor
+Base.Delete=Delete
+*
+Goto.OK=&Go To
+Goto.Cancel=&Cancel
+Goto.Close=&Close
+Goto.Title=Go To
+Goto.GotoButton.Caption.Hint=Go to current selection
+Goto.ViewButton.Caption.Hint=Change current view
+Goto.ViewMenuItem.Alphabetical=Alphabetical
+Goto.ViewMenuItem.SourceOrder=Source Order
+Goto.Stmt=Statement text
+Goto.Text=Go to line number :
+Goto.What=Categories
+Goto.Identifier=Identifier
+Goto.LineNumber=Enter line number:
+Goto.SelectLine=&Select line:
+Goto.Category.Tag=Tag
+Goto.Category.Line=Line
+Goto.Category.Warning=Warning
+Goto.Category.Error=Error
+Goto.Category.Routines=Routine  
+Goto.Category.Definitions=Definitions 
+Goto.Category.IOOperations=I/O Operations 
+Goto.Category.ListCommands=List Commands 
+Goto.Category.ListOperations=List Operations 
+Goto.Category.ReportCommands=Report Commands 
+Goto.Category.ReportOperations=Report Operations 
+Goto.Category.BuiltInFunctions=Built In Functions 
+Goto.Category.Function.Design=Function Design
+Goto.EmptyLine=<Empty Line>
+Goto.Category.Xsl.Warning=XSL Warning
+Goto.Category.Xsl.Error=XSL Error
+Goto.Category.Xsl.Information=XSL Information
+*
+Jump.Title=Jump to Tag
+*
+Assist.Title=Assistant
+*
+Assistant.CA.Title=Command Assistant
+Assistant.AC.Title=Auto Complete
+Assistant.Instrument.Commands=Commands
+Assistant.Instrument.FieldsByFile=Fields by File
+Assistant.Instrument.FieldDefinitions=Field Definitions
+Assistant.Instrument.RepositoryFields=Repository Fields
+Assistant.Instrument.Files=Files
+Assistant.Instrument.CmdParameters=Command Parameters
+Assistant.Instrument.ExprOperations=Operations
+Assistant.Instrument.Arrays=Arrays
+Assistant.Instrument.Groupings=Groups and Lists
+Assistant.Instrument.Functions=Functions
+Assistant.Instrument.Processes=Processes
+Assistant.Instrument.SystemVariables=System Variables
+Assistant.Instrument.MultilingualVariables=Multilingual Variables
+Assistant.Instrument.Bifs=Built-In Functions
+Assistant.Instrument.Conditions=Conditions
+Assistant.Instrument.Mnemonics=Special Values
+Assistant.Instrument.FieldAttributes=Field Attributes
+Assistant.Instrument.Selectors=Selectors
+Assistant.Instrument.Variables=Variables
+Assistant.Instrument.Expression=Expression
+Assistant.Instrument.Patterns=Classes
+Assistant.Instrument.WamServices=Wam Services
+Assistant.Instrument.Routines=Routines
+Assistant.Instrument.Parameters=Parameters
+Assistant.Instrument.Features=Features
+Assistant.Instrument.Styles=Styles
+Assistant.Instrument.Operators=Operators
+Assistant.Instrument.SpecialValues=Special Values
+Assistant.Instrument.EnumValues=Enum Values
+Assistant.Instrument.Namespaces=Namespaces
+Assistant.Instrument.Classes=Classes
+Assistant.Instrument.FieldsInFile=Fields in File
+Assistant.Instrument.Fields=Fields
+Assistant.Instrument.Forms=Forms
+Assistant.Instrument.ReusableParts=Reusable Parts
+Assistant.Instrument.BusinessObject=Business Object
+Assistant.Instrument.ActiveX=ActiveX
+Assistant.Instrument.Primitives=Primitives
+Assistant.Instrument.Icons=Icons
+Assistant.Instrument.Bitmaps=Bitmaps
+Assistant.Instrument.VisualStyles=Visual Styles
+Assistant.Instrument.DotNetProxys=.NET Components
+Assistant.Instrument.WebServiceProxys=Web Services
+Assistant.Instrument.BusinessObjects=Business Objects
+Assistant.Instrument.MessageFiles=Message Files
+Assistant.Instrument.LocalFields=Local Fields
+Assistant.Instrument.Lists=Lists
+Assistant.Instrument.Subroutines=Subroutines
+Assistant.Instrument.WebServices=Web Services
+Assistant.Instrument.WebRoutines=Webroutines
+Assistant.Instrument.Wams=Web Application Modules
+Assistant.Instrument.PropertyRoutines=Property Routines
+Assistant.Instrument.Components=Components
+Assistant.Instrument.AncestorFeature=Ancestor Features
+Assistant.Label.Component=Component
+Assistant.Label.Selector=Selector
+Assistant.Label.InQual=In
+Assistant.Label.Name=Name
+Assistant.Label.GroupedFields=Grouped Fields
+Assistant.Label.Description=Description
+Assistant.Label.NewQualification=New qualification
+Assistant.Label.ResultValueFilters=Result value filters
+Assistant.Label.FieldName=Field name
+Assistant.Label.FieldType=Field type
+Assistant.Label.FieldDescription=Field description
+Assistant.Label.RenamedField=Renamed field:
+Assistant.Label.FileName=File name
+Assistant.Label.LibraryName=Library name
+Assistant.Label.FileDescription=File description
+Assistant.Label.ResultingExpression=Resulting expression
+*
+Assistant.Cancel.Tip=Cancel
+Assistant.Enter.Tip=Enter
+Assistant.Apply.Tip=Apply Result in Command Line <Enter>
+*
+Language.Title=Text For Property &1
+*
+Color.Title=Color Settings  
+Color.Indent.1=Command at Indent Level #1
+Color.Indent.2=Command at Indent Level #2
+Color.Indent.3=Command at Indent Level #3
+Color.Indent.4=Command at Indent Level #4
+Color.Indent.5=Command at Indent Level #5
+Color.Indent.6=Command at Indent Level #6
+Color.Indent.7=Command at Indent Level #7
+Color.Comment=Comments Line 
+Color.LabelColour=Color of Labels
+Color.LineNo=Color of Line Numbers
+Color.Error=Color of Error Text
+Color.SampleTitle=Sample Text
+Color.SampleText=Sample Text
+Color.AppToAll=Apply To All
+Color.Help=Help
+Color.Warning=Color of Warning Text
+Color.AuditStamp=Color of Audit Stamps
+Color.Bookmark=Color of Bookmarks
+Color.Debug.Breakpoint=Breakpoint
+Color.Debug.ActiveStatement=Active Statement
+Color.Debug.CurrentStatement=Current Statement
+Color.Debug.IncludedStatement=Included Statement
+Color.ForeColor=Forecolor
+Color.BackColor=Backcolor
+Color.RestoreDefaults=Reset
+Color.Information=Information
+*
+Template.Title=Choose Template
+Template.OK=Execute
+Template.TemplateHelp=Template Help
+Template.Help=Help
+Template.DisplayAll=Display All
+Template.DisplayVL=Display VL
+*
+Help.Caption=Component Features
+Help.Events=Events
+Help.Methods=Methods
+Help.Properties=Properties
+Help.ParameterizedAs=Parameterized As &1
+Help.Page.Caption=Features
+HelpViewer.Page.Caption=Help Text
+*
+Align.NoChange1=&No Change
+Align.NoChange2=N&o Change
+Align.Left=&Left
+Align.Top=&Top   
+Align.Center1=&Center
+Align.Center2=C&enter
+Align.Right=&Right
+Align.Bottom=&Bottom
+Align.SpaceEqual1=&Space Equal
+Align.SpaceEqual2=S&pace Equal
+Align.SameWidth=Same &Width
+Align.SameHeight=Same &Height
+Align.LeftMargin=Left Margin
+Align.TopMargin=Top Margin  
+Align.RightMargin=Right Margin
+Align.BottomMargin=Bottom Margin
+*
+Size.Caption=Size Components          
+Align.Caption=Align Components          
+RepFind.Caption=Repository Find
+RepFind.Online.Caption=Online Resources
+Component.Caption=Choose Component
+*
+TypeLib.Caption=ActiveX Type Library Browser
+TypeLib.Error=ERROR loading Type Library.
+TypeLib.Version=version
+TypeLib.Locale=Locale Neutral
+TypeLib.CreatableComp=Createable components
+TypeLib.NonCreatableComp=Non-createable components
+*
+ActiveX.Caption=ActiveX Component Browser
+ActiveX.Controls=Controls
+ActiveX.OtherComp=Other Components
+*
+SelectLH.Caption=Layout Helper
+SelectLH.Children=Children
+SelectLH.Left=Left
+SelectLH.Right=Right
+SelectLH.Top=Top
+SelectLH.Bottom=Bottom
+SelectLH.Client=Client
+SelectLH.Margins=Margins
+SelectLH.AttachToLayout=Attached to Layout
+SelectLH.CreateNewLayout=Create New Layout
+SelectLH.None=None
+SelectLH.Attachment=Attachment
+SelectLH.AttachAll=Attach All
+SelectLH.DetachAll=Detach All
+SelectLH.Splitter=Splitter
+SelectLH.Grid=Grid
+SelectLH.LayoutTab=Layout
+SelectLH.PropertiesTab=Properties
+SelectLH.NameEditCaption=Component Name Edit
+SelectLH.Name=Control
+SelectLH.LayoutItemName=Layout Item
+SelectLH.Delete.Layout=Delete the active layout and all of its dependencies?
+SelectLH.Delete.LayoutTitle=Check Layout Delete
+SelectLH.Delete.LayoutBtnText=Delete
+SelectLH.CreateLayoutBtnText=Create
+SelectLH.General.Tab=General
+SelectLH.General.LayoutType=Type
+SelectLH.General.LayoutComposite=Layout Managed Component
+SelectLH.General.LayoutName=Layout
+SelectLH.General.Width=Width
+SelectLH.General.Height=Height
+SelectLH.General.Rows=Rows
+SelectLH.General.Columns=Columns
+SelectLH.General.Set=Set
+SelectLH.General.Clear=Clear
+SelectLH.General.ClearBoth=Clear Both
+SelectLH.General.CaptureBoth=Capture Both
+SelectLH.General.SetAll=All
+
+SelectLH.SplitDividerStyle.Bar=Bar
+SelectLH.SplitDividerStyle.Gap=Gap
+SelectLH.SplitDividerStyle.Line=Line
+SelectLH.SplitDividerStyle.Raised=Raised
+
+SelectLH.AttachOrder.Vertical=Vertical
+SelectLH.AttachOrder.Horizontal=Horizontal
+SelectLH.AttachOrder.DisplayPosition=Display Position
+
+SelectLH.Attach.Top=Top
+SelectLH.Attach.Left=Left
+SelectLH.Attach.Center=Center
+SelectLH.Attach.Bottom=Bottom
+SelectLH.Attach.Right=Right
+SelectLH.Attach.None=None
+
+SelectLH.Cmd.MoveUp.Tip=Move focus to parent component
+SelectLH.Cmd.CreateLayoutManager.Tip=Create layout manager
+SelectLH.Cmd.DestroyLayoutManager.Tip=Destroy layout manager
+SelectLH.Cmd.AttachToLM.Tip=Attach child to layout manager
+SelectLH.Cmd.DetachFromLM.Tip=Detach child from layout manager
+SelectLH.Cmd.AttachAllToLM.Tip=Attach all children to layout manager
+SelectLH.Cmd.DetachAllFromLM.Tip=Detach all children from layout manager
+
+SelectLH.Tab.AsChildDeatils=As Child Details
+SelectLH.Tab.ChildDeatils=Child Details 
+SelectLH.Tab.LayoutManagerDetails=Layout Manager Details
+
+SelectLH.Create.Table=Table
+SelectLH.Create.Grid=Grid
+SelectLH.Create.Attachment=Attachment
+SelectLH.Create.FlowDown=Flow Down
+SelectLH.Create.FlowAcross=Flow Across
+SelectLH.Create.SplitVertical=Split Vertically
+SelectLH.Create.SplitHorizontal=Split Horizontally
+
+SelectLH.Label.Category=Category
+
+SelectLH.Category.Weight=Weight
+SelectLH.Category.Margins=Margins
+SelectLH.Category.Minimum=Minimum
+SelectLH.Category.Maximum=Maximum
+SelectLH.Category.Attachment=Attachment
+SelectLH.Category.FlowMinimum=Flow Minimum
+SelectLH.Category.FlowMaximum=Flow Maximum
+SelectLH.Category.FlowRules=Flow Rules
+SelectLH.Category.FlowSpacing=Flow Spacing
+SelectLH.Category.FlowSizingRules=Flow Sizing Rules
+SelectLH.Category.GridRules=Grid Rules
+SelectLH.Category.GridPosition=Grid Position
+SelectLH.Category.GridItemSizingRules=Grid Item Sizing Rules
+SelectLH.Category.GridItemWeight=Grid Item Weights
+SelectLH.Category.SplitItemWeight=Split Item Weights
+SelectLH.Category.SplitDividerStyle=Divider Style
+SelectLH.Category.ProcessingOrder=Processing Order
+
+SelectLH.Attachment.Position=Position
+
+SelectLH.Flow.Spacing=Spacing
+SelectLH.Flow.Direction=Direction
+SelectLH.Flow.Operation=Operation
+SelectLH.Flow.Vertical=Vertical
+SelectLH.Flow.Horizontal=Horizontal
+SelectLH.Flow.ItemsPerDivision=Items per Division
+SelectLH.Flow.SpacingItems=Spacing Items
+
+SelectLH.Split.LayoutItems=Splitter Item
+SelectLH.Split.Style=Style
+SelectLH.Split.Orientation=Orientation
+SelectLH.Split.Detached=Detach
+SelectLH.Split.Sizeable=Sizeable
+SelectLH.Split.CreateWithPanel=Create with Panel
+SelectLH.Split.Create=Create Splitter Item
+SelectLH.Split.Delete=Delete Splitter Item
+SelectLH.Split.MakeActive=Make Active
+SelectLH.Split.ManageParent=Manage Parent
+SelectLH.Split.Parent=Parent
+
+SelectLH.Grid.RuleAlignment=Rule Alignment
+SelectLH.Grid.Rules.Alignment=Alignment
+SelectLH.Grid.Rules.Sizing=Sizing
+SelectLH.Grid.Position.Row=Row from Top
+SelectLH.Grid.Position.RowsSpan=Height in Rows
+SelectLH.Grid.Position.Column=Column from Left
+SelectLH.Grid.Position.ColumnsSpan=Width in Columns
+
+DefaultSize.DialogTitle=Saved Component Definitions
+DefaultSize.CollectionLabel=Saved definition collection:
+DefaultSize.TypesLabel=Component types:
+DefaultSize.SettingsLabel=Saved property setting:
+DefaultSize.SharedTab=Shared
+DefaultSize.PartitionTab=Partition
+DefaultSize.SessionTab=Session
+DefaultSize.SharedCaption=Shared saved definition collection
+DefaultSize.PartitionCaption=Partition saved definition collection
+DefaultSize.SessionCaption=Session saved definition collection
+DefaultSize.NameColumnCaption=Property Name
+DefaultSize.ValueColumnCaption=Value
+DefaultSize.SaveCollection.Tip=Save collection   
+DefaultSize.ResetCollection.Tip=Delete all definitions   
+DefaultSize.ReloadCollection.Tip=Reload definitions from file
+DefaultSize.DeleteTypeEntry.Tip=Delete type entry   
+DefaultSize.DeletePropertyEntry.Tip=Delete property entry   
+DefaultSize.Message.NoValue=Error loading line &1 of file &2. No value was specified.
+DefaultSize.Message.InvalidKey=Error loading line &1 of file &2. Invalid key was specified.
+DefaultSize.Message.InvalidLine=Error loading line &1 of file &2. Line is invalid.
+DefaultSize.Msg.ConfirmActionCaption=Confirmation   
+DefaultSize.Msg.ResetCollectionPrompt=Resetting the collection will delete all Saved Definitions. Do you wish to continue?   
+DefaultSize.Msg.ReloadCollectionPrompt=Reloading the collection will delete all your changes. Do you wish to continue?      
+*
+FieldDesign.Source=Source
+FieldDesign.TreeColumnCaption=Field Parts
+FieldDesign.VisualizationsCaption=Visualizations
+FieldDesign.PromptersCaption=Prompters
+FieldDesign.PicklistsCaption=Picklists
+FieldDesign.WebletsCaption=Weblet Templates
+*
+FieldCompMenu.InsertVisualizations=Add
+FieldCompMenu.InsertEvpEntryField=EntryField
+FieldCompMenu.InsertEvpPicklistChoice=Visual Picklist
+FieldCompMenu.InsertEvpStaticPicklist=Static
+FieldCompMenu.InsertEvpDynamicPicklist=Dynamic
+FieldCompMenu.InsertEvpProgress=Progress Bar
+FieldCompMenu.InsertEvpTrackBar=Track Bar
+FieldCompMenu.InsertEvpSpinEdit=SpinEdit
+FieldCompMenu.DefaultVisualization=Default Visualization
+FieldCompMenu.DefaultPrompter=Default Prompter
+FieldCompMenu.InsertPrompter=Prompter Form
+FieldCompMenu.DefaultPicklist=Default Picklist
+FieldCompMenu.InsertPicklist=Insert Picklist
+FieldCompMenu.InsertPicklistItem=Insert Picklist Item
+FieldCompMenu.DefaultPicklistItem=Default Picklist Item
+FieldCompMenu.InsertReusableChoice=Reusable Part
+FieldCompMenu.InsertReusablePart=Visual Part
+FieldCompMenu.InsertHostedPart=Visual Host
+FieldCompMenu.InsertWeblet=Weblet
+FieldCompMenu.InsertEvpDateTime=Date EntryField
+FieldCompMenu.InsertEvpMonthCalender=Calendar
+FieldCompMenu.InsertEvpMultiLineEntryField=Multi-line EntryField
+FieldCompMenu.MoveUpPicklist=Move Up
+FieldCompMenu.MoveDownPicklist=Move Down
+FieldCompMenu.InsertPrompter.Tip=Insert Prompter Form
+FieldCompMenu.InsertReusableChoice.Tip=Insert Reusable Part
+FieldCompMenu.InsertReusablePart.Tip=New Visual Part
+FieldCompMenu.InsertHostedPart.Tip=New Visual Host
+FieldCompMenu.InsertVisualizations.Tip=Add Visualizations
+FieldCompMenu.InsertEvpEntryField.Tip=EntryField
+FieldCompMenu.InsertEvpPicklistChoice.Tip=Picklist
+FieldCompMenu.InsertEvpStaticPicklist.Tip=New Static Picklist
+FieldCompMenu.InsertEvpDynamicPicklist.Tip=New Dynamic Picklist
+FieldCompMenu.InsertEvpProgress.Tip=Progress Bar
+FieldCompMenu.InsertEvpTrackBar.Tip=Track Bar
+FieldCompMenu.InsertEvpSpinEdit.Tip=SpinEdit
+FieldCompMenu.DefaultVisualization.Tip=Default Visualization
+FieldCompMenu.DefaultPrompter.Tip=Default Prompter
+FieldCompMenu.DefaultPicklist.Tip=Default Picklist
+FieldCompMenu.InsertPicklist.Tip=Insert Picklist
+FieldCompMenu.InsertPicklistItem.Tip=Insert Picklist Item
+FieldCompMenu.DefaultPicklistItem.Tip=Default Picklist Item
+FieldCompMenu.InsertWeblet.Tip=Insert Weblet Template
+FieldCompMenu.InsertEvpDateTime.Tip=Date EntryField
+FieldCompMenu.InsertEvpMonthCalender.Tip=Calendar
+FieldCompMenu.InsertEvpMultiLineEntryField.Tip=Multi-line EntryField
+FieldCompMenu.RunVisualizationWizard.Tip=Run Advanced Visualizations Wizard
+FieldCompMenu.MoveUpPicklist.Tip=Move Picklist Item Up
+FieldCompMenu.MoveDownPicklist.Tip=Move Picklist Item Down
+*
+PopupMenu.WhatsThis=What's This?
+PopupMenu.WhatsThis.Tip=What's This? A brief description of the selected object.
+*
+FieldPicklistTabSheet.CaptionColumnText=Caption
+FieldPicklistTabSheet.ValueColumnText=Value
+FieldPicklistTabSheet.DefaultColumnText=Default
+FieldPicklistTabSheet.ImageColumnText=Image
+FieldPicklistTabSheet.AddItemCaption=Add
+FieldPicklistTabSheet.RemoveItemCaption=Remove
+FieldPicklistTabSheet.ClearCaption=Clear
+*
+Include.Caption.Form=Include
+Include.Caption.Children=Children
+Include.Caption.Component=Component
+Include.Caption.IncludeComponents=Include Components
+Include.Caption.IncludeEvtRoutine=Include Event Routines
+
+*************************************************************
+********         COMPONENT EDITOR MESSAGE BOXES    **********
+*************************************************************
+MsgBox.ReadOnly=You may not modify this object.+
++
+The possible reason(s) for this restriction are :+
+-
+   · You are not authorized to update this object.+
+   -
+   · This object was not checked out from the central repository for update.+
+   -
+   · The object has been locked under some other development task.+
+   -
+   · The object is currently in use by another developer or development process.+
+-
+You may open this object only in read-only mode.+
+-
+Continue?
+
+MsgBox.ReadOnly.NotAuthorized=You are not authorized to update this object.+
+-
+You may open this object only in read-only mode.+
+-
+Continue?
+
+MsgBox.ReadOnly.NotCheckedOut=This object was not checked out from the central repository for update.+
+-
+You may open this object only in read-only mode.+
+-
+Continue?
+
+MsgBox.ReadOnly.LockedOtherTask=This object has been locked under some other development task.+
+-
+You may open this object only in read-only mode.+
+-
+Continue?
+
+MsgBox.ReadOnly.LockedOtherPc=This object has been locked to another PC Name.+
+-
+You may open this object only in read-only mode.+
+-
+Continue?
+
+MsgBox.ReadOnly.UsedByOther=The object is currently in use by another developer or development process.+
+-
+You may open this object only in read-only mode.+
+-
+Continue?
+
+MsgBox.ReadOnly.NoPermission=You don't have the privilege to edit objects of this type.+
+-
+You may open this object only in read-only mode.+
+-
+Continue?
+
+MsgBox.ReadOnly.VcsReadOnly=This object was not checked out from the VCS master for update.+
+-
+You may open this object only in read-only mode.+
+-
+Continue?
+
+MsgBox.ReadOnlyForSlave=You are working on a slave system and+
++
+therefore the object will be opened in read-only mode.+
+-
+Continue?
+
+MsgBox.ReadOnlyForPartition=You may not modify this object.+
++
+The possible reason(s) for this restriction are :+
+-
+   · You have a restricted license key installed.+
+   -
+   · You do not have a valid license key installed.+
+   -
+   · No security information exists for the Partition.+
+   -
+   · The Partition is locked under another task.+
+-
+You may open this object only in read-only mode.+
+-
+Continue?
+
+MsgBox.ReadOnly.Caption=Read Only warning on &1 (&2) 
+MsgBox.ReadOnly.CaptionForActiveRep=Read Only warning on &1
+MsgBox.SaveOnClose=Save Changes to &1?
+MsgBox.SaveOnClose.Caption=Save Changes
+MsgBox.SaveOnClose.Btn.Save=&Yes
+MsgBox.SaveOnClose.Btn.NoSave=&No
+MsgBox.SaveOnClose.Btn.SaveAll=Yes To &All
+MsgBox.SaveOnClose.Btn.NoSaveAll=No To A&ll
+MsgBox.SaveOnClose.Btn.Cancel=&Cancel
+
+MsgBox.AppError=LANSA Editor Error
+MsgBox.AppCaption=LANSA Editor 
+MsgBox.AppWarning=LANSA Editor Warning
+MsgBox.PtyError=Property Value Error
+MsgBox.InvalidName=&1 is not a valid LANSA name.
+MsgBox.InvalidRepKind=&1 cannot be used for property &2. 
+MsgBox.NameNotFound=Name &1 is not a defined component.
+
+MsgBox.SelfAncestor=The ancestor of component &1 cannot be &1.
+MsgBox.InvalidAncestor=Invalid Ancestor
+MsgBox.RecursiveAncestor=Component &1 cannot be the ancestor of &2 as &2 is a direct or indirect ancestor of &1."
+MsgBox.ExceedMaxOpen=The Editor can only allow 50 components to be opened. Please close some components before attempting to open more components.
+
+MsgBox.Caption.SaveAndExit=Save and Exit
+MsgBox.Caption.BuildCommand=Build command
+MsgBox.Caption.MigrateCommand=Enable for full RDMLX
+MsgBox.Caption.FullCheckCommand=Full check command
+
+MsgBox.SetTaskFail.Caption=Set Task Failed
+MsgBox.SetTaskFail.Msg=Please close all open components in editor.
+
+MsgBox.ComponentFailedValidation=Component &1 contains changes that are not valid and therefore cannot be saved. +
+   To continue this operation, component &1 must be closed and the changes discarded. Do you wish to continue?
+MsgBox.ComponentInvalidForSave=Component &1 contains changes that are not valid and therefore cannot be saved. +
+   This operation cannot continue.
+
+MsgBox.CannotMigrate=Component &1 does not support full RDMLX. Request to enable Full RDMLX cannot be satisified.
+MsgBox.MigrationNotAllowed=Component &1 cannot be enabled for full RDMLX. Ensure that the active partition is enabled for Full RDMLX and that component &1 is not already enabled for Full RDMLX.
+MsgBox.MigrationApplyQuotes=Component &1 has a total of &2 warning message(s) issued against &3 statement(s). These warnings are highlighting values that contain characters that may cause errors or incorrect results after Full RDMLX is enabled. Would you like LANSA to quote these values before enabling Full RDMLX?
+MsgBox.MigrationIgnoreErrors=Component &1 has a total of &2 error message(s) issued against &3 statement(s). These errors are stopping LANSA from fully evaluating the correctness before enabling Full RDMLX. Do you still wish to enable Full RDMLX?
+MsgBox.MigrationIgnoreWarnings=Component &1 has a total of &2 warning message(s) issued against &3 statement(s). These warnings are highlighting values that contain characters that may cause errors or incorrect results after Full RDMLX is enabled. Do you still wish to enable Full RDMLX?
+
+MsgBox.FormattingChange.Function=The new formatting options will cause the loss of all undo and redo buffers for function &1. Do you wish to continue? 
+MsgBox.FormattingChange.Component=The new formatting options will cause the loss of all undo and redo buffers for component &1. Do you wish to continue? 
+
+MsgBox.Tool.MethodNotFound=The Tool method &2 could not be found in plug-in component &1.
+MsgBox.Tool.MethodExecutionError=The execution of Tool method &2 in plug-in component &1 produced error &3.
+MsgBox.FastCmd.MethodNotFound=The Fast Command method &2 could not be found in plug-in component &1.
+MsgBox.FastCmd.MethodExecutionError=The execution of Fast Command method &2 in plug-in component &1 produced error &3.
+
+MsgBox.RestartRequired=This will force Visual LANSA to be restarted.  Any modifications since the last save may be lost.
+MsgBox.RestartRequiredTitle=Visual LANSA restart required
+MsgBox.RestartRequiredForEffect=The Rebuild Definitions request has been queued. The rebuild will be performed next time you restart LANSA.
+MsgBox.RestartRequiredForSysInfo=Changes will not take effect until next time you start Visual LANSA.
+MsgBox.RestartRequiredForEffectTitle=Restart Required
+MsgBox.LanguageChanged=The selected language will be valid when you log on next time.
+MsgBox.LanguageChangedTitle=Language Changed
+
+MsgBox.RepObjectInvalidForSave=&1 contains errors and cannot be saved in this state
+MsgBox.Caption.RepObjectInvalidForSave=Save &1
+
+*************************************************************
+*** SPEED BUTTON HINTS                                  *****
+*************************************************************
+Btn.OpenRoutine.Hint=Open Webroutine
+Btn.Close.Hint=Close
+Btn.Save.Hint=Save (Ctrl+S)
+Btn.SaveAll.Hint=Save All
+Btn.Print.Hint=Print (Ctrl+P)
+Btn.Cut.Hint=Cut (Ctrl+X)
+Btn.Copy.Hint=Copy (Ctrl+C)
+Btn.Paste.Hint=Paste (Ctrl+V)
+Btn.Insert.Hint=Insert new command (Ins)
+Btn.ShowGeneralHelp.Hint=General Help (F1)
+Btn.ShowFeatureHelp.Hint=Component Feature Help (F2)
+Btn.Template.Hint=Use Template Wizard
+Btn.ShowMsg.Hint=Show Messages (Ctrl+M)
+Btn.FullCheck.Hint=Full Check (Alt+U)
+Btn.Build.Hint=Build (Alt+B)
+Btn.Help.Hint=Help Contents
+Btn.NextFn.Hint=Next Component (Ctrl+F6)
+Btn.PrevFn.Hint=Previous Component (Ctrl+Shift+F6)
+Btn.Compile.Hint=Compile (Ctrl+Shift+C)
+Btn.Debug.Hint=Debug (Ctrl+Shift+D)
+Btn.Preview.Hint=Preview
+Btn.Execute.Hint=Execute (Ctrl+Shift+E)
+Btn.Left.Hint=Left
+Btn.Right.Hint=Right
+Btn.ActiveXHelp.Hint=ActiveX Help
+Btn.Find.Hint=Find (Ctrl+F)
+Btn.FindNext.Hint=Find Next (F3)
+Btn.FindPrev.Hint=Find Previous (Shift+F3)
+Btn.Undo.Hint=Undo (Ctrl+Z)
+Btn.Redo.Hint=Redo (Ctrl+Y)
+Btn.ViewState.Hint=Switch between available views
+Btn.AlphaSwitch.Hint=View As Sorted List
+Btn.CategorySwitch.Hint=View As Categorized List
+Btn.FeatureHelp.Hint=View Feature Help For Selected Item
+
+*************************************************************
+*** OTHER TOOLBAR CAPTIONS                              *****
+*************************************************************
+Tb.FindCombo.Hint=Find Text
+Tb.ExecuteHistory.Hint=Execution History
+Tb.ExecuteHistoryReset.Hint=Reset Execution History
+Tb.ExecuteHistoryReset=Reset
+
+*************************************************************
+*** ICON IMAGE CAPTIONS                                 *****
+*************************************************************
+Icon.SmallState=Small State Icon
+Icon.LargeState=Large State Icon
+Icon.Small=Small Icon
+Icon.Normal=Large Icon
+
+*************************************************************
+*** BITMAP IMAGE CAPTIONS                               *****
+*************************************************************
+Bitmap.Up=Up
+Bitmap.Disabled=Disabled
+Bitmap.Down=Down
+Bitmap.Checked=Checked
+Bitmap.ToolbarLoadFromFile.Hint=Load from File
+Bitmap.ToolbarExportToFile.Hint=Export to File
+Bitmap.TreeItem=Item
+Bitmap.TreeItemDesc=Description
+Bitmap.Image.Unknown=Unknown
+Bitmap.ImageDesc=Description
+Bitmap.ImageWidth=Width
+Bitmap.ImageHeight=Height
+Bitmap.ImageBpp=Bits per Pixel
+Bitmap.ImageType=Image Type
+Bitmap.ImageType.Bmp=BMP
+Bitmap.ImageType.Png=PNG
+Bitmap.ImageType.Jpg=JPG
+Bitmap.ImageType.Gif=GIF
+Bitmap.ImageComprType=Compression Type
+Bitmap.ImageComprType.BmpRgb=RGB
+Bitmap.ImageComprType.BmpRle4=RLE4
+Bitmap.ImageComprType.BmpRle8=RLE8
+Bitmap.ImageComprType.BmpBF=Bitfields
+Bitmap.ImageComprType.Gif87a=GIF87a
+Bitmap.ImageComprType.Gif89a=GIF89a
+Bitmap.ImageComprType.Jpeg=JPEG
+Bitmap.ImageComprType.PngDeflate8=Deflate8
+
+*************************************************************
+*** VISUAL STYLE PANEL                                  *****
+*************************************************************
+Vs.LabelCaption=Sample Label
+Vs.CheckBoxCaption=Sample CheckBox
+Vs.TrackBarCaption=Sample TrackBar
+Vs.PushButtonCaption=Sample PushButton
+Vs.RadioButtonCaption=Sample RadioButton
+Vs.Column1.Caption=Standard
+Vs.Column2.Caption=Error
+Vs.Item1Column1.Caption=AaBbCcDdEe-012345
+Vs.Item1Column2.Caption=Error-1
+Vs.Item2Column1.Caption=AaBbCcDdEe-012345
+Vs.Item2Column2.Caption=Error-2
+Vs.Item3Column1.Caption=AaBbCcDdEe-012345
+Vs.Item3Column2.Caption=Error-3
+
+*************************************************************
+*** FEATURE BROWSER                                     *****
+*************************************************************
+ClassCombo.Label=Classes:
+
+*************************************************************
+*** COM PROMPTER                                        *****
+*************************************************************
+ComPrompter.NeedSelectMsg=Please select a COM component or click Cancel
+ComPrompter.CatManCreateError=Unable to create Component Categories Manager
+ComPrompter.CatManEnumError=Unable to enumerate Component Categories
+ComPrompter.CatManNoCatsError=No Component Categries available
+ComPrompter.TlbSelectLCID=Please select one of the locale ids under the Type Library item
+
+*************************************************************
+*** REPOSITORY BROWSER                                  *****
+*************************************************************
+RepBrowser.Caption=Repository Browser
+RepBrowser.CategoryLabel=Categories
+RepBrowser.CandidateLabel=Candidates
+RepBrowser.Delete.Name.Column.Caption=Name
+RepBrowser.Delete.Desc.Column.Caption=Description
+
+RepBrowser.LastOpenedListName=Last Opened
+RepBrowser.CommonControlsListName=Common Controls
+RepBrowser.BuildState.NotKnown=Not Known
+RepBrowser.BuildState.LastBuildOrCompileFailed=Build or Compile failed
+RepBrowser.BuildState.CompileRequired=Compile required
+RepBrowser.BuildState.BuildAndCompileRequired=Build and Compile required
+RepBrowser.BuildState.NeverBuilt=Never built
+RepBrowser.BuildState.Compiled=Compiled
+RepBrowser.BuildState.Shipped=Shipped
+
+*************************************************************
+*** COMMAND VIEW                                        *****
+*************************************************************
+CmdView.InsertLine.Tip=Insert Command (Ctrl+Shift+Ins)
+CmdView.DeleteLine.Tip=Delete Current Line (Ctrl+Shift+Del)
+CmdView.NextLine.Tip=Next Line (Ctrl+Down Arrow)
+CmdView.PreviousLine.Tip=Previous Line (Ctrl+Up Arrow)
+
+CmdView.ExpandItem.Tip=Expand Item (Ctrl+Plus)
+CmdView.CollapseItem.Tip=Collapse Item (Ctrl+Minus)
+CmdView.InsertItem.Tip=Insert Item (Ctrl+Ins)
+CmdView.DeleteItem.Tip=Delete Item (Ctrl+Del)
+CmdView.PromptItem.Tip=Prompt Item (F4)
+CmdView.MoveItemUp.Tip=Move Item Up (Ctrl+Shift+Up Arrow)
+CmdView.MoveItemDown.Tip=Move Item Down (Ctrl+Shift+Down Arrow)
+
+*************************************************************
+*** FORM MESSAGES                                       *****
+*************************************************************
+Form.Targets.WPFNotValid=Target(*WPF) does not exist for component &1
+Form.Targets.SilverlightNotValid=Target(*SILVERLIGHT) does not exist for component &1
+Form.Targets.ContainsErrors=&1 contains errors and cannot be executed
+
+*************************************************************
+*** FORMATTING OPTIONS DIALOG                           *****
+*************************************************************
+FormatOptions.Caption=LANSA Settings
+FormatOptions.FunctionLabel=Functions
+FormatOptions.ComponentLabel=Components
+FormatOptions.CommandLabel=Commands
+FormatOptions.KeywordLabel=Keywords
+FormatOptions.SelectorLabel=Selectors
+FormatOptions.LowerCaseLabel=Lowercase
+FormatOptions.UpperCaseLabel=Uppercase
+FormatOptions.FirstUpperLabel=Proper case
+FormatOptions.VariableLabel=Variables
+FormatOptions.AsDefinedLabel=As defined
+FormatOptions.IgnoreLabel=Ignore
+FormatOptions.ReformatStatements=Automatically reformat statements
+FormatOptions.Page.General.Caption=General
+FormatOptions.Page.Editor.Caption=Editor
+FormatOptions.Page.Formatting.Caption=Formatting
+FormatOptions.Reset.Text=Reset will restore all default LANSA settings. Are you sure you wish to restore all default settings
+FormatOptions.Reset.Title=Reset LANSA Settings
+FormatOptions.Page.Function.Caption=Function Formatting
+FormatOptions.Page.Component.Caption=Component Formatting
+FormatOptions.Item.General.Caption=General
+FormatOptions.Item.Source.Caption=Source
+FormatOptions.Item.Xsl.Caption=WAM
+FormatOptions.Item.Debug.Caption=Debug
+FormatOptions.Item.Compile.Caption=Compile
+FormatOptions.Item.Style.Caption=Style
+FormatOptions.Item.Theme.Caption=Theme
+FormatOptions.Item.Designer.Caption=Design
+FormatOptions.Item.AssistantTab.Caption=Assistant
+FormatOptions.Item.Definitions.Caption=Definitions
+FormatOptions.Item.Details.Caption=Details
+FormatOptions.Item.Goto.Caption=Goto
+FormatOptions.Item.Outline.Caption=Outline
+FormatOptions.Item.ShowInternalFiles=Show Internal Files
+FormatOptions.Item.ShowReadOnlyMsg=Show ReadOnly Message
+FormatOptions.Item.UseIdentifierAsDisplayName=Show Short Names
+FormatOptions.Item.InteractiveVerification=Use Interactive Verification
+FormatOptions.Item.ObjectLocking=Object Locking
+FormatOptions.Item.ObjectLocking.On=On
+FormatOptions.Item.ObjectLocking.Off=Off
+FormatOptions.Item.ObjectLocking.ReadOnly=On (ReadOnly)
+FormatOptions.Item.AutoRefresh=Auto Refresh
+FormatOptions.Item.AutoCloseEventLog=Auto-Close Event Logger
+FormatOptions.Item.CancelChangesMsg=Cancel Changes Message
+FormatOptions.Item.PersistMasterState=Save Master Information
+FormatOptions.Item.Indent=Indentation
+FormatOptions.Item.IndentLines=Indentation Lines
+FormatOptions.Item.Line=Line Numbers
+FormatOptions.Item.AuditStamp=Audit Stamps
+FormatOptions.Item.AuditStampAll=All
+FormatOptions.Item.AuditStampName=Name
+FormatOptions.Item.AuditStampNone=None
+FormatOptions.Item.AuditStampDate=Date
+FormatOptions.Item.AuditStampTaskId=Task Id
+FormatOptions.Item.ShowDefineComs=Component Definitions
+FormatOptions.Item.ShowLayoutItems=Layout Items
+FormatOptions.Item.ShowDesignData=Design Data
+FormatOptions.Item.Snap=Snap to Grid
+FormatOptions.Item.ShowGrid=Show Grid
+FormatOptions.Item.ShowInfo=Show Details
+FormatOptions.Item.ShowHint=Show Hint
+FormatOptions.Item.ShowKeySequence=Show In Key Sequence
+FormatOptions.Item.AutoDisplayMessage=Auto Display Messages
+FormatOptions.Item.AutoExpandParameters=Auto Expand Parameters
+FormatOptions.Item.AutoCompleteSource=Auto Complete
+FormatOptions.Item.AutoCompleteOn=On
+FormatOptions.Item.AutoCompleteOff=Off
+FormatOptions.Item.AutoCompleteInline=Inline
+FormatOptions.Item.AutoCompletePrompter=Prompter
+FormatOptions.Item.AutoCompleteShortcut=Shortcut
+FormatOptions.Item.AutoCompleteShortcut.CtrlJ=Ctrl+J
+FormatOptions.Item.AutoCompleteShortcut.CtrlSpace=Ctrl+Space
+FormatOptions.Item.FormatStatements=Format Statements
+FormatOptions.Item.WordWrapSource=Word Wrap
+FormatOptions.Item.WordWrap=Word Wrap
+FormatOptions.Item.WordWrapNone=None
+FormatOptions.Item.WordWrapSimple=Simple
+FormatOptions.Item.WordWrapSmart=Smart
+FormatOptions.Item.WordWrapAllParams=Expand All
+FormatOptions.Item.Feature.Show=Features
+FormatOptions.Item.Feature.ShowSpecific=Show Specific Features
+FormatOptions.Item.Feature.ShowAdvanced=Show Advanced Features
+FormatOptions.Item.Feature.ShowEssential=Show Essential Features
+FormatOptions.Item.Goto.AutoExpandErrors=Auto Expand Goto Errors
+FormatOptions.Item.FunctionDesign.AutoAssignLayout=Auto assign line and position when required
+FormatOptions.Item.Design.Components=Components
+FormatOptions.Item.Design.Function=Functions
+FormatOptions.Item.Themes.Caption=Themes
+FormatOptions.Item.Themes.Classic.Caption=LANSA Classic
+FormatOptions.Item.Themes.Shell.Caption=LANSA Shell
+FormatOptions.Item.Themes.2007Blue.Caption=2007 - Blue
+FormatOptions.Item.Themes.2007Silver.Caption=2007 - Silver
+FormatOptions.Item.Themes.2007Olive.Caption=2007 - Olive
+FormatOptions.Item.Themes.2007Graphite.Caption=2007 - Graphite
+FormatOptions.Item.Themes.2003Blue.Caption=2003 - Blue
+FormatOptions.Item.Themes.2003Silver.Caption=2003 - Silver
+FormatOptions.Item.Themes.2003Olive.Caption=2003 - Olive
+FormatOptions.Item.Themes.2003Colorizer.Caption=2003 - Colorizer
+FormatOptions.Item.Themes.2003Color.Pumpkin.Caption=Pumpkin
+FormatOptions.Item.Themes.2003Color.Rose.Caption=Rose
+FormatOptions.Item.Themes.2003Color.EggPlant.Caption=EggPlant
+FormatOptions.Item.Themes.2003Color.RainyDay.Caption=RainyDay
+FormatOptions.Item.Themes.2003Color.Spruce.Caption=Spruce
+FormatOptions.Item.Themes.2003Color.Lilac.Caption=Lilac
+FormatOptions.Item.Debug.GroupBox.Caption=Debugger Location
+FormatOptions.Item.Debug.GroupBox.Service.Caption=Debug Service
+FormatOptions.Item.Debug.StartService.Caption=Start debug service with LANSA Editor
+FormatOptions.Item.Debug.PortNumber.Caption=Port
+FormatOptions.Item.Debug.Message.Started.Caption=Debug service is started and running with port &1
+FormatOptions.Item.Debug.Message.Stopped.Caption=Debug service is stopped
+FormatOptions.Item.Debug.Message.Error1.Caption=Debug service is stopped. Port &1 may be in use by another LANSA Editor
+FormatOptions.Item.Debug.Restart.Caption=Restart service
+FormatOptions.Item.Debug.DebugHost.Caption=Computer Name
+FormatOptions.Item.Debug.BreakAtFirst.Caption=Break at first executable statement
+FormatOptions.Item.Versioning.GroupBox.Caption=DLL Version Information
+FormatOptions.Item.Versioning.Comment.Caption=Comment
+FormatOptions.Item.Versioning.Copyright.Caption=Copyright
+FormatOptions.Item.Versioning.Trademark.Caption=Trade Mark
+FormatOptions.Item.Versioning.FileVersion.Caption=File Version
+FormatOptions.Item.Versioning.ProductName.Caption=Product Name
+FormatOptions.Item.Versioning.ProductVersion.Caption=Product Version
+
+FormatOptions.Xsl.General.Caption=General
+FormatOptions.Xsl.Design.Caption=Design
+FormatOptions.Xsl.General.BaseUrl.Caption=Base URL
+FormatOptions.Xsl.General.ListRows.Caption=Number of sample list rows
+FormatOptions.Xsl.General.XslVersions.Caption=Number of web design versions
+FormatOptions.Xsl.General.ReadOnlyEditing.Caption=Allow read-only editing
+FormatOptions.Xsl.General.WebletsReadOnly.Caption=Always open Weblets in read-only mode
+FormatOptions.Xsl.General.RuntimOutput.Caption=Use runtime output in Preview pane
+FormatOptions.Xsl.General.ReuseBrowser.Caption=Reuse browser when run in a Web Browser
+FormatOptions.Xsl.General.Publishing.Caption=Publishing
+FormatOptions.Xsl.General.Publishing.Output.Caption=Output folder
+FormatOptions.Xsl.General.Publishing.Configuration.Caption=Configuration folder
+FormatOptions.Xsl.General.Publishing.ApplicationURL.Caption=Application Base URL
+FormatOptions.Xsl.General.Publishing.WebServices.Caption=Web Services Base URL
+FormatOptions.Xsl.Design.TemporaryCache.Caption=Temporary cache folder
+FormatOptions.Xsl.Design.StyleSheetLocation.Caption=Location of extension stylesheets
+FormatOptions.Xsl.Design.TemporaryCache.Message=NOTE: If you modify "Temporary cache folder" option, you need to shutdown and restart the Editor
+FormatOptions.Xsl.Design.ImagesDirectory.Caption=Images virtual directory
+FormatOptions.Xsl.Design.MappedImagesFolder.Caption=Mapped images folder
+FormatOptions.Xsl.Design.DetailsView.Caption=Details View
+FormatOptions.Xsl.Design.AutoArrangeGridColumns.Caption=Auto arrange property grid columns
+FormatOptions.Xsl.Design.ShowAllDesignerButtons.Caption=Show all property designer buttons
+FormatOptions.Xsl.Design.DesignerButtonTracking.Caption=Activate property designer button tracking
+FormatOptions.Xsl.Design.AutoSyncPicklists.Caption=Auto synchronize picklists for visualized fields
+FormatOptions.Xsl.General.WebSettings.Caption=Web Settings
+FormatOptions.Xsl.General.Options.Caption=Options
+FormatOptions.Xsl.General.Debugging.Caption=Debugging
+FormatOptions.Xsl.General.WebServices.Caption=Web Services
+FormatOptions.Xsl.General.UrlTest.Caption=Test
+FormatOptions.Xsl.General.Publishing.Output.FolderBrowse.Caption=Choose Web Services output folder
+FormatOptions.Xsl.General.Publishing.Configuration.FolderBrowse.Caption=Choose configuration output folder
+FormatOptions.Xsl.Design.TemporaryCache.FolderBrowse.Caption=Choose temporary cache folder
+FormatOptions.Xsl.Design.StyleSheetLocation.FolderBrowse.Caption=Choose location of extension stylesheets
+FormatOptions.Xsl.Design.MappedImagesFolder.FolderBrowse.Caption=Choose mapped images folder
+FormatOptions.Xsl.OpenWebViews.Caption=Open Web Views when opening designs
+FormatOptions.Xsl.ShowInlineWeblets.Caption=Show inline Weblets
+FormatOptions.Xsl.ShowDeprecatedWeblets.Caption=Show deprecated Weblets
+FormatOptions.Xsl.ShowWebletXML.Caption=Show Weblet XML
+FormatOptions.Xsl.DeleteOrphans.Caption=Delete Orphan Webroutine Designs when closing Web Application Modules
+FormatOptions.Xsl.SaveWebSampleData.Caption=Save Webroutine Field and List sample data
+FormatOptions.Xsl.SaveWebSampleData.MsgBox=Saving Webroutine Field and List sample data can affect performance when opening Web Page designs. Do you wish to continue? 
+FormatOptions.Xsl.AllowInlineXPathEntry.Caption=Allow property sheet in-place XPath entry
+FormatOptions.Xsl.AllowInlineXPathEntry.MsgBox=In-place XPath entry requires an indepth understanding of XPath and can result in errors and unexpected behaviour if you are not experienced in XPath expressions. Do you wish to continue? 
+
+FormatOptions.Style.Font.Label=Font:
+FormatOptions.Style.Font.Description=&1pt &2
+FormatOptions.Style.Font.Button.Caption=Change Font
+
+FormatOptions.Style.Colors=Colors:
+FormatOptions.Style.TextColor=Text Color
+FormatOptions.Style.BackgroundColor=Background Color
+FormatOptions.Style.SampleText=Sample Text
+
+*************************************************************
+*** OBJECT LIST DIALOG                                  *****
+*************************************************************
+ObjectList.Caption.RuleDetails=Rule details
+ObjectList.Caption.SearchDetails=Search details
+ObjectList.Caption.NewGrouping=New Grouping
+ObjectList.Caption.ImpactRule=Details about impacted object
+ObjectList.Caption.GroupingRule=Grouping details
+ObjectList.Caption.RuledObjectList=Dynamic list details
+ObjectList.Caption.ImpactObjectList=Static list details
+
+ObjectList.Caption.FileType=File
+ObjectList.Caption.FieldType=Field/Component
+ObjectList.Caption.ProcessType=Process
+ObjectList.Caption.FunctionType=Function
+ObjectList.Caption.MtxtVariableType=Multilingual variable
+ObjectList.Caption.SystemVariableType=System variable
+ObjectList.Caption.Unknown=Unknown
+ObjectList.Caption.NotDefined=Not defined
+ObjectList.Caption.LookFor=Look For:&1
+
+ObjectList.Caption.Rule=Rule
+ObjectList.Caption.NameRule=Name rule: &1
+ObjectList.Caption.LetterRule=Letter rule: &1
+ObjectList.Caption.NameMaskRule=Name mask rule: &1
+ObjectList.Caption.NameRangeRule=Name range rule: from &1 to &2
+ObjectList.Caption.SearchRule=Look for: &1
+
+ObjectList.Tip.Delete=Delete from list
+ObjectList.Tip.MoveUp=Move Up
+ObjectList.Tip.MoveDown=Move Down
+ObjectList.Tip.NewRule=New Rule
+ObjectList.Tip.NewSearchRule=New Search 
+ObjectList.Tip.SortByName=Sort by name
+ObjectList.Tip.NewGrouping=New Grouping
+ObjectList.Tip.RunImpactAnalysis=Run impact analysis
+
+ObjectList.Label.Kind=Kind:
+ObjectList.Label.Name=Name:
+ObjectList.Label.Letter=Letter:
+ObjectList.Label.ToName=To name:
+ObjectList.Label.FromName=From name:
+ObjectList.Label.NameMask=Name mask:
+ObjectList.Label.Description=Description:
+ObjectList.Label.ObjectName=Object name:
+ObjectList.Label.ObjectType=Object type:
+ObjectList.Label.ObjectQualifier=Object qualifier:
+
+ObjectList.Label.ByName=By Name
+ObjectList.Label.ByLetter=By Letter
+ObjectList.Label.LikeName=Like Name
+ObjectList.Label.NameRange=Name Range
+
+ObjectList.Label.BackwardCompatibility=Supported for backward compatibility. Cannot be modified.
+
+ObjectList.MsgBox.Caption=Invalid Object List
+ObjectList.MsgBox.ObjectListDescriptionRequired=List name must be specified.
+ObjectList.MsgBox.GroupingDescriptionRequired=All grouping names must be specified.
+
+*************************************************************
+*** LANSA EXPLORER                                      *****
+*************************************************************
+RepBrowser.FormCaption=LANSA Explorer
+RepBrowser.LansaCaption=LANSA
+RepBrowser.EditorCaption=Editor                           
+RepBrowser.RepositoryCaption=Repository
+RepBrowser.FileCaption=Files
+RepBrowser.TourCaption=Tours
+RepBrowser.FormsCaption=Forms                            
+RepBrowser.IconsCaption=Icons                            
+RepBrowser.GroupCaption=Groups                            
+RepBrowser.FieldsCaption=Fields                           
+RepBrowser.WizardCaption=Wizards
+RepBrowser.BitmapsCaption=Bitmaps                          
+RepBrowser.CursorsCaption=Cursors
+RepBrowser.ProcessCaption=Processes
+RepBrowser.CommandCaption=Commands                          
+RepBrowser.ConstantsCaption=System Constants and Identifiers
+RepBrowser.FrameworkCaption=Frameworks                        
+RepBrowser.VisualStylesCaption=Visual Styles                    
+RepBrowser.ReusablePartsCaption=Reusable Parts                   
+RepBrowser.BusinessObjectsCaption=Business Objects                   
+RepBrowser.SystemVariableCaption=System Variables                  
+RepBrowser.BuiltInFunctionsCaption=Built-In Functions
+RepBrowser.OpenComponentsCaption=Open Components                  
+RepBrowser.MultilingualVariableCaption=Multilingual Variables            
+RepBrowser.ComponentNamesCaption=Component Names                  
+RepBrowser.FieldAttributesCaption=Field Attributes                 
+RepBrowser.ExpressionOperatorsCaption=Expression/Condition operators
+RepBrowser.VlTemplatesCaption=Visual LANSA Templates
+RepBrowser.AllTemplatesCaption=All Templates
+RepBrowser.RuledObjectListCaption=Dynamic Lists
+RepBrowser.ImpactObjectListCaption=Static Lists
+RepBrowser.DotNetProxysCaption=.NET Components
+RepBrowser.WebServiceProxysCaption=Web Services
+
+RepBrowser.CmdGroup.AllCommands=All Commands                     
+RepBrowser.CmdGroup.List=Lists                             
+RepBrowser.CmdGroup.Reports=Reports                          
+RepBrowser.CmdGroup.Database=Database                         
+RepBrowser.CmdGroup.External=External                         
+RepBrowser.CmdGroup.Assignment=Assignment                       
+RepBrowser.CmdGroup.Components=Components                       
+RepBrowser.CmdGroup.Definition=Definition                       
+RepBrowser.CmdGroup.Validation=Validation and Messages          
+RepBrowser.CmdGroup.Workstation=Workstation                      
+RepBrowser.CmdGroup.ControlFlow=Control Flow
+
+RepBrowser.StmtType.Lists=Lists                            
+RepBrowser.StmtType.Arrays=Arrays                          
+RepBrowser.StmtType.Groups=Groups                           
+RepBrowser.StmtType.Fields=Fields                           
+RepBrowser.StmtType.Routines=Routines                         
+RepBrowser.StmtType.Reports=Reports                          
+RepBrowser.StmtType.Conditions=Conditions                       
+
+RepBrowser.MenuItem.Edit=Edit
+RepBrowser.MenuItem.Open=Open
+RepBrowser.MenuItem.Apply=Apply Identifier
+RepBrowser.MenuItem.Delete=Delete
+RepBrowser.MenuItem.DrillDown=Drill Down
+RepBrowser.MenuItem.NewObjectList=New...
+RepBrowser.MenuItem.RefreshContents=Refresh Contents
+RepBrowser.MenuItem.RefreshDefinition=Refresh Definition(s)
+RepBrowser.MenuItem.RunImpactAnalysis=Run Impact Analysis...
+RepBrowser.MenuItem.CreateRuledObjectList=Create Dynamic List...
+RepBrowser.MenuItem.CreateImpactObjectList=Create Static List...
+
+RepBrowser.MenuItem.NewComp=New
+RepBrowser.MenuItem.DelFromRep=Delete from Repository
+RepBrowser.MenuItem.DelFromList=Delete from List
+RepBrowser.MenuItem.RemoveFromStaticList=Remove from &1
+RepBrowser.MenuItem.FullCheck=Full Check
+RepBrowser.MenuItem.Build=Build
+RepBrowser.MenuItem.Compile=Compile
+RepBrowser.MenuItem.Execute=Execute
+RepBrowser.MenuItem.Debug=Debug
+RepBrowser.MenuItem.Find=Find
+RepBrowser.MenuItem.IsFavorite=Is Favorite
+RepBrowser.MenuItem.AlphaGrouping=Alphabetical Grouping
+RepBrowser.MenuItem.WebletGrouping=Weblet Groups
+RepBrowser.MenuItem.ExternalResourceGrouping=Group by Location
+RepBrowser.MenuItem.SetCurrentTask=Set Current Task
+RepBrowser.MenuItem.ListContentOne=&1: 1 Object
+RepBrowser.MenuItem.ListContentMany=&1: &2 Objects
+RepBrowser.MenuItem.ExtractExternalResource=Extract
+RepBrowser.MenuItem.VersionControl=Version Control
+RepBrowser.MenuItem.VcsRefreshFolder=Refresh
+RepBrowser.MenuItem.VcsGetLatestVersion=Get Latest Version
+RepBrowser.MenuItem.VcsExploreFolder=Show In Windows Explorer
+RepBrowser.MenuItem.VcsWriteToWorkingFolder=Save To Working Folder
+RepBrowser.MenuItem.VcsPopulateWorkingFolder=Populate Working Folder
+RepBrowser.MenuItem.DeletePartition=Delete Partition
+
+RepBrowser.Open.Tip=Open component
+RepBrowser.View.Tip=Change current view
+RepBrowser.DrillDown.Tip=Drill down (Enter)
+RepBrowser.ApplyIdentifier.Tip=Apply identifier (Ctrl+Enter)
+RepBrowser.RefreshContents.Tip=Refresh contents
+RepBrowser.RefreshDefinition.Tip=Refresh definitions(s)
+RepBrowser.ClearList.Tip=Clear current list
+RepBrowser.SaveResults.Tip=Save results
+RepBrowser.CreateNewComp.Tip=Create a new component
+RepBrowser.OpenComp.Tip=Open a component
+RepBrowser.DelFromRep.Tip=Delete from repository
+RepBrowser.DelFromList.Tip=Delete from list
+RepBrowser.FindComp.Tip=Opens Find Dialog for repository searching
+RepBrowser.ApplicationFavorite=Show on Application Level
+RepBrowser.ApplicationFavorite.Tip=Shows the favorite as a separate view on the same level as all other Application Views.
+RepBrowser.GetLatestVersion.Tip=Update the Repository with the latest version out of Version Control
+
+RepBrowser.ClearBtnCaption=Clear
+RepBrowser.NewMenuBtnCaption=New
+RepBrowser.GetLatestVersionBtnCaption=Get Latest Version
+
+RepBrowser.MsgBox.UnderEdit.Msg=&1 &2 is open in the LANSA Editor. It cannot be deleted.
+RepBrowser.MsgBox.UnderEdit.Caption=Delete request
+RepBrowser.MsgBox.ConfirmDelete.Msg=Delete &1 &2. Are you sure?
+RepBrowser.MsgBox.ConfirmDelete.Caption=Confirm delete object
+RepBrowser.MsgBox.ConfirmOpenMany.Msg=You are about to open &1 objects in the editor. Are you sure?
+RepBrowser.MsgBox.ConfirmOpenMany.Caption=Confirm open multiple objects
+RepBrowser.MsgBox.ConfirmDebugMany.Msg=You are about to debug &1 objects. Are you sure?
+RepBrowser.MsgBox.ConfirmDebugMany.Caption=Confirm debug multiple objects
+RepBrowser.MsgBox.ConfirmExecuteMany.Msg=You are about to execute &1 objects. Are you sure?
+RepBrowser.MsgBox.ConfirmExecuteMany.Caption=Confirm execute multiple objects
+RepBrowser.MsgBox.ConfirmExtract.Msg=Any changes to local file(s) will be lost, are you sure?
+RepBrowser.MsgBox.ConfirmExtract.Caption=Extract External Resource(s)
+RepBrowser.MsgBox.ConfirmDeletePartition.Msg=You are about to delete the partition &1.+
++
+This will delete:+
+-
+   · All repository definitions for this partition.+
+   -
+   · The partition runtime environment and all its content.+
+-
+Are you ABSOLUTELY sure you want to continue ?
+RepBrowser.MsgBox.ConfirmDeletePartition.Caption=Delete Partition
+
+RepBrowser.MsgBox.RefreshInlined.UnderEdit.Msg=&1 &2 is open in the LANSA Editor. Inline Weblets cannot be refreshed.
+
+RepBrowser.MsgBox.Error.CreateLockReadOnly=Cannot create an object when the Object Locking is in Read-Only mode
+RepBrowser.MsgBox.Error.Caption.Create=Cannot create an object
+
+RepBrowser.ColumnCaption.Name=Name
+RepBrowser.ColumnCaption.Component=Component
+RepBrowser.ColumnCaption.Identifier=Identifier
+RepBrowser.ColumnCaption.Description=Description
+RepBrowser.ColumnCaption.StatementText=Statement text
+
+RepBrowser.ExpressionOperatorSubtractDesc=Subtract
+RepBrowser.ExpressionOperatorOpenBracketDesc=Open bracket
+RepBrowser.ExpressionOperatorCloseBracketDesc=Close bracket
+RepBrowser.ExpressionOperatorMultiplyDesc=Multiply
+RepBrowser.ExpressionOperatorANDDesc=And
+RepBrowser.ExpressionOperatorEQDesc=Compare equal
+RepBrowser.ExpressionOperatorGEDesc=Compare greater than or equal to
+RepBrowser.ExpressionOperatorGTDesc=Compare greater than
+RepBrowser.ExpressionOperatorLEDesc=Compare less than or equal to
+RepBrowser.ExpressionOperatorLTDesc=Compare less than
+RepBrowser.ExpressionOperatorNEDesc=Compare not equal
+RepBrowser.ExpressionOperatorORDesc=Or
+RepBrowser.ExpressionOperatorDivDesc=Divide
+RepBrowser.ExpressionOperatorAddDesc=Add
+
+RepBrowser.ComponentNameCOM_ANCESTORDesc=Use the scope of an ancestor
+RepBrowser.ComponentNameCOM_SELFDesc=Resolve scope at runtime
+RepBrowser.ComponentNameCOM_OWNERDesc=Use own scope
+RepBrowser.ComponentNameCOM_TRUEDesc=Boolean of value true
+RepBrowser.ComponentNameCOM_FALSEDesc=Boolean of value false
+RepBrowser.ComponentNameSYS_APPLNDesc=Current application
+RepBrowser.ComponentNameSYS_KEYBDDesc=The state of Shift, Alt and Ctrl keys
+RepBrowser.ComponentNameSYS_MOUSEDesc=The mouse position
+RepBrowser.ComponentNameNULLDesc=Null Reference
+
+RepBrowser.FieldAttributeABDesc=Allow to be blank
+RepBrowser.FieldAttributeBLDesc=Display blinking
+RepBrowser.FieldAttributeBLUDesc=Same as BLUE
+RepBrowser.FieldAttributeBLUEDesc=Display with color blue
+RepBrowser.FieldAttributeBOTHDesc=Receive the value in the parameter and return it in WITH_PARMS list
+RepBrowser.FieldAttributeCOLDesc=Same as COLHEAD
+RepBrowser.FieldAttributeCOLHDGDesc=Same as COLHEAD
+RepBrowser.FieldAttributeCOLUMNDesc=Same as COLHEAD
+RepBrowser.FieldAttributeCOLHEADDesc=Identify the field on the screen by its column headings
+RepBrowser.FieldAttributeCSDesc=Display with column separators
+RepBrowser.FieldAttributeDESDesc=Same as DESC
+RepBrowser.FieldAttributeDESCDesc=Identify the field on the screen by its description
+RepBrowser.FieldAttributeFEDesc=Field exit key required
+RepBrowser.FieldAttributeGRNDesc=Same as GREEN
+RepBrowser.FieldAttributeGREENDesc=Display with color green
+RepBrowser.FieldAttributeHIDesc=Display in high intensity
+RepBrowser.FieldAttributeHIDEDesc=Same as HIDDEN
+RepBrowser.FieldAttributeHIDDENDesc=Do not display the field on the screen
+RepBrowser.FieldAttributeIOCONDDesc=Same as INOUTCOND
+RepBrowser.FieldAttributeINOUTCONDDesc=Conditional protection of the field from user change
+RepBrowser.FieldAttributeINDesc=Same as INPUT
+RepBrowser.FieldAttributeINPDesc=Same as INPUT
+RepBrowser.FieldAttributeINPUTDesc=Never protect the field from change
+RepBrowser.FieldAttributeLABDesc=Same as LABEL
+RepBrowser.FieldAttributeLABELDesc=Identify the field on the screen by its label
+RepBrowser.FieldAttributeLCDesc=Same as LOWERCASE
+RepBrowser.FieldAttributeLCASEDesc=Same as LOWERCASE
+RepBrowser.FieldAttributeLOWERDesc=Same as LOWERCASE
+RepBrowser.FieldAttributeLOWERCASEDesc=Lowercase entry allowed
+RepBrowser.FieldAttributeM10Desc=Modulus 10 check required
+RepBrowser.FieldAttributeM11Desc=Modulus 11 check required
+RepBrowser.FieldAttributeMEDesc=Mandatory entry check required
+RepBrowser.FieldAttributeMFDesc=Mandatory fill check required
+RepBrowser.FieldAttributeNDDesc=Non-display (hidden field)
+RepBrowser.FieldAttributeNEWFORMATDesc=Place the field on a new screen format
+RepBrowser.FieldAttributeNEWPAGEDesc=Start a new page when the field's contents changes
+RepBrowser.FieldAttributeNOIDDesc=Same as NOIDENT
+RepBrowser.FieldAttributeNOIDENTDesc=Do not identify the field on the screen
+RepBrowser.FieldAttributeNOPRTDesc=Same as NOPRINT
+RepBrowser.FieldAttributeNOPRINTDesc=Do not print the field
+RepBrowser.FieldAttributeONCHANGEDesc=Print the field only when its contents changes
+RepBrowser.FieldAttributeNCDesc=Same as OUTPUT
+RepBrowser.FieldAttributeNOCHANGEDesc=Same as OUTPUT
+RepBrowser.FieldAttributeNOCHGDesc=Same as OUTPUT
+RepBrowser.FieldAttributeOUTDesc=Same as OUTPUT
+RepBrowser.FieldAttributeOUTONLYDesc=Same as OUTPUT
+RepBrowser.FieldAttributeOUTPUTDesc=Always protect the field from user change
+RepBrowser.FieldAttributePNKDesc=Same as PINK
+RepBrowser.FieldAttributePINKDesc=Display with color pink
+RepBrowser.FieldAttributeRADesc=Auto record advance field
+RepBrowser.FieldAttributeRBDesc=Right adjust and blank fill
+RepBrowser.FieldAttributeRECEIVEDDesc=Receive the value in the parameter only
+RepBrowser.FieldAttributeREDDesc=Display with color red
+RepBrowser.FieldAttributeREPEATDesc=Repeat the field onto each and every format required
+RepBrowser.FieldAttributeRETURNEDDesc=Return the value in WITH_PARMS list only
+RepBrowser.FieldAttributeRLDesc=Move cursor right to left
+RepBrowser.FieldAttributeRLTBDesc=Tab cursor right/left top/bottom
+RepBrowser.FieldAttributeRZDesc=Right adjust and zero fill
+RepBrowser.FieldAttributeSELDesc=Same as SELECT
+RepBrowser.FieldAttributeSELECTDesc=Field to "select" an entry from a list
+RepBrowser.FieldAttributeTOTDesc=Same as TOTAL
+RepBrowser.FieldAttributeTOTALDesc=Subtotal the field
+RepBrowser.FieldAttributeTOTLVL1Desc=Same as TOTLEVEL1
+RepBrowser.FieldAttributeTOTLEVEL1Desc=Print subtotal at level break 1 when the field's contents changes
+RepBrowser.FieldAttributeTOTLVL2Desc=Same as TOTLEVEL2
+RepBrowser.FieldAttributeTOTLEVEL2Desc=Print subtotal at level break 2 when the field's contents changes
+RepBrowser.FieldAttributeTOTLVL3Desc=Same as TOTLEVEL3
+RepBrowser.FieldAttributeTOTLEVEL3Desc=Print subtotal at level break 3 when the field's contents changes
+RepBrowser.FieldAttributeTOTLVL4Desc=Same as TOTLEVEL4
+RepBrowser.FieldAttributeTOTLEVEL4Desc=Print subtotal at level break 4 when the field's contents changes
+RepBrowser.FieldAttributeTOTLVL5Desc=Same as TOTLEVEL5
+RepBrowser.FieldAttributeTOTLEVEL5Desc=Print subtotal at level break 5 when the field's contents changes
+RepBrowser.FieldAttributeTOTLVL6Desc=Same as TOTLEVEL6
+RepBrowser.FieldAttributeTOTLEVEL6Desc=Print subtotal at level break 6 when the field's contents changes
+RepBrowser.FieldAttributeTOTLVL7Desc=Same as TOTLEVEL7
+RepBrowser.FieldAttributeTOTLEVEL7Desc=Print subtotal at level break 7 when the field's contents changes
+RepBrowser.FieldAttributeTOTLVL8Desc=Same as TOTLEVEL8
+RepBrowser.FieldAttributeTOTLEVEL8Desc=Print subtotal at level break 8 when the field's contents changes
+RepBrowser.FieldAttributeTOTLVL9Desc=Same as TOTLEVEL9
+RepBrowser.FieldAttributeTOTLEVEL9Desc=Print subtotal at level break 9 when the field's contents changes
+RepBrowser.FieldAttributeTRQDesc=Same as TURQ
+RepBrowser.FieldAttributeTURQDesc=Display with color turquoise
+RepBrowser.FieldAttributeVNDesc=Valid name check required
+RepBrowser.FieldAttributeWHTDesc=Same as WHITE
+RepBrowser.FieldAttributeWHITEDesc=Display with color white
+RepBrowser.FieldAttributeYLWDesc=Same as YELLOW
+RepBrowser.FieldAttributeYELLOWDesc=Display with color yellow
+
+*************************************************************
+*** APPLY STATUS MESSAGES                               *****
+*************************************************************
+ApplyStatus.SetPty=Assign &1 to property &2 
+ApplyStatus.RunTemplate=Execute template &1 and insert result before line &2
+ApplyStatus.InsertCommand=Format a new &1 command and insert before line &2
+ApplyStatus.CreateInstance=Create instance of component &1
+ApplyStatus.CreateMultipleInstance=Create instance of components &1, ...
+
+ApplyStatus.InsertParmItem=Insert &1 as a new parameter item
+ApplyStatus.AppendParmItem=Append &1 to parameter item
+ApplyStatus.ReplaceParmItem=Replace parameter item with &1
+ApplyStatus.AppendMultipleParmItem=Append &1, ... to parameter item
+
+ApplyStatus.AppendParameter=Append &1 to parameter
+ApplyStatus.ReplaceParameter=Replace parameter with &1
+ApplyStatus.AppendMultipleParameter=Append &1, ... to parameter
+
+ApplyStatus.ReplaceParmTypeParmItem1=Replace parameter 1 of parameterized type with &1
+ApplyStatus.ReplaceParmTypeParmItem2=Replace parameter 2 of parameterized type with &1
+ApplyStatus.InsertParmTypeParmItem1=Insert &1 as parameter 1 of parameterized type
+ApplyStatus.InsertParmTypeParmItem2=Insert &1 as parameter 2 of parameterized type
+ApplyStatus.ReplaceClassPartOfParmType=Replace class part of parameterized type with &1
+ApplyStatus.InsertPrimitiveClass=Insert primitive class &1
+
+ApplyStatus.ReplaceClassName=Replace class with &1
+
+*************************************************************
+*** PROMPT DIALOG(S)                                    *****
+*************************************************************
+Prompt.Caption.Create=Create options
+Prompt.Caption.CreateCopy=Copy list
+Prompt.Caption.CreateEmpty=Empty list
+Prompt.Caption.CreateLettered=Default letter groupings
+Prompt.Caption.NewRuledObjectList=New dynamic list
+Prompt.Caption.NewImpactObjectList=New static list
+
+Prompt.Label.Name=Name:
+Prompt.Label.Description=Description:
+Prompt.Label.CreateObjectList=Select list:
+Prompt.Label.CreateObjectType=Select object type:
+
+Prompt.MsgBox.NameExists=Name &1 is invalid as it already exists.
+Prompt.MsgBox.InvalidName=Name &1 is invalid. The first character must be from 'A' through 'Z' and subsequent characters must be from 'A' through 'Z', '0' through '9' or the '_' character.
+Prompt.MsgBox.DescriptionRequired=A description is required.
+
+*************************************************************
+*** XREF DIALOG(S)                                      *****
+*************************************************************
+CrossReference.Caption.Close=Close
+CrossReference.Caption.Dialog=LANSA Cross Reference Analyzer
+CrossReference.Caption.Context=Context groupings
+CrossReference.Caption.ClearAll=Clear All
+CrossReference.Caption.NewQuery=New Query
+CrossReference.Caption.RunQuery=Run Query
+CrossReference.Caption.SelectAll=Select All
+CrossReference.Caption.DeleteQuery=Delete Query
+CrossReference.Caption.QueryDialog=Define Cross Reference Query
+CrossReference.Caption.SaveResults=Save Results
+
+CrossReference.CaptionContext.File=File context
+CrossReference.CaptionContext.Field=Field context
+CrossReference.CaptionContext.Function=Function context
+CrossReference.CaptionContext.Component=Component context
+CrossReference.CaptionContext.MtxtVariable=Multilingual variable context
+CrossReference.CaptionContext.SystemVariable=System variable context
+
+CrossReference.Label.Context=Query contexts:
+CrossReference.Label.Queries=Queries:
+CrossReference.Label.Results=Results:
+CrossReference.Label.ObjectName=Object name:   
+
+CrossReference.MsgBox.NoResult.Msg=Query did not find any relevant cross reference information. Do you want to quit now?
+CrossReference.MsgBox.NoResult.Caption=Cross Reference Query
+
+CrossReference.ResultCaption.File=File: &1 Library: &2
+CrossReference.ResultCaption.Field=Field/Component: &1
+CrossReference.ResultCaption.Process=Process: &1
+CrossReference.ResultCaption.Function=Function: &1 Process: &2
+CrossReference.ResultCaption.SystemVariable=System Variable: &1
+CrossReference.ResultCaption.MultilingualVariable=Multilingual Variable: &1
+
+CrossReference.Usage.Pattern.FieldSource=Pattern - Field source
+CrossReference.Usage.Pattern.VisualSource=Pattern - Visual source
+CrossReference.Usage.Pattern.PatternSource=Pattern - Pattern source
+
+CrossReference.Usage.Class.Ancestor=Class - Ancestor
+CrossReference.Usage.Class.LocalMember=Class - Local member
+CrossReference.Usage.Class.SharedMember=Class - Shared member
+CrossReference.Usage.Class.InstanceMember=Class - Instance member
+CrossReference.Usage.Class.ApplicationMember=Class - Application member
+CrossReference.Usage.Class.DynamicCreate=Class - Dynamic creation
+
+CrossReference.Usage.ClassParameter.Event=Class Parameter - Event
+CrossReference.Usage.ClassParameter.Method=Class Parameter - Method
+CrossReference.Usage.ClassParameter.Property=Class Parameter - Property
+CrossReference.Usage.ClassParameter.EvtRoutine=Class Parameter - Event routine
+CrossReference.Usage.ClassWebMap.WebRoutine=Class Web Map - Webroutine
+
+CrossReference.Usage.Event.Signal=Event - Signal command
+CrossReference.Usage.Event.Routine=Event - Event routine
+
+CrossReference.Usage.Method.Invoke=Method - Invoke command
+CrossReference.Usage.Method.Redefinition=Method - Redefinition
+
+CrossReference.Usage.Property.Get=Property - Get access
+CrossReference.Usage.Property.Set=Property - Set command
+CrossReference.Usage.Property.BeginCom=Property - BEGIN_COM command
+CrossReference.Usage.Property.DefineCom=Property - DEFINE_COM command
+CrossReference.Usage.Property.Redefinition=Property - Redefinition
+
+CrossReference.Usage.MessageFile=Message file
+
+CrossReference.Usage.Message=Message
+
+CrossReference.Usage.Field.ByLogicCmd=Field - Logic command
+CrossReference.Usage.Field.ByDatabaseCmd=Field - Database command
+CrossReference.Usage.Field.ByWorkstationCmd=Field - Workstation command
+CrossReference.Usage.Field.ByPrintingCmd=Field - Printing command
+CrossReference.Usage.Field.ByListCmd=Field - List command
+CrossReference.Usage.Field.ByExternalCmd=Field - External command
+CrossReference.Usage.Field.ByOverrideCmd=Field - Override command
+CrossReference.Usage.Field.ByGroupByCmd=Field - GROUPBY command
+CrossReference.Usage.Field.ByDefineCmd=Field - DEFINE command
+
+CrossReference.Usage.RepField.ValidationRule=Repository Field - Validation rule
+CrossReference.Usage.RepField.FieldDefinition=Repository Field - Field definition
+
+CrossReference.Usage.RdmlFieldRef.ByDefineCmd=RDML Field Reference - DEFINE command
+
+CrossReference.Usage.SystemVar.ByLogicCmd=System variable - Logic command
+CrossReference.Usage.SystemVar.ByDatabaseCmd=System variable - Database command
+CrossReference.Usage.SystemVar.ByWorkstationCmd=System variable - Workstation command
+CrossReference.Usage.SystemVar.ByPrintingCmd=System variable - Printing command
+CrossReference.Usage.SystemVar.ByListCmd=System variable - List command
+CrossReference.Usage.SystemVar.ByExternalCmd=System variable - External command
+
+CrossReference.Usage.MtxtVar.ByLogicCmd=Multilingual variable - Logic command      
+CrossReference.Usage.MtxtVar.ByDatabaseCmd=Multilingual variable - Database command         
+CrossReference.Usage.MtxtVar.ByWorkstationCmd=Multilingual variable - Workstation command      
+CrossReference.Usage.MtxtVar.ByPrintingCmd=Multilingual variable - Printing command         
+CrossReference.Usage.MtxtVar.ByListCmd=Multilingual variable - List command             
+CrossReference.Usage.MtxtVar.ByExternalCmd=Multilingual variable - External command         
+
+CrossReference.Usage.Bif=Built-In Function
+
+CrossReference.Usage.OvBif=OV Built-In Function
+
+CrossReference.Usage.File.ByDatabaseCmd=File - Database command
+CrossReference.Usage.File.ByUpdateDatabaseCmd=File - Updating database command
+
+CrossReference.Usage.RdmFunction.ByCallCmd=RDML Function - CALL command
+CrossReference.Usage.RdmFunction.ByCallCheckCmd=RDML Function - CALLCHECK command
+CrossReference.Usage.RdmFunction.ByFieldValidation=RDML Function - Field validation
+CrossReference.Usage.RdmFunction.ByIncludeCmd=RDML Function - INCLUDE command
+
+CrossReference.Usage.PromptFunction.ByCallCmd=Prompt Function - CALL command        
+CrossReference.Usage.PromptFunction.ByCallCheckCmd=Prompt Function - CALLCHECK command           
+CrossReference.Usage.PromptFunction.ByFieldDefinition=Prompt Function - Field definition
+
+CrossReference.Usage.ExternalPgm=External program
+
+CrossReference.Usage.FileField.KeyField=Field (by File) - key
+CrossReference.Usage.FileField.RealField=Field (by File) - real field
+CrossReference.Usage.FileField.VirtualField=Field (by File) - virtual field
+CrossReference.Usage.FileField.PJF=Field (by File) - Predetermined join field
+CrossReference.Usage.FileField.AccessRoute=Field (by File) - Access route
+CrossReference.Usage.FileField.BatchControl=Field (by File) - Batch control
+CrossReference.Usage.FileField.ValidationRule=Field (by File) - Validation rule
+
+CrossReference.Usage.FofFile.BasedOnPhysicalFile=File (by File or Field) - Based on physical file
+CrossReference.Usage.FofFile.TargetOfAccessRoute=File (by File or Field) - Target of access route
+CrossReference.Usage.FofFile.BatchControl=File (by File or Field) - Batch control
+CrossReference.Usage.FofFile.TargetOfLookup=File (by File or Field) - Target of lookup
+
+CrossReference.Usage.FofFunction.ComplexLogic=Function (by Field or Field) - Complex logic
+CrossReference.Usage.FofFunction.Trigger=Function (by Field or Field) - Trigger
+CrossReference.Usage.FofFunction.SystemVariable=Function (by Field or Field) - System variable
+
+CrossReference.Usage.Process=Process
+
+CrossReference.Usage.ExternalResource=External Resource
+
+*************************************************************
+*** FIND AND REPLACE DIALOGS                            *****
+*************************************************************
+LpPaFindDialog.FindCaption=Find
+LpPaFindDialog.WrapCaption=Wra&p
+LpPaFindDialog.CancelCaption=Cancel
+LpPaFindDialog.DirectionCaption=Direction
+LpPaFindDialog.MarkAllCaption=&Tag All
+LpPaFindDialog.FindNextCaption=&Find Next
+LpPaFindDialog.FindPrevCaption=Find Previous
+LpPaFindDialog.FindWhatCaption=Fi&nd what:
+LpPaFindDialog.SearchUpCaption=&Up
+LpPaFindDialog.SearchDownCaption=&Down
+LpPaFindDialog.MatchCaseCaption=Match &case
+LpPaFindDialog.SearchAllCaption=Search &all open components
+LpPaFindDialog.WholeWordCaption=Match &whole word only
+LpPaFindDialog.FindDialogCaption=Find
+
+LpPaReplaceDialog.ReplaceDialogCaption=Replace
+
+LpPaReplaceDialog.ReplaceCaption=&Replace
+LpPaReplaceDialog.ReplaceInCaption=Replace in
+LpPaReplaceDialog.ReplaceAllCaption=Replace &All
+LpPaReplaceDialog.ReplaceWithCaption=Re&place with:
+LpPaReplaceDialog.ReplaceSelectionCaption=Selection
+LpPaReplaceDialog.ReplaceWholeFileCaption=Whole file
+
+*************************************************************
+*** REPOSITORY FIND DIALOGS                             *****
+*************************************************************
+LpPaRepFindDialog.FindCaption=Find
+LpPaRepFindDialog.AddToListBtnCaption=Add to &List
+LpPaRepFindDialog.LookForLbl=&Look for:
+LpPaRepFindDialog.FindTabCaption=Find
+LpPaRepFindDialog.FindBtnCaption=&Find
+LpPaRepFindDialog.ResultsTabCaption=Find Results
+LpPaRepFindDialog.FoundMsg=Found &1 object(s).
+LpPaRepFindDialog.InNameLbl=In &name
+LpPaRepFindDialog.InDescLbl=In &description
+LpPaRepFindDialog.ShowAdvancedLbl=Show &Advanced
+LpPaRepFindDialog.HideAdvancedLbl=Hide &Advanced
+LpPaRepFindDialog.TaskIdLbl=Task ID:
+LpPaRepFindDialog.UserLbl=User:
+LpPaRepFindDialog.ReferTo=Referring to:
+LpPaRepFindDialog.Status=Status:
+LpPaRepFindDialog.Framework=Framework:
+LpPaRepFindDialog.Group=Group:
+LpPaRepFindDialog.ModAfter=Modified after:
+LpPaRepFindDialog.ModBefore=Modified before:
+LpPaRepFindDialog.SaveDlgCaption=Save Results
+LpPaRepFindDialog.ListOpenWarningText=The list is open in the editor. Please close it first.
+LpPaRepFindDialog.ListOpenWarningCaption=The list is open in the editor
+LpPaRepFindDialog.TextGroupBoxCaption=Find Text
+LpPaRepFindDialog.FiltersGroupBoxCaption=Filters
+LpPaRepFindDialog.ResultsGroupBoxCaption=Results
+LpPaRepFindDialog.TreeItemColumnCaption=Object Types
+LpPaRepFindDialog.SendToCaption=Show results in:
+LpPaRepFindDialog.SendToNewCaption=New Tab Sheet
+
+*************************************************************
+*** Field Visualisation Wizard                          *****
+*************************************************************
+VisWiz.AddFieldVisualizationsCmd=Add Field Visualizations
+
+VisWiz.CannotOpenWizard=The Field &1 is Readonly, so Visualizations cannot be added.
+
+
+VisWiz.DynamicPicklist=Dynamic Picklist
+VisWiz.ReusablePart=Reusable Part
+VisWiz.VisualHost=Hosted Part
+VisWiz.NumberAsDateHost=Number As Date
+VisWiz.NumberDateDescNoFocus=Number As Date Becoming a Label
+VisWiz.NumberAsDateLongRoHost=Number As Long Date ReadOnly
+VisWiz.NumberAsTimeHost=Number As Time
+VisWiz.NumberAsDateTimeHost=Number As DateTime
+VisWiz.AutoCompleterGeneric=AutoCompleter
+VisWiz.AutoCompleterDesc=AutoCompleter using Description
+VisWiz.AutoCompleterDescNoFocus=AutoCompleter with Description on Losing Focus
+VisWiz.AutoSuggesterGeneric=AutoSuggester
+VisWiz.AutoSuggesterLike=AutoSuggester for 'Like' Values
+VisWiz.AutoCompleterPrompterDesc=AutoCompleter and Prompter using Description
+
+VisWiz.ReusablePartLabelQuestion=Enter Name of a Reusable Part
+VisWiz.FileLabelQuestion=Enter Name of a File containing the values of this Field
+VisWiz.FieldLabelQuestion=Enter Name of a Field from the same File that Describes this Field
+VisWiz.PrompterFormLabelQuestion=Enter Name of Prompter Form for selecting this Field
+
+VisWiz.DynamicPicklistHelp=Use a Reusable Part, a File and Description Field from this File to load a Picklist at runtime. 
+VisWiz.ReusablePartHelp=Use a Reusable Part to visualize &1.
+VisWiz.VisualHostHelp=Use a Reusable Part to provide an Edit Control for &1.
+VisWiz.NumberAsDateHostHelp=Use a Reusable Part show &1 as a Date.
+VisWiz.NumberAsDateLongRoHostHelp=Use a Reusable Part to show &1 as a Read Only Long Date.
+VisWiz.NumberAsTimeHostHelp=Use a Reusable Part to show &1 as a Time.
+VisWiz.NumberAsDateTimeHostHelp=Use a Reusable Part to show &1 as a DateTime.
+VisWiz.NumberAsDateDescNoFocusHelp=Use a Reusable Part to show &1 as a Date Description when it loses focus.
+VisWiz.AutoCompleterGenericHelp=Use a Reusable Part to apply Auto Completing as data is entered in &1.
+VisWiz.AutoCompleterDescHelp=Use a Reusable Part to apply Auto Completing using a Description Field from the same File as data is entered in &1.
+VisWiz.AutoCompleterDescNoFocusHelp=Use a Reusable Part to apply Auto Completing using a Description Field from the same File, as &1 loses focus.
+VisWiz.AutoSuggesterLikeHelp=Use a Reusable Part and File to apply Auto Suggesting values "Like" that entered in &1.
+VisWiz.AutoSuggesterGenericHelp=Use a Reusable Part to apply Auto Suggesting as data is entered in &1.
+VisWiz.AutoCompleterPrompterDescHelp=Use a Reusable Part and Form to apply Auto Completing and allow Prompting for &1, using a Description Field for the Values.
+
+VisWiz.EnterFile=This Visualization requires a File that contains this Field
+VisWiz.EnterForm=This Visualization requires a Prompter Form to prompt the value of this Field
+VisWiz.EnterField=This Visualization requires a Field from the same File describing this Field (eg deptdesc describes deptment)
+VisWiz.EnterReusablePart=This Visualization requires a Reusable Part
+
+VisWiz.NotAFile=&1 is not a File
+VisWiz.NotAForm=&1 is not a Form
+VisWiz.NotAField=&1 is not a Field
+VisWiz.NotAReusablePart=&1 is not a Reusable Part
+VisWiz.NotImplementingIMonitorSubject=Reusable Part &1 does not implement IMonitorSubject to indicate that the value has changed.
+VisWiz.NotImplementingIContextualSubject=Reusable Part &1 does not implement IContextualSubject to indicate which Field is being visualized.
+VisWiz.NotImplementingIDynamicPicklist=Reusable Part &1 does not implement IDynamicPicklist to allow the Picklist items to be loaded dynamically.
+VisWiz.ReusablePartNotFound=Reusable Part &1 does not exist
+VisWiz.VisualizationDetails=Visualization Details
+VisWiz.SelectedVisualizations=Selected Visualizations
+VisWiz.AvailableVisualizations=Available Visualizations
+
+VisWiz.ItemWillBeCreated=&1 &2 does not exist : it will be created when the wizard finishes
+VisWiz.FileDoesNotExist=File &1 does not exist
+VisWiz.FieldDoesNotExist=Field &1 does not exist
+
+VisWiz.OpenInEditor=Open in editor
+VisWiz.Previous=&Previous
+VisWiz.Next=&Next
+VisWiz.Finish=&Finish
+VisWiz.Cancel=&Cancel
+
+VisWiz.ReusablePartNameNotValid=Reusable Part Name &1 is not a valid name
+VisWiz.FormNameNotValid=Form Name &1 is not valid name
+VisWiz.NoDefaultProperty=&1 &2 does not contain a Default Property, so cannot communicate values with the Field
+
+VisWiz.DescriptionEntryField=A single line edit box.
+VisWiz.DescriptionMultiEntryField=An edit box with multiple lines.
+VisWiz.DescriptionStaticPicklist=A static picklist defined at design time. Edit the picklist data in the Field Visualisation tab.
+VisWiz.DescriptionProgressBar=A progress bar representing the value.
+VisWiz.DescriptionTrackBar=A trackbar representing the value.
+VisWiz.DescriptionSpinEdit=A spin edit control showing the value.
+VisWiz.DescriptionDateTime=A Date and Time formatted edit box.
+VisWiz.DescriptionCalendar=A Calendar control representing the value.
+VisWiz.DescriptionPrompter=A Form used to prompt for the value.
+
+VisWiz.ReusableCaption=Reusable Part
+VisWiz.PrompterCaption=Prompter Form
+VisWiz.VisualizationTypeCaption=Visualization Type
+VisWiz.VisualizationFileCaption=File
+VisWiz.VisualizationFieldCaption=Field
+VisWiz.VisualizationReusablePartCaption=Reusable Part
+
+*************************************************************
+*** SOURCE AUDIT FIND DIALOGS                           *****
+*************************************************************
+LpPaAuditFindDialog.DialogCaption=Find Audit Stamps
+LpPaAuditFindDialog.GroupBoxCaption=Search Criteria
+LpPaAuditFindDialog.FindNextCaption=&Find Next
+LpPaAuditFindDialog.FindPrevCaption=Find Previous
+LpPaAuditFindDialog.MarkAllCaption=&Tag All
+LpPaAuditFindDialog.ResetCaption=Reset
+LpPaAuditFindDialog.CancelCaption=Cancel
+LpPaAuditFindDialog.UserLbl=User:
+LpPaAuditFindDialog.TaskIdLbl=Task ID:
+LpPaAuditFindDialog.ModGroupBoxCaption=Modified Date
+LpPaAuditFindDialog.ModRangeCaption=Range
+LpPaAuditFindDialog.ModDateLbl=Modified on:
+LpPaAuditFindDialog.ModAfterLbl=Modified after:
+LpPaAuditFindDialog.ModBeforeLbl=Modified before:
+LpPaAuditFindDialog.NotFoundMsg=Specified Audit Stamp not found.
+
+*************************************************************
+*** LIST MANAGEMENT DIALOG                              *****
+*************************************************************
+LpPaListMngtDialog.NewListCaption=New List
+LpPaListMngtDialog.ReplaceListCaption=Replace list
+LpPaListMngtDialog.GroupingLbl=Grouping:
+LpPaListMngtDialog.TypeStaticLbl=Static
+LpPaListMngtDialog.TypeImpactLbl=Impact
+LpPaListMngtDialog.TypeDynamicLbl=Dynamic
+LpPaListMngtDialog.StoredAsRepLbl=Repository list
+LpPaListMngtDialog.StoredAsUsrLbl=User list
+LpPaListMngtDialog.ListNameLbl=List Name
+LpPaListMngtDialog.ListTypeLbl=Type
+LpPaListMngtDialog.StoredAsLbl=Stored as
+LpPaListMngtDialog.FavoriteLbl=Add to Favorites
+LpPaListMngtDialog.OpenInEditorLbl=Open In Editor
+LpPaListMngtDialog.WarningListExistsText=The list by this name already exists.
+LpPaListMngtDialog.WarningListExistsCaption=The list exists
+LpPaListMngtDialog.NewDBListCaption=Create Database Diagram
+
+*************************************************************
+*** WHAT'S THIS DIALOG                                  *****
+*************************************************************
+LpPaWhatsThisDialog.Caption=What's This?
+LpPaWhatsThisDialog.Close=Close
+LpPaWhatsThisDialog.Type=Type
+LpPaWhatsThisDialog.Command=Command
+LpPaWhatsThisDialog.Component=Component
+LpPaWhatsThisDialog.Property=Property
+LpPaWhatsThisDialog.Parameter=Parameter
+LpPaWhatsThisDialog.Value=Value
+LpPaWhatsThisDialog.Default=Default
+
+*************************************************************
+*** LANSA REPOSITORY TAB                                *****
+*************************************************************
+RepositoryTab.Combo.NotDefined=Not Defined
+RepositoryTab.Combo.Root=Repository
+RepositoryTab.Combo.ActiveX=ActiveX
+RepositoryTab.Combo.Bitmaps=Bitmaps
+RepositoryTab.Combo.Cursors=Cursors
+RepositoryTab.Combo.Fields=Fields
+RepositoryTab.Combo.Files=Files
+RepositoryTab.Combo.Forms=Forms
+RepositoryTab.Combo.Frameworks=Frameworks
+RepositoryTab.Combo.Functions=Functions
+RepositoryTab.Combo.Groups=Groups
+RepositoryTab.Combo.Icons=Icons
+RepositoryTab.Combo.Lists=Lists
+RepositoryTab.Combo.MtexVars=Multilingual Variables
+RepositoryTab.Combo.Primitives=Primitives
+RepositoryTab.Combo.Processes=Processes
+RepositoryTab.Combo.Reusables=Reusable Parts
+RepositoryTab.Combo.BusinessObjects=Business Objects                   
+RepositoryTab.Combo.SysVars=System Variables
+RepositoryTab.Combo.VisualStyles=Visual Styles
+RepositoryTab.Combo.Wams=Web Application Modules
+RepositoryTab.Combo.Tasks=Tasks
+RepositoryTab.Combo.Partitions=Partitions
+RepositoryTab.Combo.Users=Users
+RepositoryTab.Combo.Templates=Templates
+RepositoryTab.Combo.MsgFiles=Message Files
+RepositoryTab.Combo.TechnologyServices=Technology Services
+RepositoryTab.Combo.Servers=Remote Systems
+RepositoryTab.Combo.TechServiceProvider=Providers
+RepositoryTab.Combo.DbDiagrams=Database Diagrams
+RepositoryTab.Combo.ExternalResources=External Resources
+RepositoryTab.Combo.DotNetProxys=.NET Components
+RepositoryTab.Combo.WebServiceProxys=Web Services
+RepositoryTab.Combo.WebPages=Web Pages
+
+RepositoryTab.ObjName.NotDefined=Not Defined
+RepositoryTab.ObjName.File=File
+RepositoryTab.ObjName.LogicalFile=Logical File
+RepositoryTab.ObjName.Field=Field
+RepositoryTab.ObjName.Process=Process
+RepositoryTab.ObjName.Form=Form
+RepositoryTab.ObjName.Function=Function
+RepositoryTab.ObjName.List=List
+RepositoryTab.ObjName.Bitmap=Bitmap
+RepositoryTab.ObjName.Icon=Icon
+RepositoryTab.ObjName.Cursor=Cursor
+RepositoryTab.ObjName.VStyle=Visual Style
+RepositoryTab.ObjName.Sysvar=System Variable
+RepositoryTab.ObjName.MTxt=Multilingual Variable
+RepositoryTab.ObjName.Web=Web Application Module
+RepositoryTab.ObjName.ActiveX=ActiveX
+RepositoryTab.ObjName.Reusable=Reusable Part
+RepositoryTab.ObjName.BusinessObject=Business Object
+RepositoryTab.ObjName.Primitive=Primitive
+RepositoryTab.ObjName.Framework=Framework
+RepositoryTab.ObjName.Group=Group
+RepositoryTab.ObjName.Task=Task
+RepositoryTab.ObjName.ExternalResource=External Resource
+RepositoryTab.ObjName.DotNetProxy=.NET Component
+RepositoryTab.ObjName.WebServiceProxy=Web Service
+RepositoryTab.ObjName.WebPage=Web Page
+*
+RepositoryTab.ColTxt.DynamicList=Dynamic List
+RepositoryTab.ColTxt.StaticList=Static List
+RepositoryTab.ColTxt.ImpactList=Impact List
+RepositoryTab.ColTxt.DatabaseDiagram=Database Diagram
+RepositoryTab.ColTxt.DatabaseDiagrams=Database Diagrams
+RepositoryTab.ColTxt.Weblet=Weblet
+RepositoryTab.ColTxt.Weblets=Weblets
+RepositoryTab.ColTxt.WebletTemplates=Weblet Templates
+RepositoryTab.ColTxt.WebComponent=Web Component
+RepositoryTab.ColTxt.WebComponents=Web Components
+RepositoryTab.ColTxt.TechnologyService=Technology Service
+RepositoryTab.ColTxt.TechnologyServices=Technology Services
+RepositoryTab.ColTxt.Partition=Partition
+RepositoryTab.ColTxt.Partitions=Partitions
+RepositoryTab.ColTxt.User=User
+RepositoryTab.ColTxt.Users=Users
+RepositoryTab.ColTxt.Server=Remote System
+RepositoryTab.ColTxt.Servers=Remote Systems
+RepositoryTab.ColTxt.Template=Template
+RepositoryTab.ColTxt.Templates=Templates
+RepositoryTab.ColTxt.Message=Message
+RepositoryTab.ColTxt.MessageFile=Message File
+RepositoryTab.ColTxt.MessageFiles=Message Files
+RepositoryTab.ColTxt.ExternalResource=External Resource
+RepositoryTab.ColTxt.ExternalResources=External Resources
+RepositoryTab.ColTxt.LansaMonitor=Lansa Field Value Monitor
+RepositoryTab.ColTxt.ActivePartition=Active Partition (&1)
+RepositoryTab.ColTxt.ActiveTechnologyService=Active Technology Service (&1)
+RepositoryTab.ColTxt.Organizers=Organizers
+RepositoryTab.ColTxt.SystemInfo=System Information
+RepositoryTab.ColTxt.Resources=Resources
+RepositoryTab.ColTxt.Web=Web
+RepositoryTab.ColTxt.PlugIns=PlugIns
+RepositoryTab.ColTxt.RepSettings=Repository Settings
+RepositoryTab.ColTxt.Provider=Provider
+RepositoryTab.ColTxt.Providers=Providers
+RepositoryTab.ColTxt.Tools=Tools
+*
+RepositoryTab.Col.Item=Item
+RepositoryTab.Col.Description=Description
+RepositoryTab.Col.Modified=Modified
+RepositoryTab.Col.BuildStatus=Build Status
+RepositoryTab.Col.Details=Details
+RepositoryTab.Col.ColName=Column Name
+RepositoryTab.Col.Type=Type
+RepositoryTab.Col.Task=Task
+RepositoryTab.Col.PcName=PC Name
+RepositoryTab.Col.Identifier=Identifier
+RepositoryTab.Col.VcsStatus=Version Control Status
+*
+RepositoryTab.Msg.SelectedObjects=Selected &1 objects
+RepositoryTab.Msg.Selected=Selected: &1
+RepositoryTab.Msg.Type=  Type: &1
+RepositoryTab.Msg.Modified=  Modified: &1
+RepositoryTab.Msg.BuildStatus=  Build Status: &1
+RepositoryTab.Msg.Description=  Description: &1
+RepositoryTab.Msg.Task=  Task: &1
+*
+FavouritesMenu.TabViewStyle=Tab View Style
+FavouritesMenu.TabViewStyleStandard=Standard
+FavouritesMenu.TabViewStyleStacked=Stacked
+FavouritesMenu.TabViewStyleNavigator=Navigator
+FavouritesMenu.TabViewStyle.Tip=Switch Tab View Style
+FavouritesMenu.ShowInFavorites=Show in Favorites
+FavouritesMenu.ShowInFavorites.Tip=Shows the favorite inside the Favorites View.
+*
+
+*************************************************************
+*** DELETE QUERY DIALOG                                 *****
+*************************************************************
+DeleteQueryDlg.DeleteObject=Delete object:
+DeleteQueryDlg.Type=Type:
+DeleteQueryDlg.DeleteFromHostRep=Delete from host repository
+
+*************************************************************
+*** FUNCTION DESIGN                                     *****
+*************************************************************
+Function.Design.ISeriesKey=F&1=&2
+Function.Design.ISeriesMessages=MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+Function.Design.Designer.Caption=&1 ( &2 )
+Function.Design.Detailer.Representation.Caption=Representation
+Function.Design.Detailer.ISeries.Caption=5250 NPT
+Function.Design.Detailer.Windows.Caption=Windows
+Function.Design.Detailer.UserKeys.FunctionKeyColumn.Caption=Key
+Function.Design.Detailer.UserKeys.DescriptionColumn.Caption=Description
+Function.Design.Detailer.UserKeys.ActionColumn.Caption=Action
+Function.Design.Detailer.UserKeys.ConditionColumn.Caption=Condition
+Function.Design.GroupBox.CommandText.Caption=Command Text
+Function.Design.GroupBox.Enabled.Caption=Enabled
+Function.Design.GroupBox.Action.Caption=Action
+Function.Design.GroupBox.SAACUA.Caption=SAA/CUA
+Function.Design.Page.General.Caption=General
+Function.Design.Page.UserKeys.Caption=User Keys
+Function.Design.Page.Keys.Caption=Function Keys
+Function.Design.Page.Assistant.Caption=Fields, Groups and Lists
+Function.Design.Label.Location.Caption=Location
+Function.Design.Label.Row.Caption=Row
+Function.Design.Label.Column.Caption=Column
+Function.Design.Label.Width.Caption=Width
+Function.Design.Label.Height.Caption=Height
+Function.Design.GroupBox.Attributes.Caption=Attributes
+Function.Design.CommandNotValid=Command is not valid
+Function.Design.Assist.Name.Column.Caption=Name
+Function.Design.Element.Detailer.Page.Caption=Field ( &1 )
+Function.Design.Element.Detailer.Attributes.Caption=Identification Attributes
+Function.Design.NotAvailable=Function Design currently not available. Enter POP_UP, DISPLAY, REQUEST, DEF_HEAD, DEF_LINE, DEF_BREAK or DEF_FOOT commands to activate Function Design
+Function.Design.Parm.AtLoc=Location Attributes
+Function.Design.Parm.WithSize=Sizing Attributes
+Function.Design.Element.Detailer.InputAttributes.Caption=Input/Output Attributes
+Function.Design.Button.Delete.Hint=Deletes the selected field(s)
+Function.Design.Label.Text.Caption=Text
+Function.Design.Button.Options.Caption=Options
+Function.Design.Button.Add.Caption=Add
+Function.Design.Button.TextIncrease.Hint=Increase Text Size
+Function.Design.Button.TextDecrease.Hint=Decrease Text Size
+Function.Design.Button.Add.Hint=Add
+Function.Design.Button.AddText.Caption=Add Text
+Function.Design.Button.AddText.Hint=Adds text to the design
+Function.Design.NewText.Caption=Text
+Function.Design.Label.Condition.Caption=Condition
+Function.Design.NotAvailable.Caption=N/A
+Function.Design.BrowseList.Page.Caption=Browselist
+Function.Design.BrowseList.Page.Fields.Caption=Fields
+Function.Design.Field.Page.Caption=Field
+Function.Design.Text.Page.Caption=Text
+Function.Design.Message.PRC0190.Level1=Field &1 cannot be fitted into pop up window
+Function.Design.Message.PRC0116.Level1=Row number specificed for field &1 but no column number specified
+Function.Design.Message.PRC0117.Level1=Column number specified for field &1 but no row number specified
+Function.Design.Message.PRC0166.Level1=Maximum number of screen formats allowed for command exceeded at or about field &1
+Function.Design.Message.PRC0080.Level1=Field &1 will not fit on screen if row and position number specified are used
+Function.Design.Message.PRC0082.Level1=Field &1 overlaps one or more fields already positioned onto the screen
+Function.Design.Message.PRC0081.Level1=Field &1 may span lines on the screen using row and column number specified
+Function.Design.Message.PRC0101.Level1=Row/line or pos/column not valid for positioning text string &1 - text string ignored
+Function.Design.Message.PRC0130.Level1=Line or position not valid for positioning text string &1 - text string ignored
+Function.Design.Message.PRC0132.Level1=Line number specified for field &1 but no position number specified
+Function.Design.Message.PRC0131.Level1=Position number specified for field &1 but no line number specified
+Function.Design.Message.PRC0187.Level1=Unable to fit all fields onto one report page .... see second level text
+Function.Design.Message.PRC0133.Level1=Field &1 will not fit onto report if row and position specified for it are used
+Function.Design.Message.PRC0134.Level1=Field &1 overlaps one or more fields already positioned onto the report
+Function.Design.Message.PRC0135.Level1=Field &1 spans report lines using line and position number specified.
+Function.Design.Message.PRC0241.Level1=Field &1 cannot span a line for GUI enabled function
+Function.Design.Message.PRC0243.Level1=Text string "&1" must fit entirely on one line for GUI enabled function
+Function.Design.Message.PRC0303.Level1=Field &1 has a GUI attribute, therefore cannot be used in browse lists. Either remove the GUI attributes or remove the field from the browse list.
+Function.Design.Message.PRC0304.Level1=Push button &1 used more than once on screen. Each push button may only be specified once per screen. Remove one of the duplicate push buttons.
+Function.Design.Message.PRC0305.Level1=Drop down field cannot wrap onto another line. 
+Function.Design.Message.PRC0088.Level1=Unable to fit all of BROWSING portion of the display onto last format - error occurred at field &1. To remedy this situation, use another display/request command to display the BROWSE area, or nominate specific row and column numbers for some fields in the HEADER portion of the display so that the BROWSE portion is "pushed" off the current format onto another separate format.
+Function.Design.Message.PRC0188.Level1=Pop-up window will not fit on screen using AT_LOC and WITH_SIZE parameter values specified.
+Function.Design.Message.PRC0189.Level1=Panel identifier and/or title cannot be fitted into pop-up window
+Function.Design.Message.PRC1061.Level1=Display will not fit on one screen. If the Process is WEB enabled the Function can be compiled and executed.
+Function.Design.Message.PRC0199.Level1=Display with options *OVERLAY and *NOREAD will not fit on one screen. If the parameter OPTIONS contains *OVERLAY or *NOREAD, then all the fields in the DISPLAY or REQUEST command at statement number &1 must fit on the one screen format. 
+Function.Design.Message.PRC0321.Level1=Screen has no fields or text details that allow its basic 'layout' to be established.
+Function.Design.Fragment.Commit.Button.Caption=Update command
+Function.SaveTextMaps.Text=TextMaps have changed and must be saved before Full check can be run. Do you want to save now?
+Function.SaveTextMaps.Title=Save Function
+Function.Design.Button.AddText.Warning=The unconstrained use of Free Form text in place of dictionary driven text for things such as
+Function.Design.Button.AddText.Warning.Line1=column headings, labels and descriptions may act against the following:
+Function.Design.Button.AddText.Warning.Line2=1) (CUA) Common User Access
+Function.Design.Button.AddText.Warning.Line3=2) Use of a corporate dictionary
+Function.Design.Button.AddText.Warning.Line4=3) Multilingual potential
+Function.Design.Button.AddText.Warning.Line5=4) Ease of maintenance
+Function.Design.Text.SAA.Caption=SAA/CUA Options
+Function.Design.Text.SAA.Normal.Caption=Normal
+Function.Design.Text.SAA.Emphasised.Caption=Emphasised
+Function.Design.Text.SAA.NonSAA.Caption=Non SAA/CUA
+Function.Design.Text.Attributes.Caption=Attributes
+Function.Design.Text.Attributes.ReverseVideo.Caption=Reverse Video
+Function.Design.Text.Attributes.Underline.Caption=Underline
+Function.Design.Text.Attributes.Blinking.Caption=Blinking
+Function.Design.Text.Attributes.ColumnSeparators.Caption=Column Separators
+Function.Design.Text.Attributes.HighIntensity.Caption=High Intensity
+Function.Design.Text.Color.Caption=Color
+Function.Design.Text.Color.Default.Caption=Default
+Function.Design.Text.Color.Green.Caption=Green
+Function.Design.Text.Color.Blue.Caption=Blue
+Function.Design.Text.Color.White.Caption=White
+Function.Design.Text.Color.Red.Caption=Red
+Function.Design.Text.Color.Turquoise.Caption=Turquoise
+Function.Design.Text.Color.Yellow.Caption=Yellow
+Function.Design.Text.Color.Pink.Caption=Pink
+Function.Design.RowColumn.Hint.Caption=Row = &1, Column = &2
+Function.Design.Report.Page.Caption=Report
+Function.Design.Element.BrowseList.AutoLayout.Caption=Auto Layout
+Function.Design.AutoLayout.Warning.Line1=The current command has fields with no line and position assigned.
+Function.Design.AutoLayout.Warning.Line2=This action will assign a line and position to all fields in the command.
+Function.Design.AutoLayout.Warning.Line3=Do you wish to continue?
+Function.Menu.GotoDesign.Caption=Open Design
+Function.Menu.GotoDesign.Caption.Tip=Opens the designer for the active command
+Function.Menu.Field.Delete.Caption=Delete
+Function.Menu.Field.Delete.Caption.Tip=Delete the selected elements
+Function.Menu.Field.DeleteGroup.Caption=Delete Group
+Function.Menu.Field.DeleteGroup.Caption.Tip=Deletes the group containing the selected field
+Function.Menu.Text.Delete.Caption=Delete
+Function.Menu.Text.Delete.Caption.Tip=Delete the selected design elements
+Function.Menu.Browse.Delete.Caption=Delete
+Function.Menu.Browse.Delete.Caption.Tip=Delete the browse list
+Function.Design.Field.DeleteLast.Warning.Line1=The last field of a GROUP_BY or DEF_LIST is about to be deleted.
+Function.Design.Field.DeleteLast.Warning.Line2=This action will remove the whole command from the source.
+Function.Design.Field.DeleteLast.Warning.Line3=Do you wish to continue?
+Function.Design.FreeForm.Warning.Line1=The current command currently has fields with a line and position assigned.
+Function.Design.FreeForm.Warning.Line2=This action will remove the line and position from all fields in the command.
+Function.Design.FreeForm.Warning.Line3=Do you wish to continue?
+Function.Design.TextMap.Warning.Line1=To perform this operation the Text parameter must be converted to a TextMap.
+Function.Design.TextMap.Warning.Line2=Do you wish to continue?
+Function.Design.WIMP.CheckBox=Check Box
+Function.Design.WIMP.PushButton=Push Button
+Function.Design.WIMP.RadioButton=Radio Button
+Function.Design.WIMP.DropDown=Drop Down
+Function.Design.Drop.Question.Line1=Do you want to assign a line and position to the dropped elements.
+Function.Design.Page.DefReport.Caption=Report
+Function.Design.Page.DefHead.Caption=Header
+Function.Design.Page.DefBreak.Caption=Break
+Function.Design.Page.DefLine.Caption=Line
+Function.Design.Page.DefFoot.Caption=Footer
+Function.Design.Report.CurrentReport.Caption=Current Report
+Function.Design.Report.NotValid=No design available for the current report
+Function.Design.Element.None.Caption=None
+Function.Design.Report.CmdRepeats.Caption=Repeat
+Function.Design.Report.CmdCycles.Caption=Cycles
+Function.Design.Report.FormSize.Combo.Caption=Formsize
+Function.Design.Report.FormSize.Length.Caption=Length
+Function.Design.Report.FormSize.Width.Caption=Width
+Function.Design.Report.FormSize.GroupBox.Caption=Formsize Attributes
+Function.Design.ScreenNumber.Label.Caption=Format Number
+Function.Design.Button.AddText.InvalidFormat.Error=Text can only be inserted onto first format used by a command.
+Function.Design.Options.ShowAttributeByte.Caption=Attribute Byte
+Function.Design.Options.ShowHorizontalScale.Caption=Horizontal Scale
+Function.Design.Options.ShowVerticalScale.Caption=Vertical Scale
+Function.Design.Options.ShowDesignValues.Caption=Design Values
+Function.Design.Options.ScaleToPage.Caption=Scale to page
+Function.Design.Options.FixedFont.Caption=Fixed Font
+Function.Design.Zoom.Tip=Zoom
+
+*************************************************************
+*** FEATURES VIEW                                       *****
+*************************************************************
+FeaturesView.AlternateBackgroundColor=Alternate background color
+FeaturesView.AncestorChain=Ancestor chain
+FeaturesView.Any=Any
+FeaturesView.Array=Array
+FeaturesView.ArrayField=Array Field
+FeaturesView.ArrayVariable=Array Variable
+FeaturesView.Bold=Bold
+FeaturesView.BorderColor=Border color
+FeaturesView.BorderStyle=Border style
+FeaturesView.Browselist=Browse list
+FeaturesView.Calling3glProgram=Set value by calling 3GL program
+FeaturesView.CallingFunction=Set value by calling function
+FeaturesView.Class=Class
+FeaturesView.Classes=Classes
+FeaturesView.Captions=Captions
+FeaturesView.ColumnHeading=Column heading
+FeaturesView.ColumnHeadings=Column headings
+FeaturesView.ComAncestorDesc=The ancestor of the current component
+FeaturesView.ComOwnerDesc=The current component
+FeaturesView.ComSelfDesc=The executing component
+FeaturesView.Component=Component
+FeaturesView.Condition=Condition
+FeaturesView.Constructor=Constructor
+FeaturesView.ConstructorParameter=Constructor Parameter
+FeaturesView.ConstructorRoutineMap=Constructor Routine Map
+FeaturesView.Constructors=Constructors
+FeaturesView.Counter=Counter
+FeaturesView.DataType=Data type
+FeaturesView.DefaultValue=Default Value
+FeaturesView.Definition=Definition
+FeaturesView.Dynamic=Dynamic
+FeaturesView.EditMask=Edit mask
+FeaturesView.EnabledForRdmlx=Enabled for RDMLX
+FeaturesView.EntryDecimals=Entry Decimals
+FeaturesView.EntryLength=Entry Length
+FeaturesView.EntryType=Entry Type
+FeaturesView.Event=Event
+FeaturesView.EventParameter=Event Parameter
+FeaturesView.EventRoutineMap=Event Routine Map
+FeaturesView.Events=Events
+FeaturesView.Extends=Extends
+FeaturesView.ErrorBackgroundColor=Error background color
+FeaturesView.FaceName=Face name
+FeaturesView.Field=Field
+FeaturesView.Fields=Fields
+FeaturesView.File=File
+FeaturesView.FileLevelValidationRules=File level validation rules
+FeaturesView.FontSize=Font size
+FeaturesView.Functions=Functions
+FeaturesView.GoToLine=Go to line
+FeaturesView.GroupBy=Group By
+FeaturesView.Implements=Implements
+FeaturesView.Index=Index
+FeaturesView.Indices=Indices
+FeaturesView.InputArguments=Input Arguments
+FeaturesView.InputAttributes=Input Attributes
+FeaturesView.Italic=Italic
+FeaturesView.InstanceOf=Instance of &1
+FeaturesView.KeyboardShift=Keyboard shift
+FeaturesView.Keys=Keys
+FeaturesView.Label=Label
+FeaturesView.Length=Length
+FeaturesView.Line=Line &1
+FeaturesView.LineColor=Line color
+FeaturesView.List=List
+FeaturesView.LocalField=Local Field
+FeaturesView.LogicalFiles=Logical files
+FeaturesView.MethodOfDerivation=Method of derivation
+FeaturesView.Method=Method
+FeaturesView.MethodParameter=Method Parameter
+FeaturesView.MethodRoutineMap=Method Routine Map
+FeaturesView.Methods=Methods
+FeaturesView.MtxtValues=Mtxt values
+FeaturesView.Name=Name
+FeaturesView.Next=Next
+FeaturesView.No=No
+FeaturesView.NormalBackgroundColor=Normal background color
+FeaturesView.NumberOfEntries=Number of entries
+FeaturesView.OutputArguments=Output Arguments
+FeaturesView.OutputAttributes=Output Attributes
+FeaturesView.Overlaying=Overlaying
+FeaturesView.OverrideField=Override Field
+FeaturesView.Overrides=Overrides
+FeaturesView.Parameters=Parameters
+FeaturesView.ParmForEvent=Map for parameter &1 of event &2
+FeaturesView.Previous=Previous
+FeaturesView.Private=Private
+FeaturesView.Process=Process
+FeaturesView.PromptFunction=Prompt Function
+FeaturesView.Property=Property
+FeaturesView.PropertyRoutine=Property Routine
+FeaturesView.PropertyRoutineMap=Property Routine Map
+FeaturesView.Properties=Properties
+FeaturesView.Protected=Protected
+FeaturesView.Public=Public
+FeaturesView.ReferenceField=Reference field
+FeaturesView.References=References
+FeaturesView.RenamedField=Renamed Field
+FeaturesView.ReportBreak=Report break
+FeaturesView.ReportFooter=Report footer
+FeaturesView.ReportHeader=Report header
+FeaturesView.ReportLine=Report line
+FeaturesView.Required=Required
+FeaturesView.Routine=Routine
+FeaturesView.Script=Script
+FeaturesView.SqlNullBackgroundColor=SqlNull background color
+FeaturesView.StartPosition=Start position
+FeaturesView.Static=Static
+FeaturesView.Strikeout=Strikeout
+FeaturesView.Subroutine=Subroutine
+FeaturesView.TextColor=Text color
+FeaturesView.Titles=Titles
+FeaturesView.Triggers=Triggers
+FeaturesView.Type=Type
+FeaturesView.Underline=Underline
+FeaturesView.Usage=Usage
+FeaturesView.UsageIn=Usage in &1
+FeaturesView.ValidationRules=Validation rules
+FeaturesView.Values=Values
+FeaturesView.WorkingList=Working list
+FeaturesView.Yes=Yes
+FeaturesView.Visualization=Visualization
+FeaturesView.GroupViewMenuItem=Group View
+FeaturesView.SortedViewMenuItem=Sorted View
+FeaturesView.CategoryViewMenuItem=Category View
+
+*************************************************************
+*** WEB Design                                          *****
+*************************************************************
+Web.Design.NotValid=Design not available - Active Technology Service not found
+Web.Design.NotAvailable=No Webroutines have generated XSL for the &1 &2 Technology Service
+Web.DesignPlugIn.NotValid.Line1=Design not available. Possible causes include.
+Web.DesignPlugIn.NotValid.Line2=1. WAM* files not correctly registered.
+Web.DesignPlugIn.NotValid.Line3=2. Incorrect permissions for WAM work directories ( refer to LANSA settings ).
+Web.DesignPlugIn.NotValid.Line4=Please report this issue to LANSA
+Weblet.Design.NotAvailable=Weblet has no XSL for &1 &2 Technology Service
+Web.Design.Designer.Caption=&1 ( &2 )
+Web.Menu.GotoDesign.Caption=Open Design
+Web.Menu.GotoDesign.Caption.Tip=Opens the XSL design for the &1 Webroutine
+Web.Menu.GenerateXsl.Caption=Generate XSL
+Web.Menu.GenerateXslAll.Caption=All
+Web.Menu.GenerateXsl.Caption.Tip=Generates XSL for the &1 Webroutine
+Web.Menu.Refresh.Caption=Refresh
+Web.Menu.Refresh.Caption.Tip=Refresh the active design
+Web.Menu.Refresh.Caption.Title=Refresh
+Web.Menu.Refresh.WebPage.Caption=Web Page
+Web.Menu.Refresh.InlinedWeblets.Caption=Inlined Weblets
+Web.Menu.RefreshInline.Caption=Refresh Inlined Weblets...
+Web.Menu.RefreshInline.Caption.Tip=Refreshes Inlined Weblets for the active design
+Web.Menu.ExternalResources.Caption=Manage External Resources...
+Web.Menu.ExternalResources.Caption.Tip=Manage External Resources for the active design
+Web.Menu.PublishWebService.Caption=Publish Web Service...
+Web.Menu.PublishWebService.Caption.Tip=Publish the active WAM as a Web Service
+Web.Menu.OpenWebService.Caption=Open Web Service
+Web.Menu.OpenWebService.Caption.Tip=Open the active WAM Web Service in a browser
+Web.Menu.Diagnostics.Caption=Design Diagnostics
+Web.Menu.Diagnostics.Caption.Tip=Show diagnostics for the active design
+Web.Menu.Diagnostics2.Caption=Design Diagnostics 2
+Web.Menu.Diagnostics2.Caption.Tip=Show diagnostics for the active design
+Web.Menu.GenerateRoutine.Caption=Generate Webroutine
+Web.Menu.GenerateRoutine.Caption.Tip=Generates Webroutine for existing XSL
+Web.Design.WebMaps.TabSheet.Caption=Webroutine Output
+Web.Design.WebMaps.TabSheet.WebRoutine.Caption=Webroutine Output - &1
+Web.Design.WebMaps.New.Caption=New Web Map
+Web.Design.WebMaps.Global.Caption=Global Web Maps
+Web.Design.WebMaps.Local.Caption=Webroutine Web Maps
+Web.Design.WebMaps.WebMap.Caption=Web Map
+Web.Design.WebMaps.NewBtn.Hint=Create a new Web Map
+Web.Design.WebMaps.DeleteBtn.Hint=Delete
+Web.Menu.Caption=We&b
+Web.Menu.Hint=Displays Web options
+Web.Menu.Import.Caption=&Import Weblets...
+Web.Menu.Import.Hint=Import previously exported Weblets
+Web.Menu.AddToGroup=Add to group...
+Web.Menu.RemoveFromGroup=Remove from group...
+Web.Menu.RemoveFromThisGroup=Remove from this group
+Web.Menu.PublishAll.Caption=Publish All Weblets...
+Web.Menu.PublishAll.Hint=Publish all Weblets in repository
+Web.Menu.DebugRemotely.Caption=Debug Remotely
+Web.Menu.DebugRemotely.Hint=Open Webroutine in Web Browser for remote debugging
+Web.Menu.TechService.Caption=Technology Service
+Web.Menu.TechService.Hint=Switch the active technology service
+Web.Menu.Browser.Caption=Browser
+Web.Menu.Browser.Hint=Switch the browser to use to launch a WAM from inside the LANSA Editor
+Web.Menu.Browser.Chrome.Caption=Chrome
+Web.Menu.Browser.Chrome.Hint=use Chrome to launch a WAM from inside the LANSA Editor
+Web.Menu.Browser.Firefox.Caption=Firefox
+Web.Menu.Browser.Firefox.Hint=Use Firefox to launch a WAM from inside the LANSA Editor
+Web.Menu.Browser.InternetExplorer.Caption=Internet Explorer
+Web.Menu.Browser.InternetExplorer.Hint=Use Internet Explorer to launch a WAM from inside the LANSA Editor
+Web.Menu.Browser.Opera.Caption=Opera
+Web.Menu.Browser.Opera.Hint=Use Opera to launch a WAM from inside the LANSA Editor
+Web.Menu.Browser.Safari.Caption=Safari
+Web.Menu.Browser.Safari.Hint=Use Safari to launch a WAM from inside the LANSA Editor
+Web.Menu.Browser.WindowsDefault.Caption=Windows Default
+Web.Menu.Browser.WindowsDefault.Hint=Use the Windows default browser to launch a WAM from inside the LANSA Editor
+Web.Menu.ViewPort.Caption=Viewport
+Web.Menu.ViewPort.Hint=Select Viewport for Design
+Web.Menu.ViewPort.Phone.Portrait.Caption=Smart phone Portrait
+Web.Menu.ViewPort.Phone.Portrait.Hint=Design for a smart phone in Portrait mode
+Web.Menu.ViewPort.Phone.Landscape.Caption=Smart phone Landscape
+Web.Menu.ViewPort.Phone.Landscape.Hint=Design for a smart phone in Landscape mode
+Web.Menu.ViewPort.Tablet.Portrait.Caption=Tablet Portrait
+Web.Menu.ViewPort.Tablet.Portrait.Hint=Design for a tablet in Portrait mode
+Web.Menu.ViewPort.Tablet.Landscape.Caption=Tablet Landscape
+Web.Menu.ViewPort.Tablet.Landscape.Hint=Design for a tablet in Landscape mode
+Web.Menu.ViewPort.FullView.Caption=Full View
+Web.Menu.ViewPort.FullView.Hint=Design with no view limits
+Web.Menu.ViewPort.AsPerTSP.Caption=As per Technology Service
+Web.Menu.ViewPort.AsPerTSP.Hint=Use settings in currently selected Technology Service
+Web.Menu.ShowBorders.Caption=Design Borders
+Web.Menu.ShowBorders.Hint=Show\Hide XSl Design Borders
+Web.Menu.ShowTags.Caption=Design Tags
+Web.Menu.ShowTags.Hint=Show markers for HTML tags
+Web.Menu.RestoreXsl.Caption=Restore XSL...
+Web.Menu.RestoreXsl.Hint=Show Restore Options...
+Web.Design.Status.Message.Caption=&1
+Web.Design.XslNotLoaded=&1 - XSL not loaded
+Web.Design.WebRoutineNotFound=&1 - Webroutine not found
+Web.Design.ReplaceXsl.Warning.Line1=A design for &1 &2 Technology Service already exists for &3 Webroutine. Continuing will overwrite the existing design for this Webroutine.
+Web.Design.ReplaceXsl.Warning.Line2=This operation cannot be undone.
+Web.Design.ReplaceXsl.Warning.Line3=Do you still wish to continue?
+Web.Design.NewTSPXsl.Warning.Line1=A design for &1 &2 Technology Service doesn't exist for &3 Webroutine. Continuing will create a new design for this Webroutine.
+Web.Design.NewTSPXsl.Warning.Line2=Do you wish to continue?
+Web.Design.Dialog.OpenRoutines.Caption=Open Webroutine XSL
+Web.Design.Dialog.OpenRoutines.Tree.Column1.Caption=Webroutine Name
+Web.Design.NoSave.Warning.Line1=XSL has been modified and will not be saved.
+Web.Design.NoSave.Warning.Line2=Do you still wish to continue?
+Web.Design.Dialog.DeleteRoutines.Caption=Delete XSL Design
+Web.Design.Dialog.DeleteRoutines.Delete.Caption=&OK
+Web.Design.Fields.Name.Coumn.Caption=Name
+Web.Design.Fields.Desc.Coumn.Caption=Description
+Web.Design.Dialog.DeleteRoutines.Message.Caption=XSL Design exists but no corresponding Webroutine can be found. Click OK to remove the XSL Design for the checked items.
+Web.Weblets.Group.NoGroup=Unassigned
+Web.Weblets.Group.AllGroup=All Groups
+Web.Weblets.Group.Caption=Weblet Templates
+Web.Weblets.Group.Caption.Tip=Moves focus to the Weblet Templates view
+Web.Design.WebMaps.TabSheet.Caption.Tip=Moves focus to the Webroutine Output view
+Web.Weblets.Group.Item.Caption=Template Name
+Web.Weblets.Group.Template.Caption=Template
+Web.Weblets.Group.Weblet.Caption=Weblet
+Web.Weblets.Group.Description.Caption=Description
+Web.Diagnostics.View.Caption=Design Diagnostics
+Web.Diagnostics.View2.Caption=Design Diagnostics 2
+Web.Diagnostics.Design.Caption=Design
+Web.Diagnostics.Source.Caption=Source
+Web.Diagnostics.Xml.Caption=Xml
+Web.Ancestors.Caption=Web Ancestor Elements
+Web.Ancestors.Caption.Tip=Show the Web Ancestor Elements view
+Web.Error.CannotLoadWeblet.Text=Unable to load Weblet &1
+Web.Error.CannotLoadWebletVersion.Text=Unable to load Weblet &1, version &2
+Web.Design.DragDrop.Table.Caption=Create List
+Web.Design.DragDrop.Table.Inline.Caption=Create Inline List
+Web.Design.DragDrop.Cancel.Caption=Cancel
+Web.QueryOpenWam.Caption=&1 must be opened in the Editor to complete this operation. Do you want to open &2 in the Editor?
+Web.Design.Open.NotAvailable=WebRoutine does not have generated XSL for the &1 &2 Technology Service
+Web.Menu.NewRoutine.Caption=New Webroutine...
+Web.Menu.NewRoutine.Caption.Tip=Display the new Webroutine dialog
+
+Web.Design.NewRoutine.Caption=New Webroutine
+Web.Design.NewRoutine.Tip=Enter a Webroutine name and choose Create to begin designing your Web Page
+Web.Design.NewRoutine.Tip.InvalidName='&1' is not a valid Webroutine name.
+Web.Design.NewRoutine.Tip.InvalidServiceName='&1' is not a valid service name.
+Web.Design.NewRoutine.Tip.NameExists='&1' Webroutine name already exists.
+Web.Design.NewRoutine.ShowDialog.Caption=Show this dialog when Web Application Module with no Webroutines is opened
+Web.Design.NewRoutine.Close.Caption=Close
+Web.Design.NewRoutine.Name.Caption=Name
+Web.Design.NewRoutine.ServiceName.Caption=Service Name
+Web.Design.NewRoutine.Description.Caption=Description
+Web.Design.NewRoutine.Details.Caption=Webroutine details
+Web.Design.NewRoutine.WebDetails.Caption=Web Page design details
+Web.Design.Dialog.NewRoutine.Tree.Column1.Caption=Technology Service
+Web.Design.Dialog.NewRoutine.Tree.Column2.Caption=Provider
+Web.Design.Dialog.NewRoutine.Tree.Column3.Caption=Generate XSL
+Web.Design.Dialog.NewRoutine.Tree.Column4.Caption=Open Design
+Web.Design.Dialog.NewRoutine.Create.Caption=Create
+Web.Design.Webroutine.Name.Caption=Webroutine
+
+Web.Properties.ShowProperties.Caption=Property Attributes
+Web.Properties.ShowEvents.Caption=Event Attributes
+Web.Properties.ShowAriaAttributes.Caption="aria-" Attributes
+Web.Properties.ShowDataAttributes.Caption="data-" Attributes
+Web.Properties.ShowAttributesIfEmpty.Caption=Show If Empty
+Web.Properties.ShowXPath.Caption=XPath Entry Editor
+Web.Properties.ShowTips.Caption=Help Tips
+Web.Properties.Prompt.Variable.Caption=Variable Prompter
+Web.Properties.Prompt.CSSLengthUnit.Caption=Length Prompter
+Web.Properties.Prompt.Custom.Caption=Custom Prompter
+Web.Properties.Prompt.Color.Caption=Color Prompter
+Web.Properties.DefaultValue.Caption=<blank>
+Web.Properties.AutoQuotes.Caption=Quote Values
+
+Web.Properties.ShowProperties.Tip=Show Property Attributes
+Web.Properties.ShowEvents.Tip=Show Event Attributes
+Web.Properties.ShowAriaAttributes.Tip=Show "aria-" Attributes
+Web.Properties.ShowDataAttributes.Tip=Show "data-" Attributes
+Web.Properties.ShowAttributesIfEmpty.Tip=Show Attributes If Empty
+Web.Properties.ShowXPath.Tip=Show XPath Entry Editor
+Web.Properties.ShowTips.Tip=Show Help Tips
+Web.Properties.AutoQuotes.Tip=Adds quotes to property sheet values
+Web.Properties.XPath.Filter.Caption=Apply input filter
+Web.Properties.XPath.Filter.Hint=Filters the property value prior to display
+Web.Properties.XPath.UnFilter.Caption=Apply output filter
+Web.Properties.XPath.UnFilter.Hint=Filters the XPath expression prior to updating the property value
+
+Web.Properties.XPath.Caption=XPath Entry
+Web.Properties.XPath.Label.Caption=Enter XPath expression for the currently selected property
+Web.Properties.XPath.Apply.Hint=Applies the XPath expression to the currently selected property
+
+Web.Weblet.Save.Lock=You may not modify &1.+
++
+The possible reason(s) for this restriction are :+
+-
+   · You are not authorized to update this object.+
+   -
+   · This object was not checked out from the central repository for update.+
+   -
+   · The object has been locked under some other development task.+
+   -
+   · The object is currently in use by another developer or development process.
+
+Weblets.ShowDeprecated.Caption=Show Deprecated
+Weblets.ShowDeprecated.Tip=Toggles editor display of Weblets that have been deprecated
+Weblets.CopyInline.Caption=Copy Inline
+Weblets.CopyInline.Tip=Copy Inline template to the clipboard
+Weblets.PreviewInline.Caption=Preview Inline
+Weblets.PreviewInline.Tip=Preview Inline template
+Weblets.ShowInline.Caption=Show Inline
+Weblets.ShowInline.Tip=Toggles editor display of inline Weblets
+
+WebOutput.Copy.Caption=Copy
+WebOutput.Rename.Caption=Rename
+WebOutput.ReapplyList.Caption=Reapply list to XSL
+WebOutput.CreateList.Caption=Create List
+WebOutput.CreateList.Inline.Caption=Create Inline List
+WebOutput.ReapplyList.Caption.Tip=Replace XSL for list with new version
+
+Web.Errors.DescriptionNotProvided=Description not provided
+Web.Errors.UnspecifiedError=Unspecified error
+Web.Errors.UnknownError=Unknown error has occurred
+
+Web.Invalid.Number.Rows=Invalid number of rows
+Web.Invalid.Number.Cols=Invalid number of columns
+
+*************************************************************
+*** Text Editor Context Menu                            *****
+*************************************************************
+Web.TextEditor.Undo.Caption=Undo
+Web.TextEditor.Redo.Caption=Redo
+Web.TextEditor.Cut.Caption=Cut
+Web.TextEditor.Copy.Caption=Copy
+Web.TextEditor.Paste.Caption=Paste
+Web.TextEditor.Delete.Caption=Delete
+Web.TextEditor.SelectAll.Caption=Select All
+Web.TextEditor.Find.Caption=Find...
+Web.TextEditor.FindAgain.Caption=Find Next
+Web.TextEditor.FindPrevious.Caption=Find Previous
+Web.TextEditor.Replace.Caption=Replace...
+Web.TextEditor.GoTo.Caption=Go To...
+Web.TextEditor.OpenImport.Caption=Open to Edit
+Web.TextEditor.InsertLT.Caption=Insert script < operator
+Web.TextEditor.Insert_GT.Caption=Insert script > operator
+Web.TextEditor.Insert_AMP.Caption=Insert script &&&& operator
+
+*************************************************************
+*** HTML Editor Context Menu                            *****
+*************************************************************
+Web.HTML.Undo.Caption=Undo
+Web.HTML.Redo.Caption=Redo
+Web.HTML.Cut.Caption=Cut
+Web.HTML.Copy.Caption=Copy
+Web.HTML.Paste.Caption=Paste
+Web.HTML.DeleteList.Caption=Delete Entire List (%s)
+Web.HTML.Delete.Caption=Delete
+Web.HTML.DeleteShallow.Caption=Delete (EXCLUDING content)
+Web.HTML.PositionAbsolutely.Caption=Position Absolutely
+Web.HTML.SizeToContent.Caption=Size To Content
+Web.HTML.SizeWidth.Caption=Width
+Web.HTML.SizeHeight.Caption=Height
+Web.HTML.SizeBoth.Caption=Both
+Web.HTML.BringToTop.Caption=Bring To Front
+Web.HTML.SendToBack.Caption=Send To Back
+Web.HTML.RotateDesign.Caption=Rotate Design
+Web.HTML.SelectAll.Caption=Select All
+Web.HTML.ViewSource.Caption=View Source
+Web.HTML.InsertHTML.Caption=Insert HTML
+Web.HTML.InsertHTML.Table.Caption=Table...
+Web.HTML.InsertHTML.Anchor.Caption=Hyperlink
+Web.HTML.InsertHTML.Input.Caption=Input
+Web.HTML.InsertHTML.Input.InputText.Caption=Input Text
+Web.HTML.InsertHTML.Input.Text.Caption=Text
+Web.HTML.InsertHTML.Input.Button.Caption=Button
+Web.HTML.InsertHTML.Input.Checkbox.Caption=Checkbox
+Web.HTML.InsertHTML.Input.File.Caption=File
+Web.HTML.InsertHTML.Input.Hidden.Caption=Hidden
+Web.HTML.InsertHTML.Input.Image.Caption=Image
+Web.HTML.InsertHTML.Input.Password.Caption=Password
+Web.HTML.InsertHTML.Input.Radio.Caption=Radio
+Web.HTML.InsertHTML.Input.Reset.Caption=Reset
+Web.HTML.InsertHTML.Input.Submit.Caption=Submit
+Web.HTML.InsertHTML.Textarea.Caption=Textarea
+Web.HTML.InsertHTML.Image.Caption=Image
+Web.HTML.InsertHTML.Dropdown.Caption=Dropdown
+Web.HTML.InsertHTML.Listbox.Caption=Listbox
+Web.HTML.InsertHTML.Fieldset.Caption=Fieldset
+Web.HTML.InsertHTML.Label.Caption=Label %s%s
+Web.HTML.InsertHTML.Span.Caption=Span
+Web.HTML.InsertHTML.Div.Caption=Div
+Web.HTML.InsertHTML.OL.Caption=Ordered list
+Web.HTML.InsertHTML.UL.Caption=Unordered list
+Web.HTML.InsertHTML.ListItem.Caption=List Item
+Web.HTML.InsertHTML.Form.Caption=LANSA Form
+Web.HTML.InsertHTML5.Caption=Insert HTML5
+Web.HTML.InsertHTML5.Input.Caption=Input
+Web.HTML.InsertHTML5.Input.TextReq.Caption=Input Text (Required)
+Web.HTML.InsertHTML5.Input.TextReq2.Caption=Text (Required)
+Web.HTML.InsertHTML5.Input.EMail.Caption=EMail
+Web.HTML.InsertHTML5.Input.Date.Caption=Date
+Web.HTML.InsertHTML5.Input.Range.Caption=Range
+Web.HTML.InsertHTML5.Input.Search.Caption=Search
+Web.HTML.InsertHTML5.Input.Tel.Caption=Tel
+Web.HTML.InsertHTML5.Input.Color.Caption=Color
+Web.HTML.InsertHTML5.Input.Number.Caption=Number
+Web.HTML.InsertHTML5.Header.Caption=Header
+Web.HTML.InsertHTML5.HGroup.Caption=HGroup
+Web.HTML.InsertHTML5.Nav.Caption=Nav
+Web.HTML.InsertHTML5.Section.Caption=Section
+Web.HTML.InsertHTML5.Article.Caption=Article
+Web.HTML.InsertHTML5.Footer.Caption=Footer
+Web.HTML.InsertHTML5.Figure.Caption=Figure
+Web.HTML.InsertHTML5.FigCaption.Caption=Figcaption
+Web.HTML.InsertHTML5.Audio.Caption=Audio
+Web.HTML.InsertHTML5.Video.Caption=Video
+Web.HTML.InsertHTML5.Canvas.Caption=Canvas
+Web.HTML.InsertHTML5.Aside.Caption=Aside
+Web.HTML.InsertHTML5.Time.Caption=Time
+Web.HTML.InsertCustomHTML.Caption=Insert Custom HTML...
+Web.HTML.Weblet.Edit.Caption=Open
+Web.HTML.Weblet.AjaxCreateWr.Caption=Create AJAX webroutine
+
+Web.HTML.Weblet.ReplaceWithInputField.Caption=Replace With Input Field
+Web.HTML.Weblet.ReplaceWithOutputField.Caption=Replace With Output Field
+Web.HTML.Weblet.ReplaceWithHiddenField.Caption=Replace With Hidden Field
+Web.HTML.Weblet.ReplaceWithDefault.Caption=Replace With Default
+
+Web.HTML.ContentArea.Caption=Content Area for "%s"
+Web.HTML.ContentArea.Replace.Caption=Replace content
+Web.HTML.ContentArea.Expand.Caption=Expand content
+Web.HTML.ContentArea.Reset.Caption=Reset content
+Web.HTML.FieldCaption.ChangeToLabel.Caption=Change to Label
+Web.HTML.FieldCaption.ChangeToDescription.Caption=Change to Description
+Web.HTML.FieldCaption.ChangeToHeading.Caption=Change to Heading
+Web.HTML.FieldCaption.ChangeToHeading1.Caption=1
+Web.HTML.FieldCaption.ChangeToHeading2.Caption=2
+Web.HTML.FieldCaption.ChangeToHeading3.Caption=3
+
+Web.HTML.Field.ChangeToInputField.Caption=Change to Input Field
+Web.HTML.Field.ChangeToOutputField.Caption=Change to Output Field
+Web.HTML.Field.ChangeToHiddenField.Caption=Change to Hidden Field
+Web.HTML.Field.ChangeToDefault.Caption=Change to Default
+
+Web.HTML.InlineWeblet.Refresh.Caption=Refresh Inlined Weblet
+Web.HTML.InlineWeblet.Properties.Caption=Properties
+Web.HTML.InlineWeblet.Properties.Element.Caption=Element...
+Web.HTML.InlineWeblet.Properties.TagTree.Caption=Tag Tree...
+Web.HTML.InlineWeblet.Properties.TagList.Caption=Tag List...
+Web.HTML.InlineWeblet.Properties.Ancestors.Caption=Ancestors...
+Web.HTML.Table.Caption=Table
+Web.HTML.Table.CreateHeader.Caption=Create Header
+Web.HTML.Table.CreateFooter.Caption=Create Footer
+Web.HTML.Table.CreateCaption.Caption=Create Caption
+Web.HTML.Table.DeleteHeader.Caption=Delete Header
+Web.HTML.Table.DeleteFooter.Caption=Delete Footer
+Web.HTML.Table.DeleteCaption.Caption=Delete Caption
+Web.HTML.Table.SelectHeader.Caption=Select Header
+Web.HTML.Table.SelectBody.Caption=Select Body
+Web.HTML.Table.SelectFooter.Caption=Select Footer
+Web.HTML.Table.SelectCaption.Caption=Select Caption
+Web.HTML.Table.SelectAll.Caption=Select All
+Web.HTML.Table.Row.Caption=Table Items
+Web.HTML.Table.InsertRow.Caption=Insert Rows...
+Web.HTML.Table.AddRow.Caption=Add Rows...
+Web.HTML.Table.DeleteRow.Caption=Delete Rows...
+Web.HTML.Table.InsertColumn.Caption=Insert Columns...
+Web.HTML.Table.AddColumn.Caption=Add Columns...
+Web.HTML.Table.DeleteColumn.Caption=Delete Columns...
+Web.HTML.Table.InsertCell.Caption=Insert Cells...
+Web.HTML.Table.AddCell.Caption=Add Cells...
+Web.HTML.Table.DeleteCell.Caption=Delete Cells...
+Web.HTML.Table.SelectRow.Caption=Select Row
+Web.HTML.Text.Caption=Text
+Web.HTML.Text.Bold.Caption=Bold
+Web.HTML.Text.Italic.Caption=Italic
+Web.HTML.Text.Underline.Caption=Underline
+Web.HTML.Text.Subscript.Caption=Subscript
+Web.HTML.Text.Superscript.Caption=Superscript
+Web.HTML.Text.Strong.Caption=Strong
+Web.HTML.Text.Emphasis.Caption=Emphasis
+
+*************************************************************
+*** Command Actions                                     *****
+*************************************************************
+Web.Action.XslXmlChanges=XSL/XML Changes
+Web.Action.Custom2=Custom Designer
+Web.Action.Custom=Custom Designer
+Web.Action.PropertyValue=Change Property Value
+Web.Action.UpdateDependencies=Update Dependencies
+Web.Action.CommitDependencies=Commit Dependencies
+Web.Action.DropWeblet=Drop Weblet:
+Web.Action.Drop2=Drop
+Web.Action.Drop3=Drop
+Web.Action.DropDesignContent=Drop Design Content
+Web.Action.Delete=Delete
+Web.Action.Resize=Resize
+Web.Action.Move=Move
+Web.Action.Paste=Paste
+Web.Action.TableCellResize.Width=Resize Table Cell Width
+Web.Action.TableCellResize.Height=Resize Table Cell Height
+Web.Action.SetPropertyValue=Set Property Value
+Web.Action.SetPropertyValue.Ajax=Set Property Values via Ajax
+Web.Action.SetStyleValue=Set Style Value
+Web.Action.RefreshInlineWeblets=Refresh out-of-date inlined weblets
+Web.Action.Insert.BR=Insert <br>
+Web.Action.Typing=Typing
+Web.Action.UpdateWebletPropertyValue=Update Weblet Property Value
+Web.Action.SetFieldValue=Set Field Value
+Web.Action.SizeToContent=Size to Content
+Web.Action.Insert.Input=Insert Input
+Web.Action.Insert.Input.Table=Insert Table
+Web.Action.Insert.Input.Anchor=Insert Hyperlink
+Web.Action.Insert.Input.Textarea=Insert Textarea
+Web.Action.Insert.Input.Image=Insert Image
+Web.Action.Insert.Input.Dropdown=Insert Dropdown
+Web.Action.Insert.Input.Listbox=Insert Listox
+Web.Action.Insert.Input.Fieldset=Insert Fieldset
+Web.Action.Insert.Input.Label=Insert Label
+Web.Action.Insert.Input.Span=Insert Span
+Web.Action.Insert.Input.Div=Insert Div
+Web.Action.Insert.Input.Ol=Insert Ordered List
+Web.Action.Insert.Input.Ul=Insert Unordered List
+Web.Action.Insert.Input.Li=Insert List Item
+Web.Action.Insert.Input.LansaForm=Insert LANSA Form
+Web.Action.Insert.Input.Header=Insert Header
+Web.Action.Insert.Input.HGroup=Insert HGroup
+Web.Action.Insert.Input.Nav=Insert Nav
+Web.Action.Insert.Input.Section=Insert Section
+Web.Action.Insert.Input.Article=Insert Article
+Web.Action.Insert.Input.Footer=Insert Footer
+Web.Action.Insert.Input.Figure=Insert Figure
+Web.Action.Insert.Input.FigCaption=Insert FigCaption
+Web.Action.Insert.Input.Audio=Insert Audio
+Web.Action.Insert.Input.Video=Insert Video
+Web.Action.Insert.Input.Canvas=Insert Canvas
+Web.Action.Insert.Input.Aside=Insert Aside
+Web.Action.Insert.Input.Time=Insert Time
+Web.Action.ContentArea.Replace=Replace Content Area
+Web.Action.ContentArea.Expand=Expand Content Area
+Web.Action.ContentArea.Reset=Reset Content Area
+Web.Action.ChangeToHeading1=Change to Heading 1
+Web.Action.ChangeToHeading2=Change to Heading 2
+Web.Action.ChangeToHeading3=Change to Heading 3
+
+*************************************************************
+*** Preview View                                        *****
+*************************************************************
+Preview.Caption=Preview
+Preview.Delete.Tip=Reset preview view
+
+*************************************************************
+*** Version Control View                                *****
+*************************************************************
+VersionControl.Caption=Version Control
+
+*************************************************************
+*** Refresh Inlined Weblets Dialog                      *****
+*************************************************************
+
+WebRefreshInlined.Title=Refresh out-of-date inlined weblets
+WebRefreshInlined.Refresh.Caption=Refresh
+WebRefreshInlined.Message=The following inlined weblets have been updated since they were placed on the web design. Select the weblets you wish to refresh.
+WebRefreshInlined.Message.Wait=Please wait while inlined weblets of Components are queried
+WebRefreshInlined.Message.Uptodate=Refresh inlined weblets completed with results as shown below.
+WebRefreshInlined.Message.Cancelled= ( inline query cancelled )
+WebRefreshInlined.Col1.Caption=Name
+WebRefreshInlined.Col2.Caption=Description
+WebRefreshInlined.Col3.Pending=Pending
+WebRefreshInlined.Col3.Cancelled=Cancelled
+WebRefreshInlined.Col3.None=No inlined weblets found
+WebRefreshInlined.Col3.Complete=Inlined weblets updated
+WebRefreshInlined.Col3.MasterOnly=Master Only Object cannot be updated
+WebRefreshInlined.Col3.SourceErrors=Component contains errors and cannot be updated in this state
+WebRefreshInlined.Col3.DesignErrors=Design &1 contains errors and component cannot be updated in this state
+WebRefreshInlined.Col3.NoEdit=Edit is not supported for component
+WebRefreshInlined.Col3.NotLocked=The component cannot be locked
+WebRefreshInlined.Message.Design.Wait=Please wait while inlined weblets of Webroutine Design are queried
+WebRefreshInlined.Message.WAM.Wait=Please wait while inlined weblets of WAM are queried
+
+*************************************************************
+*** Manage External Resources Dialog                    *****
+*************************************************************
+
+WebManageExternalResources.Title=Manage External Resources
+WebManageExternalResources.Styles=Styles
+WebManageExternalResources.Scripts=Scripts
+WebManageExternalResources.Add=&Add...
+WebManageExternalResources.Delete=&Delete
+WebManageExternalResources.MoveUp=Move &up
+WebManageExternalResources.MoveDown=Move d&own
+WebManageExternalResources.Name=Name
+WebManageExternalResources.FileName=File Name
+WebManageExternalResources.Description=Description
+WebManageExternalResources.Location=Location
+WebManageExternalResources.Header=Header
+WebManageExternalResources.Body.Top=Body Top
+WebManageExternalResources.Body.Bottom=Body Bottom
+WebManageExternalResources.Async=Async
+
+*************************************************************
+*** CSS Units Dialog                                    *****
+*************************************************************
+
+WebCSSUnits.Title=CSS Units
+WebRefreshInlined.Absolute.Message=Absolute length units are highly dependent on the output medium, and so are less useful than relative units.
+WebRefreshInlined.Relative.Message=Both relative and absolute length units are supported. Relative units give a length relative to another length property, and are preferred since they will better adjust to different media.
+WebRefreshInlined.Percentage.Message=Percentage values are relative to other values. (Most often the percentage value is relative to the element's container)
+WebRefreshInlined.UnitType=Unit type
+WebCSSUnits.Absolute=Absolute
+WebCSSUnits.Relative=Relative
+WebRefreshInlined.Percentage=Percentage
+WebRefreshInlined.UnitName=Unit name
+WebRefreshInlined.Units=Units
+WebRefreshInlined.UnitType.em=em (ems, the height of the element's font)
+WebRefreshInlined.UnitType.ex=ex (x-height, the height of the letter "x")
+WebRefreshInlined.UnitType.px=px (pixels, relative to the canvas resolution)
+WebRefreshInlined.UnitType.in=in (inches; 1in=2.54cm)
+WebRefreshInlined.UnitType.cm=cm (centimeters; 1cm=10mm)
+WebRefreshInlined.UnitType.mm=mm (millimeters)
+WebRefreshInlined.UnitType.pt=pt (points; 1pt=1/72in)
+WebRefreshInlined.UnitType.pc=pc (picas; 1pc=12pt)
+
+*************************************************************
+*** Version Control Dialog                              *****
+*************************************************************
+
+VersionControlDialog.Title=Version Control - &1
+VersionControlDialog.Column.Name=Name
+VersionControlDialog.Column.Status=Status
+VersionControlDialog.Column.Result=Result
+VersionControlDialog.Column.Results=Results
+VersionControlDialog.Result.Saved=Saved
+VersionControlDialog.Result.Failed=Failed
+VersionControlDialog.Result.Ignored=Ignored
+VersionControlDialog.Result.Updated=Updated
+VersionControlDialog.Result.Cancelled=Cancelled
+VersionControlDialog.Checkbox.Caption=Include Identical
+VersionControlDialog.Failed.Header=&1 object(s) failed
+VersionControlDialog.Updated.Header=&1 object(s) succesfully updated
+VersionControlDialog.Saved.Header=&1 object(s) succesfully saved
+VersionControlDialog.Ignored.Header=&1 object(s) ignored
+VersionControlDialog.Cancelled.Header=&1 object(s) cancelled
+VersionControlDialog.Status.Unknown=Unknown
+VersionControlDialog.Status.Identical=Identical
+VersionControlDialog.Status.Different=Different
+VersionControlDialog.Status.LocalOnly=Repository Only
+VersionControlDialog.Status.MasterOnly=Version Control Only
+VersionControlDialog.Status.InvalidType=Invalid Object Type
+VersionControlDialog.Error.NotFound=&1 doesn't exist in the repository
+VersionControlDialog.Error.OpenInEditor=&1 is currently open in the editor
+VersionControlDialog.Error.ProcessOpenInEditor=Process &1 for function &2 is currently open in the editor
+VersionControlDialog.Msg.RepUpToDate=Repository Definitions are up-to-date. 
+VersionControlDialog.Msg.VcsUpToDate=Working Folder Definitions are up-to-date. 
+
+*************************************************************
+*** Webroutines View                                    *****
+*************************************************************
+
+Web.Webroutines.Caption=Webroutines
+Web.Webroutines.Name.Column.Caption=Name
+Web.Webroutines.Description.Column.Caption=Description
+
+
+*************************************************************
+*** Find Dot Net Assemblies Dialog                      *****
+*************************************************************
+
+FindNetAssembliesDialog.WaitMessage=Searching for assemblies in registered .NET assembly folders. Please Wait...
+FindNetAssembliesDialog.Caption=Find .Net Assemblies
+FindNetAssembliesDialog.NameColumn=Component Name
+FindNetAssembliesDialog.VersionColumn=Version
+FindNetAssembliesDialog.RuntimeVersionColumn=Runtime Version
+FindNetAssembliesDialog.PathColumn=Path
+FindNetAssembliesDialog.RegistryColumn=Registry Key
+FindNetAssembliesDialog.FindFile=Browse For Assembly File
+
+*************************************************************
+*** Html Attributes Dialog                              *****
+*************************************************************
+
+HtmlAttributes.Form.Caption=Html Attributes
+HtmlAttributes.Main.Caption=Set Form Html Page Attributes
+
+*************************************************************
+*** Editor Home Page                                    *****
+*************************************************************
+
+Editor.Home.Views.Caption=Views
+Editor.Home.Options.Caption=Options
+Editor.Home.News.Caption=News
+Editor.Home.News.Contents.Caption=Visual LANSA Developer Center
+Editor.Home.Support.Caption=Support
+Editor.Home.Support.Contents.Caption=Visual LANSA Support Center
+Editor.Home.Demos.Caption=Demos
+Editor.Home.Demos.Contents.Caption=Visual LANSA Demos
+
+**************************************************************************
+*** Editor Ribbon Key Tips - Grouped by scope to help avoid conflict *****
+**************************************************************************
+
+**************************************************************************
+*** Ribbon Main Editor Scope                                         *****
+**************************************************************************
+Editor.Ribbon.Debug.Debug.KeyTip=DB
+Editor.Design.KeyTip=DS
+Editor.Layout.KeyTip=DL
+Editor.Ribbon.AppMenu.KeyTip=F
+Editor.Ribbon.HomeSheet.KeyTip=H
+Editor.Ribbon.ToolsSheet.KeyTip=T
+
+**************************************************************************
+*** Ribbon Application Menu Scope                                    *****
+**************************************************************************
+Editor.Ribbon.KeyTip.Close=C
+Editor.Ribbon.KeyTip.Options=E
+Editor.Ribbon.Menu.New.KeyTip=N
+Editor.Ribbon.KeyTip.Open=O
+Editor.Ribbon.KeyTip.Print=P
+Editor.Ribbon.KeyTip.Save=S
+Editor.Ribbon.KeyTip.Exit=X
+
+**************************************************************************
+*** Ribbon Application Home Sheet Scope                              *****
+**************************************************************************
+
+Editor.Ribbon.KeyTip.Copy=C
+Editor.Ribbon.KeyTip.Execute=E
+Editor.Ribbon.KeyTip.Debug=D
+Editor.Ribbon.KeyTip.ErrorLogs=G
+Editor.Ribbon.KeyTip.ExecuteHistory=H
+Editor.Ribbon.Menu.LastOpened.KeyTip=L
+Editor.Ribbon.BuildGroup.Dialog.KeyTip=RB
+Editor.Ribbon.Debug.Execute.Dialog.KeyTip=RE
+Editor.Ribbon.KeyTip.RepositoryFind=RF
+Editor.Ribbon.KeyTip.OpenComp=RO
+Editor.Ribbon.RepositoryGroup.Dialog.KeyTip=RR
+Editor.Ribbon.Views.KeyTip=RS
+Editor.Ribbon.KeyTip.Views=RV
+Editor.Ribbon.RDMLX.KeyTip=RX
+Editor.Ribbon.KeyTip.Paste=V
+Editor.Ribbon.KeyTip.Cut=X
+Editor.Ribbon.ClipboardGroup.KeyTip=ZC
+Editor.Ribbon.DesignerGroup.KeyTip=ZD
+Editor.Ribbon.EditingGroup.KeyTip=ZF
+Editor.Ribbon.BuildGroup.KeyTip=ZM
+Editor.Ribbon.RepositoryGroup.KeyTip=ZR
+Editor.Ribbon.RemoteSystems.KeyTip=ZS
+Editor.Ribbon.Runtime.KeyTip=ZX
+
+**************************************************************************
+*** Ribbon Application Design Sheet Scope                            *****
+**************************************************************************
+
+Editor.Form.Design.KeyTip=ZD
+Editor.Layouts.Manager.KeyTip=ZL
+Editor.Styles.Attach.KeyTip=ZS
+
+**************************************************************************
+*** Ribbon Application Debug Sheet Scope                             *****
+**************************************************************************
+
+Editor.Ribbon.KeyTip.DebugGo=
+Editor.Ribbon.KeyTip.DebugStepInto=I
+Editor.Ribbon.KeyTip.DebugStepOver=O
+Editor.Ribbon.DebuggerGroup.KeyTip=ZD
+
+**************************************************************************
+*** Ribbon Application Tools Sheet Scope                             *****
+**************************************************************************
+
+Editor.Ribbon.KeyTip.Vlf=F
+Editor.Ribbon.KeyTip.MessageFiles=M
+Editor.Ribbon.Utilities.KeyTip=ZU
+Editor.Ribbon.InternalUseGroup.KeyTip=ZI
+Editor.Ribbon.Applications.KeyTip=ZA
+
+**************************************************************************
+*** Ribbon Application Design Sheet Scope                            *****
+**************************************************************************
+
+Editor.Web.Design.KeyTip=ZW
+Editor.Layouts.Attach.Item.KeyTip=ZA
+Editor.Layouts.Table.Item.KeyTip=ZT
+Editor.Layouts.Margins.KeyTip=ZM
+
+Editor.Ribbon.AppMenu.Caption=File
+Editor.Ribbon.HomeSheet.Caption=Home
+Editor.Ribbon.ToolsSheet.Caption=Tools
+Editor.Ribbon.ClipboardGroup.Caption=Clipboard
+Editor.Ribbon.FontsColorsGroup.Caption=Font
+Editor.Ribbon.Font.Title=Font
+Editor.Ribbon.Font.Hint=Show the font dialog in which you can set fonts for the Source view
+Editor.Ribbon.Colors.Title=Colors
+Editor.Ribbon.Colors.Hint=Show the colors dialog in which you can set colors for the Source view
+Editor.Ribbon.Audit.On=Audit On
+Editor.Ribbon.Audit.Off=Audit Off
+Editor.Ribbon.BuildGroup.Caption=Compile
+Editor.Ribbon.BuildGroup.Options.Caption=Options
+Editor.Ribbon.BuildGroup.CompileOptions.Caption=Compile Dialog
+Editor.Ribbon.BuildGroup.ExecuteOptions.Caption=Execute Dialog
+Editor.Ribbon.InternalUseGroup.Caption=Internal Use
+Editor.Ribbon.EditingGroup.Caption=Find
+Editor.Ribbon.File.Caption=File
+Editor.Ribbon.Applications.Caption=Visual LANSA Applications
+Editor.Ribbon.Wizards.Caption=
+Editor.Ribbon.Vlf.Caption=VL Framework
+Editor.Ribbon.Logs.Caption=Error Logs
+Editor.Ribbon.RemoteSystems.Caption=Remote Systems
+Editor.Ribbon.Utilities.Caption=Utilities
+
+Editor.Layouts.Helper.Caption=Layout Helper
+Editor.Layouts.Helper.Hint=Layout helper view
+Editor.Layouts.ApplyView.Caption=Apply Layout
+Editor.Layouts.ApplyView.Hint=Apply layouts to components
+Editor.Layouts.EditView.Caption=Edit Layout
+Editor.Layouts.EditView.Hint=Edit layouts
+Editor.Layouts.Table.Caption=New Table 
+Editor.Layouts.NewTable.Caption=&1*&2 Table
+Editor.Layouts.Manager.Caption=Layout Manager
+Editor.Layouts.Manager.Hint=Details of the applied layout manager
+Editor.Layouts.Item.Caption=Layout Item
+Editor.Layouts.Item.Hint=Details of the layout item
+Editor.Layouts.Preview.Caption=Preview
+Editor.Layouts.Preview.Hint=Layout preview
+Editor.Layouts.Margin.Caption=Margin
+Editor.Layouts.Margin.Hint=Marings
+Editor.Layouts.Min.Caption=Minimum
+Editor.Layouts.Min.Hint=Minimum
+Editor.Layouts.Max.Caption=Maximum
+Editor.Layouts.Max.Hint=Maximum
+
+Editor.Styles.BordersGroup.Caption=Borders and Corners
+Editor.Styles.Background.Caption=Background
+Editor.Styles.Border.Top.Caption=Border Top
+Editor.Styles.Border.Bottom.Caption=Border Bottom
+Editor.Styles.Border.Left.Caption=Border Left
+Editor.Styles.Border.Right.Caption=Border Right
+Editor.Styles.Corner.TopLeft.Caption=Corner Top Left
+Editor.Styles.Corner.TopRight.Caption=Corner Top Right
+Editor.Styles.Corner.BottomLeft.Caption=Corner Bottom Left
+Editor.Styles.Corner.BottomRight.Caption=Corner Bottom Right
+Editor.Styles.Style.ForegroundBrush.Title=Foreground
+Editor.Styles.Style.ForegroundBrush.Hint=Applies a Foreground Brush to the Style
+Editor.Styles.Style.BackgroundBrush.Title=Background
+Editor.Styles.Style.BackgroundBrush.Hint=Applies a Background Brush to the Style
+Editor.Styles.Style.BorderBrush.Title=Border
+Editor.Styles.Style.BorderBrush.Hint=Applies a Border Brush to the Style
+Editor.Styles.Style.Caption=Style
+Editor.Styles.Brush.Caption=Brush
+Editor.Styles.Ribbon.Caption=Ribbon
+Editor.Styles.Delete.Title=Remove
+Editor.Styles.Delete.Hint=Detaches style from the current control
+Editor.Styles.New.Caption=New Style
+Editor.Styles.New.Hint=Creates a style and attaches it the current control
+Editor.Styles.ActiveVisualStyle.Caption=Set Design Style
+Editor.Styles.ActiveVisualStyle.Title=Active Design Style
+Editor.Styles.ActiveVisualStyle.Hint=Activate a Visual Style for use in the designer
+Editor.Styles.ActiveVisualStyleEmpty.Caption=(Visual Style does not contain any Styles)
+Editor.Styles.Attach.Caption=Style
+Editor.Styles.Attach.Hint=Style settings for the current control
+Editor.Styles.AttachPrivate.Caption=Private
+Editor.Styles.AttachPrivate.Hint=Private Style settings for the current control
+Editor.Styles.AttachMouseOver.Caption=Mouseover
+Editor.Styles.AttachMouseOver.Hint=Mouseover Style settings for the current control
+Editor.Styles.Remove.Caption=Remove property
+Editor.Styles.Remove.Hint=Resets the style property to the default inherited state
+
+Editor.Layout.Manager.Caption=Manager
+Editor.Layout.Manager.Hint=Layout Manager settings for the current control
+Editor.Layout.Item.Caption=Item
+Editor.Layout.Item.Hint=Layout Item settings for the current control
+Editor.Layout.New.Caption=New Layout
+Editor.Layout.New.Hint=Creates a Layout and attaches it the current control
+
+Editor.Layouts.Attach.Item.Caption=Attachment Item
+Editor.Layouts.Attach.Delete.Title=Remove
+Editor.Layouts.Attach.Delete.Hint=Detaches Layout Manager from the current control
+Editor.Layouts.Item.Delete.Title=Detach
+Editor.Layouts.Item.Delete.Hint=Detaches control from its parent Layout
+Editor.Layouts.Attach.Top.Title=Top
+Editor.Layouts.Attach.Top.Hint=Attaches control to the Top of its parent
+Editor.Layouts.Attach.Bottom.Title=Bottom
+Editor.Layouts.Attach.Bottom.Hint=Attaches control to the Bottom of its parent
+Editor.Layouts.Attach.Left.Title=Left
+Editor.Layouts.Attach.Left.Hint=Attaches control to the Left of its parent
+Editor.Layouts.Attach.Right.Title=Right
+Editor.Layouts.Attach.Right.Hint=Attaches control to the Right of its parent
+Editor.Layouts.Attach.Client.Title=Center
+Editor.Layouts.Attach.Client.Hint=Attaches control to the Center of its parent
+Editor.Layouts.Attach.Title=Attachment
+Editor.Layouts.Attach.Hint=Creates an Attachment Layout Manager for the current control
+Editor.Layouts.Table.Title=Table
+Editor.Layouts.Table.Hint=Creates a Table Layout Manager for the current control
+Editor.Layouts.Table.Item.Caption=Table Item
+Editor.Layouts.Margins.Caption=Margins
+Editor.Layouts.FlowDown.Title=Flow Down
+Editor.Layouts.FlowDown.Hint=Creates a Flow Down Layout Manager for the current control
+Editor.Layouts.FlowAcross.Title=Flow Across
+Editor.Layouts.FlowAcross.Hint=Creates a Flow Across Layout Manager for the current control
+Editor.Layouts.Grid.Title=Grid
+Editor.Layouts.Grid.Hint=Creates a Grid Layout Manager for the current control
+Editor.Layouts.SplitH.Title=Split Horizontal
+Editor.Layouts.SplitH.Hint=Creates a Split Horizontal Layout Manager for the current control
+Editor.Layouts.SplitV.Title=Split Vertical
+Editor.Layouts.SplitV.Hint=Creates a Split Vertical Layout Manager for the current control
+Editor.Layouts.Attach.Desc=Attachment Layout Manager
+Editor.Layouts.Table.Desc=Table Layout Manager
+Editor.Layouts.FlowDown.Desc=Flow Down Layout Manager
+Editor.Layouts.FlowAcross.Desc=Flow Across Layout Manager
+Editor.Layouts.SplitH.Desc=Split Horizontal Layout Manager
+Editor.Layouts.SplitV.Desc=Split Vertical Layout Manager
+Editor.Layouts.Table.Rows.Caption=Rows
+Editor.Layouts.Table.Cols.Caption=Columns
+Editor.Layouts.Table.Row.Caption=Row
+Editor.Layouts.Table.Col.Caption=Column
+Editor.Layouts.Table.Sizing.None.Name=None
+Editor.Layouts.Table.Sizing.None.Desc=Size as designed
+Editor.Layouts.Table.Sizing.Caption=Size
+Editor.Layouts.Table.Sizing.FitBoth.Name=Fit Both
+Editor.Layouts.Table.Sizing.FitBoth.Desc=Resize to fill all available space
+Editor.Layouts.Table.Sizing.FitWidth.Name=Fit to Width
+Editor.Layouts.Table.Sizing.FitWidth.Desc=Resize to fill horizontal space
+Editor.Layouts.Table.Sizing.FitHeight.Name=Fit to Height
+Editor.Layouts.Table.Sizing.FitHeight.Desc=Resize to fill vertical space
+Editor.Layouts.Table.Align.Caption=Alignment
+Editor.Layouts.Table.Flow.Caption=Flow
+Editor.Layouts.Table.Align.Center.Name=Center
+Editor.Layouts.Table.Align.Center.Desc=Vertically and horizontally centered
+Editor.Layouts.Table.Align.TopLeft.Name=Top Left
+Editor.Layouts.Table.Align.TopLeft.Desc=Attached to the top left corner
+Editor.Layouts.Table.Align.TopCenter.Name=Top Center
+Editor.Layouts.Table.Align.TopCenter.Desc=Centered and attached to the top
+Editor.Layouts.Table.Align.TopRight.Name=Top Right
+Editor.Layouts.Table.Align.TopRight.Desc=Attached to the top right corner
+Editor.Layouts.Table.Align.CenterLeft.Name=Center Left
+Editor.Layouts.Table.Align.CenterLeft.Desc=Vertically centered and attached to the left
+Editor.Layouts.Table.Align.CenterRight.Name=Center Right
+Editor.Layouts.Table.Align.CenterRight.Desc=Vertically centered and attached to the right
+Editor.Layouts.Table.Align.BottomLeft.Name=Bottom Left
+Editor.Layouts.Table.Align.BottomLeft.Desc=Attached to the bottom left corner
+Editor.Layouts.Table.Align.BottomCenter.Name=Bottom Center
+Editor.Layouts.Table.Align.BottomCenter.Desc=Centered and attached to the bottom
+Editor.Layouts.Table.Align.BottomRight.Name=Bottom Right
+Editor.Layouts.Table.Align.BottomRight.Desc=Attached to the bottom right corner
+Editor.Layouts.Table.FlowLeft.Name=Left
+Editor.Layouts.Table.FlowLeft.Desc=Left of the prior control
+Editor.Layouts.Table.FlowNone.Name=None
+Editor.Layouts.Table.FlowNone.Desc=Positioned as Alignment
+Editor.Layouts.Table.FlowUp.Name=Up
+Editor.Layouts.Table.FlowUp.Desc=Above the prior control
+Editor.Layouts.Table.FlowDown.Name=Down
+Editor.Layouts.Table.FlowDown.Desc=Below the prior control
+Editor.Layouts.Table.FlowRight.Name=Right
+Editor.Layouts.Table.FlowRight.Desc=Right of the prior control
+Editor.Layouts.Table.Delete.Hint=Delete the layout and all of its dependencies
+Editor.Layouts.Table.Add.Hint=Add
+Editor.Layouts.Table.AddRow.Caption=Add Row
+Editor.Layouts.Table.AddRowDivider.Caption=Add Row Divider
+Editor.Layouts.Table.AddCol.Caption=Add Column
+Editor.Layouts.Table.AddColDivider.Caption=Add Column Divider
+Editor.Layouts.Table.Row.Height.Caption=Height
+Editor.Layouts.Table.Span.Caption=Span
+Editor.Layouts.Table.Row.Span.Caption=Row Span
+Editor.Layouts.Table.Row.Position.Caption=Position
+Editor.Layouts.Table.Row.Margin.Caption=Margin (T/B/L/R)
+Editor.Layouts.Table.Row.HeightFixed.Caption=Fixed Height
+Editor.Layouts.Table.Col.Width.Caption=Width
+Editor.Layouts.Table.Col.Span.Caption=Column Span
+Editor.Layouts.Table.Col.Position.Caption=Position
+Editor.Layouts.Table.Col.Margin.Caption=Margin (T/B/L/R)
+Editor.Layouts.Table.Col.WidthFixed.Caption=Fixed Width
+Editor.Layouts.Table.Row.Fixed.Hint=Sets Row to a fixed pixel height
+Editor.Layouts.Table.Col.Fixed.Hint=Sets Column to a fixed pixel width
+Editor.Layout.AddTo.Caption=Add
+Editor.Layout.AddTo.Hint=Creates Rows and Columns for the Table Layout
+Editor.Layout.DeleteFrom.Caption=Delete
+Editor.Layout.DeleteFrom.Hint=Delete Rows and Columns from the Table Layout
+Editor.Layouts.Table.MoveColLeft.Hint=Move Column left
+Editor.Layouts.Table.MoveColRight.Hint=Move Column right
+Editor.Layouts.Table.MoveRowUp.Hint=Move Row up
+Editor.Layouts.Table.MoveRowDown.Hint=Move Row down
+
+Editor.Styles.Borders.Caption=Borders
+Editor.Styles.BordersLeft.Caption=Left
+Editor.Styles.BordersTop.Caption=Top
+Editor.Styles.BordersRight.Caption=Right
+Editor.Styles.BordersBottom.Caption=Bottom
+Editor.Styles.Corners.Caption=Corners
+Editor.Styles.CornersTopLeft.Caption=Top Left
+Editor.Styles.CornersTopRight.Caption=Top Right
+Editor.Styles.CornersBottomLeft.Caption=Bottom Left
+Editor.Styles.CornersBottomRight.Caption=Bottom Right
+Editor.Styles.Foreground.Caption=Foreground
+Editor.Styles.FontSize.Caption=Size
+Editor.Styles.FontBoldFull.Caption=Bold
+Editor.Styles.FontItalicFull.Caption=Italic
+Editor.Styles.FontUnderlineFull.Caption=Underline
+Editor.Styles.FontBold.Caption=B
+Editor.Styles.FontBold.Title=Bold
+Editor.Styles.FontBold.Hint=Make the style text bold
+Editor.Styles.FontItalic.Caption=I
+Editor.Styles.FontItalic.Title=Italic
+Editor.Styles.FontItalic.Hint=Make the style text italic
+Editor.Styles.FontUnderline.Caption=U
+Editor.Styles.FontUnderline.Title=Underline
+Editor.Styles.FontUnderline.Hint=Make the style text underline
+Editor.Styles.FontForeground.Title=Foreground
+Editor.Styles.FontForeground.Hint=Change the Foreground color of the style
+Editor.Styles.Background.Title=Background
+Editor.Styles.Background.Hint=Change the Background color of the style
+Editor.Styles.Border.Title=Border
+Editor.Styles.Border.Hint=Change the Border color of the style
+Editor.Styles.Preview.Caption=Preview
+Editor.Styles.Preview.Insert.Caption=Preview (Click to insert style)
+Editor.Styles.PreviewLabel.Caption=AaBbCcDd
+Editor.Styles.PreviewLabelShort.Caption=AaBb
+
+Editor.Brushes.Caption=Brushes
+Editor.Brushes.Helper.Caption=Brushes Helper
+Editor.Brushes.Helper.Hint=Brushes helper view
+Editor.Brushes.Gradient.Caption=Gradient
+Editor.Brushes.Gradient.Preview.Caption=Preview
+Editor.Brushes.Gradient.Type.Caption=Gradient type
+Editor.Brushes.Gradient.Type.Hint=Gradient brush type
+Editor.Brushes.Gradient.Misc.Caption=Misc.
+Editor.Brushes.Gradient.Misc.Hint=Miscellaneous gradient brush types
+Editor.Brushes.Gradient.Web.Caption=Web Style
+Editor.Brushes.Gradient.Web.Hint=Web-page style gradient
+Editor.Brushes.Gradient.Spectrum.Caption=Spectrum
+Editor.Brushes.Gradient.Spectrum.Hint=Spectrum style gradient
+Editor.Brushes.Gradient.Rainbow.Caption=Rainbow
+Editor.Brushes.Gradient.Rainbow.Hint=Rainbow style gradient
+Editor.Brushes.Gradient.Image.Caption=Image
+Editor.Brushes.Gradient.Image.Hint=Image fill
+Editor.Brushes.Gradient.Dir.Caption=Gradient direction
+Editor.Brushes.Gradient.Dir.Hint=Predefined gradient direction
+Editor.Brushes.Gradient.BR.Caption=Bottom Right
+Editor.Brushes.Gradient.BR.Hint=Diagonal gradient axis from bottom-right to top-left
+Editor.Brushes.Gradient.BL.Caption=Bottom Left
+Editor.Brushes.Gradient.BL.Hint=Diagonal gradient axis from bottom-left to top-right
+Editor.Brushes.Gradient.TR.Caption=Top Right
+Editor.Brushes.Gradient.TR.Hint=Diagonal gradient axis from top-right to botton-left
+Editor.Brushes.Gradient.TL.Caption=Top Left
+Editor.Brushes.Gradient.TL.Hint=Diagonal gradient axis from top-left to bottom-right
+Editor.Brushes.Gradient.B.Caption=Bottom
+Editor.Brushes.Gradient.B.Hint=Gradient axis from bottom to top
+Editor.Brushes.Gradient.T.Caption=Top
+Editor.Brushes.Gradient.T.Hint=Gradient axis from top to bottom
+Editor.Brushes.Gradient.R.Caption=Right
+Editor.Brushes.Gradient.R.Hint=Gradient axis from right to left
+Editor.Brushes.Gradient.L.Caption=Left
+Editor.Brushes.Gradient.L.Hint=Gradient axis from left to right
+Editor.Brushes.Gradient.C.Caption=Center
+Editor.Brushes.Gradient.C.Hint=Gradient origin at center
+Editor.Brushes.Gradient.Colors.Caption=Colors
+Editor.Brushes.Gradient.Colors.Hint=Gradient colors
+Editor.Brushes.Gradient.Color.Caption=Color
+Editor.Brushes.Gradient.Color.Hint=Gradient brush color
+Editor.Brushes.Gradient.Add.Caption=Add
+Editor.Brushes.Gradient.Add.Hint=Add gradient brush color
+Editor.Brushes.Gradient.Rem.Caption=Remove
+Editor.Brushes.Gradient.Rem.Hint=Remove gradient brush color
+Editor.Brushes.Gradient.Red.Caption=Red
+Editor.Brushes.Gradient.Red.Hint=Red component of the color
+Editor.Brushes.Gradient.Green.Caption=Green
+Editor.Brushes.Gradient.Green.Hint=Green component of the color
+Editor.Brushes.Gradient.Blue.Caption=Blue
+Editor.Brushes.Gradient.Blue.Hint=Blue component of the color
+Editor.Brushes.Gradient.Color1.Caption=Color 1
+Editor.Brushes.Gradient.Color1.Hint=Color used for the first gradient stop
+Editor.Brushes.Gradient.Color2.Caption=Color 2
+Editor.Brushes.Gradient.Color2.Hint=Color used for the last gradient stop
+Editor.Brushes.Gradient.ColorReset.Caption=Reset
+Editor.Brushes.Gradient.ColorReset.Hint=Reset gradient colors to default values
+Editor.Brushes.Gradient.At.Caption=At
+Editor.Brushes.Gradient.At.Hint=Position of color on the gradient axis ( 0 - 100 )
+
+Editor.Brushes.Linear.Caption=Linear
+Editor.Brushes.Linear.Hint=Linear gradient
+Editor.Brushes.Linear.StartLeft.Caption=Start Left
+Editor.Brushes.Linear.StartLeft.Hint=Left-coord of start of the gradient axis
+Editor.Brushes.Linear.StartTop.Caption=Start Top
+Editor.Brushes.Linear.StartTop.Hint=Top-coord of start of the gradient axis
+Editor.Brushes.Linear.EndLeft.Caption=End Left
+Editor.Brushes.Linear.EndLeft.Hint=Left-coord of end of the gradient axis
+Editor.Brushes.Linear.EndTop.Caption=End Top
+Editor.Brushes.Linear.EndTop.Hint=Top-coord of end of the gradient axis
+Editor.Brushes.Radial.Caption=Radial
+Editor.Brushes.Radial.Hint=Radial gradient
+Editor.Brushes.Radial.OriginLeft.Caption=Origin-Left
+Editor.Brushes.Radial.OriginLeft.Hint=Left-coord of origin of the gradient
+Editor.Brushes.Radial.OriginTop.Caption=Origin-Top
+Editor.Brushes.Radial.OriginTop.Hint=Top-coord of origin of the gradient
+Editor.Brushes.Radial.RadiusLeft.Caption=Radius-Left
+Editor.Brushes.Radial.RadiusLeft.Hint=Horizontal radius of the gradient
+Editor.Brushes.Radial.RadiusTop.Caption=Radius-Top
+Editor.Brushes.Radial.RadiusTop.Hint=Vertical radius of the gradient
+
+Editor.Design.Caption=Design
+Editor.Form.Design.Caption=Design
+Editor.Layout.Caption=Layout
+
+Editor.Web.Design.Caption=Web
+Editor.Web.Tools.Caption=Tools
+Editor.Web.PublishAll.Caption=Publish
+Editor.Web.PublishAll.Title=Publish
+Editor.Web.PublishAll.Hint=Publish All Weblets
+Editor.Web.ImportWeblets.Caption=Import
+Editor.Web.ImportWeblets.Title=Import
+Editor.Web.ImportWeblets.Hint=Import Weblets
+Editor.Web.RestoreXsl.Caption=Restore XSL
+Editor.Web.RestoreXsl.Hint=Restore XSL
+Editor.Web.RestoreXsl.Title=Restore a previous version of XSL
+Editor.Web.Open.Caption=Open Webroutine
+Editor.Web.Open.Hint=Display list of Webroutines
+Editor.Web.Open.Title=Open Webroutine
+Editor.Web.Designer.Caption=Designer
+Editor.Web.Designer.Hint=Designer
+Editor.Web.Designer.Title=Show Web designer options
+Editor.Web.Settings.Caption=Web
+Editor.Web.Settings.Hint=Shows Web settings
+Editor.Web.Settings.Title=Web Settings
+Editor.Web.RefreshInline.Caption=Refresh
+Editor.Web.RefreshInline.Hint=Refresh Inlined Weblets
+Editor.Web.RefreshInline.Title=Refresh
+Editor.Web.ExternalResources.Caption=External Resources
+Editor.Web.ExternalResources.Hint=Manage External Resources
+Editor.Web.ExternalResources.Title=External Resources
+Editor.Web.TechService.Caption=Technology Service
+Editor.Web.TechService.Hint=Switch the active Technology Service
+Editor.Web.TechService.Title=Technology Service
+
+Editor.Form.DesignerActiveX.Caption=ActiveX
+Editor.Form.DesignerActiveX.Hint=Sets the Attributes required to expose this component as an ActiveX control
+Editor.Form.DesignerActiveX.Title=ActiveX Attributes
+Editor.Form.DesignerAlign.Caption=Align
+Editor.Form.DesignerAlign.Hint=Aligns a group of selected components in the Design view  (Ctrl+L)
+Editor.Form.DesignerAlign.Title=Align
+Editor.Form.DesignerSize.Caption=Size
+Editor.Form.DesignerSize.Hint=Sizes a group of selected components in the Design view  (Ctrl+K)
+Editor.Form.DesignerSize.Title=Size
+Editor.Form.DesignerLock.Caption=Lock Design
+Editor.Form.DesignerLock.Hint=Locks the active component's design view
+Editor.Form.DesignerLock.Title=Lock Design
+Editor.Form.DesignerUnlock.Caption=Unlock Design
+Editor.Form.DesignerUnlock.Hint=Unlocks the active component's design view
+Editor.Form.DesignerUnlock.Title=Unlock Design
+Editor.Form.Designer.Caption=Designer
+Editor.Form.Designer.Hint=Show Form designer type options
+Editor.Form.Designer.Title=Designer Type
+Editor.Form.DesignLanguage.Caption=Design Language
+Editor.Form.DesignLanguage.Hint=Sets the language of captions in Design View
+Editor.Form.DesignLanguage.Title=Design Language
+Editor.Form.DesignTheme.Caption=Design Theme
+Editor.Form.DesignTheme.Hint=Sets the theme of the Design View
+Editor.Form.DesignTheme.Title=Design Theme
+Editor.Form.DesignStyle.Caption=Design Style
+Editor.Form.DesignStyle.Hint=Sets the style of the Design View
+Editor.Form.DesignStyle.Title=Design Style
+Editor.Form.DesignStyle.Skin.Caption=Designer Skin
+Editor.Form.DesignStyle.SkinNone.Caption=None
+Editor.Form.DesignStyle.SkinIE.Caption=Internet Explorer
+Editor.Form.DesignStyle.Size.Caption=Designer Size
+Editor.Form.DesignStyle.Size1.Caption=iPhone 5 - 1136 x 640
+Editor.Form.DesignStyle.Size2.Caption=iPhone 4s - 960 x 640
+Editor.Form.DesignStyle.Size3.Caption=iPod Touch - 640 x 480
+Editor.Form.DesignStyle.Size4.Caption=iPad 3 - 2048 x 1536
+Editor.Form.DesignStyle.Size5.Caption=iPad 1 & 2 - 1024 x 768
+Editor.Form.DesignStyle.Size6.Caption=Samsung Galaxy SIII - 1280 × 720
+Editor.Form.DesignStyle.Size7.Caption=Samsung Galaxy Tab - 1280 x 800
+Editor.Form.DesignStyle.Size8.Caption=Nokia 920 - 1280 x 768
+Editor.Form.DesignStyle.Size9.Caption=Nokia 920 - 800 x 480
+Editor.Form.DesignStyle.Size10.Caption=Microsoft Surface - 1366 x 768
+Editor.Form.DesignStyle.Size11.Caption=Kindle Fire - 1920x 1200
+
+Editor.TargetRuntime.Title=Target Runtime Setting
+
+Editor.Ribbon.StylesGroup.Caption=Editor Style
+Editor.Ribbon.RDMLX.Caption=RDMLX
+Editor.Ribbon.RepositoryGroup.Caption=Repository
+Editor.Ribbon.Views.Caption=Views
+Editor.Ribbon.Views.Title=Views
+Editor.Ribbon.Views.Hint=Display list of Editor Views
+Editor.Ribbon.Controls.Caption=Controls
+Editor.Ribbon.Controls.Hint=Shows the Controls view
+Editor.Ribbon.Repository.Caption=Repository
+Editor.Ribbon.Repository.Hint=Shows the Repository view
+Editor.Ribbon.Favorites.Caption=Favorites
+Editor.Ribbon.Favorites.Hint=Shows the Favorites view
+Editor.Ribbon.Details.Caption=Details
+Editor.Ribbon.Details.Hint=Shows the Details view
+Editor.Ribbon.Outline.Caption=Outline
+Editor.Ribbon.Outline.Hint=Shows the Outline view
+Editor.Ribbon.Feature.Caption=Features
+Editor.Ribbon.Feature.Hint=Shows the Features view
+Editor.Ribbon.Clipboard.Cut.Caption=Cut
+Editor.Ribbon.Clipboard.Cut.Title=Cut (Ctrl+X)
+Editor.Ribbon.Clipboard.Cut.Hint=Cut the selection and put in on the Clipboard
+Editor.Ribbon.Clipboard.Copy.Caption=Copy
+Editor.Ribbon.Clipboard.Copy.Title=Copy (Ctrl+C)
+Editor.Ribbon.Clipboard.Copy.Hint=Copy the selection and put in on the Clipboard
+Editor.Ribbon.Clipboard.Paste.Caption=Paste
+Editor.Ribbon.Clipboard.Paste.Title=Paste (Ctrl+V)
+Editor.Ribbon.Clipboard.Paste.Hint=Paste the contents of the Clipboard
+Editor.Ribbon.Clipboard.Undo.Caption=Undo
+Editor.Ribbon.Clipboard.Undo.Title=Undo (Ctrl+Z)
+Editor.Ribbon.Clipboard.Undo.Hint=Undo the last action
+Editor.Ribbon.Clipboard.Redo.Caption=Redo
+Editor.Ribbon.Clipboard.Redo.Title=Redo (Ctrl+Y)
+Editor.Ribbon.Clipboard.Redo.Hint=Redo the last action
+Editor.Ribbon.Build.UseTemplate.Caption=Templates
+Editor.Ribbon.Build.UseTemplate.Title=Use Template
+Editor.Ribbon.Build.UseTemplate.Hint=Use Template Wizard
+Editor.Ribbon.Build.DesignCheck.Caption=Design Check
+Editor.Ribbon.Build.DesignCheck.Title=Design Check
+Editor.Ribbon.Build.DesignCheck.Hint=Design Check
+Editor.Ribbon.Build.FullCheck.Caption=Full Check
+Editor.Ribbon.Build.FullCheck.Title=Full Check
+Editor.Ribbon.Build.FullCheck.Hint=Full Check (Alt+U)
+Editor.Ribbon.Build.Build.Caption=Build
+Editor.Ribbon.Build.Build.Title=Build (Alt+B)
+Editor.Ribbon.Build.Build.Hint=Build (Alt+B)
+Editor.Ribbon.Build.Compile.Caption=Compile
+Editor.Ribbon.Build.Compile.Title=Compile (Ctrl+Shift+C)
+Editor.Ribbon.Build.Compile.Hint=Compile (Ctrl+Shift+C)
+Editor.Ribbon.QuickAccess.Save.Hint=Save
+Editor.Ribbon.QuickAccess.CheckIn.Hint=Check In
+Editor.Ribbon.QuickAccess.Compile.Hint=Compile (Ctrl+Shift+C)
+Editor.Ribbon.Footer.Options.Caption=Options
+Editor.Ribbon.Footer.Exit.Caption=Exit
+Editor.Ribbon.Menu.LastOpened.Caption=Last Opened
+Editor.Ribbon.Menu.New.Caption=New
+Editor.Ribbon.Menu.Open.Caption=Open
+Editor.Ribbon.Menu.Save.Caption=Save
+Editor.Ribbon.Menu.SaveAll.Caption=Save All
+Editor.Ribbon.Menu.Close.Caption=Close
+Editor.Ribbon.Menu.CloseAll.Caption=Close All
+Editor.Ribbon.Menu.Print.Caption=Print
+Editor.Ribbon.Menu.EnableRdmlx.Caption=Enable
+Editor.Ribbon.Menu.LockDesign.Caption=Lock Design
+Editor.Ribbon.DebugGroup.Caption=Debug
+Editor.Ribbon.DebuggerGroup.Caption=Debugger
+Editor.Ribbon.DesignerGroup.Caption=Designer
+Editor.Ribbon.DesignGroup.Caption=Design
+Editor.Ribbon.WindowsGroup.Caption=Window
+Editor.Ribbon.HelpGroup.Caption=Help
+Editor.Ribbon.RebuildDefinitions.Title=Rebuild Definitions
+Editor.Ribbon.RebuildDefinitions.Hint=Rebuild Definitions
+Editor.Ribbon.RebuildDefinitions.Caption=Rebuild
+
+Editor.Ribbon.Gallery.Styles.Local.Caption=Local Styles
+
+Editor.Ribbon.Gallery.Styles.New.Caption=New Style
+Editor.Ribbon.Gallery.Styles.Brushes.Caption=Brushes
+Editor.Ribbon.Gallery.Styles.Background.Caption=Background
+Editor.Ribbon.Gallery.Styles.Foreground.Caption=Foreground
+Editor.Ribbon.Gallery.Styles.Border.Caption=Border
+Editor.Ribbon.Gallery.Styles.Font.Caption=Font
+Editor.Ribbon.Gallery.Styles.All.Caption=All
+Editor.Ribbon.Gallery.Styles.Color1.Caption=Color 1
+Editor.Ribbon.Gallery.Styles.Color2.Caption=Color 2
+Editor.Ribbon.Gallery.Styles.NormBackColor.Caption=Background Color
+Editor.Ribbon.Gallery.Styles.BorderColor.Caption=Border Color
+Editor.Ribbon.Gallery.Styles.TextColor.Caption=Text Color
+
+Editor.Ribbon.Command.New=New
+Editor.Ribbon.Command.Open=Open
+Editor.Ribbon.Command.Save=Save
+Editor.Ribbon.Command.Compile=Compile
+Editor.Ribbon.Command.NextComponent=Next Component
+Editor.Ribbon.Command.PrevComponent=Previous Component
+Editor.Ribbon.Command.V12MenuBar=Version 12 Menu Bar
+Editor.Ribbon.Command.Debug=Debug
+Editor.Ribbon.Command.Execute=Execute
+Editor.Ribbon.Command.ExecuteHistory=Execute History
+Editor.Ribbon.Command.RepositoryFind=Repository Find
+Editor.Ribbon.Command.CheckIn=Check In
+Editor.Ribbon.Command.OpenComponents=Open Objects
+Editor.Ribbon.Command.Close=Close
+Editor.Ribbon.Command.Build=Build
+Editor.Ribbon.Command.HostMonitor=Host Monitor
+Editor.Ribbon.Command.DeploymentTool=Deployment Tool
+Editor.Ribbon.Command.Import=Import
+Editor.Ribbon.Command.TextSearch=Text Search
+Editor.Ribbon.Command.QuickExport=Quick Export
+Editor.Ribbon.Command.ErrorLog=Error Log
+Editor.Ribbon.Command.WebErrorLog=Web Error Log
+Editor.Ribbon.Command.SystemInformation=System Information
+Editor.Ribbon.Command.MasterErrorLog=Master Error Log
+Editor.Ribbon.Command.MasterRefresh=Master Refresh
+Editor.Ribbon.Command.ConnectionHistory=Connection History
+Editor.Ribbon.Command.StatusText=Status Messages
+Editor.Ribbon.Command.StatusLocation=Cursor Location
+Editor.Ribbon.Command.StatusCurrentConfig=Configuration
+Editor.Ribbon.Command.Partition=Partition
+Editor.Ribbon.Command.StatusUser=User
+Editor.Ribbon.Command.StatusTask=Task
+Editor.Ribbon.Command.StatusLanguage=Language
+Editor.Ribbon.Command.StatusAudit=Audit Stamps
+Editor.Ribbon.Command.StatusFont=Font
+Editor.Ribbon.Command.StatusWeb=Technology Service
+Editor.Ribbon.Command.TargetRuntime=Target Runtime
+
+Editor.Ribbon.Help.Help.Caption=Help
+Editor.Ribbon.Help.Help.Title=Visual LANSA Help (F1)
+Editor.Ribbon.Help.Help.Hint=Get help using Visual LANSA
+Editor.Ribbon.Help.HelpOnline.Caption=Help Online
+Editor.Ribbon.Help.HelpOnline.Title=Visual LANSA Online Help
+Editor.Ribbon.Help.HelpOnline.Hint=Get help online using Visual LANSA
+Editor.Ribbon.Help.Contents=Contents
+Editor.Ribbon.Help.EditorOView=Using the Editor 
+Editor.Ribbon.Help.About=About
+Editor.Ribbon.Help.ShortCuts=ShortCuts
+Editor.Ribbon.Window.Next.Title=Next object
+Editor.Ribbon.Window.Next.Hint=Shows the next open object
+Editor.Ribbon.Window.Prev.Title=Previous object
+Editor.Ribbon.Window.Prev.Hint=Shows the previous open object
+Editor.Ribbon.Window.CloseAllButCurrent.Title=Close All but active
+Editor.Ribbon.Window.CloseAllButCurrent.Hint=Closes all but the active object
+Editor.Ribbon.Window.OpenComp.Caption=Open Objects
+Editor.Ribbon.Window.OpenComp.Title=Open objects
+Editor.Ribbon.Window.OpenComp.Hint=Shows a list of open objects
+Editor.Ribbon.MessageFiles.Caption=Message Files
+Editor.Ribbon.MessageFiles.Title=Message files
+Editor.Ribbon.MessageFiles.Hint=Shows the message file editor
+Editor.Ribbon.Close.Title=Close
+Editor.Ribbon.Close.Hint=Closes the current object 
+Editor.Ribbon.V12Menu.Title=Menu Bar
+Editor.Ribbon.V12Menu.Hint=Version 12 Menu Bar
+Editor.Ribbon.Debug.Debug.Caption=Debug
+Editor.Ribbon.Debug.Debug.Title=Debug
+Editor.Ribbon.Debug.Debug.Hint=Executes the object in debug mode
+Editor.Ribbon.Debug.Execute.Caption=Execute
+Editor.Ribbon.Runtime.Caption=Runtime
+Editor.Ribbon.Debug.Execute.Title=Execute
+Editor.Ribbon.Debug.Execute.Hint=Executes the object
+Editor.Ribbon.Debug.ExecuteHistory.Views.Caption=Execute History
+Editor.Ribbon.Debug.ExecuteHistory.Caption=History
+Editor.Ribbon.Debug.ExecuteHistory.Title=Execute History
+Editor.Ribbon.Debug.ExecuteHistory.Hint=Executes a previously executed object
+Editor.Ribbon.Debug.Continue.Title=Continue Debug
+Editor.Ribbon.Debug.Continue.Hint=Continues debugger execution
+Editor.Ribbon.Debug.End.Title=End Debug
+Editor.Ribbon.Debug.End.Hint=End the debug session
+Editor.Ribbon.Debug.StepInto.Title=Step Into
+Editor.Ribbon.Debug.StepInto.Hint=Step Into the currently debugging statement
+Editor.Ribbon.Debug.StepOver.Title=Step Over
+Editor.Ribbon.Debug.StepOver.Hint=Step Over the currently debugging statement
+Editor.Ribbon.Debug.Options.Caption=Options
+Editor.Ribbon.Debug.Options.Title=Debug Options
+Editor.Ribbon.Debug.Options.Hint=Displays Debug Options Menu
+Editor.Ribbon.Debug.Animate.Title=Animate
+Editor.Ribbon.Debug.Animate.Hint=Automatic execution for the current debug session
+Editor.Ribbon.Debug.Toggle.Title=Toggle Breakpoint
+Editor.Ribbon.Debug.Toggle.Hint=Insert\Remove breakpoint for the current statement
+Editor.Ribbon.Debug.ClearAll.Title=Clear All
+Editor.Ribbon.Debug.ClearAll.Hint=Clears all breakpoints
+Editor.Ribbon.Debug.DisableAll.Title=Disable All
+Editor.Ribbon.Debug.DisableAll.Hint=Disables all breakpoints
+Editor.Ribbon.Find.Find.Caption=Find
+Editor.Ribbon.Find.Find.Title=Find (Ctrl+F)
+Editor.Ribbon.Find.Find.Hint=Find text in the Component
+Editor.Ribbon.Find.Find.Menu.Text=Text
+Editor.Ribbon.Find.Find.Menu.AuditStamps=Audit Stamps
+Editor.Ribbon.Find.Text.Caption=Text Search
+Editor.Ribbon.Find.Text.Title=Text Search
+Editor.Ribbon.Find.Text.Hint=Find text in multiple Components
+Editor.Ribbon.Find.Repository.Caption=Repository Find
+Editor.Ribbon.Find.Repository.Title=Repository Find
+Editor.Ribbon.Find.Repository.Hint=Finds objects in the repository
+Editor.Ribbon.Find.Replace.Caption=Replace
+Editor.Ribbon.Find.Replace.Title=Replace (Ctrl+H)
+Editor.Ribbon.Find.Replace.Hint=Replace text in the Component
+Editor.Ribbon.InternalUse.Compile.Caption=Compile
+Editor.Ribbon.InternalUse.CompileDialog.Caption=Options...
+Editor.Ribbon.InternalUse.Build.Caption=Build
+Editor.Ribbon.Logs.Errors.Caption=Errors
+Editor.Ribbon.Views.Popup.View.Caption=Views
+Editor.Ribbon.Views.Popup.Repository.Caption=Repository
+Editor.Ribbon.Views.Popup.Debug.Caption=Debug
+Editor.Ribbon.Views.Popup.Help.Caption=Help
+Editor.Ribbon.Views.Popup.Design.Caption=Design
+Editor.Ribbon.New.Caption=New
+Editor.Ribbon.New.Title=New
+Editor.Ribbon.New.Hint=Creates a new object 
+Editor.Ribbon.Customize.Popup.View.Caption=Customize Quick Access Toolbar
+Editor.Ribbon.Customize.Popup.Reset.Hint=Reset Quick Access Toolbar
+Editor.Ribbon.Customize.Popup.MoveLeft.Hint=Move Left
+Editor.Ribbon.Customize.Popup.MoveRight.Hint=Move Right
+Editor.Ribbon.Customize.StatusPopup.Caption=Customize Statusbar
+Editor.Ribbon.Customize.StatusPopup.Reset.Hint=Reset Statusbar
+
+Editor.StylesHelperView.Caption=Styles Helper
+Editor.StylesHelperView.StyledControl.Caption=Styled Control
+Editor.StylesHelperView.Style.Caption=Style
+Editor.StylesHelperView.Create.Caption=Create Style
+Editor.StylesHelperView.Destroy.Caption=Destroy Style
+Editor.StylesHelperView.Foreground.Caption=Foreground
+Editor.StylesHelperView.Background.Caption=Background
+Editor.StylesHelperView.SolidOpacity.Caption=Opacity
+Editor.StylesHelperView.SolidColor.Caption=Color
+Editor.StylesHelperView.BrushDefinition.Caption=Brush Definition
+Editor.StylesHelperView.BrushColors.Caption=Colors
+Editor.StylesHelperView.BrushColorsAt.Caption=At
+Editor.StylesHelperView.LinearStart.Caption=Start % (Left, Top)
+Editor.StylesHelperView.LinearEnd.Caption=End % (Left, Top)
+Editor.StylesHelperView.LinearOpacity.Caption=Opacity
+Editor.StylesHelperView.LinearSpread.Caption=Spread
+Editor.StylesHelperView.RadialOrigin.Caption=Origin % (Left, Top)
+Editor.StylesHelperView.RadialRadius.Caption=Radius % (Left, Top)
+Editor.StylesHelperView.RadialCenter.Caption=Center % (Left, Top)
+Editor.StylesHelperView.RadialOpacity.Caption=Opacity
+Editor.StylesHelperView.RadialSpread.Caption=Spread
+Editor.StylesHelperView.ForegroundBrush.Caption=Foreground Brush
+Editor.StylesHelperView.BackgroundBrush.Caption=Background Brush
+Editor.StylesHelperView.Brushes.Caption=Brushes
+Editor.StylesHelperView.BorderBrush.Caption=Border Brush
+Editor.StylesHelperView.MaskBrush.Caption=Mask Brush
+Editor.StylesHelperView.Effect.Caption=Effect
+Editor.StylesHelperView.NewBrush.Caption=New Brush
+Editor.StylesHelperView.DeleteBrush.Caption=Delete Brush
+Editor.StylesHelperView.LinearBrush.Caption=Linear
+Editor.StylesHelperView.LinearBrush.Hint=Attaches a Linear Brush to the active style
+Editor.StylesHelperView.RadialBrush.Caption=Radial
+Editor.StylesHelperView.RadialBrush.Hint=Attaches a Radial Brush to the active style
+Editor.StylesHelperView.SolidBrush.Caption=Solid
+Editor.StylesHelperView.SolidBrush.Hint=Attaches a Solid Color Brush to the active style
+Editor.StylesHelperView.ImageBrush.Caption=Image
+Editor.StylesHelperView.ImageBrush.Hint=Attaches an Image Brush to the active style
+Editor.StylesHelperView.VisualBrush.Caption=Visual
+Editor.StylesHelperView.VisualBrush.Hint=Attaches an Visual Brush to the active style
+Editor.StylesHelperView.Details.Caption=Details
+
+Editor.RibbonHelperView.AppMenu.Caption=Application Menu
+Editor.RibbonHelperView.AppMenuContent.Caption=Application Menu Content
+Editor.RibbonHelperView.AppMenuFooter.Caption=Application Menu Footer
+Editor.RibbonHelperView.QuickAccessToolbar.Caption=Quick Access Toolbar
+Editor.RibbonHelperView.HelpToolbar.Caption=Help Toolbar
+Editor.RibbonHelperView.Sheets.Caption=Sheets
+Editor.RibbonHelperView.Sheet.Caption=Sheet &1
+Editor.RibbonHelperView.Sheet.KeyTip=S&1
+Editor.RibbonHelperView.Group.Caption=Group &1
+
+Editor.LayoutHelperView.Caption=Layout Helper
+
+Editor.DesignerView.Caption=Designer
+
+Editor.ControlsView.Caption=Controls
+Editor.ControlsView.Controls.Caption=Controls
+Editor.ControlsView.Common.Caption=Common
+Editor.ControlsView.UserDesigned.Caption=User Designed
+Editor.ControlsView.All.Caption=All Controls
+Editor.ControlsView.UserDesigned.CarouselDesign=Carousel Design
+Editor.ControlsView.UserDesigned.BookDesign=Book Design
+Editor.ControlsView.UserDesigned.TreeDesign=Tree Design
+Editor.ControlsView.UserDesigned.TileDesign=Tile Design
+Editor.ControlsView.UserDesigned.DashboardDesign=Dashboard Design
+Editor.ControlsView.UserDesigned.Expand=Expand to see available designs
+Editor.ControlsView.UserDesigned.Empty=No designs available
+Editor.ControlsView.RibbonSheet.Caption=Ribbon Sheet
+Editor.ControlsView.RibbonGroup.Caption=Ribbon Group
+Editor.ControlsView.DockingTab.Caption=Tab Docking Framework
+Editor.ControlsView.DockingTab.Desc=Docking Framework similar to the one used by the LANSA Editor
+
+Editor.Find.AvailableDesigns.Caption=Available Designs
+
+Editor.New.Common.Caption=Common
+Editor.New.Resource.Caption=Resources
+Editor.New.System.Caption=System

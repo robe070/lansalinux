@@ -1,0 +1,251 @@
+********************************************************
+**********     Debug Toolbar\Ribbon Captions ***********
+********************************************************
+
+Debug.Btn.Go.Caption=Continue Execution
+Debug.Btn.Go.Title=Continue Execution
+Debug.Btn.Go.Hint=Resume runtime execution (F5)
+Debug.Btn.Stop.Caption=Stop Debugging
+Debug.Btn.Stop.Title=Stop Debugging
+Debug.Btn.Stop.Hint=Stop Debugging
+Debug.Btn.StepInto.Caption=Step Into
+Debug.Btn.StepInto.Title=Step Into
+Debug.Btn.StepInto.Hint=Step Into (F8)
+Debug.Btn.StepOver.Caption=Step Over
+Debug.Btn.StepOver.Title=Step Over
+Debug.Btn.StepOver.Hint=Step Over (Shift+F8)
+Debug.Btn.StepOut.Caption=Step Out
+Debug.Btn.StepOut.Title=Step Out
+Debug.Btn.StepOut.Hint=Step Out
+Debug.Btn.RunToCursor.Caption=Run to Cursor
+Debug.Btn.RunToCursor.Title=Run to Cursor
+Debug.Btn.RunToCursor.Hint=Run to Cursor
+
+Debug.ToolBar.Caption=Debug
+Debug.Btn.Animate.Hint=Animate
+Debug.Btn.AnimateAll.Hint=Animate All
+Debug.Btn.Halt.Hint=Halt Execution
+
+********************************************************
+**********     Debug Repository Captions	 ***********
+********************************************************
+
+Debug.Repository.Column.Debug.Caption=Debug Enabled
+
+********************************************************
+**********      Debug Menu Captions				********
+********************************************************
+
+Debug.Menu.Caption=&Debug
+Debug.Menu.Windows.Caption=&Windows
+Debug.Menu.Breakpoints.Caption=Breakpoints
+Debug.Menu.Execute.Caption=&Continue Execution
+Debug.Menu.EndDebug.Caption=&End Debug
+Debug.Menu.StepInto.Caption=Step &Into
+Debug.Menu.StepOver.Caption=Step &Over
+Debug.Menu.NewBreakpoint.Caption=New &Breakpoint...
+Debug.Menu.ClearAllBreakpoints.Caption=&Clear All Breakpoints
+Debug.Menu.EnableAllBreakpoints.Caption=Enable all breakpoints
+Debug.Menu.DisableAllBreakpoints.Caption=Disable All Breakpoints
+Debug.Menu.ToggleBreakpoint.Caption=Insert/Remove Breakpoint
+Debug.Menu.InsertBreakpoint.Caption=Set As Breakpoint
+Debug.Menu.RemoveBreakpoint.Caption=Remove Breakpoint
+Debug.Menu.EnableBreakpoint.Caption=Enable Breakpoint
+Debug.Menu.DisableBreakpoint.Caption=Disable Breakpoint
+Debug.Menu.BreakpointProperties.Caption=Breakpoint Properties...
+Debug.Menu.ShowVariable.Caption=Show Variable: &1
+Debug.Menu.GoToSource.Caption=Go To Source Code
+Debug.Menu.DeleteBreakpoint.Caption=Delete
+Debug.Menu.Animate.Caption=&Animate
+Debug.Menu.AnimateAll.Caption=Animate &All
+Debug.Menu.Halt.Caption=&Halt Execution
+Debug.Menu.Delay.Caption=Delay
+Debug.Menu.Delay.None.Caption=None
+Debug.Menu.Delay.50MilliSeconds.Caption=50 Milliseconds
+Debug.Menu.Delay.500MilliSeconds.Caption=500 Milliseconds
+Debug.Menu.Delay.1Second.Caption=1 Second
+Debug.Menu.Delay.2Seconds.Caption=2 Seconds
+Debug.Menu.Delay.SetSeconds.Caption=Set Seconds...
+Debug.Menu.Output.Caption=Output
+Debug.Menu.Variables.Caption=Variables
+Debug.Menu.CallStack.Caption=Call Stack
+Debug.Menu.Sessions.Caption=Sessions
+Debug.Menu.StartDebug.Caption=Start
+Debug.Menu.DisableDebug.Caption=Debug Disable
+Debug.Menu.EnableDebug.Caption=Debug Enable
+Debug.Menu.EnableAllDebug.Caption=Debug Enable All
+Debug.Menu.DisableAllDebug.Caption=Debug Disable All
+
+********************************************************
+**********      Debug Menu Hint Captions		********
+********************************************************
+
+Debug.Menu.Breakpoints.Caption.Tip=Show debug breakpoints view
+Debug.Menu.Execute.Caption.Tip=Execute
+Debug.Menu.EndDebug.Caption.Tip=End Debug
+Debug.Menu.StepInto.Caption.Tip=Step Into
+Debug.Menu.StepOver.Caption.Tip=Step Over
+Debug.Menu.NewBreakpoint.Caption.Tip=New breakpoint...
+Debug.Menu.ClearAllBreakpoints.Caption.Tip=Clear all breakpoints
+Debug.Menu.EnableAllBreakpoints.Caption.Tip=Enable all breakpoints
+Debug.Menu.DisableAllBreakpoints.Caption.Tip=Disable all breakpoints
+Debug.Menu.ToggleBreakpoint.Caption.Tip=Insert/Remove Breakpoint
+Debug.Menu.InsertBreakpoint.Caption.Tip=Insert Breakpoint
+Debug.Menu.RemoveBreakpoint.Caption.Tip=Remove Breakpoint
+Debug.Menu.EnableBreakpoint.Caption.Tip=Enable Breakpoint
+Debug.Menu.DisableBreakpoint.Caption.Tip=Disable Breakpoint
+Debug.Menu.BreakpointProperties.Caption.Tip=Breakpoint Properties
+Debug.Menu.ShowVariable.Caption.Tip=Show variable in the debug variables view
+Debug.Menu.GoToSource.Caption.Tip=Go To Source Code
+Debug.Menu.DeleteBreakpoint.Caption.Tip=Delete
+Debug.Menu.Animate.Caption.Tip=Animate
+Debug.Menu.AnimateAll.Caption.Tip=Animate All
+Debug.Menu.Halt.Caption.Tip=Halt Execution
+Debug.Menu.Delay.Caption.Tip=Delay
+Debug.Menu.Delay.None.Caption.Tip=None
+Debug.Menu.Delay.50MilliSeconds.Caption.Tip=50 Milliseconds
+Debug.Menu.Delay.500MilliSeconds.Caption.Tip=500 Milliseconds
+Debug.Menu.Delay.1Second.Caption.Tip=1 Second
+Debug.Menu.Delay.2Seconds.Caption.Tip=2 Seconds
+Debug.Menu.Delay.SetSeconds.Caption.Tip=Set Seconds...
+Debug.Menu.Output.Caption.Tip=Output
+Debug.Menu.Variables.Caption.Tip=Show debug variables view
+Debug.Menu.CallStack.Caption.Tip=Show call stack view
+
+********************************************************
+**********      Debug Types Captions			********
+********************************************************
+
+Debug.Type.Alpha=Alpha(&1)
+Debug.Type.Packed=Packed(&1,&2)
+Debug.Type.Signed=Signed(&1,&2)
+Debug.Type.Long=Long(&1,&2)
+Debug.Type.Double=Double(&1,&2)
+Debug.Type.Undefined=Undefined(&1,&2)
+Debug.Type.Binary=Binary
+Debug.Type.Component=Component
+Debug.Type.Char=Char(&1)
+Debug.Type.NChar=NChar(&1)
+Debug.Type.Integer=Integer(&1)
+Debug.Type.DateTime=DateTime
+Debug.Type.Date=Date
+Debug.Type.Time=Time
+Debug.Type.Boolean=Boolean
+Debug.Type.Float=Float(&1,&2)
+Debug.Type.VarChar=VarChar(&1)
+Debug.Type.VarBinary=VarBinary
+Debug.Type.CLOB=CLOB
+Debug.Type.BLOB=BLOB
+Debug.Type.Decimal=Decimal(&1,&2)
+
+Debug.Condition.ValueChange=When value changes
+Debug.Condition.ValueEqualTo=When value is equal to &1
+Debug.Condition.ValueNotEqualTo=When value is not equal to &1
+Debug.Condition.ValueLessThan=When value is less than &1
+Debug.Condition.ValueGreaterThan=When value is greater than &1
+
+Debug.Value.NotAvailable=Value Not Available
+Debug.Type.List.EntryLength=Entry Length
+Debug.Type.List.MaxEntries=Max Entries
+Debug.Type.List.CurrentEntries=Current Entries
+
+Debug.Output.Build=Build
+Debug.Output.Debug=Debug
+
+Debug.View.TabCaption=Debug
+
+********************************************************
+**********      Debug Breakpoints Captions		********
+********************************************************
+
+Debug.Breakpoints.Caption=Breakpoints
+Debug.Breakpoints.Tree.BreakpointsColumnCaption=Breakpoints
+Debug.Breakpoints.Tree.PassCountColumnCaption=Pass Count
+Debug.Breakpoints.Tree.ActiveBreakpointColumnCaption=Active
+Debug.Breakpoints.Tree.HitCountColumnCaption=Hit Count
+Debug.Breakpoints.Tree.Item.Source.Caption=Source
+Debug.Breakpoints.Tree.Item.Line.Caption=Line Number
+Debug.Breakpoints.Tree.Item.Text.Caption=Statement Text
+Debug.Breakpoints.Tree.Item.Values.Caption=Values
+Debug.Breakpoints.Tree.Item.Values.Value.Caption=Condition
+
+Debug.Breakpoints.Dialog.Properties.Caption=Breakpoint Properties
+Debug.Breakpoints.Dialog.Properties.PassCount.Caption=Pass count:
+Debug.Breakpoints.Dialog.Properties.Page.General.Caption=General
+Debug.Breakpoints.Dialog.Properties.Page.Values.Caption=Value
+Debug.Breakpoints.Dialog.Properties.Page.Values.BreakGroupBox.Caption=Break
+Debug.Breakpoints.Dialog.Properties.Page.Values.BreakGroupBox.ValueChanges.Caption=&When value changes
+Debug.Breakpoints.Dialog.Properties.Page.Values.BreakGroupBox.Value.Caption=When &value
+Debug.Breakpoints.Dialog.Properties.Page.Values.BreakGroupBox.ValueEqualTo.Caption=Is &equal to
+Debug.Breakpoints.Dialog.Properties.Page.Values.BreakGroupBox.ValueNotEqualTo.Caption=Is &not equal to
+Debug.Breakpoints.Dialog.Properties.Page.Values.BreakGroupBox.ValueLessThan.Caption=Is &less than
+Debug.Breakpoints.Dialog.Properties.Page.Values.BreakGroupBox.ValueGreaterThan.Caption=Is &greater than
+Debug.Breakpoints.Dialog.Properties.Page.Values.InstanceMatch.Caption=&Break for current instance only
+Debug.Breakpoints.DisabledAll.Caption=Debug disable all is active
+Debug.Breakpoints.DisabledComponents.Caption=Debug disabled components
+Debug.Breakpoints.EnabledComponents.Caption=Debug enabled components
+Debug.Menu.DebugEnableAll.Toggle.Caption.Tip=Debug enable components
+Debug.Menu.Dialog.DebugEnable.Caption=Debug Enable Components
+Debug.Menu.Dialog.DebugEnable.EnableBtn.Caption=Debug enable all components
+Debug.Menu.Dialog.DebugEnable.DisableBtn.Caption=Debug disable all components
+Debug.Menu.Dialog.DebugEnable.DisableLabel.Caption=Checked components will be debug disabled
+Debug.Menu.Dialog.DebugEnable.EnableLabel.Caption=Checked components will be debug enabled
+
+********************************************************
+**********      Debug Output Captions			********
+********************************************************
+
+Debug.Output.Caption=Output
+
+********************************************************
+**********      Debug Variables Captions     ***********
+********************************************************
+
+Debug.Variables.Caption=Variables
+
+Debug.Variables.TabCaption=Variables
+Debug.Variables.Tree.NameColumnCaption=Name
+Debug.Variables.Tree.ValueColumnCaption=Value
+Debug.Variables.Tree.DescriptionColumnCaption=Description
+Debug.Variables.Tree.TypeColumnCaption=Type
+Debug.Variables.Tree.NullColumnCaption.Hint=*NULL value
+Debug.Variables.Tree.SQLNullColumnCaption.Hint=*SQLNULL value
+
+Debug.Variables.Include=Include\Exclude...
+Debug.Variables.IncludeAll=Include All
+Debug.Variables.Exclude=Exclude
+Debug.Variables.ExcludeAll=Exclude All
+Debug.Variables.Hexadecimal=Hexadecimal Display
+Debug.Variables.ShowAncestorFeatures=Ancestor Features
+Debug.Variables.SetValue=Set Value...
+Debug.Variables.BreakOnChange=Break On Value Condition
+Debug.Variables.ViewBreakpoint=View Breakpoint
+Debug.Variables.AutoRefreshVariables=Auto Refresh Variables
+
+Debug.Variables.Include.Hint=Include Fields and Components
+Debug.Variables.Exclude.Hint=Exclude Fields and Components
+Debug.Variables.IncludeAll.Hint=Include All Fields and Components
+Debug.Variables.ExcludeAll.Hint=Exclude All Fields and Components
+Debug.Variables.Hexadecimal.Hint=Display value as hexadecimal
+Debug.Variables.ShowAncestorFeatures.Hint=Show component ancestor features
+Debug.Variables.SetValue.Hint=Set the value of a variable
+Debug.Variables.BreakOnChange.Hint=Break When Value Changes
+Debug.Variables.ViewBreakpoint.Hint=View Breakpoint properties
+Debug.Variables.AutoRefreshVariables.Hint=Toggles Auto Refresh Variables On Break Option
+
+Debug.Variables.Field=Fields
+Debug.Variables.Component=Component
+Debug.Variables.Watch=Watch Variables
+
+Debug.Variables.Dialog.SetValues.Caption=Set Value
+
+Debug.Variables.Dialog.Include.Caption=Include\Exclude Fields
+
+********************************************************
+**********      Debug Call Stack Captions       ********
+********************************************************
+
+Debug.CallStack.Caption=Call Stack
+
+Debug.Close.Caption=Do you want to stop debugging?
+Debug.CloseSource.Caption=Source is being debugged, are you sure?
