@@ -1,4 +1,4 @@
-# Declare files that will always have LF line endings on checkout.
+# Files which will always have LF line endings on checkout.
 *.sh		eol=lf
 *.py		eol=lf
 buildpase*.mak	eol=lf
@@ -7,9 +7,14 @@ buildpase*.mak	eol=lf
 *.unx		eol=lf
 *.sol		eol=lf
 *.awk		eol=lf
+
+# Files which will always have crlf endings
 *.xsl		eol=crlf
 *.asf		eol=crlf
+
+# otherwise text format is platform specific
 *	text=auto
+
 *.png	binary
 *.jpg	binary
 *.so	binary
