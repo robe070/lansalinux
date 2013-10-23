@@ -15,6 +15,7 @@ buildpase*.mak	eol=lf
 # otherwise text format is platform specific
 *	text=auto
 
+# files that must be treated as binary
 *.png	binary
 *.jpg	binary
 *.so	binary
