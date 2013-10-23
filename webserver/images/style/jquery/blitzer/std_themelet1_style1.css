@@ -1,9 +1,9 @@
 ﻿/*!
- (c) 2011, 2012 LANSA
+ (c) 2011, 2013 LANSA
  XHTML Blitzer theme style
  $Workfile:: std_themelet1_style1.css             $
- $UTCDate:: 2012-01-05 23:08:16Z                  $
- $Revision:: 18                                   $
+ $UTCDate:: 2013-07-02 04:37:11Z                  $
+ $Revision:: 20                                   $
  */
 
 @import "std_style.min.css";
@@ -114,14 +114,14 @@ ul.lpage_horiz_menu li {
     -moz-border-radius-bottomright: 12px;
     -webkit-border-bottom-right-radius: 12px;
     border-bottom-right-radius: 12px;
-    background:url(images/std_themelet1_style1_bg.png) repeat-x left bottom;
+    background:url(images/std_themelet1_style1_fbg.png) repeat-x left bottom;
     width: 100%;
 }
 #lpage_headerContainer
 {
  width: 100%;
  min-height: 180px;
- background: url(images/std_themelet1_style1_bg.png) repeat-x; 
+ background: url(images/std_themelet1_style1_hbg.png) repeat-x; 
 }
 
 #lpage_headerContent
@@ -245,6 +245,21 @@ ul.lpage_horiz_menu li {
   list-style:none;
   float: left;
 }
+body[lang="ja"] #lpage_footer ul li {
+	font-family: "Meiryo UI", Meiryo, "Hiragino Kaku Gothic Pro", "MS Gothic", "Trebuchet MS", Arial, Helvetica, sans-serif; 
+}
+body[lang="ko"] #lpage_footer ul li {
+	font-family: Dotum, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+body[lang|="zh"] #lpage_footer ul li {
+	font-family: "Microsoft YaHei UI", "Microsoft YaHei", SimSun, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+body[lang="zh-HK"] #lpage_footer ul li {
+	font-family: "Microsoft JhengHei UI", "Microsoft JhengHei", PMingLiU, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+body[lang="zh-TW"] #lpage_footer ul li {
+	font-family: "Microsoft JhengHei UI", "Microsoft JhengHei", PMingLiU, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
 #lpage_footer ul li a
 {
   width:auto; 
@@ -268,6 +283,21 @@ ul.lpage_horiz_menu li {
   line-height:18px; 
   text-align:center;
 }
+body[lang="ja"] #lpage_footer p {
+	font-family: "Meiryo UI", Meiryo, "Hiragino Kaku Gothic Pro", "MS Gothic", "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+body[lang="ko"] #lpage_footer p {
+	font-family: Dotum, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+body[lang|="zh"] #lpage_footer p {
+	font-family: "Microsoft YaHei UI", "Microsoft YaHei", SimSun, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+body[lang="zh-HK"] #lpage_footer p {
+	font-family: "Microsoft JhengHei UI", "Microsoft JhengHei", PMingLiU, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+body[lang="zh-TW"] #lpage_footer p {
+	font-family: "Microsoft JhengHei UI", "Microsoft JhengHei", PMingLiU, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
 #lpage_footer p a
 {
   color:#ffffff;
@@ -282,9 +312,6 @@ ul.lpage_horiz_menu li {
 }
 body
 {
-  margin:0; 
-  font-size: 12px;
-  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
   color: #004276;
 }
 input, select, textarea, button, div, span, p, legend
@@ -304,4 +331,19 @@ input, select, textarea, button, div, span, p, legend
 .ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button
 {
    font-family: Verdana, Arial;
+}
+body[lang="ja"] .ui-widget input, body[lang="ja"] .ui-widget select, body[lang="ja"] .ui-widget textarea, body[lang="ja"] .ui-widget button {
+	font-family: "Meiryo UI", Meiryo, "Hiragino Kaku Gothic Pro", "MS Gothic", Verdana, Arial;
+}
+body[lang="ko"] .ui-widget input, body[lang="ko"] .ui-widget select, body[lang="ko"] .ui-widget textarea, body[lang="ko"] .ui-widget button {
+	font-family: Dotum, Verdana, Arial;
+}
+body[lang|="zh"] .ui-widget input, body[lang|="zh"] .ui-widget select, body[lang|="zh"] .ui-widget textarea, body[lang|="zh"] .ui-widget button {
+	font-family: "Microsoft YaHei UI", "Microsoft YaHei", SimSun, Verdana, Arial;
+}
+body[lang="zh-HK"] .ui-widget input, body[lang="zh-HK"] .ui-widget select, body[lang="zh-HK"] .ui-widget textarea, body[lang="zh-HK"] .ui-widget button {
+	font-family: "Microsoft JhengHei UI", "Microsoft JhengHei", PMingLiU, Verdana, Arial;
+}
+body[lang="zh-TW"] .ui-widget input, body[lang="zh-TW"] .ui-widget select, body[lang="zh-TW"] .ui-widget textarea, body[lang="zh-TW"] .ui-widget button {
+	font-family: "Microsoft JhengHei UI", "Microsoft JhengHei", PMingLiU, Verdana, Arial;
 }

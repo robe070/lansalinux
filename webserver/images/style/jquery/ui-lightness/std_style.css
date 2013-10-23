@@ -1,12 +1,38 @@
 ﻿/*!
- (c) 2011 LANSA
+ (c) 2011, 2013 LANSA
  Standard LANSA extensions for jQuery UI theme
  $Workfile:: std_style.css                        $
- $UTCDate:: 2012-09-24 03:03:12Z                  $
- $Revision:: 11                                   $
+ $UTCDate:: 2013-07-02 01:57:38Z                  $
+ $Revision:: 12                                   $
  */
 
-.lpage_content_area { font-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif; font-size: 1.1em; }
+body {
+	margin: 0;
+	font-size: 12px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+body[lang="ja"] {
+	font-family: "Meiryo UI", Meiryo, "Hiragino Kaku Gothic Pro", "MS Gothic", "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+body[lang="ko"] {
+	font-family: Dotum, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+body[lang|="zh"] {
+	font-family: "Microsoft YaHei UI", "Microsoft YaHei", SimSun, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+body[lang="zh-HK"] {
+	font-family: "Microsoft JhengHei UI", "Microsoft JhengHei", PMingLiU, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+body[lang="zh-TW"] {
+	font-family: "Microsoft JhengHei UI", "Microsoft JhengHei", PMingLiU, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.lpage_content_area { font-family: "Trebuchet MS", Tahoma, Verdana, Arial, sans-serif; font-size: 1.1em; }
+body[lang="ja"] .lpage_content_area { font-family: "Meiryo UI", Meiryo, "Hiragino Kaku Gothic Pro", "MS Gothic", "Trebuchet MS", Tahoma, Verdana, Arial, sans-serif; }
+body[lang="ko"] .lpage_content_area { font-family: Dotum, "Trebuchet MS", Tahoma, Verdana, Arial, sans-serif; }
+body[lang|="zh"] .lpage_content_area { font-family: "Microsoft YaHei UI", "Microsoft YaHei", SimSun, "Trebuchet MS", Tahoma, Verdana, Arial, sans-serif; }
+body[lang="zh-HK"] .lpage_content_area { font-family: "Microsoft JhengHei UI", "Microsoft JhengHei", PMingLiU, "Trebuchet MS", Tahoma, Verdana, Arial, sans-serif; }
+body[lang="zh-TW"] .lpage_content_area { font-family: "Microsoft JhengHei UI", "Microsoft JhengHei", PMingLiU, "Trebuchet MS", Tahoma, Verdana, Arial, sans-serif; }
 .lpage_content_area .ui-widget { font-size: 1em; }
 
 .std_tab_pages_content_wrapper {

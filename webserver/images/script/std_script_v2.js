@@ -2,8 +2,8 @@
 	(c) 2002, 2013 LANSA
 	XHTML Standard Scripts
 	$Workfile:: std_script_v2.js            $
-	$UTCDate:: 2013-05-01 05:19:38Z         $
-	$Revision:: 103                         $
+	$UTCDate:: 2013-09-03 04:11:03Z         $
+	$Revision:: 108                         $
 */
 
 //////////////////////////////////////////////////////////////////////////////////////////
@@ -23,7 +23,7 @@ if (document.all && !document.getElementById)
 // to prevent runtime errors. From http://clubajax.org/examples/consolefix/
 (function()
 {
-	var dbg = window.g_debug || /[?+]debug=(yes|y)/i.test(document.location.href) || false;
+	var dbg = window.g_debug || /[?&+]debug=(yes|y)/i.test(document.location.href) || false;
 	var count = window.loglimit || 299;
 	window.loglimit = count;
 	if(!window.console) console = {};
@@ -400,7 +400,7 @@ Lstd.Utils = {
 		for (i in names)
 		{
 			var nm = names[i];
-			if (args[nm]) options[nm] = args[nm];
+			if (args[nm] != undefined) options[nm] = args[nm];
 		}
 	},
 	/**
@@ -1791,10 +1791,8 @@ function stdStrFieldKeyPress(fld, maxlen)
 }
 function getEventTarget(e)
 {
-	var targ = null;
-	if (e.target) targ = e.target;
-	else if (e.srcElement) targ = e.srcElement;
-	if (targ.nodeType == 3) targ = targ.parentNode; // defeat Safari bug
+	var targ = e.target || e.srcElement || null;
+	if (targ && (targ.nodeType == 3)) targ = targ.parentNode; // Defeat Safari bug
 	return targ;
 }
 function stdOnFocus(e)
@@ -2875,15 +2873,13 @@ Lstd.Weblets.stdGrid.prototype.init = function(gridID, gridData) {
 	this.onRowClickJS = gridData.onRowClickJS || null;
 	
 	this.cols = new Array(gridData.columns);
-	
-	var self = this, fn = function() {
-		try {self.connectToHTML();}
-		catch(e) {debug("Initialisation of grid " + gridID + " failed: " + e.description); }
-	};
-	if (window.jQuery) {
-		jQuery(document).ready(fn);
-	} else {
-		addEvent(window, "load", fn, false);
+
+	// Note: Used to be delayed with setTimeout. Not needed as init() now runs on document ready() or windows onload.
+	try {
+		this.connectToHTML();
+	}
+	catch (e) {
+		debug("Initialisation of grid " + gridID + " failed: " + e.description);
 	}
 }
 

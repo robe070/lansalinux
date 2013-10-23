@@ -1,9 +1,9 @@
 ﻿/*!
-	(c) 2011, 2012 LANSA
+	(c) 2011, 2013 LANSA
 	CKEditor Rich Text Editor
 	$Workfile:: std_ckeditor.js             $
-	$UTCDate:: 2012-07-25 06:24:22Z         $
-	$Revision:: 12                          $
+	$UTCDate:: 2013-10-02 00:48:07Z         $
+	$Revision:: 15                          $
 */
 
 Lstd.Utils.stylesheets = function()
@@ -62,7 +62,7 @@ Lstd.Weblets.stdCKEditor = {
 				}
 			}
 
-			var calcColor = args.uiColor ? args.uiColor : textArea.siblings(".ui-widget-header").css("background-color");
+			var calcColor = "#" + Lstd.Utils.getHexColor(args.uiColor ? args.uiColor : textArea.siblings(".ui-widget-header").css("background-color"));
 			
 			var toolbar_Basic = [
 				['Bold', 'Italic', '-', 'NumberedList', 'BulletedList', '-', 'Link', 'Unlink','-','About']
@@ -102,6 +102,7 @@ Lstd.Weblets.stdCKEditor = {
 				case "Full":
 					if (!args.showSource) toolbar_Full[0] = toolbar_Full[0].slice(2); // Remove source from toolbar
 					options.toolbar = toolbar_Full;
+					Lstd.Weblets.stdCKEditor.localizeFont(options);
 					break;
 				case "Basic":
 				default:
@@ -132,6 +133,19 @@ Lstd.Weblets.stdCKEditor = {
 			options.removePlugins = removePlugins; // Must assign after removePlugins value is finalised
 			var ed = textArea.ckeditor(options);
 
+			if (typeof args.onchangeScript == "function") {
+				try {
+					CKEDITOR.instances[args.textAreaId].on("blur", function(event) {
+						if (event.editor.checkDirty()) {
+							args.onchangeScript();
+						}
+					});
+				}
+				catch (e) {
+					alert(e);
+				}
+			}
+
 			// Update the textarea when the form is submitted.
 			var f = ed.closest("form");
 			Lstd.Messaging.addListener((f.get(0) ? f.attr("name") : "") + ".submit", function() {
@@ -139,5 +153,33 @@ Lstd.Weblets.stdCKEditor = {
 			},
 			ed);
 		});
+	},
+	localizeFont: function(options) {
+		var lang = jQuery("body").attr("lang");
+		if (lang != undefined) {
+			switch (lang) {
+				case "ja":
+					options.font_names = "Meiryo UI; Meiryo; Hiragino Kaku Gothic Pro; MS Gothic;" + CKEDITOR.config.font_names;
+					options.font_defaultLabel = "Meiryo";
+					break;
+				case "ko":
+					options.font_names = "Dotum;" + CKEDITOR.config.font_names;
+					options.font_defaultLabel = "Dotum";
+					break;
+				case "zh":
+				case "zh-CN":
+				case "zh-SG":
+					options.font_names = "Microsoft YaHei UI; Microsoft YaHei; SimSun;" + CKEDITOR.config.font_names;
+					options.font_defaultLabel = "SimSun";
+					break;
+				case "zh-HK":
+				case "zh-TW":
+					options.font_names = "Microsoft JhengHei UI; Microsoft JhengHei; PMingLiU;" + CKEDITOR.config.font_names;
+					options.font_defaultLabel = "PMingLiU";
+					break;
+				default:
+					break;
+			}
+		}
 	}
 };
