@@ -8,6 +8,7 @@ buildpase*.mak	eol=lf
 *.sol		eol=lf
 *.awk		eol=lf
 *.xsl		eol=crlf
+*.asf		eol=crlf
 *	text=auto
 *.png	binary
 *.jpg	binary
