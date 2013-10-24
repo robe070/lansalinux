@@ -21,7 +21,7 @@ function execCmd()
 }
 
 # Add all untracked files
-execCmd "git add . --dry-run" 0
+# execCmd "git add . --dry-run" 0
 execCmd "git add ." 0
 
 # Display files that will be effected
