@@ -8,4 +8,7 @@
 git add .
 # TODO Need to get comment from file
 git commit -a -m"A commit"
+if [ $? -gt 0 ];then
+    echo "error in commit"
+fi
 git push origin
