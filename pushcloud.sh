@@ -18,7 +18,7 @@ function execCmd()
 }
 
 # Add all untracked files
-execCMD "git add ."
+execCmd "git add ."
 
 # TODO Need to get comment from file
 
