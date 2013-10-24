@@ -23,5 +23,6 @@ execCmd "git add ." 0
 # TODO Need to get comment from file
 
 execCmd "git commit -a -m\"A commit\"" 1
+echo $?
 
 execCmd "git push origin" 0
