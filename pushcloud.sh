@@ -22,7 +22,8 @@ function execCmd()
 execCmd "git add ." 0
 
 # Display files that will be effected
-execCmd "git commit -a --dry-run" 1
+execCmd "git commit -a --dry-run --short" 1
+execCmd "git commit -a --dry-run --porcelain" 1
 
 
 # TODO Need to get comment from file
