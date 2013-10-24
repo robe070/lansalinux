@@ -13,8 +13,8 @@ function execCmd()
   if [[ $status -gt "$2" ]]
   then
         echo "Error..."
-        exit $status
   fi
+  return $status
 }
 
 # Add all untracked files
