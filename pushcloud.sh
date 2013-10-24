@@ -4,8 +4,21 @@
 # Requires that ssh key does NOT have a passphrase. This is because the
 # passphrase MUST be entered interactively, but this is NOT run interactively!
 
+function execCmd()
+{
+  eval "$1"
+
+  status=$?
+
+  if [[ $status -ne 0 && "$2" != "ignore" ]]
+  then
+        echo "stopping..."
+        exit $status
+  fi
+}
+
 # Add all untracked files
-git add .
+execCMD "git add ."
 
 # TODO Need to get comment from file
 
