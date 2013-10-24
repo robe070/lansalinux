@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lxml:data xmlns:lxml="http://www.lansa.com/2002/XML/Runtime-Data"><lxml:imports><lxml:import name="std_keys"/><lxml:import name="std_types"/><lxml:import name="std_util"/></lxml:imports><lxml:external-resources><lxml:script name="XWJQC" location="header"/><lxml:script name="XWJQUI" location="header"/><lxml:script name="XWJ001" location="header"/></lxml:external-resources></lxml:data>
