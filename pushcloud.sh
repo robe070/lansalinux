@@ -4,6 +4,8 @@
 # Requires that ssh key does NOT have a passphrase. This is because the
 # passphrase MUST be entered interactively, but this is NOT run interactively!
 
+# Parameter 1: Filepath containing comment for commit
+
 function execCmd()
 {
   eval "$1"
