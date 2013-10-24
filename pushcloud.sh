@@ -29,7 +29,7 @@ execCmd "git commit -a --dry-run --short" 1
 
 # TODO Need to get comment from file
 
-execCmd "git commit -a -m\"A commit\"" 1
+execCmd "git commit -a -F $1" 1
 
 # Only push if commit did something
 # return of 1 means there was nothing to commit
