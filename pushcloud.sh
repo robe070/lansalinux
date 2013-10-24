@@ -13,6 +13,7 @@ function execCmd()
   if [[ $status -gt "$2" ]]
   then
         echo "Error..."
+	exit $status
   fi
   return $status
 }
@@ -23,6 +24,9 @@ execCmd "git add ." 0
 # TODO Need to get comment from file
 
 execCmd "git commit -a -m\"A commit\"" 1
-echo $?
 
-execCmd "git push origin" 0
+# Only push if commit did something
+if [[ $? -eq 0 ]]
+then
+    execCmd "git push origin" 0
+fi
