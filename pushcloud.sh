@@ -13,7 +13,7 @@ git commit -a -m"A commit"
 
 status=$?
 
-if [ status -gt 0 ];then
+if [ $status -gt 0 ];then
     echo "error in commit"
     exit $status
 fi
