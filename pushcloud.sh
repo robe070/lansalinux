@@ -8,4 +8,4 @@
 git add .
 # TODO Need to get comment from file
 git commit -a -m"A commit"
-git push origin master
+git push origin
