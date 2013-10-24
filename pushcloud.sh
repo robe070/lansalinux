@@ -10,15 +10,15 @@ function execCmd()
 
   status=$?
 
-  if [[ $status -ne 0 && "$2" != "ignore" ]]
+  if [[ $status -gt "$2" ]]
   then
-        echo "stopping..."
+        echo "Error..."
         exit $status
   fi
 }
 
 # Add all untracked files
-execCmd "git add ."
+execCmd "git add ." 0
 
 # TODO Need to get comment from file
 
