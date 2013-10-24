@@ -27,8 +27,6 @@ execCmd "git add ." 0
 # Display files that will be effected
 execCmd "git commit -a --dry-run --short" 1
 
-# TODO Need to get comment from file
-
 execCmd "git commit -a -F $1" 1
 
 # Only push if commit did something
