@@ -21,11 +21,15 @@ function execCmd()
 # Add all untracked files
 execCmd "git add ." 0
 
+# Display files that will be effected
+execCmd "git commit -a --dry-run" 1
+
 # TODO Need to get comment from file
 
 execCmd "git commit -a -m\"A commit\"" 1
 
 # Only push if commit did something
+# return of 1 means there was nothing to commit
 if [[ $? -eq 0 ]]
 then
     execCmd "git push origin" 0
