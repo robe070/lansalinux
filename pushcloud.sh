@@ -22,13 +22,6 @@ execCmd "git add ." 0
 
 # TODO Need to get comment from file
 
-git commit -a -m"A commit"
+execCmd "git commit -a -m"A commit"" 1
 
-status=$?
-
-if [ $status -gt 0 ];then
-    echo "error in commit"
-    exit $status
-fi
-
-git push origin
+execCmd "git push origin" 0
