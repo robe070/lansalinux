@@ -1,4 +1,4 @@
-#/bin/bash -x
+#!/bin/sh -x
 # Presumes that the current branch is the one to be updated
 # typically that is master
 # Requires that ssh key does NOT have a passphrase. This is because the
