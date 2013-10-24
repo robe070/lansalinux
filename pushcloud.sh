@@ -6,9 +6,16 @@
 
 # Add all untracked files
 git add .
+
 # TODO Need to get comment from file
+
 git commit -a -m"A commit"
-if [ $? -gt 0 ];then
+
+status=$?
+
+if [ status -gt 0 ];then
     echo "error in commit"
+    exit $status
 fi
+
 git push origin
