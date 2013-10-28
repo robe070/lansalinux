@@ -7,4 +7,4 @@
 *R,LUName,FullyQualName,IPCMethod,IPCModule,Trace,ConnectId,PacketSize,IPCOptions
 *T,module identity,Trace
 *
-R,*LOCAL,127.0.0.1,Socket, ,0,4546,0,1
+R,*LOCAL,127.0.0.1,Socket, ,0,4545,0,1
