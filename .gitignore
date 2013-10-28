@@ -1,8 +1,6 @@
 *~
 *.swp
-log/*
-tmp
-run
+
 x_lic*.*
 x_hmrqst
 l4w3serv.cfg
