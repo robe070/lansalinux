@@ -1,6 +1,6 @@
 *~
 *.swp
-log
+log/*
 tmp
 run
 x_lic*.*
