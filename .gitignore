@@ -3,8 +3,7 @@
 
 x_lic*.*
 x_hmrqst
-l4w3serv.cfg
-l4w3serv.cfg.default-13.2.0
+l4w3serv.cfg.*
 lcoproc.ini
 object
 source
