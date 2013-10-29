@@ -2,8 +2,8 @@
 	(c) 2012, 2013 LANSA
 	jQuery Mobile Standard Scripts
 	$Workfile:: std_script_lansa_jqmobile.js $
-	$UTCDate:: 2013-10-16 23:10:57Z          $
-	$Revision:: 46                           $
+	$UTCDate:: 2013-10-28 04:02:43Z          $
+	$Revision:: 47                           $
 */
 
 /**
@@ -1683,5 +1683,24 @@ Lstd.Weblets.stdProgressBar = {
 	value: function(id, val) {
 		var inst = Lstd.Weblets.stdProgressBar.instances[id];
 		if (inst) inst.value(val);
+	}
+};
+
+// std_loader
+
+Lstd.Weblets.stdLoader = {
+	start: function(id) {
+		var $div = jQuery(Lstd.Utils.makeSafeId(id));
+		var theme = $div.jqmData("theme") || jQuery.mobile.loader.prototype.options.theme;
+		var msgText = $div.text();
+		var textVisible = $div.jqmData("show-text") || jQuery.mobile.loader.prototype.options.textVisible;
+		var textonly = ($div.jqmData("show-icon") === "false");
+
+		if (msgText === "") msgText = jQuery.mobile.loader.prototype.options.text;
+		jQuery.mobile.loading("show", {text: msgText, textVisible: textVisible, theme: theme, textonly: textonly});
+	},
+
+	stop: function() {
+		jQuery.mobile.loading("hide");
 	}
 };

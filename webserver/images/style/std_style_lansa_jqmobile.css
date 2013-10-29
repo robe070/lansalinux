@@ -2,8 +2,8 @@
  (c) 2013 LANSA
  JQMOBILE Standard Styles
  $Workfile:: std_style_lansa_jqmobile.css         $
- $UTCDate:: 2013-09-06 04:36:46Z                  $
- $Revision:: 17                                   $
+ $UTCDate:: 2013-10-28 04:02:43Z                  $
+ $Revision:: 18                                   $
 */
 
 body {
@@ -95,6 +95,10 @@ a.lstd-plain-link:link, a.lstd-plain-link:visited, a.lstd-plain-link:hover, a.ls
 	-moz-opacity: 0.8;
 	opacity:.20;
 	filter: alpha(opacity=20);
+}
+
+.lstd-loader {
+	display: none;
 }
 
 /* Design time only */
