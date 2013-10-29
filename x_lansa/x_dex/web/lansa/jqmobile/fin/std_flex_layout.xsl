@@ -2,57 +2,50 @@
 </xsl:text><xsl:apply-templates select="*" mode="content.style"></xsl:apply-templates><xsl:text disable-output-escaping="yes">
 /* ]]&gt; */</xsl:text></style><script type="text/javascript"><xsl:text disable-output-escaping="yes">//&lt;![CDATA[
 </xsl:text><xsl:apply-templates select="*" mode="content.script"></xsl:apply-templates><xsl:text disable-output-escaping="yes">
-//]]&gt;</xsl:text><xsl:text>&#32;</xsl:text></script></head><body><div data-role="page"><xsl:attribute name="class"><xsl:text>lstd-stdFlexLayout</xsl:text><xsl:value-of select="concat(' lstd-sidebarOnSmall',$sidebarPositionSmallScreen)"></xsl:value-of><xsl:if test="$validationErrorDisplay"><xsl:value-of select="concat(' ',$validationErrorDisplay)"></xsl:value-of></xsl:if><xsl:if test="$validationTime"><xsl:value-of select="concat(' ',$validationTime)"></xsl:value-of></xsl:if></xsl:attribute><xsl:if test="$pageSwatch"><xsl:attribute name="data-theme"><xsl:value-of select="$pageSwatch"></xsl:value-of></xsl:attribute></xsl:if><xsl:if test="$addBackButton"><xsl:attribute name="data-add-back-btn">true</xsl:attribute><xsl:if test="$backButtonText != ''"><xsl:attribute name="data-back-btn-text"><xsl:value-of select="$backButtonText"></xsl:value-of></xsl:attribute></xsl:if><xsl:if test="$backButtonSwatch != ''"><xsl:attribute name="data-back-btn-theme"><xsl:value-of select="$backButtonSwatch"></xsl:value-of></xsl:attribute></xsl:if></xsl:if><form method="post" name="LANSA" id="{$lweb_WRName}_form" action="{$lweb_context/lxml:action-request}?wam={$lweb_WAMName}&amp;webrtn={$lweb_WRName}&amp;ml={$lweb_context/lxml:technology-service}&amp;part={$lweb_context/lxml:partition}&amp;lang={$lweb_context/lxml:language}"><xsl:if test="$showHeader"><div data-role="header" role="banner"><xsl:if test="$headerSwatch"><xsl:attribute name="data-theme"><xsl:value-of select="$headerSwatch"></xsl:value-of></xsl:attribute></xsl:if><xsl:if test="$headerPosition = 'fixed'"><xsl:attribute name="data-position">fixed</xsl:attribute><xsl:if test="$headerFullscreenMode"><xsl:attribute name="data-fullscreen">true</xsl:attribute></xsl:if></xsl:if><xsl:apply-templates select="*" mode="content.header"></xsl:apply-templates><xsl:comment /></div></xsl:if><div data-theme="{$contentSwatch}" data-role="content" role="main"><xsl:if test="$sidebarPositionSmallScreen = 'Top'"><div class="content-secondary"><xsl:apply-templates select="*" mode="content.secondary"></xsl:apply-templates><xsl:comment /></div></xsl:if><div class="content-primary"><xsl:if test="$showMessages"><xsl:call-template name="messages"></xsl:call-template></xsl:if><xsl:apply-templates select="*"></xsl:apply-templates><xsl:comment /></div><xsl:if test="$sidebarPositionSmallScreen != 'Top'"><div class="content-secondary"><xsl:apply-templates select="*" mode="content.secondary"></xsl:apply-templates><xsl:comment /></div></xsl:if></div><xsl:call-template name="hidden_fields"></xsl:call-template><xsl:if test="$showFooter"><div data-role="footer"><xsl:if test="$footerSwatch"><xsl:attribute name="data-theme"><xsl:value-of select="$footerSwatch"></xsl:value-of></xsl:attribute></xsl:if><xsl:if test="$footerPosition = 'fixed'"><xsl:attribute name="data-position">fixed</xsl:attribute><xsl:if test="$footerFullscreenMode"><xsl:attribute name="data-fullscreen">true</xsl:attribute></xsl:if></xsl:if><xsl:if test="$persistentFooterId"><xsl:attribute name="data-id"><xsl:value-of select="$persistentFooterId"></xsl:value-of></xsl:attribute></xsl:if><xsl:apply-templates select="*" mode="content.footer"></xsl:apply-templates><xsl:comment /></div></xsl:if></form><xsl:call-template name="scriptAtEnd"></xsl:call-template></div></body></html></xsl:template><xsl:template match="/lxml:data" mode="content.header"><h1><xsl:value-of select="/lxml:data/lxml:context/lxml:webroutine-title"></xsl:value-of><xsl:comment /></h1></xsl:template><xsl:template match="/lxml:data" mode="content.secondary">
+//]]&gt;</xsl:text><xsl:text>&#32;</xsl:text></script></head><body><div data-role="page"><xsl:attribute name="class"><xsl:text>lstd-stdFlexLayout</xsl:text><xsl:value-of select="concat(' lstd-sidebarOnSmall',$sidebarPositionSmallScreen)"></xsl:value-of><xsl:if test="$validationErrorDisplay"><xsl:value-of select="concat(' ',$validationErrorDisplay)"></xsl:value-of></xsl:if><xsl:if test="$validationTime"><xsl:value-of select="concat(' ',$validationTime)"></xsl:value-of></xsl:if></xsl:attribute><xsl:if test="$pageSwatch"><xsl:attribute name="data-theme"><xsl:value-of select="$pageSwatch"></xsl:value-of></xsl:attribute></xsl:if><xsl:if test="$addBackButton"><xsl:attribute name="data-add-back-btn">true</xsl:attribute><xsl:if test="$backButtonText != ''"><xsl:attribute name="data-back-btn-text"><xsl:value-of select="$backButtonText"></xsl:value-of></xsl:attribute></xsl:if><xsl:if test="$backButtonSwatch != ''"><xsl:attribute name="data-back-btn-theme"><xsl:value-of select="$backButtonSwatch"></xsl:value-of></xsl:attribute></xsl:if></xsl:if><xsl:call-template name="style.body-top"></xsl:call-template><xsl:call-template name="script.body-top"></xsl:call-template><form method="post" name="LANSA" id="{$lweb_WRName}_form" action="{$lweb_context/lxml:action-request}?wam={$lweb_WAMName}&amp;webrtn={$lweb_WRName}&amp;ml={$lweb_context/lxml:technology-service}&amp;part={$lweb_context/lxml:partition}&amp;lang={$lweb_context/lxml:language}"><xsl:if test="$showHeader"><div data-role="header" role="banner"><xsl:if test="$headerSwatch"><xsl:attribute name="data-theme"><xsl:value-of select="$headerSwatch"></xsl:value-of></xsl:attribute></xsl:if><xsl:if test="$headerPosition = 'fixed'"><xsl:attribute name="data-position">fixed</xsl:attribute><xsl:if test="$headerFullscreenMode"><xsl:attribute name="data-fullscreen">true</xsl:attribute></xsl:if></xsl:if><xsl:apply-templates select="*" mode="content.header"></xsl:apply-templates><xsl:comment /></div></xsl:if><div data-theme="{$contentSwatch}" data-role="content" role="main"><xsl:if test="$sidebarPositionSmallScreen = 'Top'"><div class="content-secondary"><xsl:apply-templates select="*" mode="content.secondary"></xsl:apply-templates><xsl:comment /></div></xsl:if><div class="content-primary"><xsl:if test="$showMessages"><xsl:call-template name="messages"></xsl:call-template></xsl:if><xsl:apply-templates select="*"></xsl:apply-templates><xsl:comment /></div><xsl:if test="$sidebarPositionSmallScreen != 'Top'"><div class="content-secondary"><xsl:apply-templates select="*" mode="content.secondary"></xsl:apply-templates><xsl:comment /></div></xsl:if></div><xsl:call-template name="hidden_fields"></xsl:call-template><xsl:if test="$showFooter"><div data-role="footer"><xsl:if test="$footerSwatch"><xsl:attribute name="data-theme"><xsl:value-of select="$footerSwatch"></xsl:value-of></xsl:attribute></xsl:if><xsl:if test="$footerPosition = 'fixed'"><xsl:attribute name="data-position">fixed</xsl:attribute><xsl:if test="$footerFullscreenMode"><xsl:attribute name="data-fullscreen">true</xsl:attribute></xsl:if></xsl:if><xsl:if test="$persistentFooterId"><xsl:attribute name="data-id"><xsl:value-of select="$persistentFooterId"></xsl:value-of></xsl:attribute></xsl:if><xsl:apply-templates select="*" mode="content.footer"></xsl:apply-templates><xsl:comment /></div></xsl:if></form><xsl:call-template name="scriptAtEnd"></xsl:call-template></div></body></html></xsl:template><xsl:template match="/lxml:data" mode="content.header"><h1><xsl:value-of select="/lxml:data/lxml:context/lxml:webroutine-title"></xsl:value-of><xsl:comment /></h1></xsl:template><xsl:template match="/lxml:data" mode="content.secondary">
 		Sidebar
 	</xsl:template><xsl:template match="/lxml:data" mode="content.footer">
 		Footer
-	</xsl:template><xsl:template match="/lxml:data" mode="content.hidden"><xsl:comment>
-			Hidden Content
-		</xsl:comment></xsl:template><xsl:template match="/lxml:data" mode="content.style">
-		.lstd-stdFlexLayout .content-secondary {
-		margin: -15px;
-		padding: 15px;
-		}
+	</xsl:template><xsl:template match="/lxml:data" mode="content.hidden"><xsl:comment> Hidden Content </xsl:comment></xsl:template><xsl:template match="/lxml:data" mode="content.style">
+.lstd-stdFlexLayout .content-secondary {
+	margin: -15px;
+	padding: 15px;
+}
+.lstd-stdFlexLayout .content-primary {
+	margin: -15px;
+	padding: 15px;
+}
 
-		.lstd-stdFlexLayout .content-primary {
-		margin: -15px;
-		padding: 15px;
-		}
+@media all and (max-width: 650px) {
+	.lstd-sidebarOnSmallHidden .content-secondary {
+	display: none;
+}
+}
 
-		@media all and (max-width: 650px){
-		.lstd-sidebarOnSmallHidden .content-secondary {
-		display: none;
-		}
-		}
-
-		@media all and (min-width: 650px){
-
+@media all and (min-width: 650px) {
 		.lstd-stdFlexLayout .content-secondary {
 		float: left;
 		width: 45%;
-		}
-
-		.lstd-stdFlexLayout .content-primary {
+	}
+	.lstd-stdFlexLayout .content-primary {
 		width: 45%;
 		float: right;
-		}
-
-		}
-		@media all and (min-width: 750px){
-		.lstd-stdFlexLayout .content-secondary {
+	}
+}
+@media all and (min-width: 750px) {
+	.lstd-stdFlexLayout .content-secondary {
 		width: 34%;
-		}
-		.lstd-stdFlexLayout .content-primary {
+	}
+	.lstd-stdFlexLayout .content-primary {
 		width: 56%;
-		}
-		}
-		@media all and (min-width: 1200px){
-
-		.lstd-stdFlexLayout .content-secondary {
+	}
+}
+@media all and (min-width: 1200px) {
+	.lstd-stdFlexLayout .content-secondary {
 		width: 30%;
-		}
-		.lstd-stdFlexLayout .content-primary {
+	}
+	.lstd-stdFlexLayout .content-primary {
 		width: 60%;
-		}
-		}
+	}
+}
 		</xsl:template><xsl:template match="/lxml:data" mode="content.script"></xsl:template></xsl:transform>
