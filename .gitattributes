@@ -9,7 +9,7 @@ buildpase*.mak	eol=lf
 *.awk		eol=lf
 
 # Files which will always have crlf endings
-*.xsl		eol=crlf
+# *.xsl		eol=crlf
 *.asf		eol=crlf
 
 # otherwise text format is platform specific
