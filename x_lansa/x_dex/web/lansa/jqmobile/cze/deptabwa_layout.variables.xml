@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<lxml:data xmlns:lxml="http://www.lansa.com/2002/XML/Runtime-Data"><lxml:imports><lxml:import name="std_layout_v2"/><lxml:import name="std_types"/></lxml:imports><lxml:external-resources><lxml:script name="XMJ001" location="header"/><lxml:style name="XMT01J" location="header"/><lxml:style name="XMC001" location="header"/></lxml:external-resources></lxml:data>
