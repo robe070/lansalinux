@@ -15,8 +15,6 @@
 # otherwise text format is platform specific
 # *	text=auto
 
-# Test line. Remove this
-
 # files that must be treated as binary
 *.png	binary
 *.jpg	binary
