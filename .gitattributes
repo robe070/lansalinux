@@ -19,3 +19,4 @@
 *.png	binary
 *.jpg	binary
 *.so	binary
+*.gif	binary
