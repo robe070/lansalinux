@@ -1,9 +1,9 @@
 ﻿/*!
- (c) 2011, 2012 LANSA
+ (c) 2011, 2013 LANSA
  XHTML Smoothness theme style
  $Workfile:: std_themelet1_style2.css             $
- $UTCDate:: 2012-01-05 23:08:16Z                  $
- $Revision:: 11                                   $
+ $UTCDate:: 2013-07-02 04:37:11Z                  $
+ $Revision:: 13                                   $
  */
 
 @import "std_style.min.css";
@@ -100,18 +100,18 @@
 }
 #lpage_footer
 {
-    background: #ccc;
-    text-align: center;
-    -moz-border-radius-bottomleft: 12px;
-    -webkit-border-bottom-left-radius: 12px;
-    border-bottom-left-radius: 12px;
-    -moz-border-radius-bottomright: 12px;
-    -webkit-border-bottom-right-radius: 12px;
-    border-bottom-right-radius: 12px;
-    background: url("images/std_themelet1_style2_contentbg.png") repeat-x scroll left bottom #E4E4E4;
-    width: 100%;
+   background: #ccc;
+   text-align: center;
+   -moz-border-radius-bottomleft: 12px;
+   -webkit-border-bottom-left-radius: 12px;
+   border-bottom-left-radius: 12px;
+   -moz-border-radius-bottomright: 12px;
+   -webkit-border-bottom-right-radius: 12px;
+   border-bottom-right-radius: 12px;
+   background: url("images/std_themelet1_style2_contentbg.png") repeat-x scroll left bottom #E4E4E4;
+   width: 100%;
 	height:163px;
-	border-top: 0px solid #000000;
+	border-top: 0px solid #acacac;
 	text-align:center;
 }
 
@@ -127,7 +127,7 @@
  margin-right: auto;
  padding-top: 0px;
  min-height: 200px;
- background: url("images/std_themelet1_style2_bg.png") repeat scroll left top transparent;
+ background: url("images/std_themelet1_style2_hbg.png") repeat scroll left top transparent;
  border: 10px solid #808080;
  margin-top: 10px;
 }
@@ -157,7 +157,7 @@
 }
 #lpage_logo h3 span, #lpage_logo h3 span a:link, #lpage_logo h3 span a:visited, #lpage_logo h3 span a:hover, #lpage_logo h3 span a:active
 {
- color: #000000;
+ color: #404040;
  font-size: 36pt;
 }
 .lpage_onecol_layout
@@ -178,7 +178,7 @@
 {
   margin-left: auto;
   margin-right: auto;
-  background: url("images/std_themelet1_style2_bg.png") repeat-x scroll left bottom transparent;
+  background: url("images/std_themelet1_style2_fbg.png") repeat-x scroll left bottom transparent;
   min-height: 20px;
   border-left: 10px solid #808080;
   border-right: 10px solid #808080;
@@ -226,17 +226,32 @@
 {
   font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
   font-size:14px;
-  color:#000000;
+  color:#404040;
   line-height:18px;
   border: 0px solid blue;
   list-style:none;
   float: left;
 }
+body[lang="ja"] #lpage_footer ul li {
+	font-family: "Meiryo UI", Meiryo, "Hiragino Kaku Gothic Pro", "MS Gothic", "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+body[lang="ko"] #lpage_footer ul li {
+	font-family: Dotum, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+body[lang|="zh"] #lpage_footer ul li {
+	font-family: "Microsoft YaHei UI", "Microsoft YaHei", SimSun, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+body[lang="zh-HK"] #lpage_footer ul li {
+	font-family: "Microsoft JhengHei UI", "Microsoft JhengHei", PMingLiU, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+body[lang="zh-TW"] #lpage_footer ul li {
+	font-family: "Microsoft JhengHei UI", "Microsoft JhengHei", PMingLiU, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
 #lpage_footer ul li a
 {
   width:auto;
   float:left;
-  color:#000000;
+  color:#404040;
 }
 #lpage_footer ul li.lpage_space
 {
@@ -251,14 +266,29 @@
   float:left;
   font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
   font-size:14px;
-  color:#000000;
+  color:#404040;
   line-height:18px;
   text-align:center;
   padding-bottom: 10px;
 }
+body[lang="ja"] #lpage_footer p {
+	font-family: "Meiryo UI", Meiryo, "Hiragino Kaku Gothic Pro", "MS Gothic", "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+body[lang="ko"] #lpage_footer p {
+	font-family: Dotum, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+body[lang|="zh"] #lpage_footer p {
+	font-family: "Microsoft YaHei UI", "Microsoft YaHei", SimSun, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+body[lang="zh-HK"] #lpage_footer p {
+	font-family: "Microsoft JhengHei UI", "Microsoft JhengHei", PMingLiU, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+body[lang="zh-TW"] #lpage_footer p {
+	font-family: "Microsoft JhengHei UI", "Microsoft JhengHei", PMingLiU, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
 #lpage_footer p a
 {
-  color:#000000;
+  color:#404040;
 }
 #lpage_container
 {
@@ -271,10 +301,7 @@
 }
 body
 {
-  margin:0;
   padding: 0;
-  font-size: 12px;
-  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
   background: url("images/std_themelet1_style2_headerbg.png") repeat-x scroll 0 0 #c0c0c0;
 }
 #lpage_header_themelet
@@ -291,6 +318,21 @@ body
 .ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button
 {
    font-family: Verdana, Arial;
+}
+body[lang="ja"] .ui-widget input, body[lang="ja"] .ui-widget select, body[lang="ja"] .ui-widget textarea, body[lang="ja"] .ui-widget button {
+	font-family: "Meiryo UI", Meiryo, "Hiragino Kaku Gothic Pro", "MS Gothic", Verdana, Arial;
+}
+body[lang="ko"] .ui-widget input, body[lang="ko"] .ui-widget select, body[lang="ko"] .ui-widget textarea, body[lang="ko"] .ui-widget button {
+	font-family: Dotum, Verdana, Arial;
+}
+body[lang|="zh"] .ui-widget input, body[lang|="zh"] .ui-widget select, body[lang|="zh"] .ui-widget textarea, body[lang|="zh"] .ui-widget button {
+	font-family: "Microsoft YaHei UI", "Microsoft YaHei", SimSun, Verdana, Arial;
+}
+body[lang="zh-HK"] .ui-widget input, body[lang="zh-HK"] .ui-widget select, body[lang="zh-HK"] .ui-widget textarea, body[lang="zh-HK"] .ui-widget button {
+	font-family: "Microsoft JhengHei UI", "Microsoft JhengHei", PMingLiU, Verdana, Arial;
+}
+body[lang="zh-TW"] .ui-widget input, body[lang="zh-TW"] .ui-widget select, body[lang="zh-TW"] .ui-widget textarea, body[lang="zh-TW"] .ui-widget button {
+	font-family: "Microsoft JhengHei UI", "Microsoft JhengHei", PMingLiU, Verdana, Arial;
 }
 div.messages
 {

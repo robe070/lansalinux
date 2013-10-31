@@ -1,7 +1,7 @@
 ﻿/*!
- (c) 2002, 2011 LANSA
+ (c) 2002, 2013 LANSA
  XHTML Standard Styles
  $Workfile:: std_style_jpn.css                    $
- $UTCDate:: 2011-10-21 05:42:39Z                  $
- $Revision:: 11                                   $
-*/body,table,strong,input,select,textarea,button{font-family:"MS Gothic","MS Mincho",Serif}
+ $UTCDate:: 2013-07-02 01:31:10Z                  $
+ $Revision:: 12                                   $
+*/body,table,strong,input,select,textarea,button{font-family:"MS Gothic","MS Mincho",Serif}body[lang="ja"],body[lang="ja"] table,body[lang="ja"] strong,body[lang="ja"] input,body[lang="ja"] select,body[lang="ja"] textarea,body[lang="ja"] button{font-family:"Meiryo UI",Meiryo,"Hiragino Kaku Gothic Pro","MS Gothic","MS Mincho",Serif}

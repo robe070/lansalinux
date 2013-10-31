@@ -3,9 +3,16 @@
 
 x_lic*.*
 x_hmrqst
-l4w3serv.cfg.*
 lcoproc.ini
 object
 source
 document.cache
 run/wam_sessions
+
+# Configuration files
+l4w3serv.cfg.*
+lansa.ini
+listen.dat
+lroute.dat
+
+!x_lansa/source

@@ -1,14 +1,26 @@
 ﻿/*!
- (c) 2002, 2011 LANSA
+ (c) 2002, 2013 LANSA
  XHTML Standard Styles
  $Workfile:: std_style.css                        $
- $UTCDate:: 2012-07-24 05:33:07Z                  $
- $Revision:: 42                                   $
+ $UTCDate:: 2013-09-18 00:02:22Z                  $
+ $Revision:: 45                                   $
 */
 
 body {
 	font-size: 8pt;
 	background-color: #ffffff;
+}
+body[lang="ko"], body[lang="ko"] table, body[lang="ko"] strong, body[lang="ko"] input, body[lang="ko"] select, body[lang="ko"] textarea, body[lang="ko"] button {
+	font-family: Dotum, Serif;
+}
+body[lang|="zh"], body[lang|="zh"] table, body[lang|="zh"] strong, body[lang|="zh"] input, body[lang|="zh"] select, body[lang|="zh"] textarea, body[lang|="zh"] button {
+	font-family: "Microsoft YaHei UI", "Microsoft YaHei", SimSun, Serif;
+}
+body[lang="zh-HK"], body[lang="zh-HK"] table, body[lang="zh-HK"] strong, body[lang="zh-HK"] input, body[lang="zh-HK"] select, body[lang="zh-HK"] textarea, body[lang="zh-HK"] button {
+	font-family: "Microsoft JhengHei UI", "Microsoft JhengHei", PMingLiU, Serif;
+}
+body[lang="zh-TW"], body[lang="zh-TW"] table, body[lang="zh-TW"] strong, body[lang="zh-TW"] input, body[lang="zh-TW"] select, body[lang="zh-TW"] textarea, body[lang="zh-TW"] button {
+	font-family: "Microsoft JhengHei UI", "Microsoft JhengHei", PMingLiU, Serif;
 }
 
 form { margin: 0px; }
@@ -715,8 +727,6 @@ table.std_largelist th, table.std_largelist tbody tr, table.std_largelist td {
 	margin: 0px;
 }
 
-
-
 .std_datetime {
     white-space: nowrap;
 }
@@ -746,6 +756,45 @@ img.disabled {
 .std_crud_list_button {
    font-size: 0.7em;
 }
+
+.std_progressbar {
+	position: relative;
+	width: 99%;
+	height: 20px;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+}
+
+.std_progressbar_text {
+	position: absolute;
+	left: 50%;
+	font-weight: bold;
+}
+
+.std_progressbar_overlay {
+	display: none;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	z-index: 1001;
+	-moz-opacity: 0.8;
+	opacity:.20;
+	filter: alpha(opacity=20);
+}
+
+.std_fileupload_hidden {
+	height: 0px;
+	width: 0px;
+	overflow: hidden;
+}
+
+ul.std_fileupload_log {
+	list-style-type: none;
+}
+
 /*
  * Styles for new layouts
  */

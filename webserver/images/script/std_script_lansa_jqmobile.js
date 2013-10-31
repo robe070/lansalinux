@@ -2,8 +2,8 @@
 	(c) 2012, 2013 LANSA
 	jQuery Mobile Standard Scripts
 	$Workfile:: std_script_lansa_jqmobile.js $
-	$UTCDate:: 2013-03-12 02:43:31Z          $
-	$Revision:: 37                           $
+	$UTCDate:: 2013-10-28 22:17:02Z          $
+	$Revision:: 48                           $
 */
 
 /**
@@ -105,14 +105,28 @@ Lstd.init = function() {
 	
 	this.Weblets.initAll();
 	
-	$("a.lstd_anchor").live("vmouseup", Lstd.Weblets.stdAnchor.prepareURL);
+	$(document).on("vmouseup", "a.lstd_anchor", Lstd.Weblets.stdAnchor.prepareURL);
 	
-	$("button.lstd_button[type=submit]").live("click", function(e) {
-		var $t = $(e.target), action = $t.attr("formaction"),
+	$(document).on("click", "button.lstd_button[type=submit]", function(e) {
+		var $t = $(e.target), action = $t.attr("formaction"), presubmitJS = $t.attr("data-presubmitjs");
 		$f = $(e.target.form),
 		transition = $t.data("transition"), direction = $t.data("direction"),
 		oldAction="", oldTrans="", oldDir="", wrOptions = Lstd.wrOptions; wrContext = Lstd.wrContext;
 		
+		if (presubmitJS) {
+			try {
+				var js = new Function(presubmitJS), val = js();
+				if (val === false) {
+					e.stopImmediatePropagation();
+					e.preventDefault();
+					return;
+				}
+			}
+			catch (e) {
+				console.error(e);
+			}
+		}
+
 		if ((wrOptions["debug"] != null) && (wrOptions["debug"].length > 0)) action += ("&debug=" + wrOptions["debug"]);
 		if ((wrContext["session-key-method"] == "url") && (wrContext["session-key"] != "")) action += ("&sid=" + wrContext["session-key"]);
 		
@@ -140,6 +154,23 @@ Lstd.init = function() {
 				if (oldTrans) $f.jqmData("transition", oldTrans);
 				if (oldDir) $f.jqmData("direction", oldDir);
 			}, 500);
+		}
+	});
+
+	$(document).on("click", "button.lstd_button[type=button]", function(e) {
+		var presubmitJS = $(e.target).attr("data-presubmitjs");
+		if (presubmitJS) {
+			try {
+				var js = new Function(presubmitJS), val = js();
+				if (val === false) {
+					e.stopImmediatePropagation();
+					e.preventDefault();
+					return;
+				}
+			}
+			catch (e) {
+				console.error(e);
+			}
 		}
 	});
 	
@@ -542,7 +573,7 @@ Lstd.Utils = {
 		for (i in names)
 		{
 			var nm = names[i];
-			if (args[nm]) options[nm] = args[nm];
+			if (args[nm] != undefined) options[nm] = args[nm];
 		}
 	},
 	/**
@@ -902,6 +933,11 @@ Lstd.Weblets = {
 			}
 		}
 		this.initDone = true;
+
+		// Lazy load images
+		if ($.fn.lazyload) {
+			$("img.std_lazy").lazyload({effect: "fadeIn"});
+		}
 	},
 	destroyAll: function() {
 		var w, wn, weblets = this._weblets;
@@ -1495,5 +1531,176 @@ Lstd.Weblets.stdMobiscroll =
 		var $masterField = jQuery(Lstd.Utils.makeSafeId(inst.settings.lstdMasterID))
 		
 		$masterField.val(jQuery.scroller.formatDate(Lstd.Weblets.stdMobiscroll.getServerFormat($masterField),  inst.getDate(inst.values)));
+	}
+};
+
+// std_progressbar
+
+Lstd.Weblets.stdProgressBar = {
+	instances: {},
+	init: function(id, args) {
+		var transitory = args.transitory || false;
+		var overlay = args.overlay || false;
+		var delayClose = args.delayClose || 0;
+
+		function stdProgressBar(id, args) {
+			var $pb = jQuery(Lstd.Utils.makeSafeId(id));
+			var $pbo = jQuery(Lstd.Utils.makeSafeId("_" + id + "_OVERLAY"));
+			var $pbc = $pb.find("div.lstd-progressbar-content");
+			var $pbt = jQuery("<div class=\"lstd-progressbar-text\"></div>");
+			var initValue = args.value != undefined ? args.value : 0;
+			var maxVal = args.max != undefined ? args.max : 100;
+
+			// Note: Cannot get default string here as i18n strings not loaded yet.
+			var captionText = (args.caption != undefined) ? args.caption : null;
+
+			var std_pb = this;
+			this.started = false;
+
+			$pbc.css("height", $pb.height());
+
+			var swatch = $pbc.attr("data-theme");
+			if (swatch) {
+				$pbc.addClass("ui-bar-" + swatch);
+			}
+
+			$pbc.appendTo($pb);
+			$pbt.appendTo($pb);
+
+			/**
+			 * Centers the progress bar in the window (overlaying the page)
+			 */
+			this.center = function() {
+				var $window = jQuery(window);
+				$pb.css("position","absolute");
+				$pb.css("top", Math.max(0, (($window.height() - $pb.outerHeight()) / 2) + $window.scrollTop()) + "px");
+				$pb.css("left", Math.max(0, (($window.width() - $pb.outerWidth()) / 2) + $window.scrollLeft()) + "px");
+			};
+
+			/**
+			 * Computes the percentage of the current value relative to the max value.
+			 */
+			this.percentage = function(val) {
+				var pct = parseInt((val/maxVal * 100), 10);
+				console.log("value: " + pct); //FIXME
+				if (pct > 100) pct = 100;
+				var pcts = (pct < 100) ? pct + "%" : (captionText != null) ? captionText : this.getDefaultCaption();
+				$pbc.css("width", pct + "%");
+				$pbt.text(pcts);
+			};
+
+			/**
+			 * Gets default caption now or delays until DOM is ready
+			 */
+			this.getDefaultCaption = function() {
+				try {
+					return Lstd.I18n.getString("Complete");
+				}
+				catch (e) {
+					jQuery(function() {
+						$pbt.text(Lstd.I18n.getString("Complete"));
+					});
+					return "";
+				}
+			};
+
+			/**
+			 * Starts the progress bar
+			 */
+			this.start = function() {
+				if (!std_pb.started) {
+					std_pb.percentage(initValue);
+
+					if (transitory) {
+						if (overlay) {
+							$pbo.css("display", "block");
+							$pb.show();
+							this.center();
+							var zplus = parseInt($pbo.css("z-index")) + 1;
+							$pb.css("z-index", zplus);
+						}
+						else {
+							$pb.show();
+						}
+					}
+					std_pb.started = true;
+				}
+			};
+
+			/**
+			 * Stops the progress bar (private)
+			 */
+			this._stop = function() {
+				if (transitory) {
+					if (overlay) {
+						$pbo.css("display", "none");
+					}
+				}
+				$pb.hide();
+				std_pb.started = false;
+			};
+
+			/**
+			 * Stops the progress bar
+			 */
+			this.stop = function() {
+				if (delayClose > 0) {
+					setTimeout(this._stop, delayClose);
+					std_pb.started = false;
+				}
+				else {
+					std_pb._stop();
+				}				
+			};
+
+			/**
+			 * Updates the value of the progress bar
+			 */
+			this.value = function(val) {
+				std_pb.percentage(val);
+			};
+
+			if (!transitory) {
+				this.start();
+			}
+			else {
+				$pb.hide();
+			}
+		}
+		Lstd.Weblets.stdProgressBar.instances[id] = new stdProgressBar(id, args);
+	},
+
+	start: function(id) {
+		var inst = Lstd.Weblets.stdProgressBar.instances[id];
+		if (inst) inst.start();
+	},
+
+	stop: function(id) {
+		var inst = Lstd.Weblets.stdProgressBar.instances[id];
+		if (inst) inst.stop();
+	},
+
+	value: function(id, val) {
+		var inst = Lstd.Weblets.stdProgressBar.instances[id];
+		if (inst) inst.value(val);
+	}
+};
+
+// std_loader
+
+Lstd.Weblets.stdLoader = {
+	start: function(id) {
+		var $div = jQuery(Lstd.Utils.makeSafeId(id));
+		var theme = $div.jqmData("theme") || jQuery.mobile.loader.prototype.options.theme;
+		var msgText = $div.text();
+		var textVisible = $div.jqmData("show-text") || jQuery.mobile.loader.prototype.options.textVisible;
+		var textonly = ($div.jqmData("show-icon") == false);
+
+		if (msgText === "") msgText = jQuery.mobile.loader.prototype.options.text;
+		jQuery.mobile.loading("show", {text: msgText, textVisible: textVisible, theme: theme, textonly: textonly});
+	},
+
+	stop: function() {
+		jQuery.mobile.loading("hide");
 	}
 };

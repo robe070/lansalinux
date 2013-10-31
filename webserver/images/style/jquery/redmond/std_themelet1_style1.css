@@ -1,9 +1,9 @@
 ﻿ /*!
- (c) 2011, 2012 LANSA
+ (c) 2011, 2013 LANSA
  XHTML Redmond theme style
  $Workfile:: std_themelet1_style1.css             $
- $UTCDate:: 2012-01-05 23:08:16Z                  $
- $Revision:: 20                                   $
+ $UTCDate:: 2013-07-02 01:57:38Z                  $
+ $Revision:: 21                                   $
  */
 
 @import "std_style.min.css";
@@ -216,6 +216,21 @@
   list-style:none;
   float: left;
 }
+body[lang="ja"] #lpage_footer ul li {
+	font-family: "Meiryo UI", Meiryo, "Hiragino Kaku Gothic Pro", "MS Gothic", "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+body[lang="ko"] #lpage_footer ul li {
+	font-family: Dotum, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+body[lang|="zh"] #lpage_footer ul li {
+	font-family: "Microsoft YaHei UI", "Microsoft YaHei", SimSun, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+body[lang="zh-HK"] #lpage_footer ul li {
+	font-family: "Microsoft JhengHei UI", "Microsoft JhengHei", PMingLiU, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+body[lang="zh-TW"] #lpage_footer ul li {
+	font-family: "Microsoft JhengHei UI", "Microsoft JhengHei", PMingLiU, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
 #lpage_footer ul li a
 {
   width:auto;
@@ -241,6 +256,21 @@
   line-height:18px;
   text-align:center;
 }
+body[lang="ja"] #lpage_footer p {
+	font-family: "Meiryo UI", Meiryo, "Hiragino Kaku Gothic Pro", "MS Gothic", "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+body[lang="ko"] #lpage_footer p {
+	font-family: Dotum, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+body[lang|="zh"] #lpage_footer p {
+	font-family: "Microsoft YaHei UI", "Microsoft YaHei", SimSun, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+body[lang="zh-HK"] #lpage_footer p {
+	font-family: "Microsoft JhengHei UI", "Microsoft JhengHei", PMingLiU, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+body[lang="zh-TW"] #lpage_footer p {
+	font-family: "Microsoft JhengHei UI", "Microsoft JhengHei", PMingLiU, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
 #lpage_footer p a
 {
   color:#e17009;
@@ -253,13 +283,6 @@
   margin-right: auto;
   border: 0px solid yellow;
 }
-body
-{
-  margin:0;
-  font-size: 12px;
-  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
-}
-
 .title
 {
    color: #3b3b3b;
@@ -270,3 +293,19 @@ body
 {
    font-family: Verdana, Arial;
 }
+body[lang="ja"] .ui-widget input, body[lang="ja"] .ui-widget select, body[lang="ja"] .ui-widget textarea, body[lang="ja"] .ui-widget button {
+	font-family: "Meiryo UI", Meiryo, "Hiragino Kaku Gothic Pro", "MS Gothic", Verdana, Arial;
+}
+body[lang="ko"] .ui-widget input, body[lang="ko"] .ui-widget select, body[lang="ko"] .ui-widget textarea, body[lang="ko"] .ui-widget button {
+	font-family: Dotum, Verdana, Arial;
+}
+body[lang|="zh"] .ui-widget input, body[lang|="zh"] .ui-widget select, body[lang|="zh"] .ui-widget textarea, body[lang|="zh"] .ui-widget button {
+	font-family: "Microsoft YaHei UI", "Microsoft YaHei", SimSun, Verdana, Arial;
+}
+body[lang="zh-HK"] .ui-widget input, body[lang="zh-HK"] .ui-widget select, body[lang="zh-HK"] .ui-widget textarea, body[lang="zh-HK"] .ui-widget button {
+	font-family: "Microsoft JhengHei UI", "Microsoft JhengHei", PMingLiU, Verdana, Arial;
+}
+body[lang="zh-TW"] .ui-widget input, body[lang="zh-TW"] .ui-widget select, body[lang="zh-TW"] .ui-widget textarea, body[lang="zh-TW"] .ui-widget button {
+	font-family: "Microsoft JhengHei UI", "Microsoft JhengHei", PMingLiU, Verdana, Arial;
+}
+
