@@ -22,7 +22,9 @@
 		"NoXMLHttpRequest": "XMLHttpRequest not supported by this browser.",
 		"Processing1": "Processing",
 		"Done1": "Done",
-		"Messages": "Messages:"
+		"Messages": "Messages:",
+		"InProgress": "In progress ...",
+		"Complete": "Complete"
 	},
 	"arrays": {
 		"DaysOfWeek": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
