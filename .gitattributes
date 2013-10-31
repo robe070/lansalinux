@@ -19,5 +19,6 @@ buildpase*.mak	eol=lf
 *.png	binary
 *.jpg	binary
 *.so	binary
+*.gif   binary
 
 # lansalpc/lansalinux line

@@ -1,7 +1,0 @@
-#!/bin/sh
-
-CONNECT_ROOT="/opt/lansa.rg132/connect"
-
-set -x
-exec env LD_LIBRARY_PATH="$CONNECT_ROOT:$LD_LIBRARY_PATH" \
-    "/usr/sbin/apachectl" -f "/etc/httpd/conf/httpd.conf" -k stop
