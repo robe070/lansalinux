@@ -9,15 +9,10 @@ source
 document.cache
 run/wam_sessions
 
-# Configuration files we don't want to track
+# Configuration files
 l4w3serv.cfg.*
 lansa.ini
 listen.dat
 lroute.dat
-apache_start
-apache_stop
-mod_lansa.conf
-x_lansa.pro
 
-# We still want to track these files
 !x_lansa/source

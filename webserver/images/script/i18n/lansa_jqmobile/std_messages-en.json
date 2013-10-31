@@ -12,8 +12,6 @@
 		"BadDBCS_SBCSNotAllowed": "Only DBCS characters are allowed in this field. %1 SBCS characters have been entered.",
 		"BadDBCS_DBCSNotAllowed": "Only SBCS characters are allowed in this field. %1 DBCS characters have been entered.",
 		"BadDBCS_BothNotAllowed": "Either all DBCS characters or all SBCS characters are allowed in this field. %1 SBCS characters have been entered. %2 DBCS characters have been entered.",
-		"Complete": "Complete",
-		"InProgress": "In progress ...",
 		"mobiscroll-cancelText": "Cancel",
 		"mobiscroll-setText": "Set",
 		"mobiscroll-dayText": "Day",
@@ -25,7 +23,7 @@
 		"mobiscroll-dateFormat": "mm/dd/yy",
 		"mobiscroll-timeFormat": "hh:ii A",
 		"mobiscroll-dateOrder": "MMdyy",
-		"mobiscroll-timeWheels": "hhiiA"
+      "mobiscroll-timeWheels": "hhiiA"
 	},
 	"arrays": {
 		"DaysOfWeekSundayStartShort": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],

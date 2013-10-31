@@ -1,22 +1,23 @@
 # Files which will always have LF line endings on checkout.
-# *.sh		eol=lf
-# *.py		eol=lf
-# buildpase*.mak	eol=lf
-# *.pase.mak 	eol=lf
-# *ux.mak		eol=lf
-# *.unx		eol=lf
-# *.sol		eol=lf
-# *.awk		eol=lf
+*.sh		eol=lf
+*.py		eol=lf
+buildpase*.mak	eol=lf
+*.pase.mak 	eol=lf
+*ux.mak		eol=lf
+*.unx		eol=lf
+*.sol		eol=lf
+*.awk		eol=lf
 
 # Files which will always have crlf endings
-# *.xsl		eol=crlf
-# *.asf		eol=crlf
+*.xsl		eol=crlf
+*.asf		eol=crlf
 
 # otherwise text format is platform specific
-# *	text=auto
+*	text=auto
 
 # files that must be treated as binary
 *.png	binary
 *.jpg	binary
 *.so	binary
-*.gif	binary
+
+# lansalpc/lansalinux line
