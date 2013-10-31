@@ -1,6 +1,6 @@
 DBUT=MYSQL
-DBID=azi_ec2_mysql_lansadb
-DBII=azi_ec2_mysql_lansadb
+DBID=cirrus_mysql_rg132
+DBII=cirrus_mysql_rg132
 DBUS=lansa
-PSWD=lansalansa
+PSWD=lansa
 GUSR=QOTHPRDOWN
