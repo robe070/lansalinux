@@ -2,8 +2,8 @@
 	(c) 2012, 2013 LANSA
 	jQuery Mobile Standard Scripts
 	$Workfile:: std_script_lansa_jqmobile.js $
-	$UTCDate:: 2013-10-28 04:02:43Z          $
-	$Revision:: 47                           $
+	$UTCDate:: 2013-10-28 22:17:02Z          $
+	$Revision:: 48                           $
 */
 
 /**
@@ -1694,7 +1694,7 @@ Lstd.Weblets.stdLoader = {
 		var theme = $div.jqmData("theme") || jQuery.mobile.loader.prototype.options.theme;
 		var msgText = $div.text();
 		var textVisible = $div.jqmData("show-text") || jQuery.mobile.loader.prototype.options.textVisible;
-		var textonly = ($div.jqmData("show-icon") === "false");
+		var textonly = ($div.jqmData("show-icon") == false);
 
 		if (msgText === "") msgText = jQuery.mobile.loader.prototype.options.text;
 		jQuery.mobile.loading("show", {text: msgText, textVisible: textVisible, theme: theme, textonly: textonly});
