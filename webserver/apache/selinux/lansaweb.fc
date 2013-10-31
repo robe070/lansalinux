@@ -1,7 +1,0 @@
-/opt/lansa.rg132/webserver/apache/mod_lansa.so	--	system_u:object_r:httpd_modules_t
-/opt/lansa.rg132/webserver/apache/libwpixslt_libxslt.so	--	system_u:object_r:httpd_modules_t
-/opt/lansa.rg132/connect/liblco(.*).so	--	system_u:object_r:httpd_modules_t
-/opt/lansa.rg132/log(/.*)?	system_u:object_r:httpd_log_t
-/opt/lansa.rg132/webserver/apache/log(/.*)?	system_u:object_r:httpd_log_t
-/opt/lansa.rg132/webserver/apache/locks(/.*)?	system_u:object_r:httpd_log_t
-/opt/lansa.rg132/webserver/apache/xsl.cache(/.*)?	system_u:object_r:httpd_log_t
