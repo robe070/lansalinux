@@ -1,6 +1,6 @@
 #!/bin/sh
 
-export LANSAXROOT="/opt/lansa.bare"
+export LANSAXROOT="/opt/lansa.rg132"
 export X_RUN="ROOT:$LANSAXROOT"
 
 X_LANSA_BIN="$LANSAXROOT/x_lansa/bin"
