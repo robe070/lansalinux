@@ -15,7 +15,7 @@
 # otherwise text format is platform specific
 # *	text=auto
 
-# test line
+*.dat	text
 
 # files that must be treated as binary
 *.png	binary
