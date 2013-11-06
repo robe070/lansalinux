@@ -15,6 +15,7 @@
 # otherwise text format is platform specific
 # *	text=auto
 
+
 *.dat	text eol=lf
 
 # files that must be treated as binary
