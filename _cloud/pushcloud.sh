@@ -10,6 +10,7 @@ function execCmd()
 {
   eval "$1"
 
+  echo $1
   status=$?
 
   if [[ $status -gt "$2" ]]
