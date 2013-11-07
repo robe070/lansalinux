@@ -15,8 +15,9 @@
 # otherwise text format is platform specific
 # *	text=auto
 
+# dat files are treated as binary by default and lansa uses them as crlf everywhere
+*.dat	text eol=crlf
 
-*.dat	text eol=lf
 
 # files that must be treated as binary
 *.png	binary
