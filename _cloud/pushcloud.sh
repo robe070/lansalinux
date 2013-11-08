@@ -15,9 +15,10 @@ function execCmd()
 
   if [[ $status -gt "$2" ]]
   then
-        echo "Error..."
+        echo "Error $status"
 	exit $status
   fi
+  echo "Status: $status"
   return $status
 }
 
