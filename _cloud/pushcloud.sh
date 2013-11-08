@@ -8,17 +8,17 @@
 
 function execCmd()
 {
+  echo $1
+
   eval "$1"
   status=$?
 
-  echo $1
-
   if [[ $status -gt "$2" ]]
   then
-        echo "Error $status"
+        echo "Error: $status"
 	exit $status
   fi
-  echo "Status: $status"
+  echo "Return: $status"
   return $status
 }
 
