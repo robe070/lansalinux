@@ -9,9 +9,9 @@
 function execCmd()
 {
   eval "$1"
+  status=$?
 
   echo $1
-  status=$?
 
   if [[ $status -gt "$2" ]]
   then
