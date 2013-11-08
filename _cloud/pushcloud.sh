@@ -24,6 +24,8 @@ function execCmd()
 
 whoami
 
+export HOME=/home/devuser
+
 # Add all untracked files
 # execCmd "git add . --dry-run" 0
 execCmd "git add ." 0
