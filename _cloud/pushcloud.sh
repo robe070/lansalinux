@@ -24,7 +24,9 @@ function execCmd()
 
 whoami
 
-export HOME=/home/devuser
+# Currently LANSA Connect does not set the environment up vorrectly, and git needs the home directory to be set
+# These quotes take the output from whoami and treat it as text for the command line
+export HOME=/home/`whoami`
 
 # Add all untracked files
 # execCmd "git add . --dry-run" 0
