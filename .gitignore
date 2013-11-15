@@ -2,7 +2,6 @@
 *.swp
 
 x_lic*.*
-x_hmrqst
 lcoproc.ini
 object
 source
@@ -21,3 +20,4 @@ x_lansa.pro
 
 # We still want to track these files
 !x_lansa/source
+!x_lansa/x_sys/source
