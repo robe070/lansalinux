@@ -1,7 +1,0 @@
-# localhost:4560 is the installed value for DefaultServer
-# If you are connecting to a different server and/or using
-# a different port, please change the setting below to reflect 
-# the server and/or port, ie, 
-# DefaultServer=MyHost:4560
-DefaultServer=localhost:4560
-ExcludePrefix=JSM
