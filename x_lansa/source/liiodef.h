@@ -3914,6 +3914,7 @@ typedef unsigned long
 #define X_COMP_DISPATCH_ID_SQLNULL_IDENTIFIER            -9L
 #define X_COMP_DISPATCH_ID_NULL_IDENTIFIER               -10L
 #define X_COMP_DISPATCH_ID_WEB_RESOURCE                  -11L
+#define X_COMP_DISPATCH_ID_WEB                           -12L
 
 /* ------------------------------------------------------------------ */
 /* Codes for Modified Features.                                       */
@@ -10597,6 +10598,7 @@ typedef unsigned long
 #define X_COMP_PCODE_KIND_PUSH_RECORD                                1019L
 #define X_COMP_PCODE_KIND_PUSH_RECORD_FIELD                          1020L
 #define X_COMP_PCODE_KIND_PUSH_UDC_FIELD                             1021L
+#define X_COMP_PCODE_KIND_PUSH_WHERE_LITERAL_EXCHANGE                1022L
 
 #define X_COMP_PCODE_EXPRESSION_FLAG_SIMPLE_ASSIGNMENT               0x00000001L
 #define X_COMP_PCODE_EXPRESSION_FLAG_REMEMBERED_VALUE_ASSIGNMENT     0x00000002L
@@ -10625,6 +10627,7 @@ typedef unsigned long
 #define X_COMP_PCODE_UNARY_FACTOR_FLAG_UNSIGNED_INTEGER_VARIABLE     0x00000040L
 #define X_COMP_PCODE_UNARY_FACTOR_FLAG_FULL_RDMLX_VECTOR             0x00000080L
 #define X_COMP_PCODE_UNARY_FACTOR_FLAG_MBCS_VECTOR                   0x00000100L
+#define X_COMP_PCODE_UNARY_FACTOR_FLAG_FORCE_RDML_VECTOR             0x00000200L
 
 #define X_COMP_PCODE_BINARY_COMPARE_FLAG_EQUAL                       0x00000001L
 #define X_COMP_PCODE_BINARY_COMPARE_FLAG_LESS                        0x00000010L

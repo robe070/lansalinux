@@ -3247,8 +3247,8 @@ ExpressionNotUnicode=Expression &1 does not produce a Unicode string.
 ExpressionNotUnicode.Id=1602
 DocFileFieldNameTooLongDB2=&1 is too long to be used as a column name ( IBM DB2 allows up to 30 characters), the identifier &2 will be used instead.
 DocFileFieldNameTooLongDB2.Id=1603
-UnSupportedRuntime=&1 is not supported on &2 and will have no effect.
-UnSupportedRuntime.Id=1604
+TargetRuntimeUnsupportedFeature=&1 is not supported on &2 and will have no effect.
+TargetRuntimeUnsupportedFeature.Id=1604
 TargetRuntime=Target Runtime
 TargetRuntime.Id=1605
 TargetRuntimeWin32=Win32
@@ -3259,6 +3259,12 @@ TargetRuntimeJavascript=Javascript
 TargetRuntimeJavascript.Id=1608
 TargetRuntimeIOS=iOS
 TargetRuntimeIOS.Id=1609
+WebUnsupportedFeature=&1 can't be used on Web Pages.
+WebUnsupportedFeature.Id=1610
+WebUnsupportedCommand=The &1 command can't be used on Web Pages.
+WebUnsupportedCommand.Id=1611
+WebUnsupportedOverlay=Overlaying fields is not supported on Web Pages.
+WebUnsupportedOverlay.Id=1612
 
 *************************************************************
 ***** LANSA Web WebletGroups                            *****

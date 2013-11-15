@@ -10,7 +10,7 @@ document.cache
 run/wam_sessions
 
 # Configuration files we don't want to track
-l4w3serv.cfg.*
+l4w3serv.cfg.default-*
 lansa.ini
 listen.dat
 lroute.dat

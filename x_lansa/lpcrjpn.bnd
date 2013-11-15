@@ -3249,8 +3249,8 @@ ExpressionNotUnicode=式 &1 はUnicode文字列を生成しません。
 ExpressionNotUnicode.Id=1602
 DocFileFieldNameTooLongDB2=&1 は長すぎて列名に使用できません。(IBM DB2で許可されるのは30文字まで)代わりに識別子 &2 が使用されます。
 DocFileFieldNameTooLongDB2.Id=1603
-UnSupportedRuntime=&1 は &2 ではｻﾎﾟｰﾄされていないため、無効です。
-UnSupportedRuntime.Id=1604
+TargetRuntimeUnsupportedFeature=&1 は &2 ではｻﾎﾟｰﾄされていないため、無効です。
+TargetRuntimeUnsupportedFeature.Id=1604
 TargetRuntime=ﾀｰｹﾞｯﾄ ﾗﾝﾀｲﾑ
 TargetRuntime.Id=1605
 Win32=Win32
@@ -3259,6 +3259,14 @@ DirectX=DirectX
 DirectX.Id=1607
 TargetRuntimeJavascript=Javascript
 TargetRuntimeJavascript.Id=1608
+*** @TRANS NEW
+WebUnsupportedFeature=&1 can't be used on Web Pages.
+WebUnsupportedFeature.Id=1610
+WebUnsupportedCommand=The &1 command can't be used on Web Pages.
+WebUnsupportedCommand.Id=1611
+WebUnsupportedOverlay=Overlaying fields is not supported on Web Pages.
+WebUnsupportedOverlay.Id=1612
+*** @TRANS END
 
 *************************************************************
 ***** LANSA Web WebletGroups                            *****

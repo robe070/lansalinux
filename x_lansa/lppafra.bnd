@@ -1195,7 +1195,11 @@ FormatOptions.Page.Function.Caption=Formatage des fonctions
 FormatOptions.Page.Component.Caption=Formatage des composants
 FormatOptions.Item.General.Caption=Généraux
 FormatOptions.Item.Source.Caption=Source
-FormatOptions.Item.Xsl.Caption=WAM
+*** @TRANS CHANGED
+FormatOptions.Item.Xsl.Caption=Web
+*** @TRANS OLD
+*** FormatOptions.Item.Xsl.Caption=WAM
+*** @TRANS END
 FormatOptions.Item.Debug.Caption=Débogage
 FormatOptions.Item.Compile.Caption=Compiler
 FormatOptions.Item.Style.Caption=Style
@@ -1332,6 +1336,9 @@ FormatOptions.Xsl.Design.MappedImagesFolder.FolderBrowse.Caption=Choisir le doss
 FormatOptions.Xsl.OpenWebViews.Caption=Ouvrir les affichages Web en ouvrant les dessins
 FormatOptions.Xsl.ShowInlineWeblets.Caption=Afficher les Weblets intégrés
 FormatOptions.Xsl.ShowDeprecatedWeblets.Caption=Afficher les Weblets à éviter
+*** @TRANS NEW
+FormatOptions.Xsl.ShowWebComponents.Caption=Show Web Components
+*** @TRANS END
 FormatOptions.Xsl.ShowWebletXML.Caption=Afficher l'XML des Weblets
 FormatOptions.Xsl.DeleteOrphans.Caption=Supprimer les dessins de routines web orphelins en fermant les Web Application Modules
 FormatOptions.Xsl.SaveWebSampleData.Caption=Enregistrer les données exemple des zones et listes des webroutines
@@ -1578,6 +1585,9 @@ RepBrowser.ComponentNameCOM_OWNERDesc=Utiliser l'étendue du propriétaire
 RepBrowser.ComponentNameCOM_TRUEDesc=Booléen de valeur vraie
 RepBrowser.ComponentNameCOM_FALSEDesc=Booléen de valeur fausse
 RepBrowser.ComponentNameSYS_APPLNDesc=Application en cours
+*** @TRANS NEW
+RepBrowser.ComponentNameSYS_WEBDesc=Current Web application
+*** @TRANS END
 RepBrowser.ComponentNameSYS_KEYBDDesc=Etat des touches Shift, Alt et Ctrl
 RepBrowser.ComponentNameSYS_MOUSEDesc=La positon de la souris
 RepBrowser.ComponentNameNULLDesc=Référence nulle
