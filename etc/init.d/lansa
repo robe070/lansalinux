@@ -17,7 +17,7 @@
 # config: /etc/lansa/roots
 
 # lansa_version: 13.2
-# revision: 1
+# revision: 2
 
 if [ `id -u` -ne 0 ]; then
   echo "$0 must be running as root"
@@ -63,7 +63,7 @@ _lansa_web_clean() {
     "${w3_p2200}"
   fi
   if [ -d "${dataqueues}" ]; then
-    find "${dataqueues}" \( -name '*.l' -o -name '*.q' \) -exec rm {} \;
+    find "${dataqueues}" \( -name '*.l' -o -name '*.q' \) -print0 | xargs -0 -n 2000 -r rm -f --
   fi
 }
 
