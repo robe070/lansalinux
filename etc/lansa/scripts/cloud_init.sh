@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # lansa_version: 13.2
-# revision: 1
+# revision: 2
 
 #
 # This script is to be called after git pull and
@@ -78,19 +78,19 @@ lansa_setup() {
   for d in run log tmp x_lansa webserver/images webserver/apache/locks webserver/apache/xsl.cache webserver/apache/log; do
     dd="${LANSAXROOT}/${d}"
     if [ ! -L "${dd}" -a -d "${dd}" ]; then
-      sudo find "${dd}" -type d -print0 | xargs -0 sudo chown $inst_owner_id:$inst_group_id
-      sudo find "${dd}" -type d -print0 | xargs -0 sudo chmod 2770
+      sudo find "${dd}" -type d -print0 | xargs -0 -n 2000 sudo chown $inst_owner_id:$inst_group_id --
+      sudo find "${dd}" -type d -print0 | xargs -0 -n 2000 sudo chmod 2770 --
     fi
   done
   for d in x_lansa/bin x_lansa/source; do
     dd="${LANSAXROOT}/${d}"
-    sudo find "${dd}" -type d -print0 | xargs -0 sudo chmod 0755
+    sudo find "${dd}" -type d -print0 | xargs -0 -n 2000 sudo chmod 0755 --
   done
   for f in x_lansa/x_lansa.pro webserver/apache/l4w3serv.cfg webserver/apache/mod_lansa.conf; do
     ff="${LANSAXROOT}/${f}"
     if [ -f "$ff" ]; then
-      sudo chown -h $inst_owner_id:$inst_group_id "$ff"
-      sudo chmod 640 "$ff"
+      sudo chown -h $inst_owner_id:$inst_group_id -- "$ff"
+      sudo chmod 640 -- "$ff"
     fi
   done
 }
@@ -134,7 +134,7 @@ init_setup() {
       local src_rev=`gawk -F': ' '/^# revision: / { print $2 }' "$src_init"`
       local tgt_rev=`gawk -F': ' '/^# revision: / { print $2 }' "$tgt_init"`
       if [ -n "$tgt_rev" ]; then
-        if [ "$tgt_rev" -le "$src_rev" ]; then
+        if [ "$tgt_rev" -ge "$src_rev" ]; then
           echo "$tgt_init is the same or newer. skip copying $src_init."
           COPY=0
         fi
