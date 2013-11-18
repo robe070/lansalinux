@@ -1,0 +1,77 @@
+#
+# Apache configuration file for LANSA for the Web Apache Module
+#
+
+<IfModule !mod_lansa.c>
+LoadModule lansa_module $(LANSAWEB_MODULE)
+</IfModule>
+
+<IfModule !mod_rewrite.c>
+# mod_rewrite is currently required for L4Web Apache Module
+LoadModule rewrite_module $(APACHE_MODULES_ROOT)/mod_rewrite.so
+</IfModule>
+
+<IfModule mod_lansa.c>
+
+    LansaApacheModuleRoot "$(LANSAWEB_ROOT)"
+    LansaRoot "$(INSTALL_ROOT)"
+    # Process Authentication for LANSA Web Functions
+    #   Only password file created with the Apache htpasswd utility is
+    #   currently supported.
+    #   If a LANSA Process is set (using LANSA for the Web Administrator) to
+    #   require authentication, the specified password file will be looked
+    #   up to authenticate user access.
+    #LansaAuthDisable off
+    #LansaAuthUserFile "$(LANSAWEB_ROOT)/lansa.passwd"
+    #   Use the following configuration to disable Process Authentication
+    #   entirely. This saves a little bit of overhead of checking the
+    #   existence of the password file (if specified).
+    #LansaAuthDisable on
+
+    <Location /lansaweb>
+        SetHandler lansa-handler
+        # Authentication for *ALL* LANSA Web Applications
+        #   Any Apache supported authentication method can be used here.
+        #   The following sample configuration uses a password file created
+        #   with the Apache htpasswd utility.
+        #   If authentication failed here, authentication processing will
+        #   fall back to Process Authentication above.
+        #AuthType Basic
+        #AuthName "Apache Authentication"
+        #AuthUserFile "$(LANSAWEB_ROOT)/lansa2.passwd"
+        #Require valid-user
+    </Location>
+
+    # the images directory
+    Alias /images/ "$(IMAGES_ROOT)/"
+    <Directory "$(IMAGES_ROOT)">
+        Options FollowSymLinks
+        AllowOverride None
+        Order allow,deny
+        Allow from all
+        AddType text/x-component .htc
+    </Directory>
+
+</IfModule>
+
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    #
+    # redirect uri for lansa to the lansa module
+    # do not change the order of the following 2 rules
+    RewriteCond %{QUERY_STRING} ^(.+)$
+    RewriteRule ^/cgi-bin/(lansa[^/]*|about|status|cleanup)((/.*)*) /lansaweb$2?$1?%1 [NC,L,PT]
+    RewriteCond %{QUERY_STRING} ^$
+    RewriteRule ^/cgi-bin/(lansa[^/]*|about|status|cleanup)((/.*)*) /lansaweb$2?$1 [NC,L,PT]
+    RewriteCond %{QUERY_STRING} ^(expand=yes)$
+    RewriteRule ^(/images/style/.*\.css) /lansaweb?style?$1?%1 [NC,L,PT]
+    #
+    # map all upper/mixed case uri to lower case (just the prefix though)
+    RewriteRule ^/images/(.*) /images/$1 [NC,L,PT]
+    #
+    #RewriteLog $(LANSAWEB_ROOT)/log/rewrite.log
+    #RewriteLogLevel 9
+</IfModule>
+
+#---eof---
+# vim:sts=4:sw=4:ts=8:et:syntax=apache

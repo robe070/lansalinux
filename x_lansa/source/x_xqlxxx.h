@@ -4029,13 +4029,14 @@
       X_CHAR X04SP1[100 + 1];          /* Spare Field */
   } LX_X04_ALL;
 
-#if defined( X_OPERATING_SYSTEM_UNIX )
+#if defined(X_OPERATING_SYSTEM_UNIX) && !defined(X_OPERATING_SYSTEM_ISERIES)
 
 /* ============================ */
 /* SQL Table Keys  LX_W05       */
 /* ============================ */
    typedef X_PACKED struct
    {
+      X_CHAR W05MID[16 + 1];  /* Machine Id */
       X_CHAR W05SLB[10 + 1];  /* System Library */
       X_CHAR W05JOB[6 + 1];   /* Job Identifier */
       X_CHAR W05STS[3 + 1];   /* Job Status */
@@ -4069,6 +4070,7 @@
 /* =============================== */
    typedef X_PACKED struct
    {
+      X_CHAR W05MID[16 + 1];  /* Machine Id */
       X_CHAR W05SLB[10 + 1];  /* System Library */
       X_CHAR W05JOB[6 + 1];   /* Job Identifier */
       X_CHAR W05STS[3 + 1];   /* Job Status */
@@ -4350,7 +4352,7 @@
 
   } LX_W18_ALL;
 
-#if defined( X_OPERATING_SYSTEM_UNIX )
+#if defined(X_OPERATING_SYSTEM_UNIX) && !defined(X_OPERATING_SYSTEM_ISERIES)
 
 /* ============================ */
 /* SQL Table Keys  LX_W19       */
@@ -4385,7 +4387,7 @@
 
 #endif /* def X_O_S_UNIX */
 
-#if defined( X_OPERATING_SYSTEM_UNIX )
+#if defined(X_OPERATING_SYSTEM_UNIX) && !defined(X_OPERATING_SYSTEM_ISERIES)
 
 /* ============================ */
 /* SQL Table Keys  LX_W21       */

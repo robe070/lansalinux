@@ -1195,7 +1195,11 @@ FormatOptions.Page.Function.Caption=ﾌｧﾝｸｼｮﾝの形式設定
 FormatOptions.Page.Component.Caption=ｺﾝﾎﾟｰﾈﾝﾄの形式設定
 FormatOptions.Item.General.Caption=一般
 FormatOptions.Item.Source.Caption=ｿｰｽ ｴﾃﾞｨﾀ
-FormatOptions.Item.Xsl.Caption=WAM
+*** @TRANS CHANGED
+FormatOptions.Item.Xsl.Caption=Web
+*** @TRANS OLD
+*** FormatOptions.Item.Xsl.Caption=WAM
+*** @TRANS END
 FormatOptions.Item.Debug.Caption=ﾃﾞﾊﾞｯｸﾞ
 FormatOptions.Item.Compile.Caption=ｺﾝﾊﾟｲﾙ
 FormatOptions.Item.Style.Caption=ｽﾀｲﾙ
@@ -1332,6 +1336,9 @@ FormatOptions.Xsl.Design.MappedImagesFolder.FolderBrowse.Caption=ﾏｯﾋﾟﾝｸﾞされてい
 FormatOptions.Xsl.OpenWebViews.Caption=ﾃﾞｻﾞｲﾝの時にWebﾋﾞｭｰを開く
 FormatOptions.Xsl.ShowInlineWeblets.Caption=ｲﾝﾗｲﾝ ｳｪﾌﾞﾚｯﾄの表示
 FormatOptions.Xsl.ShowDeprecatedWeblets.Caption=旧ﾊﾞｰｼﾞｮﾝ ｳｪﾌﾞﾚｯﾄの表示
+*** @TRANS NEW
+FormatOptions.Xsl.ShowWebComponents.Caption=Show Web Components
+*** @TRANS END
 FormatOptions.Xsl.ShowWebletXML.Caption=ｳｪﾌﾞﾚｯﾄ XMLの表示
 FormatOptions.Xsl.DeleteOrphans.Caption=Web ｱﾌﾟﾘｹｰｼｮﾝ ﾓｼﾞｭｰﾙを閉じる時にｵｰﾌｧﾝ Webroutineのﾃﾞｻﾞｲﾝを削除
 FormatOptions.Xsl.SaveWebSampleData.Caption=Webroutineのﾌｨｰﾙﾄﾞとﾘｽﾄのｻﾝﾌﾟﾙﾃﾞｰﾀの保存
@@ -1578,6 +1585,9 @@ RepBrowser.ComponentNameCOM_OWNERDesc=自分の scope を利用
 RepBrowser.ComponentNameCOM_TRUEDesc=true のﾌﾞｰﾙ値
 RepBrowser.ComponentNameCOM_FALSEDesc=false のﾌﾞｰﾙ値
 RepBrowser.ComponentNameSYS_APPLNDesc=現在のｱﾌﾟﾘｹｰｼｮﾝ
+*** @TRANS NEW
+RepBrowser.ComponentNameSYS_WEBDesc=Current Web application
+*** @TRANS END
 RepBrowser.ComponentNameSYS_KEYBDDesc=Shift、AltとCtrl ｷｰの状態
 RepBrowser.ComponentNameSYS_MOUSEDesc=ﾏｳｽの位置
 RepBrowser.ComponentNameNULLDesc=ﾇﾙ

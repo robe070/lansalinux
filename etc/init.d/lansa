@@ -1,0 +1,204 @@
+#!/bin/bash
+#
+### BEGIN INIT INFO
+# Provides: lansa
+# Required-Start: $local_fs $network
+# Required-Stop: $local_fs $network
+# Short-Description: LANSA for Linux
+# Description: LANSA for Linux
+### END INIT INFO
+
+# lansa       This shell script takes care of starting and stopping
+#             Lansa for Linux listeners.
+#
+# chkconfig: 2345 99 1
+# description: LANSA for Linux
+# processname: lcolist
+# config: /etc/lansa/roots
+
+# lansa_version: 13.2
+# revision: 1
+
+if [ `id -u` -ne 0 ]; then
+  echo "$0 must be running as root"
+  exit 1
+fi
+
+# sanitize environment
+unset LANSAXROOT
+
+# Source function library.
+. /etc/rc.d/init.d/functions
+
+# Source networking configuration.
+. /etc/sysconfig/network
+
+RETVAL=0
+LANSA_ROOTS=/etc/lansa/roots
+
+get_listener_port() {
+  if [ -f "${LANSAXROOT}/listen.dat" ]; then
+    gawk -F, '/^L,/ { print $6 }' "${LANSAXROOT}/listen.dat"
+  fi
+}
+
+get_db_type() {
+  if [ -f "${LANSAXROOT}/x_lansa/x_lansa.pro" ]; then
+    gawk -F= '/^DBUT=/ { print $2 }' "${LANSAXROOT}/x_lansa/x_lansa.pro"
+  fi
+}
+
+_header() {
+  echo "[$1]"
+  echo "# PATH=$PATH"
+  echo "# LD_LIBRARY_PATH=$LD_LIBRARY_PATH"
+  echo "# LANSAXROOT=$LANSAXROOT"
+  #echo "# X_RUN=$X_RUN"
+}
+
+_lansa_web_clean() {
+  local w3_p2200="${LANSAXROOT}/x_lansa/bin/w3_p2200"
+  local dataqueues="${LANSAXROOT}/run/dataqueues"
+  if [ -x "${w3_p2200}" ]; then
+    "${w3_p2200}"
+  fi
+  if [ -d "${dataqueues}" ]; then
+    find "${dataqueues}" \( -name '*.l' -o -name '*.q' \) -exec rm {} \;
+  fi
+}
+
+lansa_web_clean() {
+  _header lansa_web_clean
+  _lansa_web_clean
+}
+
+_listener_common() {
+  _header $1
+  LISTENER_PORT=`get_listener_port`
+  echo "# LISTENER_PORT=$LISTENER_PORT"
+  lcolctl="${LANSAXROOT}/connect/lcolctl"
+  lcolist="${LANSAXROOT}/connect/lcolist"
+}
+
+listener_start() {
+  local LISTENER_PORT lcolctl lcolist
+  _listener_common listener_start
+  if [ -n "$LISTENER_PORT" -a -x "${lcolctl}" -a -x "${lcolist}" ]; then
+    "${lcolctl}" stop $LISTENER_PORT
+    "${lcolctl}" start $LISTENER_PORT
+  fi
+}
+
+listener_stop() {
+  local LISTENER_PORT lcolctl lcolist
+  _listener_common listener_stop
+  if [ -n "$LISTENER_PORT" -a -x "${lcolctl}" -a -x "${lcolist}" ]; then
+    "${lcolctl}" stop $LISTENER_PORT
+  fi
+  _lansa_web_clean
+}
+
+lansa_cmd() {
+  OLD_LD_LIBRARY_PATH="$LD_LIBRARY_PATH"
+  OLD_PATH="$PATH"
+  LANSAXROOT="$1"
+  shift
+  if [ -d "${LANSAXROOT}" \
+       -a -f "${LANSAXROOT}/lansa.ini" \
+       -a -f "${LANSAXROOT}/version.dat" \
+       -a -f "${LANSAXROOT}/listen.dat" \
+       -a -f "${LANSAXROOT}/x_lansa/bin/setenv.sh" \
+       ]; then
+    if [ `get_db_type` = 'ODBCORACLE' ]; then
+      export LD_LIBRARY_PATH="${LANSAXROOT}/x_lansa/bin:${LANSAXROOT}/connect:/usr/lib/oracle/11.2/client64/lib:$OLD_LD_LIBRARY_PATH"
+    else
+      export LD_LIBRARY_PATH="${LANSAXROOT}/x_lansa/bin:${LANSAXROOT}/connect:$OLD_LD_LIBRARY_PATH"
+    fi
+    export PATH="${LANSAXROOT}/x_lansa/bin:${LANSAXROOT}/connect:$PATH"
+    export LANSAXROOT
+    export X_RUN="ROOT:$LANSAXROOT"
+    export X_MAKINCLUDE=lansalnx.mak
+    export X_DBINCLUDE=lansaodb.mak
+    export HASH='#'
+    "$@"
+  fi
+  unset HASH
+  unset X_DBINCLUDE
+  unset X_MAKINCLUDE
+  unset X_RUN
+  unset LANSAXROOT
+  PATH="$OLD_PATH"
+  LD_LIBRARY_PATH="$OLD_LD_LIBRARY_PATH"
+  unset OLD_PATH
+  unset OLD_LD_LIBRARY_PATH
+}
+
+all_lansa_cmd() {
+  if [ -f $LANSA_ROOTS ] ; then
+    for r in `grep -v '^[ 	]*#' $LANSA_ROOTS`; do
+      lansa_cmd "$r" "$@"
+    done
+    return 0
+  else
+    return 1
+  fi
+}
+
+start() {
+  # Check that networking is up.
+  [ ${NETWORKING} = "no" ] && exit 1
+
+  all_lansa_cmd listener_start
+  return $?
+}
+
+stop() {
+  all_lansa_cmd listener_stop
+  return $?
+}
+
+webclean() {
+  all_lansa_cmd lansa_web_clean
+  return $?
+}
+
+lansa_killall() {
+  stop
+  killall lcolist lcotp w3_p2000 w3_p1200
+}
+
+# See how we were called.
+case "$1" in
+  start)
+    start
+    RETVAL=$?
+    ;;
+  stop)
+    stop
+    RETVAL=$?
+    ;;
+  restart)
+    stop
+    start
+    RETVAL=$?
+    ;;
+  webclean)
+    webclean
+    RETVAL=$?
+    ;;
+  killall)
+    lansa_killall
+    RETVAL=$?
+    ;;
+  status)
+    ps axjfww | grep '\<\([l]colist\|[l]cotp\|[w]3_p1200\|[w]3_p2000\)\>\|^ *PPID.*COMMAND *$'
+    RETVAL=$?
+    ;;
+  *)
+    echo $"Usage: $0 {start|stop|restart|webclean|killall|status}"
+    exit 1
+esac
+
+exit $RETVAL
+
+# vim:sts=2:sw=2:ts=8:et:syntax=sh

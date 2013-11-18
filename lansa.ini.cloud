@@ -1,0 +1,9 @@
+[Communications]
+LicenseDir=$(INSTALL_ROOT)/x_lansa
+ProcInfoFile=$(INSTALL_ROOT)/lcoproc.ini
+RouteTable=$(INSTALL_ROOT)/lroute.dat
+TraceFile=$(INSTALL_ROOT)/log/lroute.trc
+LogFile=$(INSTALL_ROOT)/log/lroute.log
+;TraceMaximum=65536
+;LogMaximum=65536
+;LogStateCheck=N
