@@ -8,6 +8,7 @@
 
 function execCmd()
 {
+  echo
   echo $1
 
   eval "$1"
@@ -19,6 +20,7 @@ function execCmd()
 	exit $status
   fi
   echo "Return: $status"
+  echo
   return $status
 }
 
