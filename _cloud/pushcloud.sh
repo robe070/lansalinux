@@ -20,7 +20,7 @@ function execCmd()
 	exit $status
   fi
   echo "Return: $status"
-  echo
+  
   return $status
 }
 
