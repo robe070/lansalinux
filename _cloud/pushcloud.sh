@@ -42,4 +42,10 @@ execCmd "git commit -a -F $1" 1
 if [[ $? -eq 0 ]]
 then
     execCmd "git push origin" 0
+    
+    # Trigger web server to pull from git
+    if [[ $? -eq 0 ]]
+    then
+        execCmd "curl http://ec2-54-252-223-227.ap-southeast-2.compute.amazonaws.com/cgi-bin/github.php?update=goody1" 0
+    fi
 fi
