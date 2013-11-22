@@ -11,13 +11,13 @@
 # lansa       This shell script takes care of starting and stopping
 #             Lansa for Linux listeners.
 #
-# chkconfig: 2345 99 1
+# chkconfig: 345 99 1
 # description: LANSA for Linux
 # processname: lcolist
 # config: /etc/lansa/roots
 
 # lansa_version: 13.2
-# revision: 2
+# revision: 3
 
 if [ `id -u` -ne 0 ]; then
   echo "$0 must be running as root"
