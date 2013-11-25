@@ -2806,6 +2806,9 @@ Web.HTML.ContentArea.Caption=Content Area for "%s"
 Web.HTML.ContentArea.Replace.Caption=Replace content
 Web.HTML.ContentArea.Expand.Caption=Expand content
 Web.HTML.ContentArea.Reset.Caption=Reset content
+
+Web.HTML.WebDialog.Maintain.Caption=Maintain Web Dialogs...
+
 Web.HTML.FieldCaption.ChangeToLabel.Caption=Change to Label
 Web.HTML.FieldCaption.ChangeToDescription.Caption=Change to Description
 Web.HTML.FieldCaption.ChangeToHeading.Caption=Change to Heading
@@ -2918,6 +2921,7 @@ Web.Action.ContentArea.Reset=Reset Content Area
 Web.Action.ChangeToHeading1=Change to Heading 1
 Web.Action.ChangeToHeading2=Change to Heading 2
 Web.Action.ChangeToHeading3=Change to Heading 3
+Web.Action.WebDialog.Delete=Delete Web Dialog: &1
 
 *************************************************************
 *** Preview View                                        *****
