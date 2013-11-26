@@ -784,7 +784,7 @@
 0226,The specified entry length for list, >L<, is not the same as the compiler calculated entry length, >L<. This check is NOT performed by LANSA for IBM i systems.
 0227,Invalid use of "ALL" in an object name.
 0228,Maximum number of allowable input or output files allowed has been exceeded.
-0229,Output file format specified is not A,T,C,D or O.
+0229,Output file format specified is not A,T,C,D,S or O.
 0230,The method specified for handling invalid characters is not I, B or R.
 0231,The carriage control option is not Y, N or T.
 0232,The close File option is not specified as Y or N.

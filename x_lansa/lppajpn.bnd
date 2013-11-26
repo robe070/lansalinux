@@ -2818,6 +2818,11 @@ Web.HTML.ContentArea.Caption="%s"のｺﾝﾃﾝﾂ ｴﾘｱ
 Web.HTML.ContentArea.Replace.Caption=ｺﾝﾃﾝﾂを置換
 Web.HTML.ContentArea.Expand.Caption=ｺﾝﾃﾝﾂを追加
 Web.HTML.ContentArea.Reset.Caption=ｺﾝﾃﾝﾂをﾘｾｯﾄ
+
+*** @TRANS NEW
+Web.HTML.WebDialog.Maintain.Caption=Maintain Web Dialogs...
+*** @TRANS END
+
 Web.HTML.FieldCaption.ChangeToLabel.Caption=ﾗﾍﾞﾙ変更
 Web.HTML.FieldCaption.ChangeToDescription.Caption=記述変更
 Web.HTML.FieldCaption.ChangeToHeading.Caption=欄見出し変更
@@ -2930,6 +2935,9 @@ Web.Action.ContentArea.Reset=ｺﾝﾃﾝﾂ ｴﾘｱの再設定
 Web.Action.ChangeToHeading1=ﾍｯﾀﾞｰ 1 に変更
 Web.Action.ChangeToHeading2=ﾍｯﾀﾞｰ 2 に変更
 Web.Action.ChangeToHeading3=ﾍｯﾀﾞｰ 3 に変更
+*** @TRANS NEW
+Web.Action.WebDialog.Delete=Delete Web Dialog: &1
+*** @TRANS END
 
 *************************************************************
 *** Preview View                                        *****

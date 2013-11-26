@@ -784,7 +784,7 @@
 0226,La longueur d'entrée précisée pour la liste, >L<, n'est pas identique à celle calculée par le compilateur, >L<. Ce contrôle n'est pas effectué sur les systèmes LANSA for iSeries.
 0227,Utilisation invalide de "ALL" dans un nom d'objet.
 0228,Le nombre maximum autorisé de fichiers en entrée ou en sortie est dépassé.
-0229,Le format de fichier en sortie spécifié n'est ni A, T, C ou D.
+0229,Le format de fichier en sortie spécifié n'est ni A, T, C, S ou D.
 0230,La méthode spécifiée pour gérer les caractères invalides doit être I, B ou R.
 0231,L'option de contrôle Retour Chariot doit être Y, N ou T.
 0232,L'option de fermeture de Fichier doit être Y ou N.

@@ -2818,6 +2818,11 @@ Web.HTML.ContentArea.Caption=Zone de contenu pour "%s"
 Web.HTML.ContentArea.Replace.Caption=Remplacer le contenu
 Web.HTML.ContentArea.Expand.Caption=Etendre le contenu
 Web.HTML.ContentArea.Reset.Caption=Réinitialiser le contenu
+
+*** @TRANS NEW
+Web.HTML.WebDialog.Maintain.Caption=Maintain Web Dialogs...
+*** @TRANS END
+
 Web.HTML.FieldCaption.ChangeToLabel.Caption=Remplacer par le label
 Web.HTML.FieldCaption.ChangeToDescription.Caption=Remplacer par la description
 Web.HTML.FieldCaption.ChangeToHeading.Caption=Remplacer par l'entête de colonne
@@ -2930,6 +2935,9 @@ Web.Action.ContentArea.Reset=Réinitialiser la zone de contenu
 Web.Action.ChangeToHeading1=Modifier en Titre 1
 Web.Action.ChangeToHeading2=Modifier en Titre 2
 Web.Action.ChangeToHeading3=Modifier en Titre 3
+*** @TRANS NEW
+Web.Action.WebDialog.Delete=Delete Web Dialog: &1
+*** @TRANS END
 
 *************************************************************
 *** Preview View                                        *****
