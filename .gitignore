@@ -8,6 +8,7 @@ source
 document.cache
 run/wam_sessions
 run/web_upload
+lansa/imports.*
 
 # Configuration files we don't want to track
 l4w3serv.cfg.default-*
