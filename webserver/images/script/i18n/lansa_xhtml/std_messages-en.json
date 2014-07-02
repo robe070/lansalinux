@@ -22,7 +22,19 @@
 		"NoXMLHttpRequest": "XMLHttpRequest not supported by this browser.",
 		"Processing1": "Processing",
 		"Done1": "Done",
+<<<<<<< HEAD
 		"Messages": "Messages:"
+=======
+		"Messages": "Messages:",
+		"InProgress": "In progress ...",
+		"Complete": "Complete",
+		"SelectFiles": "Select files",
+		"Upload": "Upload",
+		"Abort": "Abort",
+		"OnlyOneFile": "Only 1 file allowed.",
+		"TooManyFiles": "Maximum %1 files allowed.",
+		"MaxFileSize": "Maximum file size is %1 Mb. File \"%2\" not allowed."
+>>>>>>> 35f8815b879fe717782a6d1969779928cd5f4fde
 	},
 	"arrays": {
 		"DaysOfWeek": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],

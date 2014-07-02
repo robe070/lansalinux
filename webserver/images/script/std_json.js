@@ -1,9 +1,9 @@
 ﻿/*!
-	(c) 2011, 2013 LANSA
+	(c) 2011, 2014 LANSA
 	JSON handler scripts
 	$Workfile:: std_json.js                 $
-	$UTCDate:: 2013-03-08 03:46:26Z         $
-	$Revision:: 23                          $
+	$UTCDate:: 2014-02-26 22:15:32Z         $
+	$Revision:: 24                          $
 */
 
 // JSON Webroutine response convenience wrappers
@@ -57,7 +57,7 @@ Lstd.Json = {
 		* @returns (object) The webroutine object
 		*/
 		createWebroutine: function () {
-			var obj = {"webroutine":{"fields":{},"lists":{}}};
+			var obj = {"webroutine":{"messages":[],"fields":{},"lists":{}}};
 			var lmxlSKMethod = Lstd.Webroutine.getContext("session-key-method");
 			var lxmlSK = Lstd.Webroutine.getContext("session-key");
 
@@ -98,6 +98,20 @@ Lstd.Json = {
 				throw e;
 			}
 		};
+
+		/**
+		* Adds a message
+		* @param (string) message
+		*/
+		this.add = function (s) {
+			if (typeof s == "string") {
+				this.messages.push(s);
+			}
+			else {
+				this.messages.push("" + s);
+			}
+			return this;
+		}
 	},
 
 	/**
@@ -605,6 +619,14 @@ Lstd.Json = {
 				break;
 		}
 		return null;
+	},
+
+	/**
+	* Returns true if the obj is a JSON response webroutine
+	* @param (object)
+	*/
+	isWebroutine: function (obj) {
+		return (obj != null) ? ((Lstd.Utils.getPropertyNameAtIndex(obj, 0) == "webroutine") ? true: false) : false;
 	},
 
 	/**

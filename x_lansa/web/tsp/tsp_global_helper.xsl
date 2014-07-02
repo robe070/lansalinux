@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- (c) 2002, 2013 LANSA                              -->
+<!-- (c) 2002, 2014 LANSA                              -->
 <!-- TSP Global Helper Templates                       -->
 <!-- $Workfile:: tsp_global_helper.xsl               $ -->
-<!-- $Revision:: 4                                   $ -->
+<!-- $Revision:: 5                                   $ -->
 
 <xsl:transform version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xslt="http://www.lansa.com/2002/XSL/Transform-Alias" xmlns:lxml="http://www.lansa.com/2002/XML/Runtime-Data"
 					xmlns:tsml="http://www.lansa.com/2002/XML/Generation-Metadata" xmlns="http://www.w3.org/1999/xhtml" exclude-result-prefixes="tsml">
@@ -53,4 +53,50 @@
 		<xsl:value-of select="translate($text, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz' )"/>
 	</xsl:template>
 
+	<!--	Purpose    : Computes input number step value
+			Parameter 1: Number of decimals
+	 -->
+	<xsl:template name="make_step">
+		<xsl:param name="decimals"/>
+		<xsl:param name="step" select="'0.'" />
+		<xsl:choose>
+			<xsl:when test="$decimals > 1">
+				<xsl:call-template name="make_step">
+					<xsl:with-param name="decimals" select="$decimals - 1" />
+					<xsl:with-param name="step" select="concat($step, '0')" />
+				</xsl:call-template>
+			</xsl:when>
+			<xsl:otherwise><xsl:value-of select="concat($step, '1')"/></xsl:otherwise>
+		</xsl:choose>
+	</xsl:template>
+
+	<!--	Purpose    : Creates the field type info attribute value
+			Parameter 1: Field/column node
+	 -->
+	<xsl:template name="fieldTypeInfoString">
+		<xsl:param name="field"/>
+		<xsl:variable name="format" select="$field/tsml:format"/>
+		<xsl:variable name="formatType" select="$format/tsml:type/text()"/>
+		<xsl:value-of select="$formatType"/>
+		<xsl:choose>
+			<xsl:when test="($formatType = 'integer') or ($formatType = 'float')">
+				<xsl:text>|</xsl:text>
+				<xsl:value-of select="$format/tsml:max-length"/>
+			</xsl:when>
+			<xsl:when test="($formatType = 'packed') or ($formatType = 'signed') or ($formatType = 'dec')">
+				<xsl:text>|</xsl:text>
+				<xsl:value-of select="$format/tsml:total-digits"/>
+				<xsl:text>|</xsl:text>
+				<xsl:value-of select="$format/tsml:fraction-digits"/>
+				<xsl:text>|</xsl:text>
+				<xsl:value-of select="$format/tsml:decimal-separator"/>
+			</xsl:when>
+			<xsl:when test="($formatType = 'alpha') or ($formatType = 'char') or ($formatType = 'varchar') or ($formatType = 'nchar') or ($formatType = 'nvarchar')">
+				<xsl:text>|</xsl:text>
+				<xsl:value-of select="$format/tsml:keyboardshift"/>
+				<xsl:text>|</xsl:text>
+				<xsl:value-of select="$format/tsml:max-length"/>
+			</xsl:when>
+		</xsl:choose>
+	</xsl:template>
 </xsl:transform>

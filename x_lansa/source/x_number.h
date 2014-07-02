@@ -2,7 +2,7 @@
 /* ====== LANSA FOR WINDOWS PLATFORM INDEPENDENT FUNCTIONS ========= */
 /* ================================================================= */
 /*                                                                   */
-/* Source File         : X_FUNINT.H                                  */
+/* Source File         : X_NUMBER.H                                  */
 /* OS/Dependencies     : No                                          */
 /* End User Modifiable : Not Recommended                             */
 /*                                                                   */
@@ -12,13 +12,10 @@
 /*                       It should only be included into generated   */
 /*                       code as these macros are also in x_funint.h */
 /*                                                                   */
-/* Amendment History   :                                             */
-/*                                                                   */
-/* Task Id  Date    Description                                      */
-/* =======  ====    ===========                                      */
-/*                                                                   */
 /* ================================================================= */
 
+#ifndef __INCL_X_NUMBER_H__
+#define __INCL_X_NUMBER_H__
 
 /* ================================================================= */
 /*  X_NUMBER : Standard numeric interchange format                   */
@@ -488,3 +485,4 @@ X_VOID_FUNCTION X_SET_NUMBER_FROM_STRING(struct X_NUMBER * _N, X_PVCHAR _S, X_CH
    (_R)[ulPos] = LOVAL; \
 }
 
+#endif /* !def __INCL_X_NUMBER_H__ */

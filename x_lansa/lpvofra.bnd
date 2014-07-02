@@ -22,9 +22,7 @@ GraphTitleX=Titre X
 GraphTitleY=Titre Y
 Directories=Répertoires
 InvalidGraphType=Type de graphe ( exple Pie Chart ) incorrect.
-*** @TRANS ADD
-Graph.Unsupported=No graph support
-*** @TRANS END
+Graph.Unsupported=Aucun graphe supporté
 
 Status.Memo.ReplaceAll=&1 occurrence(s) de &2 remplacées
 
@@ -113,6 +111,10 @@ Exception.TileITableItemNotSupported=L'élément TileItem ne supporte pas l'interf
 Exception.TileITableItemNotSupported.Id=14
 Exception.TileNameNotFound=Le composant &1 est introuvable.
 Exception.TileNameNotFound.Id=15
+*** @TRANS NEW
+Exception.DropDownDesignInterfaceNotSupported.Id=19
+Exception.DropDownDesignInterfaceNotSupported=DropDown design does not support the PRIM_DROP.IDropDownDesign interface
+*** @TRANS END
 
 ********************************************************************
 *** Tab Specific Strings		  **********************************
@@ -146,6 +148,9 @@ Udc.Tree.DesignRequired=PRIM_TREE nécessite un élément réutilisable implémentant
 Udc.Book.DesignRequired=PRIM_BOOK nécessite un élément réutilisable implémentant PRIM_TREE.IBookDesign pour son contenu
 Udc.Tile.DesignRequired=PRIM_TILE nécessite un élément réutilisable implémentant PRIM_TILE.ITileDesign pour son contenu
 Udc.Dashboard.DesignRequired=PRIM_DASH nécessite un élément réutilisable implémentant PRIM_DASH.IDashboardDesign pour son contenu
+*** @TRANS NEW
+Udc.DropDown.DesignRequired=PRIM_DROP requires a Reusable Part implementing PRIM_DROP.IDropDesign for its content
+*** @TRANS END
 
 ********************************************************************
 *** Ribbon Strings               ***********************************

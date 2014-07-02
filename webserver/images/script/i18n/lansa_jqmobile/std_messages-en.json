@@ -12,6 +12,7 @@
 		"BadDBCS_SBCSNotAllowed": "Only DBCS characters are allowed in this field. %1 SBCS characters have been entered.",
 		"BadDBCS_DBCSNotAllowed": "Only SBCS characters are allowed in this field. %1 DBCS characters have been entered.",
 		"BadDBCS_BothNotAllowed": "Either all DBCS characters or all SBCS characters are allowed in this field. %1 SBCS characters have been entered. %2 DBCS characters have been entered.",
+<<<<<<< HEAD
 		"mobiscroll-cancelText": "Cancel",
 		"mobiscroll-setText": "Set",
 		"mobiscroll-dayText": "Day",
@@ -24,11 +25,17 @@
 		"mobiscroll-timeFormat": "hh:ii A",
 		"mobiscroll-dateOrder": "MMdyy",
       "mobiscroll-timeWheels": "hhiiA"
+=======
+		"Complete": "Complete",
+		"InProgress": "In progress ...",
+		"SelectFiles": "Select files",
+		"Upload": "Upload",
+		"Abort": "Abort",
+		"OnlyOneFile": "Only 1 file allowed.",
+		"TooManyFiles": "Maximum %1 files allowed.",
+		"MaxFileSize": "Maximum file size is %1 Mb. File \"%2\" not allowed."
+>>>>>>> 35f8815b879fe717782a6d1969779928cd5f4fde
 	},
 	"arrays": {
-		"DaysOfWeekSundayStartShort": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
-		"DaysOfWeekSundayStartLong": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-		"MonthsShort": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
-		"MonthsLong": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
 	}
 }

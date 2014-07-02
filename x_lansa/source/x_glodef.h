@@ -1607,7 +1607,7 @@ extern char *strdup(const char *);
 #ifdef __cplusplus
 extern "C" {
 #endif
-extern int memicmp(void *vpVal1, void *vpVal2, int iCount);
+extern int memicmp(const void *, const void *, size_t);
 #ifdef __cplusplus
 } /* extern "C" */
 #endif

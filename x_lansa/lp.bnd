@@ -1933,6 +1933,12 @@ LpVoGroupBox.Class.Name=Group Box
 LpVoGroupBox.Class.Desc=Groups other controls
 
 ************************************************************************
+*** LpVoImagePanel *****************************************************
+************************************************************************
+LpVoImagePanel.Class.Name=Image
+LpVoImagePanel.Class.Desc=Shows a picture file
+
+************************************************************************
 *** LpVoImage ***********************************************************
 ************************************************************************
 LpVoImage.Class.Name=Image
@@ -2345,6 +2351,12 @@ LpVoTimer.Start.Desc=Start method starts the timer
 
 LpVoTimer.Stop.Name=Stop method
 LpVoTimer.Stop.Desc=Stop method stops the timer
+
+LpVoTimer.IsStarted.Name=IsStarted Property
+LpVoTimer.IsStarted.Desc=Returns True if the timer is currently running
+
+LpVoTimer.StartUp.Name=StartUp Property
+LpVoTimer.StartUp.Desc=Defines whether the timer is started automatically or manually
 
 ***MENUS************
 ************************************************************************
@@ -6812,6 +6824,12 @@ LpCbvUserDesignedTile.Class.Desc=Tile with user designed content
 LpCbvUserDesignedTree.Class.Name=Tree
 LpCbvUserDesignedTree.Class.Desc=Tree with user designed content
 
+LpCbvUserDesignedDrop.Class.Name=DropDown
+LpCbvUserDesignedDrop.Class.Desc=DropDown with user designed content
+
+LpCbvUserDesignedList.Class.Name=List
+LpCbvUserDesignedList.Class.Desc=List Data in table format
+
 LpCbvUserDesignedCarousel.Class.Name=Carousel
 LpCbvUserDesignedCarousel.Class.Desc=Carousel with user designed content
 
@@ -6947,6 +6965,30 @@ Basic_List.OnUpdate.Desc=Executed when the associated list entry is updated
 
 Basic_list.OnItemRealizing.Name=OnItemRealizing Method
 Basic_list.OnItemRealizing.Desc=Executed whenever the design enters the on screen portion of the control
+
+Basic_list.OnItemGotReference.Name=OnItemGotReference Method
+Basic_list.OnItemGotReference.Desc=Executed whenever a related reference is assigned to the item via the RelatedReference property
+
+Basic_list.OnItemSort.Name=OnSort Method
+Basic_list.OnItemSort.Desc=Executed whenever the items is referred to in the sort process
+
+Basic_List.OnSort.Name=Sort Method
+Basic_List.OnSort.Sort.Desc=Sorts the tree content, executing the OnSort method as required for each design instance
+
+Basic_List.OnSort.Key.Name=Key Parameter
+Basic_List.OnSort.Key.Desc=Type of sort required
+
+Basic_List.OnSort.Result.Name=Result Parameter
+Basic_List.OnSort.Result.Desc=Result of comparing the two values - Less, Equal or Greater
+
+Basic_List.OnSort.CompareTo.Name=CompareTo Parameter
+Basic_List.OnSort.CompareTo.Desc=Reference to the list item to be compared to
+
+Basic_List.OnSort.TreeItem.Name=TreeItem Parameter
+Basic_List.OnSort.TreeItem.Desc=Reference to the list item for the current design instance
+
+Basic_List.OnSort.TileItem.Name=TreeItem Parameter
+Basic_List.OnSort.TileItem.Desc=Reference to the list item for the current design instance
 
 Basic_List.PopupMenuFocusSelect.Name=PopupMenuFocusSelect Property
 Basic_List.PopupMenuFocusSelect.Desc=Set focus to the list item when a context menu is displayed

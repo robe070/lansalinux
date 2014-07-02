@@ -275,10 +275,8 @@ Class.DynamicList=ﾀﾞｲﾅﾐｯｸ ﾘｽﾄ
 Class.DynamicList.Def=ﾀﾞｲﾅﾐｯｸ ﾘｽﾄ定義
 Class.ImpactList=ｲﾝﾊﾟｸﾄ ﾘｽﾄ
 Class.ImpactList.Def=ｲﾝﾊﾟｸﾄ ﾘｽﾄ定義
-*** @TRANS NEW
-Class.WebPage=Web Page
-Class.WebPage.Def=Web Page Definition
-*** @TRANS END
+Class.WebPage=Web ページ
+Class.WebPage.Def=Web ページ定義
 
 Day.Monday.Long=月曜日
 Day.Tuesday.Long=火曜日

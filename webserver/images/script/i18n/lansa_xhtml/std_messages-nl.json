@@ -22,7 +22,15 @@
 		"NoXMLHttpRequest": "XMLHttpRequest wordt niet ondersteund door deze browser.",
 		"Processing1": "Bezig met verwerken",
 		"Done1": "Klaar",
-		"Messages": "Berichten:"
+		"Messages": "Berichten:",
+		"InProgress": "Even geduld ...",
+		"Complete": "Voltooid",
+      "SelectFiles": "Selecteer bestanden",
+      "Upload": "Upload",
+      "Abort": "Afbreken",
+      "OnlyOneFile": "Slechts 1 bestand toegestaan.",
+      "TooManyFiles": "Maximaal %1 bestanden toegestaan.",
+      "MaxFileSize": "Maximale bestandsgrootte is %1 Mb. Bestand \"%2\" is niet toegestaan."
 	},
 	"arrays": {
 		"DaysOfWeek": ["Ma", "Di", "Wo", "Do", "Vr", "Za", "Zo"],

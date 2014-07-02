@@ -1933,6 +1933,15 @@ LpVoGroupBox.Class.Name=ｸﾞﾙｰﾌﾟ ﾎﾞｯｸｽ
 LpVoGroupBox.Class.Desc=ｸﾞﾙｰﾌﾟ ﾎﾞｯｸｽはｺﾝﾎﾟｰﾈﾝﾄをｸﾞﾙｰﾌﾟ化するためのｺﾝﾎﾟｰﾈﾝﾄです。 
 
 ************************************************************************
+*** LpVoImagePanel *****************************************************
+************************************************************************
+
+*** @TRANS NEW
+LpVoImagePanel.Class.Name=Image
+LpVoImagePanel.Class.Desc=Shows a picture file
+*** @TRANS END
+
+************************************************************************
 *** LpVoImage ***********************************************************
 ************************************************************************
 LpVoImage.Class.Name=ｲﾒｰｼﾞ 
@@ -2345,6 +2354,12 @@ LpVoTimer.Start.Desc=Start はﾀｲﾏｰを開始するためのﾒｿｯﾄﾞです。
 
 LpVoTimer.Stop.Name=Stop ﾒｿｯﾄﾞ
 LpVoTimer.Stop.Desc=Stop はﾀｲﾏｰを停止するためのﾒｿｯﾄﾞです。
+
+LpVoTimer.IsStarted.Name=IsStarted ﾌﾟﾛﾊﾟﾃｨ
+LpVoTimer.IsStarted.Desc=現在タイマーが実行されている場合、True を返します。
+
+LpVoTimer.StartUp.Name=StartUp ﾌﾟﾛﾊﾟﾃｨ
+LpVoTimer.StartUp.Desc=タイマー開始を自動にするか手動にするか定義します。
 
 ***MENUS************
 ************************************************************************
@@ -6812,6 +6827,14 @@ LpCbvUserDesignedTile.Class.Desc=ﾕｰｻﾞｰ定義のｺﾝﾃﾝﾂのあるﾀｲﾙ
 LpCbvUserDesignedTree.Class.Name=ﾂﾘｰ
 LpCbvUserDesignedTree.Class.Desc=ﾕｰｻﾞｰ定義のｺﾝﾃﾝﾂのあるﾂﾘｰ
 
+*** @TRANS NEW
+LpCbvUserDesignedDrop.Class.Name=DropDown
+LpCbvUserDesignedDrop.Class.Desc=DropDown with user designed content
+
+LpCbvUserDesignedList.Class.Name=List
+LpCbvUserDesignedList.Class.Desc=List Data in table format
+*** @TRANS END
+
 LpCbvUserDesignedCarousel.Class.Name=ｶﾙｰｾﾙ
 LpCbvUserDesignedCarousel.Class.Desc=ﾕｰｻﾞｰ定義のｺﾝﾃﾝﾂのあるｶﾙｰｾﾙ
 
@@ -6947,6 +6970,30 @@ Basic_List.OnUpdate.Desc=関連のリスト エントリーが更新された時に実行
 
 Basic_list.OnItemRealizing.Name=OnItemRealizing ﾒｿｯﾄﾞ
 Basic_list.OnItemRealizing.Desc=コントロールの画面部分にデザインが入力される時に実行
+
+Basic_list.OnItemGotReference.Name=OnItemGotReference ﾒｿｯﾄﾞ
+Basic_list.OnItemGotReference.Desc=関連する参照が RelatedReference プロパティを使ってアイテムに割り当てられる場合に実行されます。
+
+Basic_list.OnItemSort.Name=OnSort ﾒｿｯﾄﾞ
+Basic_list.OnItemSort.Desc=アイテムがソート処理で参照される場合に実行されます。
+
+Basic_List.OnSort.Name=Sort ﾒｿｯﾄﾞ
+Basic_List.OnSort.Sort.Desc=ツリーのコンテンツをソートし、必要に応じて各デザイン・インスタス用に OnSort メソッドを実行します。
+
+Basic_List.OnSort.Key.Name=Key ﾊﾟﾗﾒｰﾀ
+Basic_List.OnSort.Key.Desc=必要となるソートの種類
+
+Basic_List.OnSort.Result.Name=Result ﾊﾟﾗﾒｰﾀ
+Basic_List.OnSort.Result.Desc=2 つの値を比較した結果 - Less (小さい)、 Equal (等しい) または Greater (大きい)
+
+Basic_List.OnSort.CompareTo.Name=CompareTo ﾊﾟﾗﾒｰﾀ
+Basic_List.OnSort.CompareTo.Desc=比較対象のリスト アイテムへの参照
+
+Basic_List.OnSort.TreeItem.Name=TreeItem ﾊﾟﾗﾒｰﾀ
+Basic_List.OnSort.TreeItem.Desc=現在のデザイン インスタンス用のリスト アイテムへの参照
+
+Basic_List.OnSort.TileItem.Name=TreeItem ﾊﾟﾗﾒｰﾀ
+Basic_List.OnSort.TileItem.Desc=現在のデザイン インスタンス用のリスト アイテムへの参照
 
 Basic_List.PopupMenuFocusSelect.Name=PopupMenuFocusSelect ﾌﾟﾛﾊﾟﾃｨ
 Basic_List.PopupMenuFocusSelect.Desc=コンテキスト メニュー表示時にリスト アイテムにフォーカス設定

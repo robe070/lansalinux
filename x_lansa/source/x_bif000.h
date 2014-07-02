@@ -334,6 +334,9 @@ void *
 #define U_BIF_ISSUE_FATAL_ERROR_PARM2(_T,_P, _P2) \
    X_Fatal_Error(pX_Ids, pX_Pro, pX_Fun, U_BIF_LANSA_FUNCTION, _T, _P, _P2); \
    return;
+#define U_BIF_ISSUE_FATAL_ERROR_PARM2_RET(_T,_P, _P2, _R) \
+   X_Fatal_Error(pX_Ids, pX_Pro, pX_Fun, U_BIF_LANSA_FUNCTION, _T, _P, _P2); \
+   return(_R);
 
 #define U_BIF_HANDLE_FATAL_ERROR \
  if (pX_Ids->chFatalError == YES) return;
@@ -1257,7 +1260,7 @@ _R = sRetCount;
       _E = TempField.sLen; \
       _D = TempField.sDec; \
       _B = TempField.sByteLen; \
-      if ( X_VECTOR_FIELD_IS_LL2( (&TempField), 0) )  _FieldState = ((X_FLD_INFO*)( TempField.pField ))->bFieldState; \
+      U_BIF_GET_LIST_COLUMN_FIELDSTATE( _L, _C, _FieldState ) \
    } \
    else \
    { \

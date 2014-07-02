@@ -275,10 +275,8 @@ Class.DynamicList=Liste dynamique
 Class.DynamicList.Def=Définition de liste dynamique
 Class.ImpactList=Liste d'impact
 Class.ImpactList.Def=Définition de liste d'impact
-*** @TRANS NEW
-Class.WebPage=Web Page
-Class.WebPage.Def=Web Page Definition
-*** @TRANS END
+Class.WebPage=Page Web
+Class.WebPage.Def=Définition de page Web
 
 Day.Monday.Long=Lundi
 Day.Tuesday.Long=Mardi

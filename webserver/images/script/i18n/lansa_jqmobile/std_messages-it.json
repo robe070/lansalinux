@@ -11,24 +11,8 @@
 		"BadDBCS_TooLong": "Lunghezza caratteri inseriti è %1 che supera la lunghezza massima consentita di %2.",
 		"BadDBCS_SBCSNotAllowed": "Solo i caratteri DBCS sono ammessi in questo campo. %1 Caratteri SBCS sono stati inseriti.",
 		"BadDBCS_DBCSNotAllowed": "Solo i caratteri SBCS sono ammessi in questo campo. %1 Caratteri DBCS sono stati inseriti.",
-		"BadDBCS_BothNotAllowed": "O tutti i caratteri DBCS o tutti i caratteri SBCS sono consentiti in questo campo. %1 caratteri SBCS sono stati inseriti. %2 caratteri DBCS sono stati inseriti.",
-		"mobiscroll-cancelText": "Ritorno",
-		"mobiscroll-setText": "Set",
-		"mobiscroll-dayText": "Giorno",
-		"mobiscroll-monthText": "Mese",
-		"mobiscroll-yearText": "Anno",
-		"mobiscroll-hourText": "Ora",
-		"mobiscroll-minuteText": "Minuti",
-		"mobiscroll-secText": "Secondi",
-		"mobiscroll-dateFormat": "dd/mm/yy",
-		"mobiscroll-timeFormat": "HH:ii",
-		"mobiscroll-dateOrder": "MMdyy",
-      "mobiscroll-timeWheels": "HHii"
+		"BadDBCS_BothNotAllowed": "O tutti i caratteri DBCS o tutti i caratteri SBCS sono consentiti in questo campo. %1 caratteri SBCS sono stati inseriti. %2 caratteri DBCS sono stati inseriti."
 	},
 	"arrays": {
-		"DaysOfWeekSundayStartShort": ["Dom", "Lun", "Mar", "Mer", "Gio", "Ven", "Sab"],
-		"DaysOfWeekSundayStartLong": ["Domenica", "Lunedì", "Martedì", "Mercoledì", "Giovedì", "Venerdì", "Sabato"],
-		"MonthsShort": ["Gen", "Feb", "Mar", "Apr", "Mag", "Giu", "Lug", "Ago", "Set", "Ott", "Nov", "Dic"],
-		"MonthsLong": ["Gennaio", "Febbraio", "Marzo", "Aprile", "Maggio", "Giugno", "Luglio", "Agosto", "Settembre", "Ottobre", "Novembre", "Dicembre"]
 	}
 }

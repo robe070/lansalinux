@@ -1,9 +1,9 @@
 ﻿/*!
- (c) 2002, 2013 LANSA
+ (c) 2002, 2014 LANSA
  XHTML Standard Styles
  $Workfile:: std_style.css                        $
- $UTCDate:: 2013-09-18 00:02:22Z                  $
- $Revision:: 45                                   $
+ $UTCDate:: 2014-05-23 04:51:00Z                  $
+ $Revision:: 54                                   $
 */
 
 body {
@@ -115,11 +115,18 @@ a.std_menu, a.std_menu:hover, a.std_menu_selected {
 	padding-right: 5px;
 	width: 95%;
 }
-
-.std_attachment_panel td {
+table.std_attachment_panel {
+	border-width: 0px;
+	border-collapse: collapse;
+	border-spacing: 0px;
+	height: 100%;
+	width: 100%;
+}
+table.std_attachment_panel > tbody > tr > td {
+	border-spacing: 0px;
+	padding: 0px;
 	vertical-align: top;
 }
-
 .std_click_image_disabled {
 	filter: alpha(opacity = 35);
 	opacity: 0.35;
@@ -176,8 +183,11 @@ a.std_menu, a.std_menu:hover, a.std_menu_selected {
 	border-width: thin;
 	border-color: #eeeeee;
 }
+/* End of std_grid V1 styles */
 
-/* End of std_grid styles */
+table.std_grid {
+	border-spacing: 0px;
+}
 .std_image_button {
 	padding-top: 2px;
 	overflow: hidden;
@@ -359,175 +369,156 @@ ul.std_plain li {
 
 /* Std_tab_pages styles */
 .std_tab_pages {
-    empty-cells: show;
+	empty-cells: show;
 }
-
 .std_tab_pages td {
-    vertical-align: top;
+	vertical-align: top;
 }
-
 .std_tab_pages_content_wrapper {
 	border: 1px solid gray;
-    padding: 2px;
-    overflow: auto;
+	padding: 2px;
+	overflow: auto;
 }
-
 .std_tab_pages_content {
-    width: 100%;
-    height: 100%;
-    overflow: auto;
+		width: 100%;
+		height: 100%;
+		overflow: auto;
 }
-
 ul.std_tab_pages_tabs {
-    list-style-type: none;
-    text-align: left;
-    margin: 0px;
-    padding: 0px;
-    overflow: hidden;
-    white-space: nowrap;
+	list-style-type: none;
+	text-align: left;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	white-space: nowrap;
 }
-
 ul.std_tab_pages_tabs li {
 	border: 1px solid gray;
-    display: block;
-    padding: 0px;
-    white-space: nowrap;
+	display: block;
+	padding: 0px;
+	white-space: nowrap;
 }
-
 ul.std_tab_pages_tabs li.std_tab_active {
 }
-
 ul.std_tab_pages_tabs li a {
-    display: block;
-    padding: 3px;
-    text-decoration: none;
-    cursor: default;
+	display: block;
+	padding: 3px;
+	text-decoration: none;
+	cursor: default;
 }
-
 ul.std_tab_pages_tabs li a:hover {
-    text-decoration: none;
+	text-decoration: none;
 }
-
 ul.std_tab_pages_tabs li a img {
-    border: none;
-    vertical-align: middle;
-    display: inline;
+	border: none;
+	vertical-align: middle;
+	display: inline;
 }
-
 ul.std_tab_pages_tabs li.std_tab_disabled a, ul.std_tab_pages_tabs li.std_tab_disabled a:hover {
 	opacity: .35;
 	filter:Alpha(Opacity=35);
 }
-
 .std_tab_pages_top_tabs, .std_tab_pages_top_tabs ul {
-    position: relative;
-    z-index: 100;
+	position: relative;
+	z-index: 100;
 }
 .std_tab_pages_top_tabs ul {
-    top: 1px;
+	top: 1px;
 }
 .quirksMode .std_tab_pages_top_tabs {
-    top: 1px;
+	top: 1px;
 }
 .std_tab_pages_bottom_tabs ul {
-    position: relative;
-    top: -1px;
+	position: relative;
+	top: -1px;
 }
 .quirksMode .std_tab_pages_bottom_tabs {
-    position: relative;
-    top: -1px;
+	position: relative;
+	top: -1px;
 }
-
 .std_tab_pages_left_tabs ul {
-    position: relative;
-    left: 1px;
-    z-index: 100;
+	position: relative;
+	left: 1px;
+	z-index: 100;
 }
-
 .std_tab_pages_right_tabs ul {
-    position: relative;
-    left: -1px;
+	position: relative;
+	left: -1px;
 }
-
 .std_tab_pages_top_tabs ul li {
-    float: left;
-    margin-right: 2px;
+	float: left;
+	margin-right: 2px;
 }
-
 .std_tab_pages_top_tabs ul li.std_tab_active {
-    border-bottom: none;
-    padding-bottom: 1px;
+	border-bottom: none;
+	padding-bottom: 1px;
 }
-
 .std_tab_pages_bottom_tabs ul li {
-    float: left;
-    margin-right: 2px;
+	float: left;
+	margin-right: 2px;
 }
-
 .std_tab_pages_bottom_tabs ul li.std_tab_active {
-    border-top: none;
-    padding-top: 1px;
+	border-top: none;
+	padding-top: 1px;
 }
-
 .std_tab_pages_left_tabs ul li {
-    display: block;
-    margin-bottom: 2px;
+	display: block;
+	margin-bottom: 2px;
 }
-
 .std_tab_pages_left_tabs ul li.std_tab_active {
-    border-right: none;
-    padding-right: 1px;
+	border-right: none;
+	padding-right: 1px;
 }
-
 .std_tab_pages_right_tabs ul li {
-    display: block;
-    margin-bottom: 2px;
+	display: block;
+	margin-bottom: 2px;
 }
-
 .std_tab_pages_right_tabs ul li.std_tab_active {
-    border-left: none;
-    padding-left: 1px;
+	border-left: none;
+	padding-left: 1px;
 }
-
 .std_tab_pages_top_tabs ul.std_tab_pages_tabs_design_mode, .std_tab_pages_bottom_tabs ul.std_tab_pages_tabs_design_mode {
-    top: 0px;
+	top: 0px;
 }
-
 .std_tab_pages_left_tabs ul.std_tab_pages_tabs_design_mode {
-    position: relative;
-    left: 2px;
+	position: relative;
+	left: 2px;
 }
-
 .std_tab_pages_top_tabs ul.std_tab_pages_tabs_design_mode li a, .std_tab_pages_bottom_tabs ul.std_tab_pages_tabs_design_mode li a {
-    display: inline-block;
+	display: inline-block;
+}
+table.std_tab_pages {
+	border-width: 0px;
+	border-collapse: separate;
+	border-spacing: 0px;
+}
+table.std_tab_pages > tbody > tr > td {
+	border-spacing: 0px;
+	padding: 0px;
 }
 
 /* Std_tab_pages deprecated styles. */
 .std_tab_pages_bottom_tab_row {
-    vertical-align: top;
+	vertical-align: top;
 }
-
 .std_tab_pages_bottom_active {
-    border: 2px inset #e2effa;
-    background-color: #c7dff4;
-    cursor: pointer;
-    font-weight: bold;
-    white-space: nowrap;
-    padding-bottom: 2pt;
+	border: 2px inset #e2effa;
+	background-color: #c7dff4;
+	cursor: pointer;
+	font-weight: bold;
+	white-space: nowrap;
+	padding-bottom: 2pt;
 }
-
 .std_tab_pages_bottom_inactive {
-    border: 2px outset #e2effa;
-    background-color: #e2effa;
-    cursor: pointer;
-    font-weight: bold;
-    white-space: nowrap;
+	border: 2px outset #e2effa;
+	background-color: #e2effa;
+	cursor: pointer;
+	font-weight: bold;
+	white-space: nowrap;
 }
-
 .std_tab_pages_left_tab_row {
-    text-align: right;
+	text-align: right;
 }
-
 .std_tab_pages_left_active {
 	border: 2px inset #e2effa;
 	background-color: #c7dff4;
@@ -537,7 +528,6 @@ ul.std_tab_pages_tabs li.std_tab_disabled a, ul.std_tab_pages_tabs li.std_tab_di
 	white-space: nowrap;
 	padding-right: 2pt;
 }
-
 .std_tab_pages_left_inactive {
 	border: 2px outset #e2effa;
 	background-color: #e2effa;
@@ -546,11 +536,9 @@ ul.std_tab_pages_tabs li.std_tab_disabled a, ul.std_tab_pages_tabs li.std_tab_di
 	font-weight: bold;
 	white-space: nowrap;
 }
-
 .std_tab_pages_right_tab_row {
-    text-align: left;
+	text-align: left;
 }
-
 .std_tab_pages_right_active {
 	border: 2px outset #e2effa;
 	background-color: #c7dff4;
@@ -560,7 +548,6 @@ ul.std_tab_pages_tabs li.std_tab_disabled a, ul.std_tab_pages_tabs li.std_tab_di
 	white-space: nowrap;
 	padding-right: 2pt;
 }
-
 .std_tab_pages_right_inactive {
 	border: 2px inset #e2effa;
 	background-color: #e2effa;
@@ -569,11 +556,9 @@ ul.std_tab_pages_tabs li.std_tab_disabled a, ul.std_tab_pages_tabs li.std_tab_di
 	font-weight: bold;
 	white-space: nowrap;
 }
-
 .std_tab_pages_top_tab_row {
-    vertical-align: bottom;
+	vertical-align: bottom;
 }
-
 .std_tab_pages_top_active {
 	border: 2px inset #e2effa;
 	background-color: #c7dff4;
@@ -582,33 +567,43 @@ ul.std_tab_pages_tabs li.std_tab_disabled a, ul.std_tab_pages_tabs li.std_tab_di
 	white-space: nowrap;
 	padding-top: 2pt;
 }
-
 .std_tab_pages_top_inactive {
-    border: 2px outset #e2effa;
-    background-color: #e2effa;
-    cursor: pointer;
-    font-weight: bold;
-    white-space: nowrap;
+	border: 2px outset #e2effa;
+	background-color: #e2effa;
+	cursor: pointer;
+	font-weight: bold;
+	white-space: nowrap;
 }
-
 .std_tab_pages_page_content {
-    border-top: 1px solid #e2effa;
-    background-color: #ffffff;
-    white-space: normal;
+	border-top: 1px solid #e2effa;
+	background-color: #ffffff;
+	white-space: normal;
 }
 
 .std_treeview {
-    background-color: #ffffff;
+	background-color: #ffffff;
 }
 
 .std_treeview_target {
 }
+table.std_table {
+	border-width: 0px;
+	border-collapse: separate;
+	border-spacing: 3px;
+}
+table.std_table > tbody > tr > td {
+	border-spacing: 2px;
+	padding: 0px;
+}
 table.std_largelist {
+	border-width: 0px;
 	border-collapse: collapse;
+	border-spacing: 0px;
 }
 table.std_largelist th, table.std_largelist tbody tr, table.std_largelist td {
-    white-space: nowrap;
-    border: inherit;
+	white-space: nowrap;
+	border: inherit;
+	padding: 3px;
 }
 /*
  * Styles for standard grid (v2) and list
@@ -767,7 +762,8 @@ img.disabled {
 
 .std_progressbar_text {
 	position: absolute;
-	left: 50%;
+	width: 100%;
+	text-align: center;
 	font-weight: bold;
 }
 
@@ -785,14 +781,15 @@ img.disabled {
 	filter: alpha(opacity=20);
 }
 
-.std_fileupload_hidden {
-	height: 0px;
-	width: 0px;
-	overflow: hidden;
+div.std_fileupload_pb {
+	height: 30px;
+	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
-ul.std_fileupload_log {
-	list-style-type: none;
+div.std_fileupload > table td {
+	padding: 3px;
 }
 
 /*

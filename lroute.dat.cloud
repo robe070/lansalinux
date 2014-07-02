@@ -4,7 +4,7 @@
 * Record Types (first character)
 *   R   routing information
 *   T   module trace information
-*R,LUName,FullyQualName,IPCMethod,IPCModule,Trace,ConnectId,PacketSize,IPCOptions
-*T,module identity,Trace
+*R,SystemName,TCPHost,NotUsed,NotUsed,Trace,TCPPort,MaxPacketSize,Options,LogonTimeout,ReceiveTimeout
+*T,Module,Trace
 *
-R,*LOCAL,127.0.0.1,Socket, ,0,$(LISTENER_PORT),0,1
+R,*LOCAL,127.0.0.1,Socket, ,0,$(LISTENER_PORT),0,1,0,0

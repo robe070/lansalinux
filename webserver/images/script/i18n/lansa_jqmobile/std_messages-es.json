@@ -12,23 +12,15 @@
 		"BadDBCS_SBCSNotAllowed": "Este campo sólo permite caracteres DBCS. Se ingresaron %1 caracteres SBCS.",
 		"BadDBCS_DBCSNotAllowed": "Este campo sólo permite caracteres SBCS. Se ingresaron %1 caracteres DBCS.",
 		"BadDBCS_BothNotAllowed": "Este campo sólo permite exclusivamente caracteres DBCS o caracteres SBCS pero no una combinación de ambos. Se ingresaron %1 caracteres SBCS y %2 caracteres DBCS.",
-		"mobiscroll-cancelText": "Cancelar",
-		"mobiscroll-setText": "Fijar",
-		"mobiscroll-dayText": "Día",
-		"mobiscroll-monthText": "Mes",
-		"mobiscroll-yearText": "Año",
-		"mobiscroll-hourText": "Horas",
-		"mobiscroll-minuteText": "Minutos",
-		"mobiscroll-secText": "Segundos",
-		"mobiscroll-dateFormat": "dd/mm/yy",
-		"mobiscroll-timeFormat": "HH:ii",
-		"mobiscroll-dateOrder": "MMdyy",
-      "mobiscroll-timeWheels": "HHii"
+		"Complete": "Completado",
+		"InProgress": "En progreso ...",
+      "SelectFiles": "Seleccionar archivos",
+      "Upload": "Cargar",
+      "Abort": "Anular",
+      "OnlyOneFile": "Sólo se permite un archivo.",
+      "TooManyFiles": "Sólo se permiten %1 archivos.",
+      "MaxFileSize": "Máximo tamaño permitido es %1 Mb. Archivo \"%2\" excede el límite."
 	},
 	"arrays": {
-		"DaysOfWeekSundayStartShort": ["dom", "lun", "mar", "mié", "jue", "vie", "sáb"],
-		"DaysOfWeekSundayStartLong": ["domingo", "lunes", "martes", "miércoles", "jueves", "viernes", "sábado"],
-		"MonthsShort": ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"],
-		"MonthsLong": ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"]
 	}
 }

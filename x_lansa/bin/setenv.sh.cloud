@@ -22,4 +22,16 @@ export X_MAKINCLUDE=lansa$(MAKEFILE_SUFFIX).mak
 export X_DBINCLUDE=lansaodb.mak
 export HASH='#'
 
+#
+# Use the following environment variables to limit memory
+# available to various LANSA processes.
+#
+# For listeners started through init script /etc/init.d/lansa,
+# add these settings to /etc/lansa/lansa.conf.
+#
+#export LANSA_LCOTP_MEMLIMIT=1G
+#export LANSA_X_RUN_MEMLIMIT=1G
+#export LANSA_W3_P1200_MEMLIMIT=1G
+#export LANSA_W3_P2000_MEMLIMIT=1G
+
 # vim:sts=2:sw=2:ts=8:et:syntax=sh

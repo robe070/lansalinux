@@ -256,45 +256,9 @@
                              /* max. 1 character   */
 
 
-         /* OS/2 */
+      // All Windows 
 
-#if defined(X_OPERATING_SYSTEM_OS2)
-
-#define X_STANDARD_MESSAGE_FILE      "\x44\x43\x40\x4D\x30\x31"
-                             /* max. 10 characters */
-
-#define X_DOLLAR_SIGN_CHAR           '\x24'
-                             /* max. 1 character   */
-
-#define X_HASH_SIGN_CHAR             '\x23'
-                             /* max. 1 character   */
-
-#define X_AT_SIGN_CHAR               '\x40'
-                             /* max. 1 character   */
-#endif
-
-
-       /* Windows 3.1 */
-
-#if defined(X_OPERATING_SYSTEM_WIN31)
-
-#define X_STANDARD_MESSAGE_FILE      "\x44\x43\x40\x4D\x30\x31"
-                             /* max. 10 characters */
-
-#define X_DOLLAR_SIGN_CHAR           '\x24'
-                             /* max. 1 character   */
-
-#define X_HASH_SIGN_CHAR             '\x23'
-                             /* max. 1 character   */
-
-#define X_AT_SIGN_CHAR               '\x40'
-                             /* max. 1 character   */
-#endif
-
-
-       /* Windows 95 */
-
-#if defined(X_OPERATING_SYSTEM_WIN95)
+#if defined(X_OS_WIN)
 
 #define X_STANDARD_MESSAGE_FILE      "\x44\x43\x40\x4D\x30\x31"
                              /* max. 10 characters */

@@ -156,10 +156,19 @@ X_VOID_FUNCTION  X_Set_Double_from_Signed(struct X_IDS *,
 X_VOID_FUNCTION X_Set_String_from_Signed(struct X_IDS *pX_Ids,
                                          struct X_PRO *pX_Pro,
                                          struct X_FUN *pX_Fun,
-                                         X_PFCHAR pfchSigned,
+                                         X_PCCHAR pfchSigned,
                                          X_SHORT sPrecision,
                                          X_SHORT sScale,
-                                         X_PVCHAR pvchString );
+                                         X_PVCHAR pvchString);
+
+X_VOID_FUNCTION X_Set_String_from_Signed_Ex(struct X_IDS *pX_Ids,
+                                            struct X_PRO *pX_Pro,
+                                            struct X_FUN *pX_Fun,
+                                            X_PCCHAR pfchSigned,
+                                            X_SHORT sPrecision,
+                                            X_SHORT sScale,
+                                            X_CHAR chEditCode,
+                                            X_PVCHAR pvchString);
 
 X_VOID_FUNCTION  X_Set_Packed_from_Long(struct X_IDS *,
                                        struct X_PRO *,
@@ -222,10 +231,19 @@ X_VOID_FUNCTION  X_Set_Signed_from_Packed(struct X_IDS *,
 X_VOID_FUNCTION X_Set_String_from_Packed(struct X_IDS *pX_Ids,
                                          struct X_PRO *pX_Pro,
                                          struct X_FUN *pX_Fun,
-                                         X_PFCHAR pfchPacked,
-                                         X_SHORT  sPrecision,
-                                         X_SHORT  sScale,
+                                         X_PCCHAR pfchPacked,
+                                         X_SHORT sPrecision,
+                                         X_SHORT sScale,
                                          X_PVCHAR pvchString);
+
+X_VOID_FUNCTION X_Set_String_from_Packed_Ex(struct X_IDS *pX_Ids,
+                                            struct X_PRO *pX_Pro,
+                                            struct X_FUN *pX_Fun,
+                                            X_PCCHAR pfchPacked,
+                                            X_SHORT sPrecision,
+                                            X_SHORT sScale,
+                                            X_CHAR chEditCode,
+                                            X_PVCHAR pvchString);
 
 X_VOID_FUNCTION  X_Set_Packed_from_Signed(struct X_IDS *,
                                          struct X_PRO *,
@@ -242,7 +260,7 @@ X_VOID_FUNCTION  X_Set_String_from_Edit_Code(struct X_IDS *,
                                             struct X_FUN *,
                                             struct X_FLD [],
                                             X_SHORT,
-                                            X_PVCHAR,
+                                            X_PCCHAR,
                                             X_CHAR,
                                             X_ULONG *,
                                             X_PVCHAR,
@@ -251,7 +269,7 @@ X_VOID_FUNCTION  X_Set_String_from_Edit_Code(struct X_IDS *,
 X_VOID_FUNCTION  X_Set_String_from_Edit_Word(struct X_IDS *,
                                             struct X_PRO *,
                                             struct X_FUN *,
-                                            X_PVCHAR,
+                                            X_PCCHAR,
                                             X_PCCHAR,
                                             X_ULONG *,
                                             X_PVCHAR);
@@ -2355,6 +2373,14 @@ X_ULONG_FUNCTION X_Parse_CTD_Table( struct X_IDS  *  pX_Ids,
                                     struct X_CTD_TABLE_DEFINITION * pTable,
                                     X_PVOID          pParam,
                                     PFNCALBACK       pfnCallback );
+
+X_ULONG_FUNCTION X_Delete_CTD_File_Table_Data( struct X_IDS *  pX_Ids,
+                                               struct X_PRO *  pX_Pro,
+                                               struct X_FUN *  pX_Fun,
+                                               X_CHAR          chSearch,
+                                               X_PVCHAR        pvchFile,
+                                               X_PVCHAR        pvchLibrary,
+                                               X_PVCHAR        pvchPath );
 
 /* ================================================================= */
 /*  X_FUN7.C   functions                                             */

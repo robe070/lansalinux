@@ -3,7 +3,7 @@
 <!-- (c) 2003, 2011 LANSA                              -->
 <!-- LANSA XSLT Stylesheet Publisher                   -->
 <!-- $Workfile:: tsp_global_publisher.xsl            $ -->
-<!-- $Revision:: 10                                  $ -->
+<!-- $Revision:: 11                                  $ -->
 
 <xsl:transform version="1.0"
 					xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
@@ -249,7 +249,21 @@
 		</xsl:choose>
 	</xsl:template>
 
-	<!-- Exclude as much as possble of design time nodes -->
+	<!-- Exclude msxsl extension functions (Used for development time only) -->
+	<xsl:template match="/xsl:transform">
+		<xsl:copy>
+			<xsl:for-each select="@*[not(name() = 'extension-element-prefixes')]">
+				<xsl:copy/>
+			</xsl:for-each>
+			<xsl:apply-templates select="*"/>
+		</xsl:copy>
+	</xsl:template>
+
+	<!-- Exclude script extension functions -->
+	<xsl:template match="msxsl:script">
+	</xsl:template>
+
+	<!-- Exclude as much as possible of design time nodes -->
 	<xsl:template match="xsl:choose">
 		<xsl:variable name="first_test" select="xsl:when[1]/@test"/>
 		<xsl:choose>

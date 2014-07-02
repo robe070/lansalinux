@@ -271,9 +271,7 @@
 
       // All Windows 
 
-      // Leave as W95 for backward compatibility with prior installations
-
-#if defined(X_OPERATING_SYSTEM_WIN95)
+#if defined(X_OS_WIN)
 
 /* Si AS400 037 ou 500, le fichier est DC@M01 =>  "\x44\x43\x40\x4D\x30\x31"*/
 /* Si AS400 297 le fichier est DCàM01 =>          "\x44\x43\xE0\x4D\x30\x31"*/

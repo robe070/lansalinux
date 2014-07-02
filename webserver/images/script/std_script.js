@@ -1,9 +1,9 @@
 ﻿/*!
-	(c) 2002, 2012 LANSA
+	(c) 2002, 2014 LANSA
 	XHTML Standard Scripts
 	$Workfile:: std_script.js               $
-	$UTCDate:: 2012-09-04 06:30:25Z         $
-	$Revision:: 22                          $
+	$UTCDate:: 2014-01-10 01:37:34Z         $
+	$Revision:: 23                          $
 */
 
 // Global Locale Manager.
@@ -239,30 +239,36 @@ function _HandleDefaultSubmit(oForm)
 	return new Function("oForm", oHandler)(oForm);
 }
 
+function stdCreateTempForm(ownerDoc)
+{
+	var oTempForm = ownerDoc.createElement("form");
+
+	if (oTempForm != null)
+	{
+		if (typeof oTempForm.setAttribute === "function")
+		{
+			oTempForm.setAttribute("method", "post");
+		}
+		else
+		{
+			oTempForm = ownerDoc.createElement("<form method=\"post\"></form>");
+		}
+	}
+	return oTempForm;
+}
+
 function _HandleWebEventEx(Process, Webevent, Form, Target, actionRequest, Partition, Language, optDebugMode, optAnchorValue, argArr, startArgPos)
 {
 	if( Form == null )
 	{
 		Form = document.LANSA;
 	}
-	var html;
-	var bIsIE = IsIE();
-	if( bIsIE )
+
+	var ownerDoc = stdGetOwnerDocument(Form), oTempForm = stdCreateTempForm(ownerDoc);
+
+	if (oTempForm != null)
 	{
-		html = "<form method=\"post\"></form>";
-	}
-	else
-	{
-		html = "form";
-	}
-	var oTempForm = stdGetOwnerDocument(Form).createElement(html);
-	if( oTempForm != null )
-	{
-		if( !bIsIE )
-		{
-			oTempForm.setAttribute("method", "post");
-		}
-		stdGetOwnerDocument(Form).body.appendChild(oTempForm);
+		ownerDoc.body.appendChild(oTempForm);
 		var argLen = argArr.length;//arguments.length;
 		if( argLen > startArgPos )
 		{

@@ -12,24 +12,15 @@
 		"BadDBCS_SBCSNotAllowed": "このﾌｨｰﾙﾄﾞにはDBCSのみ入力できます。%1 文字のSBCSが入力されました。",
 		"BadDBCS_DBCSNotAllowed": "このﾌｨｰﾙﾄﾞにはSBCSのみ入力できます。%1 文字のDBCSが入力されました。",
 		"BadDBCS_BothNotAllowed": "このﾌｨｰﾙﾄﾞにはDBCSのみ、またはSBCSのみ入力できます。%1 文字のSBCSが入力されました。%2 文字のDBCSが入力されました。",
-		"mobiscroll-cancelText": "ｷｬﾝｾﾙ",
-		"mobiscroll-setText": "設定",
-		"mobiscroll-dayText": "日",
-		"mobiscroll-monthText": "月",
-		"mobiscroll-yearText": "年",
-		"mobiscroll-hourText": "時",
-		"mobiscroll-minuteText": "分",
-		"mobiscroll-secText": "秒",
-		"mobiscroll-dateFormat": "yy/mm/dd",
-		"mobiscroll-timeFormat": "hh:ii A",
-		"mobiscroll-dateOrder": "yymd",
-      "mobiscroll-timeWheels": "hhiiA"
+      "Complete": "完了",
+		"InProgress": "処理進行中 ..."
+		"SelectFiles": "ファイルの選択",
+		"Upload": "アップロード",
+		"Abort": "中止",
+		"OnlyOneFile": "許可されているのは 1 ファイルのみです。",
+		"TooManyFiles": "許可されるファイル数は最大 %1 です。",
+		"MaxFileSize": "ファイルの最大サイズは %1 MB です。ファイル \"%2\" は許可されていません。"
 	},
-	
 	"arrays": {
-		"DaysOfWeekSundayStartShort": ["日", "月", "火", "水", "木", "金", "土"],
-		"DaysOfWeekSundayStartLong": ["日曜日", "月曜日", "火曜日", "水曜日", "木曜日", "金曜日", "土曜日"],
-		"MonthsShort": ["１月", "２月", "３月", "４月", "５月", "６月", "７月", "８月", "９月", "１０月", "１１月", "１２月"],
-		"MonthsLong": ["１月", "２月", "３月", "４月", "５月", "６月", "７月", "８月", "９月", "１０月", "１１月", "１２月"]
 	}
 }

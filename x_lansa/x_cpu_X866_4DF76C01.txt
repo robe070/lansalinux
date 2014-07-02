@@ -1,5 +1,0 @@
-Model:               	X866
-CPU:                 	4DF76C01
-OS version:          	Linux 3.4.43-43.43.amzn1.x86_64 #1 SMP Mon May 6 18:04:41 UTC 2013 x86_64
-Number of Processors:	1
-Host name:           	ip-172-31-20-219

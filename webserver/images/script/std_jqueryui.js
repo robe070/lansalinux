@@ -2,8 +2,8 @@
 	(c) 2011, 2013 LANSA
 	XHTML jQuery UI extensions
 	$Workfile:: std_jqueryui.js             $
-	$UTCDate:: 2013-10-16 04:16:01Z         $
-	$Revision:: 79                          $
+	$UTCDate:: 2014-02-20 02:06:45Z         $
+	$Revision:: 83                          $
 */
 
 /**
@@ -42,7 +42,7 @@ Lstd.Weblets.Utils = {
 			url: regionalJS + g_lxmlISOLang + ".js",
 			error: function() {
 				var baseLang = Lstd.I18n.baseISOLang(g_lxmlISOLang);
-				if ((baseLang != g_lxmlISOLang) && (baseLang != "en"))
+				if (baseLang != g_lxmlISOLang)
 				{
 					retLang = baseLang;
 					jQuery.ajax({type: "GET",
@@ -257,7 +257,7 @@ Lstd.Weblets.stdTimePicker = {
 		if (this.globalInitFlag) return;
 		this.globalInitFlag = true;
 
-		if (!(window.g_lxmlISOLang == "") && !(window.g_lxmlISOLang == "en"))
+		if (window.g_lxmlISOLang != "")
 		{
 			this.lang = Lstd.Weblets.Utils.getI18nScript("/timepicker/" + jQuery.ui.timepicker.version + "/i18n/jquery-ui-timepicker-");
 		}
@@ -1456,9 +1456,11 @@ Lstd.Weblets.stdMenuBar =
 			return;
 		}
 		var $elem = jQuery(Lstd.Utils.makeSafeId(id));
-		if (data.itemsArray) 
+		var itemsArray = data.itemsArray ? data.itemsArray : data.list ? Lstd.Weblets.stdMenuBar.makeItemsArray(data.list) : null;
+
+		if (itemsArray)
 		{
-			for (var i=0,menuItem;menuItem=data.itemsArray[i];i++) 
+			for (var i=0, menuItem; menuItem = itemsArray[i]; i++)
 			{
 				var li = document.createElement("li");
 				li.id = id + "_" + menuItem[0];
@@ -1515,6 +1517,26 @@ Lstd.Weblets.stdMenuBar =
 		data.orientation = data.orientation || "top";
 		Lstd.Utils.mapArg2Option(data, options, ["orientation", "showArrows"]);
 		$elem.menubar(options);
+	},
+
+	makeItemsArray: function(listName)
+	{
+		var lst = Lstd.Lists[listName],
+			lstEntries = lst.entries(),
+			colCount = lstEntries.columnCount(),
+			itemsArray = [];
+
+		if (colCount < 7) {
+			lstEntries.rawEach(function(i, entry) {
+				itemsArray.push([entry[0], entry[1], entry[2], entry[3], entry[4], entry[5]]);
+			});
+		}
+		else {
+			lstEntries.rawEach(function(i, entry) {
+				itemsArray.push([entry[0], entry[1], entry[2], entry[3], entry[4], entry[5], entry[6]]);
+			});
+		}
+		return itemsArray;
 	}
 };
 
@@ -2654,153 +2676,16 @@ Lstd.Weblets.stdProgressBar = {
 	}
 };
 
-// std_fileupload
-
-Lstd.Weblets.stdFileUpload = {
-	init: function(inputID, args) {
-		var safeID = Lstd.Utils.makeSafeId(inputID);
-		var inp = jQuery(safeID);
-		var btn = jQuery(Lstd.Utils.makeSafeId("__" + inputID + "_PROXY"));
-
-		if (!args.disabled) {
-			var logDiv = jQuery(safeID + "_files");
-			var ul = jQuery('<ul class=\"std_fileupload_log\"/>');
-			var targetUrl = stdFormatHttpRequest(null, args.target.wam, args.target.webroutine, args.protocol, null, true);
-			ul.appendTo(logDiv);
-			var addedData = [];
-
-			var options = {dataType: "json",
-				url: targetUrl,
-				dropZone: null,
-				pasteZone: null,
-				progressInterval: 100,
-				fail: function(e, data) {
-					log("fail callback called");
-				},
-				progress: function(e, data) {
-					log("progress callback called. Loaded: " + data.loaded + ". Total: " + data.total + ".");
-					var val = parseInt((data.loaded/data.total * 100), 10);
-					Lstd.Weblets.stdProgressBar.value(data.files[0].name + "_pb", val);
-				},
-				progressall: function(e, data) {
-					log("progressall callback called. Loaded: " + data.loaded + ". Total: " + data.total + ".");
-				},
-				submit: function(e, data) {
-					log("submit callback called");
-					if (args.autoUpload) {
-						var fileid = data.files[0].name;
-						jQuery(Lstd.Weblets.stdFileUpload._listItem(fileid)).appendTo(ul);
-						jQuery(Lstd.Weblets.stdFileUpload._progressbar(fileid)).appendTo(ul);
-						Lstd.Weblets.stdProgressBar.init(fileid + "_pb", {value: 0, max: 100, caption: "100%"});
-					}
-				},
-				send: function(e, data) {
-					log("send callback called");
-					//dump("data", data);
-				},
-				start: function(e, data) {
-					log("start callback called");
-				},
-				stop: function(e, data) {
-					log("stop callback called");
-				},
-				done: function(e, data) {
-					log("done callback called. File is " + data.files[0].name);
-					//dump("data", data);
-				}
-			};
-
-			// Directly mapped options
-			Lstd.Utils.mapArg2Option(args, options, ["autoUpload"]);
-
-			inp.fileupload(options);
-
-			if (!args.autoUpload) {
-				inp.bind("fileuploadadd", function(e, data) {
-					log("add callback called");
-					jQuery(Lstd.Weblets.stdFileUpload._listItem(data.files[0].name)).appendTo(ul);
-					addedData.push(data);
-					//dump("data", data);
-				});
-			}
-
-			btn.button({});
-			btn.addClass("std_button_v2");
-
-			btn.click(function(event) {
-				try {
-					var elem = btn.get(0);
-					event.stopPropagation();
-
-					if (isDblClick(elem)) {
-						return false;
-					}
-
-					document.getElementById(inputID).click();
-				}
-				catch (e) {
-					console.error(e);
-				}
-			});
-
-			if (args.autoUpload === false) {
-				var sndBtn = jQuery(Lstd.Utils.makeSafeId("__" + inputID + "_SEND"));
-
-				sndBtn.button({});
-				sndBtn.addClass("std_button_v2");
-
-				sndBtn.click(function(event) {
-					try {
-						var elem = btn.get(0);
-						event.stopPropagation();
-
-						if (isDblClick(elem)) {
-							return false;
-						}
-						log("Send button clicked");
-
-						jQuery.each(addedData, function (index, file) {
-							file.submit();
-						});
-					}
-					catch (e) {
-						//console.error(e);
-						log(e);
-					}
-				});
-			}
-
-			// Ensure form encoding type is multipart
-			var f = getParentForm(inp.get(0));
-			if (f) f.setAttribute("enctype", "multipart/form-data");
-		}
-		else {
-			inp.fileupload("disable");
-		}
-	},
-
-	_listItem: function(name) {
-		return "<li id=\"" + name + "\"><div style=\"margin-top: 5px; margin-bottom: 5px;\">" + name + Lstd.Weblets.stdFileUpload.progressBar + "</div></li>";
-	},
-
-	_progressbar: function(id) {
-		//FIXME
-		var s = "<div id=\"" + id + "_pb\" class=\"std_progressbar\"></div>";
-		log(s);
-		return s;
-	}
-};
-
 // Lazy image loading
-(function($) {
+(function() {
 	try {
-		if ($.fn.lazyload) {
-			$(function() {
-					$("img.std_lazy").lazyload({effect: "fadeIn"});
-			});
-		}
+		jQuery(function() {
+			if (jQuery.fn.lazyload) {			
+				jQuery("img.std_lazy").lazyload({effect: "fadeIn"});
+			}
+		});
 	}
 	catch (e) {
 		console.error(e);
 	}
-})(jQuery);
+})();
