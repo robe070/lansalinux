@@ -4,5 +4,5 @@ DBII=azi_ec2_mysql_lansadb
 DBUS=lansa
 PSWD=lansalansa
 GUSR=QOTHPRDOWN
-ITRO=Y
+ITRO=N
 ITRM=999999999
