@@ -255,7 +255,7 @@ ViewMenu.Xml.Source.Tip=Déplace le focus sur l'onglet source XML
 ViewMenu.Web.Design.Tip=Déplace le focus sur l'onglet du dessin web
 ViewMenu.Source.Tip=Déplace le focus sur l'onglet source
 ViewMenu.Design.Tip=Déplace le focus sur l'onglet dessin
-ViewMenu.Features.Tip=Recherche l'aide sur les caractéristiques pour ce composant
+ViewMenu.Features.Tip=Affiche les caractéristiques pour ce composant
 ViewMenu.Preview.Tip=Déplace le focus sur l'onglet aperçu
 ViewMenu.VersionControl.Tip=Place le focus sur la vue de contrôle de version
 ViewMenu.RefreshRepository.Tip=Rafraîchit les données de l'onglet référentiel
@@ -525,6 +525,9 @@ Assistant.Instrument.Classes=Classes
 Assistant.Instrument.FieldsInFile=Zones du fichier
 Assistant.Instrument.Fields=Zones
 Assistant.Instrument.Forms=Formulaires
+*** @TRANS ADD
+Assistant.Instrument.WebPages=Web Pages
+*** @TRANS END
 Assistant.Instrument.ReusableParts=Eléments réutilisables
 Assistant.Instrument.BusinessObject=Objet métier
 Assistant.Instrument.ActiveX=ActiveX
@@ -816,8 +819,8 @@ FieldCompMenu.DefaultPicklist=Liste de valeurs par défaut
 FieldCompMenu.InsertPicklist=Insérer une liste de valeurs
 FieldCompMenu.InsertPicklistItem=Insérer un élément de liste de valeurs
 FieldCompMenu.DefaultPicklistItem=Elément de liste de valeurs par défaut
-FieldCompMenu.InsertReusableChoice=Type de réutilisable
-FieldCompMenu.InsertReusablePart=Elément réutilisable
+FieldCompMenu.InsertReusableChoice=Elément réutilisable
+FieldCompMenu.InsertReusablePart=Elément visuel
 FieldCompMenu.InsertHostedPart=Hôte virtuel
 FieldCompMenu.InsertWeblet=Weblet
 FieldCompMenu.InsertEvpDateTime=Zone de saisie de date
@@ -826,8 +829,8 @@ FieldCompMenu.InsertEvpMultiLineEntryField=Zone de saisie multi-ligne
 FieldCompMenu.MoveUpPicklist=Vers le haut
 FieldCompMenu.MoveDownPicklist=Vers le bas
 FieldCompMenu.InsertPrompter.Tip=Insérer un formulaire d'invite
-FieldCompMenu.InsertReusableChoice.Tip=Type de réutilisable
-FieldCompMenu.InsertReusablePart.Tip=Nouvel élément de visualisation
+FieldCompMenu.InsertReusableChoice.Tip=Insérer un élément réutilisable
+FieldCompMenu.InsertReusablePart.Tip=Nouvel élément visuel
 FieldCompMenu.InsertHostedPart.Tip=Nouvel hôte virtuel
 FieldCompMenu.InsertVisualizations.Tip=Ajouter des visualisations
 FieldCompMenu.InsertEvpEntryField.Tip=Zone de saisie
@@ -923,9 +926,9 @@ Vous ne pourrez ouvrir cet objet qu'en lecture seule.+
 -
 Voulez-vous continuer?
 
-MsgBox.ReadOnly.VcsReadOnly=Cet objet n'a pas été extrait en mise à jours du référentiel maître VCS.+
+MsgBox.ReadOnly.VcsReadOnly=Cet objet n'a pas été extrait en mise à jour du référentiel maître VCS.+
 -
-Vous pouvez ouvrir cet objet seulement en lecture seule.+
+Vous ne pourrez ouvrir cet objet qu'en lecture seule.+
 -
 Voulez-vous continuer?
 
@@ -1011,6 +1014,8 @@ MsgBox.LanguageChangedTitle=Langue modifiée
 
 MsgBox.RepObjectInvalidForSave=&1 contient des erreurs et ne peut pas être enregistré ainsi
 MsgBox.Caption.RepObjectInvalidForSave=Enregistrer &1
+
+MsgBox.FailedToWriteToFile=Erreur d'accès au fichier
 
 *************************************************************
 *** SPEED BUTTON HINTS                                  *****
@@ -1195,11 +1200,7 @@ FormatOptions.Page.Function.Caption=Formatage des fonctions
 FormatOptions.Page.Component.Caption=Formatage des composants
 FormatOptions.Item.General.Caption=Généraux
 FormatOptions.Item.Source.Caption=Source
-*** @TRANS CHANGED
 FormatOptions.Item.Xsl.Caption=Web
-*** @TRANS OLD
-*** FormatOptions.Item.Xsl.Caption=WAM
-*** @TRANS END
 FormatOptions.Item.Debug.Caption=Débogage
 FormatOptions.Item.Compile.Caption=Compiler
 FormatOptions.Item.Style.Caption=Style
@@ -1213,6 +1214,8 @@ FormatOptions.Item.Outline.Caption=Vue hiérarchique
 FormatOptions.Item.ShowInternalFiles=Afficher les fichiers internes
 FormatOptions.Item.ShowReadOnlyMsg=Afficher le message signalant la lecture seule
 FormatOptions.Item.UseIdentifierAsDisplayName=Afficher les noms courts
+FormatOptions.Item.ObjectNames=Noms d'objets
+FormatOptions.Item.SuggestMatchingIdentifier=Suggérer un identifiant correspondant au nom de la DLL
 FormatOptions.Item.InteractiveVerification=Utiliser la vérification interactive
 FormatOptions.Item.ObjectLocking=Verrouillage des objet
 FormatOptions.Item.ObjectLocking.On=Activé
@@ -1256,6 +1259,11 @@ FormatOptions.Item.WordWrapNone=Aucun
 FormatOptions.Item.WordWrapSimple=Simple
 FormatOptions.Item.WordWrapSmart=Intelligent
 FormatOptions.Item.WordWrapAllParams=Tout développer
+*** @TRANS ADD
+FormatOptions.Item.RenderType=Target Render Type
+FormatOptions.Item.RenderTypeWin32=Win32 (W)
+FormatOptions.Item.RenderTypeDirectX=DirectX (X)
+*** @TRANS END
 FormatOptions.Item.Feature.Show=Caractéristiques
 FormatOptions.Item.Feature.ShowSpecific=Afficher les caractéristiques spécifiques
 FormatOptions.Item.Feature.ShowAdvanced=Afficher les caractéristiques avancées
@@ -1298,6 +1306,12 @@ FormatOptions.Item.Versioning.Trademark.Caption=Marque légale
 FormatOptions.Item.Versioning.FileVersion.Caption=Version du fichier
 FormatOptions.Item.Versioning.ProductName.Caption=Nom du produit
 FormatOptions.Item.Versioning.ProductVersion.Caption=Version du produit
+*** @TRANS ADD
+FormatOptions.Item.Compile.Target.Caption=Compile Target
+FormatOptions.Item.Compile.Target.32Bit=32 Bit
+FormatOptions.Item.Compile.Target.64Bit=64 Bit
+FormatOptions.Item.Compile.Target.Both=32 and 64 Bit
+*** @TRANS END
 
 FormatOptions.Xsl.General.Caption=Général
 FormatOptions.Xsl.Design.Caption=Dessin
@@ -1336,9 +1350,7 @@ FormatOptions.Xsl.Design.MappedImagesFolder.FolderBrowse.Caption=Choisir le doss
 FormatOptions.Xsl.OpenWebViews.Caption=Ouvrir les affichages Web en ouvrant les dessins
 FormatOptions.Xsl.ShowInlineWeblets.Caption=Afficher les Weblets intégrés
 FormatOptions.Xsl.ShowDeprecatedWeblets.Caption=Afficher les Weblets à éviter
-*** @TRANS NEW
-FormatOptions.Xsl.ShowWebComponents.Caption=Show Web Components
-*** @TRANS END
+FormatOptions.Xsl.ShowWebComponents.Caption=Afficher les composants Web
 FormatOptions.Xsl.ShowWebletXML.Caption=Afficher l'XML des Weblets
 FormatOptions.Xsl.DeleteOrphans.Caption=Supprimer les dessins de routines web orphelins en fermant les Web Application Modules
 FormatOptions.Xsl.SaveWebSampleData.Caption=Enregistrer les données exemple des zones et listes des webroutines
@@ -1348,7 +1360,7 @@ FormatOptions.Xsl.AllowInlineXPathEntry.MsgBox=La saisie directe d'XPath nécessi
 
 FormatOptions.Style.Font.Label=Police:
 FormatOptions.Style.Font.Description=&1pt &2
-FormatOptions.Style.Font.Button.Caption=Modifier
+FormatOptions.Style.Font.Button.Caption=Modifier la police
 
 FormatOptions.Style.Colors=Couleurs:
 FormatOptions.Style.TextColor=Couleur du texte
@@ -1508,6 +1520,7 @@ RepBrowser.MenuItem.VcsExploreFolder=Afficher dans l'explorateur Windows
 RepBrowser.MenuItem.VcsWriteToWorkingFolder=Enregistrer dans le répertoire de travail
 RepBrowser.MenuItem.VcsPopulateWorkingFolder=Alimenter le répertoire de travail
 RepBrowser.MenuItem.DeletePartition=Supprimer la partition
+RepBrowser.MenuItem.ExportToExcel=Export vers Excel
 
 RepBrowser.Open.Tip=Ouvrir le composant
 RepBrowser.View.Tip=Modifier la vue en cours
@@ -1585,9 +1598,7 @@ RepBrowser.ComponentNameCOM_OWNERDesc=Utiliser l'étendue du propriétaire
 RepBrowser.ComponentNameCOM_TRUEDesc=Booléen de valeur vraie
 RepBrowser.ComponentNameCOM_FALSEDesc=Booléen de valeur fausse
 RepBrowser.ComponentNameSYS_APPLNDesc=Application en cours
-*** @TRANS NEW
-RepBrowser.ComponentNameSYS_WEBDesc=Current Web application
-*** @TRANS END
+RepBrowser.ComponentNameSYS_WEBDesc=Application Web en cours
 RepBrowser.ComponentNameSYS_KEYBDDesc=Etat des touches Shift, Alt et Ctrl
 RepBrowser.ComponentNameSYS_MOUSEDesc=La positon de la souris
 RepBrowser.ComponentNameNULLDesc=Référence nulle
@@ -2101,9 +2112,7 @@ RepositoryTab.Combo.DbDiagrams=Diagrammes de base de données
 RepositoryTab.Combo.ExternalResources=Ressources externes
 RepositoryTab.Combo.DotNetProxys=Composants .NET
 RepositoryTab.Combo.WebServiceProxys=Services Web
-*** @TRANS NEW
-RepositoryTab.Combo.WebPages=Web Pages
-*** @TRANS END
+RepositoryTab.Combo.WebPages=Pages Web
 
 RepositoryTab.ObjName.NotDefined=Non défini
 RepositoryTab.ObjName.File=Fichier
@@ -2130,10 +2139,8 @@ RepositoryTab.ObjName.Task=Tâche
 RepositoryTab.ObjName.ExternalResource=Ressources externes
 RepositoryTab.ObjName.DotNetProxy=Composant .NET
 RepositoryTab.ObjName.WebServiceProxy=Service Web
-*** @TRANS ADD
-RepositoryTab.ObjName.WebPage=Web Page
-*** @TRANS END
-*
+RepositoryTab.ObjName.WebPage=Page Web
+* 
 RepositoryTab.ColTxt.DynamicList=Liste dynamique
 RepositoryTab.ColTxt.StaticList=Liste statique
 RepositoryTab.ColTxt.ImpactList=Liste d'impact
@@ -2506,6 +2513,9 @@ Web.DesignPlugIn.NotValid.Line3=2. Permissions incorrectes pour les répertoires 
 Web.DesignPlugIn.NotValid.Line4=Reportez ce problème à LANSA
 Weblet.Design.NotAvailable=Le Weblet n'a pas de XSL pour le service technologique XSL &1 &2
 Web.Design.Designer.Caption=&1 ( &2 )
+*** @TRANS ADD
+Web.Menu.OpenWebPage.Caption=Open Web Page
+*** @TRANS END
 Web.Menu.GotoDesign.Caption=Ouvrir le dessin
 Web.Menu.GotoDesign.Caption.Tip=Ouvre le dessin XSL pour la Webroutine &1
 Web.Menu.GenerateXsl.Caption=Générer le XSL
@@ -2616,8 +2626,6 @@ Web.Diagnostics.View2.Caption=Diagnostics de dessin 2
 Web.Diagnostics.Design.Caption=Dessin
 Web.Diagnostics.Source.Caption=Source
 Web.Diagnostics.Xml.Caption=Xml
-Web.Ancestors.Caption=Eléments Web ancêtre
-Web.Ancestors.Caption.Tip=Afficher l'onglet des éléments Web ancêtre
 Web.Error.CannotLoadWeblet.Text=Chargement du Weblet &1 impossible
 Web.Error.CannotLoadWebletVersion.Text=Chargement du Weblet &1, version &2 impossible
 Web.Design.DragDrop.Table.Caption=Créer une liste
@@ -2640,6 +2648,14 @@ Web.Design.NewRoutine.ServiceName.Caption=Nom de service
 Web.Design.NewRoutine.Description.Caption=Description
 Web.Design.NewRoutine.Details.Caption=Détails de webroutine
 Web.Design.NewRoutine.WebDetails.Caption=Détails du dessin de page Web
+*** @TRANS NEW
+Web.Design.NewRoutine.Response.Caption=Response
+Web.Design.NewRoutine.Response.None=*NONE - transfer to another webroutine
+Web.Design.NewRoutine.Response.Json=*JSON - return the data in JSON format
+Web.Design.NewRoutine.Response.Default=*DEFAULT - return a Web Page
+Web.Design.NewRoutine.Response.Program=#RESPONSE - programmatically create a response
+Web.Design.NewRoutine.NoDesignRequired=There is no Web Page associated with this response
+*** @TRANS END
 Web.Design.Dialog.NewRoutine.Tree.Column1.Caption=Service technologique
 Web.Design.Dialog.NewRoutine.Tree.Column2.Caption=Fournisseur
 Web.Design.Dialog.NewRoutine.Tree.Column3.Caption=Générer XSL
@@ -2819,10 +2835,6 @@ Web.HTML.ContentArea.Replace.Caption=Remplacer le contenu
 Web.HTML.ContentArea.Expand.Caption=Etendre le contenu
 Web.HTML.ContentArea.Reset.Caption=Réinitialiser le contenu
 
-*** @TRANS NEW
-Web.HTML.WebDialog.Maintain.Caption=Maintain Web Dialogs...
-*** @TRANS END
-
 Web.HTML.FieldCaption.ChangeToLabel.Caption=Remplacer par le label
 Web.HTML.FieldCaption.ChangeToDescription.Caption=Remplacer par la description
 Web.HTML.FieldCaption.ChangeToHeading.Caption=Remplacer par l'entête de colonne
@@ -2836,11 +2848,13 @@ Web.HTML.Field.ChangeToHiddenField.Caption=Passer en zone cachée
 Web.HTML.Field.ChangeToDefault.Caption=Passer au défaut
 
 Web.HTML.InlineWeblet.Refresh.Caption=Actualiser les weblet intégrés
-Web.HTML.InlineWeblet.Properties.Caption=Propriétés
-Web.HTML.InlineWeblet.Properties.Element.Caption=Elément...
-Web.HTML.InlineWeblet.Properties.TagTree.Caption=Arbre des balises...
-Web.HTML.InlineWeblet.Properties.TagList.Caption=Liste des balises...
-Web.HTML.InlineWeblet.Properties.Ancestors.Caption=Ancêtres...
+
+Web.HTML.Properties.Caption=Propriétés
+Web.HTML.Properties.Element.Caption=Elément...
+Web.HTML.Properties.TagTree.Caption=Arbre des balises...
+Web.HTML.Properties.TagList.Caption=Liste des balises...
+Web.HTML.Properties.Ancestors.Caption=Ancêtres...
+
 Web.HTML.Table.Caption=Tableau
 Web.HTML.Table.CreateHeader.Caption=Créer un entête
 Web.HTML.Table.CreateFooter.Caption=Créer un bas de tableau
@@ -2935,9 +2949,6 @@ Web.Action.ContentArea.Reset=Réinitialiser la zone de contenu
 Web.Action.ChangeToHeading1=Modifier en Titre 1
 Web.Action.ChangeToHeading2=Modifier en Titre 2
 Web.Action.ChangeToHeading3=Modifier en Titre 3
-*** @TRANS NEW
-Web.Action.WebDialog.Delete=Delete Web Dialog: &1
-*** @TRANS END
 
 *************************************************************
 *** Preview View                                        *****
@@ -2989,12 +3000,10 @@ WebManageExternalResources.Name=Nom
 WebManageExternalResources.FileName=Nom de fichier
 WebManageExternalResources.Description=Description
 WebManageExternalResources.Location=Emplacement
-*** @TRANS NEW
-WebManageExternalResources.Header=Header
-WebManageExternalResources.Body.Top=Body Top
-WebManageExternalResources.Body.Bottom=Body Bottom
+WebManageExternalResources.Header=Entête
+WebManageExternalResources.Body.Top=Haut du corps
+WebManageExternalResources.Body.Bottom=Bas du corps
 WebManageExternalResources.Async=Async
-*** @TRANS END
 
 *************************************************************
 *** CSS Units Dialog                                    *****
@@ -3071,7 +3080,7 @@ FindNetAssembliesDialog.VersionColumn=Version
 FindNetAssembliesDialog.RuntimeVersionColumn=Version d'exécution
 FindNetAssembliesDialog.PathColumn=Chemin
 FindNetAssembliesDialog.RegistryColumn=Clé de registre
-FindNetAssembliesDialog.FindFile=Chercher le fichier
+FindNetAssembliesDialog.FindFile=Chercher le fichier assembly
 
 *************************************************************
 *** Html Attributes Dialog                              *****
@@ -3100,9 +3109,9 @@ Editor.Home.Demos.Contents.Caption=Démos Visual LANSA
 **************************************************************************
 *** Ribbon Main Editor Scope                                         *****
 **************************************************************************
-*** @TRANS UNABLE to translate this for the moment need to check for real
 Editor.Ribbon.Debug.Debug.KeyTip=DB
 Editor.Design.KeyTip=DS
+Editor.Style.KeyTip=DY
 Editor.Layout.KeyTip=DL
 Editor.Ribbon.AppMenu.KeyTip=F
 Editor.Ribbon.HomeSheet.KeyTip=H
@@ -3152,6 +3161,11 @@ Editor.Ribbon.Runtime.KeyTip=ZX
 **************************************************************************
 
 Editor.Form.Design.KeyTip=ZD
+Editor.DesignSize.KeyTip=ZE
+Editor.DesignFont.KeyTip=ZF
+Editor.DesignColors.KeyTip=ZG
+Editor.DesignBorder.KeyTip=ZB
+Editor.DesignCorner.KeyTip=ZC
 Editor.Layouts.Manager.KeyTip=ZL
 Editor.Styles.Attach.KeyTip=ZS
 
@@ -3182,6 +3196,7 @@ Editor.Web.Design.KeyTip=ZW
 Editor.Layouts.Attach.Item.KeyTip=ZA
 Editor.Layouts.Table.Item.KeyTip=ZT
 Editor.Layouts.Margins.KeyTip=ZM
+Editor.Layouts.Span.KeyTip=ZS
 
 Editor.Ribbon.AppMenu.Caption=Fichier
 Editor.Ribbon.HomeSheet.Caption=Accueil
@@ -3264,12 +3279,29 @@ Editor.Styles.AttachMouseOver.Caption=Effet de survol
 Editor.Styles.AttachMouseOver.Hint=Paramètres du style de survol (mouseover) du contrôle en cours
 Editor.Styles.Remove.Caption=Enlever la propriété
 Editor.Styles.Remove.Hint=Réinitialise la propriété style à l'état hérité par défaut
+*** @TRANS NEW
+Editor.Styles.ColorFore.Caption=Text
+Editor.Styles.ColorFore.Hint=Foreground color for the current control
+Editor.Styles.ColorBack.Caption=Fill
+Editor.Styles.ColorBack.Hint=Background color for the current control
+Editor.Styles.ColorBorder.Caption=Border
+Editor.Styles.ColorBorder.Hint=Border color for the current control
+Editor.Styles.Color.Popup.At.Caption=At
+Editor.Styles.Color.Popup.Color.Caption=Color
+Editor.Styles.Color.Popup.Solid.Caption=Single Color
+Editor.Styles.Color.Popup.Linear.Caption=Linear Brush
+Editor.Styles.Color.Popup.Radial.Caption=Radial Brush
+Editor.Styles.Color.Popup.Opacity.Caption=Opacity
+Editor.Styles.Color.Popup.AddColor.Caption=Add Color
+*** @TRANS END
+
 Editor.Layout.Manager.Caption=Gestionnaire
 Editor.Layout.Manager.Hint=Gestionnaire de présentation pour le contrôle en cours
 Editor.Layout.Item.Caption=Elément
 Editor.Layout.Item.Hint=Paramètres d'élément de présentation pour le contrôle en cours
 Editor.Layout.New.Caption=Nouvelle présentation
 Editor.Layout.New.Hint=Crée une présentation et l'attache au contrôle en cours
+
 Editor.Layouts.Attach.Item.Caption=Elément attaché
 Editor.Layouts.Attach.Delete.Title=Enlever
 Editor.Layouts.Attach.Delete.Hint=Détache le gestionnaire de présentation du contrôle en cours
@@ -3287,10 +3319,13 @@ Editor.Layouts.Attach.Client.Title=Centre
 Editor.Layouts.Attach.Client.Hint=Attache le contrôle au centre de son parent
 Editor.Layouts.Attach.Title=Attachement
 Editor.Layouts.Attach.Hint=Crée un gestionnaire de présentation d'attachement pour le contrôle en cours
-Editor.Layouts.Table.Hint=Crée un gestionnaire de présentation en table pour le contrôle en cours
 Editor.Layouts.Table.Title=Table
+Editor.Layouts.Table.Hint=Crée un gestionnaire de présentation en table pour le contrôle en cours
 Editor.Layouts.Table.Item.Caption=Elément de table
 Editor.Layouts.Margins.Caption=Marges
+*** @TRANS NEW
+Editor.Layouts.Span.Caption=Span
+*** @TRANS END
 Editor.Layouts.FlowDown.Title=Centrage vertical
 Editor.Layouts.FlowDown.Hint=Crée un gestionnaire de présentation de centrage vertical pour le contrôle en cours
 Editor.Layouts.FlowAcross.Title=Centrage horizontal
@@ -3307,6 +3342,8 @@ Editor.Layouts.FlowDown.Desc=Présentation de centrage vertical
 Editor.Layouts.FlowAcross.Desc=Présentation de centrage horizontal
 Editor.Layouts.SplitH.Desc=Présentation de partage Horizontal
 Editor.Layouts.SplitV.Desc=Présentation de partage vertical
+Editor.Layouts.Table.Rows.Caption=Lignes
+Editor.Layouts.Table.Cols.Caption=Colonnes
 Editor.Layouts.Table.Row.Caption=Ligne
 Editor.Layouts.Table.Col.Caption=Colonne
 Editor.Layouts.Table.Sizing.None.Name=Aucune
@@ -3348,29 +3385,32 @@ Editor.Layouts.Table.FlowDown.Name=Vers la bas
 Editor.Layouts.Table.FlowDown.Desc=En dessous du contrôle précédent
 Editor.Layouts.Table.FlowRight.Name=A droite
 Editor.Layouts.Table.FlowRight.Desc=A droite du contrôle précédent
-Editor.Layouts.Table.Rows.Caption=Lignes
-Editor.Layouts.Table.Cols.Caption=Colonnes
 Editor.Layouts.Table.Delete.Hint=Supprimer la présentation et toutes ces dépendances
 Editor.Layouts.Table.Add.Hint=Ajouter
-Editor.Layouts.Table.Col.Span.Caption=Etendue de ligne
-*** @TRANS NEW
-Editor.Layouts.Table.Span.Caption=Span
-*** @TRANS END
-Editor.Layouts.Table.Row.Span.Caption=Etendue de colonne
-Editor.Layouts.Table.Row.Margin.Caption=Marge (H/B/G/D)
-Editor.Layouts.Table.Col.Margin.Caption=Marge (H/B/G/D)
-Editor.Layouts.Table.Row.Position.Caption=Position
-Editor.Layouts.Table.Col.Position.Caption=Position
 Editor.Layouts.Table.AddRow.Caption=Ajouter une ligne
-Editor.Layouts.Table.AddRowDivider.Caption=Ajouter un diviseur de ligne
 Editor.Layouts.Table.AddCol.Caption=Ajouter une colonne
-Editor.Layouts.Table.AddColDivider.Caption=Ajouter séparateur de colonne
 Editor.Layouts.Table.Row.Height.Caption=Hauteur
-Editor.Layouts.Table.Row.HeightFixed.Caption=Hauteur fixe
+*** @TRANS NEW
+Editor.Layouts.Table.AddRowDivider.Caption=Add Divider
+Editor.Layouts.Table.AddColDivider.Caption=Add Divider
+Editor.Layouts.Table.Units.Caption=Units
+Editor.Layouts.Table.Units.Fixed.Caption=Fixed
+Editor.Layouts.Table.Units.Proportion.Caption=Proportion
+Editor.Layouts.Table.Row.Units.Hint=Toggles Row between fixed pixel height and proportional height sizing
+Editor.Layouts.Table.Col.Units.Hint=Toggles Column between fixed pixel width and proportional width sizing
+Editor.Layouts.Table.NoRow.Caption=None
+Editor.Layouts.Table.NoCol.Caption=None
+Editor.Layouts.Table.Row.Span.Caption=Rows
+*** @TRANS END
+Editor.Layouts.Table.Span.Caption=Span
+Editor.Layouts.Table.Row.Position.Caption=Position
+Editor.Layouts.Table.Row.Margin.Caption=Marge (H/B/G/D)
 Editor.Layouts.Table.Col.Width.Caption=Largeur
-Editor.Layouts.Table.Col.WidthFixed.Caption=Largeur fixe
-Editor.Layouts.Table.Row.Fixed.Hint=Définit en pixels la hauteur de ligne
-Editor.Layouts.Table.Col.Fixed.Hint=Définit en pixels la hauteur de colonne
+*** @TRANS NEW
+Editor.Layouts.Table.Col.Span.Caption=Columns
+*** @TRANS END
+Editor.Layouts.Table.Col.Position.Caption=Position
+Editor.Layouts.Table.Col.Margin.Caption=Marge (H/B/G/D)
 Editor.Layout.AddTo.Caption=Ajouter
 Editor.Layout.AddTo.Hint=Crée lignes et colonnes pour la présentation de table
 Editor.Layout.DeleteFrom.Caption=Supprimer
@@ -3395,6 +3435,9 @@ Editor.Styles.FontSize.Caption=Taille
 Editor.Styles.FontBoldFull.Caption=Gras
 Editor.Styles.FontItalicFull.Caption=Italique
 Editor.Styles.FontUnderlineFull.Caption=Souligné
+*** @TRANS NEW
+Editor.Styles.None.Caption=None
+*** @TRANS END
 Editor.Styles.FontBold.Caption=G
 Editor.Styles.FontBold.Title=Gras
 Editor.Styles.FontBold.Hint=Mettre le style de texte en gras
@@ -3496,11 +3539,22 @@ Editor.Brushes.Radial.RadiusLeft.Hint=Rayon horizontal du dégradé
 Editor.Brushes.Radial.RadiusTop.Caption=Rayon-supérieur
 Editor.Brushes.Radial.RadiusTop.Hint=Rayon vertical du dégradé
 
+*** @TRANS NEW
+Editor.Style.Caption=Style
+*** @TRANS END
+
 Editor.Design.Caption=Dessin
 Editor.Form.Design.Caption=Dessin
 *** @TRANS NEW
-Editor.Layout.Caption=Layout
+Editor.DesignFont.Caption=Font
+Editor.DesignColors.Caption=Colors
+Editor.DesignBorder.Caption=Borders
+Editor.DesignCorner.Caption=Corners
+Editor.DesignSize.Caption=Designer Size
+Editor.DesignSize.Size.Caption=Designer Size
+Editor.DesignSize.FixedSize.Caption=Fixed Size
 *** @TRANS END
+Editor.Layout.Caption=Présentation
 
 Editor.Web.Design.Caption=Web
 Editor.Web.Tools.Caption=Outils
@@ -3556,26 +3610,6 @@ Editor.Form.DesignLanguage.Title=Langue du dessin
 Editor.Form.DesignTheme.Caption=Thème de dessin
 Editor.Form.DesignTheme.Hint=Définit le thème de l'onglet de dessin
 Editor.Form.DesignTheme.Title=Thème de dessin
-*** @TRANS NEW
-Editor.Form.DesignStyle.Caption=Design Style
-Editor.Form.DesignStyle.Hint=Sets the style of the Design View
-Editor.Form.DesignStyle.Title=Design Style
-Editor.Form.DesignStyle.Skin.Caption=Designer Skin
-Editor.Form.DesignStyle.SkinNone.Caption=None
-Editor.Form.DesignStyle.SkinIE.Caption=Internet Explorer
-Editor.Form.DesignStyle.Size.Caption=Designer Size
-Editor.Form.DesignStyle.Size1.Caption=iPhone 5 - 1136 x 640
-Editor.Form.DesignStyle.Size2.Caption=iPhone 4s - 960 x 640
-Editor.Form.DesignStyle.Size3.Caption=iPod Touch - 640 x 480
-Editor.Form.DesignStyle.Size4.Caption=iPad 3 - 2048 x 1536
-Editor.Form.DesignStyle.Size5.Caption=iPad 1 & 2 - 1024 x 768
-Editor.Form.DesignStyle.Size6.Caption=Samsung Galaxy SIII - 1280 × 720
-Editor.Form.DesignStyle.Size7.Caption=Samsung Galaxy Tab - 1280 x 800
-Editor.Form.DesignStyle.Size8.Caption=Nokia 920 - 1280 x 768
-Editor.Form.DesignStyle.Size9.Caption=Nokia 920 - 800 x 480
-Editor.Form.DesignStyle.Size10.Caption=Microsoft Surface - 1366 x 768
-Editor.Form.DesignStyle.Size11.Caption=Kindle Fire - 1920x 1200
-*** @TRANS END
 
 Editor.TargetRuntime.Title=Cible d'exécution
 
@@ -3612,7 +3646,7 @@ Editor.Ribbon.Clipboard.Undo.Hint=Annuler la dernière action
 Editor.Ribbon.Clipboard.Redo.Caption=Répéter
 Editor.Ribbon.Clipboard.Redo.Title=Répéter (Ctrl+Y)
 Editor.Ribbon.Clipboard.Redo.Hint=Répéter la dernière action
-Editor.Ribbon.Build.UseTemplate.Caption=Assistant
+Editor.Ribbon.Build.UseTemplate.Caption=Assistants
 Editor.Ribbon.Build.UseTemplate.Title=Assistant
 Editor.Ribbon.Build.UseTemplate.Hint=Utiliser un assistant
 Editor.Ribbon.Build.DesignCheck.Caption=Maquette
@@ -3632,7 +3666,7 @@ Editor.Ribbon.QuickAccess.CheckIn.Hint=Publier
 Editor.Ribbon.QuickAccess.Compile.Hint=Compiler (Ctrl+Shift+C)
 Editor.Ribbon.Footer.Options.Caption=Options
 Editor.Ribbon.Footer.Exit.Caption=Quitter
-Editor.Ribbon.Menu.LastOpened.Caption=Composants récents
+Editor.Ribbon.Menu.LastOpened.Caption=Derniers ouverts
 Editor.Ribbon.Menu.New.Caption=Nouveau
 Editor.Ribbon.Menu.Open.Caption=Ouvrir
 Editor.Ribbon.Menu.Save.Caption=Enregistrer
@@ -3703,7 +3737,11 @@ Editor.Ribbon.Command.StatusLanguage=Langue en cours
 Editor.Ribbon.Command.StatusAudit=Données d'audit
 Editor.Ribbon.Command.StatusFont=Sélecteur de police du source
 Editor.Ribbon.Command.StatusWeb=Paramétrages Web
-Editor.Ribbon.Command.TargetRuntime=Cible d'exécution
+*** @TRANS CHANGE
+*** Editor.Ribbon.Command.TargetRuntime=Cible d'exécution
+*** @TRANS NEW
+Editor.Ribbon.Command.TargetRuntime=Target Render Type
+*** @TRANS END
 
 Editor.Ribbon.Help.Help.Caption=Aide
 Editor.Ribbon.Help.Help.Title=Aide Visual LANSA(F1)
@@ -3728,7 +3766,7 @@ Editor.Ribbon.MessageFiles.Caption=Fichiers de message
 Editor.Ribbon.MessageFiles.Title=Fichiers de message
 Editor.Ribbon.MessageFiles.Hint=Afficher l'éditeur de fichier de message
 Editor.Ribbon.Close.Title=Fermer
-Editor.Ribbon.Close.Hint=Ferme l'objet en cours
+Editor.Ribbon.Close.Hint=Ferle le document en cours (Ctrl+F4)
 Editor.Ribbon.V12Menu.Title=Barre de menu
 Editor.Ribbon.V12Menu.Hint=Barre de menu Version 12
 Editor.Ribbon.Debug.Debug.Caption=Débogage
@@ -3739,7 +3777,7 @@ Editor.Ribbon.Runtime.Caption=Exécution
 Editor.Ribbon.Debug.Execute.Title=Exécuter
 Editor.Ribbon.Debug.Execute.Hint=Exécute l'objet
 Editor.Ribbon.Debug.ExecuteHistory.Views.Caption=Historique d'exécution
-Editor.Ribbon.Debug.ExecuteHistory.Caption=Historique d'exécution
+Editor.Ribbon.Debug.ExecuteHistory.Caption=Historique
 Editor.Ribbon.Debug.ExecuteHistory.Title=Historique d'exécution
 Editor.Ribbon.Debug.ExecuteHistory.Hint=Exécute un objet précédemment exécuté
 Editor.Ribbon.Debug.Continue.Title=Continuer le débogage
@@ -3851,16 +3889,19 @@ Editor.DesignerView.Caption=Dessin
 
 Editor.ControlsView.Caption=Contrôles
 Editor.ControlsView.Controls.Caption=Contrôles
-Editor.ControlsView.Common.Caption=Communs
-Editor.ControlsView.UserDesigned.Caption=Personnalisés
+*** @TRANS NEW
+Editor.ControlsView.Favorites.Caption=Favorites
+Editor.ControlsView.SetFavorite.Caption=Add to Favorite controls
+Editor.ControlsView.RemoveFavorite.Caption=Remove from Favorite controls
+*** @TRANS END
 Editor.ControlsView.All.Caption=Tous les contrôles
-Editor.ControlsView.UserDesigned.CarouselDesign=Présentation carrousel
-Editor.ControlsView.UserDesigned.BookDesign=Présentation livre
-Editor.ControlsView.UserDesigned.TreeDesign=Présentation arborescence
-Editor.ControlsView.UserDesigned.TileDesign=Présentation mosaïque
-Editor.ControlsView.UserDesigned.DashboardDesign=Présentation tableau de bord
-Editor.ControlsView.UserDesigned.Expand=Développer pour voir toutes les présentations disponibles
-Editor.ControlsView.UserDesigned.Empty=Aucune présentation disponible
+Editor.ControlsView.Lists.CarouselDesign=Présentation carrousel
+Editor.ControlsView.Lists.BookDesign=Présentation livre
+Editor.ControlsView.Lists.TreeDesign=Présentation arborescence
+Editor.ControlsView.Lists.TileDesign=Présentation mosaïque
+Editor.ControlsView.Lists.DashboardDesign=Présentation tableau de bord
+Editor.ControlsView.Lists.Expand=Développer pour voir toutes les présentations disponibles
+Editor.ControlsView.Lists.Empty=Aucune présentation disponible
 Editor.ControlsView.RibbonSheet.Caption=Onglet du ruban
 Editor.ControlsView.RibbonGroup.Caption=Groupe du ruban
 Editor.ControlsView.DockingTab.Caption=Structure d'ancrage des onglets

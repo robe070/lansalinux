@@ -24,7 +24,13 @@
 		"Done1": "Done",
 		"Messages": "Messages:",
 		"InProgress": "In progress ...",
-		"Complete": "Complete"
+		"Complete": "Complete",
+		"SelectFiles": "Select files",
+		"Upload": "Upload",
+		"Abort": "Abort",
+		"OnlyOneFile": "Only 1 file allowed.",
+		"TooManyFiles": "Maximum %1 files allowed.",
+		"MaxFileSize": "Maximum file size is %1 Mb. File \"%2\" not allowed."
 	},
 	"arrays": {
 		"DaysOfWeek": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],

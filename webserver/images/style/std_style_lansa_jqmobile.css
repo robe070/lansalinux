@@ -1,9 +1,9 @@
 ﻿/*!
- (c) 2013 LANSA
+ (c) 2013, 2014 LANSA
  JQMOBILE Standard Styles
  $Workfile:: std_style_lansa_jqmobile.css         $
- $UTCDate:: 2013-10-28 04:02:43Z                  $
- $Revision:: 18                                   $
+ $UTCDate:: 2014-04-14 01:44:31Z                  $
+ $Revision:: 22                                   $
 */
 
 body {
@@ -71,14 +71,16 @@ a.lstd-plain-link:link, a.lstd-plain-link:visited, a.lstd-plain-link:hover, a.ls
 	}
 }
 
-.lstd-progressbar-content {
+div.lstd-progressbar-content {
 	border: none;
 	margin: 0;
+	cursor: default;
 }
 
 .lstd-progressbar-text {
 	position: absolute;
-	left: 50%;
+	width: 100%;
+	text-align: center;
 	bottom: 100%;
 	font-weight: bold;
 }
@@ -102,6 +104,16 @@ a.lstd-plain-link:link, a.lstd-plain-link:visited, a.lstd-plain-link:hover, a.ls
 }
 
 /* Design time only */
+
+ul.lstd-design-list, ul.lstd-design-list li {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0x;
+}
+
+ul.lstd-design-list lansaxsl\:span {
+	display: block;
+}
 
 lansaxsl\:template {
 	display: block;

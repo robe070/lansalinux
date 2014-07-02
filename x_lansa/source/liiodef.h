@@ -259,6 +259,9 @@ enum WamOption
 #define ODEF_QUERY_WEB_SCRIPT_ROOT_DIR       42
 #define ODEF_QUERY_WEB_STYLE_ROOT_DIR        43
 #define ODEF_QUERY_DEFAULT_LANGUAGE_ISO      44
+#define ODEF_QUERY_CONFIG_DISPLAY_NAME       45
+#define ODEF_QUERY_LX_PARTITION_WEB_DIR      46
+#define ODEF_QUERY_LX_PARTITION_VL_WEB_DIR   47
 
 
 #define ODEF_GETSET_LOCK                     1
@@ -270,6 +273,7 @@ enum WamOption
 #define ODEF_GETSET_BUILD_BIF_DEFINITION     7
 #define ODEF_GETSET_COMPILE_OPTION           8
 #define ODEF_GETSET_VERSIONING               9
+#define ODEF_GETSET_BUILD_ENVIRONMENT        10
 
 #define ODEF_LICENCE_DEMO                    0
 #define ODEF_LICENCE_VL_DEVELOPMENT          0x0001
@@ -2673,6 +2677,8 @@ typedef struct _X_COMP_COMPILE_OPTION
    int                                          fExtendCompileEnabled;
    int                                          fExtendCompileSelected;
    int                                          fGenerateSourceOnly;
+   int                                          fWinRTEnabled;
+   int                                          fWinRTSelected;
 
 }  X_COMP_COMPILE_OPTION,
    *PX_COMP_COMPILE_OPTION,
@@ -3378,6 +3384,7 @@ typedef struct _X_COMP_WEBLET_IMPORT_INFO
 typedef struct _X_COMP_WEBLET_DATA_TYPE_INFO
 {
    const X_UTF16_VCHAR                       *  pvchDataType;
+   const X_UTF16_VCHAR                       *  pvchDefaultVisualization;
 }  X_COMP_WEBLET_DATA_TYPE_INFO,
    *PX_COMP_WEBLET_DATA_TYPE_INFO,
    **PPX_COMP_WEBLET_DATA_TYPE_INFO;
@@ -3445,6 +3452,7 @@ typedef struct _X_COMP_WEBLET_XSL_PARAMETER_INFO
    const X_UTF16_VCHAR                       *  pvchDataType;
    const X_UTF16_VCHAR                       *  pvchTipId;
    const X_UTF16_VCHAR                       *  pvchDefaultValue;
+   const X_UTF16_VCHAR                       *  pvchDefaultVisualization;
 }  X_COMP_WEBLET_XSL_PARAMETER_INFO,
    *PX_COMP_WEBLET_XSL_PARAMETER_INFO,
    **PPX_COMP_WEBLET_XSL_PARAMETER_INFO;
@@ -4283,6 +4291,7 @@ typedef unsigned long
 
 #define X_COMP_KIND_DEF_WEB                                    3800L
 #define X_COMP_KIND_DEF_WEB_1                                  3801L
+#define X_COMP_KIND_DEF_WEB_2                                  3802L
 #define X_COMP_KIND_DEF_WEB_ROUTINE                            3810L
 #define X_COMP_KIND_DEF_WEB_ROUTINE_FIELD_MAP                  3820L
 #define X_COMP_KIND_DEF_WEB_ROUTINE_LIST_MAP                   3830L
@@ -8584,6 +8593,9 @@ typedef unsigned long
       /* VERSION_TAG 1 */
       unsigned long                       ulResponseType;
       unsigned long                       ulResponseOptions;
+
+      /* VERSION_TAG 2 */
+      const unsigned char              *  pvchWebPage;
    }
       X_COMP_WEB,
       *PX_COMP_WEB,
@@ -8608,6 +8620,9 @@ typedef unsigned long
       /* VERSION_TAG 1 */
       unsigned long                       ulResponseType;
       unsigned long                       ulResponseOptions;
+
+      /* VERSION_TAG 2 */
+      const unsigned char              *  pvchWebPage;
    }
       X_COMP_WEB_FCC,
       *PX_COMP_WEB_FCC,
@@ -9151,13 +9166,14 @@ typedef unsigned long
 #define X_COMP_INTRINSIC_ID_UTF16_STRING_IS_GREGORIAN_YEARMONTH 0x0A005401L
 #define X_COMP_INTRINSIC_ID_UTF16_STRING_IS_DURATION            0x0A005501L
 
-#define X_COMP_INTRINSIC_ID_UTF16_STRING_AS_DURATION            0x0A005601L
-#define X_COMP_INTRINSIC_ID_UTF16_STRING_AS_GREGORIAN_DAY       0x0A005701L
-#define X_COMP_INTRINSIC_ID_UTF16_STRING_AS_GREGORIAN_YEAR      0x0A005801L
-#define X_COMP_INTRINSIC_ID_UTF16_STRING_AS_GREGORIAN_MONTH     0x0A005901L
-#define X_COMP_INTRINSIC_ID_UTF16_STRING_AS_GREGORIAN_MONTHDAY  0x0A005A01L
-#define X_COMP_INTRINSIC_ID_UTF16_STRING_AS_GREGORIAN_YEARMONTH 0x0A005B01L
-#define X_COMP_INTRINSIC_ID_UTF16_STRING_AS_NATIVE_STRING       0x0A005C01L
+#define X_COMP_INTRINSIC_ID_UTF16_STRING_AS_DURATION              0x0A005601L
+#define X_COMP_INTRINSIC_ID_UTF16_STRING_AS_GREGORIAN_DAY         0x0A005701L
+#define X_COMP_INTRINSIC_ID_UTF16_STRING_AS_GREGORIAN_YEAR        0x0A005801L
+#define X_COMP_INTRINSIC_ID_UTF16_STRING_AS_GREGORIAN_MONTH       0x0A005901L
+#define X_COMP_INTRINSIC_ID_UTF16_STRING_AS_GREGORIAN_MONTHDAY    0x0A005A01L
+#define X_COMP_INTRINSIC_ID_UTF16_STRING_AS_GREGORIAN_YEARMONTH   0x0A005B01L
+#define X_COMP_INTRINSIC_ID_UTF16_STRING_AS_NATIVE_STRING         0x0A005C01L
+#define X_COMP_INTRINSIC_ID_UTF16_STRING_AS_SQL_HEX_LITERAL       0x0A005D01L
 
 #define X_COMP_INTRINSIC_ID_GREGORIAN_DAY_AS_STRING            0x08005001L
 #define X_COMP_INTRINSIC_ID_GREGORIAN_DAY_AS_DATETIME          0x08005002L
@@ -10440,6 +10456,7 @@ typedef unsigned long
 #define X_COMP_OPCODE_IMP_INTRINSIC_UTF16_STRING_MAX                    0x00000549L
 #define X_COMP_OPCODE_IMP_INTRINSIC_UTF16_STRING_AS_CODE_POINT          0x0000054AL
 #define X_COMP_OPCODE_IMP_INTRINSIC_UTF16_STRING_COMPARE                0x0000054BL
+#define X_COMP_OPCODE_IMP_INTRINSIC_UTF16_STRING_AS_SQL_HEX_LITERAL     0x0000054CL
 
 #define X_COMP_OPCODE_IMP_INTRINSIC_STRING_IS_GREGORIAN_DAY             0x00000550L
 #define X_COMP_OPCODE_IMP_INTRINSIC_STRING_IS_GREGORIAN_YEAR            0x00000551L
@@ -11051,6 +11068,19 @@ typedef struct _X_COMP_PCODE_BOM_DRD_MAP
     *   PX_COMP_FCC_GET_LITERAL_INFO,
     ** PPX_COMP_FCC_GET_LITERAL_INFO;
 
+   /* TargetPlatform Values */
+
+   #define X_COMP_TARGET_PLATFORM_CLASSIC    0x00000001 
+   #define X_COMP_TARGET_PLATFORM_BROWSER    0x00000002 
+   #define X_COMP_TARGET_PLATFORM_ALL        0x00000003
+
+   typedef struct _X_COMP_FCC_TARGET_PLATFORM_INFO
+   {
+      int                                    fTargetPlatform;
+   }
+         X_COMP_FCC_TARGET_PLATFORM_INFO,
+    *   PX_COMP_FCC_TARGET_PLATFORM_INFO,
+    ** PPX_COMP_FCC_TARGET_PLATFORM_INFO;
 
    /* ================================================================= */
    /* LL2 Escaped Tokens types                                          */
@@ -11515,6 +11545,8 @@ typedef struct _X_COMP_PCODE_BOM_DRD_MAP
       FN_REGISTER_LIST_COLUMN_CALLBACK *  pfnListColumnCallback;
       FN_DICTIONARY_INFO_CALLBACK      *  pfnGetDictionaryInfoCallBack;
       FN_RECORD_XREF_DETAILS           *  pfnRecordXREFCallback;
+      int                                 fDebugBuild;
+      int                                 fGenerateForCheckIn;
    }
            X_COMP_FCC_CONTROL,
       *   PX_COMP_FCC_CONTROL,
@@ -11541,6 +11573,24 @@ typedef struct _X_COMP_PCODE_BOM_DRD_MAP
 
    LIIO_FCC_INTERFACE
       LIIO_FCC_EndBuild                   (
+         X_COMP_LPC_ANCHOR_BLOCK          *  pLPCAnchor,
+         X_COMP_FCC_CONTROL               *  pFCCControl );
+
+   /* -------------------------------------------------------------- */
+   /* LIIO_FCC_QueryGetTargetPlatform                                */
+   /* -------------------------------------------------------------- */
+
+   LIIO_FCC_INTERFACE
+      LIIO_FCC_QueryGetTargetPlatform     (
+         X_COMP_LPC_ANCHOR_BLOCK          *  pLPCAnchor,
+         PX_COMP_FCC_TARGET_PLATFORM_INFO    pTargetPlatformInfo );
+
+   /* -------------------------------------------------------------- */
+   /* LIIO_FCC_GenerateWebDefinitions                                */
+   /* -------------------------------------------------------------- */
+
+   LIIO_FCC_INTERFACE
+      LIIO_FCC_GenerateWebDefinitions     (
          X_COMP_LPC_ANCHOR_BLOCK          *  pLPCAnchor,
          X_COMP_FCC_CONTROL               *  pFCCControl );
 

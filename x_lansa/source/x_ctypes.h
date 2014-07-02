@@ -28,7 +28,9 @@
 
 #if defined(X_OPERATING_SYSTEM_WIN)
 #ifndef _WINDOWS_
+#ifndef WIN32_LEAN_AND_MEAN
 #define WIN32_LEAN_AND_MEAN
+#endif
 // Macros min() and max() should be from x_cutil.h
 #ifndef NOMINMAX
 #define NOMINMAX

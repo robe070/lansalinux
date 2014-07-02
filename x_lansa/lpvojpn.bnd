@@ -22,9 +22,7 @@ GraphTitleX=X À²ÄÙ
 GraphTitleY=Y À²ÄÙ
 Directories=ÃŞ¨Ú¸ÄØ
 InvalidGraphType=–³Œø‚È¸Ş×Ì À²Ìß (—á:‰~¸Ş×Ì)
-*** @TRANS ADD
-Graph.Unsupported=No graph support
-*** @TRANS END
+Graph.Unsupported=ƒOƒ‰ƒt ƒTƒ|[ƒg‚È‚µ
 
 Status.Memo.ReplaceAll=&1 ŒÂ‚Ì &2 ‚ğ’uŠ·‚µ‚Ü‚µ‚½B
 
@@ -113,6 +111,10 @@ Exception.TileITableItemNotSupported=À²Ù€–Ú‚Í PRIM_TILE.ITileItem ²İÀ°Ìª²½‚ğ»Îß
 Exception.TileITableItemNotSupported.Id=14
 Exception.TileNameNotFound=ºİÎß°ÈİÄ &1 ‚ªŒ©‚Â‚©‚è‚Ü‚¹‚ñB
 Exception.TileNameNotFound.Id=15
+*** @TRANS NEW
+Exception.DropDownDesignInterfaceNotSupported.Id=19
+Exception.DropDownDesignInterfaceNotSupported=DropDown design does not support the PRIM_DROP.IDropDownDesign interface
+*** @TRANS END
 
 ********************************************************************
 *** Tab Specific Strings		  **********************************
@@ -146,6 +148,9 @@ Udc.Tree.DesignRequired=PRIM_TREE‚ÍAºİÃİÂ‚ÉPRIM_TREE.ITreeDesign‚ğ“±“ü‚·‚éÄ—˜—
 Udc.Book.DesignRequired=PRIM_BOOK‚ÍAºİÃİÂ‚ÉPRIM_BOOK.IBookDesign‚ğ“±“ü‚·‚éÄ—˜—p‰Â”\Êß°Â‚ª•K—v‚Å‚·B
 Udc.Tile.DesignRequired=PRIM_TILE‚ÍAºİÃİÂ‚ÉPRIM_TILE.ITileDesign‚ğ“±“ü‚·‚éÄ—˜—p‰Â”\Êß°Â‚ª•K—v‚Å‚·B
 Udc.Dashboard.DesignRequired=PRIM_DASH‚ÍAºİÃİÂ‚ÉPRIM_DASH.IDashboardDesign‚ğ“±“ü‚·‚éÄ—˜—p‰Â”\Êß°Â‚ª•K—v‚Å‚·B
+*** @TRANS NEW
+Udc.DropDown.DesignRequired=PRIM_DROP requires a Reusable Part implementing PRIM_DROP.IDropDesign for its content
+*** @TRANS END
 
 ********************************************************************
 *** Ribbon Strings               ***********************************

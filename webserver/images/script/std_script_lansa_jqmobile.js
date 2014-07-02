@@ -1,9 +1,9 @@
 ﻿/*!
-	(c) 2012, 2013 LANSA
+	(c) 2012, 2014 LANSA
 	jQuery Mobile Standard Scripts
 	$Workfile:: std_script_lansa_jqmobile.js $
-	$UTCDate:: 2013-10-28 22:17:02Z          $
-	$Revision:: 48                           $
+	$UTCDate:: 2014-03-24 23:22:34Z          $
+	$Revision:: 61                           $
 */
 
 /**
@@ -12,40 +12,40 @@
  * Released under MIT license.
  */
 (function (Date, undefined) {
-    var origParse = Date.parse, numericKeys = [ 1, 4, 5, 6, 7, 10, 11 ];
-    Date.parse = function (date) {
-        var timestamp, struct, minutesOffset = 0;
+		var origParse = Date.parse, numericKeys = [ 1, 4, 5, 6, 7, 10, 11 ];
+		Date.parse = function (date) {
+			var timestamp, struct, minutesOffset = 0;
 
-        // ES5 §15.9.4.2 states that the string should attempt to be parsed as a Date Time String Format string
-        // before falling back to any implementation-specific date parsing, so that’s what we do, even if native
-        // implementations could be faster
-        //              1 YYYY                2 MM       3 DD           4 HH    5 mm       6 ss        7 msec        8 Z 9 ±    10 tzHH    11 tzmm
-        if ((struct = /^(\d{4}|[+\-]\d{6})(?:-(\d{2})(?:-(\d{2}))?)?(?:T(\d{2}):(\d{2})(?::(\d{2})(?:\.(\d{3}))?)?(?:(Z)|([+\-])(\d{2})(?::(\d{2}))?)?)?$/.exec(date))) {
-            // avoid NaN timestamps caused by “undefined” values being passed to Date.UTC
-            for (var i = 0, k; (k = numericKeys[i]); ++i) {
-                struct[k] = +struct[k] || 0;
-            }
+			// ES5 §15.9.4.2 states that the string should attempt to be parsed as a Date Time String Format string
+			// before falling back to any implementation-specific date parsing, so that’s what we do, even if native
+			// implementations could be faster
+			//              1 YYYY                2 MM       3 DD           4 HH    5 mm       6 ss        7 msec        8 Z 9 ±    10 tzHH    11 tzmm
+			if ((struct = /^(\d{4}|[+\-]\d{6})(?:-(\d{2})(?:-(\d{2}))?)?(?:T(\d{2}):(\d{2})(?::(\d{2})(?:\.(\d{3}))?)?(?:(Z)|([+\-])(\d{2})(?::(\d{2}))?)?)?$/.exec(date))) {
+				// avoid NaN timestamps caused by “undefined” values being passed to Date.UTC
+				for (var i = 0, k; (k = numericKeys[i]); ++i) {
+						struct[k] = +struct[k] || 0;
+				}
 
-            // allow undefined days and months
-            struct[2] = (+struct[2] || 1) - 1;
-            struct[3] = +struct[3] || 1;
+				// allow undefined days and months
+				struct[2] = (+struct[2] || 1) - 1;
+				struct[3] = +struct[3] || 1;
 
-            if (struct[8] !== 'Z' && struct[9] !== undefined) {
-                minutesOffset = struct[10] * 60 + struct[11];
+				if (struct[8] !== 'Z' && struct[9] !== undefined) {
+						minutesOffset = struct[10] * 60 + struct[11];
 
-                if (struct[9] === '+') {
-                    minutesOffset = 0 - minutesOffset;
-                }
-            }
+						if (struct[9] === '+') {
+							minutesOffset = 0 - minutesOffset;
+						}
+				}
 
-            timestamp = Date.UTC(struct[1], struct[2], struct[3], struct[4], struct[5] + minutesOffset, struct[6], struct[7]);
-        }
-        else {
-            timestamp = origParse ? origParse(date) : NaN;
-        }
+				timestamp = Date.UTC(struct[1], struct[2], struct[3], struct[4], struct[5] + minutesOffset, struct[6], struct[7]);
+			}
+			else {
+				timestamp = origParse ? origParse(date) : NaN;
+			}
 
-        return timestamp;
-    };
+			return timestamp;
+	};
 }(Date));
 
 /**
@@ -78,7 +78,6 @@ String.prototype.zeropad = function(len) { return this.lpad(len, "0"); }
  */
 Number.prototype.zeropad = function(len) { return this.toString().zeropad(len); }
 
-
 //////////////////////////////////////////////////////////////////////////////////////////
 //
 // Initialise Lstd namespace
@@ -94,6 +93,7 @@ Lstd = window.Lstd || {};
  */
 Lstd.bootstrap = function() {
 	jQuery(document).ready(function() {Lstd.init();});
+	jQuery(document).on("pagecreate", "body", function() {Lstd.pageinit();});
 }
 
 /**
@@ -102,7 +102,7 @@ Lstd.bootstrap = function() {
  */
 Lstd.init = function() {
 	Lstd.I18n.init();
-	
+			
 	this.Weblets.initAll();
 	
 	$(document).on("vmouseup", "a.lstd_anchor", Lstd.Weblets.stdAnchor.prepareURL);
@@ -133,9 +133,9 @@ Lstd.init = function() {
 		var extraFields = $t.data("lansaextrafields");
 		
 		if (extraFields) {
-			 Lstd.Fields.insertExtraFields($f[0], extraFields, $t.data("lansaxmlcolumnid"))
+			Lstd.Fields.insertExtraFields($f[0], extraFields, $t.data("lansaxmlcolumnid"))
 		}
-		
+
 		if (action) {
 			oldAction = $f.attr("action") || "";
 			$f.attr("action", action);
@@ -177,7 +177,7 @@ Lstd.init = function() {
 	$("body").bind("pagechange", function(e, data) {
 		Lstd.Weblets.initAll();
 	});
-	
+
 	$("body").bind("pagebeforechange", function(e) {
 		// This event gets fired multiple times before pagechange. we only want to do this the first time as
 		// new weblets may be registered in between.
@@ -186,7 +186,7 @@ Lstd.init = function() {
 			Lstd.Lists = {};
 		}
 	});
-	
+
 	// Set up validation handling
 	$("body").on("submit", "form", function(e) {
 		var errFound = false, $this = $(this), form = this;
@@ -216,10 +216,8 @@ Lstd.init = function() {
 		$("#" + e.target.id + "_error").addClass("visited");
 	});
 	
-	$("body").bind("pageload", function(e, data) {
-		pageLoadXhr = data.xhr;
-
-		var html = data.xhr.responseText, match, found, newEl,
+	$("body").bind("pagecontainerload", function(e, ui) {
+		var html = ui.xhr.responseText, match, found, newEl,
 		currentLinks = $("link[type='text/css']"), l=currentLinks.length,
 		linkRegex = /<link rel="stylesheet" type="text\/css" href="([^"'>]*)" charset="([^"'>]*)"[^>]*>/g;
 		
@@ -244,8 +242,7 @@ Lstd.init = function() {
 			}
 		}
 	});
-	
-	
+
 	document.addEventListener("invalid", function(e) {
 		var $form = $(e.srcElement.form);
 		if (!Lstd.Validator.isLstdValidation) {
@@ -270,6 +267,34 @@ Lstd.init = function() {
 			return false;
 		}
 	}, true);
+}
+
+/**
+ * Initialize the page
+ * @private
+ */
+Lstd.pageinit = function() {
+
+	// Input type="number"
+	var sep = Lstd.wrContext["dec-separator"];
+
+	jQuery("input[type='number']").each(function() {
+		var $this = jQuery(this);
+		if (sep) {
+			var fv = $this.data("lstdformattedvalue");
+			if (typeof fv === "number") fv = fv.toString();
+			if (fv) $this.val(fv.replace(sep == "." ? /\,/g : /\./g, ""));
+		}
+	});
+
+	// Lazy load images
+	if (jQuery.fn.lazyload) {
+		jQuery("img.std_lazy").lazyload({effect: "fadeIn", event: "scrollstop"});
+	}
+
+	// Autocomplete weblets
+	jQuery("div.lstd-autocomplete-wrap").each(Lstd.Weblets.stdAutocomplete.init);
+	Lstd.Weblets.stdAutocomplete.cache = {}; // Rset cache
 }
 
 Lstd.Validator = {
@@ -347,7 +372,7 @@ Lstd.Validator = {
 		if( valueStr.length <= 0 ) return "";
 		if (valueStr.match(/^[+-]?\d*$/) == null)
 		{
-		    return Lstd.I18n.getString("BadInt");
+			return Lstd.I18n.getString("BadInt");
 		}
 		
 		if (size < 7) {
@@ -436,18 +461,21 @@ Lstd.Validator = {
 		}
 		return "";
 	}
-
 }
 
 Lstd.I18n = {
+	_done: false,
 	_strings: {},
 	_arrays: {},
 	init: function() {
-		var path = "/script/i18n/lansa_jqmobile/std_messages-%1.json";
-		// Always load "en"
-		this.lang = this.getI18nStrings(path, null, "en") || "en";
-		if (Lstd.wrContext["language-iso"] != "en") {
-			this.lang = this.getI18nStrings(path) || "en";
+		if (!Lstd.I18n._done) {
+			var path = "/script/i18n/lansa_jqmobile/std_messages-%1.json";
+			// Always load "en"
+			this.lang = this.getI18nStrings(path, null, "en") || "en";
+			if (Lstd.wrContext["language-iso"] != "en") {
+				this.lang = this.getI18nStrings(path) || "en";
+			}
+			Lstd.I18n._done = true;
 		}
 	},
 	/**
@@ -521,7 +549,6 @@ Lstd.I18n = {
 	
 };
 
-
 /**
  * @namespace
  * Contains assorted utilities
@@ -561,6 +588,12 @@ Lstd.Utils = {
 	 */
 	escapeForJQSelector: function(str) {
 		return str.replace(/([$:.])/g,'\\$1');
+	},
+	/**
+	 * Escapes characters that have special meaning when used in jQuery selector expressions.
+	 */
+	doubleEscapeForJQSelector: function(str) {
+		return str.replace(/([$:.])/g,'\\\\$1');
 	},
 	/**
 	 * Adds the options passed as arguments to weblets to the options map of jQuery widgets.
@@ -617,6 +650,14 @@ Lstd.Utils = {
 	 */
 	escapeRegex: function(expr) {
 		return expr.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&");
+	},
+	/**
+	 * Escapes quotes in attribute values
+	 * @param [string] The attribute value
+	 * @returns [string] The attribute value with quotes escaped
+	 */
+	escapeAttribute: function(val) {
+		return val.replace(/"/g, "&quot;");
 	},
 	/**
 	 * Returns the object's property name at a given index position
@@ -933,11 +974,6 @@ Lstd.Weblets = {
 			}
 		}
 		this.initDone = true;
-
-		// Lazy load images
-		if ($.fn.lazyload) {
-			$("img.std_lazy").lazyload({effect: "fadeIn"});
-		}
 	},
 	destroyAll: function() {
 		var w, wn, weblets = this._weblets;
@@ -1201,7 +1237,8 @@ Lstd.HTTP = {
 				retVal.document = doc;
 				var f = doc.forms[theForm];
 				if (f == null) {
-					f = createNamedElement(doc, 'form', theForm);
+					f = doc.createElement("form");
+					f.name = theForm;
 					f.style.display = "none";
 					f.setAttribute("method", "POST");
 					formCreated = true;
@@ -1286,6 +1323,52 @@ Lstd.HTTP = {
 				console.error("JSON response: " + s);
 			}
 		});
+	}
+};
+
+/**
+ * Weblet Utilities
+ */
+
+Lstd.Weblets.Utils = {
+
+	/**
+	 * Loads the i18n JavaScript file. If the qualified language code file.
+	 *	If not found it loads the base language file.
+	 * @param {string} jsfile The partial JS file path (Exclude the images path)
+	 * @param {function} charsetCB An optional callback function that returns the charset to use for the script file. If not provided, charset defaults to "utf-8".
+	 * @return {string} ISO language code for regional JS file loaded. If none loaded, it returns "".
+	 */
+	getI18nScript: function(jsfile, charsetCB) {
+		var regionalJS = Lstd.wrContext["images-path"] + jsfile,
+			lxmlISOLang = Lstd.wrContext["language-iso"],
+			retLang = lxmlISOLang;
+
+		jQuery.ajax({type: "GET",
+			async: false,
+			dataType: "script",
+			url: regionalJS + lxmlISOLang + ".js",
+			error: function() {
+				var baseLang = Lstd.I18n.baseISOLang(lxmlISOLang);
+				if (baseLang != lxmlISOLang) {
+					retLang = baseLang;
+					jQuery.ajax({type: "GET",
+						async: false,
+						dataType: "script",
+						url: regionalJS + baseLang + ".js",
+						error: function() {
+							retLang = "";
+						},
+						scriptCharset: (typeof charsetCB == "function") ? charsetCB(baseLang) : "utf-8"
+					});
+				}
+				else {
+					retLang = "";
+				}
+			},
+			scriptCharset: (typeof charsetCB == "function") ? charsetCB(lxmlISOLang) : "utf-8"
+		});
+		return retLang;
 	}
 };
 
@@ -1457,10 +1540,15 @@ Lstd.Weblets.stdMobiscroll =
 		}
 		data.lstdMasterID = id;
 		data.lstdProxyID = "__" + id + "_PROXY";
-		data.dateFormat = data.dateFormat || this._dateFormat;
-		data.timeFormat = data.timeFormat || this._timeFormat;
-		data.dateOrder = data.dateOrder || this._dateOrder;
-		data.timeWheels = data.timeWheels || this._timeWheels;
+		var i18nDft = jQuery.mobiscroll.i18n[this._lang];
+
+		if (i18nDft) {
+			data.dateFormat = data.dateFormat || i18nDft.dateFormat;
+			data.timeFormat = data.timeFormat || i18nDft.timeFormat;
+			data.dateOrder = data.dateOrder || i18nDft.dateOrder;
+			data.timeWheels = data.timeWheels || i18nDft.timeWheels;
+		}
+
 		data.stepHour = data.stepHour || 1;
 		data.stepMinute = data.stepMinute || 1;
 		data.stepSecond = data.stepSecond || 1;
@@ -1490,26 +1578,18 @@ Lstd.Weblets.stdMobiscroll =
 		jQuery(Lstd.Utils.makeSafeId("__" + id + "_PROXY")).scroller("hide").scroller("destroy");
 	},
 	setDefaults: function() {
-		var i18n = Lstd.I18n;
+		if (Lstd.wrContext["language-iso"] != "en") {
+			this._lang = Lstd.Weblets.Utils.getI18nScript("/mobiscroll/" + jQuery.mobiscroll.version + "/js/i18n/mobiscroll.i18n.");
+			if (this._lang == "") this._lang = "en";
+		}
+		else {
+			this._lang = "en";
+		}
+
 		jQuery.scroller.setDefaults({
-			cancelText: i18n.getString("mobiscroll-cancelText"),
-			setText: i18n.getString("mobiscroll-setText"),
-			dayText: i18n.getString("mobiscroll-dayText"),
-			monthText: i18n.getString("mobiscroll-monthText"),
-			yearText: i18n.getString("mobiscroll-yearText"),
-			hourText: i18n.getString("mobiscroll-hourText"),
-			minuteText: i18n.getString("mobiscroll-minuteText"),
-			secText: i18n.getString("mobiscroll-secText"),
-			monthNames: i18n.getArray("MonthsLong"),
-			monthNamesShort: i18n.getArray("MonthsShort"),
-			dayNames: i18n.getArray("DaysOfWeekSundayStartLong"),
-			dayNamesShort: i18n.getArray("DaysOfWeekSundayStartShort"),
+			lang: this._lang,
 			onSelect: this.onSelect
 		});
-		this._dateFormat = i18n.getString("mobiscroll-dateFormat");
-		this._timeFormat = i18n.getString("mobiscroll-timeFormat");
-		this._dateOrder = i18n.getString("mobiscroll-dateOrder");
-		this._timeWheels = i18n.getString("mobiscroll-timeWheels");
 		this._defaultsSet = true;
 	},
 	getServerFormat: function($masterField) {
@@ -1530,7 +1610,7 @@ Lstd.Weblets.stdMobiscroll =
 	onSelect: function(valueText, inst) {
 		var $masterField = jQuery(Lstd.Utils.makeSafeId(inst.settings.lstdMasterID))
 		
-		$masterField.val(jQuery.scroller.formatDate(Lstd.Weblets.stdMobiscroll.getServerFormat($masterField),  inst.getDate(inst.values)));
+		$masterField.val(jQuery.scroller.formatDate(Lstd.Weblets.stdMobiscroll.getServerFormat($masterField), inst.getDate(inst.values)));
 	}
 };
 
@@ -1582,7 +1662,6 @@ Lstd.Weblets.stdProgressBar = {
 			 */
 			this.percentage = function(val) {
 				var pct = parseInt((val/maxVal * 100), 10);
-				console.log("value: " + pct); //FIXME
 				if (pct > 100) pct = 100;
 				var pcts = (pct < 100) ? pct + "%" : (captionText != null) ? captionText : this.getDefaultCaption();
 				$pbc.css("width", pct + "%");
@@ -1702,5 +1781,160 @@ Lstd.Weblets.stdLoader = {
 
 	stop: function() {
 		jQuery.mobile.loading("hide");
+	}
+};
+
+Lstd.Weblets.stdAutocomplete = {
+	/**
+	 * Init
+	 * Initializes the autocomplete. Adds event handler to put the selected item into the field value
+	 */
+	init : function() {
+		var $this = jQuery(this),
+			id = $this.data("lstd-autocomplete-id"),
+			$elem = jQuery(Lstd.Utils.makeSafeId(id)),
+			$ul = jQuery(Lstd.Utils.makeSafeId("__" + id + "_LISTVIEW")),
+			$filter = jQuery(Lstd.Utils.makeSafeId("__" + id + "_FILTER")),
+			sourceWamName = $elem.data("lansawam"),
+			sourceWrName = $elem.data("lansawr"),
+			listname = $elem.data("lstd-listname"),
+			termField = $elem.data("lstd-termfield"),
+			labelField = $elem.data("lstd-labelfield"),
+			valueField = $elem.data("lstd-valuefield"),
+			minLength = $elem.data("lstd-minlength"),
+			itemsTheme = $elem.data("lstd-items-theme"),
+			extraFields = $elem.data("lansaextrafields"),
+			lansaxmlcolumnid = $elem.data("lansaxmlcolumnid"),
+			liTag = itemsTheme ? "<li data-theme=\"" + itemsTheme + "\"" : "<li",
+			useCache = $elem.data("lstd-cache"),
+			cache = null;
+
+		if (useCache) {
+			var subCacheId = Lstd.Weblets.stdAutocomplete.getSubCacheId(id);
+			if (!Lstd.Weblets.stdAutocomplete.cache[subCacheId]) Lstd.Weblets.stdAutocomplete.cache[subCacheId] = {};
+			cache = Lstd.Weblets.stdAutocomplete.cache[subCacheId];
+		}
+
+		$ul.on("click", "li", function() {
+			var $selected = jQuery(this), selText = $selected.text();
+			$filter.val(selText);
+			$elem.val(labelField ? $selected.data("lstd-value") : selText);
+			$ul.html("");
+			$ul.listview("refresh");
+		});
+
+		$ul.on("filterablebeforefilter", function (e, data) {
+			var $input = jQuery(data.input),
+				value = $input.val(),
+				html = "",
+				valueLen = (value ? value.length : 0),
+				request = null,
+				listArr = null;
+
+			if (valueLen < minLength) {
+				$ul.html("");
+			}
+			else if (valueLen == minLength) {
+
+				if (useCache) {
+					if (cache[value]) {
+						listArr = cache[value];
+					}
+				}
+
+				if (listArr == null) {
+					$ul.html("<li><div class='ui-loader'><span class='ui-icon ui-icon-loading'></span></div></li>");
+					$ul.listview("refresh");
+
+					request = new Lstd.HTTP.Request();
+					request.wam = sourceWamName;
+					request.webroutine = sourceWrName;
+					var term = {};
+					term[termField] = value;
+					request.addFields(term);
+
+					if (extraFields) {
+						var wrFields = Lstd.Fields.resolveExtraFields(extraFields, lansaxmlcolumnid);
+						request.addFields(wrFields);
+					}
+
+					Lstd.HTTP.getWebroutine(request, function(wr) {
+						try {
+							var list = wr.list(listname),
+								headers = list.headers(),
+								valueIx = headers.indexOf(valueField),
+								labelIx = labelField ? headers.indexOf(labelField): -1;
+
+							listArr = [];
+							list.entries().rawEach(function(i, entry) {
+								var item = [];
+
+								if (labelIx >= 0) {
+									item.push(Lstd.Utils.escapeAttribute(entry[valueIx]));
+									item.push(entry[labelIx]);
+								}
+								else {
+									item.push(entry[valueIx]);
+								}
+								listArr.push(item);
+							});
+
+							if (useCache) {
+								cache[value] = listArr;
+							}
+
+							Lstd.Weblets.stdAutocomplete.fillListItems($ul, labelField, liTag, listArr);
+						}
+						catch (e) {
+							console.error("Lstd.HTTP.getWebroutine callback: " + e);
+						}
+					});
+				}
+				else {
+					Lstd.Weblets.stdAutocomplete.fillListItems($ul, labelField, liTag, listArr);
+				}
+			}
+		});
+	},
+	/**
+	 * Cache
+	 * Stores the terms as they get returned from the server. There is a cache for each field.
+	 * For lists, a cache is created for with and id of LISTNAME.COLUMNNAME
+	 */
+	cache: {},
+
+	/**
+	 * Gets the subCache Id. The subCache Id is the same as the id for fields. For list columns
+	 * the subCache Id is the LISTNAME.COLUMNNAME.
+	 * @param [string] Field/column Id
+	 * @return subCache Id
+	 */
+	getSubCacheId: function(id) {
+		// Test is not strict. Just looking for List row column pattern
+		var reg = id.match(/(^[A-Za-z].*)\.(\d{4})\.([A-Za-z].*)/);
+		return reg ? (reg[1] + "." + reg[3]) : id;
+	},
+	/**
+	 * Fills the list items for the filterable widget
+	 * @param [jQuery selector] The jQuery object for the <ul>
+	 * @param [string] The column name for the label field
+	 * @param [string] Opening <li ... tag
+	 * @param [array] The list entries
+	 */
+	fillListItems: function($ul, labelField, liTag, listArr) {
+		var html = "";
+		if (labelField) {
+			for (var i = 0; i < listArr.length; i++) {
+				html += liTag + " data-lstd-value=\"" + listArr[i][0] + "\">" + listArr[i][1] + "</li>";
+			}
+		}
+		else {
+			for (var i = 0; i < listArr.length; i++) {
+				html += liTag + ">" + listArr[i][0] + "</li>";
+			}
+		}
+		$ul.html(html);
+		$ul.listview("refresh");
+		$ul.trigger("updatelayout");
 	}
 };

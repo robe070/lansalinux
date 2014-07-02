@@ -12,23 +12,15 @@
 		"BadDBCS_SBCSNotAllowed": "Alleen DBCS letters zijn toegestaan in dit veld. Het bevat %1 SBCS letters.",
 		"BadDBCS_DBCSNotAllowed": "Alleen SBCS letters zijn toegestaan in dit veld. Het bevat %1 DBCS letters.",
 		"BadDBCS_BothNotAllowed": "Een combinatie van DBCS en SBCS letters is niet toegestaan in dit veld. Het bevat %1 SBCS en %2 DBCS letters.",
-		"mobiscroll-cancelText": "Annuleer",
-		"mobiscroll-setText": "Kies",
-		"mobiscroll-dayText": "Dag",
-		"mobiscroll-monthText": "Maand",
-		"mobiscroll-yearText": "Jaar",
-		"mobiscroll-hourText": "Uren",
-		"mobiscroll-minuteText": "Minuten",
-		"mobiscroll-secText": "Seconden",
-		"mobiscroll-dateFormat": "dd-mm-yy",
-		"mobiscroll-timeFormat": "hh:ii A",
-		"mobiscroll-dateOrder": "MMdyy",
-      "mobiscroll-timeWheels": "hhiiA"
+      "Complete": "Voltooid",
+		"InProgress": "Even geduld ...",
+      "SelectFiles": "Selecteer bestanden",
+      "Upload": "Upload",
+      "Abort": "Afbreken",
+      "OnlyOneFile": "Slechts 1 bestand toegestaan.",
+      "TooManyFiles": "Maximaal %1 bestanden toegestaan.",
+      "MaxFileSize": "Maximale bestandsgrootte is %1 Mb. Bestand \"%2\" is niet toegestaan."
 	},
 	"arrays": {
-		"DaysOfWeekSundayStartShort": ["Zo", "Ma", "Di", "Wo", "Do", "Vr", "Za"],
-		"DaysOfWeekSundayStartLong": ["Zondag", "Maandag", "Dinsdag", "Woensdag", "Donderdag", "Vrijdag", "Zaterdag"],
-		"MonthsShort": ["Jan", "Feb", "Maa", "Apr", "Mei", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dec"],
-		"MonthsLong": ["Januari", "Februari", "Maart", "April", "Mei", "Juni", "Juli", "Augustus", "September", "Oktober", "November", "December"]
 	}
 }

@@ -22,7 +22,15 @@
 		"NoXMLHttpRequest": "XMLHttpRequest non supporté par ce navigateur.",
 		"Processing1": "En cours",
 		"Done1": "Terminé",
-		"Messages": "Messages:"
+		"Messages": "Messages:",
+		"InProgress": "En cours ...",
+		"Complete": "Effectué",
+		"SelectFiles": "Choisir les fichiers",
+		"Upload": "Charger",
+		"Abort": "Abandonner",
+		"OnlyOneFile": "1 seul fichier autorisé.",
+		"TooManyFiles": "%1 fichiers autorisés au maximum.",
+		"MaxFileSize": "Taille de fichier maximum %1 Mo. Fichier \"%2\" non autorisé."
 	},
 	"arrays": {
 		"DaysOfWeek": ["Lun", "Mar", "Mer", "Jeu", "Ven", "Sam", "Dim"],

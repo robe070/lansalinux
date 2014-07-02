@@ -396,7 +396,7 @@ Status.MigrationPrepare=既存のｿｰｽを分析し形式を再設定しています
 Status.Debug.CannotFindSource=ﾃﾞﾊﾞｯｸﾞのｿｰｽが見つかりません ( ﾌﾟﾛｾｽ= &1、ﾌｧﾝｸｼｮﾝ = &2 )
 
 Message.Initializing=LANSAｴﾃﾞｨﾀｰを初期化しています。お待ちください....
-Message.Loading=&1 &2をﾛｰﾄﾞしています。お待ち下さい。
+Message.Loading=&1 &2 をﾛｰﾄﾞしています。お待ち下さい。
 Message.CollapsedItems=&1 項目縮小されています： &2
 
 *************************************************************
@@ -525,6 +525,9 @@ Assistant.Instrument.Classes=ｸﾗｽ
 Assistant.Instrument.FieldsInFile=ﾌｧｲﾙのﾌｨｰﾙﾄﾞ
 Assistant.Instrument.Fields=ﾌｨｰﾙﾄﾞ
 Assistant.Instrument.Forms=ﾌｫｰﾑ
+*** @TRANS ADD
+Assistant.Instrument.WebPages=Web Pages
+*** @TRANS END
 Assistant.Instrument.ReusableParts=再利用可能ﾊﾟｰﾂ
 Assistant.Instrument.BusinessObject=ﾋﾞｼﾞﾈｽ ｵﾌﾞｼﾞｪｸﾄ
 Assistant.Instrument.ActiveX=ActiveX
@@ -1012,6 +1015,8 @@ MsgBox.LanguageChangedTitle=言語が変更されました
 MsgBox.RepObjectInvalidForSave=&1 ｴﾗｰが含まれているため、この状況では保管することができません。
 MsgBox.Caption.RepObjectInvalidForSave=保管 &1
 
+MsgBox.FailedToWriteToFile=ファイルにアクセスできませんでした。
+
 *************************************************************
 *** SPEED BUTTON HINTS                                  *****
 *************************************************************
@@ -1195,11 +1200,7 @@ FormatOptions.Page.Function.Caption=ﾌｧﾝｸｼｮﾝの形式設定
 FormatOptions.Page.Component.Caption=ｺﾝﾎﾟｰﾈﾝﾄの形式設定
 FormatOptions.Item.General.Caption=一般
 FormatOptions.Item.Source.Caption=ｿｰｽ ｴﾃﾞｨﾀ
-*** @TRANS CHANGED
 FormatOptions.Item.Xsl.Caption=Web
-*** @TRANS OLD
-*** FormatOptions.Item.Xsl.Caption=WAM
-*** @TRANS END
 FormatOptions.Item.Debug.Caption=ﾃﾞﾊﾞｯｸﾞ
 FormatOptions.Item.Compile.Caption=ｺﾝﾊﾟｲﾙ
 FormatOptions.Item.Style.Caption=ｽﾀｲﾙ
@@ -1213,6 +1214,8 @@ FormatOptions.Item.Outline.Caption=ｱｳﾄﾗｲﾝ
 FormatOptions.Item.ShowInternalFiles=内部ﾌｧｲﾙの表示
 FormatOptions.Item.ShowReadOnlyMsg=読み取り専用ﾒｯｾｰｼﾞの表示
 FormatOptions.Item.UseIdentifierAsDisplayName=ｼｮｰﾄﾈｰﾑの表示
+FormatOptions.Item.ObjectNames=オブジェクト名
+FormatOptions.Item.SuggestMatchingIdentifier=DLL 名に一致する識別子候補を表示
 FormatOptions.Item.InteractiveVerification=対話型認証を使用
 FormatOptions.Item.ObjectLocking=オブジェクトのロック
 FormatOptions.Item.ObjectLocking.On=オン
@@ -1256,6 +1259,11 @@ FormatOptions.Item.WordWrapNone=なし
 FormatOptions.Item.WordWrapSimple=ｼﾝﾌﾟﾙ
 FormatOptions.Item.WordWrapSmart=ｽﾏｰﾄ
 FormatOptions.Item.WordWrapAllParams=全て開く
+*** @TRANS ADD
+FormatOptions.Item.RenderType=Target Render Type
+FormatOptions.Item.RenderTypeWin32=Win32 (W)
+FormatOptions.Item.RenderTypeDirectX=DirectX (X)
+*** @TRANS END
 FormatOptions.Item.Feature.Show=機能
 FormatOptions.Item.Feature.ShowSpecific=特定機能の表示
 FormatOptions.Item.Feature.ShowAdvanced=拡張機能の表示
@@ -1298,6 +1306,12 @@ FormatOptions.Item.Versioning.Trademark.Caption=商標
 FormatOptions.Item.Versioning.FileVersion.Caption=ﾌｧｲﾙ ﾊﾞｰｼﾞｮﾝ
 FormatOptions.Item.Versioning.ProductName.Caption=製品名
 FormatOptions.Item.Versioning.ProductVersion.Caption=製品ﾊﾞｰｼﾞｮﾝ
+*** @TRANS ADD
+FormatOptions.Item.Compile.Target.Caption=Compile Target
+FormatOptions.Item.Compile.Target.32Bit=32 Bit
+FormatOptions.Item.Compile.Target.64Bit=64 Bit
+FormatOptions.Item.Compile.Target.Both=32 and 64 Bit
+*** @TRANS END
 
 FormatOptions.Xsl.General.Caption=一般
 FormatOptions.Xsl.Design.Caption=ﾃﾞｻﾞｲﾝ
@@ -1336,9 +1350,7 @@ FormatOptions.Xsl.Design.MappedImagesFolder.FolderBrowse.Caption=ﾏｯﾋﾟﾝｸﾞされてい
 FormatOptions.Xsl.OpenWebViews.Caption=ﾃﾞｻﾞｲﾝの時にWebﾋﾞｭｰを開く
 FormatOptions.Xsl.ShowInlineWeblets.Caption=ｲﾝﾗｲﾝ ｳｪﾌﾞﾚｯﾄの表示
 FormatOptions.Xsl.ShowDeprecatedWeblets.Caption=旧ﾊﾞｰｼﾞｮﾝ ｳｪﾌﾞﾚｯﾄの表示
-*** @TRANS NEW
-FormatOptions.Xsl.ShowWebComponents.Caption=Show Web Components
-*** @TRANS END
+FormatOptions.Xsl.ShowWebComponents.Caption=Web コンポーネントの表示
 FormatOptions.Xsl.ShowWebletXML.Caption=ｳｪﾌﾞﾚｯﾄ XMLの表示
 FormatOptions.Xsl.DeleteOrphans.Caption=Web ｱﾌﾟﾘｹｰｼｮﾝ ﾓｼﾞｭｰﾙを閉じる時にｵｰﾌｧﾝ Webroutineのﾃﾞｻﾞｲﾝを削除
 FormatOptions.Xsl.SaveWebSampleData.Caption=Webroutineのﾌｨｰﾙﾄﾞとﾘｽﾄのｻﾝﾌﾟﾙﾃﾞｰﾀの保存
@@ -1508,6 +1520,7 @@ RepBrowser.MenuItem.VcsExploreFolder=Windows ｴｸｽﾌﾟﾛﾗｰで表示
 RepBrowser.MenuItem.VcsWriteToWorkingFolder=作業ﾌｫﾙﾀﾞに保存
 RepBrowser.MenuItem.VcsPopulateWorkingFolder=作業ﾌｫﾙﾀﾞに追加
 RepBrowser.MenuItem.DeletePartition=区画の削除
+RepBrowser.MenuItem.ExportToExcel=Excel にエクスポート
 
 RepBrowser.Open.Tip=ｺﾝﾎﾟｰﾈﾝﾄを開く
 RepBrowser.View.Tip=現在のﾋﾞｭｰを変更
@@ -1585,9 +1598,7 @@ RepBrowser.ComponentNameCOM_OWNERDesc=自分の scope を利用
 RepBrowser.ComponentNameCOM_TRUEDesc=true のﾌﾞｰﾙ値
 RepBrowser.ComponentNameCOM_FALSEDesc=false のﾌﾞｰﾙ値
 RepBrowser.ComponentNameSYS_APPLNDesc=現在のｱﾌﾟﾘｹｰｼｮﾝ
-*** @TRANS NEW
-RepBrowser.ComponentNameSYS_WEBDesc=Current Web application
-*** @TRANS END
+RepBrowser.ComponentNameSYS_WEBDesc=現在の Web アプリケーション
 RepBrowser.ComponentNameSYS_KEYBDDesc=Shift、AltとCtrl ｷｰの状態
 RepBrowser.ComponentNameSYS_MOUSEDesc=ﾏｳｽの位置
 RepBrowser.ComponentNameNULLDesc=ﾇﾙ
@@ -2101,9 +2112,7 @@ RepositoryTab.Combo.DbDiagrams=ﾃﾞｰﾀﾍﾞｰｽ ﾀﾞｲｱｸﾞﾗﾑ
 RepositoryTab.Combo.ExternalResources=外部ﾘｿｰｽ
 RepositoryTab.Combo.DotNetProxys=.NET ｺﾝﾎﾟｰﾈﾝﾄ
 RepositoryTab.Combo.WebServiceProxys=Web ｻｰﾋﾞｽ
-*** @TRANS NEW
-RepositoryTab.Combo.WebPages=Web Pages
-*** @TRANS END
+RepositoryTab.Combo.WebPages=Web ページ
 
 RepositoryTab.ObjName.NotDefined=未定義
 RepositoryTab.ObjName.File=ﾌｧｲﾙ
@@ -2130,9 +2139,7 @@ RepositoryTab.ObjName.Task=ﾀｽｸ
 RepositoryTab.ObjName.ExternalResource=外部ﾘｿｰｽ
 RepositoryTab.ObjName.DotNetProxy=.NET ｺﾝﾎﾟｰﾈﾝﾄ
 RepositoryTab.ObjName.WebServiceProxy=Web ｻｰﾋﾞｽ
-*** @TRANS ADD
-RepositoryTab.ObjName.WebPage=Web Page
-*** @TRANS END
+RepositoryTab.ObjName.WebPage=Web ページ
 *
 RepositoryTab.ColTxt.DynamicList=動的ﾘｽﾄ
 RepositoryTab.ColTxt.StaticList=静的ﾘｽﾄ
@@ -2506,6 +2513,9 @@ Web.DesignPlugIn.NotValid.Line3=2. WAM 作業ﾌｫﾙﾀﾞのｱｸｾｽ権限がない(LANSAの設定を参
 Web.DesignPlugIn.NotValid.Line4=LANSAへこの問題を報告してください
 Weblet.Design.NotAvailable=ｳｪﾌﾞﾚｯﾄはﾃｸﾉﾛｼﾞ ｻｰﾋﾞｽ &1 &2 のXSLがありません
 Web.Design.Designer.Caption=&1 ( &2 )
+*** @TRANS ADD
+Web.Menu.OpenWebPage.Caption=Open Web Page
+*** @TRANS END
 Web.Menu.GotoDesign.Caption=ﾃﾞｻﾞｲﾝを開く
 Web.Menu.GotoDesign.Caption.Tip=Webroutine &1 のXSLﾃﾞｻﾞｲﾝを開く
 Web.Menu.GenerateXsl.Caption=XSLの生成
@@ -2616,8 +2626,6 @@ Web.Diagnostics.View2.Caption=ﾃﾞｻﾞｲﾝ 診断 2
 Web.Diagnostics.Design.Caption=ﾃﾞｻﾞｲﾝ
 Web.Diagnostics.Source.Caption=ｿｰｽ
 Web.Diagnostics.Xml.Caption=XML
-Web.Ancestors.Caption=Web Ancestor ｴﾚﾒﾝﾄ
-Web.Ancestors.Caption.Tip=Web Ancestor ｴﾚﾒﾝﾄ ﾋﾞｭｰを表示します
 Web.Error.CannotLoadWeblet.Text=ｳｪﾌﾞﾚｯﾄ &1 をﾛｰﾄﾞできない
 Web.Error.CannotLoadWebletVersion.Text=ｳｪﾌﾞﾚｯﾄ &1 、ﾊﾞｰｼﾞｮﾝ &2 をﾛｰﾄﾞできない
 Web.Design.DragDrop.Table.Caption=ﾘｽﾄの作成
@@ -2640,6 +2648,14 @@ Web.Design.NewRoutine.ServiceName.Caption=ｻｰﾋﾞｽ名
 Web.Design.NewRoutine.Description.Caption=記述
 Web.Design.NewRoutine.Details.Caption=Webroutine 詳細
 Web.Design.NewRoutine.WebDetails.Caption=Web ﾍﾟｰｼﾞ ﾃﾞｻﾞｲﾝ 詳細
+*** @TRANS NEW
+Web.Design.NewRoutine.Response.Caption=Response
+Web.Design.NewRoutine.Response.None=*NONE - transfer to another webroutine
+Web.Design.NewRoutine.Response.Json=*JSON - return the data in JSON format
+Web.Design.NewRoutine.Response.Default=*DEFAULT - return a Web Page
+Web.Design.NewRoutine.Response.Program=#RESPONSE - programmatically create a response
+Web.Design.NewRoutine.NoDesignRequired=There is no Web Page associated with this response
+*** @TRANS END
 Web.Design.Dialog.NewRoutine.Tree.Column1.Caption=ﾃｸﾉﾛｼﾞ ｻｰﾋﾞｽ
 Web.Design.Dialog.NewRoutine.Tree.Column2.Caption=ﾌﾟﾛﾊﾞｲﾀﾞ
 Web.Design.Dialog.NewRoutine.Tree.Column3.Caption=XSLの生成
@@ -2746,8 +2762,8 @@ Web.HTML.Delete.Caption=削除
 Web.HTML.DeleteShallow.Caption=尞・(内容を除外)
 Web.HTML.PositionAbsolutely.Caption=ﾎﾟｼﾞｼｮﾝの固定
 Web.HTML.SizeToContent.Caption=ｻｲｽﾞ
-Web.HTML.SizeWidth.Caption=・
-Web.HTML.SizeHeight.Caption=ｂｳ
+Web.HTML.SizeWidth.Caption=幅
+Web.HTML.SizeHeight.Caption=高さ
 Web.HTML.SizeBoth.Caption=両方
 Web.HTML.BringToTop.Caption=前に移動
 Web.HTML.SendToBack.Caption=後ろに戻す
@@ -2819,9 +2835,7 @@ Web.HTML.ContentArea.Replace.Caption=ｺﾝﾃﾝﾂを置換
 Web.HTML.ContentArea.Expand.Caption=ｺﾝﾃﾝﾂを追加
 Web.HTML.ContentArea.Reset.Caption=ｺﾝﾃﾝﾂをﾘｾｯﾄ
 
-*** @TRANS NEW
-Web.HTML.WebDialog.Maintain.Caption=Maintain Web Dialogs...
-*** @TRANS END
+Web.HTML.WebDialog.Maintain.Caption=Web ダイアログの管理...
 
 Web.HTML.FieldCaption.ChangeToLabel.Caption=ﾗﾍﾞﾙ変更
 Web.HTML.FieldCaption.ChangeToDescription.Caption=記述変更
@@ -2836,11 +2850,13 @@ Web.HTML.Field.ChangeToHiddenField.Caption=非表示ﾌｨｰﾙﾄﾞに変更
 Web.HTML.Field.ChangeToDefault.Caption=省略値に変更
 
 Web.HTML.InlineWeblet.Refresh.Caption=インライン ウェブレットの更新
-Web.HTML.InlineWeblet.Properties.Caption=Properties
-Web.HTML.InlineWeblet.Properties.Element.Caption=Element...
-Web.HTML.InlineWeblet.Properties.TagTree.Caption=Tag Tree...
-Web.HTML.InlineWeblet.Properties.TagList.Caption=Tag List...
-Web.HTML.InlineWeblet.Properties.Ancestors.Caption=Ancestors...
+
+Web.HTML.Properties.Caption=Properties
+Web.HTML.Properties.Element.Caption=Element...
+Web.HTML.Properties.TagTree.Caption=Tag Tree...
+Web.HTML.Properties.TagList.Caption=Tag List...
+Web.HTML.Properties.Ancestors.Caption=Ancestors...
+
 Web.HTML.Table.Caption=ﾃｰﾌﾞﾙ
 Web.HTML.Table.CreateHeader.Caption=ﾍｯﾀﾞの作成
 Web.HTML.Table.CreateFooter.Caption=ﾌｯﾀｰの作成
@@ -2869,7 +2885,7 @@ Web.HTML.Text.Bold.Caption=太字
 Web.HTML.Text.Italic.Caption=斜体
 Web.HTML.Text.Underline.Caption=下線
 Web.HTML.Text.Subscript.Caption=下付き文字
-Web.HTML.Text.Superscript.Caption=纒tき文字
+Web.HTML.Text.Superscript.Caption=上付き文字
 Web.HTML.Text.Strong.Caption=強い強調
 Web.HTML.Text.Emphasis.Caption=強調
 
@@ -2935,9 +2951,7 @@ Web.Action.ContentArea.Reset=ｺﾝﾃﾝﾂ ｴﾘｱの再設定
 Web.Action.ChangeToHeading1=ﾍｯﾀﾞｰ 1 に変更
 Web.Action.ChangeToHeading2=ﾍｯﾀﾞｰ 2 に変更
 Web.Action.ChangeToHeading3=ﾍｯﾀﾞｰ 3 に変更
-*** @TRANS NEW
-Web.Action.WebDialog.Delete=Delete Web Dialog: &1
-*** @TRANS END
+Web.Action.WebDialog.Delete=Web ダイアログの削除: &1
 
 *************************************************************
 *** Preview View                                        *****
@@ -2989,12 +3003,10 @@ WebManageExternalResources.Name=名前
 WebManageExternalResources.FileName=ﾌｧｲﾙ名
 WebManageExternalResources.Description=記述
 WebManageExternalResources.Location=参照場所
-*** @TRANS NEW
-WebManageExternalResources.Header=Header
-WebManageExternalResources.Body.Top=Body Top
-WebManageExternalResources.Body.Bottom=Body Bottom
-WebManageExternalResources.Async=Async
-*** @TRANS END
+WebManageExternalResources.Header=ヘッダー
+WebManageExternalResources.Body.Top=本文上
+WebManageExternalResources.Body.Bottom=本文下
+WebManageExternalResources.Async=非同期
 
 *************************************************************
 *** CSS Units Dialog                                    *****
@@ -3102,6 +3114,7 @@ Editor.Home.Demos.Contents.Caption=Visual LANSAﾃﾞﾓ
 **************************************************************************
 Editor.Ribbon.Debug.Debug.KeyTip=DB
 Editor.Design.KeyTip=DS
+Editor.Style.KeyTip=DY
 Editor.Layout.KeyTip=DL
 Editor.Ribbon.AppMenu.KeyTip=F
 Editor.Ribbon.HomeSheet.KeyTip=H
@@ -3151,6 +3164,11 @@ Editor.Ribbon.Runtime.KeyTip=ZX
 **************************************************************************
 
 Editor.Form.Design.KeyTip=ZD
+Editor.DesignSize.KeyTip=ZE
+Editor.DesignFont.KeyTip=ZF
+Editor.DesignColors.KeyTip=ZG
+Editor.DesignBorder.KeyTip=ZB
+Editor.DesignCorner.KeyTip=ZC
 Editor.Layouts.Manager.KeyTip=ZL
 Editor.Styles.Attach.KeyTip=ZS
 
@@ -3181,6 +3199,7 @@ Editor.Web.Design.KeyTip=ZW
 Editor.Layouts.Attach.Item.KeyTip=ZA
 Editor.Layouts.Table.Item.KeyTip=ZT
 Editor.Layouts.Margins.KeyTip=ZM
+Editor.Layouts.Span.KeyTip=ZS
 
 Editor.Ribbon.AppMenu.Caption=ﾌｧｲﾙ
 Editor.Ribbon.HomeSheet.Caption=ﾎｰﾑ
@@ -3263,7 +3282,21 @@ Editor.Styles.AttachMouseOver.Caption=ﾏｳｽｵｰﾊﾞｰ
 Editor.Styles.AttachMouseOver.Hint=現在のｺﾝﾄﾛｰﾙのﾏｳｽｵｰﾊﾞｰ ｽﾀｲﾙ設定
 Editor.Styles.Remove.Caption=ﾌﾟﾛﾊﾟﾃｨ削除
 Editor.Styles.Remove.Hint=ｽﾀｲﾙのﾌﾟﾛﾊﾟﾃｨを省略値を継承した状態に再設定します。
-
+*** @TRANS NEW
+Editor.Styles.ColorFore.Caption=Text
+Editor.Styles.ColorFore.Hint=Foreground color for the current control
+Editor.Styles.ColorBack.Caption=Fill
+Editor.Styles.ColorBack.Hint=Background color for the current control
+Editor.Styles.ColorBorder.Caption=Border
+Editor.Styles.ColorBorder.Hint=Border color for the current control
+Editor.Styles.Color.Popup.At.Caption=At
+Editor.Styles.Color.Popup.Color.Caption=Color
+Editor.Styles.Color.Popup.Solid.Caption=Single Color
+Editor.Styles.Color.Popup.Linear.Caption=Linear Brush
+Editor.Styles.Color.Popup.Radial.Caption=Radial Brush
+Editor.Styles.Color.Popup.Opacity.Caption=Opacity
+Editor.Styles.Color.Popup.AddColor.Caption=Add Color
+*** @TRANS END
 
 Editor.Layout.Manager.Caption=マネージャ
 Editor.Layout.Manager.Hint=現在のコントロール用のレイアウト マネージャ設定
@@ -3271,7 +3304,6 @@ Editor.Layout.Item.Caption=アイテム
 Editor.Layout.Item.Hint=現在のコントロール用のレイアウト アイテム設定
 Editor.Layout.New.Caption=新規レイアウト
 Editor.Layout.New.Hint=レイアウトを作成し、現在のコントロールに添付します。
-
 
 Editor.Layouts.Attach.Item.Caption=添付項目
 Editor.Layouts.Attach.Delete.Title=削除
@@ -3294,6 +3326,9 @@ Editor.Layouts.Table.Hint=現在のｺﾝﾄﾛｰﾙのﾃｰﾌﾞﾙ ﾚｲｱｳﾄ ﾏﾈｰｼﾞｬｰを作成する。
 Editor.Layouts.Table.Title=ﾃｰﾌﾞﾙ
 Editor.Layouts.Table.Item.Caption=テーブル アイテム
 Editor.Layouts.Margins.Caption=余白
+*** @TRANS NEW
+Editor.Layouts.Span.Caption=Span
+*** @TRANS END
 Editor.Layouts.FlowDown.Title=ﾌﾛｰ縦
 Editor.Layouts.FlowDown.Hint=現在のｺﾝﾄﾛｰﾙに縦のﾌﾛｰ ﾚｲｱｳﾄ ﾏﾈｰｼﾞｬｰを作成する。
 Editor.Layouts.FlowAcross.Title=ﾌﾛｰ横
@@ -3304,7 +3339,6 @@ Editor.Layouts.SplitH.Title=ｽﾌﾟﾘｯﾄ     (横方向)
 Editor.Layouts.SplitH.Hint=現在のｺﾝﾄﾛｰﾙに横方向のｽﾌﾟﾘｯﾄ ﾚｲｱｳﾄ ﾏﾈｰｼﾞｬｰを作成する。
 Editor.Layouts.SplitV.Title=ｽﾌﾟﾘｯﾄ     (縦方向)
 Editor.Layouts.SplitV.Hint=現在のｺﾝﾄﾛｰﾙに縦方向のｽﾌﾟﾘｯﾄ ﾚｲｱｳﾄ ﾏﾈｰｼﾞｬｰを作成する。
-
 Editor.Layouts.Table.Row.Caption=行
 Editor.Layouts.Table.Col.Caption=列
 Editor.Layouts.Table.Sizing.None.Name=なし
@@ -3356,25 +3390,30 @@ Editor.Layouts.Table.Rows.Caption=行
 Editor.Layouts.Table.Cols.Caption=列
 Editor.Layouts.Table.Delete.Hint=レイアウトおよびこれと依存関係にあるもの全てを削除します。
 Editor.Layouts.Table.Add.Hint=追加
-Editor.Layouts.Table.Col.Span.Caption=行範囲
 *** @TRANS NEW
-Editor.Layouts.Table.Span.Caption=Span
+Editor.Layouts.Table.Col.Span.Caption=Columns
+Editor.Layouts.Table.Row.Span.Caption=Rows
 *** @TRANS END
-Editor.Layouts.Table.Row.Span.Caption=列範囲
+Editor.Layouts.Table.Span.Caption=範囲
 Editor.Layouts.Table.Row.Margin.Caption=余白 (上/下/左/右)
 Editor.Layouts.Table.Col.Margin.Caption=余白 (上/下/左/右)
 Editor.Layouts.Table.Row.Position.Caption=位置
 Editor.Layouts.Table.Col.Position.Caption=位置
 Editor.Layouts.Table.AddRow.Caption=行追加
-Editor.Layouts.Table.AddRowDivider.Caption=行分割線の追加
 Editor.Layouts.Table.AddCol.Caption=列追加
-Editor.Layouts.Table.AddColDivider.Caption=列分割線の追加
 Editor.Layouts.Table.Row.Height.Caption=高さ
-Editor.Layouts.Table.Row.HeightFixed.Caption=固定の高さ
+*** @TRANS NEW
+Editor.Layouts.Table.AddRowDivider.Caption=Add Divider
+Editor.Layouts.Table.AddColDivider.Caption=Add Divider
+Editor.Layouts.Table.Units.Caption=Units
+Editor.Layouts.Table.Units.Fixed.Caption=Fixed
+Editor.Layouts.Table.Units.Proportion.Caption=Proportion
+Editor.Layouts.Table.Row.Units.Hint=Toggles Row between fixed pixel height and proportional height sizing
+Editor.Layouts.Table.Col.Units.Hint=Toggles Column between fixed pixel width and proportional width sizing
+Editor.Layouts.Table.NoRow.Caption=None
+Editor.Layouts.Table.NoCol.Caption=None
+*** @TRANS END
 Editor.Layouts.Table.Col.Width.Caption=幅
-Editor.Layouts.Table.Col.WidthFixed.Caption=固定の幅
-Editor.Layouts.Table.Row.Fixed.Hint=行を固定の高さ(ピクセル)に設定します。
-Editor.Layouts.Table.Col.Fixed.Hint=行を固定の幅(ピクセル)に設定します。
 Editor.Layout.AddTo.Caption=追加
 Editor.Layout.AddTo.Hint=テーブル レイアウト用の行と列を作成します。
 Editor.Layout.DeleteFrom.Caption=削除
@@ -3399,6 +3438,9 @@ Editor.Styles.FontSize.Caption=ｻｲｽﾞ
 Editor.Styles.FontBoldFull.Caption=太字
 Editor.Styles.FontItalicFull.Caption=斜体
 Editor.Styles.FontUnderlineFull.Caption=下線
+*** @TRANS NEW
+Editor.Styles.None.Caption=None
+*** @TRANS END
 Editor.Styles.FontBold.Caption=B
 Editor.Styles.FontBold.Title=太字
 Editor.Styles.FontBold.Hint=ｽﾀｲﾙ ﾃｷｽﾄを太字にする。
@@ -3500,11 +3542,22 @@ Editor.Brushes.Radial.RadiusLeft.Hint=ｸﾞﾗﾃﾞｰｼｮﾝの水平範囲
 Editor.Brushes.Radial.RadiusTop.Caption=範囲上
 Editor.Brushes.Radial.RadiusTop.Hint=ｸﾞﾗﾃﾞｰｼｮﾝの垂直範囲
 
+*** @TRANS NEW
+Editor.Style.Caption=Style
+*** @TRANS END
+
 Editor.Design.Caption=ﾃﾞｻﾞｲﾝ
 Editor.Form.Design.Caption=ﾃﾞｻﾞｲﾝ
 *** @TRANS NEW
-Editor.Layout.Caption=Layout
+Editor.DesignFont.Caption=Font
+Editor.DesignColors.Caption=Colors
+Editor.DesignBorder.Caption=Borders
+Editor.DesignCorner.Caption=Corners
+Editor.DesignSize.Caption=Designer Size
+Editor.DesignSize.Size.Caption=Designer Size
+Editor.DesignSize.FixedSize.Caption=Fixed Size
 *** @TRANS END
+Editor.Layout.Caption=レイアウト
 
 Editor.Web.Design.Caption=Web
 Editor.Web.Tools.Caption=ﾂｰﾙ
@@ -3560,26 +3613,6 @@ Editor.Form.DesignLanguage.Title=ﾃﾞｻﾞｲﾝ言語
 Editor.Form.DesignTheme.Caption=デザイン テーマ
 Editor.Form.DesignTheme.Hint=デザイン ビューのテーマを設定します。
 Editor.Form.DesignTheme.Title=デザイン テーマ
-*** @TRANS NEW
-Editor.Form.DesignStyle.Caption=Design Style
-Editor.Form.DesignStyle.Hint=Sets the style of the Design View
-Editor.Form.DesignStyle.Title=Design Style
-Editor.Form.DesignStyle.Skin.Caption=Designer Skin
-Editor.Form.DesignStyle.SkinNone.Caption=None
-Editor.Form.DesignStyle.SkinIE.Caption=Internet Explorer
-Editor.Form.DesignStyle.Size.Caption=Designer Size
-Editor.Form.DesignStyle.Size1.Caption=iPhone 5 - 1136 x 640
-Editor.Form.DesignStyle.Size2.Caption=iPhone 4s - 960 x 640
-Editor.Form.DesignStyle.Size3.Caption=iPod Touch - 640 x 480
-Editor.Form.DesignStyle.Size4.Caption=iPad 3 - 2048 x 1536
-Editor.Form.DesignStyle.Size5.Caption=iPad 1 & 2 - 1024 x 768
-Editor.Form.DesignStyle.Size6.Caption=Samsung Galaxy SIII - 1280 ﾗ 720
-Editor.Form.DesignStyle.Size7.Caption=Samsung Galaxy Tab - 1280 x 800
-Editor.Form.DesignStyle.Size8.Caption=Nokia 920 - 1280 x 768
-Editor.Form.DesignStyle.Size9.Caption=Nokia 920 - 800 x 480
-Editor.Form.DesignStyle.Size10.Caption=Microsoft Surface - 1366 x 768
-Editor.Form.DesignStyle.Size11.Caption=Kindle Fire - 1920x 1200
-*** @TRANS END
 
 Editor.TargetRuntime.Title=ターゲット ランタイムの設定
 
@@ -3707,7 +3740,11 @@ Editor.Ribbon.Command.StatusLanguage=現在の言語
 Editor.Ribbon.Command.StatusAudit=監査ｽﾀﾝﾌﾟ
 Editor.Ribbon.Command.StatusFont=ｿｰｽのﾌｫﾝﾄ選択
 Editor.Ribbon.Command.StatusWeb=Web設定
-Editor.Ribbon.Command.TargetRuntime=ターゲット ランタイム
+*** @TRANS CHANGE
+*** Editor.Ribbon.Command.TargetRuntime=ターゲット ランタイム
+*** @TRANS NEW
+Editor.Ribbon.Command.TargetRuntime=Target Render Type
+*** @TRANS END
 
 Editor.Ribbon.Help.Help.Caption=ﾍﾙﾌﾟ
 Editor.Ribbon.Help.Help.Title=Visual LANSA ﾍﾙﾌﾟ(F1)
@@ -3732,7 +3769,7 @@ Editor.Ribbon.MessageFiles.Caption=メッセージ ファイル
 Editor.Ribbon.MessageFiles.Title=メッセージ ファイル
 Editor.Ribbon.MessageFiles.Hint=メッセージ ファイル エディターの表示
 Editor.Ribbon.Close.Title=閉じる
-Editor.Ribbon.Close.Hint=ｺﾝﾎﾟｰﾈﾝﾄを閉じます 
+Editor.Ribbon.Close.Hint=現在のドキュメントを閉じます (Ctrl+F4)
 Editor.Ribbon.V12Menu.Title=ﾒﾆｭｰ ﾊﾞｰ
 Editor.Ribbon.V12Menu.Hint=ﾊﾞｰｼﾞｮﾝ 12 ﾒﾆｭｰ ﾊﾞｰ
 Editor.Ribbon.Debug.Debug.Caption=ﾃﾞﾊﾞｯｸﾞ
@@ -3855,16 +3892,19 @@ Editor.DesignerView.Caption=ﾃﾞｻﾞｲﾅｰ
 
 Editor.ControlsView.Caption=ｺﾝﾄﾛｰﾙ
 Editor.ControlsView.Controls.Caption=ｺﾝﾄﾛｰﾙ
-Editor.ControlsView.Common.Caption=共通
-Editor.ControlsView.UserDesigned.Caption=ﾕｰｻﾞｰ ﾃﾞｻﾞｲﾝ
+*** @TRANS NEW
+Editor.ControlsView.Favorites.Caption=Favorites
+Editor.ControlsView.SetFavorite.Caption=Add to Favorite controls
+Editor.ControlsView.RemoveFavorite.Caption=Remove from Favorite controls
+*** @TRANS END
 Editor.ControlsView.All.Caption=全てのｺﾝﾄﾛｰﾙ
-Editor.ControlsView.UserDesigned.CarouselDesign=ｶﾙｰｾﾙ ﾃﾞｻﾞｲﾝ
-Editor.ControlsView.UserDesigned.BookDesign=ﾌﾞｯｸ ﾃﾞｻﾞｲﾝ
-Editor.ControlsView.UserDesigned.TreeDesign=ﾂﾘｰ ﾃﾞｻﾞｲﾝ
-Editor.ControlsView.UserDesigned.TileDesign=ﾀｲﾙ ﾃﾞｻﾞｲﾝ
-Editor.ControlsView.UserDesigned.DashboardDesign=ﾀﾞｼｭﾎﾞｰﾄﾞ ﾃﾞｻﾞｲﾝ
-Editor.ControlsView.UserDesigned.Expand=拡大して使用可能なﾃﾞｻﾞｲﾝを表示
-Editor.ControlsView.UserDesigned.Empty=使用可能なﾃﾞｻﾞｲﾝはありません
+Editor.ControlsView.Lists.CarouselDesign=ｶﾙｰｾﾙ ﾃﾞｻﾞｲﾝ
+Editor.ControlsView.Lists.BookDesign=ﾌﾞｯｸ ﾃﾞｻﾞｲﾝ
+Editor.ControlsView.Lists.TreeDesign=ﾂﾘｰ ﾃﾞｻﾞｲﾝ
+Editor.ControlsView.Lists.TileDesign=ﾀｲﾙ ﾃﾞｻﾞｲﾝ
+Editor.ControlsView.Lists.DashboardDesign=ﾀﾞｼｭﾎﾞｰﾄﾞ ﾃﾞｻﾞｲﾝ
+Editor.ControlsView.Lists.Expand=拡大して使用可能なﾃﾞｻﾞｲﾝを表示
+Editor.ControlsView.Lists.Empty=使用可能なﾃﾞｻﾞｲﾝはありません
 Editor.ControlsView.RibbonSheet.Caption=ﾘﾎﾞﾝ ｼｰﾄ
 Editor.ControlsView.RibbonGroup.Caption=ﾘﾎﾞﾝ ｸﾞﾙｰﾌﾟ
 Editor.ControlsView.DockingTab.Caption=ﾀﾌﾞ ﾄﾞｯｷﾝｸﾞ ﾌﾚｰﾑﾜｰｸ

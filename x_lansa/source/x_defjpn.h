@@ -258,9 +258,7 @@
 
       // All Windows 
 
-      // Leave as W95 for backward compatibility with prior installations
-
-#if defined(X_OPERATING_SYSTEM_WIN95)
+#if defined(X_OS_WIN)
 
 #define X_STANDARD_MESSAGE_FILE      "\x44\x43\x40\x4D\x30\x31"
                              /* max. 10 characters */

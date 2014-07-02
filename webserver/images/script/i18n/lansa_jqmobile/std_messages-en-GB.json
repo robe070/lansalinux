@@ -1,9 +1,0 @@
-﻿
-{
-	"strings": {
-		"mobiscroll-dateFormat": "dd/mm/yy",
-		"mobiscroll-timeFormat": "hh:ii A",
-		"mobiscroll-dateOrder": "dMMy",
-      "mobiscroll-timeWheels": "hhiiA"
-	}
-}

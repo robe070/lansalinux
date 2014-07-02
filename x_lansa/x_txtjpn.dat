@@ -373,21 +373,25 @@
 1143,ﾌｧｲﾙ ﾗｲﾌﾞﾗﾘの上書きが含まれている場合は使用
 1144,区画ﾃﾞｰﾀ ﾗｲﾌﾞﾗﾘにﾌｧｲﾙ ﾗｲﾌﾞﾗﾘを上書き
 1145,ﾌｧｲﾙ ﾗｲﾌﾞﾗﾘの上書きを無視
-1124,ERROR: Importing name ">S<" of >S< identifier ">S<", which is already being used by >S< identifier ">S<".
-1126,ERROR: <Allow Name Changes> is not set, existing name ">S<" associated with >S< identifier ">S<" cannot be removed.
-1127,ERROR: Importing >S< name ">S<", which is already being used by >S< identifier ">S<".
-1128,ERROR: Importing >S< identifier ">S<", which is already being used by >S< identifier ">S<".
-1146,WARNING: Existing >S< identifier ">S<" will be assigned a name ">S<".
-1147,WARNING: Existing name ">S<" associated with >S< identifier ">S<" is going to be removed.
-1148,ERROR: <Allow Name Changes> is not set, existing name ">S<" of >S< identifier ">S<" cannot be changed to ">S<".
-1149,WARNING: Existing name ">S<" of >S< identifier ">S<" is going to be changed to ">S<".
-1161,ERROR: importing >S< identifier ">S<", which is already being used as a name ">S<" by >S< identifier ">S<".
-1162,Object Import Verify Facility Started >S<
-1163,Object Long Name data are ignored in RDML Partition.
-1164,Failed to retrieve the server's IFS path name. Please report to your product vendor as soon as possible.
-1165,ERROR: <Allow Type Changes> is not set, existing >S< identifier ">S<" cannot be deleted and import of >S< identifier ">S<".
-1166,WARNING: Existing >S< identifier ">S<" will be deleted and import of >S< identifier ">S<" will proceed.
-1167,Object Import Verify Facility Ended >S<. >S< fatal errors were detected. >S< warnings were issued.
+1124,エラー: インポート名 ">S<" ( >S<  識別子 ">S<")。既に >S< 識別子 ">S<" により使用されています。
+1126,エラー: <名前変更を許可> が設定されていません。既存の名前 ">S<" ( >S< 識別子 ">S<" に関連付けられている) は削除できません。
+1127,エラー: >S< 名前 ">S<"　のインポート。既に >S< 識別子 ">S<" により使用されています。
+1128,エラー: >S< 識別子 ">S<" のインポート。既に >S< 識別子 ">S<" により使用されています。
+1146,警告: 既存の >S< 識別子 ">S<" は名前 ">S<" が割り当てられます。
+1147,警告: 既存の名前 ">S<" ( >S< 識別子 ">S<" に関連付けられている) は削除されます。
+1148,エラー: <名前変更を許可> が設定されていません。既存の名前 ">S<" ( >S< 識別子 ">S<" ) は ">S<" に変更できません。
+1149,警告: 既存の名前 ">S<" ( >S< 識別子 ">S<" ) は ">S<" に変更されます。
+1161,エラー: >S< 識別子 ">S<" のインポート。既に名前 ">S<" として >S< 識別子 ">S<" により使用されています。
+1162,オブジェクト インポート機能検証が開始しました ( >S< )
+1163,オブジェクト  RDML 区画のロングネーム データが無視されます。
+1164,サーバーの IFS パス名の取得に失敗しました。できるだけ早く製品ベンダーに連絡してください。
+1165,エラー: <タイプ変更を許可> が設定されていません。既存の >S< 識別子 ">S<" は削除できません。>S< 識別子 ">S<" のインポート
+1166,警告: 既存の >S< 識別子 ">S<" は削除され、>S< 識別子 ">S<" のインポートが続行されます。
+1167,オブジェクト インポート機能検証が終了しました。( >S< ) >S< 件の致命的なエラーが検知されました。>S< 件の警告が発行されました。
+1173,インポートのフレームワーク / グループ詳細を確認
+1174,インポートされるマテリアルにはフレームワーク / グループ詳細が含まれます。詳細も含めてインポートする場合は [はい] を、詳細を削除して無効なインポート コンポーネントのフレームワークをインポート コレクションに割り当てる場合は [いいえ] をクリックしてください。
+1175,要求通り、ファイル >S<>S< のインポートをスキップしています
+1176,>S< (>S<)
 * ******************************************************************
 * PROCESS AND FUNCTION COMPILE MESSAGES - TRANSLATION IS RECOMMENDED
 * ******************************************************************
@@ -484,6 +488,8 @@
 0810,致命的ｴﾗｰ：ﾌﾟﾛｾｽ名 >S< は予約語なので使用することができません。
 1075,>S<.DLLは使用中です。DLLの使用を止めて、再度コンパイルを投入してください。
 1088,ﾌｧｲﾙ >S< の >S< への変換中に致命的なｴﾗｰ。原因は RDML のﾊﾞｲﾅﾘ ﾃﾞｰﾀの可能性があります。
+1177,Building of the Function for environment >S< has been ignored. Please refer to Full Function Check messages for details.
+1178,Component >S< is only being compiled for the Web and doesn't require a DLL.
 * *********************************************************************
 * OAM COMPILE AND SQL TABLE BUILD MESSAGES - TRANSLATION IS RECOMMENDED
 * *********************************************************************
@@ -822,6 +828,7 @@
 0636,ｵﾌﾞｼﾞｪｸﾄ ">S<" は存在しません。
 1112,ｷｰ '>S<\>S<' を削除できません。
 1113,ｷｰ値 '>S<\>S<' を削除できません。
+1181,キー '>S<\>S<' を作成、更新できません。
 0760,戻り値のﾀｲﾌﾟはｻﾎﾟｰﾄされていません。
 0774,ﾌｧｲﾙ >S< は有効な zip ﾌｧｲﾙではないかまたはﾌｧｲﾙが壊れています。
 0775,ﾃﾞｨﾚｸﾄﾘ >S< が見つかりませんまたは作成できません。
@@ -1218,8 +1225,10 @@
 0698,A0100
 0699,ﾌｧｲﾙ &1 のﾃﾞｰﾀのﾛｰﾄﾞに失敗しました。
 0700,A0100
-1171,Unload of data did not occur for &1 because the table does not exist
-1172,Unload of data did not occur for &1 because the OAM does not exist
+1171,テーブルが存在しないため、&1 に対するデータのアンロードは行われませんでした。
+1172,A0132
+1179,OAM が存在しないため、&1 に対するデータのアンロードは行われませんでした。
+1180,A0132
 0888,- &1 削除されました。
 0889,A1000
 0890,- &1 削除されませんでした。

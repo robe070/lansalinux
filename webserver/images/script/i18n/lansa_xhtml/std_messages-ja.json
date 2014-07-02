@@ -22,7 +22,15 @@
 		"NoXMLHttpRequest": "このﾌﾞﾗｳｻﾞではXMLHttpRequestはｻﾎﾟｰﾄされていません。",
 		"Processing1": "処理",
 		"Done1": "実行",
-		"Messages": "ﾒｯｾｰｼﾞ:"
+		"Messages": "ﾒｯｾｰｼﾞ:",
+      "InProgress": "処理進行中 ...",
+		"Complete": "完了",
+		"SelectFiles": "ファイルの選択",
+		"Upload": "アップロード",
+		"Abort": "中止",
+		"OnlyOneFile": "許可されているのは 1 ファイルのみです。",
+		"TooManyFiles": "許可されるファイル数は最大 %1 です。",
+		"MaxFileSize": "ファイルの最大サイズは %1 MB です。ファイル \"%2\" は許可されていません。"
 	},
 	"arrays": {
 		"DaysOfWeek": ["月", "火", "水", "木", "金", "土", "日"],

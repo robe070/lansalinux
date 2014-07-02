@@ -6,11 +6,6 @@
 LoadModule lansa_module $(LANSAWEB_MODULE)
 </IfModule>
 
-<IfModule !mod_rewrite.c>
-# mod_rewrite is currently required for L4Web Apache Module
-LoadModule rewrite_module $(APACHE_MODULES_ROOT)/mod_rewrite.so
-</IfModule>
-
 <IfModule mod_lansa.c>
 
     LansaApacheModuleRoot "$(LANSAWEB_ROOT)"
@@ -54,19 +49,15 @@ LoadModule rewrite_module $(APACHE_MODULES_ROOT)/mod_rewrite.so
 
 </IfModule>
 
+<IfModule !mod_rewrite.c>
+# To map all upper/mixed case uri to lower case.
+#LoadModule rewrite_module $(APACHE_MODULES_ROOT)/mod_rewrite.so
+</IfModule>
+
 <IfModule mod_rewrite.c>
     RewriteEngine on
     #
-    # redirect uri for lansa to the lansa module
-    # do not change the order of the following 2 rules
-    RewriteCond %{QUERY_STRING} ^(.+)$
-    RewriteRule ^/cgi-bin/(lansa[^/]*|about|status|cleanup)((/.*)*) /lansaweb$2?$1?%1 [NC,L,PT]
-    RewriteCond %{QUERY_STRING} ^$
-    RewriteRule ^/cgi-bin/(lansa[^/]*|about|status|cleanup)((/.*)*) /lansaweb$2?$1 [NC,L,PT]
-    RewriteCond %{QUERY_STRING} ^(expand=yes)$
-    RewriteRule ^(/images/style/.*\.css) /lansaweb?style?$1?%1 [NC,L,PT]
-    #
-    # map all upper/mixed case uri to lower case (just the prefix though)
+    # Map all upper/mixed case uri to lower case.
     RewriteRule ^/images/(.*) /images/$1 [NC,L,PT]
     #
     #RewriteLog $(LANSAWEB_ROOT)/log/rewrite.log

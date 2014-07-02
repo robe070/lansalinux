@@ -129,7 +129,7 @@
 #define X_OPERATING_SYSTEM_JAVASCRIPT
 #endif
 
-#else
+#elif defined(__linux__)
 
 #ifndef X_OPERATING_SYSTEM_LNX
 #define X_OPERATING_SYSTEM_LNX

@@ -111,6 +111,8 @@ Exception.TileITableItemNotSupported=TileItem doe not support the PRIM_TILE.ITil
 Exception.TileITableItemNotSupported.Id=14
 Exception.TileNameNotFound=Component &1 was not found.
 Exception.TileNameNotFound.Id=15
+Exception.DropDownDesignInterfaceNotSupported.Id=19
+Exception.DropDownDesignInterfaceNotSupported=DropDown design does not support the PRIM_DROP.IDropDownDesign interface
 
 ********************************************************************
 *** Tab Specific Strings		  **********************************
@@ -144,6 +146,7 @@ Udc.Tree.DesignRequired=PRIM_TREE requires a Reusable Part implementing PRIM_TRE
 Udc.Book.DesignRequired=PRIM_BOOK requires a Reusable Part implementing PRIM_TREE.IBookDesign for its content
 Udc.Tile.DesignRequired=PRIM_TILE requires a Reusable Part implementing PRIM_TILE.ITileDesign for its content
 Udc.Dashboard.DesignRequired=PRIM_DASH requires a Reusable Part implementing PRIM_DASH.IDashboardDesign for its content
+Udc.DropDown.DesignRequired=PRIM_DROP requires a Reusable Part implementing PRIM_DROP.IDropDesign for its content
 
 ********************************************************************
 *** Ribbon Strings               ***********************************

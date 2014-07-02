@@ -248,6 +248,9 @@ DisplayName.FolderNone=Aucun
 DisplayName.FolderPartitionObject=Dossier Object de la Partition
 DisplayName.FolderPartitionSource=Dossier Source de la Partition
 DisplayName.FolderPartitionExecute=Dossier Execute de la Partition
+*** @TRANS ADD
+DisplayName.FolderPartitionVlWeb=Partition VL-Web
+*** @TRANS END
 DisplayName.FolderWebImages=Dossier des Images Web
 DisplayName.SystemInformation=Informations système
 
@@ -881,7 +884,7 @@ ArrayOverlayInvalidField=Le recouvrement de la définition de zone est incorrect.
 ArrayOverlayInvalidField.Id=305
 ArrayMismatchedField=La zone &1 ne correspond pas aux  type de zone, longueur ou décimales de la zone &2.
 ArrayMismatchedField.Id=306
-ArrayInvalidField=Utilisation incorrecte de la zone &1. La zone doit être définie avant cette commande.
+ArrayInvalidField=&1 est incorrect. Ce doit être une zone du référentiel ou une zone définie localement avant cette commande.
 ArrayInvalidField.Id=307
 ArrayNotField=Le nom &1 n'est pas une zone. Les variables de composant ne sont pas admises.
 ArrayNotField.Id=308
@@ -1419,12 +1422,10 @@ Runtime.UnresolvedCollectionItemType=Le composant &1 n'a pas pu résoudre un type
 Runtime.UnresolvedCollectionItemType.Id=97
 Runtime.ListIndexOutOfBounds=Action tentée sur l'entrée de liste incorrecte &1 de &2. L'entrée de liste n'existe pas.
 Runtime.ListIndexOutOfBounds.Id=98
-*** @TRANS NEW
-Runtime.UnsupportedPatternKind=Components of type &1 are not supported on this platform.
+Runtime.UnsupportedPatternKind=Les composants de type &1 ne sont ps supportés sur cette plateforme.
 Runtime.UnsupportedPatternKind.Id=99
-Runtime.UnspecifiedComponent=Component not specified.
+Runtime.UnspecifiedComponent=Composant non précisé.
 Runtime.UnspecifiedComponent.Id=100
-*** @TRANS END
 
 **********************************************
 ***** Runtime Tracing Text             *******
@@ -1540,7 +1541,7 @@ ObjectList.BuildState.LastBuildOrCompileFailed=Erreur de dernière génération ou 
 ObjectList.BuildState.BuildAndCompileRequired=Génération et compilation nécessaires
 ObjectList.BuildState.NeverCompiled=Jamais compilé
 ObjectList.BuildState.CompileRequired=Compilation nécessaire
-ObjectList.BuildState.BuildAndCompileNotRequired=Génération et compilation nécessaires
+ObjectList.BuildState.BuildAndCompileNotRequired=Génération et compilation non nécessaires
 
 ObjectList.No=Non
 ObjectList.Yes=Oui
@@ -1631,6 +1632,9 @@ Cmd.AutomaticReference=Référence automatique
 Cmd.AutomaticCollection=Accédant à une collection automatique
 Cmd.PtyRoutineName=Nom de sous-programme de propriété
 Cmd.ComponentVariableName=Nom de variable de composant
+*** @TRANS ADD
+Cmd.WebpageName=Web Page
+*** @TRANS END
 Cmd.DynamicVariableName=Nom de variable dynamique
 Cmd.AttributeOfVariableName=Nom de variable attribué
 Cmd.CreateAsClassName=Créer comme nom de classe
@@ -3233,7 +3237,7 @@ EventParmAliasInvalid=Les noms d'alias ne sont pas supportés par les paramètres 
 EventParmAliasInvalid.Id=1594
 GeneratorRequestExternalResourceFolderMandatory=Le nom de dossier ne peut pas être à blanc.
 GeneratorRequestExternalResourceFolderMandatory.Id=1595
-DocFileLogicalViewCriteriaNotSupported=LE type de zone de &1 n'est pas supporté par ce type de critère.
+DocFileLogicalViewCriteriaNotSupported=Le type de zone de &1 n'est pas supporté par ce type de critère.
 DocFileLogicalViewCriteriaNotSupported.Id=1596
 DocFilePhysicalFileNameMustMatchIdentifier=Le nom de fichier peut seulement être différent de l'identifiant si il est long de 9 caractères ou plus.
 DocFilePhysicalFileNameMustMatchIdentifier.Id=1597
@@ -3259,15 +3263,47 @@ DirectX=DirectX
 DirectX.Id=1607
 TargetRuntimeJavascript=Javascript
 TargetRuntimeJavascript.Id=1608
+TargetRuntimeIOS=iOS
+TargetRuntimeIOS.Id=1609
 *** @TRANS NEW
-WebUnsupportedFeature=&1 can't be used on Web Pages.
+WebUnsupportedFeature=&1 is not supported on the Web.
 WebUnsupportedFeature.Id=1610
-WebUnsupportedCommand=The &1 command can't be used on Web Pages.
+WebUnsupportedCommand=The &1 command is not supported on the Web.
 WebUnsupportedCommand.Id=1611
-WebUnsupportedOverlay=Overlaying fields is not supported on Web Pages.
+WebUnsupportedOverlay=Overlaying fields is not supported on the Web.
 WebUnsupportedOverlay.Id=1612
-WebUnsupportedFieldType=Field type &1 is not supported on Web Pages..
+WebUnsupportedFieldType=Field type &1 is not supported on the Web.
 WebUnsupportedFieldType.Id=1613
+WebUnsupportedSystemVariable=System Variable &1 is not supported on the Web.
+WebUnsupportedSystemVariable.Id=1614
+WebUnsupportedUsingOption=Assignment of special value is not supported on the Web.
+WebUnsupportedUsingOption.Id=1615
+WebOnlyFeature=&1 is only supported on the Web.
+WebOnlyFeature.Id=1616
+WebUnsupportedDefaultValue=Default Value &1 is not supported on the Web.
+WebUnsupportedDefaultValue.Id=1617
+WebPageNotFound=Web Page &1 not found.
+WebPageNotFound.Id=1618
+TypeParameterNoPanel=&1 does not inherit from Panel.
+TypeParameterNoPanel.Id=1619
+TypeParameterNoBookDesign=&1 does not implement IBookDesign.
+TypeParameterNoBookDesign.Id=1620
+TypeParameterNoCarouselDesign=&1 does not implement ICarouselDesign.
+TypeParameterNoCarouselDesign.Id=1621
+TypeParameterNoDropDownDesign=&1 does not implement IDropDesign.
+TypeParameterNoDropDownDesign.Id=1622
+TypeParameterNoTileDesign=&1 does not implement ITileDesign.
+TypeParameterNoTileDesign.Id=1623
+TypeParameterNoTreeDesign=&1 does not implement ITreeDesign.
+TypeParameterNoTreeDesign.Id=1624
+NameConflictWarning=Name &1 hides a component definition with the same name.
+NameConflictWarning.Id=1625
+UdcColumnNoDesign=&1 must specify the Design parameter.
+UdcColumnNoDesign.Id=1626
+UdcColumnNoPanel=&1 does not inherit from Panel.
+UdcColumnNoPanel.Id=1627
+UdcColumnNoCellDesign=&1 does not implement ICellDesign.
+UdcColumnNoCellDesign.Id=1628
 *** @TRANS END
 
 *************************************************************

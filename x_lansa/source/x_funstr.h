@@ -156,6 +156,13 @@ extern "C" {
 #define X_COMPONENT_NAME_LEN     20
 #define X_HELP_CONTEXT_LEN       65
 
+#define X_PRO_ENCODE_PWD_FLAG_LEN   1
+#define X_PRO_ENCODE_ALGORITHM      1
+#define X_PRO_ENCODE_PWD_LEN        10
+#define X_PRO_ENCODE_STAMP_LEN      12
+#define X_PRO_ENCODE_LINE_ID_LEN    4
+#define X_PRO_ENCODE_DATA_LEN       256
+
 #define X_WEB_SERVICE_NAME_LEN         40
 #define X_WEB_APPMOD_NAME_LEN          10
 #define X_WEB_ROUTINE_NAME_LEN         20
@@ -201,6 +208,7 @@ extern "C" {
 
 #define X_MAX_SIZE_DATE_LEN            (10 + 1)
 #define X_MAX_SIZE_TIME_LEN            (8 + 1)
+#define X_MAX_SIZE_SECOND_FRACTION_LEN (9 + 1)
 #define X_MAX_SIZE_DATETIME_LEN        (29 + 1)
 #define X_MAX_SIZE_DATETIME_STRING_LEN (35 + 1)    /* Big enough for Datetime strings in           */
                                                    /* format: YYYY-MM-DDTHH:SS:MM[.fffffffff]+HHMM */
@@ -1050,7 +1058,10 @@ struct X_WEB_INFO
   {
      X_SHORT                  sVersion;
      X_FCHAR                  fchJobNumber[X_WEB_JOB_ID_LENGTH];
+     X_FCHAR                  __obs_fchPrimaryExt[3 + 1];
+     X_FCHAR                  __obs_fchSecondaryExt[5 + 1];
      X_CHAR                   chPersistFrame;
+     X_CHAR                   __obs_chHTMLDefaultPage;
      X_CHAR                   chHomeKey;
      X_CHAR                   chHeaderStyle;
      X_CHAR                   chFramesetStyle;
@@ -1065,6 +1076,8 @@ struct X_WEB_INFO
      X_FCHAR                  fchIFSPath[256 + 1];
      X_FCHAR                  fchIFSCodePage[5 + 1];
      X_FCHAR                  fchIFSFileExtension[8 + 1];
+     X_FCHAR                  __obs_fchIFSPrimaryExtension[3 + 1];
+     X_FCHAR                  __obs_fchIFSSecondaryExtension[5 + 1];
      X_CHAR                   chDebugWebEvent;
      X_FCHAR                  fchParentProcess[10 + 1];
      X_FCHAR                  fchSetNumber[2 + 1];
@@ -3047,7 +3060,7 @@ struct X_PRIDS_RPG
 /* vchPassWd             Password for DBMS authentication            */
 /* chNoFatal             Bypass fatal error.                         */
 /* lLastErrorCode        The last error code.                        */
-/* chDELI                DELI parameter ('Y'/'N'). Not used          */
+/* chDELI                DELI parameter, Delete Package ('Y'/'N').   */
 /* vchPKGD               Package directory.                          */
 /* chRunInstall          Does Package Installer need to be run? (Y/N)*/
 /* pActiveCompRtnX_Fun   Active component routine pX_Fun             */
@@ -3289,8 +3302,11 @@ typedef enum _CONNECT_TYPE
    CT_AUTHENTICATION_ERROR_IS_FATAL    = 0x00000400,
    CT_INDIVIDUAL_CONNECTION            = 0x00000800,
    CT_DRIVER_PROMPT                    = 0x00001000,
-
-   CT_ALL_FLAGS_ON                     = 0xFFFFFFFF
+   CT_IGNORE_PREVIOUS_CONNECT          = 0x00002000,
+   CT_LANSA_X_CONNECT                  = 0x00004000,
+   CT_EXTERNAL_CONNECT                 = 0x00008000,
+   
+CT_ALL_FLAGS_ON                     = 0xFFFFFFFF
 } X_DB_CONNECT_TYPE;
 
 #define X_DBCF_DEFAULT  CT_INTEGRATED_LOGON
@@ -3905,6 +3921,7 @@ struct X_IDS
 #define X_DEVFLAG_IMPORT_ALLOW_NAME_CHANGES              0x00000010
 #define X_DEVFLAG_IMPORT_VERIFY                          0x00000020
 #define X_DEVFLAG_IMPORT_ALLOW_TYPE_CHANGES              0x00000040
+#define X_DEVFLAG_IMPORT_CHECK_AND_RESET_FRAMEWORK       0x00000080
 
 /* ================================================================= */
 /*  X_ABar : LANSA/X Action Bar Definition Table                     */
@@ -7354,7 +7371,7 @@ struct X_PROTEXT
 } ;
 
 /* ================================================================= */
-/*  MESSAGE : A warning message                                      */
+/*  X_MESSAGE : A warning message                                      */
 /* ================================================================= */
 
 typedef struct _MESSAGE
@@ -7362,7 +7379,7 @@ typedef struct _MESSAGE
       X_LONG   lMsgId;
       X_SHORT  sXTEXTMsgId; /* Id of message for X_TEXT() macro */
    }
-      MESSAGE, *PMESSAGE, **PPMESSAGE;
+      X_MESSAGE, *PMESSAGE, **PPMESSAGE;
 
 
 /* ================================================================= */
@@ -8624,6 +8641,9 @@ typedef struct _X_OVERRIDE_LIBRARY
 #define X_IMPORT_OPTION_GET_PROMPT_LIB                   0x00000040
 #define X_IMPORT_OPTION_FILE_LIBRARY_OVERRIDE_STORED     0x00000080
 #define X_IMPORT_OPTION_ALLOW_TYPE_CHANGES               0x00000100
+#define X_IMPORT_OPTION_YES_TO_SKIP_AND_RESET_FRAMEWORK  0x00000200
+#define X_IMPORT_OPTION_CHECK_AND_RESET_FRAMEWORK        0x00000400
+#define X_IMPORT_OPTION_SKIP_FRAMEWORK                   0x00000800
 
 typedef struct _X_IMPORT_OPTION
 {
@@ -8914,6 +8934,7 @@ typedef struct X_DLL
 #define X_ENVIRON_TYPE_DEC            "DEC"
 #define X_ENVIRON_TYPE_HPUX           "HPUX"
 #define X_ENVIRON_TYPE_IS             "IS"
+#define X_ENVIRON_TYPE_WRT            "WRT"
 
 #define X_ENVIRON_TYPE_TRANS_FILE_SUFFIX_LENGTH    4
 #define X_ENVIRON_TYPE_OS2_TRANS_FILE_SUFFIX       "os2"
@@ -9467,7 +9488,7 @@ typedef X_FUN_VECTOR_ASSIGN_FUNCTION   *   PX_FUN_VECTOR_ASSIGN_FUNCTION;
 typedef X_FUN_VECTOR_ASSIGN_FUNCTION   **  PPX_FUN_VECTOR_ASSIGN_FUNCTION;
 
 /* Max Export version supported */
-#define X_EXPORT_MAX_VERSION_TEXT "003"
+#define X_EXPORT_MAX_VERSION_TEXT "004"
 
 /* Centralise code for getting X60CHR into UTC_LANGUAGE */
 #define X_SET_CCSIDS_FROM_CHARSET(_FROMSTR,_TO_UTCLANG) \

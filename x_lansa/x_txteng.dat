@@ -17,7 +17,7 @@
 * SYSTEM FUNCTIONS THAT CANNOT BE TRANSLATED BECAUSE THEY ARE THE SAME IN ALL LANGUAGES.
 *
 * __________________________ 
-* Next message number : 1173 (check by scanning after assignment and update this line)
+* Next message number : 1182 (check by scanning after assignment and update this line)
 * __________________________
 *
 * *******************************************************************************
@@ -389,6 +389,10 @@
 1165,ERROR: <Allow Type Changes> is not set, existing >S< identifier ">S<" cannot be deleted and import of >S< identifier ">S<".
 1166,WARNING: Existing >S< identifier ">S<" will be deleted and import of >S< identifier ">S<" will proceed.
 1167,Object Import Verify Facility Ended >S<. >S< fatal errors were detected. >S< warnings were issued.
+1173,Confirm Import Framework / Group details
+1174,The material being imported contains Framework / Group details. Click YES to import including these details or NO to drop these details and assign any invalid importing component's Framework to IMPORT COLLECTION.
+1175,Skipping import of file >S<>S< as requested.
+1176,>S< (>S<)
 * ******************************************************************
 * PROCESS AND FUNCTION COMPILE MESSAGES - TRANSLATION IS RECOMMENDED
 * ******************************************************************
@@ -485,6 +489,8 @@
 0810,FATAL : Process named >S< is a reserved name and should not be used.
 1075,>S<.DLL is in use. Stop using the DLL and submit the compile again.
 1088,Fatal error converting file >S< to >S<. Cause may be due to binary data in RDML.
+1177,Building of the Function for environment >S< has been ignored. Please refer to Full Function Check messages for details.
+1178,Component >S< is only being compiled for the Web and doesn't require a DLL.
 * *********************************************************************
 * OAM COMPILE AND SQL TABLE BUILD MESSAGES - TRANSLATION IS RECOMMENDED
 * *********************************************************************
@@ -822,6 +828,7 @@
 0636,Object ">S<" does not exist.
 1112,Unable to delete key '>S<\>S<'.
 1113,Unable to delete key value '>S<\>S<'.
+1181,Unable to write/update key '>S<\>S<'.
 0760,The returned value type is not supported.
 0774,The file >S< is either not in a valid zipfile format, is corrupt or has been truncated.
 0775,The directory >S< could not be found or created.
@@ -1222,7 +1229,9 @@
 0699,Load of data for File &1 failed 
 0700,A0100
 1171,Unload of data did not occur for &1 because the table does not exist
-1172,Unload of data did not occur for &1 because the OAM does not exist
+1172,A0132
+1179,Unload of data did not occur for &1 because the OAM does not exist
+1180,A0132
 0888,- &1 deleted 
 0889,A1000
 0890,- &1 not deleted 

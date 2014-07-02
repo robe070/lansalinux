@@ -405,6 +405,17 @@ X_BOOL_FUNCTION X_PDF_GetJobCodepage( struct X_IDS *pX_Ids,
 
 X_VOID_FUNCTION X_PDF_SetThreadName( X_LONG dwThreadID, X_PCCHAR szThreadName );
 
+X_VOID_FUNCTION X_PDF_Get_Date_Time( struct X_IDS  *  pX_Ids,
+                                     struct X_PRO  *  pX_Pro,
+                                     struct X_FUN  *  pX_Fun,
+                                     X_BOOL           fLL2,
+                                     size_t           uiDateBufLen,
+                                     X_PFCHAR         pfchDate,
+                                     size_t           uiTimeBufLen,
+                                     X_PFCHAR         pfchTime,
+                                     size_t           uiFractionBufLen,
+                                     X_PFCHAR         pfchFraction );
+
 /* ================================================================= */
 /*  X_PDF3.C functions                                               */
 /* ================================================================= */
@@ -1674,6 +1685,20 @@ X_BOOL_FUNCTION
       X_PVCHAR                                     pvchTypeOut,
       X_PVCHAR                                     pvchAltNameOut );
 
+size_t X_PDF_Common_Encode( struct X_IDS  *  pX_Ids,
+                            struct X_PRO  *  pX_Pro,
+                            struct X_FUN  *  pX_Fun,
+                            size_t           uiInSize,
+                            X_PVCHAR         pvchIn,
+                            size_t        *  puiOutSize,
+                            X_PVCHAR         pvchOut );
+
+size_t X_PDF_Common_Decode( struct X_IDS  *  pX_Ids,
+                            struct X_PRO  *  pX_Pro,
+                            struct X_FUN  *  pX_Fun,
+                            X_PVCHAR         pvchIn,
+                            size_t        *  puiOutSize,
+                            X_PVCHAR         pvchOut );
 
 /* ================================================================= */
 /*  X_PDF11.CPP functions                                            */

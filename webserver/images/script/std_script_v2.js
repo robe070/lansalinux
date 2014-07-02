@@ -2,8 +2,8 @@
 	(c) 2002, 2013 LANSA
 	XHTML Standard Scripts
 	$Workfile:: std_script_v2.js            $
-	$UTCDate:: 2013-09-03 04:11:03Z         $
-	$Revision:: 108                         $
+	$UTCDate:: 2014-01-24 03:54:51Z         $
+	$Revision:: 109                         $
 */
 
 //////////////////////////////////////////////////////////////////////////////////////////
@@ -798,6 +798,7 @@ Lstd.Webroutine = {
 	getContext: function(item) {
 		switch (item) {
 			case "action-request": return g_lxmlAR;
+			case "dec-separator": return g_lxmlDecSeparator;
 			case "images-path": return g_lweb_images_path;
 			case "iso-lang": return g_lxmlISOLang;
 			case "language": return g_lxmlLang;

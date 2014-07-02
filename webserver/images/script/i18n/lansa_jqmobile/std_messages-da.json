@@ -10,24 +10,8 @@
 		"BadDBCS_TooLong": "Længde af konverteret indtastede tegn er %1, det overskrider den maksimale tilladte længde på %2.",
 		"BadDBCS_SBCSNotAllowed": "Kun DBCS-tegn er tilladt i dette felt. % 1 SBCS-tegn er blevet indtastet.",
 		"BadDBCS_DBCSNotAllowed": "Kun SBCS-tegn er tilladt i dette felt. % 1 DBCS-tegn er blevet indtastet.",
-		"BadDBCS_BothNotAllowed": "Det er ikke tilladt med både SBCS- og DBCS-tegn i feltet. %1 SBCS-tegn er indtastet. %2 DBCS-tegn er blevet indtastet.",
-		"mobiscroll-cancelText": "Annuller",
-		"mobiscroll-setText": "Indstil",
-		"mobiscroll-dayText": "Dag",
-		"mobiscroll-monthText": "Måned",
-		"mobiscroll-yearText": "År",
-		"mobiscroll-hourText": "Timer",
-		"mobiscroll-minuteText": "Minutter",
-		"mobiscroll-secText": "Sekunder",
-		"mobiscroll-dateFormat": "dd-mm-yy",
-		"mobiscroll-timeFormat": "HH:ii",
-		"mobiscroll-dateOrder": "MMdyy",
-      "mobiscroll-timeWheels": "HHii"
+		"BadDBCS_BothNotAllowed": "Det er ikke tilladt med både SBCS- og DBCS-tegn i feltet. %1 SBCS-tegn er indtastet. %2 DBCS-tegn er blevet indtastet."
 	},
 	"arrays": {
-		"DaysOfWeekSundayStartShort": ["Søn", "Man", "Tir", "Ons", "Tor", "Fre", "Lør"],
-		"DaysOfWeekSundayStartLong": ["Søndag", "Mandag", "Tirsdag", "Onsdag", "Torsdag", "Fredag", "Lørdag"],
-		"MonthsShort": ["Jan", "Feb", "Mar", "Apr", "Maj", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dec"],
-		"MonthsLong": ["Januar", "Februar", "Marts", "April", "Maj", "Juni", "Juli", "August", "September", "Oktober", "November", "December"]
 	}
 }
