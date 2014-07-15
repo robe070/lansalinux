@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<lxml:data xmlns:lxml="http://www.lansa.com/2002/XML/Runtime-Data"><lxml:imports><lxml:import name="std_hidden"/><lxml:import name="std_script"/><lxml:import name="std_style_v2"/><lxml:import name="std_types"/><lxml:import name="std_variables"/></lxml:imports></lxml:data>
+<lxml:data xmlns:lxml="http://www.lansa.com/2002/XML/Runtime-Data"><lxml:imports><lxml:import name="std_variables"/><lxml:import name="std_types"/><lxml:import name="std_hidden"/><lxml:import name="std_style_v2"/><lxml:import name="std_script"/></lxml:imports></lxml:data>
